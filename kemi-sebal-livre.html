@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KÉMI SÉBA — L'HOMME QUE L'EMPIRE NE POUVAIT PAS ACHETER</title>
+<style>
+  @page {
+    margin: 2.5cm 2.8cm;
+    @bottom-center {
+      content: counter(page);
+      font-family: 'Georgia', serif;
+      font-size: 10pt;
+      color: #555;
+    }
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    font-size: 11.5pt;
+    line-height: 1.75;
+    color: #1a1a1a;
+    background: white;
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+
+  /* ---- COVER PAGE ---- */
+  .cover {
+    page-break-after: always;
+    text-align: center;
+    padding: 80px 40px;
+    min-height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #1a1a1a;
+  }
+
+  .cover-subtitle-top {
+    font-family: 'Georgia', serif;
+    font-size: 10pt;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #555;
+    margin-bottom: 60px;
+  }
+
+  .cover-title {
+    font-family: 'Georgia', serif;
+    font-size: 36pt;
+    font-weight: bold;
+    letter-spacing: 3px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #0a0a0a;
+    margin-bottom: 20px;
+  }
+
+  .cover-dash {
+    font-size: 24pt;
+    color: #555;
+    margin-bottom: 20px;
+  }
+
+  .cover-subtitle {
+    font-family: 'Georgia', serif;
+    font-size: 15pt;
+    font-style: italic;
+    color: #333;
+    line-height: 1.5;
+    margin-bottom: 80px;
+  }
+
+  .cover-genre {
+    font-family: 'Georgia', serif;
+    font-size: 10pt;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #777;
+    margin-bottom: 40px;
+  }
+
+  .cover-divider {
+    width: 80px;
+    height: 2px;
+    background: #1a1a1a;
+    margin: 30px auto;
+  }
+
+  /* ---- EPIGRAPHS ---- */
+  .epigraphs {
+    page-break-after: always;
+    padding: 60px 40px;
+  }
+
+  .epigraph {
+    margin: 50px 0;
+    padding-left: 40px;
+    border-left: 3px solid #ccc;
+  }
+
+  .epigraph p {
+    font-style: italic;
+    font-size: 11pt;
+    color: #222;
+    line-height: 1.8;
+    margin-bottom: 10px;
+  }
+
+  .epigraph cite {
+    font-size: 9.5pt;
+    color: #666;
+    font-style: normal;
+    letter-spacing: 1px;
+  }
+
+  /* ---- AVANT-PROPOS ---- */
+  .foreword {
+    page-break-after: always;
+    padding: 40px 0;
+  }
+
+  .foreword-title {
+    font-size: 14pt;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #1a1a1a;
+  }
+
+  /* ---- PARTS ---- */
+  .part-header {
+    page-break-before: always;
+    page-break-after: always;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    padding: 60px;
+  }
+
+  .part-number {
+    font-size: 9pt;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #888;
+    margin-bottom: 20px;
+  }
+
+  .part-title {
+    font-size: 22pt;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.3;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .part-divider {
+    width: 60px;
+    height: 1px;
+    background: #1a1a1a;
+    margin: 30px auto;
+  }
+
+  /* ---- CHAPTERS ---- */
+  h3 {
+    font-size: 13pt;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 50px 0 25px 0;
+    color: #0a0a0a;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    page-break-after: avoid;
+  }
+
+  /* ---- BODY TEXT ---- */
+  p {
+    margin-bottom: 14px;
+    text-align: justify;
+    text-indent: 1.5em;
+    hyphens: auto;
+  }
+
+  p:first-of-type,
+  h3 + p,
+  .section-intro p:first-child {
+    text-indent: 0;
+  }
+
+  /* ---- QUOTES ---- */
+  blockquote {
+    margin: 30px 20px;
+    padding: 20px 30px;
+    border-left: 4px solid #888;
+    background: #f9f9f9;
+    font-style: italic;
+    color: #333;
+  }
+
+  blockquote p {
+    text-indent: 0;
+    margin-bottom: 8px;
+  }
+
+  blockquote cite {
+    font-size: 9.5pt;
+    color: #666;
+    font-style: normal;
+  }
+
+  /* ---- BOLD TERMS ---- */
+  strong {
+    font-weight: bold;
+    color: #0a0a0a;
+  }
+
+  em {
+    font-style: italic;
+  }
+
+  /* ---- TABLE ---- */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px 0;
+    font-size: 10pt;
+    page-break-inside: avoid;
+  }
+
+  th {
+    background: #1a1a1a;
+    color: white;
+    padding: 10px 14px;
+    text-align: left;
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-size: 9pt;
+    text-transform: uppercase;
+  }
+
+  td {
+    padding: 9px 14px;
+    border-bottom: 1px solid #e0e0e0;
+    vertical-align: top;
+  }
+
+  tr:nth-child(even) td {
+    background: #f8f8f8;
+  }
+
+  /* ---- NOTE FINALE ---- */
+  .final-note {
+    page-break-before: always;
+    padding: 60px 40px;
+    background: #f5f5f5;
+    border-top: 3px solid #1a1a1a;
+  }
+
+  .final-note h2 {
+    font-size: 13pt;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    color: #1a1a1a;
+  }
+
+  .final-note p {
+    text-indent: 0;
+    color: #333;
+  }
+
+  /* ---- COLOPHON ---- */
+  .colophon {
+    page-break-before: always;
+    text-align: center;
+    padding: 80px 40px;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .colophon p {
+    text-indent: 0;
+    text-align: center;
+    color: #666;
+    font-size: 10pt;
+    line-height: 2;
+  }
+
+  hr.section-break {
+    border: none;
+    border-top: 1px solid #ccc;
+    width: 60px;
+    margin: 40px auto;
+  }
+
+  hr.ornament {
+    border: none;
+    text-align: center;
+    margin: 35px 0;
+    color: #bbb;
+  }
+  hr.ornament::after {
+    content: "✦  ✦  ✦";
+    font-size: 10pt;
+    letter-spacing: 8px;
+    color: #bbb;
+  }
+</style>
+</head>
+<body>
+
+<!-- ========================================================
+     COUVERTURE
+     ======================================================== -->
+<div class="cover">
+  <div class="cover-subtitle-top">Biographie sans filtre</div>
+  <div class="cover-divider"></div>
+  <div class="cover-title">Kémi Séba</div>
+  <div class="cover-dash">—</div>
+  <div class="cover-subtitle">L'Homme que l'Empire<br>ne pouvait pas Acheter</div>
+  <div class="cover-divider"></div>
+  <div class="cover-genre">Toutes les affaires · Sans filtre</div>
+</div>
+
+<!-- ========================================================
+     ÉPIGRAPHES
+     ======================================================== -->
+<div class="epigraphs">
+  <div class="epigraph">
+    <p>« Votre passeport, ce n'est pas un os que vous nous donnez comme si les Noirs étaient des chiens. Je suis un homme Noir libre. Je suis un Africain libre. Je suis un Béninois libre. »</p>
+    <cite>— Kémi Séba, en brûlant son passeport français, 16 mars 2024</cite>
+  </div>
+
+  <div class="epigraph">
+    <p>« Les 400 000 dollars dont ils parlent, c'est une insulte pour nous, parce que nous, il nous en faut beaucoup plus. »</p>
+    <cite>— Kémi Séba, sur le financement Wagner, 2023</cite>
+  </div>
+
+  <div class="epigraph">
+    <p>« Être panafricaniste maintenant, c'est encenser l'AES. Je ne suis pas à l'aise avec ça. »</p>
+    <cite>— Kémi Séba, enregistrements audio fuités, mars 2026</cite>
+  </div>
+</div>
+
+<!-- ========================================================
+     AVANT-PROPOS
+     ======================================================== -->
+<div class="foreword">
+  <div class="foreword-title">Avant-propos : Un Homme entre Deux Feux</div>
+
+  <p>Il y a des hommes dont la vie est trop compliquée pour les idoles et trop significative pour le silence.</p>
+
+  <p>Kémi Séba est de ceux-là.</p>
+
+  <p>Dans les rues de Dakar, de Ouagadougou, de Bamako, de Niamey, son nom est prononcé avec une ferveur qui ressemble à de la religion. Des jeunes hommes qui n'ont jamais lu ses livres mais ont regardé ses vidéos nuit après nuit, qui récitent ses formules comme des prières — <em>« L'Afrique libre ou la mort »</em>, <em>« Le franc CFA est un cancer »</em> — et qui voient en lui l'incarnation d'un refus fondamental : le refus d'être gouverné depuis Paris.</p>
+
+  <p>Dans les chancelleries occidentales, à la Direction Générale de la Sécurité Intérieure française, dans les dossiers de la justice sénégalaise et béninoise, son nom apparaît autrement : comme une menace, un agent d'influence, un instrument de la stratégie russe en Afrique francophone.</p>
+
+  <p>La vérité sur Kémi Séba se situe dans l'espace inconfortable entre ces deux représentations — et c'est exactement dans cet espace que ce livre entend se tenir.</p>
+
+  <p>Il ne s'agit pas ici de l'absoudre. Ni de le condamner. Il s'agit de raconter — sans filtre, sans déférence, sans la censure que lui appliquent ses ennemis ni l'hagiographie que lui offrent ses admirateurs.</p>
+
+  <p>Un homme est né à Strasbourg sous le nom de Stellio Capo Chichi. Il a combattu, trahi, été trahi. Il a refusé des choses et en a accepté d'autres. Il a dit des vérités et proféré des mensonges. Il a été l'ennemi de la France et l'instrument de la Russie. Il a aimé l'Afrique avec une intensité qui ne peut pas être entièrement feinte — et il en a profité d'une manière qui ne peut pas être entièrement niée.</p>
+
+  <p>Voici son histoire. Toute son histoire.</p>
+</div>
+
+<!-- ========================================================
+     PARTIE I
+     ======================================================== -->
+<div class="part-header">
+  <div class="part-number">Partie I</div>
+  <div class="part-divider"></div>
+  <div class="part-title">Stellio :<br>L'Enfant de Strasbourg</div>
+</div>
+
+<h3>Chapitre 1 — Strasbourg, 2 décembre 1981</h3>
+
+<p>Il est né <strong>Stellio Gilles Robert Capo Chichi</strong>.</p>
+
+<p>Strasbourg, Alsace, France. Famille d'immigrés béninois. La France des Trente Glorieuses finissantes, la France de Mitterrand qui allait arriver au pouvoir quelques mois plus tard, la France qui avait besoin de bras pour ses usines et accueillait des Africains en leur promettant une place — une place modeste, bien délimitée, sans ambiguïté sur qui était l'hôte et qui était l'invité.</p>
+
+<p>Peu de choses sont connues publiquement sur son enfance proprement dite. Kémi Séba a toujours entouré sa vie familiale d'une opacité soigneusement entretenue — protection compréhensible pour un homme qui accumule les ennemis. Ce qu'on sait : des parents béninois, une enfance dans la diaspora africaine de Strasbourg, la double identité de l'enfant d'immigrés né en France qui n'est jamais tout à fait d'ici ni tout à fait de là-bas.</p>
+
+<p>Cette double appartenance, cette non-appartenance, fonda en lui quelque chose d'essentiel : une question qui ne s'éteint jamais. <em>Qui suis-je ? D'où est-ce que je viens ? À qui est-ce que j'appartiens ?</em></p>
+
+<p>Ce sont des questions que tous les enfants d'immigrés africains en France se posent. Stellio Capo Chichi y apporta une réponse plus radicale que la plupart.</p>
+
+<h3>Chapitre 2 — L'Éveil : La Nation of Islam et le Kémitisme</h3>
+
+<p>Vers l'âge de dix-huit ans, aux alentours de 1999-2000, il rejoint la <strong>Nation of Islam</strong> — le mouvement islamique noir américain fondé par Elijah Muhammad, popularisé par Malcolm X, dirigé au moment où Stellio le découvre par Louis Farrakhan.</p>
+
+<p>La Nation of Islam n'est pas l'islam ordinaire. C'est une doctrine syncrétique qui mêle religion, nationalisme noir et théorie raciale — une vision du monde où l'homme noir est l'être originel, dépossédé et asservi par une civilisation blanche présentée comme fondamentalement maléfique. Pour un jeune homme qui cherche une réponse à la marginalisation qu'il ressent, c'est dévastateur dans son efficacité.</p>
+
+<p>En parallèle, il s'inscrit à la <strong>Faculté de droit de l'Université Paris X Nanterre</strong>, où il obtient une capacité en droit avec mention — <strong>premier de sa promotion parmi deux cents étudiants</strong>. L'intelligence est là, indéniable, et elle sera toujours là — même quand elle sera mise au service de causes discutables.</p>
+
+<p>Puis il voyage en Égypte. Ces voyages sont décisifs.</p>
+
+<p>Il découvre le <strong>kémitisme</strong> — mouvement afrocentrique qui affirme que les Africains noirs sont les créateurs de la civilisation égyptienne antique, que toute la pensée occidentale est une décalque dégénérée d'une sagesse africaine primordiale. Il s'abreuve des thèses de Cheikh Anta Diop, de Khalid Abdul Muhammad.</p>
+
+<p>Il prend le nom de <strong>Kémi Séba</strong>. <em>Kémi</em> : la terre noire, l'Égypte, en langue kémite. <em>Séba</em> : l'étoile. Le nom est un programme, une proclamation d'identité, un refus du nom colonial.</p>
+
+<p>Il devient porte-parole du Parti Kémite fondé en 2002. Mais le Parti Kémite est trop mou pour lui — il accepte les Noirs de toutes confessions, refuse le prosélytisme agressif. Stellio, devenu Kémi, veut quelque chose de plus radical, de plus discipliné, de plus total. Il va le créer.</p>
+
+<!-- ========================================================
+     PARTIE II
+     ======================================================== -->
+<div class="part-header">
+  <div class="part-number">Partie II</div>
+  <div class="part-divider"></div>
+  <div class="part-title">Tribu Ka :<br>La Guerre en France</div>
+</div>
+
+<h3>Chapitre 3 — La Naissance du Monstre (décembre 2004)</h3>
+
+<p>En <strong>décembre 2004</strong>, Kémi Séba fonde <strong>Tribu Ka</strong> à Paris.</p>
+
+<p>L'organisation se présente comme le défenseur du "peuple noir". Elle affirme que les populations noires sont à l'origine de la civilisation égyptienne antique. Jusque-là, rien que d'assez classique dans la tradition afrocentrique.</p>
+
+<p>Mais Tribu Ka va beaucoup plus loin.</p>
+
+<p>L'organisation prône explicitement la <strong>ségrégation raciale</strong>. Elle tient des discours ouvertement <strong>antisémites</strong>, attribuant aux Juifs — au « sionisme mondial » — un rôle central dans l'oppression des peuples noirs. Elle se structure comme un groupe paramilitaire : membres en uniformes sombres, hiérarchie stricte, discipline de corps.</p>
+
+<p>C'est une chose étrange et révélatrice : un homme qui combat le racisme dont il a été victime en tant qu'Africain en France, et qui y répond par un racisme d'une autre couleur. L'antisémitisme de Tribu Ka n'est pas une conséquence accidentelle de son idéologie — il en est une composante centrale.</p>
+
+<h3>Chapitre 4 — La Rue des Rosiers (mai 2006)</h3>
+
+<p>En <strong>mai 2006</strong>, l'affaire qui va tout faire basculer.</p>
+
+<p>Des membres de Tribu Ka — plus d'une vingtaine — défilent dans la <strong>rue des Rosiers</strong>, dans le quartier du Marais à Paris. La rue des Rosiers est le cœur de la communauté juive parisienne. Des boutiques, des restaurants, des synagogues. Des familles qui font leurs courses, des enfants qui rentrent de l'école.</p>
+
+<p>Les membres de Tribu Ka y scandent des slogans antisémites. Ils menacent les piétons et les commerçants. C'est une démonstration de force délibérément choisie pour son caractère provocateur et humiliant.</p>
+
+<p>L'indignation est immédiate et nationale. Le ministre de l'Intérieur <strong>Nicolas Sarkozy</strong> saisit le garde des Sceaux. Les associations antiracistes portent plainte. Les politiques de gauche comme de droite se relaient pour condamner.</p>
+
+<p>Le <strong>26 juillet 2006</strong>, le Conseil des ministres prononce la <strong>dissolution de Tribu Ka</strong> pour incitation à la haine raciale et antisémitisme.</p>
+
+<h3>Chapitre 5 — Les Condamnations</h3>
+
+<p>La machine judiciaire s'emballe.</p>
+
+<p><strong>Septembre 2006 :</strong> Arrêté pour des posts antisémites sur son site internet.</p>
+
+<p><strong>Février 2007 :</strong> Nouvelle arrestation pour avoir qualifié un officiel de « déchet sioniste ».</p>
+
+<p><strong>2008 :</strong> Condamné à <strong>6 mois de prison dont 2 fermes</strong> pour reconstitution de ligue dissoute — le groupe s'est reconstitué sous le nom de « Génération Kémi Séba » à Sarcelles. En appel, la peine passe à <strong>1 an avec sursis</strong>.</p>
+
+<p><strong>Avril 2009 :</strong> Condamné à <strong>8 mois avec sursis</strong> pour provocation à la haine raciale.</p>
+
+<p><strong>2011 :</strong> Condamné à <strong>2 mois avec sursis</strong> et mise à l'épreuve pour violences en réunion.</p>
+
+<p><strong>2014 :</strong> Les sursis sont révoqués. Il purge une peine de prison — plusieurs semaines d'incarcération effective.</p>
+
+<p>Un palmarès judiciaire lourd. Des condamnations prononcées par des juges indépendants, sur la base de faits établis. Ce n'est pas une persécution — c'est le résultat de choix délibérés.</p>
+
+<h3>Chapitre 6 — Les Fréquentations Troubles : Dieudonné et Soral</h3>
+
+<p>Après la dissolution de Tribu Ka, Kémi Séba traverse une période de transition idéologique. Il se rapproche du comédien controversé <strong>Dieudonné M'bala M'bala</strong> et de l'idéologue d'extrême droite <strong>Alain Soral</strong>, fondateur d'Égalité &amp; Réconciliation. Il fréquente le Théâtre de la Main-d'Or.</p>
+
+<p>Ce rapprochement est révélateur. Soral est un nationaliste d'extrême droite dont l'antisémitisme est une ligne directrice. Cette période de la vie de Kémi Séba est celle qu'il élude le plus soigneusement dans ses interviews africaines, où il se présente comme un panafricaniste pur. L'histoire avec Soral et Dieudonné rappelle que les lignes idéologiques ne sont pas si simples.</p>
+
+<p>En <strong>avril 2010</strong>, il obtient une reconnaissance internationale ambiguë : Malik Zulu Shabazz, chef du <strong>New Black Panther Party</strong> américain — organisation considérée par le FBI comme un groupe haineux — le nomme représentant du parti en France. Il quitte cette responsabilité en juillet 2010. Le pivot vers l'Afrique est en cours.</p>
+
+<!-- ========================================================
+     PARTIE III
+     ======================================================== -->
+<div class="part-header">
+  <div class="part-number">Partie III</div>
+  <div class="part-divider"></div>
+  <div class="part-title">Le Tournant Africain</div>
+</div>
+
+<h3>Chapitre 7 — Dakar, 2011 : Tout Recommencer</h3>
+
+<p>En <strong>2011</strong>, Kémi Séba quitte définitivement la France pour s'installer à <strong>Dakar, Sénégal</strong>.</p>
+
+<p>Ce n'est pas un exil — pas encore. C'est un choix stratégique. Le terrain de jeu de la diaspora africaine en France est trop étroit, trop surveillé, trop encombré de condamnations judiciaires. L'Afrique est un continent entier. Une jeunesse de plusieurs centaines de millions de personnes, de plus en plus connectée, de plus en plus en colère, cherchant des mots pour nommer ce qu'elle ressent.</p>
+
+<p>Kémi Séba a les mots.</p>
+
+<p>À partir de <strong>2013</strong>, il multiplie les interventions sur les télévisions ouest-africaines comme <strong>analyste géopolitique</strong>. Il parle du franc CFA, de la Françafrique, des bases militaires françaises, de la dette odieuse. Il dit des choses que des professeurs d'université ont soigneusement documentées pendant des décennies — mais il les dit autrement, avec la flamme de la conviction et la clarté de la simplicité. Sa popularité monte. Rapidement.</p>
+
+<h3>Chapitre 8 — Le Franc CFA : L'Arme Symbolique</h3>
+
+<p>La grande cause de Kémi Séba en Afrique, c'est le <strong>franc CFA</strong>.</p>
+
+<p>Sa position est radicale et simple : le franc CFA est un instrument de domination néocoloniale. Créé en 1945, il lie les économies de quatorze pays africains à la France, qui garde une influence sur leur politique monétaire. Le taux de change est fixe, ce qui empêche ces pays d'ajuster leur monnaie à leurs besoins économiques. Pour lui, c'est une évidence : une monnaie qu'on ne contrôle pas entièrement est une chaîne.</p>
+
+<p>Le discours fait mouche auprès d'une jeunesse africaine francophone qui cherche à comprendre pourquoi des pays riches en ressources restent pauvres. En <strong>janvier 2017</strong>, il crée le <strong>Front Anti-CFA</strong>, qui organise des manifestations simultanées dans plusieurs capitales africaines — Cotonou, Bamako, Ouagadougou, Niamey, Yaoundé. Et puis vient le geste.</p>
+
+<h3>Chapitre 9 — Le Billet Brûlé (Dakar, 19 août 2017)</h3>
+
+<p><strong>19 août 2017, Dakar.</strong></p>
+
+<p>Lors d'une manifestation contre la Françafrique, devant des caméras soigneusement positionnées, Kémi Séba sort un billet de <strong>5 000 francs CFA</strong> et y met le feu.</p>
+
+<p>Le geste dure quelques secondes. La flamme est petite. La portée est immense. L'image fait le tour du monde en quelques heures. Des milliers de personnes partagent la vidéo. Des jeunes Africains la regardent en boucle. C'est le geste le plus simple et le plus fort qui pouvait être fait : détruire la monnaie coloniale. Littéralement la brûler.</p>
+
+<p>Le <strong>25 août 2017</strong>, il est arrêté à Dakar pour destruction de monnaie ayant cours légal.</p>
+
+<p>Le <strong>29 août 2017</strong>, le tribunal correctionnel de Dakar l'<strong>acquitte</strong>. Le verdict est prononcé après deux heures de délibérations.</p>
+
+<p>Kémi Séba sort du tribunal en triomphateur. Mais le Sénégal ne l'entend pas ainsi.</p>
+
+<p><strong>6 septembre 2017 :</strong> Les autorités sénégalaises prononcent son <strong>expulsion pour "menace grave pour l'ordre public"</strong>. Malgré l'acquittement judiciaire, le pouvoir exécutif choisit de se débarrasser de l'homme. Ce paradoxe — acquitté par la justice, expulsé par l'État — révèle quelque chose d'important sur la nature de son combat et sur la nature de ceux qui le combattent.</p>
+
+<!-- ========================================================
+     PARTIE IV
+     ======================================================== -->
+<div class="part-header">
+  <div class="part-number">Partie IV</div>
+  <div class="part-divider"></div>
+  <div class="part-title">L'Empire Russe</div>
+</div>
+
+<h3>Chapitre 10 — Le Projet Kémi (2018-2019) : 440 000 Dollars de Moscou</h3>
+
+<p>C'est l'affaire la plus dérangeante de toute la biographie de Kémi Séba. Celle qui dérange ses admirateurs. Celle qu'il ne peut pas nier totalement.</p>
+
+<p><strong>Mars-avril 2023.</strong> Une enquête publiée par <em>Jeune Afrique</em> en collaboration avec Arte/CAPA, <em>Die Welt</em>, les organisations All Eyes On Wagner et le Dossier Center révèle l'existence du <strong>"Projet Kémi"</strong>.</p>
+
+<p>Les documents sont internes aux structures de Prigojine. Entre <strong>mai 2018 et juillet 2019</strong>, Evgueni Prigojine et les réseaux Wagner ont financé les activités de Kémi Séba en Afrique à hauteur de <strong>440 000 dollars</strong> — environ 400 000 euros.</p>
+
+<p>Ce n'est pas une subvention philanthropique. C'est de l'argent avec un objectif : utiliser Kémi Séba comme <strong>vecteur de l'influence russe</strong>. Affaiblir l'influence de Paris. Préparer le terrain à l'implantation de Wagner.</p>
+
+<blockquote>
+  <p>« Les 400 000 dollars dont ils parlent, c'est une insulte pour nous, parce que nous, il nous en faut beaucoup plus. »</p>
+  <cite>— Kémi Séba, répondant aux révélations du Projet Kémi, 2023</cite>
+</blockquote>
+
+<p>Il assume. Il parle de <strong>"partenariats géopolitiques temporaires"</strong>. Il reconnaît avoir été invité par Prigojine en Russie, au Soudan et en Libye. Il dit l'avoir fait en toute conscience.</p>
+
+<p>C'est à la fois honnête et troublant. Honnête parce qu'il ne ment pas, ne se défausse pas. Troublant parce que Wagner, à la même période, assassine des civils au Mali, torture au Soudan, finance des guerres en Libye. Prendre leur argent en sachant qui ils sont, c'est faire un choix.</p>
+
+<h3>Chapitre 11 — Alexandre Douguine et l'Eurasisme</h3>
+
+<p>Au-delà de Prigojine, il y a <strong>Alexandre Douguine</strong> — philosophe de l'empire russe réinventé, théoricien du « monde multipolaire », idéologue du « Grand Continent eurasiatique » contre l'hégémonie américaine, proche de Poutine.</p>
+
+<p>Douguine décrit publiquement Kémi Séba comme <em>« l'espoir africain d'un monde multipolaire »</em> et <em>« un éminent combattant contre le colonialisme »</em>. Kémi Séba partage et relaie largement la pensée eurasiste de Douguine.</p>
+
+<p>Dans les interventions de Kémi Séba à partir de 2018, on retrouve de plus en plus la terminologie douguinienne : multipolarité, résistance à l'unipolarisme, civilisations contre globalisation. Le discours panafricaniste est réenchâssé dans une architecture idéologique <em>made in Russia</em>.</p>
+
+<h3>Chapitre 12 — Afrique Média TV : La Machine de Propagande</h3>
+
+<p>Kémi Séba est un invité régulier de <strong>Afrique Média TV</strong>, la chaîne de télévision camerounaise dirigée par Justin B. Tagouh. Ce qui n'est pas dit en antenne : la chaîne est identifiée par plusieurs équipes de chercheurs et journalistes d'investigation comme un <strong>relais structuré de la propagande pro-Wagner</strong> en Afrique francophone. L'AFRIC — Association for Free Research and International Cooperation — qui lui est liée, est elle-même connectée aux réseaux de Prigojine.</p>
+
+<p>Le système est élaboré : des voix africaines crédibles et populaires portent un discours anti-français et pro-russe sur des chaînes qui semblent africaines, vers un public africain. L'architecture de l'influence est invisible depuis l'intérieur. On voit un militant panafricaniste. On ne voit pas le financeur.</p>
+
+<!-- ========================================================
+     PARTIE V
+     ======================================================== -->
+<div class="part-header">
+  <div class="part-number">Partie V</div>
+  <div class="part-divider"></div>
+  <div class="part-title">Les Juntes et la Gloire</div>
+</div>
+
+<h3>Chapitre 13 — Les Coups d'État au Sahel : De Soutien à Conseiller</h3>
+
+<p>À partir de <strong>2020</strong>, le Sahel s'enflamme de coups d'État militaires. Kémi Séba soutient chacun d'eux.</p>
+
+<p><strong>Mali, août 2020 :</strong> Le colonel Assimi Goïta renverse Ibrahim Boubacar Keïta.<br>
+<strong>Mali, mai 2021 :</strong> Second coup d'État de Goïta.<br>
+<strong>Guinée, septembre 2021 :</strong> Le colonel Mamadi Doumbouya renverse Alpha Condé.<br>
+<strong>Burkina Faso, janvier 2022 :</strong> Sandaogo Damiba renverse Roch Kaboré.<br>
+<strong>Burkina Faso, septembre 2022 :</strong> Le capitaine Ibrahim Traoré renverse Damiba.<br>
+<strong>Niger, juillet 2023 :</strong> Le général Tchiani renverse Mohamed Bazoum.</p>
+
+<p>Dans tous ces cas, le schéma est identique : le coup d'État est présenté comme une rupture avec la Françafrique, une reconquête de la souveraineté. Kémi Séba est là pour mettre les mots, pour légitimer symboliquement, pour amplifier le message auprès de la jeunesse connectée.</p>
+
+<p><strong>Août 2024 :</strong> Le général Tchiani le nomme <strong>conseiller spécial du Niger</strong> et lui octroie un <strong>passeport diplomatique nigérien</strong>. C'est la consécration — et aussi une nouvelle dépendance. Il n'est plus seulement un militant libre. Il est maintenant un fonctionnaire de facto d'une junte militaire.</p>
+
+<h3>Chapitre 14 — La Deuxième Expulsion du Sénégal (Février 2020)</h3>
+
+<p>Un procès en appel est programmé à Dakar pour l'affaire du billet brûlé. Kémi Séba tente d'y revenir en <strong>février 2020</strong> pour comparaître. Il est intercepté à l'aéroport de Dakar. <strong>30 heures de rétention administrative.</strong> Puis expulsion vers la Belgique. Il ne comparaîtra jamais à ce procès d'appel.</p>
+
+<p>La procédure est kafkaïenne dans sa logique : un homme expulsé ne peut pas répondre à une convocation dans le pays qui l'a expulsé. Il reste en dehors, ni condamné ni totalement libre.</p>
+
+<!-- ========================================================
+     PARTIE VI
+     ======================================================== -->
+<div class="part-header">
+  <div class="part-number">Partie VI</div>
+  <div class="part-divider"></div>
+  <div class="part-title">La Guerre avec la France</div>
+</div>
+
+<h3>Chapitre 15 — La Déchéance de Nationalité (2024)</h3>
+
+<p><strong>29 février 2024.</strong> Les autorités françaises initient une procédure de déchéance de nationalité contre Stellio Gilles Robert Capo Chichi.</p>
+
+<p>Les motifs retenus : messages hostiles à la France lors de conférences publiques, appels à la rébellion contre des autorités locales proches de Paris, liens établis avec la milice russe Wagner, activités d'influence au profit d'une puissance étrangère.</p>
+
+<p>La procédure est rarissime. La France a très peu déchu des citoyens de leur nationalité depuis la Seconde Guerre mondiale. Le recours à cet instrument extrême dit quelque chose de la gravité avec laquelle l'État français perçoit le cas Kémi Séba.</p>
+
+<p>Lui y répond avec son sens du geste.</p>
+
+<p><strong>16 mars 2024.</strong> Conférence de presse à Fleury-Mérogis, en Île-de-France — que la préfecture avait tenté d'interdire, mais que le tribunal administratif a autorisée. Devant les caméras, il sort son <strong>passeport français</strong> et y met le feu.</p>
+
+<blockquote>
+  <p>« Votre passeport, ce n'est pas un os que vous nous donnez comme si les Noirs étaient des chiens. Je suis un homme Noir libre. Je suis un Africain libre. Je suis un Béninois libre. »</p>
+  <cite>— Kémi Séba, Fleury-Mérogis, 16 mars 2024</cite>
+</blockquote>
+
+<p><strong>8 juillet 2024.</strong> Un décret paru au <strong>Journal officiel de la République française</strong> officialise la déchéance de nationalité de Stellio Gilles Robert Capo Chichi. C'est l'une des premières applications de cette mesure pour des activités d'influence au profit de la Russie.</p>
+
+<h3>Chapitre 16 — La DGSI (Octobre 2024)</h3>
+
+<p><strong>14 octobre 2024.</strong> Paris, 15e arrondissement. Un restaurant. Des agents de la <strong>Direction Générale de la Sécurité Intérieure</strong> interpellent Kémi Séba et son collaborateur <strong>Cyrille Kamden</strong>. Il voyage avec son passeport diplomatique nigérien. Il est à Paris pour rendre visite à son père, hospitalisé.</p>
+
+<p>La charge retenue est lourde : <strong>intelligences avec une puissance étrangère en vue de susciter des hostilités ou des actes d'agression contre la France</strong> — infraction criminelle passible de <strong>trente ans d'emprisonnement</strong>.</p>
+
+<p><strong>16 octobre 2024.</strong> Il est relâché sans poursuites immédiates. L'enquête préliminaire se poursuit. Il parle de « réaction néocoloniale ».</p>
+
+<!-- ========================================================
+     PARTIE VII
+     ======================================================== -->
+<div class="part-header">
+  <div class="part-number">Partie VII</div>
+  <div class="part-divider"></div>
+  <div class="part-title">La Chute et l'Exil</div>
+</div>
+
+<h3>Chapitre 17 — Le Bénin Trahit Son Fils (Décembre 2025)</h3>
+
+<p><strong>7 décembre 2025.</strong> Une tentative de coup d'État au Bénin.</p>
+
+<p>Des soldats commandés par le <strong>lieutenant-colonel Pascal Tigri</strong> annoncent à la télévision nationale le renversement du président <strong>Patrice Talon</strong>. La tentative échoue. Des forces d'Afrique de l'Ouest interviennent pour stabiliser la situation.</p>
+
+<p>Kémi Séba publie immédiatement une vidéo dans laquelle il se félicite du prétendu renversement, déclarant que <strong>« le jour de la libération »</strong> est venu.</p>
+
+<p>Le coup d'État échoue dans les heures qui suivent. La vidéo reste. Il ne peut pas la nier.</p>
+
+<p>Le <strong>Bénin</strong> — le pays de la famille de ses parents — émet un <strong>mandat d'arrêt international</strong> contre lui pour <strong>« apologie de crimes contre la sûreté de l'État et incitation à la rébellion »</strong>. Un premier mandat d'arrêt béninois avait déjà été lancé en <strong>juin 2025</strong> pour des faits de <strong>blanchiment de capitaux</strong>.</p>
+
+<h3>Chapitre 18 — Natou Pedro Sakombi : L'Amour comme Otage</h3>
+
+<p><strong>22 décembre 2025.</strong> Au Bénin, les autorités arrêtent <strong>Natou Pedro Sakombi</strong>.</p>
+
+<p>Historienne et artiste-écrivaine de nationalité belge, Natou a été la compagne de Kémi Séba pendant sept ans. Ils ont eu plusieurs enfants ensemble — Imhotep, Vérona, Anupé. Elle a partagé sa vie, son combat, ses exils.</p>
+
+<p>Elle est accusée de <strong>blanchiment de capitaux, fraude fiscale et contrebande</strong>. La défense parle d'une arrestation utilisée comme <strong>moyen de pression</strong> sur Kémi Séba.</p>
+
+<p>Depuis l'étranger, Kémi Séba publie une déclaration dans laquelle il affirme que Natou est désormais son « ex-épouse » et qu'elle n'est pas liée à ses activités. Un geste ambigu — protection de la femme qu'il a aimée, ou distanciation pour préserver ses propres intérêts ?</p>
+
+<p><strong>26 décembre 2025.</strong> Natou Pedro Sakombi est libérée et placée sous convocation.</p>
+
+<h3>Chapitre 19 — Les Enregistrements : La Vérité qui Fuit (Mars 2026)</h3>
+
+<p>Juste avant son arrestation en Afrique du Sud, quelque chose d'extraordinaire se produit.</p>
+
+<p>Des <strong>enregistrements audio</strong> attribués à Kémi Séba circulent massivement sur les réseaux sociaux. La société <strong>Whispeak</strong>, spécialisée en biométrie vocale, authentifie que les fichiers n'ont pas été modifiés et ne sont pas générés par intelligence artificielle.</p>
+
+<p>Dans ces conversations privées, Kémi Séba dit ce qu'il ne dit jamais en public :</p>
+
+<blockquote>
+  <p>« Être panafricaniste maintenant, c'est encenser l'AES. Je ne suis pas à l'aise avec ça. »</p>
+  <cite>— Kémi Séba, enregistrements audio fuités, mars 2026</cite>
+</blockquote>
+
+<p>Il reproche aux militaires sahéliens d'avoir instrumentalisé le mouvement panafricaniste pour <em>« sécuriser leurs positions présidentielles »</em>. C'est un séisme dans les milieux panafricanistes pro-AES. <strong>Nathalie Yamb</strong> — l'une des figures les plus proches de lui — garde un silence assourdissant.</p>
+
+<p>Les enregistrements révèlent un homme plus complexe que l'image publique — un homme capable de doute, de lucidité sur ses propres contradictions. Ils révèlent aussi qu'il a dit en privé ce qu'il ne pouvait pas dire en public, ce qui soulève la question fondamentale : jusqu'à quel point la dissidence qu'il incarne est-elle sincère, et jusqu'à quel point est-elle une posture ?</p>
+
+<h3>Chapitre 20 — La Rivière Limpopo (Avril 2026)</h3>
+
+<p><strong>13 avril 2026. Pretoria, Afrique du Sud.</strong></p>
+
+<p>Kémi Séba est arrêté lors d'une <strong>opération de surveillance policière</strong> sud-africaine. Il se trouve avec son fils <strong>Khonsou Seba Capo Chichi</strong>, dix-huit ans.</p>
+
+<p>Les circonstances sont saisissantes : il tentait de <strong>franchir illégalement la rivière Limpopo</strong> — la frontière naturelle entre l'Afrique du Sud et le Zimbabwe — pour rejoindre l'Europe via une route clandestine, en payant des passeurs. L'homme qui avait brûlé son passeport français comme acte de libération, qui avait obtenu un passeport diplomatique africain comme reconnaissance de sa stature, fuyait désormais à travers un fleuve africain.</p>
+
+<p>Parmi les personnes arrêtées dans la même opération : <strong>François Van der Merwe</strong>, dirigeant du groupe afrikaner identitaire <strong>Bittereinders</strong>, lié à la Russie. Les deux hommes affirment ne pas se connaître.</p>
+
+<p><strong>318 000 rands sont saisis</strong> — environ 16 000 euros, dont la majorité était destinée à payer les passeurs.</p>
+
+<p>Il comparaît le <strong>20 avril 2026</strong> devant le tribunal de première instance de Pretoria. Il demande l'<strong>asile politique en Afrique du Sud</strong>. Le Niger lui a retiré son passeport diplomatique. Le Bénin a déposé une demande formelle d'extradition. La procureure s'oppose à sa libération sous caution. L'audience est renvoyée au 11 mai.</p>
+
+<!-- ========================================================
+     PARTIE VIII
+     ======================================================== -->
+<div class="part-header">
+  <div class="part-number">Partie VIII</div>
+  <div class="part-divider"></div>
+  <div class="part-title">L'Homme et ses Contradictions</div>
+</div>
+
+<h3>Chapitre 21 — Les Femmes</h3>
+
+<p>Kémi Séba vit selon un modèle familial polygame.</p>
+
+<p><strong>Première épouse — Etuma :</strong> Sa première compagne, avec qui il a au moins deux enfants — Satherou et Khonsou, ce dernier né vers 2008, dix-huit ans au moment de l'arrestation en Afrique du Sud.</p>
+
+<p><strong>Deuxième compagne — Natou Pedro Sakombi :</strong> Historienne et artiste-écrivaine de nationalité belge, elle partage sa vie pendant sept ans. Ensemble ils ont plusieurs enfants : Imhotep, Vérona, Anupé. Les deux femmes coexistent dans un modèle que Kémi Séba présente comme culturellement africain.</p>
+
+<p>La vie familiale est rendue complexe par les exils successifs, les expulsions, les arrestations. Des enfants qui grandissent sans père présent. Quand Natou est arrêtée au Bénin en décembre 2025, Kémi Séba la désigne comme son « ex-épouse ». La mécanique de la désaffiliation est rapide. La femme qu'il a présentée pendant des années comme sa compagne devient une étrangère quand sa proximité devient dangereuse.</p>
+
+<p>C'est peut-être la chose la moins glorieuse de toute cette histoire.</p>
+
+<h3>Chapitre 22 — Les Livres</h3>
+
+<p>Car il faut le dire : Kémi Séba pense. Il a publié des livres qui ne sont pas que du verbe creux.</p>
+
+<ul style="margin: 15px 0 15px 30px; line-height: 2;">
+  <li><strong>Supra-Négritude</strong> (2013) — Premier essai philosophique majeur.</li>
+  <li><strong>Black Nihilism</strong> (2014) — Une philosophie nihiliste noire comme réponse à l'oppression.</li>
+  <li><strong>Obscure Époque</strong> (2016) — Analyse de la période contemporaine.</li>
+  <li><strong>L'Afrique libre ou la mort</strong> (2018) — L'œuvre la plus accessible et la plus diffusée.</li>
+  <li><strong>Philosophie de la panafricanité fondamentale</strong> — Synthèse de sa pensée.</li>
+  <li><strong>Ma'at Ikh-s Philosophie</strong> — Retour aux fondements kémites.</li>
+</ul>
+
+<p>Ces livres méritent une lecture critique sérieuse — pas le rejet automatique des uns, ni l'adhésion aveugle des autres. Il y a de la pensée là-dedans, des intuitions vraies sur la décolonisation économique et culturelle, et aussi des angles morts, des simplifications, des obsessions qui limitent ce qu'ils auraient pu être.</p>
+
+<h3>Chapitre 23 — Ce Qui Est Vrai et Ce Qui Ne L'Est Pas</h3>
+
+<p><strong>Ce qui est vrai dans le discours de Kémi Séba :</strong></p>
+
+<p>Le franc CFA a des défauts structurels réels que des économistes sérieux documentent depuis des décennies. La Françafrique — le système de relations opaques entre Paris et les élites africaines — est un fait historique établi, pas une théorie du complot. Les bases militaires françaises en Afrique sont des instruments de politique étrangère. La jeunesse africaine mérite des dirigeants qui ne gouvernent pas sous tutelle.</p>
+
+<p><strong>Ce qui est faux ou problématique :</strong></p>
+
+<p>L'antisémitisme de la période Tribu Ka était réel, documenté, condamnable. Pas une caricature, pas une interprétation : des marches rue des Rosiers, des textes précis, des condamnations de justice.</p>
+
+<p>Le financement Wagner n'était pas un "partenariat géopolitique neutre". Prendre l'argent de Prigojine, c'est accepter d'être un instrument — même si on pense négocier de égal à égal.</p>
+
+<p>Le soutien systématique aux putschistes sahéliens ne s'est pas traduit par davantage de démocratie, de liberté ou de prospérité. Les juntes ont utilisé l'anti-impérialisme comme discours de légitimation du pouvoir personnel.</p>
+
+<p>Les enregistrements de 2026 montrent qu'il le sait.</p>
+
+<!-- ========================================================
+     ÉPILOGUE
+     ======================================================== -->
+<hr class="ornament">
+
+<h3>Épilogue — La Rivière</h3>
+
+<p><strong>Avril 2026. La rivière Limpopo.</strong></p>
+
+<p>Il y a une image que l'histoire retiendra, quelle que soit l'issue de la procédure sud-africaine : un homme qui a brûlé son passeport français comme geste de libération, qui a obtenu un passeport diplomatique africain comme reconnaissance de sa stature, se retrouve à essayer de traverser un fleuve en payant des passeurs.</p>
+
+<p>Cette image n'invalide pas tout ce qu'il a dit. Elle ne valide pas non plus tout ce qu'on lui reproche. Elle est simplement vraie, dans toute sa complexité tragique.</p>
+
+<p>L'Empire — la France, le système Françafrique — n'a pas pu l'acheter. C'est vrai. Il a refusé les offres d'intégration, les postes confortables, la reconversion en consultant respectable. Cette résistance est réelle.</p>
+
+<p>Mais une autre puissance — Moscou, Prigojine, le système Wagner — a réussi à trouver sa prise. Pas nécessairement en l'achetant — peut-être en jouant sur les mêmes cordes que son propre discours jouait sur celles de la jeunesse africaine : la haine de l'impérialisme occidental, le désir d'un monde différent, l'urgence de l'action.</p>
+
+<p>Kémi Séba n'a peut-être pas été acheté par l'Empire français. Mais il a peut-être été utilisé par l'Empire russe.</p>
+
+<p>La différence entre les deux est réelle, et elle compte moralement. Elle ne change pas entièrement les effets.</p>
+
+<!-- ========================================================
+     CHRONOLOGIE
+     ======================================================== -->
+<div style="page-break-before: always;">
+  <h3 style="border-bottom: 2px solid #1a1a1a; padding-bottom: 12px; margin-bottom: 30px;">Chronologie des Affaires</h3>
+
+  <table>
+    <thead>
+      <tr><th>Année</th><th>Événement</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>1981</td><td>Naissance à Strasbourg sous le nom de Stellio Gilles Robert Capo Chichi</td></tr>
+      <tr><td>1999</td><td>Adhésion à la Nation of Islam</td></tr>
+      <tr><td>2000</td><td>Capacité en droit, Paris X Nanterre — 1er de promo sur 200 étudiants</td></tr>
+      <tr><td>2002</td><td>Prise du nom Kémi Séba, porte-parole du Parti Kémite</td></tr>
+      <tr><td>Déc. 2004</td><td>Fondation de Tribu Ka à Paris</td></tr>
+      <tr><td>Mai 2006</td><td>Marche antisémite rue des Rosiers à Paris</td></tr>
+      <tr><td>Juil. 2006</td><td>Dissolution de Tribu Ka par décret du Conseil des ministres</td></tr>
+      <tr><td>2006–2014</td><td>Multiples condamnations judiciaires — incarcération en 2014</td></tr>
+      <tr><td>2008–2010</td><td>Période Dieudonné / Soral / New Black Panther Party</td></tr>
+      <tr><td>2011</td><td>Départ définitif pour Dakar</td></tr>
+      <tr><td>2015</td><td>Fondation d'Urgences Panafricanistes</td></tr>
+      <tr><td>Jan. 2017</td><td>Création du Front Anti-CFA</td></tr>
+      <tr><td>Août 2017</td><td>Arrestation puis acquittement à Dakar après brûlage du billet CFA</td></tr>
+      <tr><td>Sept. 2017</td><td>1ère expulsion du Sénégal malgré l'acquittement</td></tr>
+      <tr><td>2018–2019</td><td>Financement de 440 000 $ par les réseaux Wagner / Prigojine</td></tr>
+      <tr><td>Fév. 2020</td><td>2ème expulsion du Sénégal — 30h de rétention administrative</td></tr>
+      <tr><td>2020–2023</td><td>Soutien public à tous les coups d'État au Sahel</td></tr>
+      <tr><td>2023</td><td>Révélations du "Projet Kémi" dans Jeune Afrique / Arte / Die Welt</td></tr>
+      <tr><td>Mars 2024</td><td>Brûlage du passeport français à Fleury-Mérogis</td></tr>
+      <tr><td>Juil. 2024</td><td>Déchéance de nationalité française publiée au Journal officiel</td></tr>
+      <tr><td>Août 2024</td><td>Nommé conseiller spécial du Niger + passeport diplomatique nigérien</td></tr>
+      <tr><td>Oct. 2024</td><td>Garde à vue à la DGSI Paris — risque 30 ans d'emprisonnement</td></tr>
+      <tr><td>Juin 2025</td><td>1er mandat d'arrêt béninois (blanchiment de capitaux)</td></tr>
+      <tr><td>Déc. 2025</td><td>Soutien au coup d'État raté au Bénin → mandat d'arrêt international</td></tr>
+      <tr><td>Déc. 2025</td><td>Arrestation de Natou Pedro Sakombi au Bénin</td></tr>
+      <tr><td>Mars 2026</td><td>Révélation des enregistrements audio — critique privée des juntes AES</td></tr>
+      <tr><td>Avr. 2026</td><td>Arrestation en tentant de traverser la rivière Limpopo, Afrique du Sud</td></tr>
+      <tr><td>Avr. 2026</td><td>Retrait du passeport diplomatique nigérien</td></tr>
+      <tr><td>Mai 2026</td><td>En détention provisoire à Pretoria — procédure d'extradition béninoise en cours</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- ========================================================
+     NOTE FINALE
+     ======================================================== -->
+<div class="final-note">
+  <h2>Note Finale</h2>
+
+  <p>Kémi Séba n'est pas un saint. Il n'est pas non plus uniquement ce que la DGSI, la justice sénégalaise ou le gouvernement béninois disent de lui.</p>
+
+  <p>Il est le produit d'une époque — d'une époque où des millions de jeunes Africains cherchent une voix pour leur colère légitime, et où des puissances mondiales rivales utilisent cette colère comme matière première géopolitique.</p>
+
+  <p>Il a été cette voix. Il a été cet instrument. Les deux peuvent être vrais en même temps.</p>
+
+  <p>Ce qui est certain, c'est que son histoire n'est pas terminée. Et quelle que soit la suite, la question qu'il a posée à l'Afrique reste entière :</p>
+
+  <p><em>À qui appartiennent les ressources africaines ? Qui décide des monnaies africaines ? Qui choisit les dirigeants africains ?</em></p>
+
+  <p>Ces questions méritent des réponses honnêtes — pas les réponses simples de l'empire français, pas non plus les réponses simples de l'empire russe.</p>
+</div>
+
+<!-- ========================================================
+     COLOPHON
+     ======================================================== -->
+<div class="colophon">
+  <div class="cover-divider"></div>
+  <p><strong>KÉMI SÉBA</strong></p>
+  <p><em>L'Homme que l'Empire ne pouvait pas Acheter</em></p>
+  <p>Biographie basée sur des faits documentés</p>
+  <p>et des sources journalistiques vérifiées.</p>
+  <div class="cover-divider"></div>
+  <p style="margin-top: 20px; font-size: 9pt; color: #999;">Sources principales : Jeune Afrique, France 24, Arte/CAPA, Die Welt,<br>
+  Wikipédia FR/EN, VOA Afrique, Le JDD, Senenews, The Conversation</p>
+</div>
+
+</body>
+</html>
