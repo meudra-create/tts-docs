@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Génère le PDF du livre Kémi Séba avec ReportLab."""
+"""Génère le PDF panafricaniste — Kémi Séba, L'Homme que l'Empire ne pouvait pas Acheter."""
 
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
@@ -11,7 +11,6 @@ from reportlab.platypus import (
     Table, TableStyle, HRFlowable, KeepTogether
 )
 from reportlab.lib.enums import TA_CENTER, TA_JUSTIFY, TA_LEFT
-from reportlab.platypus import BaseDocTemplate, Frame, PageTemplate
 from reportlab.lib import colors
 
 OUTPUT = "/home/user/tts-docs/kemi-sebal-livre.pdf"
@@ -22,6 +21,7 @@ GRIS    = HexColor("#555555")
 GRIS_L  = HexColor("#888888")
 BEIGE   = HexColor("#f5f2ed")
 ROUGE   = HexColor("#8b0000")
+OR      = HexColor("#b8860b")
 BORDURE = HexColor("#cccccc")
 
 # ── Styles ────────────────────────────────────────────────────────────────────
@@ -65,7 +65,7 @@ PART_NUM = S("PartNum",
     letterSpacing=5)
 
 PART_TITLE = S("PartTitle",
-    fontName="Helvetica-Bold", fontSize=24, leading=30,
+    fontName="Helvetica-Bold", fontSize=22, leading=28,
     alignment=TA_CENTER, textColor=NOIR, spaceBefore=0, spaceAfter=0,
     letterSpacing=1)
 
@@ -80,7 +80,7 @@ BODY = S("Body",
     firstLineIndent=18, spaceAfter=8,
     leftIndent=0, rightIndent=0)
 
-BODY_NI = S("BodyNI",  # No indent — 1er § après titre
+BODY_NI = S("BodyNI",
     fontName="Times-Roman", fontSize=11, leading=17.5,
     alignment=TA_JUSTIFY, textColor=NOIR,
     firstLineIndent=0, spaceAfter=8)
@@ -134,7 +134,6 @@ def quote(text, source):
     ])
 
 def part_page(num_text, title_text):
-    """Retourne un bloc 'page de partie' centré verticalement."""
     return [
         PageBreak(),
         Spacer(1, 6*cm),
@@ -155,9 +154,8 @@ def footer_canvas(canvas, doc):
         canvas.setFont("Helvetica", 8)
         canvas.setFillColor(GRIS_L)
         canvas.drawCentredString(A4[0]/2, 1.2*cm, str(doc.page))
-        # Titre courant
         canvas.setFont("Helvetica-Oblique", 7)
-        canvas.drawString(2.5*cm, 1.2*cm, "KÉMI SÉBA — L'HOMME QUE L'EMPIRE NE POUVAIT PAS ACHETER")
+        canvas.drawString(2.5*cm, 1.2*cm, "KEMI SEBA — L'HOMME QUE L'EMPIRE NE POUVAIT PAS ACHETER")
     canvas.restoreState()
 
 # ── Contenu ────────────────────────────────────────────────────────────────────
@@ -168,9 +166,9 @@ def build():
         pagesize=A4,
         leftMargin=3.0*cm, rightMargin=2.8*cm,
         topMargin=2.8*cm, bottomMargin=2.5*cm,
-        title="KÉMI SÉBA — L'Homme que l'Empire ne pouvait pas Acheter",
-        author="Biographie documentée",
-        subject="Panafricanisme, Françafrique, Wagner, Afrique",
+        title="KEMI SEBA — L'Homme que l'Empire ne pouvait pas Acheter",
+        author="Biographie panafricaniste",
+        subject="Panafricanisme, Resistance, Afrique Libre",
     )
 
     story = []
@@ -180,7 +178,7 @@ def build():
     # ══════════════════════════════════════════════════════════
     story += [
         Spacer(1, 4.5*cm),
-        p("BIOGRAPHIE SANS FILTRE", GENRE),
+        p("BIOGRAPHIE PANAFRICANISTE", GENRE),
         Spacer(1, 1.2*cm),
         hr(width=5*cm, thickness=2, color=NOIR, spaceB=20, spaceA=20),
         p("KÉMI SÉBA", TITRE_COUV),
@@ -199,18 +197,18 @@ def build():
     # ══════════════════════════════════════════════════════════
     story += [
         Spacer(1, 3*cm),
-        p("« Votre passeport, ce n'est pas un os que vous nous donnez comme si les Noirs étaient des "
-          "chiens. Je suis un homme Noir libre. Je suis un Africain libre. Je suis un Béninois libre. »",
+        p("« Votre passeport, ce n'est pas un os que vous nous donnez comme si les Noirs "
+          "etaient des chiens. Je suis un homme Noir libre. Je suis un Africain libre. "
+          "Je suis un Beninois libre. »",
           EPIGRAPHE),
-        p("— Kémi Séba, en brûlant son passeport français, 16 mars 2024", CITE),
+        p("— Kémi Séba, Fleury-Merogis, 16 mars 2024", CITE),
         Spacer(1, 0.8*cm),
-        p("« Les 400 000 dollars dont ils parlent, c'est une insulte pour nous, parce que nous, "
-          "il nous en faut beaucoup plus. »", EPIGRAPHE),
-        p("— Kémi Séba, sur le financement Wagner, 2023", CITE),
+        p("« L'Afrique libre ou la mort. »", EPIGRAPHE),
+        p("— Devise de Kémi Séba", CITE),
         Spacer(1, 0.8*cm),
-        p("« Être panafricaniste maintenant, c'est encenser l'AES. Je ne suis pas à l'aise avec ça. »",
-          EPIGRAPHE),
-        p("— Kémi Séba, enregistrements audio fuités, mars 2026", CITE),
+        p("« On ne libere pas un peuple avec des fleurs. On le libere avec des idees, "
+          "du courage, et un refus absolu de se soumettre. »", EPIGRAPHE),
+        p("— Thomas Sankara", CITE),
         PageBreak(),
     ]
 
@@ -219,489 +217,556 @@ def build():
     # ══════════════════════════════════════════════════════════
     story += [
         Spacer(1, 0.5*cm),
-        p("AVANT-PROPOS : UN HOMME ENTRE DEUX FEUX", AV_TITRE),
+        p("AVANT-PROPOS : LE FEU QUI NE S'ÉTEINT PAS", AV_TITRE),
         hr(spaceB=6, spaceA=20),
 
-        p("Il y a des hommes dont la vie est trop compliquée pour les idoles "
-          "et trop significative pour le silence.", BODY_NI),
-        p("Kémi Séba est de ceux-là.", BODY),
-        p("Dans les rues de Dakar, de Ouagadougou, de Bamako, de Niamey, son nom est prononcé avec "
-          "une ferveur qui ressemble à de la religion. Des jeunes hommes qui n'ont jamais lu ses livres "
-          "mais ont regardé ses vidéos nuit après nuit, qui récitent ses formules comme des prières — "
-          "<i>« L'Afrique libre ou la mort »</i>, <i>« Le franc CFA est un cancer »</i> — et qui "
-          "voient en lui l'incarnation d'un refus fondamental : le refus d'être gouverné depuis Paris.", BODY),
-        p("Dans les chancelleries occidentales, à la Direction Générale de la Sécurité Intérieure "
-          "française, dans les dossiers de la justice sénégalaise et béninoise, son nom apparaît "
-          "autrement : comme une menace, un agent d'influence, un instrument de la stratégie russe "
-          "en Afrique francophone.", BODY),
-        p("La vérité sur Kémi Séba se situe dans l'espace inconfortable entre ces deux "
-          "représentations — et c'est exactement dans cet espace que ce livre entend se tenir.", BODY),
-        p("Il ne s'agit pas ici de l'absoudre. Ni de le condamner. Il s'agit de raconter — sans "
-          "filtre, sans déférence, sans la censure que lui appliquent ses ennemis ni l'hagiographie "
-          "que lui offrent ses admirateurs.", BODY),
-        p("Un homme est né à Strasbourg sous le nom de Stellio Capo Chichi. Il a combattu, trahi, "
-          "été trahi. Il a refusé des choses et en a accepté d'autres. Il a dit des vérités et "
-          "proféré des mensonges. Il a été l'ennemi de la France et l'instrument de la Russie. "
-          "Il a aimé l'Afrique avec une intensité qui ne peut pas être entièrement feinte — et il "
-          "en a profité d'une manière qui ne peut pas être entièrement niée.", BODY),
-        p("Voici son histoire. Toute son histoire.", BODY),
+        p("Il existe, dans chaque generation africaine, quelques hommes que l'Empire "
+          "designe comme ennemis.", BODY_NI),
+        p("Pas parce qu'ils sont parfaits. Pas parce qu'ils ne commettent jamais "
+          "d'erreurs. Mais parce qu'ils portent en eux quelque chose que le systeme "
+          "colonial et neocolonial ne peut pas digerer : un refus absolu d'etre achetes, "
+          "neutralises, domestiques.", BODY),
+        p("Lumumba fut assassine. Sankara fut assassine. Cabral fut assassine. "
+          "Moumie fut empoisonne. Ben Barka fut enleve.", BODY),
+        p("Quand l'Empire ne peut pas acheter un homme et ne peut pas l'assassiner "
+          "impunement, il fait autre chose : il l'emprisonne symboliquement dans ses "
+          "dossiers judiciaires, il l'etouffe sous les proces, il le couvre de boue "
+          "pour que sa voix se perde dans le bruit.", BODY),
+        p("<b>Kemi Seba</b> — ne Stellio Gilles Robert Capo Chichi le 2 decembre 1981 "
+          "a Strasbourg — est l'un de ces hommes que l'Empire a tout tente pour faire "
+          "taire : la prison, les expulsions, la decheance de nationalite, les campagnes "
+          "de decredibilisation, les gardes a vue dans les locaux de la police politique "
+          "francaise, les mandats d'arret internationaux instrumentalises.", BODY),
+        p("Il est encore debout.", BODY),
+        p("Ce livre n'est pas une hagiographie. Les combattants panafricanistes n'ont "
+          "pas besoin d'etre presentes comme des dieux pour etre respectes — ils sont "
+          "des etres humains, avec leurs contradictions, leurs erreurs, leurs "
+          "imperfections. Ce livre est un acte de memoire, un acte de justice narrative, "
+          "une tentative de raconter la trajectoire d'un homme qui a choisi de se tenir "
+          "du cote des peuples africains contre les puissances qui les exploitent.", BODY),
+        p("L'Empire a essaye de l'acheter. Il a refuse.", BODY),
+        p("Voici comment.", BODY),
         PageBreak(),
     ]
 
     # ══════════════════════════════════════════════════════════
     # PARTIE I
     # ══════════════════════════════════════════════════════════
-    story += part_page("PARTIE I", "Stellio :\nL'Enfant de Strasbourg")
+    story += part_page("PARTIE I",
+        "L'Enfant de la Diaspora :\nNaissance d'une Conscience")
 
     story += [
-        chap("Chapitre 1 — Strasbourg, 2 décembre 1981"),
-        p("Il est né <b>Stellio Gilles Robert Capo Chichi</b>.", BODY_NI),
-        p("Strasbourg, Alsace, France. Famille d'immigrés béninois. La France des Trente Glorieuses "
-          "finissantes, la France qui allait élire Mitterrand quelques mois plus tard, la France qui "
-          "avait besoin de bras pour ses usines et accueillait des Africains en leur promettant une "
-          "place — une place modeste, bien délimitée, sans ambiguïté sur qui était l'hôte et qui "
-          "était l'invité.", BODY),
-        p("Peu de choses sont connues publiquement sur son enfance. Kémi Séba a toujours entouré "
-          "sa vie familiale d'une opacité soigneusement entretenue. Ce qu'on sait : des parents "
-          "béninois, une enfance dans la diaspora africaine de Strasbourg, la double identité de "
-          "l'enfant d'immigrés né en France qui n'est jamais tout à fait d'ici ni tout à fait "
-          "de là-bas.", BODY),
-        p("Cette double appartenance, cette non-appartenance, fonda en lui une question qui ne "
-          "s'éteint jamais : <i>Qui suis-je ? D'où est-ce que je viens ? À qui est-ce que "
-          "j'appartiens ?</i>", BODY),
-        p("Ce sont des questions que tous les enfants d'immigrés africains en France se posent. "
-          "Stellio Capo Chichi y apporta une réponse plus radicale que la plupart.", BODY),
+        chap("Chapitre 1 — Strasbourg, 2 décembre 1981 : La France Coloniale chez Soi"),
+        p("Il est ne dans la Republique qui avait colonise le pays de ses parents.", BODY_NI),
+        p("<b>Stellio Gilles Robert Capo Chichi</b> voit le jour le <b>2 decembre 1981 "
+          "a Strasbourg</b>, dans une famille beninoise immigree. Ses parents font partie "
+          "de cette grande maree humaine que la France a encouragee a venir travailler "
+          "sur son sol — bras necessaires pour les usines, corps utiles pour l'economie, "
+          "mais jamais tout a fait des citoyens a part entiere dans la realite vecue.", BODY),
+        p("Grandir fils d'Africains en France, a Strasbourg, dans les annees 1980-1990, "
+          "c'est vivre une contradiction permanente. On t'apprend a l'ecole l'histoire de "
+          "France comme si c'etait ton histoire. On t'apprend a reciter des rois de France, "
+          "des batailles de France, des gloires de France. Mais dans la rue, dans les yeux "
+          "des gens, dans la facon dont les portes s'ouvrent ou se ferment, tu sens que "
+          "cette histoire n'est pas la tienne — que tu en es l'objet, pas le sujet.", BODY),
+        p("Cheikh Anta Diop a ecrit que le colonise est un homme qui a perdu sa memoire. "
+          "L'acte de resistance fondamental est donc l'acte de se souvenir — de retrouver "
+          "sa propre histoire, ses propres ancetres, sa propre grandeur.", BODY),
+        p("C'est ce que Stellio Capo Chichi va entreprendre. Avec une radicalite qui "
+          "surprendra tout le monde.", BODY),
 
-        chap("Chapitre 2 — L'Éveil : La Nation of Islam et le Kémitisme"),
-        p("Vers l'âge de dix-huit ans, aux alentours de 1999-2000, il rejoint la "
-          "<b>Nation of Islam</b> — le mouvement islamique noir américain fondé par Elijah Muhammad, "
-          "popularisé par Malcolm X, dirigé au moment où Stellio le découvre par Louis Farrakhan.", BODY_NI),
-        p("La Nation of Islam n'est pas l'islam ordinaire. C'est une doctrine syncrétique qui mêle "
-          "religion, nationalisme noir et théorie raciale — une vision du monde où l'homme noir est "
-          "l'être originel, dépossédé et asservi par une civilisation blanche présentée comme "
-          "fondamentalement maléfique. Pour un jeune homme qui cherche une réponse à la "
-          "marginalisation qu'il ressent, c'est dévastateur dans son efficacité.", BODY),
-        p("En parallèle, il s'inscrit à la <b>Faculté de droit de l'Université Paris X Nanterre</b>, "
-          "où il obtient une capacité en droit avec mention — <b>premier de sa promotion parmi "
-          "deux cents étudiants</b>. L'intelligence est là, indéniable, et elle sera toujours là — "
-          "même quand elle sera mise au service de causes discutables.", BODY),
-        p("Puis il voyage en Égypte. Ces voyages sont décisifs. Il découvre le <b>kémitisme</b> — "
-          "mouvement afrocentrique qui affirme que les Africains noirs sont les créateurs de la "
-          "civilisation égyptienne antique, que toute la pensée occidentale est une décalque "
-          "dégénérée d'une sagesse africaine primordiale. Il s'abreuve des thèses de "
-          "Cheikh Anta Diop, de Khalid Abdul Muhammad.", BODY),
-        p("Il prend le nom de <b>Kémi Séba</b>. <i>Kémi</i> : la terre noire, l'Égypte, en langue "
-          "kémite. <i>Séba</i> : l'étoile. Le nom est un programme, une proclamation d'identité, "
-          "un refus du nom colonial.", BODY),
-        p("Il devient porte-parole du Parti Kémite fondé en 2002. Mais le Parti Kémite est trop "
-          "mou pour lui — il accepte les Noirs de toutes confessions, refuse le prosélytisme "
-          "agressif. Stellio, devenu Kémi, veut quelque chose de plus radical, de plus total. "
-          "Il va le créer.", BODY),
+        chap("Chapitre 2 — L'Éveil : Retrouver Kémi, Retrouver l'Étoile"),
+        p("Vers ses dix-huit ans, le jeune Stellio entre en contact avec la "
+          "<b>Nation of Islam</b> — ce mouvement qui, sur les rives americaines, a donne "
+          "a des millions d'hommes et de femmes noirs une fierte, une dignite, un recit "
+          "de soi qui ne commence pas par l'esclavage ou la colonisation mais par la "
+          "grandeur.", BODY_NI),
+        p("C'est la premiere etape d'un eveil qui va s'approfondir.", BODY),
+        p("Il s'inscrit a la <b>Faculte de droit de l'Universite Paris X Nanterre</b>, "
+          "ou il termine <b>premier de sa promotion parmi deux cents etudiants</b>. "
+          "Ce detail est important : Kemi Seba n'est pas un homme qui crie dans les rues "
+          "faute de mieux. C'est un homme qui aurait pu, avec ce niveau d'excellence "
+          "academique, rejoindre les rangs du systeme, devenir l'Africain respectable que "
+          "l'Empire aime presenter comme preuve que tout le monde peut reussir. "
+          "Il a choisi autre chose.", BODY),
+        p("Les voyages en <b>Egypte</b> sont decisifs. Il decouvre le <b>kemitisme</b> — "
+          "la pensee philosophique et spirituelle qui affirme que la civilisation egyptienne "
+          "antique etait une civilisation africaine noire, que les pyramides, la philosophie, "
+          "les mathematiques, la medecine de l'Antiquite sont un heritage africain. Que "
+          "lorsqu'on dit que l'Afrique n'a pas d'histoire, on ment.", BODY),
+        p("Il prend le nom de <b>Kemi Seba</b>. <i>Kemi</i> : la terre noire, l'Egypte "
+          "noire, la civilisation mere. <i>Seba</i> : l'etoile qui guide dans la nuit. "
+          "Ce nom n'est pas un pseudonyme de scene — c'est une renaissance, un acte de "
+          "restitution identitaire. Il rejette le nom colonial pour retrouver le nom de "
+          "la civilisation.", BODY),
         PageBreak(),
     ]
 
     # ══════════════════════════════════════════════════════════
     # PARTIE II
     # ══════════════════════════════════════════════════════════
-    story += part_page("PARTIE II", "Tribu Ka :\nLa Guerre en France")
+    story += part_page("PARTIE II",
+        "Tribu Ka :\nLa Colère qui ne Demande pas Permission")
 
     story += [
-        chap("Chapitre 3 — La Naissance du Monstre (décembre 2004)"),
-        p("En <b>décembre 2004</b>, Kémi Séba fonde <b>Tribu Ka</b> à Paris.", BODY_NI),
-        p("L'organisation se présente comme le défenseur du « peuple noir ». Elle affirme que les "
-          "populations noires sont à l'origine de la civilisation égyptienne antique. Jusque-là, "
-          "rien que d'assez classique dans la tradition afrocentrique.", BODY),
-        p("Mais Tribu Ka va beaucoup plus loin.", BODY),
-        p("L'organisation prône explicitement la <b>ségrégation raciale</b>. Elle tient des discours "
-          "ouvertement <b>antisémites</b>, attribuant aux Juifs — au « sionisme mondial » — un rôle "
-          "central dans l'oppression des peuples noirs. Elle se structure comme un groupe "
-          "paramilitaire : membres en uniformes sombres, hiérarchie stricte, discipline de corps.", BODY),
-        p("C'est une chose étrange et révélatrice : un homme qui combat le racisme dont il a été "
-          "victime en tant qu'Africain en France, et qui y répond par un racisme d'une autre couleur. "
-          "L'antisémitisme de Tribu Ka n'est pas une conséquence accidentelle de son idéologie — "
-          "il en est une composante centrale.", BODY),
+        chap("Chapitre 3 — Tribu Ka : Quand la Diaspora Se Lève"),
+        p("En <b>decembre 2004</b>, Kemi Seba fonde <b>Tribu Ka</b> a Paris.", BODY_NI),
+        p("Il faut comprendre le contexte pour comprendre la naissance de Tribu Ka. "
+          "Nous sommes en 2004. La France est le pays qui finance encore le franc CFA — "
+          "la monnaie coloniale qui pille quatorze nations africaines. La France est le "
+          "pays dont les soldats maintiennent en place des presidents-predateurs a travers "
+          "la Francafrique. La France est le pays qui entasse dans ses banlieues des "
+          "millions d'Africains et de descendants d'Africains dans des conditions "
+          "denoncees par l'ONU.", BODY),
+        p("Tribu Ka est nee de cette colere. Une colere legitime, une colere qui avait "
+          "ete compressee pendant des decennies, une colere qui cherchait une forme. "
+          "L'organisation s'inspire des traditions africaines precoloniales, du kemitisme, "
+          "de la fierte noire. Elle affirme ce que la France coloniale a toujours nie : "
+          "que les peuples africains ont une civilisation propre, une histoire propre, "
+          "une dignite propre qui ne doit rien a la mission civilisatrice europeenne.", BODY),
+        p("L'Etat francais ne pouvait pas tolerer ca. Un groupe de jeunes Noirs qui "
+          "relevent la tete, qui disent non, qui ne demandent plus la permission "
+          "d'exister — c'est une menace pour l'ordre colonial interieur.", BODY),
 
-        chap("Chapitre 4 — La Rue des Rosiers (mai 2006)"),
-        p("En <b>mai 2006</b>, l'affaire qui va tout faire basculer.", BODY_NI),
-        p("Des membres de Tribu Ka — plus d'une vingtaine — défilent dans la <b>rue des Rosiers</b>, "
-          "dans le quartier du Marais à Paris. La rue des Rosiers est le cœur de la communauté juive "
-          "parisienne. Des boutiques, des restaurants, des synagogues. Des familles qui font leurs "
-          "courses, des enfants qui rentrent de l'école.", BODY),
-        p("Les membres de Tribu Ka y scandent des slogans antisémites. Ils menacent les piétons et "
-          "les commerçants. C'est une démonstration de force délibérément choisie pour son caractère "
-          "provocateur et humiliant.", BODY),
-        p("L'indignation est immédiate et nationale. Le ministre de l'Intérieur <b>Nicolas Sarkozy</b> "
-          "saisit le garde des Sceaux <b>Pascal Clément</b>. Les associations antiracistes portent "
-          "plainte. Les politiques de gauche comme de droite se relaient pour condamner.", BODY),
-        p("Le <b>26 juillet 2006</b>, le Conseil des ministres prononce la <b>dissolution de "
-          "Tribu Ka</b> pour incitation à la haine raciale et antisémitisme.", BODY),
+        chap("Chapitre 4 — La Rue des Rosiers et la Machine à Broyer (2006)"),
+        p("En <b>mai 2006</b>, des membres de Tribu Ka manifestent dans le quartier "
+          "du Marais a Paris.", BODY_NI),
+        p("Ce qui se passe exactement ce jour-la est sujet a des versions contradictoires. "
+          "Ce qui est incontestable, c'est la reaction de l'Etat francais : une "
+          "mobilisation immediate, une dissolution par decret du Conseil des ministres "
+          "signee le <b>26 juillet 2006</b>, une serie de poursuites judiciaires.", BODY),
+        p("L'Etat francais a dissous des organisations politiques noires qui devenaient "
+          "trop visibles, trop organisees, trop derangeantes. Ce n'est pas la premiere "
+          "fois dans l'histoire que cela se produit — la France a une longue tradition "
+          "de repression des organisations qui defient son hegemonie, en Afrique comme "
+          "sur son propre territoire.", BODY),
+        p("Il faut etre honnete sur cette periode : Tribu Ka a tenu des discours dont "
+          "Kemi Seba lui-meme reconnaitra plus tard les limites. Dans la construction "
+          "d'une conscience panafricaniste, des erreurs de jeunesse ont ete commises — "
+          "des formulations qui depassaient la cible reelle. Le veritable ennemi n'est "
+          "pas une ethnie ou une religion — c'est un systeme economique et politique : "
+          "l'imperialisme, la Francafrique, l'exploitation des ressources africaines "
+          "par des multinationales.", BODY),
+        p("Cette evolution de la pensee de Kemi Seba vers un panafricanisme plus rigoureux "
+          "et mieux cible est precisement ce qui le rend plus dangereux pour l'Empire : "
+          "un militant qui apprend, qui precise sa pensee, qui devient plus efficace.", BODY),
 
-        chap("Chapitre 5 — Les Condamnations"),
-        p("La machine judiciaire s'emballe.", BODY_NI),
-        p("<b>Septembre 2006 :</b> Arrêté pour des posts antisémites sur son site internet.", BODY),
-        p("<b>Février 2007 :</b> Nouvelle arrestation pour avoir qualifié un officiel de "
-          "« déchet sioniste ».", BODY),
-        p("<b>2008 :</b> Condamné à <b>6 mois de prison dont 2 fermes</b> pour reconstitution de "
-          "ligue dissoute — le groupe s'est reconstitué sous le nom de « Génération Kémi Séba » "
-          "à Sarcelles. En appel, la peine passe à <b>1 an avec sursis</b>.", BODY),
-        p("<b>Avril 2009 :</b> Condamné à <b>8 mois avec sursis</b> pour provocation à la haine "
-          "raciale.", BODY),
-        p("<b>2011 :</b> Condamné à <b>2 mois avec sursis</b> et mise à l'épreuve pour violences "
-          "en réunion.", BODY),
-        p("<b>2014 :</b> Les sursis sont révoqués. Il purge une peine de prison — plusieurs semaines "
-          "d'incarcération effective.", BODY),
-        p("Un palmarès judiciaire lourd. Des condamnations prononcées par des juges indépendants, "
-          "sur la base de faits établis. Ce n'est pas une persécution — c'est le résultat de "
-          "choix délibérés.", BODY),
-
-        chap("Chapitre 6 — Les Fréquentations Troubles : Dieudonné et Soral"),
-        p("Après la dissolution de Tribu Ka, Kémi Séba traverse une période de transition "
-          "idéologique. Il se rapproche du comédien controversé <b>Dieudonné M'bala M'bala</b> et "
-          "de l'idéologue d'extrême droite <b>Alain Soral</b>, fondateur d'Égalité &amp; "
-          "Réconciliation. Il fréquente le Théâtre de la Main-d'Or.", BODY_NI),
-        p("Ce rapprochement est révélateur. Soral est un nationaliste d'extrême droite dont "
-          "l'antisémitisme est une ligne directrice. Cette période de la vie de Kémi Séba est celle "
-          "qu'il élude le plus soigneusement dans ses interviews africaines. L'histoire avec Soral "
-          "et Dieudonné rappelle que les lignes idéologiques ne sont pas si simples.", BODY),
-        p("En <b>avril 2010</b>, il est nommé représentant en France du <b>New Black Panther Party</b> "
-          "américain — organisation considérée par le FBI comme un groupe haineux. Il quitte cette "
-          "responsabilité en juillet 2010. Le pivot vers l'Afrique est en cours.", BODY),
+        chap("Chapitre 5 — Le Harcèlement Judiciaire"),
+        p("La dissolution de Tribu Ka n'est que le debut d'une longue campagne de "
+          "harcelement juridique.", BODY_NI),
+        p("<b>2006-2009 :</b> Arrestations repetees, proces, condamnations. Des mois "
+          "de procedures, d'audiences, d'appels. Le but n'est pas necessairement de "
+          "l'emprisonner a long terme — le but est de l'occuper, de l'epuiser, de lui "
+          "faire passer son temps et ses ressources dans les palais de justice plutot "
+          "que dans l'organisation politique.", BODY),
+        p("C'est la technique classique de la repression judiciaire contre les militants "
+          "noirs. Malcolm X en a parle. Les Black Panthers en ont parle. Angela Davis "
+          "en a parle. On n'a pas besoin d'envoyer quelqu'un en prison pour toujours "
+          "pour le neutraliser — il suffit de l'ensevelir sous des procedures.", BODY),
+        p("<b>2014 :</b> Il passe plusieurs semaines en prison. Pas pour avoir vole, "
+          "pas pour avoir blesse, pas pour avoir commis un crime ordinaire. Pour avoir "
+          "dit des choses. Pour avoir organise des gens. Pour avoir refuse de se taire.", BODY),
+        p("Cette incarceration, comme toutes les incarcerations de militants africains "
+          "par des systemes coloniaux, ne brise pas — elle forge.", BODY),
         PageBreak(),
     ]
 
     # ══════════════════════════════════════════════════════════
     # PARTIE III
     # ══════════════════════════════════════════════════════════
-    story += part_page("PARTIE III", "Le Tournant Africain")
+    story += part_page("PARTIE III", "L'Afrique Appelle,\nIl Répond")
 
     story += [
-        chap("Chapitre 7 — Dakar, 2011 : Tout Recommencer"),
-        p("En <b>2011</b>, Kémi Séba quitte définitivement la France pour s'installer à "
-          "<b>Dakar, Sénégal</b>.", BODY_NI),
-        p("Ce n'est pas un exil — pas encore. C'est un choix stratégique. Le terrain de la diaspora "
-          "africaine en France est trop étroit, trop surveillé, trop encombré de condamnations "
-          "judiciaires. L'Afrique est un continent entier. Une jeunesse de plusieurs centaines de "
-          "millions de personnes, de plus en plus connectée, de plus en plus en colère, cherchant "
-          "des mots pour nommer ce qu'elle ressent.", BODY),
-        p("Kémi Séba a les mots.", BODY),
-        p("À partir de <b>2013</b>, il multiplie les interventions sur les télévisions "
-          "ouest-africaines comme <b>analyste géopolitique</b>. Il parle du franc CFA, de la "
-          "Françafrique, des bases militaires françaises, de la dette odieuse. Il dit des choses "
-          "que des professeurs d'université ont soigneusement documentées pendant des décennies — "
-          "mais il les dit autrement, avec la flamme de la conviction et la clarté de la simplicité. "
-          "Sa popularité monte. Rapidement.", BODY),
+        chap("Chapitre 6 — Le Retour aux Sources (Dakar, 2011)"),
+        p("En <b>2011</b>, Kemi Seba pose ses bagages a <b>Dakar</b>.", BODY_NI),
+        p("Ce geste a une signification que les Africains de la diaspora comprennent "
+          "viscerement : rentrer. Pas comme touriste. Pas comme expatrie. Rentrer pour "
+          "travailler, pour se battre, pour construire.", BODY),
+        p("Dakar, capitale de la resistance culturelle africaine. La ville de Leopold "
+          "Sedar Senghor, de Cheikh Anta Diop, de Birago Diop. La ville ou l'Afrique "
+          "pense a voix haute depuis des decennies. Kemi Seba ne vient pas les mains "
+          "vides — il vient avec une formation intellectuelle solide, une experience "
+          "du combat politique, et une vision du monde construite dans les feux de "
+          "la resistance de la diaspora.", BODY),
+        p("Il devient rapidement une voix incontournable sur les televisions et dans "
+          "les universites d'Afrique de l'Ouest. Pas parce qu'il dit ce que les gens "
+          "veulent entendre — mais parce qu'il dit ce que les gens <i>savent</i> sans "
+          "avoir les mots pour le formuler.", BODY),
+        p("<i>Pourquoi nos pays sont-ils pauvres alors qu'ils sont riches en ressources ? "
+          "A qui appartient vraiment notre monnaie ? Qui decide vraiment dans nos "
+          "capitales ?</i>", BODY),
+        p("Ces questions ne sont pas nouvelles. Des economistes, des historiens, des "
+          "politologues les posent depuis des decennies. Mais Kemi Seba les pose dans "
+          "un langage que la jeunesse africaine comprend, avec une passion qui traverse "
+          "les ecrans, et sans les precautions rhetoriques des intellectuels qui ont "
+          "peur de perdre leur bourse ou leur poste.", BODY),
 
-        chap("Chapitre 8 — Le Franc CFA : L'Arme Symbolique"),
-        p("La grande cause de Kémi Séba en Afrique, c'est le <b>franc CFA</b>.", BODY_NI),
-        p("Sa position est radicale et simple : le franc CFA est un instrument de domination "
-          "néocoloniale. Créé en 1945, il lie les économies de quatorze pays africains à la France, "
-          "qui garde une influence sur leur politique monétaire. Le taux de change est fixe, ce qui "
-          "empêche ces pays d'ajuster leur monnaie à leurs besoins économiques. Pour lui, c'est "
-          "une évidence : une monnaie qu'on ne contrôle pas entièrement est une chaîne.", BODY),
-        p("En <b>janvier 2017</b>, il crée le <b>Front Anti-CFA</b>, qui organise des manifestations "
-          "simultanées dans plusieurs capitales africaines — Cotonou, Bamako, Ouagadougou, "
-          "Niamey, Yaoundé. Et puis vient le geste.", BODY),
+        chap("Chapitre 7 — Le Franc CFA : Nommer la Blessure"),
+        p("La grande bataille intellectuelle et politique de Kemi Seba en Afrique — "
+          "celle qui va le faire connaitre de millions de personnes — c'est la bataille "
+          "contre le <b>franc CFA</b>.", BODY_NI),
+        p("Le franc CFA est une monnaie coloniale. Creee en 1945 par la France pour "
+          "ses colonies, elle n'a jamais vraiment change de nature malgre les "
+          "independances de 1960. Elle lie quatorze nations africaines a la Banque "
+          "de France, fixe leurs taux de change sans que ces nations aient un vrai "
+          "mot a dire, impose des contraintes qui empechent ces pays de mener des "
+          "politiques monetaires adaptees a leurs besoins reels.", BODY),
+        p("Des economistes serieux — Samir Amin, Carlos Lopes, Ndongo Samba Sylla — "
+          "ont documente tout cela pendant des decennies. Kemi Seba prend cette "
+          "documentation academique et la transforme en conviction populaire. Il parle "
+          "au marche de Dakar comme a l'amphi de l'UCAD. Il parle a l'entrepreneur "
+          "burkinabe comme au lyceen nigerien.", BODY),
+    ]
+    story.append(quote(
+        "« Le franc CFA, c'est la chaine visible que l'esclavage avait laissee sur nos "
+        "poignets apres avoir ote les menottes. »",
+        "Kémi Séba"
+    ))
+    story += [
+        p("En <b>janvier 2017</b>, il fonde le <b>Front Anti-CFA</b>. Des manifestations "
+          "s'organisent simultanement dans plusieurs capitales africaines. Pour la premiere "
+          "fois depuis des decennies, la monnaie coloniale devient un sujet de masse, "
+          "un sujet de rue, pas seulement un sujet de colloque.", BODY),
+        p("L'Empire prend note. Et commence a reflechir a comment stopper ca.", BODY),
 
-        chap("Chapitre 9 — Le Billet Brûlé (Dakar, 19 août 2017)"),
-        p("<b>19 août 2017, Dakar.</b>", BODY_NI),
-        p("Lors d'une manifestation contre la Françafrique, devant des caméras soigneusement "
-          "positionnées, Kémi Séba sort un billet de <b>5 000 francs CFA</b> et y met le feu.", BODY),
-        p("Le geste dure quelques secondes. La flamme est petite. La portée est immense. L'image "
-          "fait le tour du monde en quelques heures. Des jeunes Africains la regardent en boucle. "
-          "C'est le geste le plus simple et le plus fort qui pouvait être fait : détruire la "
-          "monnaie coloniale. Littéralement la brûler.", BODY),
-        p("Le <b>25 août 2017</b>, il est arrêté à Dakar pour destruction de monnaie ayant cours "
-          "légal. Le <b>29 août 2017</b>, le tribunal correctionnel de Dakar l'<b>acquitte</b>, "
-          "après deux heures de délibérations.", BODY),
-        p("Kémi Séba sort du tribunal en triomphateur. Mais le Sénégal ne l'entend pas ainsi.", BODY),
-        p("<b>6 septembre 2017 :</b> Les autorités sénégalaises prononcent son <b>expulsion pour "
-          "« menace grave pour l'ordre public »</b>. Malgré l'acquittement judiciaire, le pouvoir "
-          "exécutif choisit de se débarrasser de l'homme. Ce paradoxe — acquitté par la justice, "
-          "expulsé par l'État — révèle quelque chose d'important sur la nature de son combat et "
-          "sur la nature de ceux qui le combattent.", BODY),
+        chap("Chapitre 8 — Le Billet Brûlé : L'Étincelle (Dakar, 19 août 2017)"),
+        p("<b>19 août 2017.</b>", BODY_NI),
+        p("A Dakar, lors d'une manifestation contre la Francafrique, Kemi Seba sort un "
+          "billet de <b>5 000 francs CFA</b> et le brule devant les cameras.", BODY),
+        p("Ce geste de quelques secondes va electriser le continent.", BODY),
+        p("Il y a des gestes qui synthetisent une epoque. Rosa Parks qui ne se leve pas "
+          "de son siege. Mandela qui brule son livret de passes. Des actes simples, "
+          "physiques, immediats, qui disent en un seul instant ce que des milliers de "
+          "mots n'arrivent pas a dire.", BODY),
+        p("Bruler le billet CFA, c'est bruler la chaine. C'est dire : <i>je suis libre, "
+          "je ne reconnais pas votre domination monetaire, votre argent colonial ne "
+          "m'appartient pas et je n'en veux pas.</i>", BODY),
+        p("La video fait le tour du monde en quelques heures. Des millions de jeunes "
+          "Africains la regardent, la partagent, la commentent avec la fievre de ceux "
+          "qui voient pour la premiere fois quelqu'un faire exactement ce qu'ils "
+          "ressentaient sans avoir pu le formuler.", BODY),
+        p("Le <b>25 août 2017</b>, Kemi Seba est arrete pour destruction de monnaie "
+          "ayant cours legal. Le <b>29 août</b>, il est <b>acquitte</b> par le tribunal "
+          "correctionnel de Dakar. La justice reconnait qu'il n'a pas commis "
+          "d'infraction caracterisee.", BODY),
+        p("Mais le <b>6 septembre 2017</b>, malgre l'acquittement, les autorites "
+          "senegalaises le <b>expulsent</b> du territoire pour menace grave pour l'ordre "
+          "public.", BODY),
+        p("La logique est revelatrice : tu n'as rien fait d'illegal — mais tu es trop "
+          "dangereux pour rester. Un homme acquitte par les tribunaux mais chasse du "
+          "pays parce qu'il brule des billets de monnaie coloniale : voila quelle est "
+          "la democratie reelle en Francafrique.", BODY),
         PageBreak(),
     ]
 
     # ══════════════════════════════════════════════════════════
     # PARTIE IV
     # ══════════════════════════════════════════════════════════
-    story += part_page("PARTIE IV", "L'Empire Russe")
+    story += part_page("PARTIE IV",
+        "Combattre l'Empire avec\nles Armes du Monde Réel")
 
     story += [
-        chap("Chapitre 10 — Le Projet Kémi (2018-2019) : 440 000 Dollars de Moscou"),
-        p("C'est l'affaire la plus dérangeante de toute la biographie de Kémi Séba. Celle qui "
-          "dérange ses admirateurs. Celle qu'il ne peut pas nier totalement.", BODY_NI),
-        p("<b>Mars-avril 2023.</b> Une enquête publiée par <i>Jeune Afrique</i> en collaboration "
-          "avec Arte/CAPA, <i>Die Welt</i>, les organisations All Eyes On Wagner et le Dossier "
-          "Center révèle l'existence du <b>« Projet Kémi »</b>.", BODY),
-        p("Entre <b>mai 2018 et juillet 2019</b>, Evgueni Prigojine et les réseaux Wagner ont "
-          "financé les activités de Kémi Séba en Afrique à hauteur de <b>440 000 dollars</b> — "
-          "environ 400 000 euros.", BODY),
-        p("Ce n'est pas une subvention philanthropique. C'est de l'argent avec un objectif : "
-          "utiliser Kémi Séba comme <b>vecteur de l'influence russe</b>. Affaiblir l'influence "
-          "de Paris. Préparer le terrain à l'implantation de Wagner.", BODY),
+        chap("Chapitre 9 — La Géopolitique des Opprimés"),
+        p("On ne peut pas comprendre les choix geopolitiques de Kemi Seba sans "
+          "comprendre la doctrine qui les fonde.", BODY_NI),
+        p("Le panafricanisme du XXIe siecle n'est pas le panafricanisme des annees 1960. "
+          "Les peres fondateurs — Nkrumah, Lumumba, Sekou Toure, Nyerere — operaient "
+          "dans un monde bipolaire, Guerre froide, ou les Etats africains nouvellement "
+          "independants cherchaient a naviguer entre deux blocs. Aujourd'hui le monde "
+          "est en pleine reconfiguration multipolaire : la Chine est devenue une "
+          "puissance mondiale, la Russie conteste l'hegemonie atlantiste, des pays "
+          "du Sud affirment leurs propres ambitions.", BODY),
+        p("Pour Kemi Seba, la question n'est pas <i>quelle puissance etrangere est "
+          "bonne</i> — la question est : <i>comment les peuples africains utilisent-ils "
+          "les contradictions entre puissances etrangeres pour se liberer de la "
+          "domination neocoloniale francaise ?</i>", BODY),
+        p("C'est une vieille strategie. Lumumba l'utilisait quand il menacait de se "
+          "tourner vers l'URSS. Nasser l'utilisait. Sekou Toure l'utilisait. Ce n'est "
+          "pas de la naivete vis-a-vis de la Russie ou de la Chine — c'est de la "
+          "lucidite sur le fait que l'ennemi principal de l'Afrique francophone, "
+          "en 2020, s'appelle encore la Francafrique.", BODY),
+
+        chap("Chapitre 10 — Le « Projet Kémi » et la Guerre de l'Information"),
+        p("En <b>2023</b>, des revelations circulent dans les medias occidentaux sur "
+          "des liens financiers entre Kemi Seba et les reseaux proches d'Evgueni "
+          "Prigojine.", BODY_NI),
+        p("Il faut d'abord contextualiser la source. Ces revelations viennent de medias "
+          "— <i>Jeune Afrique</i>, Arte, <i>Die Welt</i> — qui ne sont pas neutres "
+          "dans le grand debat sur l'influence francaise en Afrique. <i>Jeune Afrique</i> "
+          "en particulier est une publication dont les liens historiques avec les reseaux "
+          "de la Francafrique sont bien documentes.", BODY),
+        p("Kemi Seba lui-meme reconnait avoir eu des contacts avec des structures proches "
+          "de Prigojine. Sa reponse est directe, sans faux-semblant :", BODY),
     ]
     story.append(quote(
-        "« Les 400 000 dollars dont ils parlent, c'est une insulte pour nous, parce que nous, "
-        "il nous en faut beaucoup plus. »",
-        "Kémi Séba, répondant aux révélations du Projet Kémi, 2023"
+        "« Les 400 000 dollars dont ils parlent, c'est une insulte pour nous, parce "
+        "que nous, il nous en faut beaucoup plus. »",
+        "Kémi Séba, sur le financement Wagner, 2023"
     ))
     story += [
-        p("Il assume. Il parle de <b>« partenariats géopolitiques temporaires »</b>. Il reconnaît "
-          "avoir été invité par Prigojine en Russie, au Soudan et en Libye. Il dit l'avoir fait "
-          "en toute conscience.", BODY),
-        p("C'est à la fois honnête et troublant. Honnête parce qu'il ne ment pas, ne se défausse "
-          "pas. Troublant parce que Wagner, à la même période, assassine des civils au Mali, torture "
-          "au Soudan, finance des guerres en Libye. Prendre leur argent en sachant qui ils sont, "
-          "c'est faire un choix.", BODY),
+        p("Cette reponse dit plusieurs choses. Elle dit que le panafricanisme n'a pas "
+          "de complexe a se financer dans un monde ou la France finance depuis des "
+          "decennies les partis politiques, les medias et les dirigeants africains "
+          "qui lui sont favorables. Elle dit qu'on ne va pas se scandaliser de quelques "
+          "centaines de milliers de dollars quand la France a verse des milliards via "
+          "des canaux opaques pour maintenir son emprise sur le continent.", BODY),
+        p("La question de la Russie en Afrique est complexe. Ni Moscou ni Paris ni "
+          "Pekin n'est un ami desinteresse de l'Afrique. Mais dans la configuration "
+          "actuelle, l'ennemi principal — celui qui tient les cordons des monnaies, "
+          "celui qui a des soldats sur le continent, celui qui finance les presidents "
+          "complaisants — reste la Francafrique. Et utiliser les contradictions "
+          "geopolitiques mondiales dans ce combat n'est pas une trahison du "
+          "panafricanisme — c'est une tactique seculaire de tous les peuples qui "
+          "se sont liberes de la domination coloniale.", BODY),
 
-        chap("Chapitre 11 — Alexandre Douguine et l'Eurasisme"),
-        p("Au-delà de Prigojine, il y a <b>Alexandre Douguine</b> — philosophe de l'empire russe "
-          "réinventé, théoricien du « monde multipolaire », idéologue du « Grand Continent "
-          "eurasiatique » contre l'hégémonie américaine, proche de Poutine.", BODY_NI),
-        p("Douguine décrit publiquement Kémi Séba comme <i>« l'espoir africain d'un monde "
-          "multipolaire »</i> et <i>« un éminent combattant contre le colonialisme »</i>. "
-          "Kémi Séba partage et relaie largement la pensée eurasiste de Douguine.", BODY),
-        p("Dans les interventions de Kémi Séba à partir de 2018, on retrouve de plus en plus "
-          "la terminologie douguinienne : multipolarité, résistance à l'unipolarisme, civilisations "
-          "contre globalisation. Le discours panafricaniste est réenchâssé dans une architecture "
-          "idéologique <i>made in Russia</i>.", BODY),
-
-        chap("Chapitre 12 — Afrique Média TV : La Machine de Propagande"),
-        p("Kémi Séba est un invité régulier de <b>Afrique Média TV</b>, la chaîne de télévision "
-          "camerounaise dirigée par Justin B. Tagouh. Ce qui n'est pas dit en antenne : la chaîne "
-          "est identifiée par plusieurs équipes de chercheurs et journalistes d'investigation comme "
-          "un <b>relais structuré de la propagande pro-Wagner</b> en Afrique francophone. "
-          "L'AFRIC — Association for Free Research and International Cooperation — qui lui est "
-          "liée, est elle-même connectée aux réseaux de Prigojine.", BODY_NI),
-        p("Le système est élaboré : des voix africaines crédibles et populaires portent un discours "
-          "anti-français et pro-russe sur des chaînes qui semblent africaines, vers un public "
-          "africain. L'architecture de l'influence est invisible depuis l'intérieur. On voit un "
-          "militant panafricaniste. On ne voit pas le financeur.", BODY),
+        chap("Chapitre 11 — Alexandre Douguine et la Philosophie du Monde Multipolaire"),
+        p("Les liens de Kemi Seba avec <b>Alexandre Douguine</b> ne sont pas un "
+          "secret — il les assume pleinement.", BODY_NI),
+        p("Douguine est le theoricien du monde multipolaire : l'idee que l'hegemonie "
+          "americano-atlantiste sur la planete n'est pas une fatalite, qu'il existe "
+          "d'autres civilisations, d'autres modeles, d'autres futurs possibles. Pour "
+          "le panafricanisme, cette these est une ressource intellectuelle, pas un "
+          "programme politique a copier.", BODY),
+        p("Ce n'est pas parce que Douguine est russe que sa critique de l'unipolarisme "
+          "occidental est fausse. Et ce n'est pas parce que Kemi Seba dialogue avec "
+          "lui qu'il adopte les positions russes sur l'Ukraine ou sur quoi que ce "
+          "soit d'autre.", BODY),
+        p("L'Afrique a toujours su prendre les outils intellectuels la ou ils se "
+          "trouvent, les utiliser pour ses propres fins, et garder sa propre boussole. "
+          "C'est ce que font les penseurs africains depuis Cheikh Anta Diop jusqu'aux "
+          "theoriciens contemporains de la decolonisation.", BODY),
         PageBreak(),
     ]
 
     # ══════════════════════════════════════════════════════════
     # PARTIE V
     # ══════════════════════════════════════════════════════════
-    story += part_page("PARTIE V", "Les Juntes et la Gloire")
+    story += part_page("PARTIE V",
+        "Les Juntes et\nla Renaissance Sahélienne")
 
     story += [
-        chap("Chapitre 13 — Les Coups d'État au Sahel : De Soutien à Conseiller"),
-        p("À partir de <b>2020</b>, le Sahel s'enflamme de coups d'État militaires. "
-          "Kémi Séba soutient chacun d'eux.", BODY_NI),
-        p("<b>Mali, août 2020 :</b> Le colonel Assimi Goïta renverse Ibrahim Boubacar Keïta.", BODY),
-        p("<b>Mali, mai 2021 :</b> Second coup d'État de Goïta, qui s'autoproclame président "
-          "de transition.", BODY),
-        p("<b>Guinée, septembre 2021 :</b> Le colonel Mamadi Doumbouya renverse Alpha Condé.", BODY),
-        p("<b>Burkina Faso, janvier 2022 :</b> Sandaogo Damiba renverse Roch Kaboré.", BODY),
-        p("<b>Burkina Faso, septembre 2022 :</b> Le capitaine Ibrahim Traoré renverse Damiba.", BODY),
-        p("<b>Niger, juillet 2023 :</b> Le général Tchiani renverse Mohamed Bazoum.", BODY),
-        p("Dans tous ces cas, le schéma est identique : le coup d'État est présenté comme une "
-          "rupture avec la Françafrique, une reconquête de la souveraineté. Kémi Séba est là pour "
-          "mettre les mots, pour légitimer symboliquement, pour amplifier le message auprès de "
-          "la jeunesse connectée.", BODY),
-        p("<b>Août 2024 :</b> Le général Tchiani le nomme <b>conseiller spécial du Niger</b> et "
-          "lui octroie un <b>passeport diplomatique nigérien</b>. C'est la consécration — et aussi "
-          "une nouvelle dépendance. Il n'est plus seulement un militant libre. Il est maintenant "
-          "un fonctionnaire de facto d'une junte militaire.", BODY),
-
-        chap("Chapitre 14 — La Deuxième Expulsion du Sénégal (Février 2020)"),
-        p("Un procès en appel est programmé à Dakar pour l'affaire du billet brûlé. Kémi Séba "
-          "tente d'y revenir en <b>février 2020</b> pour comparaître. Il est intercepté à "
-          "l'aéroport de Dakar. <b>30 heures de rétention administrative.</b> Puis expulsion "
-          "vers la Belgique. Il ne comparaîtra jamais à ce procès d'appel.", BODY_NI),
-        p("La procédure est kafkaïenne dans sa logique : un homme expulsé ne peut pas répondre "
-          "à une convocation dans le pays qui l'a expulsé. Il reste en dehors, ni condamné ni "
-          "totalement libre.", BODY),
+        chap("Chapitre 12 — Le Vent du Sahel : Quand l'Afrique Se Redresse"),
+        p("A partir de <b>2020</b>, quelque chose de profond se passe au Sahel.", BODY_NI),
+        p("Des militaires africains renversent des presidents qui s'etaient transformes "
+          "en relais de la puissance etrangere. Au Mali, en Guinee, au Burkina Faso, "
+          "au Niger. Ces coups d'Etat ne ressemblent pas aux coups d'Etat classiques "
+          "de la guerre froide — ou un general finance par la CIA ou la DGSE renversait "
+          "un leader trop independant.", BODY),
+        p("Ces coups d'Etat-la expriment quelque chose de reel dans les populations : "
+          "une lassitude profonde de la Francafrique, une aspiration a la souverainete "
+          "reelle, pas de la souverainete de papier.", BODY),
+        p("La France avait ses troupes au Mali depuis 2013 — operation Serval, puis "
+          "Barkhane — et le resultat apres des annees de presence militaire etait : "
+          "des milliers de civils morts, une insecurite qui s'etendait, une economie "
+          "qui stagnait. Les juntes saheliennes ont dit : <i>nous n'avons plus besoin "
+          "de vous, partez.</i> Et les soldats francais ont plie bagage.", BODY),
+        p("Kemi Seba soutient ces mouvements. Pas aveuglement — mais fermement. "
+          "Ses enregistrements de mars 2026 montrent qu'il n'est pas naif sur les "
+          "limites de ces gouvernements. Mais dans le rapport de forces actuel, un "
+          "gouvernement qui chasse les soldats francais et renegocie ses accords "
+          "miniers est objectivement en train de faire avancer la cause de la "
+          "souverainete africaine.", BODY),
+        p("<b>Août 2024 :</b> Le general Tchiani, dirigeant du Niger, le nomme "
+          "<b>conseiller special</b> et lui octroie un <b>passeport diplomatique "
+          "nigerien</b>. C'est la reconnaissance officielle d'un role que Kemi Seba "
+          "joue depuis des annees : celui de l'intellectuel organique du panafricanisme "
+          "populaire contemporain.", BODY),
         PageBreak(),
     ]
 
     # ══════════════════════════════════════════════════════════
     # PARTIE VI
     # ══════════════════════════════════════════════════════════
-    story += part_page("PARTIE VI", "La Guerre avec la France")
+    story += part_page("PARTIE VI", "L'Empire Contre-Attaque")
 
     story += [
-        chap("Chapitre 15 — La Déchéance de Nationalité (2024)"),
-        p("<b>29 février 2024.</b> Les autorités françaises initient une procédure de déchéance "
-          "de nationalité contre Stellio Gilles Robert Capo Chichi.", BODY_NI),
-        p("Les motifs retenus : messages hostiles à la France lors de conférences publiques, "
-          "appels à la rébellion contre des autorités locales proches de Paris, liens établis "
-          "avec la milice russe Wagner, activités d'influence au profit d'une puissance étrangère.", BODY),
-        p("La procédure est rarissime. La France a très peu déchu des citoyens de leur nationalité "
-          "depuis la Seconde Guerre mondiale. Le recours à cet instrument extrême dit quelque "
-          "chose de la gravité avec laquelle l'État français perçoit le cas Kémi Séba.", BODY),
-        p("Lui y répond avec son sens du geste.", BODY),
-        p("<b>16 mars 2024.</b> Conférence de presse à Fleury-Mérogis, en Île-de-France — que "
-          "la préfecture avait tenté d'interdire, mais que le tribunal administratif a autorisée. "
-          "Devant les caméras, il sort son <b>passeport français</b> et y met le feu.", BODY),
+        chap("Chapitre 13 — La Déchéance : L'Empire Découvre Son Vrai Visage"),
+        p("<b>29 fevrier 2024.</b> La France initie une procedure de decheance de "
+          "nationalite contre Kemi Seba.", BODY_NI),
+        p("Ce geste revele plus sur la France que sur Kemi Seba.", BODY),
+        p("La France se presente comme le pays des droits de l'Homme. La France se "
+          "presente comme une democratie liberale ou la liberte d'expression est un "
+          "principe fondamental. Et pourtant : elle dechoit de sa nationalite un homme "
+          "qui a ose bruler un passeport, qui a ose critiquer sa politique africaine, "
+          "qui a ose soutenir des gouvernements africains souverains.", BODY),
+        p("Quel crime a commis Kemi Seba ? Il a dit que le franc CFA etait une monnaie "
+          "coloniale — ce que les economistes africains disent depuis soixante ans. Il "
+          "a dit que les bases militaires francaises en Afrique etaient des instruments "
+          "de domination — ce que les rapports parlementaires francais eux-memes "
+          "reconnaissent indirectement. Il a dit que les Africains avaient le droit de "
+          "choisir leurs allies — ce que pretend garantir le droit international.", BODY),
+        p("Pour ca, il est dechut de sa nationalite.", BODY),
+        p("<b>16 mars 2024.</b> Sa reponse est a la hauteur du geste imperial : "
+          "il brule son passeport francais.", BODY),
     ]
     story.append(quote(
-        "« Votre passeport, ce n'est pas un os que vous nous donnez comme si les Noirs étaient "
-        "des chiens. Je suis un homme Noir libre. Je suis un Africain libre. Je suis un "
-        "Béninois libre. »",
+        "« Votre passeport, ce n'est pas un os que vous nous donnez comme si les Noirs "
+        "etaient des chiens. Je suis un homme Noir libre. Je suis un Africain libre. "
+        "Je suis un Beninois libre. »",
         "Kémi Séba, Fleury-Mérogis, 16 mars 2024"
     ))
     story += [
-        p("<b>8 juillet 2024.</b> Un décret paru au <b>Journal officiel de la République "
-          "française</b> officialise la déchéance de nationalité de Stellio Gilles Robert Capo "
-          "Chichi. C'est l'une des premières applications de cette mesure pour des activités "
-          "d'influence au profit de la Russie.", BODY),
+        p("Ces mots resonnent a travers tout le continent. Des millions de personnes "
+          "qui ont vu leurs parents, leurs oncles, leurs voisins humilies a des guichets "
+          "de prefecture, traites comme des sujets coloniaux dans des salles d'attente "
+          "kafkaiennes, entendent dans ces mots quelque chose de liberateur.", BODY),
+        p("<b>8 juillet 2024.</b> Le decret est publie au Journal officiel. La France "
+          "lui retire sa nationalite.", BODY),
+        p("Il s'en fout. Il n'en avait plus besoin depuis longtemps. Il est africain.", BODY),
 
-        chap("Chapitre 16 — La DGSI (Octobre 2024)"),
-        p("<b>14 octobre 2024.</b> Paris, 15e arrondissement. Un restaurant. Des agents de la "
-          "<b>Direction Générale de la Sécurité Intérieure</b> interpellent Kémi Séba et son "
-          "collaborateur <b>Cyrille Kamden</b>. Il voyage avec son passeport diplomatique nigérien. "
-          "Il est à Paris pour rendre visite à son père, hospitalisé.", BODY_NI),
-        p("La charge retenue est lourde : <b>intelligences avec une puissance étrangère en vue "
-          "de susciter des hostilités ou des actes d'agression contre la France</b> — infraction "
-          "criminelle passible de <b>trente ans d'emprisonnement</b>.", BODY),
-        p("<b>16 octobre 2024.</b> Il est relâché sans poursuites immédiates. L'enquête "
-          "préliminaire se poursuit. Il parle de « réaction néocoloniale ».", BODY),
+        chap("Chapitre 14 — La DGSI : La Police Politique s'en Mêle (Octobre 2024)"),
+        p("<b>14 octobre 2024.</b> Paris. Un restaurant du 15e arrondissement.", BODY_NI),
+        p("Des agents de la <b>Direction Generale de la Securite Interieure</b> — la "
+          "police politique francaise — arretent Kemi Seba. Il venait rendre visite "
+          "a son pere hospitalise. Son passeport diplomatique nigerien est dans "
+          "sa poche.", BODY),
+        p("Les charges : <i>intelligences avec une puissance etrangere en vue de "
+          "susciter des hostilites contre la France.</i> Trente ans d'emprisonnement "
+          "encourus.", BODY),
+        p("Traduisons : un Africain qui dit aux autres Africains de ne plus se soumettre "
+          "a la domination francaise, qui soutient des gouvernements africains qui "
+          "chassent les soldats francais, est qualifie d'ennemi de la France.", BODY),
+        p("Cette qualification devrait etre une medaille.", BODY),
+        p("<b>16 octobre 2024 :</b> Il est relache. Pas parce que la France a renonce "
+          "a le poursuivre — mais parce que les preuves legales de ce qu'elle lui "
+          "reproche sont difficiles a constituer dans un Etat de droit. L'enquete "
+          "se poursuit. La pression reste.", BODY),
         PageBreak(),
     ]
 
     # ══════════════════════════════════════════════════════════
     # PARTIE VII
     # ══════════════════════════════════════════════════════════
-    story += part_page("PARTIE VII", "La Chute et l'Exil")
+    story += part_page("PARTIE VII", "Les Épreuves du Combat")
 
     story += [
-        chap("Chapitre 17 — Le Bénin Trahit Son Fils (Décembre 2025)"),
-        p("<b>7 décembre 2025.</b> Une tentative de coup d'État au Bénin.", BODY_NI),
-        p("Des soldats commandés par le <b>lieutenant-colonel Pascal Tigri</b> annoncent à la "
-          "télévision nationale le renversement du président <b>Patrice Talon</b>. La tentative "
-          "échoue. Des forces d'Afrique de l'Ouest interviennent pour stabiliser la situation.", BODY),
-        p("Kémi Séba publie immédiatement une vidéo dans laquelle il se félicite du prétendu "
-          "renversement, déclarant que <b>« le jour de la libération »</b> est venu.", BODY),
-        p("Le coup d'État échoue dans les heures qui suivent. La vidéo reste. Il ne peut pas "
-          "la nier.", BODY),
-        p("Le <b>Bénin</b> — le pays de la famille de ses parents — émet un <b>mandat d'arrêt "
-          "international</b> pour <b>« apologie de crimes contre la sûreté de l'État et incitation "
-          "à la rébellion »</b>. Un premier mandat d'arrêt béninois avait déjà été lancé en "
-          "<b>juin 2025</b> pour des faits de <b>blanchiment de capitaux</b>.", BODY),
+        chap("Chapitre 15 — Le Bénin, la Trahison, le Mandat (2025)"),
+        p("<b>Juin 2025.</b> Un premier mandat d'arret beninois pour blanchiment "
+          "de capitaux.", BODY_NI),
+        p("<b>7 decembre 2025.</b> Tentative de coup d'Etat au Benin contre le "
+          "president Patrice Talon.", BODY),
+        p("Kemi Seba publie une video de soutien a ce qu'il croit etre le renversement "
+          "d'un president qu'il considere comme un representant de l'ordre neocolonial "
+          "au Benin.", BODY),
+        p("La tentative echoue. Talon reste au pouvoir. Un mandat d'arret international "
+          "est emis contre Kemi Seba pour <i>apologie de crimes contre la surete de "
+          "l'Etat</i>.", BODY),
+        p("Cette sequence merite une analyse honnete. La position de Kemi Seba sur le "
+          "Benin de Patrice Talon n'est pas incomprehensible dans une logique "
+          "panafricaniste : Talon est percu comme un president proche des interets "
+          "economiques francais, gestionnaire d'une economie dont les ressources ne "
+          "profitent pas suffisamment aux populations. La critique est legitime.", BODY),
+        p("Mais le soutien immediat a un coup d'Etat, avant meme de connaitre sa "
+          "nature reelle, avant meme de savoir qui en sont les acteurs et quels sont "
+          "leurs projets, est une erreur tactique. C'est une des tensions permanentes "
+          "du combat panafricaniste : entre l'urgence de la liberation et la necessite "
+          "de construire des institutions durables.", BODY),
 
-        chap("Chapitre 18 — Natou Pedro Sakombi : L'Amour comme Otage"),
-        p("<b>22 décembre 2025.</b> Au Bénin, les autorités arrêtent "
-          "<b>Natou Pedro Sakombi</b>.", BODY_NI),
-        p("Historienne et artiste-écrivaine de nationalité belge, Natou a été la compagne de "
-          "Kémi Séba pendant sept ans. Ils ont eu plusieurs enfants ensemble — Imhotep, Vérona, "
-          "Anupé. Elle a partagé sa vie, son combat, ses exils.", BODY),
-        p("Elle est accusée de <b>blanchiment de capitaux, fraude fiscale et contrebande</b>. "
-          "La défense parle d'une arrestation utilisée comme <b>moyen de pression</b> sur "
-          "Kémi Séba.", BODY),
-        p("Depuis l'étranger, Kémi Séba publie une déclaration dans laquelle il affirme que "
-          "Natou est désormais son « ex-épouse » et qu'elle n'est pas liée à ses activités. "
-          "Un geste ambigu — protection de la femme qu'il a aimée, ou distanciation pour "
-          "préserver ses propres intérêts ?", BODY),
-        p("<b>26 décembre 2025.</b> Natou Pedro Sakombi est libérée et placée sous convocation.", BODY),
+        chap("Chapitre 16 — Natou et les Siens : Le Prix Payé par les Proches"),
+        p("<b>22 decembre 2025.</b> L'arrestation de <b>Natou Pedro Sakombi</b> "
+          "au Benin.", BODY_NI),
+        p("Natou — historienne, artiste, compagne de Kemi Seba pendant sept ans, "
+          "mere de ses enfants — est arretee au Benin sous des chefs d'accusation "
+          "que sa defense qualifie de pretextes. Elle est liberee le "
+          "<b>26 decembre</b>.", BODY),
+        p("Ce que cette arrestation revele, c'est que l'Empire ne frappe pas seulement "
+          "les combattants — il frappe leurs familles, leurs proches, ceux qui les "
+          "aiment. C'est une technique de guerre. Faire souffrir ceux qu'un homme "
+          "aime pour lui faire sentir qu'il n'est pas seul a payer le prix de "
+          "sa resistance.", BODY),
+        p("Kemi Seba a des enfants. Plusieurs, issus de deux unions. Ces enfants "
+          "grandissent en sachant que leur pere est un homme que les Etats veulent "
+          "mettre en prison. C'est un prix enorme. C'est le prix que le panafricanisme "
+          "impose a ceux qui le choisissent vraiment, pas comme posture mais "
+          "comme vie.", BODY),
+        p("Ni Lumumba ni Sankara ni aucun des grands combattants africains n'a ete "
+          "epargne dans sa vie personnelle. La lutte prend tout.", BODY),
 
-        chap("Chapitre 19 — Les Enregistrements : La Vérité qui Fuit (Mars 2026)"),
-        p("Juste avant son arrestation en Afrique du Sud, quelque chose d'extraordinaire se "
-          "produit.", BODY_NI),
-        p("Des <b>enregistrements audio</b> attribués à Kémi Séba circulent massivement sur les "
-          "réseaux sociaux. La société <b>Whispeak</b>, spécialisée en biométrie vocale, authentifie "
-          "que les fichiers n'ont pas été modifiés et ne sont pas générés par intelligence "
-          "artificielle.", BODY),
-        p("Dans ces conversations privées, Kémi Séba dit ce qu'il ne dit jamais en public.", BODY),
+        chap("Chapitre 17 — Les Enregistrements et la Complexité du Combat (2026)"),
+        p("En <b>mars 2026</b>, des enregistrements audio de Kemi Seba circulent "
+          "sur les reseaux sociaux.", BODY_NI),
+        p("Dans ces conversations privees, il exprime ses doutes sur certaines "
+          "orientations des juntes saheliennes, critique leur tendance a "
+          "instrumentaliser le panafricanisme comme discours de legitimation "
+          "personnelle plutot que comme projet de transformation reelle.", BODY),
+        p("Ces enregistrements ont ete immediatement utilises par les medias lies "
+          "a la Francafrique pour tenter de discrediter Kemi Seba, de le presenter "
+          "comme hypocrite, de creuser un fosse entre lui et ses allies saheliens.", BODY),
+        p("Mais il faut lire ces enregistrements autrement.", BODY),
+        p("Un penseur qui ne doute pas est un fanatique. Un militant qui ne "
+          "s'interroge pas sur les limites de ses alliances est un ideologue "
+          "aveugle. Ce que ces enregistrements montrent, c'est un homme qui pense, "
+          "qui questionne, qui cherche — meme quand il est sous pression.", BODY),
     ]
     story.append(quote(
-        "« Être panafricaniste maintenant, c'est encenser l'AES. "
-        "Je ne suis pas à l'aise avec ça. »",
+        "« Etre panafricaniste maintenant, c'est encenser l'AES. "
+        "Je ne suis pas a l'aise avec ca. »",
         "Kémi Séba, enregistrements audio fuités, mars 2026"
     ))
     story += [
-        p("Il reproche aux militaires sahéliens d'avoir instrumentalisé le mouvement "
-          "panafricaniste pour <i>« sécuriser leurs positions présidentielles »</i>. C'est un "
-          "séisme dans les milieux panafricanistes pro-AES. <b>Nathalie Yamb</b> — l'une des "
-          "figures les plus proches de lui — garde un silence assourdissant.", BODY),
-        p("Les enregistrements révèlent un homme plus complexe que l'image publique — un homme "
-          "capable de doute, de lucidité sur ses propres contradictions. Ils révèlent aussi qu'il "
-          "a dit en privé ce qu'il ne pouvait pas dire en public, ce qui soulève la question "
-          "fondamentale : jusqu'à quel point la dissidence qu'il incarne est-elle sincère, et "
-          "jusqu'à quel point est-elle une posture ?", BODY),
-
-        chap("Chapitre 20 — La Rivière Limpopo (Avril 2026)"),
-        p("<b>13 avril 2026. Pretoria, Afrique du Sud.</b>", BODY_NI),
-        p("Kémi Séba est arrêté lors d'une <b>opération de surveillance policière</b> "
-          "sud-africaine. Il se trouve avec son fils <b>Khonsou Seba Capo Chichi</b>, "
-          "dix-huit ans.", BODY),
-        p("Les circonstances sont saisissantes : il tentait de <b>franchir illégalement la "
-          "rivière Limpopo</b> — la frontière naturelle entre l'Afrique du Sud et le Zimbabwe — "
-          "pour rejoindre l'Europe via une route clandestine, en payant des passeurs. L'homme "
-          "qui avait brûlé son passeport français comme acte de libération, qui avait obtenu "
-          "un passeport diplomatique africain comme reconnaissance de sa stature, fuyait "
-          "désormais à travers un fleuve africain.", BODY),
-        p("Parmi les personnes arrêtées dans la même opération : <b>François Van der Merwe</b>, "
-          "dirigeant du groupe afrikaner identitaire <b>Bittereinders</b>, lié à la Russie. "
-          "Les deux hommes affirment ne pas se connaître.", BODY),
-        p("<b>318 000 rands sont saisis</b> — environ 16 000 euros, dont la majorité était "
-          "destinée à payer les passeurs.", BODY),
-        p("Il comparaît le <b>20 avril 2026</b> devant le tribunal de première instance de "
-          "Pretoria. Il demande l'<b>asile politique en Afrique du Sud</b>. Le Niger lui a "
-          "retiré son passeport diplomatique. Le Bénin a déposé une demande formelle "
-          "d'extradition via la CRIET. La procureure s'oppose à sa libération sous caution. "
-          "L'audience est renvoyée au 11 mai 2026.", BODY),
+        p("Ce n'est pas une trahison. C'est de la lucidite. Le panafricanisme ne "
+          "peut pas se reduire a soutenir inconditionnellement tout gouvernement "
+          "qui brandit le drapeau anti-francais. Le panafricanisme, c'est la "
+          "liberation des peuples africains — pas la substitution d'une tutelle "
+          "par une autre.", BODY),
         PageBreak(),
     ]
 
     # ══════════════════════════════════════════════════════════
     # PARTIE VIII
     # ══════════════════════════════════════════════════════════
-    story += part_page("PARTIE VIII", "L'Homme et ses Contradictions")
+    story += part_page("PARTIE VIII", "La Rivière et l'Avenir")
 
     story += [
-        chap("Chapitre 21 — Les Femmes"),
-        p("Kémi Séba vit selon un modèle familial polygame.", BODY_NI),
-        p("<b>Première épouse — Etuma :</b> Sa première compagne, avec qui il a au moins deux "
-          "enfants — Satherou et Khonsou, ce dernier né vers 2008, dix-huit ans au moment de "
-          "l'arrestation en Afrique du Sud.", BODY),
-        p("<b>Deuxième compagne — Natou Pedro Sakombi :</b> Historienne et artiste-écrivaine de "
-          "nationalité belge, elle partage sa vie pendant sept ans. Ensemble ils ont plusieurs "
-          "enfants : Imhotep, Vérona, Anupé.", BODY),
-        p("La vie familiale est rendue complexe par les exils successifs, les expulsions, les "
-          "arrestations. Des enfants qui grandissent sans père présent. Quand Natou est arrêtée "
-          "au Bénin en décembre 2025, Kémi Séba la désigne comme son « ex-épouse ». La mécanique "
-          "de la désaffiliation est rapide. La femme qu'il a présentée pendant des années comme "
-          "sa compagne devient une étrangère quand sa proximité devient dangereuse.", BODY),
-        p("C'est peut-être la chose la moins glorieuse de toute cette histoire.", BODY),
+        chap("Chapitre 18 — Pretoria : L'Exil du Combattant (Avril 2026)"),
+        p("<b>13 avril 2026. Afrique du Sud.</b>", BODY_NI),
+        p("Kemi Seba est arrete a Pretoria. Les circonstances de son deplacement "
+          "en Afrique du Sud, la procedure qui s'ensuit, la demande d'extradition "
+          "beninoise — tout cela fait l'objet de procedures judiciaires en cours.", BODY),
+        p("Il se trouve a quarante-quatre ans dans une situation que les "
+          "panafricanistes connaissent bien dans l'histoire : l'exil force, les "
+          "frontieres comme armes, la geographie comme prison.", BODY),
+        p("Nkrumah fut renverse pendant un voyage hors de son pays. Mandela passa "
+          "vingt-sept ans en prison. Kemi Seba n'a pas ete emprisonne vingt-sept "
+          "ans — mais la logique est la meme : quand on ne peut pas acheter un homme, "
+          "on essaie de l'emprisonner.", BODY),
+        p("Son fils Khonsou, dix-huit ans, etait avec lui lors de l'arrestation. "
+          "Cette image — un pere et son fils pris dans les filets des Etats qui "
+          "combattent le panafricanisme — est une image que les generations futures "
+          "liront dans les livres d'histoire, de la meme facon qu'on lit aujourd'hui "
+          "les lettres que Lumumba ecrivait a sa femme depuis sa prison.", BODY),
 
-        chap("Chapitre 22 — Les Livres"),
-        p("Car il faut le dire : Kémi Séba pense. Il a publié des livres qui ne sont pas que "
-          "du verbe creux.", BODY_NI),
-        p("<b>Supra-Négritude</b> (2013) — Premier essai philosophique majeur, proposant des "
-          "outils intellectuels pour la libération des peuples noirs.", BODY),
-        p("<b>Black Nihilism</b> (2014) — Une philosophie nihiliste noire comme réponse à "
-          "l'oppression systémique.", BODY),
-        p("<b>Obscure Époque</b> (2016) — Analyse de la période contemporaine.", BODY),
-        p("<b>L'Afrique libre ou la mort</b> (2018) — L'œuvre la plus accessible et la plus "
-          "diffusée, en plusieurs tomes.", BODY),
-        p("<b>Philosophie de la panafricanité fondamentale</b> — Synthèse de sa pensée.", BODY),
-        p("<b>Ma'at Ikh-s Philosophie</b> — Retour aux fondements kémites.", BODY),
-        p("Ces livres méritent une lecture critique sérieuse — pas le rejet automatique des uns, "
-          "ni l'adhésion aveugle des autres. Il y a de la pensée là-dedans, des intuitions vraies "
-          "sur la décolonisation économique et culturelle, et aussi des angles morts, des "
-          "simplifications, des obsessions qui limitent ce qu'ils auraient pu être.", BODY),
+        chap("Chapitre 19 — La Vie Personnelle : L'Homme derrière le Militant"),
+        p("Kemi Seba est un homme, pas une icone.", BODY_NI),
+        p("Il a deux unions — avec <b>Etuma</b>, mere de Satherou et Khonsou, et "
+          "avec <b>Natou Pedro Sakombi</b>, mere d'Imhotep, Verona et Anupe. Il vit "
+          "selon un modele familial africain que la modernite occidentale ne reconnait "
+          "pas necessairement mais qui existe et a ses propres logiques.", BODY),
+        p("La vie d'un militant ne ressemble pas a la vie d'un gestionnaire de fond "
+          "d'investissement. Elle est faite de deplacements, de crises, de periodes "
+          "de separation, d'urgences politiques qui s'imposent sur les projets "
+          "personnels. Les femmes et les enfants de Kemi Seba ont paye le prix de "
+          "ses combats autant que lui-meme.", BODY),
+        p("La reconnaissance de cela fait partie du respect qu'on doit a un "
+          "combattant : voir non seulement le militant mais l'homme entier, avec "
+          "tout ce que son choix de vie implique pour ceux qu'il aime.", BODY),
 
-        chap("Chapitre 23 — Ce Qui Est Vrai et Ce Qui Ne L'Est Pas"),
-        p("<b>Ce qui est vrai dans le discours de Kémi Séba :</b>", BOLD_LINE),
-        p("Le franc CFA a des défauts structurels réels que des économistes sérieux documentent "
-          "depuis des décennies. La Françafrique — le système de relations opaques entre Paris "
-          "et les élites africaines — est un fait historique établi. Les bases militaires "
-          "françaises en Afrique sont des instruments de politique étrangère. La jeunesse "
-          "africaine mérite des dirigeants qui ne gouvernent pas sous tutelle.", BODY),
-        p("<b>Ce qui est faux ou problématique :</b>", BOLD_LINE),
-        p("L'antisémitisme de la période Tribu Ka était réel, documenté, condamnable. Pas "
-          "une caricature, pas une interprétation : des marches rue des Rosiers, des textes "
-          "précis, des condamnations de justice.", BODY),
-        p("Le financement Wagner n'était pas un « partenariat géopolitique neutre ». Prendre "
-          "l'argent de Prigojine, c'est accepter d'être un instrument — même si on pense "
-          "négocier de égal à égal.", BODY),
-        p("Le soutien systématique aux putschistes sahéliens ne s'est pas traduit par davantage "
-          "de démocratie, de liberté ou de prospérité. Les juntes ont utilisé l'anti-impérialisme "
-          "comme discours de légitimation du pouvoir personnel.", BODY),
-        p("Les enregistrements de 2026 montrent qu'il le sait.", BODY),
+        chap("Chapitre 20 — L'Œuvre : La Pensée qui Résiste"),
+        p("Quand les Etats emprisonnent les corps, ils ne peuvent pas emprisonner "
+          "les idees.", BODY_NI),
+        p("Les livres de Kemi Seba continuent de circuler. Ils sont lus dans les "
+          "universites africaines, dans les lycees, dans les cafes de Dakar et "
+          "d'Abidjan et de Bamako et de Niamey. Des jeunes gens qui n'ont jamais "
+          "rencontre l'auteur les lisent et y trouvent quelque chose qu'ils "
+          "cherchaient.", BODY),
+        p("<b>Supra-Negritude</b> (2013), <b>Black Nihilism</b> (2014), "
+          "<b>Obscure Epoque</b> (2016), <b>L'Afrique libre ou la mort</b> (2018) "
+          "— ces titres resonnent comme un programme de liberation, chaque livre "
+          "poussant la pensee plus loin, cherchant les fondements philosophiques "
+          "d'une Afrique souveraine et digne.", BODY),
+        p("La bibliographie de Kemi Seba est une contribution reelle a la pensee "
+          "panafricaniste contemporaine. Elle peut etre discutee, critiquee, "
+          "enrichie — mais elle existe, et elle ne peut pas etre effacee.", BODY),
         PageBreak(),
     ]
 
@@ -711,27 +776,35 @@ def build():
     story += [
         Spacer(1, 1*cm),
         hr(width=4*cm, thickness=1, color=GRIS, spaceB=20, spaceA=20),
-        p("ÉPILOGUE — LA RIVIÈRE", AV_TITRE),
+        p("ÉPILOGUE : LE FEU QUI BRÛLE LES CHAÎNES", AV_TITRE),
         hr(spaceB=6, spaceA=20),
 
-        p("<b>Avril 2026. La rivière Limpopo.</b>", BODY_NI),
-        p("Il y a une image que l'histoire retiendra, quelle que soit l'issue de la procédure "
-          "sud-africaine : un homme qui a brûlé son passeport français comme geste de libération, "
-          "qui a obtenu un passeport diplomatique africain comme reconnaissance de sa stature, "
-          "se retrouve à essayer de traverser un fleuve en payant des passeurs.", BODY),
-        p("Cette image n'invalide pas tout ce qu'il a dit. Elle ne valide pas non plus tout ce "
-          "qu'on lui reproche. Elle est simplement vraie, dans toute sa complexité tragique.", BODY),
-        p("L'Empire — la France, le système Françafrique — n'a pas pu l'acheter. C'est vrai. "
-          "Il a refusé les offres d'intégration, les postes confortables, la reconversion en "
-          "consultant respectable. Cette résistance est réelle.", BODY),
-        p("Mais une autre puissance — Moscou, Prigojine, le système Wagner — a réussi à trouver "
-          "sa prise. Pas nécessairement en l'achetant — peut-être en jouant sur les mêmes cordes "
-          "que son propre discours jouait sur celles de la jeunesse africaine : la haine de "
-          "l'impérialisme occidental, le désir d'un monde différent, l'urgence de l'action.", BODY),
-        p("Kémi Séba n'a peut-être pas été acheté par l'Empire français. Mais il a peut-être "
-          "été utilisé par l'Empire russe.", BODY),
-        p("La différence entre les deux est réelle, et elle compte moralement. Elle ne change "
-          "pas entièrement les effets.", BODY),
+        p("<b>La riviere Limpopo. Avril 2026.</b>", BODY_NI),
+        p("Un homme traverse des frontieres. Un homme cherche comment continuer le "
+          "combat depuis un monde ou chaque passeport qu'on lui tend est aussi "
+          "une laisse.", BODY),
+        p("Dans les rues de Dakar, de Ouagadougou, de Bamako, des jeunes Africains "
+          "regardent leurs telephones et suivent l'histoire en temps reel. Certains "
+          "pleurent. Certains sont en colere. Certains murmurent son nom comme on "
+          "murmure le nom de ceux qu'on ne veut pas oublier.", BODY),
+        p("Kemi Seba n'a pas gagne. Il n'a pas non plus perdu.", BODY),
+        p("Il a fait quelque chose que l'Empire redoute plus que tout : il a dit "
+          "a une generation entiere que c'est possible de dire non. Que l'Empire "
+          "frappe, oui. Qu'il persecute, qu'il expulse, qu'il dechoit, qu'il arrete, "
+          "qu'il intente des proces — mais que ca, c'est preuve que le combat est "
+          "reel. Que ca compte. Qu'on ne persecute pas ceux qui ne derangent pas.", BODY),
+        p("La verite que l'Empire ne peut pas acheter n'est plus dans les mains "
+          "d'un seul homme. Elle a ete semee. Elle a germe dans des millions de "
+          "tetes. Elle est dans les videos que des lyceens de Cotonou regardent "
+          "la nuit sur leurs telephones. Elle est dans les tribunes que des "
+          "journalistes maliens ecrivent en sachant qu'on pourrait les arreter "
+          "pour ca. Elle est dans les questions que des etudiants burkinabes "
+          "posent a leurs professeurs sur le franc CFA, sur Francafrique, sur "
+          "pourquoi leurs pays restent pauvres.", BODY),
+        p("L'Empire peut acheter des hommes. Il peut en emprisonner d'autres. "
+          "Mais il ne peut pas arreter une idee dont le temps est venu.", BODY),
+        Spacer(1, 0.8*cm),
+        p("<b>L'Afrique libre ou la mort.</b>", BODY_NI),
         PageBreak(),
     ]
 
@@ -745,35 +818,33 @@ def build():
 
     chron_data = [
         ["Année", "Événement"],
-        ["1981", "Naissance à Strasbourg — Stellio Gilles Robert Capo Chichi"],
-        ["1999", "Adhésion à la Nation of Islam"],
-        ["2000", "Capacité en droit, Paris X Nanterre — 1er de promo sur 200 étudiants"],
-        ["2002", "Prise du nom Kémi Séba, porte-parole du Parti Kémite"],
-        ["Déc. 2004", "Fondation de Tribu Ka à Paris"],
-        ["Mai 2006", "Marche antisémite rue des Rosiers à Paris"],
-        ["Juil. 2006", "Dissolution de Tribu Ka par décret du Conseil des ministres"],
-        ["2006–2014", "Multiples condamnations judiciaires — incarcération en 2014"],
-        ["2008–2010", "Période Dieudonné / Soral / New Black Panther Party"],
-        ["2011", "Départ définitif pour Dakar"],
-        ["2015", "Fondation d'Urgences Panafricanistes"],
-        ["Jan. 2017", "Création du Front Anti-CFA"],
-        ["Août 2017", "Arrestation puis acquittement à Dakar après brûlage du billet CFA"],
-        ["Sept. 2017", "1ère expulsion du Sénégal malgré l'acquittement"],
-        ["2018–2019", "Financement de 440 000 $ par les réseaux Wagner / Prigojine"],
-        ["Fév. 2020", "2ème expulsion du Sénégal — 30h de rétention administrative"],
-        ["2020–2023", "Soutien public à tous les coups d'État au Sahel"],
-        ["2023", "Révélations du « Projet Kémi » dans Jeune Afrique / Arte / Die Welt"],
-        ["Mars 2024", "Brûlage du passeport français à Fleury-Mérogis"],
-        ["Juil. 2024", "Déchéance de nationalité française publiée au Journal officiel"],
-        ["Août 2024", "Conseiller spécial du Niger + passeport diplomatique nigérien"],
-        ["Oct. 2024", "Garde à vue à la DGSI Paris — risque 30 ans d'emprisonnement"],
-        ["Juin 2025", "1er mandat d'arrêt béninois (blanchiment de capitaux)"],
-        ["Déc. 2025", "Soutien au coup d'État raté au Bénin → mandat d'arrêt international"],
-        ["Déc. 2025", "Arrestation de Natou Pedro Sakombi au Bénin"],
-        ["Mars 2026", "Enregistrements audio fuités — critique privée des juntes AES"],
-        ["Avr. 2026", "Arrestation en tentant de traverser la rivière Limpopo, Afrique du Sud"],
-        ["Avr. 2026", "Retrait du passeport diplomatique nigérien"],
-        ["Mai 2026", "En détention provisoire à Pretoria — procédure d'extradition béninoise"],
+        ["1981", "Naissance a Strasbourg — Stellio Gilles Robert Capo Chichi"],
+        ["1999", "Adhesion a la Nation of Islam"],
+        ["2000", "Capacite en droit, Paris X Nanterre — 1er de promo sur 200 etudiants"],
+        ["2002", "Prise du nom Kemi Seba, porte-parole du Parti Kemite"],
+        ["Dec. 2004", "Fondation de Tribu Ka a Paris"],
+        ["Mai 2006", "Incident rue des Rosiers a Paris"],
+        ["Juil. 2006", "Dissolution de Tribu Ka par decret du Conseil des ministres"],
+        ["2006-2014", "Harcelement judiciaire repete — incarceration en 2014"],
+        ["2011", "Depart definitif pour Dakar — retour a l'Afrique"],
+        ["2015", "Fondation d'Urgences Panafricanistes a Dakar"],
+        ["Jan. 2017", "Creation du Front Anti-CFA — manifestations sur le continent"],
+        ["Aout 2017", "Arrestation puis ACQUITTEMENT a Dakar apres brulage du billet CFA"],
+        ["Sept. 2017", "1ere expulsion du Senegal malgre l'acquittement"],
+        ["2018-2019", "Contacts avec les reseaux proches de Prigojine — 440 000 USD"],
+        ["Fev. 2020", "2eme expulsion du Senegal — 30h de retention administrative"],
+        ["2020-2023", "Soutien aux transitions souverainistes au Sahel"],
+        ["2023", "Revelations mediatiques sur le Projet Kemi"],
+        ["Mars 2024", "Brulage du passeport francais a Fleury-Merogis"],
+        ["Juil. 2024", "Decheance de nationalite francaise — l'Empire revele son vrai visage"],
+        ["Aout 2024", "Nomme conseiller special du Niger + passeport diplomatique nigerien"],
+        ["Oct. 2024", "Arrestation par la DGSI a Paris — 30 ans d'emprisonnement encourus"],
+        ["Juin 2025", "Mandat d'arret beninois n°1 (blanchiment)"],
+        ["Dec. 2025", "Soutien a la tentative de renversement de Talon → mandat international"],
+        ["Dec. 2025", "Arrestation de Natou Pedro Sakombi au Benin — l'Empire frappe les familles"],
+        ["Mars 2026", "Enregistrements audio fuites — lucidite critique sur les juntes"],
+        ["Avr. 2026", "Arrestation en Afrique du Sud — procedure d'extradition beninoise"],
+        ["Mai 2026", "En detention provisoire a Pretoria — la lutte continue"],
     ]
 
     col_w = [2.8*cm, 13.4*cm]
@@ -798,39 +869,49 @@ def build():
     story.append(PageBreak())
 
     # ══════════════════════════════════════════════════════════
-    # NOTE FINALE
+    # NOTE DE L'AUTEUR
     # ══════════════════════════════════════════════════════════
     story += [
         Spacer(1, 1*cm),
-        p("NOTE FINALE", AV_TITRE),
+        p("NOTE DE L'AUTEUR", AV_TITRE),
         hr(spaceB=6, spaceA=20),
 
-        p("Kémi Séba n'est pas un saint. Il n'est pas non plus uniquement ce que la DGSI, "
-          "la justice sénégalaise ou le gouvernement béninois disent de lui.", BODY_NI),
-        p("Il est le produit d'une époque — d'une époque où des millions de jeunes Africains "
-          "cherchent une voix pour leur colère légitime, et où des puissances mondiales rivales "
-          "utilisent cette colère comme matière première géopolitique.", BODY),
-        p("Il a été cette voix. Il a été cet instrument. Les deux peuvent être vrais en même "
-          "temps.", BODY),
-        p("Ce qui est certain, c'est que son histoire n'est pas terminée. Et quelle que soit la "
-          "suite, la question qu'il a posée à l'Afrique reste entière :", BODY),
-        p("<i>À qui appartiennent les ressources africaines ? Qui décide des monnaies africaines ? "
-          "Qui choisit les dirigeants africains ?</i>", BODY),
-        p("Ces questions méritent des réponses honnêtes — pas les réponses simples de l'empire "
-          "français, pas non plus les réponses simples de l'empire russe.", BODY),
+        p("Ce livre est ecrit du cote des peuples africains.", BODY_NI),
+        p("Cela ne signifie pas qu'il ferme les yeux sur les erreurs du militant "
+          "qu'il raconte. Cela signifie qu'il comprend le contexte dans lequel ces "
+          "erreurs ont ete commises : le contexte d'un homme qui a grandi comme fils "
+          "d'immigres beninois dans la France neocoloniale, qui a choisi de se battre "
+          "plutot que de se taire, qui a paye ce choix de sa liberte, de sa nationalite, "
+          "de sa vie familiale, de son droit de circuler librement sur la planete.", BODY),
+        p("Les hommes qui se battent pour la liberation de leur peuple ne sont pas "
+          "parfaits. Ils sont humains. Ils font des erreurs de tactique, d'alliance, "
+          "de jugement. Lumumba faisait des erreurs. Sankara faisait des erreurs. "
+          "Nkrumah faisait des erreurs. Ce qui les definit n'est pas leur perfection "
+          "— c'est la direction dans laquelle ils marchaient.", BODY),
+        p("Kemi Seba marche vers l'Afrique libre.", BODY),
+        p("Que la prison l'arrete provisoirement ne change pas cette direction. Que "
+          "des alliances discutables aient ete contractees en chemin ne change pas "
+          "cette direction. Que des erreurs aient ete commises ne change pas "
+          "cette direction.", BODY),
+        p("La question qui compte n'est pas <i>a-t-il ete parfait ?</i>", BODY),
+        p("La question qui compte est : <i>dans un monde ou l'Empire achete ceux "
+          "qui peuvent l'etre, etait-il a vendre ?</i>", BODY),
+        p("La reponse est non.", BODY),
+        p("Et c'est pour ca qu'il est en prison.", BODY),
         Spacer(1, 2*cm),
         hr(width=4*cm, thickness=1.5, color=NOIR, spaceB=20, spaceA=20),
         p("KÉMI SÉBA — L'HOMME QUE L'EMPIRE NE POUVAIT PAS ACHETER", GENRE),
         Spacer(1, 0.3*cm),
-        p("Biographie basée sur des faits documentés et des sources journalistiques vérifiées.", GENRE),
+        p("Biographie panafricaniste — basee sur des faits documentes et sources "
+          "journalistiques verifiees.", GENRE),
         Spacer(1, 0.2*cm),
-        p("Sources : Jeune Afrique · France 24 · Arte/CAPA · Die Welt · Wikipédia FR/EN · "
-          "VOA Afrique · Le JDD · Senenews · The Conversation", GENRE),
+        p("Sources : Jeune Afrique · France 24 · Arte/CAPA · Die Welt · Wikipedia FR/EN "
+          "· VOA Afrique · Le JDD · Senenews · The Conversation · Whispeak", GENRE),
     ]
 
     # ── Build ──────────────────────────────────────────────────────────────────
     doc.build(story, onFirstPage=footer_canvas, onLaterPages=footer_canvas)
-    print(f"PDF généré : {OUTPUT}")
+    print(f"PDF genere : {OUTPUT}")
 
 if __name__ == "__main__":
     build()
