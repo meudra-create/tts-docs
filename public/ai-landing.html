@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AEGIS — AI Security</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Source+Serif+4:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --char: #141210;
+    --char2: #1e1b18;
+    --gold: #C5993A;
+    --gold-light: #E8C06A;
+    --cream: #F2EDE4;
+    --cream2: #D8CEBC;
+    --smoke: #8A8070;
+    --red-accent: #8B1A1A;
+    --white: #FAF8F4;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--char);
+    color: var(--cream);
+    font-family: 'Source Serif 4', Georgia, serif;
+    overflow-x: hidden;
+  }
+
+  /* Grain overlay */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 999;
+    opacity: 0.6;
+  }
+
+  /* Nav */
+  nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    padding: 28px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to bottom, rgba(20,18,16,0.95), transparent);
+  }
+
+  .nav-logo {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    color: var(--gold);
+    text-transform: uppercase;
+  }
+  .nav-logo span { color: var(--cream2); font-weight: 400; font-size: 13px; }
+
+  .nav-links {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+  }
+  .nav-links a {
+    font-family: 'Source Serif 4', serif;
+    font-size: 13px;
+    color: var(--smoke);
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 300;
+    transition: color 0.2s;
+  }
+  .nav-links a:hover { color: var(--cream); }
+
+  .nav-cta {
+    font-family: 'Source Serif 4', serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 12px 28px;
+    background: transparent;
+    color: var(--gold);
+    border: 1px solid var(--gold);
+    cursor: pointer;
+    transition: all 0.25s;
+  }
+  .nav-cta:hover {
+    background: var(--gold);
+    color: var(--char);
+  }
+
+  /* ===== Hero ===== */
+  .hero {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 0 60px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero-bg {
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse 60% 80% at 80% 50%, rgba(197,153,58,0.06) 0%, transparent 60%),
+      radial-gradient(ellipse 40% 60% at 20% 80%, rgba(139,26,26,0.08) 0%, transparent 50%);
+  }
+
+  /* Diagonal accent */
+  .hero::after {
+    content: '';
+    position: absolute;
+    right: 45%;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: linear-gradient(to bottom, transparent, var(--gold) 30%, var(--gold) 70%, transparent);
+    opacity: 0.2;
+  }
+
+  .hero-left {
+    padding-right: 80px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .eyebrow {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 32px;
+    animation: fadeLeft 0.8s ease both;
+  }
+  .eyebrow-line { width: 40px; height: 1px; background: var(--gold); }
+  .eyebrow-text {
+    font-size: 11px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: var(--gold);
+    font-weight: 400;
+  }
+
+  h1 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: clamp(52px, 5vw, 80px);
+    font-weight: 900;
+    line-height: 1.0;
+    color: var(--white);
+    margin-bottom: 28px;
+    animation: fadeLeft 0.8s 0.1s ease both;
+  }
+  h1 em {
+    font-style: italic;
+    color: var(--gold-light);
+    display: block;
+  }
+
+  .hero-body {
+    font-size: 17px;
+    line-height: 1.75;
+    color: var(--smoke);
+    max-width: 420px;
+    margin-bottom: 44px;
+    font-weight: 300;
+    animation: fadeLeft 0.8s 0.2s ease both;
+  }
+
+  .hero-actions {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    animation: fadeLeft 0.8s 0.3s ease both;
+  }
+
+  .btn-primary {
+    font-family: 'Source Serif 4', serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 18px 40px;
+    background: var(--gold);
+    color: var(--char);
+    border: none;
+    cursor: pointer;
+    transition: all 0.25s;
+    position: relative;
+    overflow: hidden;
+  }
+  .btn-primary::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: var(--gold-light);
+    transform: translateX(-100%);
+    transition: transform 0.3s;
+  }
+  .btn-primary:hover::after { transform: translateX(0); }
+  .btn-primary span { position: relative; z-index: 1; }
+
+  .btn-secondary {
+    font-size: 13px;
+    color: var(--cream2);
+    text-decoration: none;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: color 0.2s;
+  }
+  .btn-secondary:hover { color: var(--gold); }
+  .btn-arrow {
+    width: 28px; height: 28px;
+    border: 1px solid currentColor;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 12px;
+    transition: transform 0.2s;
+  }
+  .btn-secondary:hover .btn-arrow { transform: translateX(3px); }
+
+  /* Shield animation */
+  .hero-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+    animation: fadeRight 1s 0.2s ease both;
+  }
+
+  .shield-container {
+    position: relative;
+    width: 360px;
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ring {
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid var(--gold);
+  }
+  .ring-1 { width: 360px; height: 360px; opacity: 0.08; animation: rotateRing 20s linear infinite; }
+  .ring-2 { width: 300px; height: 300px; opacity: 0.12; animation: rotateRing 15s linear infinite reverse; border-style: dashed; }
+  .ring-3 { width: 240px; height: 240px; opacity: 0.18; animation: rotateRing 10s linear infinite; }
+  .ring-4 { width: 180px; height: 180px; opacity: 0.1; border-color: var(--red-accent); animation: rotateRing 25s linear infinite reverse; }
+
+  @keyframes rotateRing {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+
+  .ring-dot {
+    position: absolute;
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--gold);
+    top: -3px; left: calc(50% - 3px);
+    box-shadow: 0 0 12px var(--gold);
+  }
+
+  .shield-core {
+    width: 120px;
+    height: 140px;
+    position: relative;
+    z-index: 2;
+  }
+  .shield-svg { width: 100%; height: 100%; }
+
+  .shield-pulse {
+    position: absolute;
+    inset: -30px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(197,153,58,0.15) 0%, transparent 70%);
+    animation: pulse 3s ease-in-out infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { transform: scale(1); opacity: 0.5; }
+    50% { transform: scale(1.15); opacity: 1; }
+  }
+
+  .ring-data {
+    position: absolute;
+    font-size: 9px;
+    letter-spacing: 2px;
+    color: var(--gold);
+    opacity: 0.6;
+    text-transform: uppercase;
+  }
+  .ring-data-1 { top: 10px; left: 50%; transform: translateX(-50%); }
+  .ring-data-2 { bottom: 10px; left: 50%; transform: translateX(-50%); }
+  .ring-data-3 { left: 8px; top: 50%; transform: translateY(-50%) rotate(-90deg); }
+  .ring-data-4 { right: 8px; top: 50%; transform: translateY(-50%) rotate(90deg); }
+
+  /* ===== Ticker ===== */
+  .ticker {
+    background: var(--gold);
+    padding: 12px 0;
+    overflow: hidden;
+    position: relative;
+  }
+  .ticker-inner {
+    display: flex;
+    gap: 60px;
+    white-space: nowrap;
+    animation: ticker 20s linear infinite;
+  }
+  @keyframes ticker { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+  .ticker-item {
+    font-family: 'Playfair Display', serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--char);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-shrink: 0;
+  }
+  .ticker-dot { width: 4px; height: 4px; border-radius: 50%; background: var(--char); opacity: 0.4; }
+
+  /* ===== Features ===== */
+  .features {
+    padding: 120px 60px;
+    position: relative;
+  }
+  .features::before {
+    content: 'SOLUTIONS';
+    position: absolute;
+    top: 60px; right: 60px;
+    font-family: 'Playfair Display', serif;
+    font-size: 120px;
+    font-weight: 900;
+    color: var(--char2);
+    letter-spacing: -4px;
+    pointer-events: none;
+    user-select: none;
+  }
+
+  .section-label {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 60px;
+  }
+  .section-label-line { width: 40px; height: 1px; background: var(--gold); }
+  .section-label-text { font-size: 11px; letter-spacing: 4px; text-transform: uppercase; color: var(--gold); }
+
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+  }
+
+  .feature-card {
+    background: var(--char2);
+    padding: 48px 40px;
+    position: relative;
+    overflow: hidden;
+    transition: background 0.3s;
+  }
+  .feature-card:hover { background: #242018; }
+  .feature-card::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0;
+    width: 0; height: 2px;
+    background: var(--gold);
+    transition: width 0.4s;
+  }
+  .feature-card:hover::after { width: 100%; }
+
+  .feature-number {
+    font-family: 'Playfair Display', serif;
+    font-size: 72px;
+    font-weight: 900;
+    color: var(--char);
+    position: absolute;
+    top: 20px; right: 30px;
+    line-height: 1;
+    -webkit-text-stroke: 1px #2a2620;
+  }
+
+  .feature-icon {
+    font-size: 32px;
+    margin-bottom: 24px;
+    display: block;
+  }
+
+  .feature-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--white);
+    margin-bottom: 16px;
+    line-height: 1.2;
+  }
+
+  .feature-desc {
+    font-size: 15px;
+    line-height: 1.7;
+    color: var(--smoke);
+    font-weight: 300;
+  }
+
+  /* ===== Stats ===== */
+  .stats-section {
+    padding: 100px 60px;
+    background: var(--char2);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2px;
+  }
+
+  .stat-item {
+    padding: 48px 40px;
+    background: var(--char);
+    text-align: center;
+  }
+  .stat-num {
+    font-family: 'Playfair Display', serif;
+    font-size: 64px;
+    font-weight: 900;
+    color: var(--gold);
+    line-height: 1;
+    display: block;
+    margin-bottom: 8px;
+  }
+  .stat-label-text {
+    font-size: 12px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--smoke);
+  }
+
+  /* ===== Testimonial ===== */
+  .testimonial-section {
+    padding: 120px 60px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 80px;
+    align-items: center;
+  }
+
+  .testimonial-left h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 1.1;
+    color: var(--white);
+  }
+  .testimonial-left h2 em { font-style: italic; color: var(--gold-light); }
+
+  .testimonials { display: flex; flex-direction: column; gap: 32px; }
+
+  .testimonial-card {
+    background: var(--char2);
+    padding: 36px 40px;
+    border-left: 3px solid var(--gold);
+    position: relative;
+  }
+  .quote-mark {
+    font-family: 'Playfair Display', serif;
+    font-size: 80px;
+    color: var(--gold);
+    opacity: 0.15;
+    line-height: 0.5;
+    position: absolute;
+    top: 20px; left: 20px;
+  }
+  .testimonial-text {
+    font-size: 16px;
+    line-height: 1.7;
+    color: var(--cream2);
+    font-style: italic;
+    font-weight: 300;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+  }
+  .testimonial-author {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .author-avatar {
+    width: 40px; height: 40px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--gold), var(--char));
+    display: flex; align-items: center; justify-content: center;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--char);
+    flex-shrink: 0;
+  }
+  .author-name { font-size: 13px; font-weight: 600; color: var(--white); }
+  .author-title { font-size: 12px; color: var(--smoke); }
+
+  /* ===== CTA ===== */
+  .cta-section {
+    padding: 120px 60px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    background: var(--char2);
+  }
+  .cta-bg {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse 60% 100% at 50% 100%, rgba(197,153,58,0.08) 0%, transparent 60%);
+  }
+  .cta-section h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 1.0;
+    color: var(--white);
+    margin-bottom: 24px;
+    position: relative;
+    z-index: 1;
+  }
+  .cta-section h2 em { font-style: italic; color: var(--gold-light); }
+  .cta-sub {
+    font-size: 18px;
+    color: var(--smoke);
+    font-weight: 300;
+    margin-bottom: 48px;
+    position: relative;
+    z-index: 1;
+  }
+  .cta-divider {
+    width: 80px; height: 1px;
+    background: var(--gold);
+    margin: 0 auto 48px;
+    position: relative;
+    z-index: 1;
+  }
+
+  /* ===== Footer ===== */
+  footer {
+    padding: 48px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #222;
+  }
+  .footer-logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    color: var(--gold);
+  }
+  .footer-copy { font-size: 12px; color: var(--smoke); }
+  .footer-links { display: flex; gap: 32px; }
+  .footer-links a { font-size: 12px; color: var(--smoke); text-decoration: none; transition: color 0.2s; }
+  .footer-links a:hover { color: var(--gold); }
+
+  /* Animations */
+  @keyframes fadeLeft {
+    from { opacity: 0; transform: translateX(-24px); }
+    to { opacity: 1; transform: translateX(0); }
+  }
+  @keyframes fadeRight {
+    from { opacity: 0; transform: translateX(24px); }
+    to { opacity: 1; transform: translateX(0); }
+  }
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(24px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .features-grid > * { animation: fadeUp 0.6s ease both; }
+  .features-grid > *:nth-child(2) { animation-delay: 0.1s; }
+  .features-grid > *:nth-child(3) { animation-delay: 0.2s; }
+</style>
+</head>
+<body>
+
+<!-- Nav -->
+<nav>
+  <div class="nav-logo">AEGIS <span>Security Intelligence</span></div>
+  <ul class="nav-links">
+    <li><a href="#">Platform</a></li>
+    <li><a href="#">Solutions</a></li>
+    <li><a href="#">Research</a></li>
+    <li><a href="#">Company</a></li>
+  </ul>
+  <button class="nav-cta">Request Demo</button>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-left">
+    <div class="eyebrow">
+      <div class="eyebrow-line"></div>
+      <div class="eyebrow-text">AI-Powered Security Platform</div>
+    </div>
+    <h1>
+      Defend What <em>Matters Most</em>
+    </h1>
+    <p class="hero-body">
+      AEGIS deploys autonomous AI agents that detect, analyse, and neutralise threats before they reach your infrastructure — operating at the speed of machine intelligence.
+    </p>
+    <div class="hero-actions">
+      <button class="btn-primary"><span>Start Free Trial</span></button>
+      <a class="btn-secondary" href="#">
+        Watch Overview <div class="btn-arrow">→</div>
+      </a>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="shield-container">
+      <div class="ring ring-1"><div class="ring-dot"></div></div>
+      <div class="ring ring-2"><div class="ring-dot" style="top:auto;bottom:-3px;"></div></div>
+      <div class="ring ring-3"><div class="ring-dot" style="top:auto;left:auto;right:-3px;top:calc(50% - 3px);"></div></div>
+      <div class="ring ring-4"></div>
+      <div class="ring-data ring-data-1">Threat Detection</div>
+      <div class="ring-data ring-data-2">Zero Trust</div>
+      <div class="ring-data ring-data-3">Encrypted</div>
+      <div class="ring-data ring-data-4">Real-time</div>
+      <div class="shield-core">
+        <div class="shield-pulse"></div>
+        <svg class="shield-svg" viewBox="0 0 120 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M60 4 L112 24 L112 72 C112 100 88 126 60 136 C32 126 8 100 8 72 L8 24 Z" fill="none" stroke="#C5993A" stroke-width="1.5"/>
+          <path d="M60 16 L100 32 L100 72 C100 94 82 116 60 126 C38 116 20 94 20 72 L20 32 Z" fill="rgba(197,153,58,0.05)" stroke="#C5993A" stroke-width="0.5" opacity="0.5"/>
+          <path d="M38 72 L52 86 L82 56" stroke="#C5993A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="60" cy="70" r="20" fill="none" stroke="#C5993A" stroke-width="0.5" opacity="0.3"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Ticker -->
+<div class="ticker">
+  <div class="ticker-inner" id="ticker">
+    <div class="ticker-item">Zero-Day Detection <div class="ticker-dot"></div></div>
+    <div class="ticker-item">Autonomous Response <div class="ticker-dot"></div></div>
+    <div class="ticker-item">AI Threat Intelligence <div class="ticker-dot"></div></div>
+    <div class="ticker-item">Endpoint Security <div class="ticker-dot"></div></div>
+    <div class="ticker-item">Zero Trust Architecture <div class="ticker-dot"></div></div>
+    <div class="ticker-item">Compliance Automation <div class="ticker-dot"></div></div>
+    <div class="ticker-item">Zero-Day Detection <div class="ticker-dot"></div></div>
+    <div class="ticker-item">Autonomous Response <div class="ticker-dot"></div></div>
+    <div class="ticker-item">AI Threat Intelligence <div class="ticker-dot"></div></div>
+    <div class="ticker-item">Endpoint Security <div class="ticker-dot"></div></div>
+    <div class="ticker-item">Zero Trust Architecture <div class="ticker-dot"></div></div>
+    <div class="ticker-item">Compliance Automation <div class="ticker-dot"></div></div>
+  </div>
+</div>
+
+<!-- Features -->
+<section class="features">
+  <div class="section-label">
+    <div class="section-label-line"></div>
+    <div class="section-label-text">Platform Capabilities</div>
+  </div>
+  <div class="features-grid">
+    <div class="feature-card">
+      <div class="feature-number">01</div>
+      <span class="feature-icon">⚡</span>
+      <div class="feature-title">Real-Time Threat Detection</div>
+      <p class="feature-desc">AI models trained on 10 billion threat signals analyse your network traffic in under 2ms, surfacing anomalies before damage is done.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-number">02</div>
+      <span class="feature-icon">🔐</span>
+      <div class="feature-title">Autonomous Incident Response</div>
+      <p class="feature-desc">When a breach is detected, AEGIS autonomously isolates affected systems, rotates credentials, and notifies your team — no human latency.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-number">03</div>
+      <span class="feature-icon">🧠</span>
+      <div class="feature-title">Adversarial AI Modelling</div>
+      <p class="feature-desc">Our red-team AI continuously simulates advanced persistent threats against your infrastructure, exposing vulnerabilities before adversaries exploit them.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Stats -->
+<section class="stats-section">
+  <div class="stat-item">
+    <span class="stat-num">99.8%</span>
+    <div class="stat-label-text">Threat Detection Rate</div>
+  </div>
+  <div class="stat-item">
+    <span class="stat-num">&lt;2ms</span>
+    <div class="stat-label-text">Detection Latency</div>
+  </div>
+  <div class="stat-item">
+    <span class="stat-num">500+</span>
+    <div class="stat-label-text">Enterprise Clients</div>
+  </div>
+  <div class="stat-item">
+    <span class="stat-num">$0</span>
+    <div class="stat-label-text">Successful Breaches</div>
+  </div>
+</section>
+
+<!-- Testimonials -->
+<section class="testimonial-section">
+  <div class="testimonial-left">
+    <div class="section-label" style="margin-bottom:32px;">
+      <div class="section-label-line"></div>
+      <div class="section-label-text">Trusted By</div>
+    </div>
+    <h2>What Our<br>Clients <em>Say</em></h2>
+  </div>
+  <div class="testimonials">
+    <div class="testimonial-card">
+      <div class="quote-mark">"</div>
+      <p class="testimonial-text">AEGIS flagged a supply chain intrusion attempt three weeks before our legacy SIEM would have noticed. The autonomous response saved us an estimated $4.2M in recovery costs.</p>
+      <div class="testimonial-author">
+        <div class="author-avatar">MK</div>
+        <div>
+          <div class="author-name">Marcus Klein</div>
+          <div class="author-title">CISO, Nordvik Financial Group</div>
+        </div>
+      </div>
+    </div>
+    <div class="testimonial-card">
+      <div class="quote-mark">"</div>
+      <p class="testimonial-text">We replaced three separate security vendors with AEGIS. The unified AI layer gives us coverage we never had before, at a fraction of the operational overhead.</p>
+      <div class="testimonial-author">
+        <div class="author-avatar">SL</div>
+        <div>
+          <div class="author-name">Sarah Liang</div>
+          <div class="author-title">VP Infrastructure, Halo Systems</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <div class="cta-bg"></div>
+  <div class="cta-divider"></div>
+  <h2>Ready to <em>Secure</em><br>Your Future?</h2>
+  <p class="cta-sub">Deploy in 48 hours. No hardware required. Cancel anytime.</p>
+  <div style="display:flex;gap:20px;justify-content:center;position:relative;z-index:1;">
+    <button class="btn-primary"><span>Get Started Free</span></button>
+    <button class="nav-cta">Talk to Sales</button>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="footer-logo">AEGIS</div>
+  <div class="footer-copy">© 2026 AEGIS Security Intelligence. All rights reserved.</div>
+  <div class="footer-links">
+    <a href="#">Privacy</a>
+    <a href="#">Terms</a>
+    <a href="#">Security</a>
+    <a href="#">Careers</a>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PULSE — Music Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --black: #070707;
+    --acid: #CCFF00;
+    --cyan: #00F5FF;
+    --pink: #FF2D78;
+    --white: #F0EEE8;
+    --grey: #1A1A1A;
+    --grey2: #2A2A2A;
+    --dim: #555;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--black);
+    color: var(--white);
+    font-family: 'DM Mono', monospace;
+    height: 100vh;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 72px 280px 1fr;
+    grid-template-rows: 1fr 100px;
+    cursor: none;
+  }
+
+  /* Custom cursor */
+  .cursor {
+    width: 12px; height: 12px;
+    background: var(--acid);
+    border-radius: 50%;
+    position: fixed;
+    pointer-events: none;
+    z-index: 9999;
+    transform: translate(-50%, -50%);
+    transition: transform 0.1s, width 0.2s, height 0.2s;
+    mix-blend-mode: difference;
+  }
+
+  /* Icon nav */
+  .icon-nav {
+    grid-row: 1 / 3;
+    background: var(--grey);
+    border-right: 1px solid #222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 0;
+    gap: 8px;
+    z-index: 10;
+  }
+
+  .logo-mark {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 28px;
+    color: var(--acid);
+    letter-spacing: -1px;
+    margin-bottom: 24px;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    transform: rotate(180deg);
+  }
+
+  .nav-icon {
+    width: 44px; height: 44px;
+    display: flex; align-items: center; justify-content: center;
+    border-radius: 8px;
+    color: var(--dim);
+    cursor: none;
+    transition: all 0.2s;
+    font-size: 18px;
+    position: relative;
+  }
+  .nav-icon:hover, .nav-icon.active {
+    background: var(--grey2);
+    color: var(--acid);
+  }
+  .nav-icon.active::after {
+    content: '';
+    position: absolute;
+    right: -1px;
+    width: 3px; height: 24px;
+    background: var(--acid);
+    border-radius: 2px 0 0 2px;
+  }
+
+  /* Sidebar */
+  .sidebar {
+    grid-row: 1 / 2;
+    background: var(--black);
+    border-right: 1px solid #1a1a1a;
+    padding: 28px 20px;
+    overflow-y: auto;
+    scrollbar-width: none;
+  }
+  .sidebar::-webkit-scrollbar { display: none; }
+
+  .sidebar-label {
+    font-size: 9px;
+    letter-spacing: 3px;
+    color: var(--dim);
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    margin-top: 28px;
+  }
+  .sidebar-label:first-child { margin-top: 0; }
+
+  .playlist-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 8px;
+    border-radius: 6px;
+    cursor: none;
+    transition: background 0.15s;
+    position: relative;
+  }
+  .playlist-item:hover { background: #111; }
+  .playlist-item.playing { background: #0e1500; }
+
+  .track-thumb {
+    width: 40px; height: 40px;
+    border-radius: 4px;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+  }
+  .track-thumb-bg {
+    width: 100%; height: 100%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 18px;
+  }
+
+  .track-info { flex: 1; min-width: 0; }
+  .track-name {
+    font-size: 12px;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: var(--white);
+  }
+  .track-artist {
+    font-size: 11px;
+    color: var(--dim);
+    margin-top: 2px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .playing-bars {
+    display: flex; gap: 2px; align-items: flex-end;
+    height: 16px;
+  }
+  .bar {
+    width: 3px;
+    background: var(--acid);
+    border-radius: 1px;
+    animation: bounce 0.8s ease-in-out infinite;
+  }
+  .bar:nth-child(1) { height: 8px; animation-delay: 0s; }
+  .bar:nth-child(2) { height: 14px; animation-delay: 0.15s; }
+  .bar:nth-child(3) { height: 10px; animation-delay: 0.3s; }
+  @keyframes bounce {
+    0%, 100% { transform: scaleY(0.4); }
+    50% { transform: scaleY(1); }
+  }
+
+  .track-duration { font-size: 10px; color: var(--dim); }
+
+  /* Main content */
+  .main {
+    grid-column: 3;
+    grid-row: 1;
+    padding: 32px 36px;
+    overflow-y: auto;
+    scrollbar-width: none;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+  }
+  .main::-webkit-scrollbar { display: none; }
+
+  .top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .page-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 48px;
+    letter-spacing: 2px;
+    line-height: 1;
+    color: var(--white);
+  }
+  .page-title span { color: var(--acid); }
+
+  .top-actions { display: flex; gap: 12px; align-items: center; }
+
+  .btn {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: none;
+    transition: all 0.15s;
+  }
+  .btn-acid { background: var(--acid); color: var(--black); }
+  .btn-acid:hover { transform: translateY(-1px); box-shadow: 0 6px 20px rgba(204,255,0,0.3); }
+  .btn-ghost { background: transparent; color: var(--white); border: 1px solid #333; }
+  .btn-ghost:hover { border-color: var(--acid); color: var(--acid); }
+
+  .avatar {
+    width: 36px; height: 36px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--pink), var(--cyan));
+    display: flex; align-items: center; justify-content: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--black);
+    border: 2px solid var(--grey2);
+  }
+
+  /* Featured now playing */
+  .featured {
+    background: var(--grey);
+    border: 1px solid #222;
+    border-radius: 12px;
+    padding: 28px;
+    display: grid;
+    grid-template-columns: 160px 1fr;
+    gap: 28px;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .featured::before {
+    content: 'NOW PLAYING';
+    position: absolute;
+    top: 20px; right: 20px;
+    font-size: 9px;
+    letter-spacing: 4px;
+    color: var(--acid);
+  }
+  .featured-glow {
+    position: absolute;
+    top: -60px; right: -60px;
+    width: 220px; height: 220px;
+    background: radial-gradient(circle, rgba(204,255,0,0.08) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  /* Vinyl record */
+  .vinyl {
+    width: 160px; height: 160px;
+    position: relative;
+  }
+  .vinyl-disk {
+    width: 100%; height: 100%;
+    border-radius: 50%;
+    background: repeating-radial-gradient(
+      circle at 50% 50%,
+      #111 0px, #1a1a1a 2px, #111 4px, #0d0d0d 6px
+    );
+    animation: spin 4s linear infinite;
+    position: relative;
+    box-shadow: 0 0 40px rgba(0,0,0,0.8), inset 0 0 20px rgba(0,0,0,0.5);
+  }
+  @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+  .vinyl-label {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 52px; height: 52px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #1a2e00, #3a5900);
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: var(--acid);
+    z-index: 1;
+  }
+  .vinyl-hole {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px; height: 10px;
+    border-radius: 50%;
+    background: var(--black);
+    z-index: 2;
+  }
+  .vinyl-shine {
+    position: absolute;
+    top: 8px; left: 8px;
+    width: 60px; height: 60px;
+    border-radius: 50%;
+    background: radial-gradient(ellipse at 30% 30%, rgba(255,255,255,0.05), transparent);
+    pointer-events: none;
+  }
+
+  .featured-info { flex: 1; }
+  .featured-genre {
+    font-size: 10px;
+    letter-spacing: 3px;
+    color: var(--cyan);
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  .featured-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 42px;
+    line-height: 0.95;
+    letter-spacing: 1px;
+    color: var(--white);
+    margin-bottom: 6px;
+  }
+  .featured-artist {
+    font-size: 13px;
+    color: var(--dim);
+    margin-bottom: 20px;
+  }
+
+  /* Waveform */
+  .waveform {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    height: 48px;
+    margin-bottom: 12px;
+  }
+  .wave-bar {
+    flex: 1;
+    background: #333;
+    border-radius: 1px;
+    cursor: none;
+    transition: background 0.1s;
+    position: relative;
+  }
+  .wave-bar.played { background: var(--acid); }
+  .wave-bar.current { background: var(--cyan); }
+  .wave-bar:hover { background: var(--acid); opacity: 0.8; }
+
+  /* Progress */
+  .progress-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+  .progress-track {
+    flex: 1;
+    height: 3px;
+    background: #333;
+    border-radius: 2px;
+    position: relative;
+    cursor: none;
+  }
+  .progress-fill {
+    height: 100%;
+    background: var(--acid);
+    border-radius: 2px;
+    width: 38%;
+    position: relative;
+  }
+  .progress-fill::after {
+    content: '';
+    position: absolute;
+    right: -4px; top: -4px;
+    width: 11px; height: 11px;
+    background: var(--white);
+    border-radius: 50%;
+    box-shadow: 0 0 8px rgba(204,255,0,0.5);
+  }
+  .time-label { font-size: 11px; color: var(--dim); }
+
+  /* Controls */
+  .controls {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .ctrl-btn {
+    background: none;
+    border: none;
+    color: var(--dim);
+    cursor: none;
+    font-size: 20px;
+    transition: color 0.15s;
+    display: flex; align-items: center;
+  }
+  .ctrl-btn:hover { color: var(--white); }
+  .ctrl-btn.play-btn {
+    width: 50px; height: 50px;
+    background: var(--acid);
+    color: var(--black);
+    border-radius: 50%;
+    font-size: 18px;
+    display: flex; align-items: center; justify-content: center;
+    transition: all 0.15s;
+  }
+  .ctrl-btn.play-btn:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 24px rgba(204,255,0,0.4);
+  }
+  .ctrl-btn.active { color: var(--cyan); }
+
+  /* Stats row */
+  .stats-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+  }
+  .stat-card {
+    background: var(--grey);
+    border: 1px solid #1e1e1e;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    transition: border-color 0.2s;
+  }
+  .stat-card:hover { border-color: #333; }
+  .stat-card::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 2px;
+  }
+  .stat-card:nth-child(1)::after { background: var(--acid); }
+  .stat-card:nth-child(2)::after { background: var(--cyan); }
+  .stat-card:nth-child(3)::after { background: var(--pink); }
+  .stat-card:nth-child(4)::after { background: #FF9900; }
+
+  .stat-label {
+    font-size: 9px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--dim);
+    margin-bottom: 8px;
+  }
+  .stat-value {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 36px;
+    line-height: 1;
+    letter-spacing: 1px;
+  }
+  .stat-card:nth-child(1) .stat-value { color: var(--acid); }
+  .stat-card:nth-child(2) .stat-value { color: var(--cyan); }
+  .stat-card:nth-child(3) .stat-value { color: var(--pink); }
+  .stat-card:nth-child(4) .stat-value { color: #FF9900; }
+  .stat-sub { font-size: 11px; color: var(--dim); margin-top: 4px; }
+
+  /* Recent grid */
+  .section-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 16px;
+  }
+  .section-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: var(--white);
+  }
+  .see-all { font-size: 11px; letter-spacing: 2px; color: var(--dim); cursor: none; text-decoration: none; }
+  .see-all:hover { color: var(--acid); }
+
+  .albums-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 14px;
+  }
+  .album-card {
+    cursor: none;
+  }
+  .album-art {
+    aspect-ratio: 1;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    margin-bottom: 8px;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.2s;
+  }
+  .album-card:hover .album-art { transform: translateY(-3px); }
+  .album-art-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    display: flex; align-items: center; justify-content: center;
+    opacity: 0;
+    transition: opacity 0.2s;
+    font-size: 24px;
+  }
+  .album-card:hover .album-art-overlay { opacity: 1; }
+  .album-name { font-size: 12px; color: var(--white); margin-bottom: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .album-meta { font-size: 10px; color: var(--dim); }
+
+  /* Player bar */
+  .player-bar {
+    grid-column: 2 / 4;
+    background: var(--grey);
+    border-top: 1px solid #222;
+    display: flex;
+    align-items: center;
+    padding: 0 32px;
+    gap: 24px;
+  }
+
+  .mini-vinyl {
+    width: 52px; height: 52px;
+    border-radius: 50%;
+    background: repeating-radial-gradient(circle at 50% 50%, #111 0px, #1a1a1a 1px, #111 2px, #0d0d0d 3px);
+    animation: spin 4s linear infinite;
+    flex-shrink: 0;
+    position: relative;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .mini-vinyl::after {
+    content: '';
+    width: 16px; height: 16px;
+    border-radius: 50%;
+    background: #1a2e00;
+    position: absolute;
+  }
+
+  .bar-track { flex: 1; min-width: 0; }
+  .bar-title { font-size: 13px; color: var(--white); font-weight: 500; }
+  .bar-artist { font-size: 11px; color: var(--dim); }
+  .bar-progress {
+    width: 100%;
+    height: 2px;
+    background: #333;
+    border-radius: 1px;
+    margin-top: 8px;
+    position: relative;
+  }
+  .bar-fill { height: 100%; background: var(--acid); border-radius: 1px; width: 38%; }
+
+  .bar-controls { display: flex; gap: 16px; align-items: center; }
+  .bar-btn { background: none; border: none; color: var(--dim); cursor: none; font-size: 16px; transition: color 0.15s; }
+  .bar-btn:hover { color: var(--white); }
+  .bar-btn.bar-play {
+    width: 38px; height: 38px;
+    background: var(--acid);
+    color: var(--black);
+    border-radius: 50%;
+    font-size: 14px;
+    display: flex; align-items: center; justify-content: center;
+  }
+
+  .bar-vol { display: flex; align-items: center; gap: 8px; }
+  .vol-icon { font-size: 14px; color: var(--dim); }
+  .vol-slider {
+    -webkit-appearance: none;
+    width: 80px; height: 3px;
+    background: linear-gradient(to right, var(--acid) 70%, #333 70%);
+    border-radius: 2px;
+    cursor: none;
+    outline: none;
+  }
+  .vol-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 10px; height: 10px;
+    border-radius: 50%;
+    background: var(--white);
+    cursor: none;
+  }
+
+  /* Entry animations */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(16px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .featured { animation: fadeUp 0.5s ease forwards; }
+  .stats-row { animation: fadeUp 0.5s 0.1s ease both; }
+  .albums-grid { animation: fadeUp 0.5s 0.2s ease both; }
+</style>
+</head>
+<body>
+
+<div class="cursor" id="cursor"></div>
+
+<!-- Icon Nav -->
+<nav class="icon-nav">
+  <div class="logo-mark">PSE</div>
+  <div class="nav-icon active" title="Home">⌂</div>
+  <div class="nav-icon" title="Search">◎</div>
+  <div class="nav-icon" title="Library">≡</div>
+  <div class="nav-icon" title="Radio">◉</div>
+  <div class="nav-icon" title="Charts">↑</div>
+  <div style="flex:1"></div>
+  <div class="nav-icon" title="Settings">⚙</div>
+</nav>
+
+<!-- Sidebar -->
+<aside class="sidebar">
+  <div class="sidebar-label">Queue</div>
+
+  <div class="playlist-item playing">
+    <div class="track-thumb"><div class="track-thumb-bg" style="background:linear-gradient(135deg,#0a1f00,#1a3d00)">🎵</div></div>
+    <div class="track-info">
+      <div class="track-name">Ultraviolet</div>
+      <div class="track-artist">SOPHIE</div>
+    </div>
+    <div class="playing-bars"><div class="bar"></div><div class="bar"></div><div class="bar"></div></div>
+  </div>
+
+  <div class="playlist-item">
+    <div class="track-thumb"><div class="track-thumb-bg" style="background:linear-gradient(135deg,#1a0020,#3d0055)">🎸</div></div>
+    <div class="track-info">
+      <div class="track-name">Neon Cathedral</div>
+      <div class="track-artist">Moderat</div>
+    </div>
+    <div class="track-duration">4:12</div>
+  </div>
+
+  <div class="playlist-item">
+    <div class="track-thumb"><div class="track-thumb-bg" style="background:linear-gradient(135deg,#001a1a,#003333)">🎹</div></div>
+    <div class="track-info">
+      <div class="track-name">Cascade</div>
+      <div class="track-artist">Four Tet</div>
+    </div>
+    <div class="track-duration">6:44</div>
+  </div>
+
+  <div class="playlist-item">
+    <div class="track-thumb"><div class="track-thumb-bg" style="background:linear-gradient(135deg,#1a1000,#3d2800)">🥁</div></div>
+    <div class="track-info">
+      <div class="track-name">Rhythm & Grime</div>
+      <div class="track-artist">Burial</div>
+    </div>
+    <div class="track-duration">5:58</div>
+  </div>
+
+  <div class="playlist-item">
+    <div class="track-thumb"><div class="track-thumb-bg" style="background:linear-gradient(135deg,#1a001a,#400040)">🎤</div></div>
+    <div class="track-info">
+      <div class="track-name">Spectral</div>
+      <div class="track-artist">Actress</div>
+    </div>
+    <div class="track-duration">7:03</div>
+  </div>
+
+  <div class="sidebar-label">Liked</div>
+
+  <div class="playlist-item">
+    <div class="track-thumb"><div class="track-thumb-bg" style="background:linear-gradient(135deg,#0d1a00,#1a3300)">🎷</div></div>
+    <div class="track-info">
+      <div class="track-name">Sable</div>
+      <div class="track-artist">Floating Points</div>
+    </div>
+    <div class="track-duration">9:20</div>
+  </div>
+
+  <div class="playlist-item">
+    <div class="track-thumb"><div class="track-thumb-bg" style="background:linear-gradient(135deg,#001215,#00282d)">🎻</div></div>
+    <div class="track-info">
+      <div class="track-name">Fold</div>
+      <div class="track-artist">Clark</div>
+    </div>
+    <div class="track-duration">4:37</div>
+  </div>
+
+  <div class="playlist-item">
+    <div class="track-thumb"><div class="track-thumb-bg" style="background:linear-gradient(135deg,#15001a,#300040)">🎺</div></div>
+    <div class="track-info">
+      <div class="track-name">Drift</div>
+      <div class="track-artist">Bonobo</div>
+    </div>
+    <div class="track-duration">5:15</div>
+  </div>
+</aside>
+
+<!-- Main -->
+<main class="main">
+  <div class="top-bar">
+    <div class="page-title">YOUR <span>MIX</span></div>
+    <div class="top-actions">
+      <button class="btn btn-ghost">◎ Discover</button>
+      <button class="btn btn-acid">▶ Play All</button>
+      <div class="avatar">JD</div>
+    </div>
+  </div>
+
+  <!-- Now Playing -->
+  <div class="featured">
+    <div class="featured-glow"></div>
+    <div class="vinyl">
+      <div class="vinyl-disk">
+        <div class="vinyl-label">PSE</div>
+        <div class="vinyl-hole"></div>
+        <div class="vinyl-shine"></div>
+      </div>
+    </div>
+    <div class="featured-info">
+      <div class="featured-genre">Electronic · Hyperpop</div>
+      <div class="featured-title">Ultra-<br>violet</div>
+      <div class="featured-artist">SOPHIE — Oil of Every Pearl's Un-Insides</div>
+
+      <div class="waveform" id="waveform"></div>
+
+      <div class="progress-row">
+        <span class="time-label">1:47</span>
+        <div class="progress-track"><div class="progress-fill"></div></div>
+        <span class="time-label">4:38</span>
+      </div>
+
+      <div class="controls">
+        <button class="ctrl-btn active">⇄</button>
+        <button class="ctrl-btn">⏮</button>
+        <button class="ctrl-btn play-btn">⏸</button>
+        <button class="ctrl-btn">⏭</button>
+        <button class="ctrl-btn">↻</button>
+        <div style="flex:1"></div>
+        <button class="ctrl-btn active">♡</button>
+        <button class="ctrl-btn">⊕</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Stats -->
+  <div class="stats-row">
+    <div class="stat-card">
+      <div class="stat-label">Tracks Played</div>
+      <div class="stat-value">2,847</div>
+      <div class="stat-sub">+124 this week</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Hours Listened</div>
+      <div class="stat-value">184h</div>
+      <div class="stat-sub">Top 2% globally</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Artists</div>
+      <div class="stat-value">312</div>
+      <div class="stat-sub">Across 28 genres</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Streak</div>
+      <div class="stat-value">47d</div>
+      <div class="stat-sub">Personal best 🔥</div>
+    </div>
+  </div>
+
+  <!-- Albums -->
+  <div>
+    <div class="section-head">
+      <div class="section-title">Recently Played</div>
+      <a class="see-all">See All →</a>
+    </div>
+    <div class="albums-grid">
+      <div class="album-card">
+        <div class="album-art" style="background:linear-gradient(135deg,#0a1f00,#2a5200,#3d7a00)">
+          🎵
+          <div class="album-art-overlay">▶</div>
+        </div>
+        <div class="album-name">Oil of Every Pearl</div>
+        <div class="album-meta">SOPHIE · 2018</div>
+      </div>
+      <div class="album-card">
+        <div class="album-art" style="background:linear-gradient(135deg,#00101a,#002233,#003d5c)">
+          🌊
+          <div class="album-art-overlay">▶</div>
+        </div>
+        <div class="album-name">Immunity</div>
+        <div class="album-meta">Jon Hopkins · 2013</div>
+      </div>
+      <div class="album-card">
+        <div class="album-art" style="background:linear-gradient(135deg,#1a001a,#400040,#5c005c)">
+          🌙
+          <div class="album-art-overlay">▶</div>
+        </div>
+        <div class="album-name">Untrue</div>
+        <div class="album-meta">Burial · 2007</div>
+      </div>
+      <div class="album-card">
+        <div class="album-art" style="background:linear-gradient(135deg,#1a1000,#3d2800,#5c3c00)">
+          🔥
+          <div class="album-art-overlay">▶</div>
+        </div>
+        <div class="album-name">Versions</div>
+        <div class="album-meta">Moderat · 2009</div>
+      </div>
+      <div class="album-card">
+        <div class="album-art" style="background:linear-gradient(135deg,#001515,#003030,#004a4a)">
+          ✦
+          <div class="album-art-overlay">▶</div>
+        </div>
+        <div class="album-name">Crush</div>
+        <div class="album-meta">Four Tet · 2023</div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<!-- Player Bar -->
+<div class="player-bar">
+  <div class="mini-vinyl"></div>
+  <div class="bar-track">
+    <div class="bar-title">Ultraviolet</div>
+    <div class="bar-artist">SOPHIE</div>
+    <div class="bar-progress"><div class="bar-fill"></div></div>
+  </div>
+  <div class="bar-controls">
+    <button class="bar-btn">⏮</button>
+    <button class="bar-btn bar-play">⏸</button>
+    <button class="bar-btn">⏭</button>
+  </div>
+  <div class="bar-vol">
+    <span class="vol-icon">♪</span>
+    <input type="range" class="vol-slider" min="0" max="100" value="70">
+  </div>
+</div>
+
+<script>
+  // Custom cursor
+  const cursor = document.getElementById('cursor');
+  document.addEventListener('mousemove', e => {
+    cursor.style.left = e.clientX + 'px';
+    cursor.style.top = e.clientY + 'px';
+  });
+
+  // Generate waveform
+  const wf = document.getElementById('waveform');
+  const heights = [20,35,55,42,28,60,48,38,65,50,32,58,44,72,40,56,30,62,47,38,68,52,25,60,45,35,70,48,30,55,42,58,36,64,50,28,66,44,38,72,30,55,48,34,60,46,28,65,40,52];
+  heights.forEach((h, i) => {
+    const bar = document.createElement('div');
+    bar.className = 'wave-bar' + (i < 19 ? ' played' : i === 19 ? ' current' : '');
+    bar.style.height = h + '%';
+    wf.appendChild(bar);
+  });
+</script>
+</body>
+</html>
