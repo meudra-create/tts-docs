@@ -68,7 +68,7 @@ features:
     - title: 'Languages'
       description: 'Support multiple languages.'
       icon: 'i-material-symbols-language'
-    - title: "Livre AES"
-      description: "L'Alliance des États du Sahel — Livre géopolitique sur les juntes sahéliennes, Kemi Seba et la rupture avec la France."
+    - title: "La paix, on peut l'éviter"
+      description: "Livre géopolitique sur l'Alliance des États du Sahel, Kemi Seba et la rupture souveraine avec l'ordre postcolonial."
       icon: 'i-heroicons-book-open'
       to: '/livre-aes/synopsis-et-plan'
