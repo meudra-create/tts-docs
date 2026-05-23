@@ -68,3 +68,7 @@ features:
     - title: 'Languages'
       description: 'Support multiple languages.'
       icon: 'i-material-symbols-language'
+    - title: "La paix, on peut l'éviter"
+      description: "Livre géopolitique sur l'Alliance des États du Sahel, Kemi Seba et la rupture souveraine avec l'ordre postcolonial."
+      icon: 'i-heroicons-book-open'
+      to: '/livre-aes/synopsis-et-plan'
