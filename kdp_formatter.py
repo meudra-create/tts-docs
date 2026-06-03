@@ -14,8 +14,8 @@ from docx.oxml import OxmlElement
 import copy
 
 # ─── Paths ────────────────────────────────────────────────────────────────────
-SRC = '/home/user/tts-docs/PEACE_WE_CAN_PREVENT_IT_EN_4.docx'
-OUT = '/home/user/tts-docs/PEACE_KDP_6x9.docx'
+SRC = '/home/user/tts-docs/PEACE_WE_CAN_PREVENT_IT_EN_5.docx'
+OUT = '/home/user/tts-docs/PEACE_KDP_6x9_v2.docx'
 
 # ─── Colours ──────────────────────────────────────────────────────────────────
 NAVY  = RGBColor(0x1a, 0x1a, 0x2e)
