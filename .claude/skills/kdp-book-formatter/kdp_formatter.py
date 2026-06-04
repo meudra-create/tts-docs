@@ -300,18 +300,28 @@ def add_page_number(section):
 
     para = footer.add_paragraph()
     para.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    run = para.add_run()
-    run.font.name = FOOTER_FONT
-    run.font.size = FOOTER_SIZE
+    para.paragraph_format.space_before = Pt(6)
+    para.paragraph_format.space_after  = Pt(0)
 
-    fld_begin = OxmlElement("w:fldChar")
-    fld_begin.set(qn("w:fldCharType"), "begin")
-    instr = OxmlElement("w:instrText")
-    instr.set("{http://www.w3.org/XML/1998/namespace}space", "preserve")
-    instr.text = " PAGE "
-    fld_end = OxmlElement("w:fldChar")
-    fld_end.set(qn("w:fldCharType"), "end")
-    run._r.extend([fld_begin, instr, fld_end])
+    def _run():
+        r = OxmlElement("w:r")
+        rPr = OxmlElement("w:rPr")
+        fonts = OxmlElement("w:rFonts")
+        fonts.set(qn("w:ascii"), FOOTER_FONT)
+        fonts.set(qn("w:hAnsi"), FOOTER_FONT)
+        rPr.append(fonts)
+        sz = OxmlElement("w:sz")
+        sz.set(qn("w:val"), str(int(FOOTER_SIZE.pt * 2)))
+        rPr.append(sz)
+        r.append(rPr)
+        return r
+
+    # 5-run PAGE field structure required by Word for reliable rendering
+    r1 = _run(); fc = OxmlElement("w:fldChar"); fc.set(qn("w:fldCharType"), "begin");    r1.append(fc); para._p.append(r1)
+    r2 = _run(); it = OxmlElement("w:instrText"); it.set("{http://www.w3.org/XML/1998/namespace}space", "preserve"); it.text = " PAGE \\* ARABIC "; r2.append(it); para._p.append(r2)
+    r3 = _run(); fc = OxmlElement("w:fldChar"); fc.set(qn("w:fldCharType"), "separate"); r3.append(fc); para._p.append(r3)
+    r4 = _run(); t  = OxmlElement("w:t");  t.text = "1";                                  r4.append(t);  para._p.append(r4)
+    r5 = _run(); fc = OxmlElement("w:fldChar"); fc.set(qn("w:fldCharType"), "end");       r5.append(fc); para._p.append(r5)
 
 
 def apply_headers_footers(doc):
