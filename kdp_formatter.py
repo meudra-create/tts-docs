@@ -49,6 +49,32 @@ KEYWORDS_PARTIE    = ['PARTIE', 'ÉPILOGUE', 'EPILOGUE', 'PROLOGUE',
                       'INTRODUCTION', 'AVANT-PROPOS', 'CONCLUSION']
 KEYWORDS_LIMINAIRE = ['AVANT-PROPOS', 'AVANT PROPOS', 'SOMMAIRE',
                       'PROLOGUE', 'INTRODUCTION', 'ÉPILOGUE', 'EPILOGUE']
+# Page de copyright : à exclure du formatage corps/retrait
+MARKERS_COPYRIGHT  = ['©', 'ISBN', 'Dépôt légal', 'Tous droits réservés',
+                      'Kindle Direct Publishing', 'autorisation écrite',
+                      'Première édition', 'Format : 15,24']
+
+
+def est_copyright(txt):
+    return any(m in txt for m in MARKERS_COPYRIGHT)
+
+
+# ─────────────────────────────────────────────────────────────
+# Détection dynamique de la plage du sommaire
+# ─────────────────────────────────────────────────────────────
+
+def get_sommaire_range(paras):
+    """Plage [start, end] du sommaire : du titre SOMMAIRE au premier Heading 1."""
+    start = end = None
+    for i, p in enumerate(paras):
+        if start is None and p.text.strip() == 'SOMMAIRE':
+            start = i + 1
+            continue
+        if start is not None and p.style.name == 'Heading 1':
+            end = i - 1
+            break
+    return (start if start is not None else 47,
+            end if end is not None else 155)
 
 
 # ─────────────────────────────────────────────────────────────
@@ -191,12 +217,13 @@ def apply_heading2(doc):
 
 def apply_liminaires(doc):
     paras = doc.paragraphs
+    som_start, som_end = get_sommaire_range(paras)
     count = 0
     for i, p in enumerate(paras):
         txt = p.text.strip()
         if not txt or p.style.name in ('Heading 1', 'Heading 2'):
             continue
-        if 47 <= i <= 155:   # intérieur sommaire → ignorer
+        if som_start <= i <= som_end:   # intérieur sommaire → ignorer
             continue
         upper = txt.upper()
         if any(kw in upper for kw in KEYWORDS_LIMINAIRE) and len(txt) < 80:
@@ -345,9 +372,10 @@ def apply_etoiles(doc):
 
 def apply_sommaire(doc):
     paras = doc.paragraphs
+    som_start, som_end = get_sommaire_range(paras)
     n_partie = n_chap = 0
     for i, p in enumerate(paras):
-        if i < 47 or i > 155:
+        if i < som_start or i > som_end:
             continue
         txt = p.text.strip()
         if not txt:
@@ -409,6 +437,8 @@ def apply_corps(doc):
             continue
         if txt.startswith(('«', '—', '–')) or '★' in txt:
             continue
+        if est_copyright(txt):
+            continue
         if p.style.name in ('Normal', 'Body Text', '') \
                 or p.style.name.startswith('Normal'):
             p.alignment          = WD_ALIGN_PARAGRAPH.JUSTIFY
@@ -427,6 +457,7 @@ def apply_corps(doc):
 
 def apply_retrait(doc):
     paras = doc.paragraphs
+    som_start, som_end = get_sommaire_range(paras)
     count = 0
     skip_next = False
     for i, p in enumerate(paras):
@@ -436,13 +467,16 @@ def apply_retrait(doc):
         txt = p.text.strip()
         if not txt:
             continue
-        if 47 <= i <= 155:
+        if som_start <= i <= som_end:
             skip_next = False
             continue
         if p.style.name in SKIP_STYLES:
             skip_next = False
             continue
         if txt.startswith(('«', '—', '–')) or '★' in txt:
+            skip_next = False
+            continue
+        if est_copyright(txt):
             skip_next = False
             continue
         if any(kw in txt.upper() for kw in KEYWORDS_LIMINAIRE) and len(txt) < 80:
