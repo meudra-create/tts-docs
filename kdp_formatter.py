@@ -75,7 +75,7 @@ def set_spacing_xml(p, before_twips=None, after_twips=None):
         sp.set(qn('w:after'), str(after_twips))
 
 
-def add_border_left(p, sz='32', space='14', color='7B1E1E'):
+def add_border_left(p, sz='24', space='12', color='7B1E1E'):
     pPr = get_or_create_pPr(p)
     old = pPr.find(qn('w:pBdr'))
     if old is not None:
