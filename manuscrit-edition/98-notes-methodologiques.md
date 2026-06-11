@@ -69,7 +69,7 @@ sur un témoignage non recoupé sont signalés comme tels dans le texte. Le lect
 - **BOFiP**, administration fiscale française (17 juillet 2024) — dénonciation des
   conventions fiscales par les États de l'AES.
 
-> ⚠️ Deux citations de dirigeants français qui circulent dans le débat public — la phrase
+> **Note de transparence.** Deux citations de dirigeants français qui circulent dans le débat public — la phrase
 > attribuée à Nicolas Sarkozy sur « la civilisation européenne » et celle prêtée à
 > Charles de Gaulle (1966) sur la francophonie qui « prendrait le relais de la colonisation » —
 > n'ont pas de source primaire vérifiable à ce jour. Elles sont signalées comme telles dans
