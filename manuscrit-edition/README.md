@@ -66,7 +66,21 @@ vigilance à traiter avant publication (voir §6 du rapport éditorial).
 31. [Ce que l'AES doit réussir pour survivre](partie-6/ch31-ce-que-l-aes-doit-reussir.md)
 
 - [Conclusion — La question que l'histoire posera](99-conclusion.md)
+- [Chronologie 1884-2026](97-chronologie.md)
+- [Glossaire des sigles](96-sigles.md)
+- [Index des personnages](95-index.md)
 - [Notes méthodologiques & corpus de sources](98-notes-methodologiques.md)
+
+---
+
+## Fichiers consolidés
+
+| Fichier | Usage |
+|---|---|
+| `LIVRE-FINAL.docx` / `LIVRE-FINAL.pdf` | **Version lecteur** : page de titre, sommaire, appareil complet, annotations éditoriales retirées. Prête à lire / imprimer (format 6×9″). |
+| `LIVRE-FINAL.md` | Source Markdown de la version lecteur. |
+| `MANUSCRIT-COMPLET.docx` / `.md` | **Version de travail** : conserve les marqueurs ⚠️ pour la phase de vérification. |
+| `00-RAPPORT-EDITORIAL.md` | Rapport d'analyse (évaluation, restructuration, corrections). |
 
 ---
 

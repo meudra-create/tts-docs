@@ -79,6 +79,7 @@ BEN–H2O
 - Conclusion — Retour à la villa de Niamey
 - Chronologie — du partage de l'Afrique à l'Alliance des États du Sahel
 - Glossaire des sigles
+- Index des personnages
 - Notes méthodologiques & corpus de sources
 
 * * *
@@ -1864,6 +1865,72 @@ Reste la question que ce livre ne peut pas trancher, parce qu'elle appartient à
 - **SWP** — *Stiftung Wissenschaft und Politik* (Institut allemand pour les affaires internationales et la sécurité)
 - **VDP** — Volontaires pour la défense de la patrie (Burkina Faso)
 - **ZLECAf** — Zone de libre-échange continentale africaine
+
+* * *
+
+# Index des personnages
+
+*Les renvois indiquent les chapitres où chaque figure est citée ou analysée.*
+
+- **Avé, Anne-Sophie** — ancienne ambassadrice de France au Mali; doctrine de la « dissonance cognitive». ch. 14.
+- **Ayissi, Anatole** — journaliste et analyste panafricaniste; cadre des Nations unies pour l'Afrique centrale. ch. 7, ch. 8, ch. 21, ch. 27, ch. 29, ch. 30.
+- **Banda Kani** — analyste panafricaniste camerounais. ch. 3, ch. 10, ch. 12, ch. 14, ch. 19, ch. 20, ch. 25, ch. 30.
+- **Bazoum, Mohamed** — président du Niger (2021-2023), renversé le 26 juillet 2023. ch. 10, ch. 18, ch. 25, ch. 26.
+- **Bokassa, Jean-Bedel** — ancien chef d'État centrafricain installé par la France. ch. 8, ch. 15.
+- **Bongo, Omar** — président du Gabon, figure de la Françafrique. ch. 6.
+- **Bourgi, Robert** — avocat, intermédiaire des « mallettes» de l'Élysée. ch. 6.
+- **Burkhard, Thierry** — chef d'état-major des armées françaises. ch. 15.
+- **Camara, Sadio** — ministre de la Défense du Mali, architecte militaire de l'AES, tué le 25 avril 2026. ch. 14, ch. 16, ch. 20.
+- **Chassaigne, André** — député français, dénonciateur des interventions en Afrique. ch. 3, ch. 8, ch. 13, ch. 15.
+- **Cheikh Anta Diop** — historien et physicien sénégalais (1923-1986). ch. 2, ch. 6.
+- **Chirac, Jacques** — président de la République française (1995-2007). Prologue, ch. 6.
+- **Cissé, Boubou** — ancien Premier ministre du Mali, opposant à la transition. ch. 10, ch. 16.
+- **Cissé, Mariam** — blogueuse malienne assassinée par le JNIM. ch. 24, ch. 26.
+- **Compaoré, Blaise** — président du Burkina Faso (1987-2014), impliqué dans l'assassinat de Sankara. ch. 6, ch. 10, ch. 23.
+- **Damiba, Paul-Henri Sandaogo** — auteur de la première transition burkinabè de janvier 2022. ch. 17.
+- **De Gaulle, Charles** — président français, architecte de la Françafrique. ch. 5, ch. 30.
+- **Dietrich, Thomas** — journaliste d'investigation français. ch. 14, ch. 20.
+- **Diop, Abdoulaye** — ministre des Affaires étrangères du Mali. ch. 10, ch. 19, ch. 22.
+- **Doumbouya, Mamadi** — président de transition de la Guinée. ch. 15, ch. 29.
+- **Déby, Idriss** — président du Tchad, mort en avril 2021. ch. 21.
+- **Déby, Mahamat** — président de transition du Tchad. ch. 21, ch. 30.
+- **Foccart, Jacques** — « Monsieur Afrique» de l'Élysée sous De Gaulle et Pompidou. ch. 5, ch. 6, ch. 13.
+- **Gbagbo, Laurent** — ancien président de la Côte d'Ivoire. ch. 6, ch. 14.
+- **Goïta, Assimi** — président de la transition du Mali. ch. 4, ch. 16, ch. 19, ch. 20, ch. 25, ch. 26, ch. 27, ch. 29.
+- **Granvaud, Raphaël** — chercheur de l'association Survie, auteur de De l'huile sur le feu. ch. 5, ch. 13, ch. 14, ch. 15, ch. 26.
+- **Hollande, François** — président français (2012-2017), initiateur de Serval. ch. 13, ch. 15.
+- **Iyad Ag Ghali** — émir du JNIM. ch. 13, ch. 20, ch. 21.
+- **Juillet, Alain** — ancien directeur du renseignement de la DGSE. ch. 15.
+- **Kaboré, Roch Marc Christian** — président du Burkina Faso renversé en janvier 2022. ch. 10, ch. 17, ch. 25.
+- **Kadhafi, Mouammar** — dirigeant libyen (1969-2011). ch. 7, ch. 11, ch. 28.
+- **Keïta, Ibrahim Boubacar (IBK)** — président du Mali renversé en août 2020. ch. 16, ch. 25.
+- **Keïta, Modibo** — premier président du Mali indépendant (1960-1968). ch. 5, ch. 7, ch. 19, ch. 21, ch. 22.
+- **Le Floch-Prigent, Loïk** — ancien PDG d'Elf. ch. 6.
+- **Lissouba, Pascal** — ancien président du Congo-Brazzaville. ch. 6.
+- **Lumumba, Patrice** — premier Premier ministre du Congo, assassiné en 1961. ch. 5, ch. 9, ch. 20, ch. 21, ch. 22.
+- **Macron, Emmanuel** — président de la République française. ch. 7, ch. 10, ch. 13, ch. 14, ch. 15, ch. 17, ch. 18, ch. 20, ch. 21, ch. 30, ch. 31.
+- **Mansa Moussa** — empereur du Mali au XIVe siècle. ch. 1.
+- **Maïga, Choguel Kokalla** — ancien Premier ministre du Mali. ch. 10, ch. 12, ch. 13, ch. 16, ch. 17, ch. 20, ch. 25, ch. 26, ch. 31.
+- **Medvedev, Dmitri** — responsable russe, dénonciateur du franc CFA à l'UNESCO. ch. 29.
+- **Mobutu Sese Seko** — dictateur du Zaïre (1965-1997). ch. 6, ch. 10.
+- **Mohamedou, Mohammad-Mahmoud Ould** — professeur de relations internationales à Genève. Introduction, ch. 10, ch. 12, ch. 13, ch. 16, ch. 31.
+- **Nkrumah, Kwame** — premier président du Ghana, théoricien du panafricanisme. ch. 3, ch. 5, ch. 7, ch. 11, ch. 21, ch. 22.
+- **Nyamsi, Franklin** — philosophe franco-camerounais. ch. 8, ch. 24.
+- **Olympio, Sylvanus** — premier président du Togo, assassiné en 1963. ch. 5, ch. 7, ch. 22, ch. 28.
+- **Ouattara, Alassane** — président de la Côte d'Ivoire. ch. 10, ch. 16, ch. 20, ch. 23.
+- **Perkins, John** — auteur de Confessions of an Economic Hit Man. ch. 9.
+- **Samory Touré** — fondateur de l'empire Wassoulou, résistant à la colonisation. ch. 4, Conclusion.
+- **Sankara, Thomas** — président du Burkina Faso (1983-1987), figure du panafricanisme. ch. 7, ch. 9, ch. 10, ch. 17, ch. 20, ch. 21, ch. 23, ch. 24, ch. 25, ch. 26, ch. 28, ch. 29, Conclusion.
+- **Sarkozy, Nicolas** — président français (2007-2012). ch. 6, ch. 11, ch. 14, ch. 25.
+- **Soro, Guillaume** — ancien chef rebelle ivoirien. ch. 10.
+- **Sékou Touré, Ahmed** — premier président de la Guinée, auteur du « non» de 1958. ch. 5, ch. 7, ch. 9, ch. 22, ch. 23, ch. 28, Conclusion.
+- **Talon, Patrice** — président du Bénin. ch. 9, ch. 10, ch. 20.
+- **Tiani, Abdourahamane** — président de la transition du Niger, chef du CNSP. Introduction, ch. 5, ch. 6, ch. 7, ch. 10, ch. 12, ch. 14, ch. 16, ch. 17, ch. 18, ch. 19, ch. 20, ch. 21, ch. 25, ch. 28, ch. 29, ch. 30, Conclusion.
+- **Touadéra, Faustin-Archange** — président de la République centrafricaine. ch. 28.
+- **Traoré, Ibrahim** — président de la transition du Burkina Faso. ch. 4, ch. 9, ch. 12, ch. 13, ch. 14, ch. 17, ch. 19, ch. 23, ch. 27, ch. 30.
+- **Turpin, Frédéric** — historien, biographe de Jacques Foccart. ch. 5, ch. 6, ch. 13.
+- **Yamb, Nathalie** — analyste géopolitique panafricaniste. ch. 5, ch. 8, ch. 9, ch. 10, ch. 13, ch. 14, ch. 16, ch. 18, ch. 21, ch. 22, ch. 23, ch. 24, ch. 25, ch. 26, ch. 29, ch. 30, ch. 31.
+- **Yusov, Andriy** — porte-parole du renseignement militaire ukrainien. ch. 20.
 
 * * *
 
