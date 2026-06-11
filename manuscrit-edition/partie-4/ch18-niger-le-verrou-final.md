@@ -1,0 +1,46 @@
+# Chapitre 18 — Niger : le verrou final
+
+*« Il n'est plus question que nos États soient la vache à lait de la France. » — Général Abdourahamane Tiani, RTN, 12 février 2024*
+
+Niamey, 26 juillet 2023. Au petit matin, la garde présidentielle nigérienne place le président Mohamed Bazoum en résidence surveillée, au cœur même du palais. Le général Abdourahamane Tiani, chef de cette garde, prend la tête du Conseil national pour la sauvegarde de la patrie. En quelques heures, la réaction internationale atteint une intensité jamais vue pour les transitions précédentes : menaces d'intervention militaire de la CEDEAO, sanctions immédiates, frontières fermées, électricité coupée. Pourquoi tant de fureur pour ce pays-ci ? La réponse tient en un mot : le Niger est le dernier verrou.
+
+**Ce que l'Occident perdait avec le Niger (juillet 2023)**
+- Base aérienne de Niamey : environ 1 500 soldats français
+- Base 201 d'Agadez : environ 1 000 soldats américains et des drones Reaper MQ-9 — la seule base de drones américains en Afrique de l'Ouest
+- Uranium : 35 % des importations françaises d'uranium concentré (2020)
+- Accord UE-Niger de 2015 sur les flux migratoires transsahariens — le verrou migratoire de l'Europe
+- La dernière grande base arrière occidentale au Sahel après les départs du Mali et du Burkina
+
+Perdre le Niger, c'était perdre d'un coup l'intégralité du dispositif sahélien occidental. C'est exactement ce qui va se produire — et sans qu'une seule goutte de sang soit versée.
+
+## Le C-17 qui rebrousse chemin
+
+La première démonstration de souveraineté a lieu dans le ciel. Le 3 août 2023, un Boeing C-17A Globemaster de l'armée américaine décolle de Ramstein, en Allemagne, direction Niamey. Au-dessus de l'Algérie, il fait demi-tour : le CNSP lui a refusé l'atterrissage. Avant même que les accords de défense soient officiellement dénoncés, la souveraineté de l'espace aérien nigérien s'affirme dans les faits. En d'autres termes, le nouveau pouvoir ne négocie pas le principe — il le pratique, et laisse aux juristes le soin de constater.
+
+La suite est une retraite ordonnée des deux plus grandes armées du monde occidental. Décembre 2023 : départ des soldats français. Printemps 2024 : fermeture de la base 201 américaine. Nathalie Yamb, lors du grand débat télévisé de Niamey, donne à l'événement sa dimension historique : « Aucun pays dans le monde, à part le Vietnam, n'a réussi à faire dégager l'armée française et l'armée américaine en même temps, coup sur coup, sans avoir à faire couler une goutte de sang. C'est extraordinaire. L'histoire le retiendra pour des siècles et des siècles. »
+
+## Le dossier d'Agadez : l'accord que les Nigériens n'avaient pas le droit de connaître
+
+C'est en partant que les Américains laissent derrière eux la pièce la plus accablante du dossier. En mars 2024, le CNSP expose publiquement les termes de l'accord de stationnement des forces américaines au Niger — des termes que les Nigériens n'avaient jamais eu le droit de connaître. L'accord avait été imposé unilatéralement au président Mahamadou Issoufou en 2012, sans consultation de l'Assemblée nationale, sans débat public, sans mandat populaire (communiqué du CNSP, RTN, 16 mars 2024).
+
+Le contenu est d'une violence institutionnelle rarement exposée aussi crûment. Le Niger payait les taxes des avions militaires américains, dont les États-Unis auraient normalement dû s'acquitter eux-mêmes. Les autorités nigériennes n'avaient aucune information sur les activités militaires menées depuis les bases installées sur leur propre territoire. Et l'armée américaine n'avait aucune obligation contractuelle d'appui contre les groupes terroristes qui massacraient les populations nigériennes. Plus de 1 100 soldats, trois emprises, plusieurs centaines de millions de dollars par an depuis 2012 — dont la base de drones d'Agadez, présentée dans la presse américaine spécialisée comme « la base de drones la plus chère jamais construite par les États-Unis ».
+
+Concrètement, cela signifie qu'un pays souverain hébergeait, finançait en partie et protégeait juridiquement une infrastructure militaire étrangère qui ne lui devait rien — pas même de défendre ses habitants contre les tueries qui justifiaient officiellement sa présence. Officiellement, Agadez était un outil de lutte contre le terrorisme. Réellement, c'était une plateforme de surveillance de toute la bande sahélo-saharienne : les flux migratoires vers l'Europe, les mouvements russes et chinois en Afrique centrale et occidentale. La sécurité des Nigériens n'était pas l'objectif ; elle était le prétexte. Quand le CNSP exige le départ des forces américaines en 2024, Washington perd sa fenêtre stratégique sur tout le Sahel central — une perte de capacité de renseignement sans équivalent dans la présence militaire américaine en Afrique de l'Ouest. Et la question dépasse le Niger : un président élu, présenté comme un démocrate modèle par Paris et Washington, avait accepté tout cela dans le dos de son propre parlement.
+
+## Reprendre le sous-sol : Imouraren
+
+La rupture militaire s'accompagne d'une rupture extractive, pilotée par le Premier ministre Ali Mahaman Lamine Zeine — un nom absent des grands titres occidentaux, qui incarne pourtant la face technocratique du projet : gérer un État sous sanctions, reconstruire les finances publiques, renégocier les contrats. En 2024, le CNSP rompt les contrats d'exploitation d'uranium conclus avec Orano — l'ex-Areva — sur le site d'Imouraren, dans le nord du pays. Ce gisement est l'un des plus importants au monde ; son exploitation était suspendue depuis 2014 par la France pour des raisons de rentabilité. La décision de 2024 clôt le dossier et rapatrie la souveraineté sur ce sous-sol à Niamey. Rien de symbolique là-dedans : une opération juridique et économique irréversible.
+
+Les chiffres donnent la mesure de l'enjeu. Le Niger détient à lui seul environ 5 % des réserves mondiales d'uranium — quelque 310 000 tonnes, dont les 200 000 tonnes du méga-gisement d'Imouraren, deuxième réserve mondiale. Le gisement d'Arlit alimentait les centrales nucléaires françaises depuis 1971 ; la France tirait environ 15 % de son uranium de la zone sahélienne avant la transition. Pendant ce demi-siècle d'exploitation, le Niger est resté 189e sur 191 pays à l'indice de développement humain (PNUD, 2023). Le pays qui éclairait la France restait dans le noir — on l'a vu au chapitre 8. Les chiffres sont le procès.
+
+Et la rupture paie, vite : les recettes pétrolières du Niger bondissent de 218 % entre 2020 (64,1 milliards de FCFA) et 2024 (204 milliards), tandis que la couverture des besoins domestiques passe de 20 % à 60 % (ministre Sahabi Oumarou, 24 février 2025).
+
+## Le discours du 12 février 2024
+
+Reste à dire la doctrine. Le 12 février 2024, Tiani prononce sur la télévision nationale un discours d'une heure et demie qui structure l'architecture intellectuelle de la rupture nigérienne. Il y formule ce qui n'avait jamais été dit à ce niveau de responsabilité : « Il n'est plus question que nos États soient la vache à lait de la France. La France nous a pillés pendant 107 ans. La France doit payer cash les dettes de 65 ans de pillage systématique des ressources » (RTN, 12 février 2024).
+
+Dans le même discours, il retourne l'argument de l'ancienneté morale : la France cesse d'être un royaume en 1789 ; à cette date, l'empire Songhaï avait cessé d'exister comme entité prospère depuis 1591, et le sultanat du Bornou avait perdu son influence dès 1774. La France n'a aucune antériorité morale sur le Sahel — elle y est venue après. Tiani rapporte enfin une déclaration que Macron aurait faite lors d'une réunion multinationale d'août 2023 consacrée au Niger : « Le Niger ne vous appartient pas. Le Niger appartient à la France. Ce n'est pas à vous de proposer quelque solution que ce soit. » ⚠️[À SOURCER : propos rapporté par Tiani seul, non confirmé indépendamment] Si elle est exacte, cette phrase condense en deux lignes toute la logique de domination que ce livre documente.
+
+Les ruptures s'enchaînent ensuite avec une régularité qui ne doit rien au hasard : retrait de la CEDEAO en janvier 2024, retrait de l'Organisation internationale de la Francophonie en mars 2025 — en pleine semaine de la Francophonie —, suspension des médias français en mai 2026. Chaque étape rend la précédente irréversible. Quant au sort de Mohamed Bazoum et à ce que ses propres déclarations révèlent du système qu'il servait, on y reviendra en détail au chapitre 25.
+
+Mali, Burkina Faso, Niger : les trois verrous ont sauté en trois ans. Trois ruptures nationales, encore séparées, encore vulnérables. Il restait à en faire une seule force — et cela se joue à Bamako, un matin de septembre 2023, autour d'une table et d'un texte de quelques pages.

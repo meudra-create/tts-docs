@@ -1,0 +1,54 @@
+# Chapitre 9 — L'aide, la dette, les assassins financiers
+
+*« L'aide publique au développement est une arnaque qui sert surtout à donner bonne conscience aux donateurs, qui savent très bien l'utilisation tordue que nos chefs d'État font de cet argent. »*
+— Nathalie Yamb, chronique Afrique Résurrection, novembre 2022
+
+Léopoldville, 30 juin 1960. Le Congo célèbre son indépendance. Le nouvel État compte, ce jour-là, seize diplômés de l'enseignement supérieur pour quatorze millions d'habitants. Pas un médecin. Pas un ingénieur. Pas un agronome. Et dans la corbeille de l'indépendance, la Belgique dépose un cadeau : les dettes qu'elle a elle-même contractées pour coloniser et exploiter le pays (CADTM / Éric Toussaint). Le Congo naît endetté du prix de sa propre servitude.
+
+Il n'y a aucune fatalité de la pauvreté dans cette scène. Il y a du pillage organisé, suivi d'une facture. Ce chapitre raconte comment la facture est devenue un système.
+
+## La dette odieuse : un concept juridique, pas un slogan
+
+La doctrine juridique a un nom pour cela : la « dette odieuse ». Le juriste Alexandre Sack la définit dès 1927 — les dettes contractées pour coloniser et asservir une population ne sont pas à la charge des peuples victimes. Concrètement, cela signifie qu'un peuple n'a pas à rembourser l'argent emprunté pour forger ses propres chaînes. Le principe n'a rien de théorique : le Traité de Versailles l'avait appliqué dès 1919 au profit de la Pologne, exonérée des dettes allemandes de colonisation. La Banque mondiale a pourtant violé ce principe en finançant les administrations coloniales belge, française et britannique, puis en transférant ces dettes aux États devenus indépendants.
+
+L'Afrique a formulé sa réponse dès 1993 : la première Conférence panafricaine sur les réparations, réunie à Abuja, proclame l'annulation des dettes coloniales, des réparations financières, la restitution des biens culturels volés et une représentation accrue de l'Afrique dans les instances internationales. Trente ans plus tard, les pays européens commencent timidement à restituer des objets. Pour le reste, silence.
+
+Un précédent prouve pourtant que la voie existe. En 2008, l'Équateur de Rafael Correa conduit un audit citoyen de sa dette — autrement dit, un examen public, ligne par ligne, de qui a prêté quoi, à qui, et pour quoi faire — et refuse de rembourser 70 % des montants jugés illégitimes. Les créanciers acceptent. Ce modèle est applicable. Il a été appliqué (Mariam Tamousang, Afrophique / CADTM).
+
+## L'aide comme thermomètre de l'obéissance
+
+L'aide publique au développement est l'instrument le plus sophistiqué de la domination — non parce qu'elle est massive, elle est relativement modeste, mais parce qu'elle est présentée comme de la générosité alors qu'elle est un levier. Nathalie Yamb le décrit précisément : l'APD est principalement composée de prêts, pas de dons. Des prêts conditionnés à l'ouverture des marchés, au maintien du franc CFA, aux votes favorables dans les institutions internationales. Détail qui ruine à lui seul le récit de la générosité : selon les données mêmes de la Banque mondiale, les transferts d'argent des migrants africains vers leurs pays dépassent de très loin l'aide officielle — la diaspora finance davantage l'Afrique que tous les « donateurs » réunis, on y reviendra au chapitre 24.
+
+La meilleure preuve que l'aide est un instrument politique ? Sa courbe épouse exactement celle de l'obéissance.
+
+**ENCADRÉ — Aide française au Mali : chronologie d'un chantage**
+- 2017-2021 : 587 millions d'euros au total (385 milliards FCFA)
+- 2018-2019 : montant multiplié par sept (de 30 à 205 millions d'euros) — les années où Bamako obéit
+- 2020-2021 : montant divisé par trois (de 110 à 39 millions d'euros) — les années de résistance
+- Août 2022 : expulsion de Barkhane — suspension de l'aide
+- Novembre 2022 : suspension totale
+- La variabilité du montant est un thermomètre de l'obéissance politique
+
+La Centrafrique illustre le mécanisme dans sa forme la plus crue. L'aide budgétaire internationale y représente, selon les années, 46 à 69 milliards de FCFA — jusqu'à 46 % du budget national (ministre des Finances Hervé Ndoba, 2022). Quand la France suspend son aide en 2021 pour forcer le départ de Wagner, elle pose explicitement trois conditions à la reprise : arrêt de la « désinformation », arrêt du « harcèlement des entreprises françaises », départ de Wagner (sources de l'ambassade de France à Bangui, Oubangui Médias, septembre 2021). Et la « désinformation », dans cette grammaire, se définit comme toute information défavorable aux intérêts français.
+
+Le cas du pipeline Niger-Bénin montre toutefois que le monopole de la pression s'effrite. Le Niger veut exporter son pétrole par le port de Cotonou ; la Chine (CNPC) a avancé 400 millions de dollars dans le projet ; Patrice Talon bloque les chargements sous pression française ; Pékin presse en retour ; Talon fait rapidement marche arrière (Yamb, analyses 2024-2026). La leçon est structurelle : dès qu'il n'y a plus de dominant unique, des marges de manœuvre apparaissent. C'est précisément ce que l'AES cherche à institutionnaliser.
+
+## Les confessions d'un assassin financier
+
+Pour comprendre l'étage supérieur du système, il faut écouter un homme qui en fut l'un des rouages. John Perkins a passé des décennies comme « assassin financier » — Economic Hit Man, EHM — au service de ce qu'il appelle la « corporatocratie » : la symbiose entre gouvernements occidentaux, multinationales et institutions financières internationales. Son témoignage, *Confessions of an Economic Hit Man* (2004), décrit de l'intérieur un système qui utilise le FMI et la Banque mondiale non comme des outils de développement, mais comme des armes de conquête économique.
+
+La mécanique est d'une précision diabolique. Un pays riche en ressources — le Niger et son uranium, le Congo et son coltan, l'Angola et son pétrole — se voit proposer un grand prêt pour financer une infrastructure : centrale, port, autoroute. Les études économiques promettent une croissance qui remboursera tout. Ces prévisions sont délibérément gonflées ; elles ne sont jamais tenues. « L'argent ne quittait jamais réellement les États-Unis, raconte Perkins. Il allait directement de Washington aux caisses de Bechtel, Halliburton, Brown & Root. Les pays recevaient des dettes. Les multinationales recevaient des contrats. »
+
+Quelques années plus tard, quand le pays fait défaut — ce qui était prévu dès le début —, le FMI et la Banque mondiale arrivent avec leurs « ajustements structurels ». En d'autres termes : en échange d'un rééchelonnement de la dette, le pays doit privatiser ses entreprises publiques, ouvrir ses marchés, tailler dans la santé et l'éducation, brader l'accès à ses ressources — et parfois accorder des bases militaires ou des votes à l'ONU. « La souveraineté est hypothéquée, écrit Perkins. C'est le contrat. » La dette n'est pas un accident du système. Elle est le système : la continuation de la colonisation par d'autres instruments.
+
+L'institutionnalisation a un visage : Robert McNamara, l'ancien secrétaire américain à la Défense qui a géré la guerre du Vietnam, prend la tête de la Banque mondiale en 1968. Sous sa direction, les prêts passent de 13 à 100 milliards de dollars entre 1968 et 1981. Pas par humanisme — par stratégie. Les modèles mathématiques habillent la rapacité en science. Les résultats humains sont documentés : en Équateur, après des décennies de projets financés par ce système, le taux de pauvreté est passé de 50 % à 70 % pendant que la dette explosait, et l'Amazonie héritait de milliards de litres de brut déversés en toute impunité.
+
+Et quand un dirigeant résiste ? Perkins décrit la hiérarchie des recours : « Lorsque les EHM échouent à convaincre un dirigeant récalcitrant, les chacals prennent le relais. Et si les chacals échouent, c'est l'armée. Nous avons toujours un dernier recours. » Les « chacals » : les spécialistes des renversements et des accidents mortels. Lumumba, Sankara, Sékou Touré — l'histoire africaine est jalonnée de dirigeants qui ont refusé d'entrer dans le système, on a commencé à raconter leurs destins au chapitre 5. Ce n'est pas une théorie du complot. C'est un modèle d'action décrit par l'un de ses propres exécutants.
+
+## La grille de lecture du Sahel — et la réponse des tracteurs
+
+Appliquée au Sahel, cette grille éclaire tout. Pourquoi le Niger, parmi les premiers producteurs mondiaux d'uranium, figure-t-il parmi les pays les plus pauvres de la planète ? Pourquoi le Mali, avec son or, son coton, ses fleuves, a-t-il été maintenu sous perfusion d'aide ? Parce que le système n'est pas conçu pour développer. Il est conçu pour extraire, endetter et contrôler. La rupture de l'AES avec la CEDEAO, le FMI et la zone franc n'est pas une régression vers le chaos : c'est la sortie consciente d'un piège que Perkins a contribué à construire avant de le dénoncer.
+
+La réponse burkinabè aux suspensions d'aide donne la mesure du changement d'époque. Le 25 mai 2025, le capitaine Ibrahim Traoré remet aux agriculteurs du Faso des équipements d'une valeur de 104 milliards de FCFA : 1 102 motoculteurs, 608 tracteurs, 485 motopompes, 935 cages flottantes, près de 67 millions de doses de médicaments vétérinaires. Cela, après la suspension totale de l'aide française d'août 2024. Là où l'on attendait la famine punitive, des tracteurs. La souveraineté ne se mendie pas. Elle s'équipe.
+
+Mais les prêts, les chacals et les armées n'expliquent pas tout : pour qu'un tel système tienne six décennies, il lui faut des relais à l'intérieur même des sociétés africaines — des institutions, des mots, des hommes — et c'est ce maillage invisible qu'il faut maintenant démonter.
