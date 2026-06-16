@@ -1,0 +1,59 @@
+# Chapitre 13 — Serval, Barkhane et leurs limites
+
+*« Il faut rester, il faut le faire savoir, il faut exiger du Vietnam qu'il se donne à fond à cette lutte. À ce prix, la victoire est assurée. » — Jacques Foccart, 1955, après Dien Bien Phu (Turpin, 2015)*
+
+Tombouctou, 2 février 2013. François Hollande s'avance dans une ville libérée trois jours plus tôt, porté par une foule en liesse qui scande son nom. « Je viens sans doute de vivre la journée la plus importante de ma vie politique », dira-t-il. Les images sont magnifiques. Elles sont aussi, à s'y méprendre, la reprise d'un script déjà joué : le 1er mai 2003, George W. Bush atterrissait sur le porte-avions USS Abraham Lincoln pour proclamer « mission accomplie » en Irak. Le chercheur Mohammad-Mahmoud Ould Mohamedou a superposé les deux séquences : identification d'une cible, urgence construite, diplomatie de façade, fait militaire précédant la demande officielle, voyage triomphal du chef d'État dans le pays « libéré ». Nulle improvisation. Un système (Mohamedou, in *La Guerre au Mali*, La Découverte, 2013).
+
+## Le péché originel juridique de Serval
+
+Commençons par ce qui est le moins connu. L'opération Serval, lancée le 11 janvier 2013 pour stopper la descente des colonnes jihadistes vers Bamako, est justifiée par Hollande au titre de l'article 51 de la Charte de l'ONU — la légitime défense collective. Concrètement, ce mécanisme permet à un État agressé par un autre État d'appeler des alliés à son secours. Or le Mali n'était agressé par aucun État étranger : il affrontait des groupes armés sur son propre sol. L'argument était fabriqué.
+
+L'enquête de Raphaël Granvaud (*De l'huile sur le feu*, Lux Éditeur, 2024) va plus loin : la fameuse lettre malienne demandant l'intervention a été réécrite. Le président par intérim Dioncounda Traoré — lui-même installé sous pression de la CEDEAO, sans légitimité électorale — sollicite d'abord un simple appui aérien. Les diplomates français retouchent le courrier pour permettre le déploiement de troupes au sol. Et le calendrier achève la démonstration : les bombardements français commencent dans l'après-midi du 11 janvier 2013 ; la réponse officielle de Hollande à la demande malienne intervient après les frappes. L'intervention était décidée avant d'être demandée. La demande a été produite pour habiller ce qui était déjà en cours.
+
+## La guerre secrète d'avant la guerre
+
+Ce n'est pas tout. La France faisait la guerre au Sahel bien avant Serval — en secret. Granvaud documente un « plan Sahel » élaboré dès 2008-2009, avant même les attaques de grande ampleur au Mali, avec un volet clandestin : l'opération Sabre. Fin 2009, un premier détachement de forces spéciales s'installe sur la base d'Atar, en Mauritanie. Début 2010, des formateurs arrivent au Mali. En octobre 2010, une base permanente du Commandement des opérations spéciales est établie sur l'aéroport de Ouagadougou — le Burkina acceptant ce que le Mali avait refusé. Tout cela sans débat démocratique, ni en France ni en Afrique. Révélée par la presse en août 2012, l'existence de Sabre est niée par le Quai d'Orsay (Granvaud, 2024). La clandestinité n'est pas une pudeur : c'est l'aveu qu'une opération ne résisterait pas à un examen public.
+
+Dès la fin des années 1990, d'ailleurs, écrit Granvaud, alors que les combattants du GSPC se replient vers le Niger puis le nord du Mali, « les services secrets français ont renforcé leurs équipes locales dans toute la région. Les objectifs : collecter des renseignements et procéder à des assassinats ciblés de djihadistes, réalisés par des agents du Service action de la DGSE ou par des proxy, c'est-à-dire des relais locaux au sein de certains groupes touareg. »
+
+Le précédent mauritanien dit la vraie doctrine. En août 2008, le général Mohamed Ould Abdel Aziz renverse le président élu Sidi Ould Cheikh Abdallahi. Il était chargé de la lutte antiterroriste et bénéficiait de l'assistance d'agents de la DGSE. Le regard « incroyablement, étrangement bienveillant de la France » envers ce régime — selon un journaliste français cité par Granvaud — se traduit par un renforcement immédiat de la coopération militaire. La leçon vaut pour toute la période : Paris ne choisit pas ses partenaires africains selon le critère démocratique qu'il invoquera contre l'AES, mais selon le critère de l'obéissance. Un militaire qui prend le pouvoir et coopère est légitimé ; un militaire qui prend le pouvoir et rompt devient une menace à l'« ordre constitutionnel ».
+
+## Barkhane : les chiffres du verdict
+
+En août 2014, Serval devient Barkhane. Le dispositif s'étend sur cinq pays.
+
+**Barkhane en chiffres**
+- Zone d'opération : 5 millions de km² — dix fois la France
+- Effectifs : jusqu'à 5 500 hommes
+- Coût : environ 1 milliard d'euros par an, soit 1,3 milliard de francs CFA par jour ; plus de 5 milliards cumulés entre 2014 et 2022 (Cour des comptes, 2020)
+- Résultat : nombre d'attaques jihadistes multiplié par trois entre 2014 et 2021 (ACLED, 2022)
+
+Cinq milliards d'euros. Neuf ans. La menace triple. Il n'y a que deux explications possibles : soit les armées françaises sont incompétentes — ce que la communication officielle dément avec véhémence —, soit la mission n'était pas celle qu'on annonçait. La seconde hypothèse a des preuves.
+
+Première preuve : Kidal. Pendant toute la décennie, l'armée française interdit de fait aux Forces armées maliennes de réoccuper le nord de leur propre pays. Choguel Kokalla Maïga le dénonce à la tribune de l'ONU en septembre 2021 : abandon en plein vol, interdiction faite aux FAMa d'occuper le nord, la force européenne Takuba comme instrument de partition, sanctuarisation délibérée des terroristes. On le traite alors de complotiste. En mai 2026, une source sécuritaire française confirmera sur RTL l'existence d'une guerre par procuration contre le Mali — on y reviendra. Le complotiste de 2021 est devenu l'analyste prophétique de 2026.
+
+Deuxième preuve : Gao, 2014. L'armée française tient Iyad Ag Ghali à portée de frappe. François Hollande stoppe l'opération « pour ne pas fâcher l'Algérie » ⚠️[À SOURCER : source journalistique unique]. Ag Ghali est aujourd'hui l'émir du JNIM, responsable du blocus de Bamako en 2025. La décision de 2014 a un bilan.
+
+Troisième preuve : l'aveu de Macron lui-même, au sommet du G5 Sahel de juillet 2017 : « Il faut mettre des projets, il faut de la gouvernance, parce que sinon dès qu'on arrête un groupe terroriste, il arrive à réactiver des jeunes parce qu'il n'y a pas d'espoir. » Et : « On a payé le prix de la mauvaise gouvernance politique. On est resté trop longtemps dans une posture de soutien sans que ça bouge sur les projets et la rénovation démocratique. » Il dira aussi : « Il n'y aurait sans doute pas à coup sûr le Mali comme État unique si on n'était pas intervenu en 2013. » Autrement dit : Serval a sauvé l'État malien, mais dès 2017, le président français sait que Barkhane échoue sur l'essentiel. Il la maintient sept ans de plus.
+
+Sur le terrain, le bilan se mesure en routes coupées. Ibrahim Traoré, depuis Ouagadougou : « Quand ils ont quitté, Bobo et Ouaga étaient coupées. On ne pouvait plus circuler sur la RN16. Les terroristes étaient à 100 kilomètres de Koudougou. Tout était encerclé. Ils étaient là avec tous les hélicoptères, les chars, la technologie, les drones, les satellites — ils étaient incapables. » Et cette pointe : « Neuf ans — la France n'a pas donné un seul hélicoptère au Mali. Aujourd'hui, vous voyez le nombre d'aéronefs que nous avons pu accueillir en moins de deux ans sur nos ressources propres, au moment où le pays est sous sanction et embargo. » (Capitaine Ibrahim Traoré, président du Faso.)
+
+## Le prix du sang, comptabilité véritable
+
+Reste l'argument ultime de Paris : le sacrifice. En 2025, le ministre des Armées Sébastien Lecornu déclare au Figaro qu'il est « profondément navrant » de voir le terrorisme resurgir au Sahel après tant d'efforts — sous-entendu, après le sang versé des 58 soldats français morts au Sahel. Ce chiffre mérite un examen mort par mort. Nathalie Yamb l'a fait, en s'appuyant exclusivement sur les données publiées par le ministère français des Armées lui-même.
+
+**Les 58 morts de Barkhane : la décomposition (données du ministère français des Armées, compilées par N. Yamb, 2025)**
+- 43 décès par accident ou hors combat : collisions de véhicules, accidents de route, arrêts cardiorespiratoires, réparations qui tournent mal — l'un meurt en réparant un réfrigérateur à N'Djaména, un autre écrasé par la cabine d'un camion ; six ne sont même pas classés « Morts pour la France » par la France elle-même
+- 13 morts dans la collision de deux hélicoptères français, à la suite d'un différend interne entre équipes
+- 2 tués par leurs propres camarades
+- 15 morts au combat réels
+
+Quinze morts au combat. Pour la France — pas pour le Mali, pas pour le Niger, pas pour le Burkina. Et ce chiffre est inférieur au bilan d'une seule frappe française : le 3 janvier 2021, à Bounti, dans la région de Mopti, l'aviation française frappe un rassemblement. L'enquête de la MINUSMA conclut qu'il s'agissait d'un mariage et dénombre 22 morts, dont 19 civils. Le ministère des Armées maintient sa version et tente de discréditer le rapport onusien.
+
+Si l'on veut vraiment parler de sacrifice, élargissons le cadre : des centaines de milliers de tirailleurs dits « sénégalais » sont morts pour la France lors des deux guerres mondiales. Le 1er décembre 1944, au camp de Thiaroye, l'armée française a tiré sur ses propres soldats africains qui réclamaient leurs soldes. Leur sacrifice n'a pas de ministre pour en parler au Figaro. La comptabilité du sang est à géométrie variable : exhaustive côté français, invisible côté africain.
+
+Une dernière observation de Yamb mérite d'être méditée. Quand les Américains quittent l'Afghanistan en août 2021, leurs soldats rentrent chez eux. Quand la France quitte le Mali en août 2022, ses troupes se redéploient au Niger, au Tchad, en Côte d'Ivoire. Nulle démobilisation. Une relocalisation (Yamb, 15 août 2022). Une armée que l'on ne peut pas ramener chez soi n'est pas une armée de libération ; c'est une armée d'occupation qui change de base.
+
+Et après le retrait officiel, la guerre de l'ombre continue : les affaires Quignolot en Centrafrique et Vésilier à Bamako — deux agents français arrêtés en pleine activité clandestine, on les retrouvera plus loin — prouvent que le départ n'a jamais été total. Le député André Chassaigne, lui, a fait les comptes à l'Assemblée nationale : l'intervention en Centrafrique fin 2013 était la cinquantième intervention militaire française en Afrique subsaharienne depuis les indépendances. Cinquante interventions. En soixante ans. Aucune n'a produit de stabilité durable. Mohamedou nomme le résultat « désacralisation de la souveraineté » : on déclare un État « failli », on intervient pour le « réparer », on le laisse plus instable qu'avant, puis on réintervient. Pour le dire simplement, la souveraineté des États africains a cessé d'être une frontière sacrée pour devenir une porte battante.
+
+Foccart, en 1955, exigeait de rester au Vietnam et de le faire savoir ; on connaît la suite. Soixante ans plus tard, le discours sur Barkhane était identique mot pour mot — et le résultat aussi. Mais cette guerre perdue sur le terrain, la France allait tenter de la gagner ailleurs : dans les rédactions, sur les réseaux sociaux, dans les rapports d'ONG et les prétoires internationaux.
