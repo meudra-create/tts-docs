@@ -6,7 +6,7 @@ BEN–H2O
 
 — 2026 —
 
-❦
+★ ★ ★
 
 © 2026 BEN–H2O — Tous droits réservés.
 
@@ -20,7 +20,7 @@ BEN–H2O
 — Thomas Sankara, discours à l'ONU, 4 octobre 1984
 
 
-* * *
+★ ★ ★
 
 # Sommaire
 
@@ -82,7 +82,7 @@ BEN–H2O
 - Index des personnages
 - Notes méthodologiques & corpus de sources
 
-* * *
+★ ★ ★
 
 # Avant-propos — Méthode, sources et limites
 
@@ -102,7 +102,7 @@ Enfin, les limites. Une partie des événements racontés ici — les attaques d
 
 Tout commence dans une villa de Niamey, devant un tableau blanc où quelqu'un a écrit cinq mots.
 
-* * *
+★ ★ ★
 
 # Prologue — La villa de Niamey
 
@@ -124,7 +124,7 @@ La paix des cimetières a été imposée trop longtemps. La paix juste reste à 
 
 Mais avant de juger ceux qui ont fermé la villa, il faut comprendre ce qu'ils ont brisé — et pourquoi personne n'avait osé le faire avant eux.
 
-* * *
+★ ★ ★
 
 # Introduction — Pourquoi l'AES change tout
 
@@ -146,11 +146,11 @@ Sa démonstration repose sur un principe simple, déjà exposé dans l'avant-pro
 
 Mais soixante ans ne suffisent pas. Le mensonge que l'AES affronte est plus vieux que la Françafrique: c'est l'idée que l'Afrique n'aurait pas d'histoire. Pour le démonter, il faut commencer bien avant 1960 — au temps où un empereur sahélien pouvait, en traversant une ville étrangère, faire s'effondrer le cours mondial de l'or.
 
-* * *
+★ ★ ★
 
 # PARTIE I — L'AFRIQUE AVANT LA DOMINATION
 
-* * *
+★ ★ ★
 
 # PARTIE I — L'AFRIQUE AVANT LA DOMINATION
 
@@ -158,7 +158,7 @@ Mais soixante ans ne suffisent pas. Le mensonge que l'AES affronte est plus vieu
 
 Avant les cartes de Berlin, avant les colonnes coloniales, avant la « mission civilisatrice», il y avait des États. Des empires qui taxaient les caravanes, des universités qui attiraient des milliers d'étudiants, des chartes qui proclamaient la sacralité de la vie humaine, des souverains dont la richesse faisait trembler les marchés du Caire. Cette partie raconte ce que l'idéologie coloniale a eu besoin d'effacer pour exister: un Sahel qui fut, des siècles durant, un centre du monde. Ce n'est pas de la nostalgie. C'est le socle sans lequel rien de la suite — ni la conquête, ni les résistances, ni la rupture de 2020-2023 — ne peut se comprendre. Car on ne peut pas prétendre « civiliser» un peuple dont on sait qu'il a déjà été au sommet; il fallait donc faire oublier qu'il y avait été.
 
-* * *
+★ ★ ★
 
 # Chapitre 1 — Les grands empires
 
@@ -204,7 +204,7 @@ D'où une dernière donnée, peut-être la plus accablante: ces empires sont abs
 
 Mais la puissance d'une civilisation ne se mesure pas seulement à ses armées et à son or — et c'est dans les bibliothèques de Tombouctou, parmi des centaines de milliers de manuscrits, que le Sahel a laissé sa preuve la plus irréfutable.
 
-* * *
+★ ★ ★
 
 # Chapitre 2 — Les civilisations du Sahel
 
@@ -234,7 +234,7 @@ On peut discuter tel ou tel point de la démonstration de Diop — les spéciali
 
 Une civilisation qui écrit, qui légifère, qui enseigne: voilà ce qui existait. Pour s'en emparer, il ne suffisait pas de la vaincre — il fallait d'abord la nier. C'est exactement ce qu'une quinzaine de diplomates en redingote s'apprêtent à faire, un soir de novembre 1884, dans un salon de Berlin.
 
-* * *
+★ ★ ★
 
 # Chapitre 3 — La conquête coloniale
 
@@ -270,7 +270,7 @@ Car c'est bien de gouvernement qu'il s'agit. La violence coloniale n'est pas un 
 
 Voilà le décor planté à Berlin: un continent nié, découpé, terrorisé. Mais les cartes du chancelier Bismarck avaient oublié un paramètre — les peuples qu'elles découpaient allaient se battre, les armes à la main, pendant des décennies.
 
-* * *
+★ ★ ★
 
 # Chapitre 4 — Les résistances oubliées
 
@@ -309,11 +309,11 @@ La résistance armée du XIXe siècle a fini par être submergée — par la mit
 
 Car c'est là le tour de force que la France s'apprête à réussir en 1960: accorder dix-sept drapeaux, dix-sept hymnes, dix-sept sièges à l'ONU — et ne rien lâcher de l'essentiel; comment cette confiscation a été organisée, c'est l'objet de la deuxième partie de ce livre.
 
-* * *
+★ ★ ★
 
 # PARTIE II — COMMENT LA DÉPENDANCE A ÉTÉ ORGANISÉE
 
-* * *
+★ ★ ★
 
 # PARTIE II — COMMENT LA DÉPENDANCE A ÉTÉ ORGANISÉE
 
@@ -325,7 +325,7 @@ Six chapitres pour en suivre le plan de construction: les indépendances confisq
 
 Nulle improvisation. Une construction.
 
-* * *
+★ ★ ★
 
 # Chapitre 5 — 1960: les indépendances inachevées
 
@@ -377,7 +377,7 @@ L'honnêteté oblige à ajouter l'avertissement de Raphaël Granvaud (2024): la 
 
 Reste à comprendre ce qui, exactement, a été verrouillé en 1960. Pour cela, il faut ouvrir les livres de comptes — car c'est dans les chiffres, bien plus que dans les discours, que le pacte colonial s'est camouflé.
 
-* * *
+★ ★ ★
 
 # Chapitre 6 — Le pacte néocolonial
 
@@ -430,7 +430,7 @@ Il a aussi, désormais, des juges. Le 13 avril 2026, un tribunal français conda
 
 Mallettes, monopoles, cargaisons fantômes: aucun de ces leviers ne tiendrait pourtant sans le verrou central du dispositif — la monnaie elle-même, et c'est elle qu'il faut maintenant regarder en face.
 
-* * *
+★ ★ ★
 
 # Chapitre 7 — Le franc CFA
 
@@ -473,7 +473,7 @@ Que le levier monétaire reste d'actualité, l'année 2026 le confirme. En mai, 
 
 Résumons. Une monnaie née d'un impôt colonial, imprimée en Auvergne, gagée sur des réserves déposées à Paris, dont la sortie a coûté la vie à ceux qui l'ont tentée trop tôt: voilà le socle financier du pacte néocolonial. Mais une monnaie ne verrouille que ce qui a de la valeur — et pour mesurer ce que ce verrou protège exactement, il faut maintenant aller là où la richesse sort de terre: à Arlit, dans le désert nigérien.
 
-* * *
+★ ★ ★
 
 # Chapitre 8 — Les ressources stratégiques
 
@@ -519,7 +519,7 @@ Dès décembre 2013, pourtant, un député français l'avait dit en session plé
 
 Une question demeure, et elle est vertigineuse: comment un pillage aussi documenté a-t-il pu durer six décennies sans provoquer de rupture? Parce qu'on l'a enveloppé dans le plus efficace des camouflages — un mot doux, presque tendre, qui s'appelle « l'aide».
 
-* * *
+★ ★ ★
 
 # Chapitre 9 — L'aide, la dette, les assassins financiers
 
@@ -576,7 +576,7 @@ La réponse burkinabè aux suspensions d'aide donne la mesure du changement d'é
 
 Mais les prêts, les chacals et les armées n'expliquent pas tout: pour qu'un tel système tienne six décennies, il lui faut des relais à l'intérieur même des sociétés africaines — des institutions, des mots, des hommes — et c'est ce maillage invisible qu'il faut maintenant démonter.
 
-* * *
+★ ★ ★
 
 # Chapitre 10 — Les réseaux d'influence
 
@@ -652,17 +652,17 @@ Rappelons-le: l'authenticité de cet enregistrement n'a jamais été officiellem
 
 Voilà donc comment le système tient sans soldats: une pyramide qui formate, un lexique qui maquille, une organisation régionale qui exécute, des élites qui collaborent. Mais que se passe-t-il quand tout cela ne suffit plus — quand un peuple cesse de croire au lexique, quand les relais tombent les uns après les autres, quand les sanctions échouent à faire plier? Alors il reste le premier étage de la pyramide, celui qu'on n'avait jamais vraiment démonté: la guerre — et c'est elle qui s'invite au Sahel, comme va le raconter la Partie III.
 
-* * *
+★ ★ ★
 
 # PARTIE III — LA GUERRE DU SAHEL
 
-* * *
+★ ★ ★
 
 # PARTIE III — LA GUERRE DU SAHEL
 
 Tout commence par une guerre que le Sahel n'a pas déclarée. Elle s'est allumée ailleurs — dans le ciel de Libye, au printemps 2011 — avant de descendre vers le sud avec les convois d'armes et les combattants en déroute. Puis elle a changé de visage: groupes armés, opérations militaires étrangères, drones, communiqués, rapports d'ONG, plateaux de télévision. Cette partie raconte cette guerre-là, dans toutes ses dimensions: la destruction de l'État libyen et ce qu'elle a libéré, la fabrique du terrorisme sahélien, dix années d'interventions françaises qui ont vu la menace tripler, la bataille de l'information qui se joue dans les esprits autant que sur le terrain. Et, pour finir, le plus troublant: ce que la France elle-même, dans ses rapports officiels et ses huis clos parlementaires, a fini par admettre.
 
-* * *
+★ ★ ★
 
 # Chapitre 11 — La crise libyenne
 
@@ -700,7 +700,7 @@ Les autorités de transition maliennes résumeront la séquence, onze ans plus t
 
 Encore fallait-il, pour que ces armes deviennent une guerre, qu'elles rencontrent des hommes, des réseaux et une idéologie. Or ceux-là n'attendaient pas en Libye: ils avaient été transplantés au Sahel dix ans plus tôt, depuis l'Algérie — et c'est cette greffe qu'il faut maintenant raconter.
 
-* * *
+★ ★ ★
 
 # Chapitre 12 — L'explosion du terrorisme
 
@@ -747,7 +747,7 @@ Doumbé rappelle aussi l'enjeu qui dort sous le sable: le Niger détient à lui 
 
 C'est précisément au nom de cette instabilité — fabriquée ailleurs, transplantée, armée par l'effondrement libyen — que la France allait, en janvier 2013, lancer la plus longue opération militaire de son histoire récente: il est temps d'en faire l'autopsie.
 
-* * *
+★ ★ ★
 
 # Chapitre 13 — Serval, Barkhane et leurs limites
 
@@ -809,7 +809,7 @@ Et après le retrait officiel, la guerre de l'ombre continue: les affaires Quign
 
 Foccart, en 1955, exigeait de rester au Vietnam et de le faire savoir; on connaît la suite. Soixante ans plus tard, le discours sur Barkhane était identique mot pour mot — et le résultat aussi. Mais cette guerre perdue sur le terrain, la France allait tenter de la gagner ailleurs: dans les rédactions, sur les réseaux sociaux, dans les rapports d'ONG et les prétoires internationaux.
 
-* * *
+★ ★ ★
 
 # Chapitre 14 — La bataille de l'information
 
@@ -864,7 +864,7 @@ Reste l'arme qui relie les quatre fronts. Le 5 juin 2017, l'Arabie saoudite, l'�
 
 Médias, réseaux, ONG, tribunaux: la panoplie est complète, et elle suffirait à elle seule à expliquer la défiance sahélienne. Mais le plus extraordinaire reste à venir — car pour instruire le procès de la politique française en Afrique, nul besoin de ses adversaires: il suffit d'écouter ce que la France, dans ses propres institutions, admet en privé.
 
-* * *
+★ ★ ★
 
 # Chapitre 15 — Ce que la France admet en privé
 
@@ -896,11 +896,11 @@ Rassemblons les pièces. 2008-2009: le plan Sahel est décidé dans le secret. 2
 
 Le réquisitoire était donc rédigé, signé et archivé par la France elle-même; il ne manquait plus que des hommes pour en tirer les conséquences — et c'est très exactement ce qui se produisit, un matin d'août 2020, dans une garnison appelée Kati.
 
-* * *
+★ ★ ★
 
 # PARTIE IV — LA RÉVOLUTION DE LA SOUVERAINETÉ
 
-* * *
+★ ★ ★
 
 # PARTIE IV — LA RÉVOLUTION DE LA SOUVERAINETÉ
 
@@ -912,7 +912,7 @@ Cette partie raconte comment. Non pas une succession d'accidents, mais une const
 
 Tout commence à Kati, dans une caserne malienne, à quatre heures du matin.
 
-* * *
+★ ★ ★
 
 # Chapitre 16 — Mali: la première rupture
 
@@ -954,7 +954,7 @@ Reste la démonstration finale. Le 14 novembre 2023, les Forces armées malienne
 
 La boucle malienne est bouclée — mais la rupture, elle, ne fait que commencer. Car pendant que Bamako reprenait son nord, un capitaine de trente-cinq ans, à Ouagadougou, était en train de transformer la rupture en doctrine.
 
-* * *
+★ ★ ★
 
 # Chapitre 17 — Burkina Faso: la doctrine Traoré
 
@@ -994,7 +994,7 @@ Le contrepoint doit être posé honnêtement: cette transition ne fixe pas de ca
 
 Restait le troisième — le plus stratégique de tous, celui où dormaient les soldats français, les drones américains et l'uranium des centrales nucléaires: le Niger, dernier verrou du dispositif occidental au Sahel.
 
-* * *
+★ ★ ★
 
 # Chapitre 18 — Niger: le verrou final
 
@@ -1043,7 +1043,7 @@ Les ruptures s'enchaînent ensuite avec une régularité qui ne doit rien au has
 
 Mali, Burkina Faso, Niger: les trois verrous ont sauté en trois ans. Trois ruptures nationales, encore séparées, encore vulnérables. Il restait à en faire une seule force — et cela se joue à Bamako, un matin de septembre 2023, autour d'une table et d'un texte de quelques pages.
 
-* * *
+★ ★ ★
 
 # Chapitre 19 — La naissance de l'AES
 
@@ -1082,7 +1082,7 @@ Le 21 décembre 2025, en installant la Force unifiée de l'AES — portée à 15
 
 Un détail de l'exercice Tarha Nakal 2 mérite pourtant qu'on s'y arrête, car il glace rétrospectivement le sang. Le scénario joué à Tillia en mai 2025 était le suivant: une tentative de sécession soutenue par des groupes rebelles bénéficiant d'appuis extérieurs. Onze mois plus tard, presque trait pour trait, ce scénario cessait d'être un exercice.
 
-* * *
+★ ★ ★
 
 # Chapitre 20 — La guerre proxy
 
@@ -1136,7 +1136,7 @@ Puis vient l'aveu. Le 9 mai 2026, sur RTL, George Malbruno rapporte les propos d
 
 La guerre proxy a désormais un nom, des dates, des aveux. Mais elle a aussi une géographie: aucune des attaques de ces années n'aurait été possible sans des sanctuaires, des couloirs et des complaisances chez les voisins de l'AES — et c'est vers eux qu'il faut maintenant tourner le regard.
 
-* * *
+★ ★ ★
 
 # Chapitre 21 — L'environnement régional
 
@@ -1186,17 +1186,17 @@ La guerre du Soudan ainsi alimentée a produit la plus grande crise humanitaire 
 
 Voilà donc l'environnement dans lequel l'alliance doit survivre: un Tchad sous double tutelle, une Algérie qui tire sur ses drones, une Mauritanie qui héberge ses ennemis en monétisant son gaz, des Émirats qui industrialisent la déstabilisation. Face à cet encerclement, l'AES tient — et c'est précisément ce qui oblige à poser une autre question: d'où vient cette capacité de résistance? Pour y répondre, il faut quitter un instant la géopolitique des États et remonter aux sources — car cette rupture vient de loin, de Nkrumah, de Lumumba, de Modibo Keïta, de Sankara: le réveil que le Sahel incarne aujourd'hui, l'Afrique l'avait rêvé, payé et enterré une première fois il y a soixante ans.
 
-* * *
+★ ★ ★
 
 # PARTIE V — LE RÉVEIL PANAFRICAIN
 
-* * *
+★ ★ ★
 
 # PARTIE V — LE RÉVEIL PANAFRICAIN
 
 Jusqu'ici, ce livre a raconté une guerre: celle des armes, des monnaies, des réseaux et des écrans. La partie qui s'ouvre raconte autre chose — une filiation. Car l'Alliance des États du Sahel n'est pas née en 2023 dans une salle de conférence de Bamako. Elle est née en 1957 sur un terrain de polo d'Accra, en 1961 sur une piste du Katanga, en 1962 dans une imprimerie de billets maliens, en 1987 dans la cour de la Maison du Peuple de Ouagadougou. Une première vague de dirigeants africains a tenté l'unité, la monnaie souveraine, l'armée commune. Presque tous l'ont payé du pouvoir ou de la vie. Les chapitres qui suivent remontent ce fil: Nkrumah, Lumumba, Keïta; puis Sankara; puis la génération qui a leurs portraits sur ses téléphones; et enfin l'AES elle-même, examinée pour ce qu'elle prétend être — le laboratoire grandeur nature du panafricanisme. Avec ses promesses. Et avec ses zones d'ombre, qui seront nommées.
 
-* * *
+★ ★ ★
 
 # Chapitre 22 — Nkrumah, Lumumba, Keïta: la première vague
 
@@ -1247,7 +1247,7 @@ Or relisez la Charte du Liptako-Gourma du 16 septembre 2023: union de trois Éta
 
 Entre la première vague et celle-ci, pourtant, un homme a tenté de maintenir la flamme, seul, quatre ans durant, depuis le pays le plus pauvre de la région — et c'est vers lui, vers Ouagadougou, qu'il faut maintenant se tourner.
 
-* * *
+★ ★ ★
 
 # Chapitre 23 — Sankara avait raison
 
@@ -1292,7 +1292,7 @@ Une remarque, formulée par Nathalie Yamb, prend ici tout son poids et reviendra
 
 Mais avant d'y répondre, il faut regarder ceux qui ont ressuscité Sankara: car ce ne sont pas les gouvernements qui ont fait de lui une icône — c'est une génération qui n'était pas née en 1987, qui porte son portrait sur ses téléphones, et dont une jeune fille de Tonka, un jour de novembre, a payé pour savoir ce qu'il en coûte encore de parler librement au Sahel.
 
-* * *
+★ ★ ★
 
 # Chapitre 24 — La jeunesse connectée, la diaspora en première ligne
 
@@ -1327,7 +1327,7 @@ Il faut donc le dire honnêtement: la diaspora peut aussi être influencée, div
 
 Reste l'essentiel. Une génération dont la moitié n'a pas 18 ans, qui a fait de Sankara une icône et de Mariam Cissé une martyre; une diaspora qui envoie plus d'argent que les bailleurs et produit son propre récit: voilà la base sociale du réveil panafricain. Mais une base sociale n'est pas un projet politique. La vraie question — celle que posent les adversaires de l'AES de bonne ou de mauvaise foi, et que ses partisans ne peuvent plus différer — est ailleurs: que vaut, démocratiquement et institutionnellement, ce laboratoire dirigé par des militaires que personne n'a élus? C'est à cette question, sans esquive, qu'est consacré le chapitre suivant.
 
-* * *
+★ ★ ★
 
 # Chapitre 25 — L'AES, laboratoire panafricain
 
@@ -1389,11 +1389,11 @@ Reste la conviction qui anime ce laboratoire, et que Banda Kani formule à sa ma
 
 Le laboratoire est ouvert; ses résultats ne sont pas rendus. Ils dépendent de quatre épreuves très concrètes — vaincre l'insécurité sans reproduire l'injustice, bâtir une économie sans se faire piller, frapper monnaie sans se faire étrangler, choisir des partenaires sans changer de maîtres — et ce sont ces quatre épreuves, les défis de demain, qui occupent la dernière partie de ce livre.
 
-* * *
+★ ★ ★
 
 # PARTIE VI — LES DÉFIS DE DEMAIN
 
-* * *
+★ ★ ★
 
 # PARTIE VI — LES DÉFIS DE DEMAIN
 
@@ -1405,7 +1405,7 @@ L'histoire des ruptures africaines est pleine de commencements. Elle est plus av
 
 Et le premier lendemain porte un nom: la sécurité.
 
-* * *
+★ ★ ★
 
 # Chapitre 26 — Sécurité: vaincre sans trahir
 
@@ -1464,7 +1464,7 @@ Le projet souverain de l'AES ne peut pas être évalué qu'à l'aune de ses adve
 
 Mais aucune armée, fût-elle fédérale, ne gagne une guerre que l'économie perd: c'est dans les champs, les usines et les salles de classe que se joue la suite.
 
-* * *
+★ ★ ★
 
 # Chapitre 27 — Industrialisation et éducation: l'économie de guerre et l'arme des cerveaux
 
@@ -1513,7 +1513,7 @@ Les dirigeants de l'AES l'ont compris, chacun à sa manière: Assimi Goïta fina
 
 La souveraineté économique se construira donc tracteur par tracteur, atelier par atelier, école par école — avant de se construire billet par billet; et c'est précisément du billet qu'il faut maintenant parler.
 
-* * *
+★ ★ ★
 
 # Chapitre 28 — La monnaie: briser la chaîne du CFA
 
@@ -1560,7 +1560,7 @@ La RCA a montré qu'on pouvait défier la chaîne du CFA — et ce qu'il en coû
 
 Mais aucune monnaie ne naît dans le vide: elle naît dans un monde — et ce monde, justement, est en train de changer de maîtres.
 
-* * *
+★ ★ ★
 
 # Chapitre 29 — Le monde multipolaire: partenaires ou nouveaux maîtres?
 
@@ -1610,7 +1610,7 @@ Le verdict de ce tour d'horizon tient donc dans le critère posé en ouverture. 
 
 Mais pendant que l'Alliance choisit ses nouveaux partenaires, l'ancienne puissance, elle, n'a pas disparu: elle se recompose — et c'est cette métamorphose qu'il faut maintenant regarder en face.
 
-* * *
+★ ★ ★
 
 # Chapitre 30 — France-Afrique 2.0: la recomposition de la domination
 
@@ -1654,7 +1654,7 @@ Or l'arrogance est le dernier refuge de ceux qui ont perdu le rapport de force m
 
 Derrière ce mépris de façade, pourtant, il y a autre chose — une peur, profonde et documentée; et c'est en l'anatomisant qu'on découvre ce que l'AES doit réussir pour survivre.
 
-* * *
+★ ★ ★
 
 # Chapitre 31 — Ce que l'AES doit réussir pour survivre
 
@@ -1707,7 +1707,7 @@ L'arrachement a eu lieu. La consolidation reste à faire, et ses critères sont 
 
 Il ne reste plus qu'à revenir là où tout a commencé: dans une villa de Niamey, devant un tableau blanc et cinq mots.
 
-* * *
+★ ★ ★
 
 # Conclusion — Retour à la villa de Niamey
 
@@ -1753,7 +1753,7 @@ Reste la question que ce livre ne peut pas trancher, parce qu'elle appartient à
 
 — Général Tiani, 13 novembre 2025
 
-* * *
+★ ★ ★
 
 # Chronologie — du partage de l'Afrique à l'Alliance des États du Sahel
 
@@ -1821,7 +1821,7 @@ Reste la question que ce livre ne peut pas trancher, parce qu'elle appartient à
 
 **7 juin 2026** — Condamnation de l'agent Yann Vésilier à vingt ans de prison au Mali.
 
-* * *
+★ ★ ★
 
 # Glossaire des sigles
 
@@ -1866,7 +1866,7 @@ Reste la question que ce livre ne peut pas trancher, parce qu'elle appartient à
 - **VDP** — Volontaires pour la défense de la patrie (Burkina Faso)
 - **ZLECAf** — Zone de libre-échange continentale africaine
 
-* * *
+★ ★ ★
 
 # Index des personnages
 
@@ -1932,7 +1932,7 @@ Reste la question que ce livre ne peut pas trancher, parce qu'elle appartient à
 - **Yamb, Nathalie** — analyste géopolitique panafricaniste. ch. 5, ch. 8, ch. 9, ch. 10, ch. 13, ch. 14, ch. 16, ch. 18, ch. 21, ch. 22, ch. 23, ch. 24, ch. 25, ch. 26, ch. 29, ch. 30, ch. 31.
 - **Yusov, Andriy** — porte-parole du renseignement militaire ukrainien. ch. 20.
 
-* * *
+★ ★ ★
 
 # Notes méthodologiques & corpus de sources
 
