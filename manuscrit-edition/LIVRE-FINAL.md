@@ -1,26 +1,20 @@
 LA PAIX, ON PEUT L'ÉVITER
-
 Enquête sur la naissance de l'Alliance des États du Sahel
-
 BEN–H2O
-
 — 2026 —
 
 ★ ★ ★
 
 © 2026 BEN–H2O — Tous droits réservés.
-
-« Un peuple sans connaissance de son histoire, de son origine et de sa culture est comme un arbre sans racines. »
-— Marcus Garvey
-
-« La liberté ne se donne pas, elle se prend. »
-— Frantz Fanon, *Les Damnés de la Terre*, 1961
-
-« Il faut oser inventer l'avenir. »
-— Thomas Sankara, discours à l'ONU, 4 octobre 1984
-
+> « Un peuple sans connaissance de son histoire, de son origine et de sa culture est comme un arbre sans racines. »
+> — Marcus Garvey
+> « La liberté ne se donne pas, elle se prend. »
+> — Frantz Fanon, *Les Damnés de la Terre*, 1961
+> « Il faut oser inventer l'avenir. »
+> — Thomas Sankara, discours à l'ONU, 4 octobre 1984
 
 ★ ★ ★
+
 
 # Sommaire
 
@@ -28,154 +22,77 @@ BEN–H2O
 - Prologue — La villa de Niamey
 - Introduction — Pourquoi l'AES change tout
 
-**PARTIE I — L'AFRIQUE AVANT LA DOMINATION**
-
-- Chapitre 1 — Les grands empires
-- Chapitre 2 — Les civilisations du Sahel
-- Chapitre 3 — La conquête coloniale
-- Chapitre 4 — Les résistances oubliées
-
-**PARTIE II — COMMENT LA DÉPENDANCE A ÉTÉ ORGANISÉE**
-
-- Chapitre 5 — 1960 : les indépendances inachevées
-- Chapitre 6 — Le pacte néocolonial
-- Chapitre 7 — Le franc CFA
-- Chapitre 8 — Les ressources stratégiques
-- Chapitre 9 — L'aide, la dette, les assassins financiers
-- Chapitre 10 — Les réseaux d'influence
-
-**PARTIE III — LA GUERRE DU SAHEL**
-
-- Chapitre 11 — La crise libyenne
-- Chapitre 12 — L'explosion du terrorisme
-- Chapitre 13 — Serval, Barkhane et leurs limites
-- Chapitre 14 — La bataille de l'information
-- Chapitre 15 — Ce que la France admet en privé
-
-**PARTIE IV — LA RÉVOLUTION DE LA SOUVERAINETÉ**
-
-- Chapitre 16 — Mali : la première rupture
-- Chapitre 17 — Burkina Faso : la doctrine Traoré
-- Chapitre 18 — Niger : le verrou final
-- Chapitre 19 — La naissance de l'AES
-- Chapitre 20 — La guerre proxy
-- Chapitre 21 — L'environnement régional
-
-**PARTIE V — LE RÉVEIL PANAFRICAIN**
-
-- Chapitre 22 — Nkrumah, Lumumba, Keïta : la première vague
-- Chapitre 23 — Sankara avait raison
-- Chapitre 24 — La jeunesse connectée, la diaspora en première ligne
-- Chapitre 25 — L'AES, laboratoire panafricain
-
-**PARTIE VI — LES DÉFIS DE DEMAIN**
-
-- Chapitre 26 — Sécurité : vaincre sans trahir
-- Chapitre 27 — Industrialisation et éducation : l'économie de guerre et l'arme des cerveaux
-- Chapitre 28 — La monnaie : briser la chaîne du CFA
-- Chapitre 29 — Le monde multipolaire : partenaires ou nouveaux maîtres ?
-- Chapitre 30 — France-Afrique 2.0 : la recomposition de la domination
-- Chapitre 31 — Ce que l'AES doit réussir pour survivre
-- Conclusion — Retour à la villa de Niamey
-- Chronologie — du partage de l'Afrique à l'Alliance des États du Sahel
-- Glossaire des sigles
-- Index des personnages
-- Notes méthodologiques & corpus de sources
-
 ★ ★ ★
+
 
 # Avant-propos — Méthode, sources et limites
 
 > « Les carottes sont cuites pour la France. Regardez tout simplement ce qui se passe partout en Afrique et regardez la grogne qui ne fait que monter.» — Paul Elvira, Panafrican Média TV, 2 août 2022
-
 Ce livre est une enquête. Elle couvre la période 2013–2026 et s'appuie sur plus de 130 sources d'origines volontairement très différentes: presse française critique et grand public, travaux académiques (Institut de hautes études internationales et du développement de Genève, SWP Berlin), documents officiels des gouvernements de l'Alliance des États du Sahel, médias panafricanistes, presse sahélienne et centrafricaine de terrain, rapports d'institutions internationales — ONU, Cour des comptes française, ACLED, PNUD.
-
 La règle du jeu est simple, et elle ne souffre aucune exception: chaque source est jugée sur ses preuves, pas sur son drapeau. Les médias africains comme Ndjoni Sango, Oubangui Médias ou Vox Africa sont soumis exactement aux mêmes critères que Le Monde ou RTL France. Ce qui compte, c'est la possibilité de vérifier, et le recoupement des faits.
-
 Ce principe de recoupement mérite d'être expliqué, car tout le livre repose sur lui. Concrètement, quand un militant panafricaniste affirme quelque chose, son affirmation reste une hypothèse — engagée, intéressée, à manier avec précaution. Mais quand la même chose est confirmée par l'adversaire lui-même — un rapport parlementaire français, un général à huis clos, une enquête de presse parisienne —, alors elle change de statut. Fait remarquable de cette histoire: sur les points les plus importants, c'est très souvent l'adversaire qui confirme.
-
 Le lecteur doit savoir que certaines des voix citées dans ce livre — Nathalie Yamb, Banda Kani, Franklin Nyamsi et d'autres — sont des acteurs engagés du combat qu'elles décrivent. Cela ne disqualifie pas leur parole; cela l'encadre. Lorsque leurs affirmations sont recoupées par des sources indépendantes ou adverses, le livre le signale. Lorsqu'elles ne le sont pas, elles sont présentées pour ce qu'elles sont: des hypothèses, pas des faits établis. La même prudence s'applique, symétriquement, aux porte-parole officiels français — ambassadeurs, ministère des Armées, Élysée —, qui sont tout autant partie au conflit. La rigueur ne dépend ni de la couleur du passeport ni de l'orientation politique: elle dépend de la position de celui qui parle par rapport aux faits qu'il raconte.
-
 Un mot sur le vocabulaire. Le terme « putsch» n'apparaît pas dans ce livre. C'est un choix de méthode: les changements de pouvoir survenus au Mali, au Burkina Faso et au Niger y sont désignés comme des « transitions militaires», des « prises de pouvoir» ou des « renversements», conformément à la terminologie institutionnelle des pays concernés. Le lecteur jugera sur pièces si ce choix est complaisant — l'auteur assume qu'il est simplement plus exact.
-
 Enfin, les limites. Une partie des événements racontés ici — les attaques du 25 avril 2026, les révélations de RTL du 9 mai 2026, l'affaire Vésilier — sont des faits d'actualité brûlante au moment où ce livre est écrit. Ils sont datés et sourcés avec précision, mais l'histoire récente est par nature révisable: des éléments nouveaux pourront en modifier la lecture. De même, certaines affirmations fortes reposent sur une source unique: le texte les présente alors au conditionnel et en nommant leur origine, plutôt que de les faire passer pour des certitudes. La rigueur n'est pas l'apanage de ceux qui dominent. Elle est l'arme de ceux qui résistent.
-
 Tout commence dans une villa de Niamey, devant un tableau blanc où quelqu'un a écrit cinq mots.
 
 ★ ★ ★
 
+
 # Prologue — La villa de Niamey
 
 Imaginez une villa dans un quartier résidentiel de Niamey. Des murs hauts, un jardin sec, la poussière rouge que l'harmattan dépose sur tout. À l'intérieur, des bureaux climatisés, des cartes d'état-major, des écrans. Et dans une salle de réunion, un tableau blanc. Sur ce tableau, tracés au feutre par une main pressée, cinq mots.
-
-*La paix, on peut l'éviter.*
-
+La paix, on peut l'éviter.
 Ceux qui ont écrit cette phrase ne sont pas des philosophes. Ce sont des stratèges. Leur mission, telle qu'elle se laisse lire dans ces cinq mots: maintenir l'instabilité pour maintenir l'accès. Maintenir l'accès pour maintenir l'extraction. L'extraction de l'uranium. De l'or. Du pétrole. Des terres rares. Ce que ces stratèges n'écrivaient que sur un tableau blanc, Jacques Chirac l'avait un jour reconnu publiquement, en parlant de la richesse de la France et de l'exploitation de l'Afrique — on retrouvera ses mots plus loin dans ce livre.
-
 Pour comprendre comment on en arrive à écrire une telle phrase dans une villa de Niamey, il faudra remonter loin. À la loi de 1900, qui fit payer aux colonisés le coût de leur propre colonisation. Aux impôts qui ne pouvaient se régler qu'en francs CFA, transformant une monnaie en instrument de contrainte. Aux dettes contractées par les puissances coloniales pour exploiter l'Afrique, puis transférées, en 1960, aux jeunes États qu'elles venaient de quitter — ce que les juristes appellent la « dette odieuse». Concrètement: on vous pille pendant un siècle, puis on vous présente la facture du pillage. Ces mécanismes ont leurs chapitres dans ce livre. Ici, il suffit de savoir qu'ils existent, et qu'ils mènent tous à cette villa.
-
 Ce livre commence à Niamey parce que cette phrase n'est pas une erreur. C'est une clé. Elle révèle que la paix au Sahel a toujours été instrumentalisée. Barkhane n'a pas échoué: elle a fait ce pour quoi elle était là — entretenir un désordre géré. En d'autres termes, une insécurité jamais résolue mais jamais totale, juste assez de chaos pour justifier la présence militaire, jamais assez pour menacer l'accès aux ressources.
-
 Puis le Niger a fermé la villa. Il a expulsé l'armée française et l'armée américaine la même année, sans une goutte de sang. Et le ciel ne s'est pas effondré.
-
 Ce livre n'est pas un tract. Ce n'est pas une hagiographie. C'est une enquête. Elle s'appuie sur des sources adverses — RTL, l'institut berlinois SWP, la Commission parlementaire française, l'ONU, les données de conflits ACLED — autant que sur des sources panafricanistes. Quand des institutions françaises et des chefs d'État africains disent la même chose, ce n'est plus une thèse: c'est une vérité que même ses adversaires ne peuvent plus démentir.
-
 La paix des cimetières a été imposée trop longtemps. La paix juste reste à construire. La justice ne peut pas être évitée. La dignité, non. La liberté, jamais.
-
 Mais avant de juger ceux qui ont fermé la villa, il faut comprendre ce qu'ils ont brisé — et pourquoi personne n'avait osé le faire avant eux.
 
 ★ ★ ★
 
+
 # Introduction — Pourquoi l'AES change tout
 
 > « Nous ne pouvons pas laisser l'histoire de l'Afrique s'écrire par ceux qui l'ont pillée.» — Général Abdourahamane Tiani, CNSP Niger, août 2023
-
 Bamako, 16 septembre 2023. Trois chefs d'État africains signent un document. Aucun des trois n'a été élu au sens classique du terme. Tous trois sont arrivés au pouvoir par les armes. Et tous trois viennent de créer quelque chose qui n'existait pas depuis les indépendances: un bloc souverain, armé, explicitement anti-néocolonial, au cœur de l'Afrique de l'Ouest francophone. Ce bloc s'appelle l'Alliance des États du Sahel.
-
 La presse occidentale a couvert l'événement avec la distance condescendante qu'elle réserve aux « instabilités africaines». Ces mêmes analystes n'avaient pas vu venir le Brexit. Ils n'avaient pas vu venir Trump. Ils n'avaient pas vu venir la chute du Mur. Ils ne voient jamais ce qui vient d'en bas, parce qu'ils ne regardent jamais en bas.
-
 Ce livre prend le pari inverse. Il prend l'AES au sérieux. Non pas parce qu'elle est parfaite — elle ne l'est pas. Non pas parce que ses dirigeants sont des démocrates modèles — ils ne le sont pas encore, et aucune élection n'a, à ce jour, validé leur pouvoir dans les urnes. Mais parce qu'elle représente quelque chose qui n'avait pas existé depuis les indépendances: le refus organisé, institutionnel, militairement crédible, de la tutelle française et occidentale.
-
-Un universitaire genevois l'avait écrit dès 2013, dans un livre publié l'année même où l'armée française entrait au Mali: « l'interventionnisme des grandes puissances s'inscrit dans une périodicité cyclique, révélatrice du rapport durable de domination entre la métropole et la périphérie» (Mohammad-Mahmoud Ould Mohamedou, in *La Guerre au Mali*, La Découverte, 2013). Pour le dire simplement: les interventions militaires occidentales en Afrique ne sont pas des accidents qui se répètent par malchance. Elles reviennent à intervalles réguliers parce qu'elles entretiennent un même rapport de forces — celui d'un centre qui décide et d'une périphérie qui subit. Mohamedou, professeur à l'Institut de hautes études internationales et du développement de Genève, documentait dix ans avant l'AES ce que l'AES a consacré par son existence: l'intervention française au Sahel n'est pas une exception, c'est l'itération d'un système qui transforme les États du Sud en champs de bataille.
-
+Un universitaire genevois l'avait écrit dès 2013, dans un livre publié l'année même où l'armée française entrait au Mali: « l'interventionnisme des grandes puissances s'inscrit dans une périodicité cyclique, révélatrice du rapport durable de domination entre la métropole et la périphérie» (Mohammad-Mahmoud Ould Mohamedou, in La Guerre au Mali, La Découverte, 2013). Pour le dire simplement: les interventions militaires occidentales en Afrique ne sont pas des accidents qui se répètent par malchance. Elles reviennent à intervalles réguliers parce qu'elles entretiennent un même rapport de forces — celui d'un centre qui décide et d'une périphérie qui subit. Mohamedou, professeur à l'Institut de hautes études internationales et du développement de Genève, documentait dix ans avant l'AES ce que l'AES a consacré par son existence: l'intervention française au Sahel n'est pas une exception, c'est l'itération d'un système qui transforme les États du Sud en champs de bataille.
 La rupture de 2020–2023 — Mali, Burkina Faso, Niger — est la première réponse institutionnelle à ce système depuis les indépendances. Ce livre ne l'analyse pas comme un accident africain. Il l'analyse comme une réponse historique à une domination historique.
-
 Pour comprendre ce que l'AES représente, il faut comprendre ce qu'elle rompt. Et pour comprendre ce qu'elle rompt, il faut remonter le fil de soixante ans de dépendance construite, de ressources pillées, de dirigeants installés et renversés selon les intérêts de Paris. C'est l'objet de ce livre.
-
 Sa démonstration repose sur un principe simple, déjà exposé dans l'avant-propos: quand les mêmes faits sont confirmés à la fois par des sources panafricanistes et par des sources adverses — françaises, institutionnelles ou académiques —, ces faits ne sont plus des thèses. Ils deviennent des évidences. Ce livre est construit sur ces convergences. Nulle improvisation. Une méthode.
-
 Mais soixante ans ne suffisent pas. Le mensonge que l'AES affronte est plus vieux que la Françafrique: c'est l'idée que l'Afrique n'aurait pas d'histoire. Pour le démonter, il faut commencer bien avant 1960 — au temps où un empereur sahélien pouvait, en traversant une ville étrangère, faire s'effondrer le cours mondial de l'or.
 
 ★ ★ ★
 
+
 # PARTIE I — L'AFRIQUE AVANT LA DOMINATION
+
 
 ★ ★ ★
 
-# PARTIE I — L'AFRIQUE AVANT LA DOMINATION
-
 > « Un peuple sans connaissance de son histoire, de son origine et de sa culture est comme un arbre sans racines.» — Marcus Garvey
-
 Avant les cartes de Berlin, avant les colonnes coloniales, avant la « mission civilisatrice», il y avait des États. Des empires qui taxaient les caravanes, des universités qui attiraient des milliers d'étudiants, des chartes qui proclamaient la sacralité de la vie humaine, des souverains dont la richesse faisait trembler les marchés du Caire. Cette partie raconte ce que l'idéologie coloniale a eu besoin d'effacer pour exister: un Sahel qui fut, des siècles durant, un centre du monde. Ce n'est pas de la nostalgie. C'est le socle sans lequel rien de la suite — ni la conquête, ni les résistances, ni la rupture de 2020-2023 — ne peut se comprendre. Car on ne peut pas prétendre « civiliser» un peuple dont on sait qu'il a déjà été au sommet; il fallait donc faire oublier qu'il y avait été.
 
 ★ ★ ★
 
+
 # Chapitre 1 — Les grands empires
 
 Le Caire, été 1324. Une rumeur précède la caravane: un roi venu de l'ouest traverse l'Égypte pour se rendre à La Mecque. Quand le cortège entre dans la ville, les Cairotes n'en croient pas leurs yeux — des milliers d'hommes, des chameaux par centaines, et de l'or. Tant d'or que le pèlerin le distribue aux mosquées, aux fonctionnaires, aux pauvres, aux marchands. Ce roi s'appelle Mansa Moussa, empereur du Mali. Son passage déverse une telle quantité de métal précieux sur les marchés que le cours de l'or s'effondre au Caire — pour une vingtaine d'années, selon certaines estimations. Au même moment, l'Europe s'enfonce vers la Peste noire. Le pays le plus riche du monde, en ce début de XIVe siècle, n'est pas sur les rives de la Seine ou du Rhin. Il est sur les rives du Niger.
-
 Cette scène, l'école coloniale ne l'a jamais racontée. Et ce silence n'est pas un oubli.
 
 ## Le mensonge fondateur
 
 Il y a un mensonge fondateur dans l'idéologie coloniale. Ce mensonge s'appelle la « mission civilisatrice». Il postule que les peuples africains n'avaient pas d'histoire, pas d'organisation politique, pas de production intellectuelle avant l'arrivée des Européens. Ce mensonge est réfuté par les faits — et ce chapitre va les passer en revue. Mais il faut d'abord comprendre qu'il est fonctionnel: sans lui, la colonisation ne peut pas se justifier. On peut envahir un territoire riche par cupidité; on ne peut prétendre le « civiliser» que si l'on a d'abord décrété qu'il était vide d'histoire.
-
 Ce mensonge a ses lettres de noblesse. Au XIXe siècle, le philosophe allemand Hegel, dans ses leçons sur la philosophie de l'histoire, décrétait que l'Afrique n'était « pas une partie historique du monde» — un continent sans mouvement, sans développement, hors de l'histoire. La formule fera école: elle fournira à des générations d'administrateurs, de missionnaires et de manuels scolaires la caution intellectuelle de la conquête. Or l'histoire du Sahel est tout sauf vide. Elle est, au contraire, l'une des plus denses du monde médiéval — et il suffit de suivre les routes de l'or pour s'en convaincre.
 
 ## Wagadou, le premier géant
 
 Tout commence avec l'Empire du Ghana — que ses habitants appelaient Wagadou. Du IVe au XIe siècle, il contrôle les routes transsahariennes de l'or et du sel. Ses souverains taxent les caravanes qui traversent leur territoire: un système douanier sophistiqué, plusieurs siècles avant que l'État moderne européen n'existe. Concrètement, cela signifie qu'un marchand arrivant du nord avec du sel ou repartant vers la Méditerranée avec de l'or payait un droit de passage, enregistré et contrôlé — exactement ce que font aujourd'hui les douanes d'un État moderne aux frontières. Percevoir l'impôt sur le commerce de longue distance suppose une administration, des agents, des archives, une force pour faire respecter la règle. Tout cela existait au Sahel mille ans avant la colonne Archinard.
-
 Car le Sahel n'était pas une marge: c'était un carrefour. Le sel venait des mines du désert, au nord; l'or, des gisements de la savane, au sud; et entre les deux, les caravanes faisaient du Sahel le point de jonction obligé de deux mondes économiques. Les géographes et voyageurs arabes du Moyen Âge — d'Al-Bakri à Ibn Battouta, qui visite l'empire du Mali au XIVe siècle — décrivent des cours fastueuses, des villes ordonnées, une sécurité des routes qui les impressionne. Ce sont leurs récits, pas ceux des colonisateurs, qui constituent nos meilleures archives sur la région.
 
 ## Le Mali de Soundiata et de Mansa Moussa
@@ -185,56 +102,56 @@ Au XIIIe siècle, un second géant prend le relais. L'Empire du Mali est fondé 
 ## Songhaï, Bornou, Sokoto: la continuité
 
 Au XVe siècle, l'empire Songhaï prend la suite et intègre dans sa trajectoire les peuples de l'actuel Burkina Faso. Son souverain guerrier, Sonni Ali Ber, meurt en 1492 — l'année où Colomb traverse l'Atlantique — alors qu'il revient d'une expédition contre les Mossi, groupe ethnique majeur de l'actuel Burkina Faso. Retenons ce détail, car il dit quelque chose d'essentiel: les peuples qui combattent ensemble au sein de l'AES en 2024-2026 partagent une histoire d'interactions, de conflits et d'alliances qui précède de cinq siècles l'arrivée de la colonisation française. Les frontières de Berlin ont découpé un tissu humain; elles ne l'ont pas créé.
-
 Plus à l'est, le sultanat du Bornou, héritier du Kanem, dure du IXe au XIXe siècle — un millénaire d'existence politique continue — et entretient des correspondances diplomatiques avec l'Égypte et l'Empire ottoman. En d'autres termes, les souverains sahéliens échangeaient des ambassades et des lettres officielles avec les grandes puissances de leur temps, en partenaires reconnus. Enfin, le califat de Sokoto (1804–1903), né de la révolution religieuse d'Ousmane dan Fodio, devient l'une des plus grandes entités politiques africaines de son siècle; il reste aujourd'hui un référent identitaire majeur pour les populations haoussa et peules.
 
 **REPÈRES — LES GRANDS ÉTATS DU SAHEL PRÉCOLONIAL**
-- **Empire du Ghana / Wagadou** (IVe–XIe siècle): routes de l'or et du sel, système douanier sophistiqué.
-- **Empire du Mali** (XIIIe–XVe siècle): fondé par Soundiata Keïta (Kirina, 1235); Charte du Mandé (1222); Mansa Moussa fait s'effondrer le cours de l'or au Caire (1324).
-- **Empire Songhaï** (XVe–XVIe siècle): université de Sankoré (~25 000 étudiants); Tombouctou, env. 100 000 habitants.
-- **Sultanat du Bornou / Kanem** (IXe–XIXe siècle): correspondances diplomatiques avec l'Égypte et l'Empire ottoman.
-- **Califat de Sokoto** (1804–1903): l'une des plus grandes entités politiques africaines, référent actuel des populations haoussa-peules.
+
+- Empire du Ghana / Wagadou (IVe–XIe siècle): routes de l'or et du sel, système douanier sophistiqué.
+- Empire du Mali (XIIIe–XVe siècle): fondé par Soundiata Keïta (Kirina, 1235); Charte du Mandé (1236) ; Mansa Moussa fait s'effondrer le cours de l'or au Caire (1324).
+- Empire Songhaï (XVe–XVIe siècle): université de Sankoré (~25 000 étudiants); Tombouctou, env. 100 000 habitants.
+- Sultanat du Bornou / Kanem (IXe–XIXe siècle): correspondances diplomatiques avec l'Égypte et l'Empire ottoman.
+- Califat de Sokoto (1804–1903): l'une des plus grandes entités politiques africaines, référent actuel des populations haoussa-peules.
 - Ces empires sont absents des manuels scolaires africains postcoloniaux, rédigés sur le modèle français.
+
 
 ## Ni paradis perdu, ni page blanche
 
 Soyons honnêtes: ces empires n'étaient pas des paradis. Ils ont connu les guerres de conquête, les razzias, l'esclavage interne et la traite transsaharienne. L'histoire africaine précoloniale est une histoire humaine, avec sa violence et ses dominations — pas une carte postale. Mais là n'est pas la question. La question est celle de l'État: des institutions, une fiscalité, une diplomatie, une continuité dynastique, un droit. Tout cela existait, massivement, durablement. Le Sahel n'était pas une page blanche attendant que l'Europe vienne y écrire. C'était un palimpseste — un texte ancien que la colonisation a gratté pour écrire le sien par-dessus.
-
 D'où une dernière donnée, peut-être la plus accablante: ces empires sont absents des manuels scolaires africains postcoloniaux, rédigés sur le modèle français. Des générations d'écoliers maliens, burkinabè et nigériens ont appris l'histoire de France avant celle de Soundiata. L'effacement a survécu aux indépendances. C'est précisément pourquoi les références à cette histoire dans les discours des dirigeants de l'AES ne sont pas du folklore: elles sont une restitution.
-
 Mais la puissance d'une civilisation ne se mesure pas seulement à ses armées et à son or — et c'est dans les bibliothèques de Tombouctou, parmi des centaines de milliers de manuscrits, que le Sahel a laissé sa preuve la plus irréfutable.
 
 ★ ★ ★
 
+
 # Chapitre 2 — Les civilisations du Sahel
 
-Paris, 1954. Un jeune chercheur sénégalais publie aux éditions Présence Africaine un livre qui va faire scandale: *Nations nègres et culture*. Son auteur, Cheikh Anta Diop, y soutient une thèse que l'université française juge inacceptable: l'Égypte ancienne, berceau reconnu de la civilisation méditerranéenne, était une civilisation négro-africaine. La Sorbonne lui mènera la vie dure; il devra batailler des années pour faire soutenir et reconnaître ses travaux. Diop ne se contente pas d'écrire: rentré à Dakar, il fonde à l'IFAN un laboratoire de datation au carbone 14 — le premier du genre en Afrique de l'Ouest. Concrètement, cette technique mesure la radioactivité résiduelle des matières organiques pour dater os, bois ou tissus anciens: Diop voulait que l'Afrique puisse dater elle-même son propre passé, avec ses propres instruments, sans attendre le verdict des laboratoires européens. En 1974, au colloque international du Caire organisé sous l'égide de l'UNESCO, il défendra ses thèses face aux plus grands égyptologues du monde.
-
+Paris, 1954. Un jeune chercheur sénégalais publie aux éditions Présence Africaine un livre qui va faire scandale: Nations nègres et culture. Son auteur, Cheikh Anta Diop, y soutient une thèse que l'université française juge inacceptable: l'Égypte ancienne, berceau reconnu de la civilisation méditerranéenne, était une civilisation négro-africaine. La Sorbonne lui mènera la vie dure; il devra batailler des années pour faire soutenir et reconnaître ses travaux. Diop ne se contente pas d'écrire: rentré à Dakar, il fonde à l'IFAN un laboratoire de datation au carbone 14 — le premier du genre en Afrique de l'Ouest. Concrètement, cette technique mesure la radioactivité résiduelle des matières organiques pour dater os, bois ou tissus anciens: Diop voulait que l'Afrique puisse dater elle-même son propre passé, avec ses propres instruments, sans attendre le verdict des laboratoires européens. En 1974, au colloque international du Caire organisé sous l'égide de l'UNESCO, il défendra ses thèses face aux plus grands égyptologues du monde.
 Pourquoi un physicien-historien a-t-il dû consacrer sa vie à prouver que l'Afrique avait une histoire? Parce que tout, dans le savoir dominant, avait été organisé pour la lui retirer. Ce chapitre raconte ce que ce savoir a effacé.
 
 ## Tombouctou, la ville-bibliothèque
 
 Au XVe siècle, l'université de Sankoré, à Tombouctou, accueille jusqu'à 25 000 étudiants, dans une ville qui compte environ 100 000 habitants. Aucune université européenne de l'époque n'approche de tels effectifs. Les textes conservés à Tombouctou — plusieurs centaines de milliers de manuscrits — couvrent la médecine, les mathématiques, la philosophie, le droit islamique. En d'autres termes, Tombouctou n'était pas seulement un marché caravanier: c'était un campus, une bibliothèque et une cour de justice à l'échelle d'un empire. On y copiait, commentait et vendait des livres; le commerce du manuscrit y était, disent les chroniques, parmi les plus lucratifs de la ville. Une partie de ces manuscrits, transmis de famille en famille pendant des siècles, existe toujours — preuve matérielle, datable, palpable, que le Sahel écrivait, calculait et légiférait quand on prétendra plus tard lui apporter l'écriture.
 
-## La Charte du Mandé: des droits proclamés en 1222
+## La Charte du Mandé : des droits proclamés en 1236
 
-L'autre preuve est juridique. La Charte du Mandé — dite aussi Kouroukan Fouga, 1222 — est considérée comme l'une des premières déclarations de droits humains de l'histoire: elle proclame la sacralité de la vie humaine, l'égalité de tous, l'abolition de l'esclavage par réduction. Pour le dire simplement, ce texte interdit de réduire une personne libre en esclavage et affirme que toute vie en vaut une autre — plus de cinq siècles avant la Déclaration des droits de l'homme et du citoyen de 1789. Proclamée à l'avènement de Soundiata Keïta, transmise oralement par les griots de génération en génération, la Charte rappelle une évidence que l'idéologie coloniale a niée: la réflexion sur la dignité humaine n'a pas attendu l'Europe pour exister au Sahel.
+L'autre preuve est juridique. La Charte du Mandé — dite aussi Kouroukan Fouga, 1236 — est considérée comme l'une des premières déclarations de droits humains de l'histoire: elle proclame la sacralité de la vie humaine, l'égalité de tous, l'abolition de l'esclavage par réduction. Pour le dire simplement, ce texte interdit de réduire une personne libre en esclavage et affirme que toute vie en vaut une autre — plus de cinq siècles avant la Déclaration des droits de l'homme et du citoyen de 1789. Proclamée à l'avènement de Soundiata Keïta, transmise oralement par les griots de génération en génération, la Charte rappelle une évidence que l'idéologie coloniale a niée: la réflexion sur la dignité humaine n'a pas attendu l'Europe pour exister au Sahel.
 
 **REPÈRES — CE QUE LE SAHEL A PRODUIT**
-- **Charte du Mandé / Kouroukan Fouga (1222)**: sacralité de la vie, égalité, interdiction de réduire en esclavage — l'une des premières déclarations de droits de l'histoire.
-- **Université de Sankoré, Tombouctou (XVe siècle)**: jusqu'à 25 000 étudiants; ville d'environ 100 000 habitants.
-- **Manuscrits de Tombouctou**: plusieurs centaines de milliers de textes — médecine, mathématiques, philosophie, droit.
-- **Cheikh Anta Diop**: *Nations nègres et culture* (1954), laboratoire de datation carbone de Dakar, colloque UNESCO du Caire (1974).
+
+- Charte du Mandé / Kouroukan Fouga (1236) : sacralité de la vie, égalité, interdiction de réduire en esclavage — l'une des premières déclarations de droits de l'histoire.
+- Université de Sankoré, Tombouctou (XVe siècle): jusqu'à 25 000 étudiants; ville d'environ 100 000 habitants.
+- Manuscrits de Tombouctou: plusieurs centaines de milliers de textes — médecine, mathématiques, philosophie, droit.
+- Cheikh Anta Diop: *Nations nègres et culture* (1954), laboratoire de datation carbone de Dakar, colloque UNESCO du Caire (1974).
+
 
 ## Hérodote, Diop et la preuve par convergence
 
 Reste la question des origines. Hérodote, le père de l'histoire dans la tradition occidentale elle-même, décrivait les Égyptiens comme « à la peau noire et aux cheveux crépus». Cheikh Anta Diop a construit sur ce fondement une démonstration convergente: données mélanodermiques, ostéologiques, linguistiques, mythologiques. En d'autres termes, il n'a pas cherché une preuve unique et miraculeuse, mais fait converger des indices indépendants — la pigmentation des momies, la forme des squelettes, les parentés entre l'égyptien ancien et les langues négro-africaines comme le wolof, les mythes partagés — vers une même conclusion: l'Afrique est le berceau de la civilisation humaine, et l'Égypte ancienne appartient à son histoire.
-
 On peut discuter tel ou tel point de la démonstration de Diop — les spécialistes le font encore. Mais l'essentiel est ailleurs: l'effacement de ces origines dans l'historiographie dominante n'est pas un accident académique. Il est fonctionnel à la domination. On ne peut pas justifier d'« élever» un peuple dont on sait qu'il a déjà été au sommet. Il fallait donc que Tombouctou soit oubliée, que la Charte du Mandé reste inconnue, que l'Égypte soit blanchie. Le mensonge du chapitre précédent — l'Afrique sans histoire — exigeait ce travail d'effacement minutieux. Et c'est contre lui que Diop a dressé son laboratoire, ses livres et sa vie.
-
 Une civilisation qui écrit, qui légifère, qui enseigne: voilà ce qui existait. Pour s'en emparer, il ne suffisait pas de la vaincre — il fallait d'abord la nier. C'est exactement ce qu'une quinzaine de diplomates en redingote s'apprêtent à faire, un soir de novembre 1884, dans un salon de Berlin.
 
 ★ ★ ★
+
 
 # Chapitre 3 — La conquête coloniale
 
@@ -243,13 +160,11 @@ Berlin, 15 novembre 1884. Dans la résidence du chancelier Bismarck, Wilhelmstra
 ## Une opération chirurgicale sur le corps africain
 
 Le Congrès de Berlin est une opération chirurgicale sur le corps africain — pratiquée sans le patient, et sans anesthésie. Les frontières tracées à Berlin ignorent les réalités ethniques, linguistiques et politiques préexistantes: les empires, royaumes et réseaux d'alliances décrits aux chapitres précédents sont traversés, coupés, dispersés entre plusieurs « possessions» européennes. Plus d'un siècle après, le constat est fait jusqu'à la tribune de l'Assemblée nationale française, par le député André Chassaigne: « Ils ne regardent pas les espaces communautaires qui existent. Ils divisent des familles, des clans, des communautés. Ce qui a encore des conséquences jusqu'à aujourd'hui.»
-
 Cette chirurgie des cartes produira cent cinquante ans de conflits — que les mêmes puissances présenteront ensuite comme la preuve de l'incapacité africaine à se gouverner. Il faut s'arrêter sur ce mécanisme, car il est la matrice de tout ce que ce livre va raconter. Le mensonge est complet, circulaire, auto-référentiel: on crée le problème, on le présente comme preuve de l'inégalité naturelle des peuples, et on s'impose comme solution au problème qu'on a créé. Concrètement: on coupe un peuple en deux par une frontière arbitraire, on attend que la frontière produise des tensions, puis on montre ces tensions du doigt en expliquant que « ces gens-là» ont décidément besoin d'être administrés. Le pompier a allumé l'incendie, et facture l'extinction. Ce mécanisme, le lecteur le retrouvera à chaque étape de ce livre, jusqu'aux interventions militaires du XXIe siècle: il suffit de remplacer « frontières» par « groupes armés» pour que la formule reste exacte.
 
 ## La règle du jeu: l'« occupation effective»
 
 L'Acte général signé à Berlin fixe entre Européens une règle décisive, dite de l'« occupation effective»: pour qu'une puissance puisse revendiquer un territoire africain face à ses rivales, il ne lui suffit plus d'y planter un drapeau — il faut l'occuper réellement, y installer une administration, une force armée. Concrètement, cette clause transforme le partage théorique en course de vitesse: chaque chancellerie a désormais intérêt à envoyer ses colonnes militaires le plus loin et le plus vite possible, avant les autres. C'est elle qui explique la brutalité fulgurante des deux décennies suivantes — ce que les historiens appelleront la « course à l'Afrique». Notons l'élégance du dispositif: Berlin n'organise pas la guerre, Berlin organise la paix… entre Européens. Les quatorze puissances se mettent d'accord pour ne pas s'entretuer en se partageant le butin. La violence, elle, est intégralement reportée sur ceux qui ne sont pas à la table.
-
 Le tout sous pavillon humanitaire. Les actes de la conférence invoquent la lutte contre la traite esclavagiste et le « bien-être moral et matériel» des populations indigènes. Léopold II, roi des Belges, obtient ainsi la reconnaissance de son « État indépendant du Congo» au nom de la philanthropie et de la science — avant d'en faire l'un des régimes d'exploitation les plus meurtriers de l'époque contemporaine. Le procédé mérite d'être retenu, car il ne quittera plus jamais la boîte à outils: de la « mission civilisatrice» de 1885 aux interventions « contre le terrorisme» du XXIe siècle, la domination ne s'avance jamais sans un prétexte moral.
 
 ## Le piège des micro-États
@@ -257,20 +172,21 @@ Le tout sous pavillon humanitaire. Les actes de la conférence invoquent la lutt
 Certains Africains ont vu le piège très tôt. Barthélémy Boganda, fondateur de la République centrafricaine — mort en 1959 dans un accident d'avion aux circonstances suspectées —, et Kwame Nkrumah, père de l'indépendance ghanéenne, mettaient en garde contre la même menace: des États micro-nationaux non viables, condamnés à la dépendance permanente, incapables de peser individuellement dans un système international construit contre eux. En d'autres termes, un État trop petit, enclavé, découpé sans logique économique, ne peut ni se défendre seul, ni négocier seul, ni se développer seul: il est structurellement condamné à chercher un protecteur — et le protecteur tout désigné sera l'ancien colonisateur. Berlin 1884-1885 avait fabriqué la condition de l'impossible souveraineté. Le destin des deux hommes ajoute à l'avertissement: Boganda meurt avant l'indépendance de son pays, dans des circonstances jamais pleinement élucidées, et Nkrumah, on le verra, sera renversé en 1966. Les fédérations qu'ils appelaient de leurs vœux ne verront pas le jour de leur vivant; il faudra attendre 2023 et la Charte du Liptako-Gourma pour qu'une réponse institutionnelle à ce morcellement émerge au Sahel — trois États nés du découpage de Berlin décidant, cent quarante ans plus tard, de mettre leurs souverainetés en commun.
 
 **REPÈRES — BERLIN, 1884-1885**
-- **15 novembre 1884**: ouverture de la conférence dans la résidence du chancelier Bismarck, à Berlin.
-- **Quatorze puissances européennes et les États-Unis** autour de la table; aucun représentant africain.
-- **26 février 1885**: clôture — l'Afrique est découpée en zones d'influence, ses fleuves ouverts à la navigation européenne.
+
+- 15 novembre 1884: ouverture de la conférence dans la résidence du chancelier Bismarck, à Berlin.
+- Quatorze puissances européennes et les États-Unis autour de la table; aucun représentant africain.
+- 26 février 1885: clôture — l'Afrique est découpée en zones d'influence, ses fleuves ouverts à la navigation européenne.
 - Première conférence internationale de l'histoire consacrée exclusivement à un continent absent des débats.
+
 
 ## Avant Berlin, après Berlin
 
 Il faut mesurer la bascule. Avant Berlin, les Européens étaient présents sur les côtes africaines via des comptoirs commerciaux; les explorations vers l'intérieur commençaient, motivées par le commerce, la géographie, l'évangélisation. Après Berlin, c'est la conquête systématique: traités arrachés à des souverains africains sous la menace ou par tromperie, expéditions militaires, travaux forcés, villages brûlés. Au Congo de Léopold II, on coupe les mains des travailleurs qui n'ont pas livré leur quota de caoutchouc — l'épisode est documenté jusque dans les archives européennes de l'époque. Le militant panafricaniste Banda Kani en tire une formule sans nuance: « Tous les coups sont permis: crimes inexplicables, génocide, meurtre à ciel ouvert, coupage de mains, de pieds, d'oreilles, crime rituel, coupage de tête, déportation, versement de napalm» (Banda Kani, Paroles Panafricanistes, 29 novembre 2022). On peut discuter le ton. On ne peut pas discuter la logique d'ensemble: toute la panoplie de la terreur est déployée avec une finalité unique — installer la peur comme principe de gouvernement d'un continent entier.
-
 Car c'est bien de gouvernement qu'il s'agit. La violence coloniale n'est pas un débordement: elle est une méthode. Elle vise à briser les structures politiques existantes — ces empires, ces sultanats, ces chartes que les deux premiers chapitres ont décrits — pour les remplacer par une administration dont la seule légitimité est la force. Le centre ancien s'effondre; les sociétés africaines, décapitées de leurs institutions, sont renvoyées à leurs particularismes. On récoltera les fruits de cette fragmentation pendant un siècle et demi — et on l'appellera « instabilité africaine».
-
 Voilà le décor planté à Berlin: un continent nié, découpé, terrorisé. Mais les cartes du chancelier Bismarck avaient oublié un paramètre — les peuples qu'elles découpaient allaient se battre, les armes à la main, pendant des décennies.
 
 ★ ★ ★
+
 
 # Chapitre 4 — Les résistances oubliées
 
@@ -279,21 +195,21 @@ Guélémou, 29 septembre 1898. À l'aube, des soldats français encerclent le ca
 ## Seize ans face à la France
 
 Samory Touré (vers 1830–1900) fonde l'empire du Wassoulou, à cheval sur les actuels Mali, Guinée et Côte d'Ivoire, et mène une résistance armée de seize ans contre la France. Seize ans: aucune puissance européenne de l'époque n'a affronté en Afrique de l'Ouest un adversaire aussi durable. Il perfectionne ses tactiques au fil des confrontations, oblige les généraux français à des expéditions coûteuses en hommes et en matériel, déplace son empire vers l'est pour échapper à l'étau. C'est ce que les manuels militaires appelleraient aujourd'hui une guerre d'usure asymétrique. Pour le dire simplement: quand on ne peut pas gagner la bataille frontale contre un ennemi mieux armé, on refuse cette bataille, on frappe, on se déplace, on rend chaque kilomètre conquis si coûteux que la conquête elle-même devient un gouffre. Samory ne se contente pas de combattre: il s'organise pour durer. Ses forgerons réparent les fusils pris à l'ennemi et en fabriquent des copies — un embryon d'industrie d'armement au cœur de la savane. Il joue de la rivalité entre Français et Britanniques, négocie, signe des traités quand le rapport de force l'exige, les dénonce quand il se redresse. Bref, il fait tout ce que fait un État souverain en guerre. Capturé finalement en 1898, déporté, effacé.
-
 Soyons honnêtes ici aussi, comme nous l'avons été pour les empires anciens: l'État de Samory fut un État de guerre, dur à ses sujets, qui pratiqua razzias et esclavage. Ce n'était pas un saint. C'était un chef d'État qui a refusé la soumission plus longtemps que tous les autres — et c'est exactement pour cela qu'il fallait le faire disparaître des mémoires.
 
 ## Ceux qui ont dit non
 
 Samory n'était pas seul. La conquête a rencontré, partout au Sahel, des hommes qui ont préféré la guerre, et parfois la mort, à la reddition.
-
 Babemba Traoré, roi du Kenédougou, dans l'actuel Mali, voit en 1898 les troupes françaises mettre le siège devant sa capitale, Sikasso, protégée par son célèbre tata — une muraille d'enceinte que l'artillerie finit par éventrer. Quand la chute devient inévitable, Babemba choisit de se donner la mort plutôt que de se rendre. Son geste restera, dans la mémoire malienne, comme la définition même du refus: on peut prendre la ville, pas le roi. Rabah Fadlallah conquiert le sultanat du Bornou et résiste à la pénétration française jusqu'en 1900, où il est vaincu et tué à la bataille de Kousseri, dans l'actuel Cameroun. Avant eux, El Hadj Omar Tall, fondateur de la théocratie toucouleur couvrant le Mali, la Guinée et le Sénégal actuels, avait mené au XIXe siècle la résistance islamique à la colonisation française, avant d'être acculé dans une grotte au nord du Mali, en 1864, où il disparaît.
 
 **REPÈRES — LES FIGURES DE LA RÉSISTANCE SAHÉLIENNE**
-- **El Hadj Omar Tall**: fondateur de la théocratie toucouleur (Mali, Guinée, Sénégal actuels); mène la résistance islamique jusqu'à sa disparition, acculé dans une grotte au nord du Mali (1864).
-- **Samory Touré** (vers 1830–1900): empire du Wassoulou; seize ans de résistance armée; capturé en 1898, déporté au Gabon où il meurt.
-- **Babemba Traoré**: roi du Kenédougou; se suicide à Sikasso en 1898 plutôt que de se rendre.
-- **Rabah Fadlallah**: conquérant du Bornou; résiste jusqu'à sa mort à la bataille de Kousseri (1900).
+
+- El Hadj Omar Tall: fondateur de la théocratie toucouleur (Mali, Guinée, Sénégal actuels); mène la résistance islamique jusqu'à sa disparition, acculé dans une grotte au nord du Mali (1864).
+- Samory Touré (vers 1830–1900): empire du Wassoulou; seize ans de résistance armée; capturé en 1898, déporté au Gabon où il meurt.
+- Babemba Traoré: roi du Kenédougou; se suicide à Sikasso en 1898 plutôt que de se rendre.
+- Rabah Fadlallah: conquérant du Bornou; résiste jusqu'à sa mort à la bataille de Kousseri (1900).
 - Tous absents des manuels scolaires postcoloniaux; tous présents dans les discours des dirigeants de l'AES.
+
 
 ## Une résistance qui ne s'éteint jamais
 
@@ -302,296 +218,254 @@ Et la conquête « achevée» ne mit pas fin aux refus. En pleine Première Guer
 ## Le double effacement
 
 Ces noms sont absents des manuels postcoloniaux. Voilà le second effacement, plus pervers que le premier. Le chapitre 1 montrait comment l'école coloniale avait gommé les empires; mais les résistants, eux, ont été gommés des écoles africaines indépendantes elles-mêmes, rédigées sur le modèle français. Des générations d'élèves sahéliens ont appris Vercingétorix et Jeanne d'Arc — des figures de résistance à l'envahisseur, l'ironie est complète — sans qu'on leur enseigne Samory ou Babemba. L'effacement n'était pas une négligence: un peuple qui ignore qu'il a résisté ne sait pas qu'il peut résister. Contrôler les manuels, c'est contrôler le champ du possible — et c'est pourquoi la bataille de la mémoire, qui traversera tout ce livre, n'est jamais une querelle d'historiens: c'est une bataille politique de premier ordre.
-
 C'est précisément ce verrou que les années 2020 ont fait sauter. Ces noms oubliés des manuels sont aujourd'hui présents dans les discours du capitaine Ibrahim Traoré et du colonel Assimi Goïta. Et il faut comprendre ce que cette présence signifie: la connexion est doctrinale, pas sentimentale. En d'autres termes, quand les dirigeants de l'AES invoquent Samory, ils ne font pas de la décoration patriotique — ils inscrivent leur action dans une lignée précise, celle du refus armé de la tutelle extérieure, et ils en tirent une doctrine: la souveraineté ne se négocie pas, elle se défend. Les peuples sahéliens, eux, n'avaient jamais tout à fait oublié: le souvenir de Samory tenant seize ans face à la France a survécu dans les familles, les griots, les chansons, là où les manuels se taisaient.
-
 La résistance armée du XIXe siècle a fini par être submergée — par la mitrailleuse, par le nombre, par le télégraphe. Non par défaut de courage, ni d'intelligence tactique: par déséquilibre industriel. Les empires sahéliens affrontaient des adversaires capables de produire en série ce qu'eux devaient forger à la main. Mais elle a établi une vérité que la suite de ce livre va suivre comme un fil rouge: la domination n'a jamais été acceptée. Nulle part. À aucun moment. Elle a été imposée, puis gérée, puis maquillée. Au lendemain de la Seconde Guerre mondiale, le maquillage devient l'art principal de l'Empire: on prépare des « indépendances» qui n'en seront pas.
-
 Car c'est là le tour de force que la France s'apprête à réussir en 1960: accorder dix-sept drapeaux, dix-sept hymnes, dix-sept sièges à l'ONU — et ne rien lâcher de l'essentiel; comment cette confiscation a été organisée, c'est l'objet de la deuxième partie de ce livre.
 
 ★ ★ ★
 
+
 # PARTIE II — COMMENT LA DÉPENDANCE A ÉTÉ ORGANISÉE
+
 
 ★ ★ ★
 
-# PARTIE II — COMMENT LA DÉPENDANCE A ÉTÉ ORGANISÉE
-
 L'Afrique d'avant la conquête avait des empires, des universités, des monnaies. La Partie I l'a montré. Reste alors une énigme: comment un continent aussi riche a-t-il pu devenir, en quelques décennies, le plus dépendant du monde?
-
 La réponse tient en un mot que cette partie va démonter pièce par pièce: l'organisation. La dépendance africaine n'est pas un accident de l'histoire, ni une fatalité culturelle. C'est une architecture — conçue dans les bureaux de Paris au moment même où les drapeaux des indépendances montaient dans le ciel de Bamako, de Niamey et de Ouagadougou.
-
 Six chapitres pour en suivre le plan de construction: les indépendances confisquées de 1960, le pacte camouflé dans les accords de coopération, le verrou monétaire du franc CFA, le pillage des ressources stratégiques, l'arme de l'aide et de la dette, et enfin les réseaux qui font tenir l'ensemble sans qu'un seul soldat soit nécessaire.
-
 Nulle improvisation. Une construction.
 
 ★ ★ ★
 
+
 # Chapitre 5 — 1960: les indépendances inachevées
 
-*« Nous préférons la pauvreté dans la liberté à l'opulence dans l'esclavage.»*
-— Ahmed Sékou Touré, devant le général de Gaulle, Conakry, 25 août 1958
-
+> « Nous préférons la pauvreté dans la liberté à l'opulence dans l'esclavage.»
+> — Ahmed Sékou Touré, devant le général de Gaulle, Conakry, 25 août 1958
 Bamako, 22 septembre 1960. Sur la place publique, la foule chante un hymne qu'elle entend pour la première fois. Le drapeau vert, or et rouge monte le long du mât. Les mêmes scènes se répètent cette année-là à Niamey, à Ouagadougou, à Dakar: 1960 est « l'année de l'Afrique», dix-sept pays accèdent à l'indépendance. L'histoire commence, croit-on.
-
 Mais dans les bureaux de Paris, une autre histoire s'écrit au même moment. Et c'est elle qui va gouverner les soixante années suivantes.
 
 ## L'homme de l'ombre
 
 Cette histoire parallèle a un visage: Jacques Foccart, éminence grise de l'Élysée pour les affaires africaines. Pendant que les hymnes retentissent, son équipe fait signer les accords dits « de coopération». Concrètement, ces accords sont des contrats annexés aux actes d'indépendance: ils maintiennent le franc CFA, conservent les bases militaires françaises, réservent à la France un accès privilégié aux matières premières et placent les jeunes États sous tutelle technique et monétaire. L'indépendance est formelle. La dépendance est réelle. La Françafrique naît dans l'euphorie des indépendances, invisible, enfouie dans les sous-clauses de traités que personne ne lira.
-
 La biographie académique que Frédéric Turpin a consacrée à Foccart (CNRS Éditions, 2015) documente la précocité de cette architecture. Dès 1944, Foccart crée la Safiex, société d'import-export antillaise et africaine dont les activités commerciales se superposent délibérément à ses fonctions politiques auprès de De Gaulle: commerce et renseignement ne sont jamais séparés. En octobre 1949, il cofonde l'UPANG — Union privée pour l'aide à l'action du général de Gaulle —, structure de financement privé du gaullisme africain adossée à un réseau d'entreprises. À partir de 1952, il anime un comité mensuel réunissant des militaires de l'armée coloniale: un réseau d'information parallèle aux canaux officiels de la République.
-
 Fait remarquable, c'est un adversaire politique qui confirme l'ampleur du dispositif. François Mitterrand, alors ministre de la France d'outre-mer, déclare en Conseil des ministres en 1950-1951: « Je ne devrais pas dire que j'ai fait un tour dans l'Union française, mais bien plutôt dans l'Union gaulliste.» La Françafrique gaulliste structure donc le continent dès la IVe République — bien avant les indépendances formelles. Quant au projet de long terme, une phrase attribuée à De Gaulle en 1966 le résumerait: « La francophonie prendra un jour le relais de la colonisation.» Authentique ou apocryphe, elle décrit en tout cas exactement ce qui fut fait.
 
 ## Le pays qui a dit non
 
 Un seul pays refuse le scénario. Le 25 août 1958, à Conakry, Ahmed Sékou Touré accueille le général de Gaulle venu défendre son projet de Communauté franco-africaine. De Gaulle a été clair: les territoires qui voteront non au référendum du 28 septembre obtiendront l'indépendance immédiate — et perdront tout soutien français. Devant lui, Sékou Touré prononce la phrase qui fait encore écho aujourd'hui: « Nous préférons la pauvreté dans la liberté à l'opulence dans l'esclavage.» La Guinée vote non. Elle devient indépendante le 2 octobre 1958, deux ans avant les autres.
-
 La réponse française est immédiate et totale. En partant, les fonctionnaires français emportent ou détruisent tout: les archives, le matériel de bureau, les téléphones, les médicaments des hôpitaux, jusqu'aux ampoules électriques. L'objectif est explicite — punir la Guinée et montrer aux autres colonies ce qui les attendrait si elles choisissaient la même voie. Soixante-cinq ans plus tard, la France appliquera au Niger du général Tiani des mécanismes étrangement familiers: suspension de l'aide, pression des institutions financières, menace militaire par voisins interposés. Même doctrine. Même conviction que les peuples africains peuvent être ramenés à la raison par la faim.
 
 ## Le sort des pionniers
 
 Ce que risquaient ceux qui prenaient l'indépendance au sérieux, quatre destins suffisent à le dire.
-
-**Sylvanus Olympio** d'abord. Économiste formé à la London School of Economics, ancien cadre dirigeant d'Unilever, il conduit le Togo à l'indépendance le 27 avril 1960 et entreprend de doter son pays d'une monnaie propre, hors de la zone franc. Le 13 janvier 1963, il est abattu à Lomé par un groupe de militaires — parmi eux le sergent Étienne Gnassingbé Eyadéma, qui revendiquera le tir et dirigera plus tard le pays pendant trente-huit ans. Olympio est le premier président assassiné de l'Afrique des indépendances. Il n'aura pas vu circuler le franc togolais.
-
-**Patrice Lumumba** ensuite. Premier Premier ministre du Congo indépendant le 30 juin 1960, il commet le crime de vouloir que les richesses minières du pays profitent aux Congolais. Destitué en septembre 1960 avec l'appui des puissances occidentales, arrêté, il est transféré au Katanga sécessionniste et assassiné le 17 janvier 1961, avec ses compagnons Maurice Mpolo et Joseph Okito. Il avait trente-cinq ans. En 2002, une commission parlementaire belge reconnaîtra officiellement la « responsabilité morale» de la Belgique dans cet assassinat.
-
-**Modibo Keïta** encore. Premier président du Mali, proclamé le 22 septembre 1960, panafricaniste convaincu, il ose en 1962 créer le franc malien pour sortir son pays de la zone franc — nous verrons au chapitre suivant ce qu'il en coûte. Le 19 novembre 1968, il est renversé par le coup militaire du lieutenant Moussa Traoré. Il meurt en détention à Bamako le 16 mai 1977, sans jamais avoir été jugé.
-
-**Kwame Nkrumah** enfin. L'homme qui a conduit la Gold Coast — devenue Ghana — à l'indépendance le 6 mars 1957, première colonie d'Afrique subsaharienne à briser ses chaînes; le théoricien de l'unité continentale, artisan de l'éphémère Union Ghana-Guinée-Mali. Le 24 février 1966, alors qu'il est en route pour Hanoï, l'armée et la police prennent le pouvoir à Accra. Il ne reverra jamais le Ghana et meurt en exil en 1972.
-
+Sylvanus Olympio d'abord. Économiste formé à la London School of Economics, ancien cadre dirigeant d'Unilever, il conduit le Togo à l'indépendance le 27 avril 1960 et entreprend de doter son pays d'une monnaie propre, hors de la zone franc. Le 13 janvier 1963, il est abattu à Lomé par un groupe de militaires — parmi eux le sergent Étienne Gnassingbé Eyadéma, qui revendiquera le tir et dirigera plus tard le pays pendant trente-huit ans. Olympio est le premier président assassiné de l'Afrique des indépendances. Il n'aura pas vu circuler le franc togolais.
+Patrice Lumumba ensuite. Premier Premier ministre du Congo indépendant le 30 juin 1960, il commet le crime de vouloir que les richesses minières du pays profitent aux Congolais. Destitué en septembre 1960 avec l'appui des puissances occidentales, arrêté, il est transféré au Katanga sécessionniste et assassiné le 17 janvier 1961, avec ses compagnons Maurice Mpolo et Joseph Okito. Il avait trente-cinq ans. En 2002, une commission parlementaire belge reconnaîtra officiellement la « responsabilité morale» de la Belgique dans cet assassinat.
+Modibo Keïta encore. Premier président du Mali, proclamé le 22 septembre 1960, panafricaniste convaincu, il ose en 1962 créer le franc malien pour sortir son pays de la zone franc — nous verrons au chapitre suivant ce qu'il en coûte. Le 19 novembre 1968, il est renversé par le coup militaire du lieutenant Moussa Traoré. Il meurt en détention à Bamako le 16 mai 1977, sans jamais avoir été jugé.
+Kwame Nkrumah enfin. L'homme qui a conduit la Gold Coast — devenue Ghana — à l'indépendance le 6 mars 1957, première colonie d'Afrique subsaharienne à briser ses chaînes; le théoricien de l'unité continentale, artisan de l'éphémère Union Ghana-Guinée-Mali. Le 24 février 1966, alors qu'il est en route pour Hanoï, l'armée et la police prennent le pouvoir à Accra. Il ne reverra jamais le Ghana et meurt en exil en 1972.
 Quatre pionniers. Deux assassinés, deux renversés. Aucun n'a achevé son mandat. La leçon, elle, a été parfaitement reçue par les survivants.
 
-**ENCADRÉ — Les indépendances et leur bilan, soixante ans après**
+**ENCADRÉ — LES INDÉPENDANCES ET LEUR BILAN, SOIXANTE ANS APRÈS**
+
 - Sénégal: 4 avril 1960 — Niger: 3 août 1960 — Burkina Faso (ex-Haute-Volta): 5 août 1960 — Tchad: 11 août 1960 — Mali: 22 septembre 1960 — Mauritanie: 28 novembre 1960
-- Guinée: 2 octobre 1958 — seul territoire à avoir voté non au référendum
+- Guinée: 2 octobre 1958 — seul territoire à avoir voté non au referendum
 - Soixante ans plus tard: le Niger est 189e sur 191 à l'indice de développement humain, le Burkina Faso 184e, le Mali 185e (PNUD, 2023). Les trois pays de l'AES figurent dans les cinq derniers rangs mondiaux.
+
 
 ## Des indépendances « javellisées»
 
 Nathalie Yamb le formule en termes simples: les indépendances des années 1960 ne sont pas de vraies indépendances. Ce sont des indépendances « bon marché», confiées à des élites formées à Paris — des « indépendantistes javellisés» qui maintiennent en place les structures de la dépendance. Et le cycle recommence tous les trente ans: les années 1960 produisent des indépendances confisquées; les années 1990, un multipartisme confisqué; les années 2020, le souverainisme. Si les structures ne changent pas, dans trente ans, il faudra tout recommencer.
-
 L'honnêteté oblige à ajouter l'avertissement de Raphaël Granvaud (2024): la logique presque exclusivement sécuritaire des interventions occidentales a renforcé le poids politique des militaires africains — c'est précisément ce qui a rendu possibles les transitions de 2020-2023. La même logique pourrait produire, dans dix ans, une génération d'officiers qui renverserait les souverainistes non pour approfondir la souveraineté, mais pour en capturer la rente. Le risque, autrement dit, n'est pas seulement la restauration de Paris: c'est la reproduction du modèle en uniforme panafricaniste. Les dirigeants de l'AES ne pourront pas dire qu'ils n'étaient pas prévenus.
-
 Reste à comprendre ce qui, exactement, a été verrouillé en 1960. Pour cela, il faut ouvrir les livres de comptes — car c'est dans les chiffres, bien plus que dans les discours, que le pacte colonial s'est camouflé.
 
 ★ ★ ★
 
+
 # Chapitre 6 — Le pacte néocolonial
 
-*« Il faut bien constater qu'une grande part de l'argent dans nos portefeuilles vient précisément de l'exploitation de l'Afrique pendant des siècles. Il faut avoir le sens commun, la justice, pour rendre aux Africains ce qu'on leur a pris.»*
-— Jacques Chirac, ancien président de la République française
-
+> « Il faut bien constater qu'une grande part de l'argent dans nos portefeuilles vient précisément de l'exploitation de l'Afrique pendant des siècles. Il faut avoir le sens commun, la justice, pour rendre aux Africains ce qu'on leur a pris.»
+> — Jacques Chirac, ancien président de la République française
 Un plateau de télévision, des années après les faits. Loïk Le Floch-Prigent, ancien PDG d'Elf, explique posément comment fonctionnait la première compagnie pétrolière française en Afrique: « On est à un pétrole grossièrement à 3-4 dollars qui sort, et puis on le vend 80. Tout cet argent entre les deux va à un certain nombre de gens.» Soixante-seize dollars de différence par baril. Des millions de barils. Et « un certain nombre de gens» qui, on le verra, financeront les campagnes électorales françaises.
-
 Cet aveu n'est pas une anecdote. C'est la description, par l'un de ses opérateurs, d'un système. Ce chapitre en démonte l'architecture: un pacte colonial qui n'a jamais été aboli en 1960 — seulement camouflé.
 
 ## Une naissance fiscale
 
 Pour comprendre le pacte, il faut remonter avant les indépendances. Le 13 avril 1900, le Parlement français vote la loi d'autonomie financière des colonies: désormais, les administrations coloniales doivent se financer elles-mêmes avec les ressources prélevées localement. Concrètement, cela signifie que les populations colonisées paient les salaires de leurs occupants — leurs gouverneurs, leur police, leurs routes, leurs écoles de colons. La métropole ne veut pas assumer un centime (Mariam Tamousang, podcast Afrophique / CADTM).
-
 Le système repose sur deux leviers. Le premier est la taxe de capitation — un impôt par tête, hérité de l'Ancien Régime, aboli en France en 1789 par les révolutionnaires et ressuscité dans les colonies. En Algérie, en 1909, 90 % de la population indigène payait 70 % des impôts directs, pendant que les colons en étaient largement exemptés. Le second levier est le travail forcé, pudiquement appelé « prestation»: en Afrique-Occidentale française, entre 1920 et 1938, la totalité des routes, des pistes et des terrains d'aviation est construite par une main-d'œuvre non rémunérée.
-
 Or le lien entre cette fiscalité coloniale et la monnaie est direct. Pour payer la capitation, il fallait des francs. Pour obtenir des francs, il fallait vendre sa production — sinon, c'était la prison ou le travail forcé. En d'autres termes, le franc des colonies n'est pas né comme une monnaie d'échange: il est né comme un instrument d'extraction fiscale (CADTM). Le 26 décembre 1945, la France institutionnalise l'outil en créant le franc CFA — sigle qui signifie alors, sans détour, « Colonies Françaises d'Afrique». Après les indépendances, l'intitulé change pudiquement: « Communauté Financière Africaine» à l'ouest, « Coopération Financière en Afrique centrale» ailleurs. Les initiales restent les mêmes. La réalité aussi.
-
 Une donnée suffit à le prouver: de 1945 à 1975, 100 % des réserves de change des pays africains de la zone franc sont déposées au Trésor français; depuis 1975, ce taux est de 50 % (Fanny Pigeaud, Mediapart). Pour le dire simplement, les réserves de change sont l'épargne en devises d'un pays — et cette épargne africaine, déposée à Paris, finance le budget français. Cheikh Anta Diop avait trouvé la métaphore exacte: un loyer qui ne dit pas son nom. Le mécanisme monétaire complet mérite un chapitre entier; ce sera le suivant.
 
 ## Le monopole comme principe
 
 Le pacte ne se limite pas à la monnaie. Frédéric Turpin (2015) documente la mécanique des préférences commerciales: Jacques Foccart appuie avec succès la désignation de Thomson comme fournisseur exclusif des centraux téléphoniques de tous les États africains francophones. Nul appel d'offres. Une décision politique habillée en décision technique.
-
 Plus révélateur encore: Maurice Yaméogo, président de Haute-Volta, propose de lui-même à Foccart d'attribuer à sa société Safiex le monopole des exportations et importations de son pays tout entier. L'économie africaine n'est donc pas toujours pillée malgré ses dirigeants. Elle est parfois offerte par eux — en échange de la protection politique que seul le réseau Foccart peut garantir. Au-delà de l'extraction, c'est une servitude volontaire institutionnalisée. Le Dr Yamb Ntimba décrira ce système comme une pyramide de domination à cinq niveaux — militaire, économique, informationnel, culturel, ontologique — que nous détaillerons au chapitre 10.
-
 La séquence des années 1990 montre que le pacte sait se moderniser. Le général Tiani l'a rappelé dans son discours du 12 février 2024 sur la RTN: en 1990, le discours de La Baule impose le multipartisme — résultat, une fragmentation politique avec plus de deux cents partis dans des pays de moins de cent millions d'habitants. Quatre ans plus tard, en 1994, la dévaluation du franc CFA divise par deux, en une nuit, le pouvoir d'achat de millions d'Africains. Concrètement, dévaluer une monnaie, c'est décréter qu'elle vaut moins: les salaires et l'épargne restent les mêmes en chiffres, mais tout ce qui s'importe coûte deux fois plus cher. Fragmentation politique, puis étranglement économique: une séquence coordonnée, pas une coïncidence.
 
 ## La chaîne du pillage, racontée par ses maillons
 
 L'architecture se décrit le mieux par la voix de ses acteurs. Pascal Lissouba, président du Congo de 1992 à 1997, témoigne dans un documentaire de 2001: « Nous ne savions rien de ce qui se passe et nous n'avons même pas la quantité du pétrole qui sortait de notre pays.» Un chef d'État reconnu par l'ONU affirme que son pays ignorait sa propre production: les puits étaient dans l'océan, les navires étaient ceux d'Elf, les chiffres étaient fournis par Elf — et les autorités congolaises « n'avaient pas les moyens d'aller vérifier».
-
 Depuis Abidjan, Mamadou Koulibaly, ancien ministre des Finances de Côte d'Ivoire, décrit la même réalité: « Les tankers viennent faire le plein et puis s'en vont, et puis c'est eux qui nous disent: bon, on a pris 10 barils, 20 barils, et nous on comptabilise ça dans le budget.» Deux anciens ministres, deux pays, la même histoire.
-
 Et la machine se réalimente elle-même. Robert Bourgi, avocat franco-libanais et porteur de mallettes pour l'Élysée, raconte ses tournées chez Omar Bongo, Blaise Compaoré, Denis Sassou-Nguesso ou Mobutu, avec un message de Paris: contribuez à la campagne de « votre ami». « Jamais ça n'est descendu en dessous d'un million de dollars.» Pour la seule campagne de Jacques Chirac en 1995: au moins 100 millions de dollars. Laurent Gbagbo, à sa sortie de la CPI, admet avoir versé 3 millions d'euros à la demande de Chirac et de Villepin. Charles Pasqua, ancien ministre de l'Intérieur, reconnaît publiquement dans Le Parisien que Balladur voulait « couper les vivres aux socialistes» en remplaçant Le Floch-Prigent à la tête d'Elf. Le pétrole africain, acheté quatre dollars, finançait la démocratie française.
 
-**ENCADRÉ — Le circuit du pillage, de l'extraction au financement politique**
+**ENCADRÉ — LE CIRCUIT DU PILLAGE, DE L'EXTRACTION AU FINANCEMENT POLITIQUE**
+
 - 1. Extraction des ressources africaines à prix décoté (4 $ pour un pétrole revendu 80 $)
 - 2. Cargaisons non déclarées, chiffres invérifiables par les États producteurs
 - 3. Financement politique par mallettes (Bourgi) et réseaux offshore
 - 4. Financement retour: des campagnes électorales françaises payées par les chefs d'État africains
 - 5. Double impunité: les États africains ne peuvent pas vérifier, les tribunaux français regardent ailleurs
+
 (Sources: Le Floch-Prigent, Lissouba, Koulibaly, Bourgi, Pasqua; Le Monde, 2018)
 
 ## Quand l'adversaire avoue
 
 Ce système a des preuves — et fait remarquable, les plus accablantes viennent du camp adverse lui-même. Jacques Chirac, président de la République, l'admet sans détour: l'essentiel de la richesse de la France vient de l'exploitation de l'Afrique. Jules Ferry l'avait théorisé dès le XIXe siècle: « La France a besoin de ses colonies pour ses débouchés économiques.» Quant à Nicolas Sarkozy, on lui attribue cette déclaration lors d'une audition: « La civilisation la plus brutale, la plus sauvage, la plus violente qui existe et qui ait jamais existé, c'est la civilisation européenne.» Quand d'anciens présidents français disent eux-mêmes ce que les panafricanistes répètent depuis des décennies, le débat change de nature.
-
 Il a aussi, désormais, des juges. Le 13 avril 2026, un tribunal français condamne les ex-dirigeants de Lafarge à six et cinq ans de prison ferme pour financement du terrorisme en Syrie. Le 26 mai 2023, France Inter révélait que le groupe Castel est dans le viseur du parquet antiterroriste pour financement de milices armées en Centrafrique. Deux multinationales françaises, deux pays, deux procédures. Le financement de groupes armés par des entreprises françaises n'est plus une thèse panafricaniste. C'est un fait judiciaire.
-
 Mallettes, monopoles, cargaisons fantômes: aucun de ces leviers ne tiendrait pourtant sans le verrou central du dispositif — la monnaie elle-même, et c'est elle qu'il faut maintenant regarder en face.
 
 ★ ★ ★
 
+
 # Chapitre 7 — Le franc CFA
 
-*« La monnaie est la mère des souverainetés. Vous ne pouvez pas être souverain si vous n'avez pas de monnaie.»*
-— Dr Douma Jean-René, Panafrican Média TV, 10 mai 2026
-
+> « La monnaie est la mère des souverainetés. Vous ne pouvez pas être souverain si vous n'avez pas de monnaie.»
+> — Dr Douma Jean-René, Panafrican Média TV, 10 mai 2026
 Un matin de marché à Niamey. Une commerçante rend la monnaie sur un billet de mille francs CFA, usé, plié en quatre. Ce billet n'a pas été imprimé au Niger, ni dans aucun pays africain: il sort des presses de la Banque de France, à Chamalières, en Auvergne. Sa valeur est fixée à Paris. Sa garantie dépend du Trésor français. Quinze pays africains, des dizaines de millions de transactions quotidiennes — et pas une seule décision monétaire qui appartienne vraiment à ceux qui tiennent le billet entre leurs mains.
-
 Le franc CFA n'est pas une monnaie africaine. C'est une monnaie française déployée en Afrique. Ce chapitre explique pourquoi cette phrase n'est pas un slogan, mais une description technique — et pourquoi tous ceux qui ont voulu s'en affranchir trop tôt l'ont payé au prix fort.
 
 ## Le compte d'opérations, ou la souveraineté en dépôt
 
 On a vu au chapitre précédent la naissance du franc CFA en 1945 et sa fonction fiscale originelle. Reste à comprendre comment il fonctionne aujourd'hui. Le cœur du mécanisme s'appelle le compte d'opérations: en échange de la garantie de convertibilité accordée par le Trésor français, les États membres doivent déposer 50 % de leurs réserves de change sur un compte ouvert à Paris. Deux notions techniques se cachent dans cette phrase, et elles méritent d'être déshabillées. La garantie de convertibilité, d'abord: c'est la promesse que le franc CFA pourra toujours être échangé contre des euros, à un taux fixe. Présentée comme une protection, elle est surtout une laisse — car celui qui garantit fixe les conditions. Le compte d'opérations, ensuite: c'est le compte du Trésor français où dort la moitié de l'épargne en devises de quinze pays africains.
-
 Concrètement, voici ce que cela signifie: quand le Niger vend son uranium ou le Mali son or à un acheteur étranger, les devises gagnées transitent par ce compte parisien. La France connaît ainsi, en temps réel, les flux d'exportation de chaque pays; elle peut bloquer des transactions; elle contrôle de fait la politique monétaire de nations théoriquement souveraines. Le taux de change est fixé par Paris. Les banques centrales africaines ont leur siège à Dakar ou à Yaoundé, mais leurs dirigeants sont systématiquement formés à Paris et orientés par Paris. Et l'ironie est complète, comme le relève le journaliste Albert Anatole Ayissi: « Même les migrants français en Afrique ne sont pas payés en franc CFA — ils le sont en euros.»
 
-**ENCADRÉ — Le compte d'opérations en clair**
+**ENCADRÉ — LE COMPTE D'OPÉRATIONS EN CLAIR**
+
 - Le principe: la France « garantit» la convertibilité du franc CFA en euros
 - Le prix: 50 % des réserves de change des États membres déposées au Trésor français (100 % de 1945 à 1975)
 - La conséquence: Paris voit passer tous les flux d'exportation, peut les bloquer, et fixe le taux de change
 - L'échelle: quinze pays africains utilisent aujourd'hui cette monnaie fabriquée et contrôlée en France
 
+
 ## Le prix de la sortie
 
 Emmanuel Macron a déclaré publiquement que les Africains sont « libres de sortir du franc CFA s'ils le veulent». C'est le discours. La réalité, elle, est documentée par les corps. « Nous connaissons beaucoup de leaders africains qui ont été assassinés du fait d'avoir évoqué seulement la fin du franc CFA», rappelle Ayissi. La liste est précise.
-
 Sylvanus Olympio — dont on a raconté le destin au chapitre 5 — avait engagé la création d'un franc togolais et refusé d'intégrer la zone franc: il est assassiné en janvier 1963, six jours après avoir confirmé ce refus, selon les sources panafricanistes. Thomas Sankara avait évoqué la sortie du franc CFA: assassiné en 1987 — son histoire complète viendra au chapitre 23. Mouammar Kadhafi planifiait un dinar-or africain pour affranchir les échanges continentaux du dollar et du franc: éliminé en 2011 par une coalition franco-britannique, comme on le verra au chapitre 11. La corrélation n'est pas anecdotique. Elle est la règle.
-
 Et quand on ne tue pas l'homme, on tue la monnaie. La Guinée de Sékou Touré, qui ose dire non en 1958, voit des avions déverser de la fausse monnaie sur son territoire pour torpiller sa devise naissante — une opération de déstabilisation attribuée aux services français de l'époque. Le franc malien, créé par Modibo Keïta en 1962, s'effondre en 1984 sous une spéculation systématique organisée depuis Paris, forçant Bamako à réintégrer la zone franc. Et en 1994, la dévaluation décidée à Paris ampute en une nuit le pouvoir d'achat de toute la zone — on a vu au chapitre précédent dans quelle séquence politique elle s'inscrivait. Le spectre de la déstabilisation monétaire n'est pas un fantasme: c'est une arme réelle, documentée, répétée.
 
 ## Les contre-exemples qui dérangent
 
 L'argument officiel veut que la zone franc protège ses membres de l'instabilité. L'histoire africaine elle-même fournit le premier démenti: dès 1958, le Ghana de Kwame Nkrumah sort de la zone sterling et se dote de sa propre monnaie — l'ancienne puissance coloniale britannique n'envoie ni avions ni fausse monnaie, et le précédent reste, pour les économistes panafricains, le modèle historique d'une émancipation monétaire assumée. Les contre-exemples plus récents disent la même chose. La Mauritanie est sortie de la zone franc en 1973: elle dispose depuis de sa propre monnaie nationale, l'ouguiya, et présente une économie stable. Le Maroc, avec son dirham indépendant, a construit l'une des économies les plus diversifiées du continent. À plus grande échelle, la Russie, sous les sanctions occidentales les plus massives de l'histoire, maintient une économie fonctionnelle précisément parce qu'elle contrôle sa monnaie et développe des circuits de paiement alternatifs. Pour le dire simplement: avoir sa monnaie ne garantit pas la prospérité, mais ne pas l'avoir garantit la dépendance.
-
 Il faut être honnête sur l'autre versant: sortir d'une zone monétaire est une opération à hauts risques — inflation de transition, attaques spéculatives, fuite des capitaux. Les précédents d'Olympio et de Modibo Keïta montrent que la menace n'est pas seulement économique. C'est précisément pourquoi les dirigeants de l'AES, on le verra au chapitre 28, avancent sur ce terrain avec une prudence calculée. Le général Tiani l'a formulé en une phrase, le 12 février 2024 sur la RTN: « La monnaie est une étape de sortie de la colonisation. Au moment opportun, nous déciderons.»
 
 ## Une arme toujours chargée
 
 Que le levier monétaire reste d'actualité, l'année 2026 le confirme. En mai, Bloomberg et Citigroup recommandent une dévaluation du franc CFA de la zone CEMAC — un signal analysé par Jonathan Batenguène comme l'indice que la dévaluation demeure, dans la panoplie française, un outil de pression disponible. Trente-deux ans après 1994, le scénario est de nouveau sur la table. Le verrou n'a pas rouillé.
-
 Résumons. Une monnaie née d'un impôt colonial, imprimée en Auvergne, gagée sur des réserves déposées à Paris, dont la sortie a coûté la vie à ceux qui l'ont tentée trop tôt: voilà le socle financier du pacte néocolonial. Mais une monnaie ne verrouille que ce qui a de la valeur — et pour mesurer ce que ce verrou protège exactement, il faut maintenant aller là où la richesse sort de terre: à Arlit, dans le désert nigérien.
 
 ★ ★ ★
 
+
 # Chapitre 8 — Les ressources stratégiques
 
-*« Des firmes privées tentaculaires exploitant aujourd'hui 80 % des gigantesques gisements africains, et dont les bénéfices sont rapatriés dans des paradis fiscaux.»*
-— André Chassaigne, député, Assemblée nationale française, décembre 2013
-
+> « Des firmes privées tentaculaires exploitant aujourd'hui 80 % des gigantesques gisements africains, et dont les bénéfices sont rapatriés dans des paradis fiscaux.»
+> — André Chassaigne, député, Assemblée nationale française, décembre 2013
 Arlit, nord du Niger, 1971. Au milieu du désert, la Cogema — qui deviendra Areva, puis Orano — installe ses puits d'extraction. Une ville champignon sort du sable. Depuis cette date et jusqu'à la transition de 2023, l'uranium nigérien est extrait, acheminé, enrichi et vendu par des entreprises françaises. Le Niger reçoit une redevance — c'est-à-dire, concrètement, un pourcentage fixe versé à l'État sur ce qui sort de son sous-sol, quel que soit le prix auquel l'acheteur le revend ensuite. La France, elle, garde la marge.
-
 Cinquante ans durant, ce partage-là a été la règle pour tout ce que le Sahel produit de stratégique: l'uranium, l'or, le pétrole. Ce chapitre en fait l'inventaire.
 
 ## Le paradoxe absolu: l'uranium
 
 Les chiffres ne viennent pas d'un tract militant, mais du Haut Comité français pour la transparence nucléaire: le Niger représentait 35 % des importations françaises d'uranium concentré en 2020, 34 % en 2021. Sans le Niger, la France perd une part décisive de cette indépendance énergétique dont elle se vante face à l'Allemagne dépendante du gaz russe. C'est le paradoxe absolu: la France est « indépendante» grâce à un pays dont elle entretient méthodiquement la dépendance.
-
 Car le prix payé n'a rien d'un prix de marché. Historiquement, l'uranium nigérien est acheté 30 à 40 % sous le cours mondial (ONG Sherpa, 2013). En d'autres termes, à production égale, le Niger touchait un tiers de moins que le Kazakhstan ou le Canada pour le même minerai. Nathalie Yamb a éclairé l'apparente contradiction française: pourquoi Paris « hurlait, envoyait des terroristes, violait la convention de Vienne» quand Niamey a demandé à Orano de partir, alors que les officiels français juraient que cet uranium ne pesait plus que 20 % de leur approvisionnement? La réponse est dans le modèle commercial: au Niger, Orano achetait à prix décoté; au Kazakhstan, en Australie, au Canada, il faut payer le prix du marché. Ce n'est pas le volume qui était stratégique. C'était la marge. Jean-Bedel Bokassa — l'homme que la France avait pourtant installé et couronné en Centrafrique — l'avait dit crûment pour son propre pays: « Depuis 1966 jusqu'à aujourd'hui, ni la France ni la Suisse n'a versé un franc» pour l'uranium extrait.
-
 Et il y a le coût invisible. Quand l'ambassadeur Sylvain Itté ironisait sur les réseaux — « Arrêtez de boire l'eau à Niamey puisqu'elle est européenne» —, Franklin Nyamsi a décodé ce que la moquerie masquait: les nappes phréatiques d'Arlit sont polluées par les résidus des mines d'uranium, contamination documentée par Greenpeace dès 2010. Des Nigériens boivent une eau radioactive. Pendant ce temps, moins de 20 % de la population du pays a accès à l'électricité (Banque mondiale, 2022). La formule résume tout: le pays qui éclaire la France vit dans l'obscurité.
 
-**ENCADRÉ — Niger: l'inventaire d'un paradoxe**
+**ENCADRÉ — NIGER: L'INVENTAIRE D'UN PARADOXE**
+
 - 35 % des importations françaises d'uranium concentré en 2020 (Haut Comité pour la transparence nucléaire)
 - Prix historiquement payé: 30 à 40 % sous le cours mondial (ONG Sherpa, 2013)
 - Contamination radioactive des eaux d'Arlit documentée (Greenpeace, 2010)
 - Accès à l'électricité: moins de 20 % de la population (Banque mondiale, 2022); IDH: 189e sur 191 (PNUD)
 - Après la transition de 2023: recettes pétrolières +218 % (2020-2024), couverture des besoins domestiques passée de 20 % à 60 %
 
+
 ## L'or du Mali: la renégociation qui fait jurisprudence
 
 Au Mali, l'or représente plus de 70 % des exportations, et le pays est le troisième producteur africain. La part historique de l'État burkinabè voisin dans les revenus de ses propres mines d'or représentait 10 % ou moins face aux multinationales. En 2023, la transition malienne renégocie les contrats avec Barrick Gold, l'un des deux plus grands groupes aurifères du monde: redevances en hausse et 35 % de contenu local obligatoire. Pour le dire simplement, le contenu local, c'est l'obligation de confier une part des emplois, des sous-traitances et des achats à des entreprises et des travailleurs du pays — au lieu de tout importer.
-
 Le test grandeur nature s'appelle Loulo-Gounkoto. En janvier 2024, la mine est momentanément arrêtée dans un contexte de tension avec l'État malien. Le Canada menace de représailles diplomatiques. Bamako maintient sa position. Et Barrick se plie à la renégociation (données du ministère malien des Mines, 2023-2024). C'est la première application concrète d'une souveraineté économique obtenue par des moyens juridiques plutôt que par l'expropriation: on ne chasse pas l'investisseur, on change les termes du contrat.
 
 ## Le pétrole: 60-30-10
 
 Le pétrole offre la radiographie la plus brutale du modèle. Au Congo-Brazzaville, Thomas Porcher, professeur à PSB Paris, a documenté le partage des revenus pétroliers: 60 % pour Total, 30 % pour l'ENI, 10 % pour l'État congolais. Dix pour cent, pour le pays propriétaire de la ressource. Et ce ratio n'est pas une exception congolaise: on retrouve le même ordre de grandeur dans l'or burkinabè, et Mamadou Koulibaly confirme la même logique pour la Côte d'Ivoire. Aucune coïncidence régionale — un modèle contractuel systémique, imposé pays par pays.
-
 Le journaliste Albert Anatole Ayissi en a résumé le principe: « Ce sont les dirigeants d'Areva qui informaient les autorités nigériennes de la quantité extraite et qui fixaient le prix. La même chose avec le pétrole, le cacao — le prix est fixé non pas par les producteurs mais par les consommateurs sur les marchés internationaux. C'est la réalité.» L'équation est d'une cohérence redoutable du point de vue de l'exploiteur: les matières premières — pétrole, uranium, cacao, café, coltan — quittent le continent à l'état brut; leur prix se fixe à Londres, Chicago ou New York; la transformation, la valeur ajoutée et l'emploi industriel restent ailleurs. Un continent qui ne transforme presque rien devient, en retour, un marché captif pour les manufactures étrangères.
 
 ## Ce que change la rupture: la preuve par les chiffres
 
 L'argument décisif est arrivé après 2023, et il est comptable. Au Niger, entre 2020 et 2024, les recettes pétrolières de l'État bondissent de 218 %. Franklin Nyamsi publie en décembre 2025 le détail des revenus depuis la reprise en main: environ 300 millions de dollars pour l'uranium désormais géré directement, environ 500 millions pour le pétrole vendu cash à la Chine — près de 800 millions de dollars de revenus annuels nouveaux pour l'État nigérien. « C'est du jamais vu dans l'histoire d'un État nigérien, et d'un État dans l'Afrique francophone issue du colonialisme français», commente-t-il. Le même sous-sol. Le même minerai. Seul le contrat a changé.
-
 Dès décembre 2013, pourtant, un député français l'avait dit en session plénière de l'Assemblée nationale. André Chassaigne dénonçait ces « firmes privées tentaculaires exploitant aujourd'hui 80 % des gigantesques gisements africains et dont les bénéfices sont rapatriés dans des paradis fiscaux». L'aveu était public. Rien n'a bougé pendant dix ans.
-
 Une question demeure, et elle est vertigineuse: comment un pillage aussi documenté a-t-il pu durer six décennies sans provoquer de rupture? Parce qu'on l'a enveloppé dans le plus efficace des camouflages — un mot doux, presque tendre, qui s'appelle « l'aide».
 
 ★ ★ ★
 
+
 # Chapitre 9 — L'aide, la dette, les assassins financiers
 
-*« L'aide publique au développement est une arnaque qui sert surtout à donner bonne conscience aux donateurs, qui savent très bien l'utilisation tordue que nos chefs d'État font de cet argent.»*
-— Nathalie Yamb, chronique Afrique Résurrection, novembre 2022
-
+> « L'aide publique au développement est une arnaque qui sert surtout à donner bonne conscience aux donateurs, qui savent très bien l'utilisation tordue que nos chefs d'État font de cet argent.»
+> — Nathalie Yamb, chronique Afrique Résurrection, novembre 2022
 Léopoldville, 30 juin 1960. Le Congo célèbre son indépendance. Le nouvel État compte, ce jour-là, seize diplômés de l'enseignement supérieur pour quatorze millions d'habitants. Pas un médecin. Pas un ingénieur. Pas un agronome. Et dans la corbeille de l'indépendance, la Belgique dépose un cadeau: les dettes qu'elle a elle-même contractées pour coloniser et exploiter le pays (CADTM / Éric Toussaint). Le Congo naît endetté du prix de sa propre servitude.
-
 Il n'y a aucune fatalité de la pauvreté dans cette scène. Il y a du pillage organisé, suivi d'une facture. Ce chapitre raconte comment la facture est devenue un système.
 
 ## La dette odieuse: un concept juridique, pas un slogan
 
 La doctrine juridique a un nom pour cela: la « dette odieuse». Le juriste Alexandre Sack la définit dès 1927 — les dettes contractées pour coloniser et asservir une population ne sont pas à la charge des peuples victimes. Concrètement, cela signifie qu'un peuple n'a pas à rembourser l'argent emprunté pour forger ses propres chaînes. Le principe n'a rien de théorique: le Traité de Versailles l'avait appliqué dès 1919 au profit de la Pologne, exonérée des dettes allemandes de colonisation. La Banque mondiale a pourtant violé ce principe en finançant les administrations coloniales belge, française et britannique, puis en transférant ces dettes aux États devenus indépendants.
-
 L'Afrique a formulé sa réponse dès 1993: la première Conférence panafricaine sur les réparations, réunie à Abuja, proclame l'annulation des dettes coloniales, des réparations financières, la restitution des biens culturels volés et une représentation accrue de l'Afrique dans les instances internationales. Trente ans plus tard, les pays européens commencent timidement à restituer des objets. Pour le reste, silence.
-
 Un précédent prouve pourtant que la voie existe. En 2008, l'Équateur de Rafael Correa conduit un audit citoyen de sa dette — autrement dit, un examen public, ligne par ligne, de qui a prêté quoi, à qui, et pour quoi faire — et refuse de rembourser 70 % des montants jugés illégitimes. Les créanciers acceptent. Ce modèle est applicable. Il a été appliqué (Mariam Tamousang, Afrophique / CADTM).
 
 ## L'aide comme thermomètre de l'obéissance
 
 L'aide publique au développement est l'instrument le plus sophistiqué de la domination — non parce qu'elle est massive, elle est relativement modeste, mais parce qu'elle est présentée comme de la générosité alors qu'elle est un levier. Nathalie Yamb le décrit précisément: l'APD est principalement composée de prêts, pas de dons. Des prêts conditionnés à l'ouverture des marchés, au maintien du franc CFA, aux votes favorables dans les institutions internationales. Détail qui ruine à lui seul le récit de la générosité: selon les données mêmes de la Banque mondiale, les transferts d'argent des migrants africains vers leurs pays dépassent de très loin l'aide officielle — la diaspora finance davantage l'Afrique que tous les « donateurs» réunis, on y reviendra au chapitre 24.
-
 La meilleure preuve que l'aide est un instrument politique? Sa courbe épouse exactement celle de l'obéissance.
 
-**ENCADRÉ — Aide française au Mali: chronologie d'un chantage**
+**ENCADRÉ — AIDE FRANÇAISE AU MALI: CHRONOLOGIE D'UN CHANTAGE**
+
 - 2017-2021: 587 millions d'euros au total (385 milliards FCFA)
 - 2018-2019: montant multiplié par sept (de 30 à 205 millions d'euros) — les années où Bamako obéit
-- 2020-2021: montant divisé par trois (de 110 à 39 millions d'euros) — les années de résistance
+- 2020-2021: montant divisé par trois (de 110 à 39 millions d'euros) — les années de resistance
 - Août 2022: expulsion de Barkhane — suspension de l'aide
 - Novembre 2022: suspension totale
 - La variabilité du montant est un thermomètre de l'obéissance politique
 
 La Centrafrique illustre le mécanisme dans sa forme la plus crue. L'aide budgétaire internationale y représente, selon les années, 46 à 69 milliards de FCFA — jusqu'à 46 % du budget national (ministre des Finances Hervé Ndoba, 2022). Quand la France suspend son aide en 2021 pour forcer le départ de Wagner, elle pose explicitement trois conditions à la reprise: arrêt de la « désinformation», arrêt du « harcèlement des entreprises françaises», départ de Wagner (sources de l'ambassade de France à Bangui, Oubangui Médias, septembre 2021). Et la « désinformation», dans cette grammaire, se définit comme toute information défavorable aux intérêts français.
-
 Le cas du pipeline Niger-Bénin montre toutefois que le monopole de la pression s'effrite. Le Niger veut exporter son pétrole par le port de Cotonou; la Chine (CNPC) a avancé 400 millions de dollars dans le projet; Patrice Talon bloque les chargements sous pression française; Pékin presse en retour; Talon fait rapidement marche arrière (Yamb, analyses 2024-2026). La leçon est structurelle: dès qu'il n'y a plus de dominant unique, des marges de manœuvre apparaissent. C'est précisément ce que l'AES cherche à institutionnaliser.
 
 ## Les confessions d'un assassin financier
 
-Pour comprendre l'étage supérieur du système, il faut écouter un homme qui en fut l'un des rouages. John Perkins a passé des décennies comme « assassin financier» — Economic Hit Man, EHM — au service de ce qu'il appelle la « corporatocratie»: la symbiose entre gouvernements occidentaux, multinationales et institutions financières internationales. Son témoignage, *Confessions of an Economic Hit Man* (2004), décrit de l'intérieur un système qui utilise le FMI et la Banque mondiale non comme des outils de développement, mais comme des armes de conquête économique.
-
+Pour comprendre l'étage supérieur du système, il faut écouter un homme qui en fut l'un des rouages. John Perkins a passé des décennies comme « assassin financier» — Economic Hit Man, EHM — au service de ce qu'il appelle la « corporatocratie»: la symbiose entre gouvernements occidentaux, multinationales et institutions financières internationales. Son témoignage, Confessions of an Economic Hit Man (2004), décrit de l'intérieur un système qui utilise le FMI et la Banque mondiale non comme des outils de développement, mais comme des armes de conquête économique.
 La mécanique est d'une précision diabolique. Un pays riche en ressources — le Niger et son uranium, le Congo et son coltan, l'Angola et son pétrole — se voit proposer un grand prêt pour financer une infrastructure: centrale, port, autoroute. Les études économiques promettent une croissance qui remboursera tout. Ces prévisions sont délibérément gonflées; elles ne sont jamais tenues. « L'argent ne quittait jamais réellement les États-Unis, raconte Perkins. Il allait directement de Washington aux caisses de Bechtel, Halliburton, Brown & Root. Les pays recevaient des dettes. Les multinationales recevaient des contrats.»
-
 Quelques années plus tard, quand le pays fait défaut — ce qui était prévu dès le début —, le FMI et la Banque mondiale arrivent avec leurs « ajustements structurels». En d'autres termes: en échange d'un rééchelonnement de la dette, le pays doit privatiser ses entreprises publiques, ouvrir ses marchés, tailler dans la santé et l'éducation, brader l'accès à ses ressources — et parfois accorder des bases militaires ou des votes à l'ONU. « La souveraineté est hypothéquée, écrit Perkins. C'est le contrat.» La dette n'est pas un accident du système. Elle est le système: la continuation de la colonisation par d'autres instruments.
-
 L'institutionnalisation a un visage: Robert McNamara, l'ancien secrétaire américain à la Défense qui a géré la guerre du Vietnam, prend la tête de la Banque mondiale en 1968. Sous sa direction, les prêts passent de 13 à 100 milliards de dollars entre 1968 et 1981. Pas par humanisme — par stratégie. Les modèles mathématiques habillent la rapacité en science. Les résultats humains sont documentés: en Équateur, après des décennies de projets financés par ce système, le taux de pauvreté est passé de 50 % à 70 % pendant que la dette explosait, et l'Amazonie héritait de milliards de litres de brut déversés en toute impunité.
-
 Et quand un dirigeant résiste? Perkins décrit la hiérarchie des recours: « Lorsque les EHM échouent à convaincre un dirigeant récalcitrant, les chacals prennent le relais. Et si les chacals échouent, c'est l'armée. Nous avons toujours un dernier recours.» Les « chacals»: les spécialistes des renversements et des accidents mortels. Lumumba, Sankara, Sékou Touré — l'histoire africaine est jalonnée de dirigeants qui ont refusé d'entrer dans le système, on a commencé à raconter leurs destins au chapitre 5. Ce n'est pas une théorie du complot. C'est un modèle d'action décrit par l'un de ses propres exécutants.
 
 ## La grille de lecture du Sahel — et la réponse des tracteurs
 
 Appliquée au Sahel, cette grille éclaire tout. Pourquoi le Niger, parmi les premiers producteurs mondiaux d'uranium, figure-t-il parmi les pays les plus pauvres de la planète? Pourquoi le Mali, avec son or, son coton, ses fleuves, a-t-il été maintenu sous perfusion d'aide? Parce que le système n'est pas conçu pour développer. Il est conçu pour extraire, endetter et contrôler. La rupture de l'AES avec la CEDEAO, le FMI et la zone franc n'est pas une régression vers le chaos: c'est la sortie consciente d'un piège que Perkins a contribué à construire avant de le dénoncer.
-
 La réponse burkinabè aux suspensions d'aide donne la mesure du changement d'époque. Le 25 mai 2025, le capitaine Ibrahim Traoré remet aux agriculteurs du Faso des équipements d'une valeur de 104 milliards de FCFA: 1 102 motoculteurs, 608 tracteurs, 485 motopompes, 935 cages flottantes, près de 67 millions de doses de médicaments vétérinaires. Cela, après la suspension totale de l'aide française d'août 2024. Là où l'on attendait la famine punitive, des tracteurs. La souveraineté ne se mendie pas. Elle s'équipe.
-
 Mais les prêts, les chacals et les armées n'expliquent pas tout: pour qu'un tel système tienne six décennies, il lui faut des relais à l'intérieur même des sociétés africaines — des institutions, des mots, des hommes — et c'est ce maillage invisible qu'il faut maintenant démonter.
 
 ★ ★ ★
 
+
 # Chapitre 10 — Les réseaux d'influence
 
-*« Il se trouve toujours des Africains pour poignarder leurs frères afin de faire plaisir à l'homme blanc.»*
-— Nathalie Yamb, janvier 2022
-
+> « Il se trouve toujours des Africains pour poignarder leurs frères afin de faire plaisir à l'homme blanc.»
+> — Nathalie Yamb, janvier 2022
 Le 17 février 2022, un téléphone sonne à Dakar. À l'autre bout de la ligne, depuis Bruxelles, le président ivoirien Alassane Ouattara. Son interlocuteur: Boubou Cissé, ancien Premier ministre du Mali et opposant à la transition de Bamako. Pendant de longues minutes, les deux hommes évaluent, avec la froideur de stratèges, la résistance d'un pays sous sanctions: les salaires en retard, les emprunts bloqués, les prix qui flambent. La conversation est interceptée et diffusée. Elle n'a, à ce jour, pas été démentie publiquement par les intéressés.
-
 Nous y reviendrons en détail à la fin de ce chapitre, car cet enregistrement est une pièce unique: le système de domination saisi en flagrant délit de fonctionnement — sans un seul soldat français à l'image. C'est tout l'objet de ce chapitre: comprendre comment l'empire tient quand les armées s'en vont. La réponse tient en quatre mots: une pyramide, un lexique, une organisation régionale, des hommes.
 
 ## La pyramide: cinq étages de domination
 
 Le Dr Yamb Ntimba a donné de ce système sa description la plus structurée: une pyramide de domination à cinq niveaux. Le niveau militaire garantit la cohérence de l'ensemble. Le niveau économique assure la captation. Le niveau informationnel fabrique le consentement. Le niveau culturel et médiatique structure les imaginaires. Et le niveau ontologique — le plus profond — installe la conviction de l'infériorité africaine dans les têtes africaines elles-mêmes. Concrètement, le niveau « ontologique» signifie ceci: quand un peuple a intégré qu'il est incapable de se gouverner, il n'a plus besoin d'être occupé — il s'occupe lui-même.
 
-**ENCADRÉ — La pyramide de domination (Dr Yamb Ntimba)**
+**ENCADRÉ — LA PYRAMIDE DE DOMINATION (DR YAMB NTIMBA)**
+
 - Niveau 5 — Ontologique: faire croire aux dominés à leur propre infériorité; structurer l'environnement mental
 - Niveau 4 — Culturel et médiatique: RFI, France 24, TV5, ONG; la « démocratie» comme label décerné ou retiré
 - Niveau 3 — Informationnel: opérations d'influence numérique et influenceurs rémunérés (détaillées au chapitre 14)
@@ -604,7 +478,8 @@ Le point décisif de cette grille: le niveau militaire est le plus visible, mais
 
 Toute domination a besoin d'un vocabulaire, et celui de la Françafrique est sophistiqué: il nomme les choses à l'inverse de ce qu'elles sont. Cette inversion n'est pas un accident de langue. Elle est fonctionnelle: elle présente la domination comme de l'aide, l'exploitation comme du partenariat, la résistance comme de l'ingratitude.
 
-**ENCADRÉ — Déconstruction du lexique impérial**
+**ENCADRÉ — DÉCONSTRUCTION DU LEXIQUE IMPÉRIAL**
+
 - « Opération de stabilisation» = intervention militaire non autorisée par le peuple concerné
 - « Partenariat sécuritaire» = présence militaire avec droit de regard sur les ressources
 - « Aide au développement» = prêts conditionnés à l'ouverture des marchés
@@ -613,234 +488,199 @@ Toute domination a besoin d'un vocabulaire, et celui de la Françafrique est sop
 - « Désinformation» = tout récit défavorable aux intérêts français
 
 Le chercheur Mohamed Mahmoud Ould Mohamedou documente la même mécanique depuis le monde académique: les néologismes forgés pour qualifier le Sahel — « somalisation», « afghanisation», « Sahelistan», « Africanistan» — ne décrivent pas une réalité, ils la construisent. Ce lexique de l'échec structurel sert à installer l'idée qu'« une intervention est nécessaire» avant même que les faits ne la justifient (Mohamedou, La Découverte, 2013). Nathalie Yamb ajoute une observation d'archéologue du discours: l'Occident encourage les divisions en Afrique pendant qu'il sanctionne ceux qui veulent se séparer chez lui — Catalans, Bretons, Corses.
-
 Face à cette grammaire sentimentale — « pays amis», « pays frères», « partenaires historiques» —, le ministre malien des Affaires étrangères Abdoulaye Diop a posé la rupture en une phrase, devant un forum international: « Dans les relations internationales, il n'y a pas d'amitié en tant que telle. Chaque pays ne défend que des intérêts.» La rupture avec Paris n'est donc pas une ingratitude. C'est l'application du principe que Paris a toujours appliqué sans jamais l'avouer.
 
 ## L'instrument régional: la CEDEAO
 
 Le 30 juillet 2023, un sommet extraordinaire de la CEDEAO à Abuja prononce des sanctions contre le Niger et menace d'une intervention militaire. L'événement est célébré comme la défense de la démocratie. Analysé sérieusement, c'est une accumulation d'illégalités. La Charte de l'Union africaine ne donne à la CEDEAO aucun mandat pour recourir à la force contre un État membre. La Charte de l'ONU, en son article 53-1, réserve ce pouvoir au seul Conseil de sécurité. Le propre Protocole de la CEDEAO de 2001, en son article 45, rend la décision procéduralement irrégulière. Pour couronner le tout, le Tchad — qui n'est pas membre de l'organisation — est invité au sommet, et le Sénat nigérian vote contre l'intervention, bloquant son propre président (Rossatanga-Rignault, faculté de droit de Libreville; Dr Yamb Ntimba).
-
 Le général Tiani a résumé l'asymétrie en une phrase: « La CEDEAO n'a jamais sanctionné un État pour avoir laissé des bases militaires étrangères sur son sol. Elle sanctionne ceux qui les ferment.» L'ironie historique est complète: fondée le 28 mai 1975 avec des objectifs économiques, l'organisation comptait parmi ses membres fondateurs le Mali, le Niger et le Burkina Faso — les trois pays qui la quittent en janvier 2024, après quarante-neuf ans. Tiani structure les raisons de la sortie en trois points: sécuritaire — la CEDEAO a menacé militairement ses propres membres; éthique — l'embargo tuait des Nigériens, médicaments bloqués, électricité coupée; économique — les avoirs du Niger à la BCEAO ont été confisqués. Abdoulaye Diop enfonce le clou juridique: « L'article 4 du statut de la Banque centrale indique que la banque ne peut recevoir d'injonction d'aucun autre organe, fût-il l'organe des chefs d'État. Mais ça a été fait.» Et il ajoute: « Une organisation qui est faite pour intégrer, si elle commence à désintégrer, elle attaque son ADN.»
-
 Qui tient la télécommande? La réponse est nominale: Macron a déclaré publiquement que l'embargo ne serait pas levé tant que Bazoum resterait en résidence surveillée. Ce n'est pas la CEDEAO qui décide. C'est Paris qui conditionne. Mohamedou a nommé le phénomène plus large: la « demande d'ingérence du Sud» — en 2011 le président ivoirien réclame l'intervention française, en 2012 le président centrafricain Bozizé, en 2013 le président malien par intérim Dioncounda Traoré. Chacun de ces appels n'est pas un aveu de faiblesse: c'est la signature d'une classe dirigeante qui a appris à troquer sa souveraineté contre sa survie.
 
 ## Les hommes: l'élite compradore
 
 Cette classe a un nom. Le mot « compradore» vient du portugais: il désignait le marchand intermédiaire entre le colon et la population. Dans l'Afrique postcoloniale, l'élite compradore est celle qui facilite le maintien de la dépendance. Pour le dire simplement: elle parle souveraineté en public, signe les accords de servitude en privé, envoie ses enfants à Paris et place son argent en Suisse.
-
 En janvier 2022, Nathalie Yamb dresse la liste nominale des chefs d'État qui ont exécuté les instructions de l'Élysée contre le Mali: Kaboré, Ouattara, Talon, Macky Sall, Gnassingbé, Bazoum, Embaló. Le destin de cette liste est éloquent: dans les dix-huit mois suivants, la majorité de ses membres ont été renversés ou ont vu leur influence s'effondrer — Kaboré dès janvier 2022, Bazoum en juillet 2023. La liste des compradores est aussi une liste des vulnérables.
-
 Mohamed Bazoum illustre le profil à la perfection. Renversé le 26 juillet 2023, il alerte ses soutiens dans les colonnes du Washington Post (6 août 2023): « L'aide étrangère constitue 40 % du budget national, mais elle ne sera pas délivrée si le coup d'État réussit.» Il n'appelle pas son peuple. Il appelle ses protecteurs extérieurs, et brandit la suspension de l'aide comme une arme contre les siens. Yamb donne de ce monde une image presque anthropologique: « Ils ont le minimum républicain chez eux. Si un milliardaire vient avec des millions de dollars voir un leader politique français en lui disant il faut faire un coup d'État, on va l'envoyer balader. Ici, certains acceptent. La corruption induit qu'il y a un corrupteur et un corruptible.» Banda Kani, lui, nomme le « complexe du colonisé»: ces Africains qui valident le mépris occidental envers leurs propres processus souverains, parce que la décolonisation des mentalités — le cinquième étage de la pyramide — n'a pas eu lieu.
 
 ## La loi des valets: Mobutu, Compaoré, Ouattara
 
 Que gagne-t-on à servir l'Empire? Trois portraits répondent, et leur convergence vaut démonstration (Dr Rufin Viclère Mabiala).
-
 Mobutu Sese Seko, d'abord: trois décennies à déstabiliser l'Angola, le Soudan, le Rwanda et l'Afrique du Sud de l'ANC pour le compte de ses parrains occidentaux, à piller le Congo et à détourner des milliards vers la Suisse. Sa récompense: quand le cancer le frappe, la France lui refuse un visa pour venir se soigner. Il meurt à Rabat en 1997, seul, abandonné de ceux qu'il avait servis.
-
 Blaise Compaoré, ensuite: vingt-sept ans de pouvoir au Burkina Faso, l'assassinat de Sankara, un rôle de plaque tournante des groupes armés de la sous-région — avec le consentement de ses parrains, qui trouvaient dans cette instabilité calibrée la justification de leur présence militaire. Renversé par son peuple en 2014, exfiltré par la France vers Abidjan, condamné par contumace à la réclusion criminelle à perpétuité par le tribunal militaire de Ouagadougou pour l'assassinat de Sankara. Il vit toujours à Abidjan, protégé.
-
 Alassane Ouattara, enfin — le cas le plus instructif, parce qu'il est en cours. Ancien directeur du département Afrique du FMI, il fut l'architecte institutionnel des plans d'ajustement structurel imposés au continent — ces programmes dont on a vu la mécanique au chapitre 9. Porté au pouvoir en 2011 grâce à la rébellion de Guillaume Soro et à l'intervention française, il condamne dix ans plus tard ce même Soro à vingt ans de prison pour les actes qu'il avait lui-même commandités. La France ne lève pas le petit doigt. Mabiala en tire la loi: « L'Empire n'a pas de mémoire pour ses valets. Il n'a que des intérêts.» L'Occident utilise, puis jette.
 
 ## L'audio du 17 février 2022: le système en flagrant délit
 
 Revenons à cette conversation interceptée, car elle assemble toutes les pièces du chapitre. Ouattara appelle depuis Bruxelles; Cissé est à Dakar. Ils évoquent d'emblée « le plan de la commission» — une structure de coordination jamais identifiée publiquement — au sujet du Mali et du Burkina Faso. Puis vient la cartographie de l'étranglement: des salaires impayés, « mille milliards de l'emprunt» bloqués, une lettre de pression du vice-ministre des Finances circulant auprès des banques commerciales, la Banque mondiale et la Banque africaine de développement évoquées comme leviers. « La pression est vraiment là, une pression réelle, dit Cissé. Les prix ont flambé. C'est difficile aujourd'hui de se procurer du riz à un prix normal, du sucre.» Ce n'est pas une conversation d'analyse. C'est le pilotage actif d'un étranglement économique. La fin de l'échange évoque deux sommets prévus à Accra pour « contraindre» le Mali et la Guinée — référence explicite aux réunions de la CEDEAO qui déboucheront sur les sanctions.
-
 Une concession arrachée par la réalité s'y glisse pourtant. Cissé reconnaît que la transition malienne a réussi ce qu'il n'avait pas anticipé: « Ils ont réussi à trouver un moyen de faire adhérer une bonne partie de la population à un combat que jusque-là le menu peuple ne menait pas — le combat contre la France, le combat contre la CEDEAO.» Venant d'un opposant, l'aveu vaut tous les sondages.
-
-Rappelons-le: l'authenticité de cet enregistrement n'a jamais été officiellement confirmée — il est seulement non démenti publiquement par les intéressés. Mais s'il est ce qu'il paraît être, il documente en temps réel le mode opératoire de la subversion néocoloniale au XXIe siècle: plus de soldats français à visage découvert, mais une coordination discrète entre présidents-relais, structures régionales instrumentalisées, pressions bancaires et étranglement financier orchestré depuis Bruxelles, Dakar et Abidjan. Dans le même registre, Choguel Maïga affirme qu'après le massacre du bateau de Tombouctou — près de soixante morts —, la CEDEAO n'a pas même adressé de condoléances au président malien. La France n'a plus besoin d'intervenir. Elle a des hommes sur place.
-
+Il documente en temps réel le mode opératoire de la subversion néocoloniale au XXIe siècle: plus de soldats français à visage découvert, mais une coordination discrète entre présidents-relais, structures régionales instrumentalisées, pressions bancaires et étranglement financier orchestré depuis Bruxelles, Dakar et Abidjan. Dans le même registre, Choguel Maïga affirme qu'après le massacre du bateau de Tombouctou — près de soixante morts —, la CEDEAO n'a pas même adressé de condoléances au président malien. La France n'a plus besoin d'intervenir. Elle a des hommes sur place.
 Voilà donc comment le système tient sans soldats: une pyramide qui formate, un lexique qui maquille, une organisation régionale qui exécute, des élites qui collaborent. Mais que se passe-t-il quand tout cela ne suffit plus — quand un peuple cesse de croire au lexique, quand les relais tombent les uns après les autres, quand les sanctions échouent à faire plier? Alors il reste le premier étage de la pyramide, celui qu'on n'avait jamais vraiment démonté: la guerre — et c'est elle qui s'invite au Sahel, comme va le raconter la Partie III.
 
 ★ ★ ★
 
+
 # PARTIE III — LA GUERRE DU SAHEL
+
 
 ★ ★ ★
-
-# PARTIE III — LA GUERRE DU SAHEL
 
 Tout commence par une guerre que le Sahel n'a pas déclarée. Elle s'est allumée ailleurs — dans le ciel de Libye, au printemps 2011 — avant de descendre vers le sud avec les convois d'armes et les combattants en déroute. Puis elle a changé de visage: groupes armés, opérations militaires étrangères, drones, communiqués, rapports d'ONG, plateaux de télévision. Cette partie raconte cette guerre-là, dans toutes ses dimensions: la destruction de l'État libyen et ce qu'elle a libéré, la fabrique du terrorisme sahélien, dix années d'interventions françaises qui ont vu la menace tripler, la bataille de l'information qui se joue dans les esprits autant que sur le terrain. Et, pour finir, le plus troublant: ce que la France elle-même, dans ses rapports officiels et ses huis clos parlementaires, a fini par admettre.
 
 ★ ★ ★
 
+
 # Chapitre 11 — La crise libyenne
 
-Syrte, 20 octobre 2011. Un convoi de véhicules tente de fuir la ville assiégée. Des avions de l'OTAN le frappent. Dans la confusion qui suit, un homme de soixante-neuf ans est extrait d'une canalisation de drainage où il s'était réfugié, lynché, puis exécuté par des combattants qui filment la scène avec leurs téléphones. Les images font le tour du monde en quelques heures. Mouammar Kadhafi, qui avait dirigé la Libye pendant quarante-deux ans, meurt dans la poussière, sous l'objectif des caméras. Ce jour-là, peu d'observateurs comprennent que ce n'est pas seulement un dictateur qui disparaît. C'est un verrou qui saute. Et derrière ce verrou, il y a le Sahel.
+Syrte, 20 octobre 2011. Un convoi de véhicules tente de fuir la ville assiégée. Des avions de l'OTAN le frappent. Dans la confusion qui suit, un homme de soixante-neuf ans est extrait d'une canalisation de drainage où il s'était réfugié, lynché, puis exécuté par des combattants qui filment la scène avec leurs téléphones. Les images font le tour du monde en quelques heures. Mouammar Kadhafi, qui avait dirigé la Libye pendant quarante-deux ans, meurt dans la poussière, sous l'objectif des caméras. Ce jour-là, peu d'observateurs comprennent que ce n'est pas seulement le guide qui disparaît. C'est un verrou qui saute. Et derrière ce verrou, il y a le Sahel.
 
 ## Un personnage double
 
-Soyons honnêtes d'emblée: Kadhafi n'était pas un saint. Son régime a emprisonné, torturé, fait disparaître des opposants pendant quatre décennies. En juin 1996, la répression d'une mutinerie à la prison d'Abou Salim, à Tripoli, s'est soldée par le massacre d'environ 1 200 détenus — un événement que les familles des victimes n'ont jamais cessé de commémorer, et dont l'anniversaire a d'ailleurs servi d'étincelle aux manifestations de Benghazi en février 2011. La Libye de Kadhafi ne connaissait ni presse libre, ni élections, ni opposition tolérée. Ces faits existent. Aucune lecture géopolitique sérieuse ne peut les effacer.
-
-Mais l'homme avait une autre face, que le récit occidental a soigneusement gommée: il était devenu, dans les années 2000, le principal financier et l'un des architectes du projet panafricain. C'est au sommet de Syrte, en septembre 1999, qu'est lancée la dynamique qui aboutira à la transformation de l'Organisation de l'unité africaine en Union africaine. C'est la Libye qui comblait une part substantielle du budget de l'organisation continentale, ainsi que les cotisations de plusieurs États membres trop pauvres pour les payer.
-
+Soyons honnêtes d'emblée: Kadhafi n'était pas un saint.
+L'homme avait une autre face, que le récit occidental a soigneusement gommée: il était devenu, dans les années 2000, le principal financier et l'un des architectes du projet panafricain. C'est au sommet de Syrte, en septembre 1999, qu'est lancée la dynamique qui aboutira à la transformation de l'Organisation de l'unité africaine en Union africaine. C'est la Libye qui comblait une part substantielle du budget de l'organisation continentale, ainsi que les cotisations de plusieurs États membres trop pauvres pour les payer.
 Surtout, Kadhafi préparait ce qu'aucun dirigeant africain n'avait osé depuis Nkrumah: une infrastructure monétaire continentale. En 2010-2011, trois institutions étaient en chantier: un Fonds monétaire africain, basé à Yaoundé; une Banque centrale africaine, prévue à Abuja; un Fonds d'investissement africain, à Tripoli. La Libye y avait engagé 20 milliards de dollars et rapatrié 120 tonnes d'or (Jonathan Batenguène, Panafrican Média TV, 10 mai 2026). Concrètement, cela signifiait qu'un jour, les pays africains pourraient emprunter, investir et émettre leur monnaie sans passer ni par le FMI, ni par la Banque mondiale, ni par le Trésor français — c'est-à-dire sans passer par les institutions qui, depuis 1960, encadrent leurs économies de l'extérieur. En 2011, Kadhafi est éliminé. La chronologie entre le projet monétaire africain et l'intervention de l'OTAN est connue. Elle ne prouve pas, à elle seule, une causalité. Elle interdit en revanche de raconter 2011 comme une simple opération humanitaire.
 
 ## Mars-octobre 2011: chronologie d'une destruction
 
-Le 15 février 2011, dans le sillage des soulèvements tunisien et égyptien, des manifestations éclatent à Benghazi. La répression est brutale, le pays bascule dans la guerre civile. Le 10 mars, la France de Nicolas Sarkozy — aiguillonnée par le philosophe Bernard-Henri Lévy, qui a organisé le contact entre l'Élysée et les insurgés — reconnaît le Conseil national de transition comme seul représentant légitime du peuple libyen. Une première mondiale: Paris reconnaît une rébellion avant même que quiconque sache qui la compose.
-
+Le 10 mars, la France de Nicolas Sarkozy — aiguillonnée par le philosophe Bernard-Henri Lévy, qui a organisé le contact entre l'Élysée et les insurgés — reconnaît le Conseil national de transition comme seul représentant légitime du peuple libyen. Une première mondiale: Paris reconnaît une rébellion avant même que quiconque sache qui la compose.
 Le 17 mars, le Conseil de sécurité de l'ONU adopte la résolution 1973, qui autorise une zone d'exclusion aérienne pour protéger les civils. Concrètement, une zone d'exclusion aérienne consiste à interdire le ciel d'un pays à son propre gouvernement: tout appareil libyen qui décolle peut être abattu. Le mandat s'arrête là — protéger les populations, pas renverser le régime. Le 19 mars, les avions français frappent les premiers, près de Benghazi. Le 31 mars, l'OTAN prend le commandement des opérations, avec Paris et le Londres de David Cameron en première ligne. Très vite, le mandat de protection se mue en campagne de changement de régime: sept mois de frappes, jusqu'au convoi de Syrte.
-
 L'Union africaine, elle, avait proposé autre chose. Sa feuille de route — cessez-le-feu, transition négociée — est acceptée par Kadhafi en avril 2011, puis balayée par les insurgés et ignorée par la coalition. Les chefs d'État africains en tireront une leçon durable: plus jamais une intervention extérieure de ce type sur le continent, décidée sans l'Afrique et contre ses médiations. Cette amertume de 2011 est l'un des sédiments sur lesquels se construira, douze ans plus tard, le discours de l'AES.
 
 ## Les arsenaux se dispersent
 
 La Libye de Kadhafi était l'un des États les plus militarisés d'Afrique. Sa destruction pulvérise les chaînes de garde de ses dépôts: des dizaines de milliers de tonnes d'armes — missiles, lance-roquettes, armes automatiques, véhicules blindés — se dispersent dans toute la bande sahélo-saharienne. Les combattants touareg du nord du Mali, dont certains avaient servi dans l'armée libyenne, rentrent chez eux avec armes et bagages. Au sens propre.
 
-**La Libye après 2011: ce qui s'est déversé vers le Sahel**
+**LA LIBYE APRÈS 2011: CE QUI S'EST DÉVERSÉ VERS LE SAHEL**
+
 - Des dizaines de milliers de tonnes d'armes issues des arsenaux libyens (missiles, lance-roquettes, armes automatiques, blindés)
 - Des combattants aguerris, notamment touareg, rentrant vers le nord du Mali
 - Un État effondré, incapable de contrôler ses 4 000 kilomètres de frontières sahariennes
 - Le Fezzan livré à lui-même, transformé en base arrière régionale
 
 Le Fezzan, justement. Cette vaste région désertique du sud libyen, peu contrôlée par Tripoli, a toujours été tournée vers le Niger, le Tchad et le Soudan plutôt que vers la côte méditerranéenne. Elle abrite des tribus touareg, toubou et arabes dont les réseaux de solidarité s'étendent de part et d'autre de plusieurs frontières à la fois. Kadhafi tenait le Fezzan. Son élimination a libéré cet espace, qui devient en quelques années la principale base arrière logistique des groupes armés actifs au Sahel — non seulement un couloir de passage, mais une zone de repli, de recrutement et d'approvisionnement. Les arsenaux dispersés y ont transité. Les réseaux tribaux transfrontaliers y ont prospéré, sans État pour les contraindre.
-
 Les autorités de transition maliennes résumeront la séquence, onze ans plus tard, dans un communiqué officiel d'une sécheresse remarquable: « La France a détruit la Libye, dispersé ses arsenaux dans tout le Sahel, puis a présenté la facture sécuritaire aux pays africains sous forme de présence militaire permanente.» (Communiqué des autorités de transition du Mali, 2022.) On peut discuter le ton. On peut difficilement discuter l'enchaînement des faits: intervention en 2011, effondrement libyen, dissémination des armes, déstabilisation du Sahel, puis déploiement militaire occidental présenté comme la réponse au chaos.
-
 Encore fallait-il, pour que ces armes deviennent une guerre, qu'elles rencontrent des hommes, des réseaux et une idéologie. Or ceux-là n'attendaient pas en Libye: ils avaient été transplantés au Sahel dix ans plus tôt, depuis l'Algérie — et c'est cette greffe qu'il faut maintenant raconter.
 
 ★ ★ ★
 
+
 # Chapitre 12 — L'explosion du terrorisme
 
-*« Azawad est une fabrication politique.» — André Bourgeot, chercheur au CNRS, spécialiste du Sahel*
-
+> « Azawad est une fabrication politique.» — André Bourgeot, chercheur au CNRS, spécialiste du Sahel
 Gao, avril 2012. La ville vient de tomber aux mains des groupes armés. Au consulat d'Algérie, des hommes en armes enlèvent le consul et ses collaborateurs. L'affaire semble n'être qu'un épisode de plus dans le chaos qui engloutit le nord du Mali. Elle est en réalité une clé. Neuf mois plus tard, le 18 janvier 2013, un conseiller de Hillary Clinton, Sydney Blumenthal, adresse à la secrétaire d'État américaine un courriel aujourd'hui déclassifié et accessible sur Wikileaks: à la suite de cet enlèvement, le gouvernement de Bouteflika est parvenu à un accord très secret avec le chef terroriste Mokhtar Belmokhtar — celui-ci concentrerait désormais ses opérations au Mali, avec l'encouragement du renseignement algérien (emails Clinton/Blumenthal, 18 janvier 2013, Wikileaks). En d'autres termes, un État voisin négociait pour que le feu brûle chez l'autre. Pour comprendre comment on en est arrivé là, il faut remonter à la source. Car le jihadisme sahélien n'est pas né au Sahel.
 
 ## La greffe algérienne
 
 Le chercheur Mohammad-Mahmoud Ould Mohamedou, professeur à l'Institut de hautes études internationales et du développement de Genève, a reconstitué cette généalogie avec une rigueur que le discours officiel français a toujours évitée. Tout commence dans la guerre civile algérienne des années 1990. Le Groupe islamique armé (GIA), épuisé et discrédité par ses massacres, donne naissance en 1998 à un avatar: le Groupe salafiste pour la prédication et le combat (GSPC). Entre 2003 et 2007, le GSPC pénètre le nord du Mali, exploitant le vide étatique et la vulnérabilité des populations — pendant qu'Alger regarde ailleurs et que Paris sait. En janvier 2007, le groupe se rebaptise AQMI, Al-Qaïda au Maghreb islamique. Mohamedou est formel: cette conversion n'a rien d'idéologique. C'est une franchise. Concrètement, comme un restaurant indépendant qui s'achète une enseigne mondiale, le GSPC adopte le label « Al-Qaïda» pour capitaliser sur sa notoriété d'après le 11 septembre — accéder à un marché, des financements, des recrues.
-
-La nature réelle du groupe se révèle vite: « une lucrative économie politique du terrorisme se met en place, avec des kidnappeurs-revendeurs et des intermédiaires intervenant de façon financièrement intéressée dans les négociations de libération», écrit Mohamedou. Entre 2003 et 2013, soixante-douze otages sont enlevés dans la région; dix sont exécutés (Mohamedou, in *La Guerre au Mali*, La Découverte, 2013). Le rapt est un commerce avant d'être un combat.
-
+La nature réelle du groupe se révèle vite: « une lucrative économie politique du terrorisme se met en place, avec des kidnappeurs-revendeurs et des intermédiaires intervenant de façon financièrement intéressée dans les négociations de libération», écrit Mohamedou. Entre 2003 et 2013, soixante-douze otages sont enlevés dans la région; dix sont exécutés (Mohamedou, in La Guerre au Mali, La Découverte, 2013). Le rapt est un commerce avant d'être un combat.
 Ce point change tout. Le Sahel était, selon Mohamedou lui-même, « relativement stable depuis les indépendances». La déstabilisation est datée, localisée, traçable: GIA, puis GSPC, puis AQMI, puis leurs rejetons — MUJAO, et plus tard le JNIM. Une transplantation, pas une génération spontanée. La « fabrique du terrorisme» a un acte de naissance, et il est rédigé en Algérie.
 
 ## 2012: l'Azawad, ou la fabrication d'une cause
 
 C'est sur ce terreau que tombent, fin 2011, les armes et les combattants de la Libye détruite — on a vu au chapitre précédent comment. Les groupes armés touareg rentrés de Libye forment le Mouvement national de libération de l'Azawad (MNLA). En mai 2012, le MNLA s'allie avec Ansar al-Din pour proclamer l'indépendance de l'Azawad. Tombouctou, Gao, Kidal tombent.
-
 Mais qu'est-ce que l'Azawad? André Bourgeot, chercheur au CNRS et spécialiste du Sahel, tranche: « Azawad est une fabrication politique.» Pas une réalité historique. Les Touareg existent, leurs revendications aussi; l'Azawad tel que le MNLA le définit est une construction, instrumentalisée et adossée à des soutiens extérieurs. La distinction est capitale: on peut reconnaître une question touareg sans valider un projet de partition du Mali.
 
 ## Une armée de misère, gérée par un noyau dur
 
 Qui sont, au fond, les combattants de cette guerre? Choguel Kokalla Maïga, Premier ministre du Mali, a chiffré l'économie du recrutement avec une précision que peu de chefs de gouvernement ont osée en public: « Il y en a certains qui veulent se marier, ils veulent avoir l'argent du mariage. On les paye 100 000 francs ou combien? Ils s'engagent dans le terrorisme. D'autres personnes, parce qu'on a tué leurs frères ou quelqu'un de leur ethnie.» Et sa conclusion: « Ceux qui sont idéologiquement constitués, qui sont les vrais terroristes, ne sont pas nombreux.» (Choguel Kokalla Maïga, Azalaï Hôtel, Bamako, 19 octobre 2024.)
-
 Pour le dire simplement: la masse des combattants n'est pas fanatisée, elle est pauvre, endeuillée, vulnérable — et donc recrutable. Une armée de misère, gérée par un noyau dur d'idéologues. C'est ce qui rend la guerre si difficile à gagner par les seules armes: tant que la précarité fabrique des recrues plus vite que les opérations ne les éliminent, le réservoir ne se vide jamais. C'est aussi ce qui fonde la position de Maïga sur les négociations: « Tant que le terrorisme n'est pas coupé de ses soutiens et sponsors, puis terrassé, il ne viendra pas à table. Toute négociation, c'est du défaitisme.» (Bamako, 19 octobre 2024.)
-
 Le recrutement a aussi un vecteur plus discret, que l'analyste camerounais Banda Kani décrit comme une entrée cognitive précédant l'entrée militaire: le salafisme et les courants wahhabites ne pénètrent pas les sociétés sahéliennes par la force, mais par les mosquées, les écoles coraniques, les financements étrangers — occupant les esprits avant que les groupes armés n'occupent le terrain (Banda Kani). C'est cette logique qui éclairera, plus loin dans ce livre, le refus par Ibrahim Traoré d'un programme saoudien de 200 mosquées.
 
 ## Les corridors invisibles
 
 La fabrique du terrorisme n'est pas seulement idéologique et financière. Elle est géographique. Une cartographie diffusée en mai 2026 par le canal d'analyse militaire @RYBAR_AFRICA documente les sentiers nomades transsahariens empruntés par les groupes armés, et recoupe les données de terrain d'ACLED ainsi que les constats des autorités maliennes. Trois réalités s'en dégagent.
 
-**Les trois réalités des corridors transsahariens**
+**LES TROIS RÉALITÉS DES CORRIDORS TRANSSAHARIENS**
+
 - Les zones sous contrôle des groupes armés — nord et centre du Mali, corridor Mali-Niger, franges burkinabè — correspondent aux zones restées hors de portée des armées nationales pendant la décennie Barkhane
 - Les sentiers nomades traversent l'Algérie et la Mauritanie presque de bout en bout, reliant les zones de combat maliennes aux bases arrière proches de la Méditerranée
 - Ces routes préexistent à la colonisation: Berlin 1884-1885 a tracé des frontières, les pistes du désert, elles, n'ont jamais changé
 
 Ces corridors offrent aux groupes armés trois avantages: des camps de repli sur des territoires échappant à toute souveraineté effective; une économie de guerre autofinancée par la contrebande d'armes et de stupéfiants — concrètement, la guerre paie la guerre, sans dépendre d'un sponsor unique; et un recrutement transfrontalier au sein de communautés que les frontières de Berlin ont coupées en deux. Les frontières divisent les familles; les réseaux de recrutement les traversent. L'asymétrie est structurelle — et millénaire. Au bout de ces pistes, le Fezzan libyen, déjà rencontré au chapitre précédent, sert de base arrière durable.
-
 Le général Tiani, président du Niger, replace l'ensemble dans un cadre plus long encore. Depuis 1979, dit-il dans un entretien à Télé Sahel, une même matrice opère — La Mecque, l'Afghanistan, l'Irak, la Syrie, la Libye, et aujourd'hui le Sahel: provoquer un foyer d'instabilité, intervenir au nom de l'humanitaire, extraire les ressources stratégiques. Dans le même entretien, il affirme que plus de 700 combattants ont été transférés en deux vagues depuis le bassin du lac Tchad vers la zone des trois frontières, dotés de drones, d'armement lourd et d'explosifs, et encadrés par des instructeurs étrangers. Ce que Tiani nomme les « auxiliaires néocoloniaux» ne seraient pas des jihadistes autonomes, mais les sous-traitants d'une stratégie externe. On n'est pas obligé de le suivre jusque-là. Mais sa lecture converge avec un fait têtu, que le journaliste Siké Doumbé (For You Media) résume en quelques questions que les institutions internationales évitent depuis dix ans: « Comment le terrorisme continue-t-il de progresser dans l'une des zones les plus militarisées du continent? Qui finance réellement cette guerre, qui arme ces groupes et à qui profite réellement l'instabilité du Sahel? Comment expliquer qu'avec toute la puissance technologique des grandes armées occidentales — satellites, drones, radars, imagerie thermique, renseignement en temps réel — les groupes terroristes continuent d'opérer pendant des années?»
-
 Doumbé rappelle aussi l'enjeu qui dort sous le sable: le Niger détient à lui seul environ 5 % des réserves mondiales d'uranium — quelque 310 000 tonnes — et la zone AES élargie produit environ 230 tonnes d'or par an (Siké Doumbé, For You Media). La stabilité du Sahel n'intéresse pas grand monde. L'accès à ses sous-sols, si.
-
 C'est précisément au nom de cette instabilité — fabriquée ailleurs, transplantée, armée par l'effondrement libyen — que la France allait, en janvier 2013, lancer la plus longue opération militaire de son histoire récente: il est temps d'en faire l'autopsie.
 
 ★ ★ ★
 
+
 # Chapitre 13 — Serval, Barkhane et leurs limites
 
-*« Il faut rester, il faut le faire savoir, il faut exiger du Vietnam qu'il se donne à fond à cette lutte. À ce prix, la victoire est assurée.» — Jacques Foccart, 1955, après Dien Bien Phu (Turpin, 2015)*
-
-Tombouctou, 2 février 2013. François Hollande s'avance dans une ville libérée trois jours plus tôt, porté par une foule en liesse qui scande son nom. « Je viens sans doute de vivre la journée la plus importante de ma vie politique», dira-t-il. Les images sont magnifiques. Elles sont aussi, à s'y méprendre, la reprise d'un script déjà joué: le 1er mai 2003, George W. Bush atterrissait sur le porte-avions USS Abraham Lincoln pour proclamer « mission accomplie» en Irak. Le chercheur Mohammad-Mahmoud Ould Mohamedou a superposé les deux séquences: identification d'une cible, urgence construite, diplomatie de façade, fait militaire précédant la demande officielle, voyage triomphal du chef d'État dans le pays « libéré». Nulle improvisation. Un système (Mohamedou, in *La Guerre au Mali*, La Découverte, 2013).
+> « Il faut rester, il faut le faire savoir, il faut exiger du Vietnam qu'il se donne à fond à cette lutte. À ce prix, la victoire est assurée.» — Jacques Foccart, 1955, après Dien Bien Phu (Turpin, 2015)
+Tombouctou, 2 février 2013. François Hollande s'avance dans une ville libérée trois jours plus tôt, porté par une foule en liesse qui scande son nom. « Je viens sans doute de vivre la journée la plus importante de ma vie politique», dira-t-il. Les images sont magnifiques. Elles sont aussi, à s'y méprendre, la reprise d'un script déjà joué: le 1er mai 2003, George W. Bush atterrissait sur le porte-avions USS Abraham Lincoln pour proclamer « mission accomplie» en Irak. Le chercheur Mohammad-Mahmoud Ould Mohamedou a superposé les deux séquences: identification d'une cible, urgence construite, diplomatie de façade, fait militaire précédant la demande officielle, voyage triomphal du chef d'État dans le pays « libéré». Nulle improvisation. Un système (Mohamedou, in La Guerre au Mali, La Découverte, 2013).
 
 ## Le péché originel juridique de Serval
 
 Commençons par ce qui est le moins connu. L'opération Serval, lancée le 11 janvier 2013 pour stopper la descente des colonnes jihadistes vers Bamako, est justifiée par Hollande au titre de l'article 51 de la Charte de l'ONU — la légitime défense collective. Concrètement, ce mécanisme permet à un État agressé par un autre État d'appeler des alliés à son secours. Or le Mali n'était agressé par aucun État étranger: il affrontait des groupes armés sur son propre sol. L'argument était fabriqué.
-
-L'enquête de Raphaël Granvaud (*De l'huile sur le feu*, Lux Éditeur, 2024) va plus loin: la fameuse lettre malienne demandant l'intervention a été réécrite. Le président par intérim Dioncounda Traoré — lui-même installé sous pression de la CEDEAO, sans légitimité électorale — sollicite d'abord un simple appui aérien. Les diplomates français retouchent le courrier pour permettre le déploiement de troupes au sol. Et le calendrier achève la démonstration: les bombardements français commencent dans l'après-midi du 11 janvier 2013; la réponse officielle de Hollande à la demande malienne intervient après les frappes. L'intervention était décidée avant d'être demandée. La demande a été produite pour habiller ce qui était déjà en cours.
+L'enquête de Raphaël Granvaud (De l'huile sur le feu, Lux Éditeur, 2024) va plus loin: la fameuse lettre malienne demandant l'intervention a été réécrite. Le président par intérim Dioncounda Traoré — lui-même installé sous pression de la CEDEAO, sans légitimité électorale — sollicite d'abord un simple appui aérien. Les diplomates français retouchent le courrier pour permettre le déploiement de troupes au sol. Et le calendrier achève la démonstration: les bombardements français commencent dans l'après-midi du 11 janvier 2013; la réponse officielle de Hollande à la demande malienne intervient après les frappes. L'intervention était décidée avant d'être demandée. La demande a été produite pour habiller ce qui était déjà en cours.
 
 ## La guerre secrète d'avant la guerre
 
 Ce n'est pas tout. La France faisait la guerre au Sahel bien avant Serval — en secret. Granvaud documente un « plan Sahel» élaboré dès 2008-2009, avant même les attaques de grande ampleur au Mali, avec un volet clandestin: l'opération Sabre. Fin 2009, un premier détachement de forces spéciales s'installe sur la base d'Atar, en Mauritanie. Début 2010, des formateurs arrivent au Mali. En octobre 2010, une base permanente du Commandement des opérations spéciales est établie sur l'aéroport de Ouagadougou — le Burkina acceptant ce que le Mali avait refusé. Tout cela sans débat démocratique, ni en France ni en Afrique. Révélée par la presse en août 2012, l'existence de Sabre est niée par le Quai d'Orsay (Granvaud, 2024). La clandestinité n'est pas une pudeur: c'est l'aveu qu'une opération ne résisterait pas à un examen public.
-
 Dès la fin des années 1990, d'ailleurs, écrit Granvaud, alors que les combattants du GSPC se replient vers le Niger puis le nord du Mali, « les services secrets français ont renforcé leurs équipes locales dans toute la région. Les objectifs: collecter des renseignements et procéder à des assassinats ciblés de djihadistes, réalisés par des agents du Service action de la DGSE ou par des proxy, c'est-à-dire des relais locaux au sein de certains groupes touareg.»
-
 Le précédent mauritanien dit la vraie doctrine. En août 2008, le général Mohamed Ould Abdel Aziz renverse le président élu Sidi Ould Cheikh Abdallahi. Il était chargé de la lutte antiterroriste et bénéficiait de l'assistance d'agents de la DGSE. Le regard « incroyablement, étrangement bienveillant de la France» envers ce régime — selon un journaliste français cité par Granvaud — se traduit par un renforcement immédiat de la coopération militaire. La leçon vaut pour toute la période: Paris ne choisit pas ses partenaires africains selon le critère démocratique qu'il invoquera contre l'AES, mais selon le critère de l'obéissance. Un militaire qui prend le pouvoir et coopère est légitimé; un militaire qui prend le pouvoir et rompt devient une menace à l'« ordre constitutionnel».
 
 ## Barkhane: les chiffres du verdict
 
 En août 2014, Serval devient Barkhane. Le dispositif s'étend sur cinq pays.
 
-**Barkhane en chiffres**
+**BARKHANE EN CHIFFRES**
+
 - Zone d'opération: 5 millions de km² — dix fois la France
 - Effectifs: jusqu'à 5 500 hommes
 - Coût: environ 1 milliard d'euros par an, soit 1,3 milliard de francs CFA par jour; plus de 5 milliards cumulés entre 2014 et 2022 (Cour des comptes, 2020)
 - Résultat: nombre d'attaques jihadistes multiplié par trois entre 2014 et 2021 (ACLED, 2022)
 
 Cinq milliards d'euros. Neuf ans. La menace triple. Il n'y a que deux explications possibles: soit les armées françaises sont incompétentes — ce que la communication officielle dément avec véhémence —, soit la mission n'était pas celle qu'on annonçait. La seconde hypothèse a des preuves.
-
 Première preuve: Kidal. Pendant toute la décennie, l'armée française interdit de fait aux Forces armées maliennes de réoccuper le nord de leur propre pays. Choguel Kokalla Maïga le dénonce à la tribune de l'ONU en septembre 2021: abandon en plein vol, interdiction faite aux FAMa d'occuper le nord, la force européenne Takuba comme instrument de partition, sanctuarisation délibérée des terroristes. On le traite alors de complotiste. En mai 2026, une source sécuritaire française confirmera sur RTL l'existence d'une guerre par procuration contre le Mali — on y reviendra. Le complotiste de 2021 est devenu l'analyste prophétique de 2026.
-
 Deuxième preuve: Gao, 2014. L'armée française tient Iyad Ag Ghali à portée de frappe. François Hollande stoppe l'opération « pour ne pas fâcher l'Algérie». Ag Ghali est aujourd'hui l'émir du JNIM, responsable du blocus de Bamako en 2025. La décision de 2014 a un bilan.
-
 Troisième preuve: l'aveu de Macron lui-même, au sommet du G5 Sahel de juillet 2017: « Il faut mettre des projets, il faut de la gouvernance, parce que sinon dès qu'on arrête un groupe terroriste, il arrive à réactiver des jeunes parce qu'il n'y a pas d'espoir.» Et: « On a payé le prix de la mauvaise gouvernance politique. On est resté trop longtemps dans une posture de soutien sans que ça bouge sur les projets et la rénovation démocratique.» Il dira aussi: « Il n'y aurait sans doute pas à coup sûr le Mali comme État unique si on n'était pas intervenu en 2013.» Autrement dit: Serval a sauvé l'État malien, mais dès 2017, le président français sait que Barkhane échoue sur l'essentiel. Il la maintient sept ans de plus.
-
 Sur le terrain, le bilan se mesure en routes coupées. Ibrahim Traoré, depuis Ouagadougou: « Quand ils ont quitté, Bobo et Ouaga étaient coupées. On ne pouvait plus circuler sur la RN16. Les terroristes étaient à 100 kilomètres de Koudougou. Tout était encerclé. Ils étaient là avec tous les hélicoptères, les chars, la technologie, les drones, les satellites — ils étaient incapables.» Et cette pointe: « Neuf ans — la France n'a pas donné un seul hélicoptère au Mali. Aujourd'hui, vous voyez le nombre d'aéronefs que nous avons pu accueillir en moins de deux ans sur nos ressources propres, au moment où le pays est sous sanction et embargo.» (Capitaine Ibrahim Traoré, président du Faso.)
 
 ## Le prix du sang, comptabilité véritable
 
 Reste l'argument ultime de Paris: le sacrifice. En 2025, le ministre des Armées Sébastien Lecornu déclare au Figaro qu'il est « profondément navrant» de voir le terrorisme resurgir au Sahel après tant d'efforts — sous-entendu, après le sang versé des 58 soldats français morts au Sahel. Ce chiffre mérite un examen mort par mort. Nathalie Yamb l'a fait, en s'appuyant exclusivement sur les données publiées par le ministère français des Armées lui-même.
 
-**Les 58 morts de Barkhane: la décomposition (données du ministère français des Armées, compilées par N. Yamb, 2025)**
+**LES 58 MORTS DE BARKHANE: LA DÉCOMPOSITION (DONNÉES DU MINISTÈRE FRANÇAIS DES ARMÉES, COMPILÉES PAR N. YAMB, 2025)**
+
 - 43 décès par accident ou hors combat: collisions de véhicules, accidents de route, arrêts cardiorespiratoires, réparations qui tournent mal — l'un meurt en réparant un réfrigérateur à N'Djaména, un autre écrasé par la cabine d'un camion; six ne sont même pas classés « Morts pour la France» par la France elle-même
 - 13 morts dans la collision de deux hélicoptères français, à la suite d'un différend interne entre équipes
 - 2 tués par leurs propres camarades
 - 15 morts au combat réels
 
 Quinze morts au combat. Pour la France — pas pour le Mali, pas pour le Niger, pas pour le Burkina. Et ce chiffre est inférieur au bilan d'une seule frappe française: le 3 janvier 2021, à Bounti, dans la région de Mopti, l'aviation française frappe un rassemblement. L'enquête de la MINUSMA conclut qu'il s'agissait d'un mariage et dénombre 22 morts, dont 19 civils. Le ministère des Armées maintient sa version et tente de discréditer le rapport onusien.
-
 Si l'on veut vraiment parler de sacrifice, élargissons le cadre: des centaines de milliers de tirailleurs dits « sénégalais» sont morts pour la France lors des deux guerres mondiales. Le 1er décembre 1944, au camp de Thiaroye, l'armée française a tiré sur ses propres soldats africains qui réclamaient leurs soldes. Leur sacrifice n'a pas de ministre pour en parler au Figaro. La comptabilité du sang est à géométrie variable: exhaustive côté français, invisible côté africain.
-
 Une dernière observation de Yamb mérite d'être méditée. Quand les Américains quittent l'Afghanistan en août 2021, leurs soldats rentrent chez eux. Quand la France quitte le Mali en août 2022, ses troupes se redéploient au Niger, au Tchad, en Côte d'Ivoire. Nulle démobilisation. Une relocalisation (Yamb, 15 août 2022). Une armée que l'on ne peut pas ramener chez soi n'est pas une armée de libération; c'est une armée d'occupation qui change de base.
-
 Et après le retrait officiel, la guerre de l'ombre continue: les affaires Quignolot en Centrafrique et Vésilier à Bamako — deux agents français arrêtés en pleine activité clandestine, on les retrouvera plus loin — prouvent que le départ n'a jamais été total. Le député André Chassaigne, lui, a fait les comptes à l'Assemblée nationale: l'intervention en Centrafrique fin 2013 était la cinquantième intervention militaire française en Afrique subsaharienne depuis les indépendances. Cinquante interventions. En soixante ans. Aucune n'a produit de stabilité durable. Mohamedou nomme le résultat « désacralisation de la souveraineté»: on déclare un État « failli», on intervient pour le « réparer», on le laisse plus instable qu'avant, puis on réintervient. Pour le dire simplement, la souveraineté des États africains a cessé d'être une frontière sacrée pour devenir une porte battante.
-
 Foccart, en 1955, exigeait de rester au Vietnam et de le faire savoir; on connaît la suite. Soixante ans plus tard, le discours sur Barkhane était identique mot pour mot — et le résultat aussi. Mais cette guerre perdue sur le terrain, la France allait tenter de la gagner ailleurs: dans les rédactions, sur les réseaux sociaux, dans les rapports d'ONG et les prétoires internationaux.
 
 ★ ★ ★
 
+
 # Chapitre 14 — La bataille de l'information
 
-*« La guerre n'est pas seulement les armes, les images, les atrocités. C'est aussi et avant tout une guerre de communication. Parce que qui contrôle l'information contrôle la stratégie.» — Jules Domche, Vox Africa, mai 2026*
-
+> « La guerre n'est pas seulement les armes, les images, les atrocités. C'est aussi et avant tout une guerre de communication. Parce que qui contrôle l'information contrôle la stratégie.» — Jules Domche, Vox Africa, mai 2026
 La scène se déroule en public, devant un auditoire attentif, et c'est précisément ce qui la rend extraordinaire. Anne-Sophie Avé — ambassadrice de France au Mali de 2017 à 2020, puis directrice Afrique subsaharienne au Quai d'Orsay — décrit, avec une satisfaction visible, la méthode de la diplomatie française: « Dès lors que vous avez donné ce récit positif, que vous faites douter les gens, vous créez une dissonance cognitive où les gens diront: "Je veux croire que la France est mauvaise. Mais ce que je vois, c'est qu'ils ont construit cette autoroute, qu'ils ont permis l'électricité dans cet hôpital. En fait, tout ce que je vois concrètement, c'est que la France nous aime et nous aide."»
-
 Lisons lentement, parce que chaque mot compte. Elle ne dit pas « faire connaître nos réalisations». Elle dit « faire douter les gens». Elle ne dit pas « communiquer la vérité». Elle dit « créer une dissonance cognitive». Concrètement, la dissonance cognitive est cet inconfort mental que l'on ressent quand deux convictions se contredisent — et l'art du propagandiste consiste à fabriquer cette contradiction chez autrui pour qu'il abandonne la conviction qui dérange. On ne peut plus plaider la bonne foi quand l'architecte de la propagande en décrit le fonctionnement avec fierté dans un discours public. La guerre du Sahel se gagne ou se perd d'abord dans les esprits: les autorités de l'AES l'ont compris, leurs adversaires aussi. Cette guerre-là se mène sur quatre fronts.
 
 ## Premier front: les médias
 
 RFI, France 24, TV5 Monde, AFP. Expulsés successivement du Mali (mars 2022) puis du Burkina Faso (décembre 2022). Le 8 mai 2026, le Niger suspend à son tour dix médias français — RFI, France 24, AFP, TV5 Monde, TF1 Info, Jeune Afrique, Mediapart et d'autres — par décision de sa Haute Autorité de communication (décision n° 2026.0058/P-HAC du 8 mai 2026). La même décision bannit Al Arabiya, diffusée depuis Dubaï, pour des informations « de nature à troubler l'ordre public»: confirmation que les Émirats arabes unis comptent parmi les acteurs de cette guerre informationnelle. Un correspondant d'Al Arabiya, Ibrahim Moustapha, avait pénétré illégalement sur le territoire malien pour diffuser un reportage affirmant qu'une ville stratégique était sous contrôle jihadiste — Bamako l'a accusé de « complicité avec des groupes terroristes».
-
-Censure, diront les uns. Réponse à une guerre déclarée, répondent les autres — déclarée publiquement, par une ambassadrice, dans le discours cité plus haut. L'analyste Banda Kani pousse la lecture à son terme: les grands médias internationaux ne seraient pas des organes de presse mais des « bases militaires», leurs journalistes des « militaires déguisés en civil» (Banda Kani). La formule est excessive — il y a dans ces rédactions des journalistes honnêtes. Mais un paradoxe lui donne du poids, relevé par Jules Domche sur Vox Africa: ce sont les médias occidentaux qui ont annoncé les premiers le décès supposé du général malien Sadio Camara — alors qu'ils n'ont plus de correspondants au Sahel depuis des années. Qui leur a transmis l'information, et dans quel délai?
+Censure, diront les uns. Réponse à une guerre déclarée, répondent les autres — déclarée publiquement, par une ambassadrice, dans le discours cité plus haut. L'analyste Banda Kani pousse la lecture à son terme: les grands médias internationaux ne seraient pas des organes de presse mais des « bases militaires», leurs journalistes des « militaires déguisés en civil» (Banda Kani). il y a dans ces rédactions des journalistes honnêtes. Mais un paradoxe lui donne du poids, relevé par Jules Domche sur Vox Africa: ce sont les médias occidentaux qui ont annoncé les premiers le décès supposé du général malien Sadio Camara — alors qu'ils n'ont plus de correspondants au Sahel depuis des années. Qui leur a transmis l'information, et dans quel délai?
 
 ## Deuxième front: le numérique
 
 L'école cyber du 43e BIMA — la base militaire française de Côte d'Ivoire — forme des « e-patrouilleurs» avec un objectif documenté par le journaliste Thomas Dietrich: critiquer la présence russe sur les réseaux sociaux et cibler nommément les figures panafricanistes, Kemi Séba en tête de liste (Thomas Dietrich, 2024). Macron lui-même a reconnu le principe des influenceurs stipendiés, en novembre 2022 sur TV5 Monde: « Il y a des Africains payés par les Russes.» Sous-entendu limpide: il y en a aussi de payés par d'autres. Le 13 novembre 2025, le général Tiani révèle qu'un appel d'offres a été lancé en septembre 2025 pour recruter des influenceurs africains chargés de déstabiliser l'AES: « C'est fait publiquement.» Deux sources indépendantes — un journaliste d'investigation français et un chef d'État africain — décrivent le même mécanisme. Tiani va plus loin encore: deux « cellules spéciales» pilotées depuis l'Élysée, aux fonds illimités, auraient été montées pour déstabiliser le Sahel.
-
 C'est sur ce front que se joue la bataille du récit fondateur. Le récit dominant présente les transitions sahéliennes comme des produits de la manipulation russe. La chronologie le dément: la prise de pouvoir de Bamako date d'août 2020, l'arrivée massive de Wagner lui est postérieure. La rupture avec Paris est première; la diversification vers la Russie est une conséquence, pas une cause. Inverser l'ordre des deux événements, c'est inverser la responsabilité — et c'est exactement la fonction de ce récit.
 
 ## Troisième front: l'humanitaire
 
-« L'aide publique au développement est une aide-intérêt dont la finalité est d'abord de servir de relais d'influence pour le pays donateur», écrit Raphaël Granvaud (*De l'huile sur le feu*, Lux Éditeur, 2024). Ce n'est pas un pamphlétaire panafricaniste: c'est l'association française Survie. Les chiffres lui donnent raison. En 2021, 19,6 millions de personnes avaient besoin d'assistance humanitaire au Sahel; la France couvrait moins de 1 % des besoins de financement, tandis que ses dépenses militaires, déjà supérieures, augmentaient plus vite que ses dépenses de développement. Et l'argent annoncé se volatilise en chemin: de 2012 à 2016, seuls 18 % des versements de la Banque mondiale apparaissent dans la comptabilité nationale du Tchad, 27 % de l'aide américaine, 37 % de l'aide européenne, 60 % de l'aide française; au Niger, 37 % des versements français ont disparu, 71 % des versements allemands. L'ancien diplomate français Laurent Bigot l'a dit sans précaution: dans le nord du Mali, « aucun projet financé par l'aide au développement ne subsisterait cinq ans après son achèvement». « L'échec de l'aide au développement au Sahel est total.» Le chercheur Jean-Pierre Olivier de Sardan en a décrit la cause: des programmes conçus, pilotés et financés de l'extérieur, des « modèles voyageurs» exportés d'un pays à l'autre, « contournés, détournés, démembrés» par tous ceux qui les vivent — ce qu'il appelle la « revanche des contextes». En d'autres termes: une aide pensée sans les gens finit toujours par être défaite par les gens.
-
+> « L'aide publique au développement est une aide-intérêt dont la finalité est d'abord de servir de relais d'influence pour le pays donateur», écrit Raphaël Granvaud (De l'huile sur le feu, Lux Éditeur, 2024). Ce n'est pas un pamphlétaire panafricaniste: c'est l'association française Survie. Les chiffres lui donnent raison. En 2021, 19,6 millions de personnes avaient besoin d'assistance humanitaire au Sahel; la France couvrait moins de 1 % des besoins de financement, tandis que ses dépenses militaires, déjà supérieures, augmentaient plus vite que ses dépenses de développement. Et l'argent annoncé se volatilise en chemin: de 2012 à 2016, seuls 18 % des versements de la Banque mondiale apparaissent dans la comptabilité nationale du Tchad, 27 % de l'aide américaine, 37 % de l'aide européenne, 60 % de l'aide française; au Niger, 37 % des versements français ont disparu, 71 % des versements allemands. L'ancien diplomate français Laurent Bigot l'a dit sans précaution: dans le nord du Mali, « aucun projet financé par l'aide au développement ne subsisterait cinq ans après son achèvement». « L'échec de l'aide au développement au Sahel est total.» Le chercheur Jean-Pierre Olivier de Sardan en a décrit la cause: des programmes conçus, pilotés et financés de l'extérieur, des « modèles voyageurs» exportés d'un pays à l'autre, « contournés, détournés, démembrés» par tous ceux qui les vivent — ce qu'il appelle la « revanche des contextes». En d'autres termes: une aide pensée sans les gens finit toujours par être défaite par les gens.
 Mais le front humanitaire a une pointe plus acérée: les organisations de défense des droits humains. Précisons d'emblée, parce que la crédibilité l'exige: Human Rights Watch et Amnesty International documentent des exactions réelles, et ce livre ne le conteste pas. La question n'est pas la véracité de chaque rapport; c'est l'asymétrie du regard. HRW publie sur les forces maliennes et burkinabè; elle n'a produit aucun équivalent sur les activités clandestines de la DGSE au Sahel ni sur les ex-légionnaires français coopérant avec le renseignement militaire ukrainien, confirmés par RTL France le 9 mai 2026. Ce n'est pas une incapacité, c'est un choix éditorial; les choix éditoriaux ont des bailleurs, et les bailleurs ont des intérêts. Le directeur de la communication de HRW, Philippe Bolopion, est un ancien de RFI, du Monde et de France 24 — les médias expulsés du Sahel — et a dirigé le « Liberty Fund» de la société TOBAM, un fonds d'investissement qui gagne de l'argent en pariant financièrement contre les pays étiquetés autoritaires. Le fondateur même de HRW, Robert Bernstein, avait dénoncé en 2009 dans le New York Times les « rapports politiquement orientés» de sa propre organisation.
-
 Le cas d'école est le rapport du 2 avril 2026: 342 pages visant Ibrahim Traoré comme « responsable potentiel de crimes de guerre». Son calendrier intrigue. L'AES a annoncé son retrait de la CPI le 22 septembre 2025; la Cour conserve une compétence résiduelle d'un an. Le rapport couvre 2023-2025 — précisément les années encore poursuivables — et la lettre demandant la réponse des autorités burkinabè n'a été envoyée que le 22 décembre 2025, après trois ans de travail à charge et quatre mois avant publication (Yamb, avril 2026). Plus troublant: parmi les contributeurs remerciés figure Wassim Nassar, en contact en temps réel avec les assaillants lors de l'attaque de Bamako du 17 septembre 2024, et poursuivi par la justice des trois pays de l'AES pour association de malfaiteurs en lien avec une entreprise terroriste.
 
-**Les sept usages simultanés d'un rapport d'ONG (décryptage de N. Yamb, avril 2026)**
-- Diplomatique: des munitions dans les enceintes multilatérales
+**LES SEPT USAGES SIMULTANÉS D'UN RAPPORT D'ONG (DÉCRYPTAGE DE N. YAMB, AVRIL 2026)**
+
+- Diplomatique: des munitions dans les enceintes multilaterals
 - Judiciaire: un dossier prêt à l'emploi pour la CPI
 - Économique: la dégradation de la note souveraine du pays visé
 - Médiatique: l'alimentation d'un récit hostile
@@ -853,37 +693,31 @@ Pour le dire simplement, la mécanique de l'étranglement fonctionne en cascade:
 ## Quatrième front: le judiciaire
 
 Il existe un tribunal pénal international. Il siège à La Haye, dispose de 180 millions d'euros par an et a prononcé, depuis sa création en 2002, des condamnations contre des ressortissants de RDC, d'Ouganda, de Centrafrique, du Mali, de Côte d'Ivoire, de Libye, du Soudan, du Kenya, de Géorgie. Aucune contre un Français. Aucune contre un Américain. La géographie de la justice dit tout de sa nature.
-
 Deux affaires maliennes, déjà croisées, fixent la jurisprudence réelle. Bounti, 3 janvier 2021: une frappe française sur un mariage, 22 morts dont 19 civils selon la MINUSMA — la CPI n'ouvre aucune enquête préliminaire. Moura, 27-31 mars 2022: l'armée malienne, appuyée par des instructeurs russes, attaque la commune; le bilan se compte en plusieurs centaines de morts — environ 300 selon Human Rights Watch, jusqu'à 500 selon d'autres sources. Des exactions graves et documentées, qu'aucune cause ne saurait excuser et qui appellent justice. Mais cette fois, la CPI ouvre une analyse préliminaire. Concrètement, une analyse préliminaire est l'antichambre de l'enquête: le procureur examine si les faits justifient des poursuites. Pour Moura, la porte s'ouvre; pour Bounti, elle reste fermée. Le tri est documenté. Le procureur Karim Khan lui-même l'avait reconnu à son installation en 2021: « La CPI ne peut pas être crédible tant qu'elle traitera différemment selon que les crimes sont commis par les puissants ou les faibles.»
-
 L'affaire Gbagbo complète le tableau: arrêté en 2011 avec le concours direct de l'armée française, transféré à La Haye, détenu onze ans, acquitté en 2021 — sans réparation substantielle. Sarkozy, dont les forces participèrent à sa capture, n'a jamais été entendu. Et quand les trois ministres des Affaires étrangères de l'AES saisissent le Conseil de sécurité, le 19 août 2024, pour « soutien ouvert et assumé du Gouvernement de la République d'Ukraine au terrorisme international, en particulier au Sahel», le Conseil — où la France siège avec droit de veto — n'agit pas. Le 22 septembre 2025, le Burkina Faso, le Mali et le Niger annoncent conjointement leur retrait de la CPI. Après la CEDEAO (janvier 2024) et l'OIF (mars 2025), c'est la troisième rupture institutionnelle. Chaque étape rend la précédente irréversible.
 
 ## L'arme transversale: le label « terroriste»
 
 Reste l'arme qui relie les quatre fronts. Le 5 juin 2017, l'Arabie saoudite, l'Égypte, les Émirats et Bahreïn rompent avec le Qatar, accusé de soutenir des « groupes terroristes» (Le Monde / AFP-Reuters, 5 juin 2017). Neuf ans plus tard, un rapport de l'institut allemand SWP décrit ces mêmes Émirats comme « l'un des acteurs extérieurs les plus agressifs dans les conflits africains», soutiens des FSR soudanaises dont les massacres d'El-Fasher portent, selon une mission d'enquête de l'ONU, les signes caractéristiques du génocide (SWP Comment n° 19, mai 2026). La preuve terminale vient de Macron lui-même: en décembre 2024, il félicite Ahmad al-Sharaa — connu jusque-là sous le nom d'Abou Mohammad al-Jolani, chef de la branche syrienne d'Al-Qaïda — pour sa prise de pouvoir à Damas et l'invite officiellement en France. Le Trésor américain offrait 10 millions de dollars pour sa capture jusqu'au 20 décembre 2024, deux semaines après sa victoire. En d'autres termes, le label « terroriste» n'est pas une qualification juridique: c'est un outil de positionnement, qui désigne non ce qu'un acteur fait, mais ce qu'il représente pour celui qui accuse. Le profil que Paris combat au Sahel est celui que Paris reçoit à l'Élysée quand il sert ses intérêts en Syrie.
-
 Médias, réseaux, ONG, tribunaux: la panoplie est complète, et elle suffirait à elle seule à expliquer la défiance sahélienne. Mais le plus extraordinaire reste à venir — car pour instruire le procès de la politique française en Afrique, nul besoin de ses adversaires: il suffit d'écouter ce que la France, dans ses propres institutions, admet en privé.
 
 ★ ★ ★
 
+
 # Chapitre 15 — Ce que la France admet en privé
 
-*« Nous avons besoin de l'Afrique plus que l'Afrique n'a besoin de nous.» — Commission parlementaire française, rapport sur les relations France-Afrique*
-
+> « Nous avons besoin de l'Afrique plus que l'Afrique n'a besoin de nous.» — Commission parlementaire française, rapport sur les relations France-Afrique
 Paris, septembre 2024. Une salle de l'Assemblée nationale, portes closes. Devant la commission de la défense réunie à huis clos — concrètement, une audition dont le contenu n'est pas destiné au public, là où l'on parle sans fard —, le général Thierry Burkhard, chef d'état-major des armées, lâche une phrase qui ruine dix ans de discours officiel: la France n'a pas de camp d'amis au Mali et ne peut pas choisir entre les terroristes du JNIM et les mercenaires de Wagner. Les Forces armées maliennes — celles-là mêmes que la France affirmait être venue épauler — sont renvoyées dos à dos avec les jihadistes. Quand un chef militaire français place l'armée d'un pays « partenaire» dans le même camp que ceux qu'il prétendait combattre à ses côtés, il dit deux choses: que la politique française a échoué, et qu'un « ami» africain, dans la grammaire de Paris, est quelqu'un qui obéit.
-
 Ce chapitre est court, et c'est voulu. Il n'a pas besoin d'être long: c'est le réquisitoire écrit par l'accusé lui-même. Car il y a un paradoxe au cœur de la relation franco-africaine: les aveux les plus accablants ne viennent ni des pamphlétaires panafricanistes, ni des activistes de la diaspora. Ils viennent de parlementaires, de généraux, de diplomates, de rapports commandés par l'Élysée. Ils ont été prononcés dans des institutions officielles, imprimés, archivés. Ils n'avaient simplement jamais été rassemblés dans un même volume.
 
 ## L'aveu parlementaire: « domination»
 
 Commençons par le plus officiel. La commission parlementaire française sur les relations entre la France et l'Afrique écrit noir sur blanc: « Nous avons besoin de l'Afrique plus que l'Afrique n'a besoin de nous.» Le même rapport qualifie la politique africaine de la France de « domination» et recommande une « transition difficile» vers « une phase de coopération et de bienveillance». Pesons ce moment: un parlement démocratique qualifie officiellement sa propre politique étrangère de domination. Le mot est dans le rapport. Imprimé. Archivé. Accessible. Il suffisait de le lire. C'est ce même travail parlementaire qui a établi le décompte des interventions militaires — la cinquantième depuis les indépendances, on l'a vu au chapitre 13.
-
 Sur les bancs de l'Assemblée, certains sont allés plus loin. En décembre 2013, lors du débat sur l'opération Sangaris en Centrafrique, le député André Chassaigne décrit le système que la France soutient sur le continent: « des dictatures qui préfèrent défendre des intérêts des firmes privées tentaculaires exploitant aujourd'hui 80 % des gigantesques gisements africains et dont les bénéfices sont rapatriés dans des paradis fiscaux». Il désigne la Centrafrique comme « un porte-avion au centre de l'Afrique, utilisé lors de nombreuses interventions militaires dans la région». Il rappelle que Paris a soutenu Bokassa, puis Dacko, puis Kolingba, puis Patassé, puis Bozizé — un jeu de chaises musicales orchestré depuis la France. Il rappelle qu'en 2007, des parachutistes français ont sauté sur Birao, dans ce nord centrafricain où naîtra cinq ans plus tard l'offensive de la Séléka. Sa conclusion: « La France porte une responsabilité historique dans la tragédie centrafricaine. Elle n'est donc pas la plus qualifiée pour intervenir.» C'est un député français qui parle, à la tribune de l'Assemblée nationale.
 
 ## L'aveu doctrinal: le rapport Védrine
 
 En 2013, François Hollande commande à l'ancien ministre des Affaires étrangères Hubert Védrine un rapport sur l'Afrique. Le document identifie explicitement le sentiment anti-français et le panafricanisme comme une « menace pour les intérêts français en Afrique». Relisons: pas le jihadisme, pas la pauvreté, pas l'effondrement des États — le panafricanisme. En d'autres termes, un document officiel de politique étrangère classe l'éveil politique des Africains parmi les problèmes à contenir. Or l'enquête de Raphaël Granvaud établira que le plan Sahel, avec son volet militaire clandestin, avait été décidé dès 2008-2009 — cinq ans avant Védrine. Deux documents qui ne se citent pas, l'un commandé par l'Élysée, l'autre issu d'une association critique: même diagnostic, même période. La guerre sécuritaire et la guerre politique contre le souverainisme africain étaient simultanées, et pilotées depuis les mêmes bureaux.
-
 Le général Burkhard, dix ans plus tard, dira la conséquence logique de ce système: on ne peut pas conseiller une armée africaine sur la conduite de la guerre si on la considère comme un ennemi potentiel. La vérité profonde est là: l'autonomie africaine est la fin de la mission française; la dépendance africaine est sa justification permanente. Ce paradoxe explique tout — pourquoi Sabre fut secrète, pourquoi Serval fut juridiquement maquillée, pourquoi Barkhane interdit Kidal aux FAMa.
 
 ## L'aveu du renseignement: le diagnostic Juillet
@@ -893,116 +727,95 @@ Reste le verdict le plus froid, parce qu'il vient du sommet de l'appareil sécur
 ## Ils savaient
 
 Rassemblons les pièces. 2008-2009: le plan Sahel est décidé dans le secret. 2013: Védrine classe le panafricanisme parmi les menaces. 2017: Macron reconnaît devant le G5 Sahel que sans gouvernance et sans espoir, la guerre ne peut pas être gagnée — et la poursuit sept ans. Une commission parlementaire écrit « domination» et avoue que la France a plus besoin de l'Afrique que l'inverse. 2024: le chef d'état-major admet à huis clos qu'il n'y a pas de camp d'amis au Mali. L'ancien patron du renseignement constate que la maison brûle « partout». À aucun moment ces diagnostics, pourtant convergents, n'ont changé la politique. La France a confondu l'Afrique avec une propriété, et les Africains avec des sujets — et elle le savait, puisqu'elle l'écrivait.
-
 Le réquisitoire était donc rédigé, signé et archivé par la France elle-même; il ne manquait plus que des hommes pour en tirer les conséquences — et c'est très exactement ce qui se produisit, un matin d'août 2020, dans une garnison appelée Kati.
 
 ★ ★ ★
 
+
 # PARTIE IV — LA RÉVOLUTION DE LA SOUVERAINETÉ
+
 
 ★ ★ ★
 
-# PARTIE IV — LA RÉVOLUTION DE LA SOUVERAINETÉ
-
 Trois capitales. Trois nuits. Trois ruptures.
-
 Bamako, août 2020. Ouagadougou, septembre 2022. Niamey, juillet 2023. En trois ans, les trois pays que Paris considérait comme l'arrière-cour la plus sûre de son dispositif africain se sont arrachés, l'un après l'autre, à soixante ans de tutelle. Puis ils ont fait ce que personne n'avait osé depuis les indépendances: ils se sont unis.
-
 Cette partie raconte comment. Non pas une succession d'accidents, mais une construction — chapitre après chapitre, du soldat refoulé de Kidal en 2013 jusqu'aux attaques coordonnées du 25 avril 2026, en passant par la signature de la Charte du Liptako-Gourma. L'histoire d'une alliance née sous le feu, et qui a transformé chaque coup reçu en pierre d'angle.
-
 Tout commence à Kati, dans une caserne malienne, à quatre heures du matin.
 
 ★ ★ ★
 
+
 # Chapitre 16 — Mali: la première rupture
 
-*« Le Mali est et restera Un et Indivisible.» — Assimi Goïta, à l'issue de la prise de Kidal, 14 novembre 2023*
-
+> « Le Mali est et restera Un et Indivisible.» — Assimi Goïta, à l'issue de la prise de Kidal, 14 novembre 2023
 Kati, 18 août 2020, quatre heures du matin. Des tirs éclatent dans la grande base militaire qui domine Bamako, à quinze kilomètres de la capitale. En quelques heures, tout est joué: le président Ibrahim Boubacar Keïta — « IBK» — est arrêté dans sa résidence. Un colonel discret, formé au front, prend la tête du Comité national pour le salut du peuple: Assimi Goïta. Dans la nuit, IBK annonce sa démission à la télévision nationale, d'une voix lasse, masque chirurgical sur le visage. Au matin, dans les rues de Bamako, des foules dansent.
-
 Ces foules sont la clé du chapitre. Car le 18 août 2020, deux scènes se déroulent en même temps: à Bamako, une liesse populaire spontanée; à Paris, Bruxelles, Abuja et New York, une condamnation unanime — Union européenne, CEDEAO, France, Nations unies. Ce décalage entre la réprobation internationale et la célébration des premiers concernés est le fait politique le plus significatif de l'année 2020 en Afrique. Il ne sera jamais sérieusement analysé par les grands médias, qui préféreront condamner les soldats plutôt que de se demander ce qu'IBK représentait pour ces foules. Toute la suite de ce livre découle de cette question esquivée.
 
 ## Un effondrement annoncé sept ans plus tôt
 
-Ce que l'Occident a présenté comme une « rupture de l'ordre constitutionnel» était en réalité la conséquence d'une destruction beaucoup plus ancienne: celle de l'ordre réel — social, économique, sécuritaire. Dès 2013, le chercheur Mohammad-Mahmoud Ould Mohamedou décrivait l'État malien dans sa trajectoire de délabrement: « absence de consensus politique, faible cohésion sociale, autorités prédatrices et armée corrompue». L'État malien, écrivait-il, « n'est plus perçu comme une idée qui rassemble mais comme un vecteur de division» (Mohamedou, in *La Guerre au Mali*, La Découverte, 2013).
-
+Ce que l'Occident a présenté comme une « rupture de l'ordre constitutionnel» était en réalité la conséquence d'une destruction beaucoup plus ancienne: celle de l'ordre réel — social, économique, sécuritaire. Dès 2013, le chercheur Mohammad-Mahmoud Ould Mohamedou décrivait l'État malien dans sa trajectoire de délabrement: « absence de consensus politique, faible cohésion sociale, autorités prédatrices et armée corrompue». L'État malien, écrivait-il, « n'est plus perçu comme une idée qui rassemble mais comme un vecteur de division» (Mohamedou, in La Guerre au Mali, La Découverte, 2013).
 Concrètement, cela veut dire qu'un État peut exister sur le papier — drapeau, ministères, élections — tout en ayant cessé d'exister dans la vie de ses citoyens: plus de sécurité, plus de justice, plus de services, des élites qui prélèvent au lieu de servir. Quand un État en est là depuis une décennie, personne n'a le droit d'être surpris qu'il tombe. La transition militaire de 2020 n'a pas brisé un ordre: elle a constaté un effondrement que les élites au pouvoir maintenaient sous perfusion, avec le soutien de Paris.
 
 ## Kidal, mai 2013: le soldat refoulé
 
 Pour comprendre l'homme qui prend le pouvoir cette nuit-là, il faut remonter sept ans en arrière, dans le nord du pays. Nathalie Yamb restitue la séquence avec une précision qui oblige à relire toute la période 2013-2020: « Début mai 2013, l'armée française interdit à l'armée malienne d'entrer dans Kidal. Parmi les militaires ainsi refoulés: le soldat Assimi Goïta. Ce jour-là, il devient évident que l'armée française n'est pas là pour combattre les terroristes mais pour les protéger» (Yamb, 14 novembre 2023).
-
 Ce témoignage établit une continuité biographique troublante entre le soldat humilié de 2013 et le président de la transition de 2021. La rupture avec Paris n'est pas, chez Goïta, un calcul géostratégique élaboré dans un bureau. C'est la conclusion d'une expérience vécue: il a vu, de ses yeux, ce que Barkhane protégeait à Kidal — cette ville du nord interdite aux soldats maliens sur leur propre territoire, comme on l'a raconté au chapitre 13. Il en a tiré la seule conséquence logique, dix ans plus tard, quand il en a eu les moyens. Et il n'est pas seul: Goïta incarne toute une génération militaire africaine formée au front, qui a vu ses hommes mourir pendant que les généraux français lui interdisaient d'avancer vers le nord. Cette génération a une lecture simple de la situation: ceux qui sont censés aider ne veulent pas que le problème soit résolu.
 
 ## Le deuxième acte et la jonction avec la rue
 
 La transition ne s'arrête pas en août 2020. Le 24 mai 2021, Goïta frappe une deuxième fois: il écarte le président de transition Bah N'Daw et son Premier ministre Moctar Ouane, accusés de vouloir marginaliser les militaires dans le nouveau gouvernement, et se fait investir président de la transition. Surtout, il nomme Premier ministre Choguel Kokalla Maïga, figure du M5-RFP — le mouvement populaire qui avait porté pendant des mois la contestation de la rue contre IBK.
-
 Ce choix n'a rien d'un accident. En d'autres termes, la transition militaire ne gouverne pas contre la société: elle institutionnalise la jonction entre la protestation populaire et la rupture portée par l'armée. C'est cette soudure entre la caserne et la rue qui distingue le Mali de 2020 des innombrables prises de pouvoir militaires que l'Afrique a connues — et qui explique pourquoi celle-ci a tenu.
-
 Choguel Maïga donne très vite à cette rupture sa profondeur historique: « Nous devons notre liberté de 1944-1945 aux tirailleurs africains. La dette, c'est dans l'autre sens.» La France libérée par des soldats africains; la dette morale inversée. Maïga sera écarté du gouvernement en août 2022, lors d'une consolidation du pouvoir militaire — le contrepoint mérite d'être nommé: la transition malienne sait aussi se débarrasser de ses alliés civils. Mais son cadrage intellectuel restera la référence, reprise par Tiani, Yamb et d'autres. Certaines contributions ne s'effacent pas avec les remaniements.
 
 ## L'épreuve: les 49 « mercenaires» de l'aéroport
 
 Le 10 juillet 2022, 49 membres des forces spéciales ivoiriennes sont interpellés à l'aéroport de Bamako. Ils sont déguisés en étudiants et en techniciens électriciens. Aucun ordre de mission. La MINUSMA — la mission de l'ONU au Mali — confirme qu'aucune rotation de personnel n'était prévue ce jour-là. Pour Bamako, il ne s'agit pas d'un malentendu logistique mais d'une infiltration. L'affaire prend un relief particulier quand on se souvient de l'enregistrement attribué à Alassane Ouattara et Boubou Cissé du 17 février 2022, examiné au chapitre 10 — « D'ici deux semaines ils tombent» —, jamais démenti publiquement par les intéressés.
-
 Le message que retient la transition est limpide: la menace ne vient pas seulement des groupes armés du nord. Elle vient aussi des capitales voisines restées dans l'orbite de Paris. Et un nom circule déjà parmi les cibles désignées dans cet enregistrement: celui du colonel Sadio Camara, ministre de la Défense, l'homme qui reconstruit méthodiquement l'armée malienne. Il faudra se souvenir de ce nom — le chapitre 20 lui appartiendra tout entier.
 
 ## 14 novembre 2023: Kidal
 
 Reste la démonstration finale. Le 14 novembre 2023, les Forces armées maliennes reprennent Kidal. La ville-symbole, bastion de la rébellion depuis 2012, celle-là même dont l'armée française avait interdit l'accès aux soldats maliens, tombe en moins de vingt-quatre heures. Ce que Barkhane n'avait pas accompli en dix ans de présence, les FAMa le réalisent seize mois après le départ des derniers soldats français. Le soldat refoulé de mai 2013 entre dans Kidal en président. Ce soir-là, Goïta prononce la phrase placée en tête de ce chapitre: « Le Mali est et restera Un et Indivisible.»
-
 La boucle malienne est bouclée — mais la rupture, elle, ne fait que commencer. Car pendant que Bamako reprenait son nord, un capitaine de trente-cinq ans, à Ouagadougou, était en train de transformer la rupture en doctrine.
 
 ★ ★ ★
 
+
 # Chapitre 17 — Burkina Faso: la doctrine Traoré
 
-*« Les impérialistes ont décidé que nous devions mourir. Nous, nous avons décidé de vivre. C'est tout le débat.» — Capitaine Ibrahim Traoré, 2023*
-
+> « Les impérialistes ont décidé que nous devions mourir. Nous, nous avons décidé de vivre. C'est tout le débat.» — Capitaine Ibrahim Traoré, 2023
 Ouagadougou, 30 septembre 2022. Pour la deuxième fois en huit mois, des blindés entourent la télévision nationale burkinabè. En janvier, le lieutenant-colonel Paul-Henri Sandaogo Damiba avait renversé le président Roch Marc Christian Kaboré, jugé incapable d'endiguer l'avancée des groupes armés. Ce soir de septembre, c'est Damiba lui-même qui tombe, écarté par un capitaine de l'arme blindée âgé de trente-cinq ans, plusieurs fois cité pour bravoure au front: Ibrahim Traoré. Deux renversements en huit mois, et chacun corrige et radicalise le précédent: Damiba avait rompu avec Kaboré sans rompre avec le système, et hésitait sur la rupture avec Paris. Traoré ne tergiverse pas. Dans le pays de Thomas Sankara — assassiné trente-cinq ans plus tôt presque jour pour jour, le 15 octobre 1987 —, le symbole n'échappe à personne: le capitaine a l'âge qu'avait le capitaine.
-
 L'idée directrice de ce chapitre tient en un mot: doctrine. Là où la transition malienne s'est construite dans l'action, Traoré formule — discours après discours — une pensée complète de la souveraineté: militaire, économique, culturelle. C'est ce qui fait de lui, aux yeux de toute une jeunesse africaine, l'incarnation la plus radicale du projet sahélien. Et c'est ce qui fait de lui une cible.
 
 ## « Plus dangereux que les bases»
 
 Traoré nomme d'abord le mécanisme de l'affaiblissement, et il le nomme avec une précision qui dépasse la simple dénonciation des bases étrangères: les conseillers militaires français, dit-il, sont « plus dangereux que les bases». Leur mission n'était pas de renforcer les forces armées burkinabè, mais de dicter des politiques de formation inadaptées pour maintenir l'armée dans une dépendance structurelle.
-
 Concrètement, une dépendance structurelle, c'est ceci: on vous forme à utiliser des équipements que vous ne pouvez ni acheter ni réparer seuls, selon des doctrines conçues pour un autre théâtre, de sorte que vous ne puissiez jamais faire la guerre — ni la paix — sans demander la permission. La base militaire est visible. Le conseiller est invisible. Et c'est l'invisible qui commande.
-
 La réponse de Traoré est totale, et elle déborde largement le champ militaire. Le Burkina Faso expulse les forces françaises. Il lance la mobilisation générale et instaure un service civique pour la défense nationale. Il engage la reprise en main des activités de Total sur son territoire. Il revendique la place de premier producteur de tomates d'Afrique de l'Ouest. Des ouvrages panafricanistes sont traduits en mooré et diffusés dans les villages, pour s'adresser directement aux populations rurales — non pas de la propagande, mais une éducation populaire souverainiste. Et quand l'Arabie saoudite propose de financer 200 mosquées, Traoré refuse: « Donnez-nous des écoles, des hôpitaux et des emplois.»
-
 En janvier 2025, répondant à Emmanuel Macron, il prononce la phrase qui devient virale sur tout le continent: « S'il n'est pas athée, à chaque réveil s'il prie, il devrait aussi prier les Africains, parce que c'est grâce à nos ancêtres que la France existe aujourd'hui» (14 janvier 2025). L'écho avec Choguel Maïga et la dette inversée des tirailleurs est évident: la même génération réécrit le sens moral de l'histoire franco-africaine, depuis deux capitales différentes.
 
 ## La bataille des casernes: cinq milliards pour une trahison
 
 Mais une doctrine ne se mesure pas à ses discours. Elle se mesure aux assauts qu'elle provoque. Le 8 novembre 2024, les forces de défense et de sécurité burkinabè déjouent une tentative de corruption d'une ampleur sans précédent documenté: un intermédiaire propose à des éléments des forces de sécurité de participer au renversement du gouvernement contre 5 milliards de francs CFA. Sur instruction de leurs supérieurs, les soldats feignent d'accepter. Au moment de la remise des valises, l'homme est arrêté en flagrant délit; les fonds sont saisis et versés au Trésor public, dans l'attente des conclusions de l'enquête sur les commanditaires (RTB, novembre 2024).
-
 Cinq milliards de francs CFA pour acheter un renversement. Le chiffre dit deux choses à la fois: la détermination de ceux qui veulent faire tomber la transition, et la résistance intérieure de soldats qui auraient pu s'enrichir en une nuit et ont choisi de tendre un piège. La bataille pour l'AES se joue aussi à l'intérieur des casernes.
-
 Elle se durcit encore en 2025. Selon les autorités sahéliennes, des mercenaires opérant dans la zone du Liptako-Gourma auraient été massivement dotés en armes et en financements par la DGSE en avril 2025, pour frapper simultanément les trois États de l'alliance. Le général Tiani signale de son côté des bases et des mouvements suspects à la frontière entre la Côte d'Ivoire et le Burkina Faso, notamment dans la zone de Cong, placée sous surveillance active.
-
 Puis vient la nuit du 3 janvier 2026, 23 heures: une tentative d'assassinat vise directement Traoré. Selon le communiqué officiel du ministère de la Sécurité nationale, une série d'actions ciblées était prévue, « en commençant par la neutralisation du capitaine Traoré, soit à bout portant, soit par une action pour miner son domicile». La tentative échoue. Elle prouve une chose simple: quelqu'un, quelque part, a décidé que Traoré devait mourir. Pour qui se souvient du sort réservé à Thomas Sankara — dont l'ombre plane sur chaque discours du capitaine —, la mécanique est familière: plus le projet devient crédible, plus son porteur devient une cible.
 
 ## « Préparez-vous à la guerre de haute intensité»
 
 C'est dans ce climat que Traoré formule, devant ses officiers, la version la plus explicite de sa doctrine. Ce n'est plus un discours de légitimation politique. C'est un ordre de mission: « Vous allez commencer un nouveau cycle d'entraînement. La guerre de haute intensité… C'est une guerre de décolonisation et vous avez entendu ces derniers jours certains généraux ailleurs qui ont fait comprendre que s'il faut qu'ils viennent avec leurs armées nous recoloniser, il faut qu'ils viennent. Eh bien, préparez-vous à la guerre de haute intensité» (discours aux officiers, 2023-2024).
-
 Pour le dire simplement, une guerre de haute intensité n'est pas une opération de maintien de l'ordre contre des bandes armées: c'est une guerre d'État à État, avec aviation, blindés, logistique profonde — le type de conflit auquel on ne se prépare que si l'on pense qu'une puissance étrangère pourrait, un jour, revenir par la force. Le Burkina Faso de Traoré ne se prépare plus seulement à combattre le terrorisme. Il se prépare à défendre son indépendance.
-
-Le contrepoint doit être posé honnêtement: cette transition ne fixe pas de calendrier électoral, concentre les pouvoirs et ne tolère guère la contestation. Ses partisans répondent qu'on ne vote pas sous les bombes; ses critiques, que l'exception devient vite une habitude. Le débat est légitime — il sera repris au chapitre 25. Mais une chose est acquise: avec le Mali et le Burkina, deux des trois pays du Liptako-Gourma ont rompu.
-
 Restait le troisième — le plus stratégique de tous, celui où dormaient les soldats français, les drones américains et l'uranium des centrales nucléaires: le Niger, dernier verrou du dispositif occidental au Sahel.
 
 ★ ★ ★
 
+
 # Chapitre 18 — Niger: le verrou final
 
-*« Il n'est plus question que nos États soient la vache à lait de la France.» — Général Abdourahamane Tiani, RTN, 12 février 2024*
-
+> « Il n'est plus question que nos États soient la vache à lait de la France.» — Général Abdourahamane Tiani, RTN, 12 février 2024
 Niamey, 26 juillet 2023. Au petit matin, la garde présidentielle nigérienne place le président Mohamed Bazoum en résidence surveillée, au cœur même du palais. Le général Abdourahamane Tiani, chef de cette garde, prend la tête du Conseil national pour la sauvegarde de la patrie. En quelques heures, la réaction internationale atteint une intensité jamais vue pour les transitions précédentes: menaces d'intervention militaire de la CEDEAO, sanctions immédiates, frontières fermées, électricité coupée. Pourquoi tant de fureur pour ce pays-ci? La réponse tient en un mot: le Niger est le dernier verrou.
 
-**Ce que l'Occident perdait avec le Niger (juillet 2023)**
+**CE QUE L'OCCIDENT PERDAIT AVEC LE NIGER (JUILLET 2023)**
+
 - Base aérienne de Niamey: environ 1 500 soldats français
 - Base 201 d'Agadez: environ 1 000 soldats américains et des drones Reaper MQ-9 — la seule base de drones américains en Afrique de l'Ouest
 - Uranium: 35 % des importations françaises d'uranium concentré (2020)
@@ -1014,46 +827,38 @@ Perdre le Niger, c'était perdre d'un coup l'intégralité du dispositif sahéli
 ## Le C-17 qui rebrousse chemin
 
 La première démonstration de souveraineté a lieu dans le ciel. Le 3 août 2023, un Boeing C-17A Globemaster de l'armée américaine décolle de Ramstein, en Allemagne, direction Niamey. Au-dessus de l'Algérie, il fait demi-tour: le CNSP lui a refusé l'atterrissage. Avant même que les accords de défense soient officiellement dénoncés, la souveraineté de l'espace aérien nigérien s'affirme dans les faits. En d'autres termes, le nouveau pouvoir ne négocie pas le principe — il le pratique, et laisse aux juristes le soin de constater.
-
 La suite est une retraite ordonnée des deux plus grandes armées du monde occidental. Décembre 2023: départ des soldats français. Printemps 2024: fermeture de la base 201 américaine. Nathalie Yamb, lors du grand débat télévisé de Niamey, donne à l'événement sa dimension historique: « Aucun pays dans le monde, à part le Vietnam, n'a réussi à faire dégager l'armée française et l'armée américaine en même temps, coup sur coup, sans avoir à faire couler une goutte de sang. C'est extraordinaire. L'histoire le retiendra pour des siècles et des siècles.»
 
 ## Le dossier d'Agadez: l'accord que les Nigériens n'avaient pas le droit de connaître
 
 C'est en partant que les Américains laissent derrière eux la pièce la plus accablante du dossier. En mars 2024, le CNSP expose publiquement les termes de l'accord de stationnement des forces américaines au Niger — des termes que les Nigériens n'avaient jamais eu le droit de connaître. L'accord avait été imposé unilatéralement au président Mahamadou Issoufou en 2012, sans consultation de l'Assemblée nationale, sans débat public, sans mandat populaire (communiqué du CNSP, RTN, 16 mars 2024).
-
 Le contenu est d'une violence institutionnelle rarement exposée aussi crûment. Le Niger payait les taxes des avions militaires américains, dont les États-Unis auraient normalement dû s'acquitter eux-mêmes. Les autorités nigériennes n'avaient aucune information sur les activités militaires menées depuis les bases installées sur leur propre territoire. Et l'armée américaine n'avait aucune obligation contractuelle d'appui contre les groupes terroristes qui massacraient les populations nigériennes. Plus de 1 100 soldats, trois emprises, plusieurs centaines de millions de dollars par an depuis 2012 — dont la base de drones d'Agadez, présentée dans la presse américaine spécialisée comme « la base de drones la plus chère jamais construite par les États-Unis».
-
 Concrètement, cela signifie qu'un pays souverain hébergeait, finançait en partie et protégeait juridiquement une infrastructure militaire étrangère qui ne lui devait rien — pas même de défendre ses habitants contre les tueries qui justifiaient officiellement sa présence. Officiellement, Agadez était un outil de lutte contre le terrorisme. Réellement, c'était une plateforme de surveillance de toute la bande sahélo-saharienne: les flux migratoires vers l'Europe, les mouvements russes et chinois en Afrique centrale et occidentale. La sécurité des Nigériens n'était pas l'objectif; elle était le prétexte. Quand le CNSP exige le départ des forces américaines en 2024, Washington perd sa fenêtre stratégique sur tout le Sahel central — une perte de capacité de renseignement sans équivalent dans la présence militaire américaine en Afrique de l'Ouest. Et la question dépasse le Niger: un président élu, présenté comme un démocrate modèle par Paris et Washington, avait accepté tout cela dans le dos de son propre parlement.
 
 ## Reprendre le sous-sol: Imouraren
 
 La rupture militaire s'accompagne d'une rupture extractive, pilotée par le Premier ministre Ali Mahaman Lamine Zeine — un nom absent des grands titres occidentaux, qui incarne pourtant la face technocratique du projet: gérer un État sous sanctions, reconstruire les finances publiques, renégocier les contrats. En 2024, le CNSP rompt les contrats d'exploitation d'uranium conclus avec Orano — l'ex-Areva — sur le site d'Imouraren, dans le nord du pays. Ce gisement est l'un des plus importants au monde; son exploitation était suspendue depuis 2014 par la France pour des raisons de rentabilité. La décision de 2024 clôt le dossier et rapatrie la souveraineté sur ce sous-sol à Niamey. Rien de symbolique là-dedans: une opération juridique et économique irréversible.
-
 Les chiffres donnent la mesure de l'enjeu. Le Niger détient à lui seul environ 5 % des réserves mondiales d'uranium — quelque 310 000 tonnes, dont les 200 000 tonnes du méga-gisement d'Imouraren, deuxième réserve mondiale. Le gisement d'Arlit alimentait les centrales nucléaires françaises depuis 1971; la France tirait environ 15 % de son uranium de la zone sahélienne avant la transition. Pendant ce demi-siècle d'exploitation, le Niger est resté 189e sur 191 pays à l'indice de développement humain (PNUD, 2023). Le pays qui éclairait la France restait dans le noir — on l'a vu au chapitre 8. Les chiffres sont le procès.
-
 Et la rupture paie, vite: les recettes pétrolières du Niger bondissent de 218 % entre 2020 (64,1 milliards de FCFA) et 2024 (204 milliards), tandis que la couverture des besoins domestiques passe de 20 % à 60 % (ministre Sahabi Oumarou, 24 février 2025).
 
 ## Le discours du 12 février 2024
 
 Reste à dire la doctrine. Le 12 février 2024, Tiani prononce sur la télévision nationale un discours d'une heure et demie qui structure l'architecture intellectuelle de la rupture nigérienne. Il y formule ce qui n'avait jamais été dit à ce niveau de responsabilité: « Il n'est plus question que nos États soient la vache à lait de la France. La France nous a pillés pendant 107 ans. La France doit payer cash les dettes de 65 ans de pillage systématique des ressources» (RTN, 12 février 2024).
-
 Dans le même discours, il retourne l'argument de l'ancienneté morale: la France cesse d'être un royaume en 1789; à cette date, l'empire Songhaï avait cessé d'exister comme entité prospère depuis 1591, et le sultanat du Bornou avait perdu son influence dès 1774. La France n'a aucune antériorité morale sur le Sahel — elle y est venue après. Tiani rapporte enfin une déclaration que Macron aurait faite lors d'une réunion multinationale d'août 2023 consacrée au Niger: « Le Niger ne vous appartient pas. Le Niger appartient à la France. Ce n'est pas à vous de proposer quelque solution que ce soit.» Si elle est exacte, cette phrase condense en deux lignes toute la logique de domination que ce livre documente.
-
 Les ruptures s'enchaînent ensuite avec une régularité qui ne doit rien au hasard: retrait de la CEDEAO en janvier 2024, retrait de l'Organisation internationale de la Francophonie en mars 2025 — en pleine semaine de la Francophonie —, suspension des médias français en mai 2026. Chaque étape rend la précédente irréversible. Quant au sort de Mohamed Bazoum et à ce que ses propres déclarations révèlent du système qu'il servait, on y reviendra en détail au chapitre 25.
-
 Mali, Burkina Faso, Niger: les trois verrous ont sauté en trois ans. Trois ruptures nationales, encore séparées, encore vulnérables. Il restait à en faire une seule force — et cela se joue à Bamako, un matin de septembre 2023, autour d'une table et d'un texte de quelques pages.
 
 ★ ★ ★
 
+
 # Chapitre 19 — La naissance de l'AES
 
-*« Avec ou sans vous, nous allons avancer.» — Abdoulaye Diop, ministre malien des Affaires étrangères*
-
+> « Avec ou sans vous, nous allons avancer.» — Abdoulaye Diop, ministre malien des Affaires étrangères
 Bamako, 16 septembre 2023. Trois hommes se penchent sur un document de quelques pages. Assimi Goïta signe pour le Mali. Le capitaine Ibrahim Traoré pour le Burkina Faso. Le général Abdourahamane Tiani pour le Niger. Le texte s'appelle la Charte du Liptako-Gourma. Il crée l'Alliance des États du Sahel. Sept semaines plus tôt, la CEDEAO menaçait encore d'envahir le Niger; ce matin-là, les trois pays menacés répondent en cessant d'être trois pays.
-
 Le nom même est un manifeste. Le Liptako-Gourma, c'est la zone des trois frontières, territoire ancestral des Peuls, des Touareg, des Songhaï, des Mossi — un espace qui existait bien avant que la conférence de Berlin ne trace ses lignes droites sur la carte de l'Afrique, en 1884. En choisissant ce nom, l'AES ancre sa rupture dans une continuité qui déborde la colonisation: avant Berlin, ce territoire existait; après Paris, il se reconstruit.
 
-**Charte du Liptako-Gourma — dispositions essentielles**
+**CHARTE DU LIPTAKO-GOURMA — DISPOSITIONS ESSENTIELLES**
+
 - Article 1: toute agression contre l'un des membres est une agression contre tous
 - Souveraineté pleine sur les ressources naturelles nationales
 - Droit de choisir ses partenaires militaires et diplomatiques sans tutelle extérieure
@@ -1065,49 +870,39 @@ La clause centrale est la première: la défense collective. Concrètement, c'es
 ## De l'alliance à la Confédération
 
 Ce qui suit dément tous ceux qui voyaient dans la Charte un geste défensif improvisé. Le 28 janvier 2024, les trois pays se retirent simultanément de la CEDEAO. Le 6 juillet 2024, au Centre international de conférences Mahatma Gandhi de Niamey, ils proclament la Confédération des États du Sahel. Le 21 décembre 2025, Goïta installe la Force unifiée. Chaque étape rend la précédente irréversible. Nulle improvisation. Une construction.
-
 Le sommet de Niamey, en particulier, ne produit pas un communiqué de circonstance mais un corpus juridique: un traité portant création de la Confédération, un règlement intérieur du collège des chefs d'État, un communiqué final en vingt-cinq points et la Déclaration de Niamey. Une confédération, pour le dire simplement, c'est une union d'États qui restent souverains mais mettent en commun des compétences décisives — ici la défense, la diplomatie, de grands chantiers économiques — là où une fédération fondrait les trois pays en un seul; et c'est bien la fédération que les textes désignent comme horizon. Sur la CEDEAO, Tiani est sans ambiguïté: « Cet élan populaire constitue le meilleur gage de construction d'une confédération de peuples et non un édifice bureaucratique. Nos peuples ont irrévocablement tourné le dos à la Cédéao» (discours du sommet de Niamey, 6 juillet 2024).
-
 Le sommet décide aussi la création d'une banque d'investissement de l'AES et d'un fonds de stabilisation — deux instruments recommandés dès le 25 novembre 2023 par les ministres des Finances des trois pays, avec des projets structurants dans l'énergie, les infrastructures, les transports et la sécurité alimentaire. Pour le dire simplement, un fonds de stabilisation est un coussin financier commun: quand l'un des trois pays subit un choc — sanctions, mauvaise récolte, chute des cours —, les autres amortissent. C'est l'assurance-vie économique de l'alliance, le pendant financier de l'article 1 militaire.
 
 ## Une légitimité plus ancienne que l'AES elle-même
 
 L'alliance ne se présente pas comme une invention, mais comme un accomplissement. Abdoulaye Diop, ministre malien des Affaires étrangères, l'articule depuis l'intérieur des institutions: l'AES repose sur un triple pilier — la sécurité d'abord, l'intégration économique ensuite, la diplomatie coordonnée enfin — et la Confédération n'est qu'une étape vers la Fédération. Surtout, il rappelle que « l'article 180 de la dernière constitution du Mali réitère l'attachement du Mali à abandonner tout ou partie de sa souveraineté pour réaliser l'intégration de l'Afrique avec tout État africain». En d'autres termes, s'unir aux voisins n'est pas une entorse aux principes fondateurs du Mali souverain: c'en est l'application. Diop invoque explicitement Modibo Keïta, premier président du Mali indépendant — la continuité entre 1960 et 2023 est institutionnellement revendiquée. Et il conclut d'une formule qui restera: « Avec ou sans vous, nous allons avancer. Si les Européens ne sont pas là, les Chinois seront là, les Russes seront là, les Australiens seront là. Aujourd'hui on n'est marié à personne.»
-
 L'attraction régionale commence d'ailleurs à jouer. Le 14 mai 2025, l'exercice militaire Tarha Nakal 2, à Tillia au Niger, associe aux armées de l'AES celles du Tchad et du Togo — ce même Togo qui, en juillet 2023, signait les sanctions de la CEDEAO contre Niamey. Vingt-deux mois pour passer du camp des sanctions au camp des manœuvres conjointes: le retournement mérite qu'on s'y arrête. Est-il sincère? Banda Kani, analyste panafricaniste, n'y croit guère: le Togo tente de « rattraper un combat» commencé sans lui, et son 9e Congrès panafricain de Lomé relèverait du « maquillage» politique — « les Togolais ne s'y reconnaissent pas». La distinction est utile: il y a le souverainisme de la rupture — Goïta, Traoré, Tiani — et le souverainisme de la diversification sans rupture, qui change de partenaires sans changer de dépendance. Le second imite le premier; il ne le rejoint pas encore.
 
 ## « Une réalité irréversible»
 
 Le 21 décembre 2025, en installant la Force unifiée de l'AES — portée à 15 000 hommes pour couvrir l'espace saharien —, Goïta fixe le cap d'une phrase: « Les nouvelles menaces sont orientées par les sponsors étatiques. L'AES est une réalité irréversible.» Tiani formule le même principe sous sa forme définitive: le retour vers la souveraineté est un choix des peuples burkinabè, malien et nigérien — irréversible. Et les trois dirigeants travaillent désormais en coordination étroite pour anticiper les menaces technologiques et militaires des sponsors des groupes armés: la convergence n'est plus seulement politique, elle est doctrinale. Le contrepoint, là encore, doit être dit: cette construction institutionnelle impressionnante s'est faite sans élections, et la question démocratique reste entière — elle sera traitée pour elle-même au chapitre 25. Mais nul ne peut plus soutenir qu'il s'agit d'une humeur passagère de colonels: c'est une architecture, avec ses traités, sa banque, son armée commune et sa doctrine.
-
 Un détail de l'exercice Tarha Nakal 2 mérite pourtant qu'on s'y arrête, car il glace rétrospectivement le sang. Le scénario joué à Tillia en mai 2025 était le suivant: une tentative de sécession soutenue par des groupes rebelles bénéficiant d'appuis extérieurs. Onze mois plus tard, presque trait pour trait, ce scénario cessait d'être un exercice.
 
 ★ ★ ★
 
+
 # Chapitre 20 — La guerre proxy
 
-*« On est dans la froide réalité du terrain. Des ex-légionnaires francophones travaillent avec le GUR ukrainien. Le verrou semble levé.» — George Malbruno, citant une source sécuritaire française, RTL, 9 mai 2026*
-
+> « On est dans la froide réalité du terrain. Des ex-légionnaires francophones travaillent avec le GUR ukrainien. Le verrou semble levé.» — George Malbruno, citant une source sécuritaire française, RTL, 9 mai 2026
 Kati, 25 avril 2026. Un camion s'approche d'une résidence du camp militaire qui domine Bamako — celui-là même où tout avait commencé, une nuit d'août 2020. Le camion explose. La déflagration souffle la maison visée et touche la mosquée voisine; plusieurs fidèles comptent parmi les victimes. La résidence était celle du général Sadio Camara, ministre de la Défense du Mali, architecte militaire de l'AES. Il ne survit pas. Au même moment, ce même 25 avril, des assauts coordonnés frappent Bamako, Kidal, Gao et Sévaré. Le Front de libération de l'Azawad reprend temporairement Kidal. Le drapeau malien est mis en berne. Ce sont les attaques les plus importantes depuis la transition de 2020, et leur objectif est transparent: démontrer que l'AES ne peut pas protéger son propre territoire.
-
 Pour comprendre cette journée — qui l'a voulue, qui l'a préparée, qui l'a payée —, il faut remonter le fil. Et le fil remonte loin: il passe par le Bénin, par Bangui, par les falaises de Tinzawaten, par Kiev, et il finit, le 9 mai 2026, dans un studio de RTL à Paris.
 
 ## L'armée fantôme
 
 Après les expulsions officielles, la France n'a pas quitté le Sahel. Elle s'est reconstituée — discrètement, clandestinement, via ses alliés régionaux: Bénin, Guinée, Côte d'Ivoire. C'est ce que le journaliste Thomas Dietrich documente dans son enquête du 13 juillet 2024: des soldats français présents à Tourou, au Bénin; des drones et un avion de renseignement financés à hauteur de 11,7 millions d'euros par l'Union européenne; la DGSE en appui du renseignement béninois. Dietrich se voit interdire de poursuivre son enquête au Bénin par le président Patrice Talon en personne. Dans la pyramide de domination du Dr Yamb Ntimba, présentée au chapitre 10, c'est le premier étage — le militaire — qui se reconstruit ici sous une forme déguisée, pendant que les étages supérieurs n'ont jamais cessé de fonctionner.
-
 Deux affaires donnent un visage à cette armée fantôme. Rémy Juan Quignolot, d'abord: ancien sous-officier français reconverti dans la sécurité privée, installé en Centrafrique depuis 2013, arrêté à Bangui le 10 mai 2021. Les photos publiées par le média Ndjoni Sango montrent un arsenal militaire complet étalé au sol. Cinq chefs d'accusation: espionnage, détention illégale d'armes, association de malfaiteurs, atteinte à la sûreté de l'État, complot. Il est exfiltré via Libreville le 21 mai 2023 — et la cellule Afrique de l'Élysée, Franck Paris et Nadège Chouat, est impliquée dans les tractations (Le Parisien, 21 mai 2023). Yann Vésilier, ensuite: agent de la DGSE arrêté à Bamako, accusé de préparation d'un renversement, toujours détenu au Mali à l'heure où s'écrivent ces lignes. Le Quai d'Orsay a parlé d'« instrumentalisation manifeste» pour Quignolot; il n'a pas eu les mêmes mots pour Vésilier. Deux pays, deux agents, un même mode opératoire: déploiement clandestin, arrestation par des autorités souverainistes, exfiltration diplomatique ou détention prolongée.
-
 Ces hommes opèrent dans la zone grise des ESSD — les entreprises de services de sécurité et de défense. Concrètement, ce sont des sociétés privées qui vendent des prestations militaires: protection, formation, renseignement. Ni armée, ni police, ni service officiel, elles permettent à un État d'agir là où son drapeau ne peut plus flotter — et de tout nier en cas d'arrestation. Pour chaque agent pris, combien opèrent sans incident? Ce chiffre n'existe pas dans les archives publiques. La guerre secrète française au Sahel, on l'a vu au chapitre 13, a précédé la guerre officielle; elle lui a aussi survécu.
 
 ## Tinzawaten: l'Ukraine entre en scène
 
 Fin juillet 2024. Dans l'extrême nord-est du Mali, à la frontière algérienne, les falaises de Tinzawaten deviennent le théâtre d'une défaite malienne lourde. Les rebelles touareg du Cadre stratégique permanent et leurs alliés jihadistes lancent une offensive coordonnée contre les positions de l'armée malienne et de ses partenaires de Wagner. Le bilan est brutal: au moins 84 soldats maliens tués selon les rebelles, des pertes significatives côté Wagner; l'armée malienne reconnaît « des pertes importantes» sans les chiffrer.
-
 Puis survient l'invraisemblable. Le 6 août 2024, Andriy Yusov, porte-parole du renseignement militaire ukrainien — le GUR —, déclare à la télévision ukrainienne que les rebelles ont reçu « les données nécessaires qui leur ont permis de mener à bien leur opération contre les militaires maliens». La phrase est chirurgicale: elle n'avoue pas une livraison d'armes, elle confirme un appui renseignement. En d'autres termes, un service d'État étranger reconnaît publiquement avoir transmis aux assaillants les informations — positions, mouvements, vulnérabilités — qui ont permis de tuer des dizaines de soldats d'un pays avec lequel l'Ukraine n'est pas en guerre. Dans le vocabulaire militaire, cela s'appelle un appui opérationnel. Dans le vocabulaire de Bamako, une complicité de meurtre.
-
 Une question de bon sens s'impose alors: comment l'Ukraine, en guerre existentielle depuis 2022, dont les dirigeants supplient leurs alliés de fournir plus d'armes, trouve-t-elle les ressources humaines, techniques et financières pour mener des opérations de renseignement en Afrique de l'Ouest? La réponse n'est pas à Kiev. Depuis la dissolution du G5 Sahel et le retrait de Barkhane, Paris a perdu toute structure d'intervention légale au Sahel: la France ne peut plus opérer à visage découvert sans déclencher une réaction populaire massive. Il lui faut un masque. C'est cela, une guerre proxy — pour le dire simplement: une guerre menée par intermédiaire, où le commanditaire reste hors champ pendant qu'un tiers, dépendant de lui, tient le fusil ou fournit les coordonnées. L'Ukraine, redevable de l'aide occidentale, disposant du renseignement partagé par l'OTAN, peut agir là où la France ne peut plus paraître. Ce cadre de lecture, formulé dès 2024 par des analystes panafricanistes comme Thomson Ehang, sera validé deux ans plus tard d'une manière que personne n'attendait.
-
 Le Mali, puis le Niger, rompent leurs relations diplomatiques avec Kiev. Décision qualifiée d'« émotionnelle» par certains commentateurs occidentaux; cohérence élémentaire en réalité: si tu fournis à mon ennemi les renseignements qui tuent mes soldats, tu es mon ennemi. Le 19 août 2024, les trois ministres des Affaires étrangères de l'AES saisissent formellement le Conseil de sécurité de l'ONU, dénonçant « le soutien ouvert et assumé du Gouvernement de la République d'Ukraine au terrorisme international, en particulier au Sahel» (communiqué conjoint AES, 19 août 2024). Le Conseil — dont la France est membre permanent avec droit de veto — n'agit pas. Ce silence rejoint un précédent: en juillet 2022 déjà, quand le Mali avait voulu présenter au Conseil des preuves que les terroristes étaient « fabriqués, entretenus et entraînés contre nos États», un veto avait bloqué la présentation publique. Choguel Maïga rapporte la justification qui en aurait été donnée en coulisses: « Si jamais les Maliens montrent leurs preuves, tous les Africains vont se révolter». Les preuves matérielles, elles, s'accumulent: le 23 mai 2025, lors d'une embuscade près de Sofara, les FAMa saisissent sur des combattants du JNIM un téléphone contenant des documents présentés comme issus du renseignement ukrainien, ainsi qu'un drone à marquages ukrainiens (Lefaso.net, 23 juin 2025). Et Tiani pose l'argument matériel le plus simple: les terroristes alignent des mitrailleuses lourdes « que les forces de l'AES ne possèdent même pas». On ne vole pas à l'adversaire ce qu'il n'a pas.
 
 ## Janvier 2026: la répétition générale de Niamey
@@ -1116,7 +911,9 @@ Dans la nuit du 28 au 29 janvier 2026, l'aéroport international Diori Hamani et
 
 ## Le 25 avril, et l'homme qu'il fallait tuer
 
-**Chronologie autour du 25 avril 2026**
+
+**CHRONOLOGIE AUTOUR DU 25 AVRIL 2026**
+
 - 22-23 avril: victoires des FAMa contre les groupes armés — non relayées par les médias occidentaux (Jules Domche, Vox Africa)
 - 23 avril: le Conseil de l'UE finalise 90 milliards d'euros pour l'Ukraine, dont 60 pour la défense, avec « dérogations ciblées»
 - 25 avril: attaques coordonnées sur Bamako, Kati, Kidal, Gao, Sévaré; mort du général Sadio Camara; le FLA reprend temporairement Kidal
@@ -1125,56 +922,47 @@ Dans la nuit du 28 au 29 janvier 2026, l'aéroport international Diori Hamani et
 - 9 mai: RTL — les révélations Malbruno; 10 mai: Goïta reprend le portefeuille de la Défense
 
 La coordination entre jihadistes et séparatistes, longtemps niée, s'affiche cette fois publiquement: Iyad Ag Ghali, chef du JNIM, et Alghabass Ag Intala commentent ensemble les attaques en vidéo; et le porte-parole du FLA déclare, sans qu'on le lui demande: « Nous avons de bons contacts avec les Ukrainiens tout comme avec la France, avec les États-Unis, avec presque tout le monde.» Banda Kani va plus loin: il décrit un contingent d'environ 12 000 hommes mêlant recrues sahéliennes précarisées et encadrement étranger, et des chefs de groupes armés en contact direct avec des cercles stratégiques français.
-
 Et au centre de la journée, un mort qui n'est pas un mort parmi d'autres. Sadio Camara avait été identifié comme cible prioritaire dès février 2022, dans l'enregistrement attribué à Ouattara et Cissé évoqué au chapitre 10 — « D'ici deux semaines ils tombent». Ils ne sont pas tombés. Camara a continué: la coopération militaire scellée à Ouagadougou en novembre 2022, l'opération Kapidgou 2 en mai 2023, Kidal en novembre 2023, la Force unifiée en décembre 2025. C'est lui qui a transformé les FAMa en une armée capable de reprendre le nord du pays. Entre l'identification de la cible et son élimination: quatre ans et deux mois. La patience de ceux qui ont planifié cet attentat est elle-même une information. Camara n'était ni Lumumba ni Sankara — il ne gouvernait pas un pays. Mais la logique est la même: on élimine ceux qui rendent le projet souverain crédible. Sankara est tombé quand son bilan devenait incontestable; Camara, quand son œuvre devenait irréversible.
 
 ## La réponse, et l'aveu
 
 L'AES ne s'effondre pas. Militairement: 15 000 hommes mobilisés, plus de 4 000 ennemis neutralisés selon les chiffres officiels — invérifiables à ce stade —, et Kidal repris par les FAMa. Les 800 citernes de carburant envoyées par le Niger au Mali dès le 1er mai donnent à la solidarité de la Charte sa traduction la plus concrète. Diplomatiquement: suspension de dix médias français, bannissement d'Al Arabiya, préparation d'une nouvelle saisine de l'ONU avec preuves matérielles — après la demande d'enquête adressée dès juin 2025 au Conseil de sécurité et à la CPI par le journaliste malien Robert Dixard sur l'implication ukrainienne. Politiquement: le 10 mai, Goïta reprend personnellement le portefeuille de la Défense de son ministre assassiné. « En s'installant directement aux commandes de ce ministère régalien, le général d'armée Assimi Goïta renforce son contrôle sur l'appareil militaire tout en garantissant la stabilité de la chaîne de commandement» (ORTM, 10 mai 2026). Même Washington prend acte: un émissaire américain, Nick Checker, est reçu à Bamako les 28 et 29 avril — l'AES a résisté, et la lecture américaine du rapport de force évolue.
-
 Puis vient l'aveu. Le 9 mai 2026, sur RTL, George Malbruno rapporte les propos d'une source sécuritaire française: « On est dans la froide réalité du terrain. Des ex-légionnaires francophones travaillent avec le GUR ukrainien. Le verrou semble levé.» Macron s'emporte publiquement contre le journaliste. Il ne dément pas le fond. Ce silence actif vaut validation. Fait remarquable: c'est l'adversaire lui-même qui confirme. Choguel Maïga, traité de « complotiste» en 2021 lorsqu'il parlait d'un terrorisme fabriqué, est confirmé en 2026 par une source sécuritaire française.
-
 La guerre proxy a désormais un nom, des dates, des aveux. Mais elle a aussi une géographie: aucune des attaques de ces années n'aurait été possible sans des sanctuaires, des couloirs et des complaisances chez les voisins de l'AES — et c'est vers eux qu'il faut maintenant tourner le regard.
 
 ★ ★ ★
 
+
 # Chapitre 21 — L'environnement régional
 
-*« L'Algérie d'aujourd'hui retourne ses armes contre le Mali qui se bat pour sa propre indépendance.» — Nathalie Yamb, avril 2025*
-
+> « L'Algérie d'aujourd'hui retourne ses armes contre le Mali qui se bat pour sa propre indépendance.» — Nathalie Yamb, avril 2025
 Nuit du 31 mars au 1er avril 2025, nord du Mali. Un drone des Forces armées maliennes survole son propre territoire, à dix kilomètres de la frontière algérienne — les données GPS de l'appareil en attesteront. Un missile algérien l'abat. Le même 31 mars, à des milliers de kilomètres de là, Abdelmadjid Tebboune et Emmanuel Macron s'entretiennent au téléphone; le communiqué conjoint évoque leurs « intérêts stratégiques et de sécurité respectifs». Alger tire sur un drone malien le jour même où Alger et Paris s'accordent sur leurs intérêts communs dans la région. La synchronisation est documentée.
-
 Cette nuit-là résume le sujet de ce chapitre: l'AES n'est pas une île. Elle est encerclée de voisins qui sont tour à tour des partenaires, des sanctuaires hostiles, des couloirs logistiques — et parfois les trois à la fois. Tour d'horizon, voisin par voisin.
 
 ## Le Tchad: Mahamat Déby entre deux feux
 
 Le Tchad est l'angle mort de l'analyse sahélienne. Frontalier du Niger, du Soudan, de la Libye, du Cameroun, de la Centrafrique et du Nigeria, il est le pivot géographique du continent. Idriss Déby meurt le 20 avril 2021, officiellement au front contre la rébellion du FACT, au lendemain de sa réélection — une coïncidence de calendrier relevée par plusieurs analystes. Son fils Mahamat prend le pouvoir dès le lendemain: une succession dynastique, anomalie constitutionnelle absolue. Et que fait Paris? Macron assiste aux funérailles et valide publiquement la succession — ce même Macron qui condamne avec véhémence les transitions militaires du Mali et du Burkina au nom de l'ordre constitutionnel. La différence de traitement dit tout: ce n'est pas la démocratie qui compte pour Paris, c'est l'obéissance. En mai 2024, Mahamat Déby se fait reconduire avec 61 % des voix dans un scrutin boycotté par une partie de l'opposition. Paris ne commente pas.
-
 L'économie explique la docilité. Le pétrole représente 60 % des revenus de l'État tchadien, mais la production décline depuis le milieu des années 2010, et la rente a principalement bénéficié à la famille Déby et aux réseaux du clan Zaghawa. Concrètement, une économie rentière est une économie qui vit d'un revenu tombé du sous-sol plutôt que du travail de transformation: quand la rente baisse, l'État qui en dépend doit se chercher des protecteurs. Ceux de N'Djaména s'appellent Paris — et, de plus en plus, Abu Dhabi: selon le rapport SWP de mai 2026, Mahamat Déby a au moins temporairement autorisé les Émirats arabes unis à utiliser le territoire tchadien comme plaque tournante de leur approvisionnement des FSR soudanaises. Quand le Tchad renégocie en 2024 ses accords de défense avec la France, Paris négocie avec une douceur jamais appliquée à Bamako ou Niamey: la base de N'Djaména est son dernier grand dispositif militaire en Afrique subsaharienne.
-
 Le Tchad n'échappe pas pour autant à la tourmente: du 4 au 6 mai 2026, dans la foulée immédiate du 25 avril, Boko Haram l'attaque à son tour. La pression s'exerce sur tous les acteurs régionaux simultanément — y compris sur le front humanitaire: en 2025, le Niger a expulsé le CICR, Tiani l'accusant d'avoir servi de vecteur financier lors de réunions secrètes à Abuja entre représentants occidentaux et groupes armés.
 
 ## L'Algérie: le médiateur qui tire
 
-Revenons au drone du 31 mars. Il n'est pas un accident isolé, mais le dernier épisode d'une relation profondément ambivalente. L'Algérie a parrainé les accords d'Alger de 2015, censés désarmer les groupes touareg maliens. Le jugement le plus sévère sur ces accords ne vient pas d'un militant, mais de l'intérieur du système onusien — Anatole Ayissi, haut fonctionnaire de l'ONU: « Les accords d'Alger consistaient à balkaniser le pays. Il était question que l'Union européenne conduite par la France, soutenue par l'ONU, fasse asseoir des autorités légitimes de Bamako et des leaders de groupes terroristes autour d'une table pour faire de mauvais arrangements au détriment des intérêts du Mali» (Forum Media Africa).
-
+Revenons au drone du 31 mars. Il n'est pas un accident isolé, mais le dernier épisode d'une relation profondément ambivalente. L'Algérie a parrainé les accords d'Alger de 2015, censés désarmer les groupes touareg maliens. Albert Anatole Ayissi : « Les accords d'Alger consistaient à balkaniser le pays. Il était question que l'Union européenne conduite par la France, soutenue par l'ONU, fasse asseoir des autorités légitimes de Bamako et des leaders de groupes terroristes autour d'une table pour faire de mauvais arrangements au détriment des intérêts du Mali» (Forum Media Africa).
 Les archives confirment l'ancienneté du double jeu. Des courriels déclassifiés du 18 janvier 2013 entre Hillary Clinton et son conseiller Sidney Blumenthal, accessibles sur Wikileaks, établissent que le gouvernement Bouteflika avait conclu un accord très secret avec le terroriste Belmokhtar après l'enlèvement du consul algérien à Gao en avril 2012: Belmokhtar concentrerait ses opérations au Mali, avec l'encouragement du renseignement algérien. En d'autres termes, Alger exportait son problème jihadiste chez son voisin et s'en servait comme variable d'ajustement stratégique. Le tableau n'est pas univoque: la même Algérie a servi de bouclier de fait au Niger, le 3 août 2023, quand le C-17 américain a dû rebrousser chemin au-dessus de son espace aérien.
-
 Il y a enfin un renversement historique que seul un retour soixante ans en arrière permet de mesurer. Le FLN algérien a utilisé le Mali de Modibo Keïta comme base arrière pour combattre la France coloniale; une délégation algérienne est venue à Bamako remettre un drapeau et un poignard à Modibo Keïta en signe de gratitude fraternelle. Le Mali a payé en sang pour la liberté de l'Algérie. Et l'Algérie d'aujourd'hui tire sur les drones du Mali qui se bat pour la sienne. Nathalie Yamb y voit non pas la politique de l'État algérien, mais celle d'« une mafia militaro-étatique qui bénéficie des trafics du Sahara — drogues, armes, pétrole, êtres humains — et dont l'intérêt est la poursuite de l'instabilité».
-
 Le 22 mars 2026, la rupture devient frontale: lors d'une réunion de la Ligue arabe, le Mali reconnaît la souveraineté marocaine sur le Sahara occidental. Pour Alger, dont la politique étrangère est structurée autour du soutien au Front Polisario, c'est un camouflet géopolitique majeur — Bamako choisit Rabat sur la question la plus sensible du Maghreb. Quatre semaines plus tard surviennent les attaques du 25 avril, revendiquées par le JNIM d'Iyad Ag Ghali — lequel entretient des liens historiques documentés avec les services algériens. Coïncidence ou causalité? La question reste ouverte; elle ne peut être fermée ni par le déni ni par l'affirmation, et elle appellera une réponse judiciaire et diplomatique que l'histoire devra trancher.
 
 ## La Mauritanie: le voisin silencieux
 
 À l'ouest, 2 200 kilomètres de frontière avec le Mali, un pays aux trois quarts désertique, 4,7 millions d'habitants: la Mauritanie est l'oubliée de l'analyse sahélienne. Hors de l'AES, en bons termes avec Paris, elle accueille pourtant, selon des sources de terrain, les bases arrière de groupes que Bamako considère comme hostiles. Bilal Chérif, chef du Front de libération de l'Azawad — celui-là même qui reprendra Kidal le 25 avril 2026 —, disposerait ainsi d'une base arrière en territoire mauritanien. En mai 2025, il se rend en France avec un visa Schengen, alors que son mouvement entretient des relations avec le JNIM, et il aurait été reçu à Paris (Africa Intelligence). Le président Ghazouani, réélu en 2024 dans un scrutin sans véritable alternance, est reçu en visite d'État par Macron peu avant les attaques du 25 avril. Le Mali est au cœur des discussions.
-
 La « stabilité» mauritanienne vantée par Paris a ses angles morts: l'esclavage, criminalisé en 2007, reste une réalité documentée (Global Slavery Index 2023), et les violences de 1989-1991 — expulsions massives de populations négro-africaines déchues de leur nationalité — demeurent un traumatisme jamais évoqué dans les communiqués. La géographie des ressources éclaire le reste: le gisement gazier Grand Tortue Ahmeyim, partagé avec le Sénégal, a livré ses premières exportations de GNL en 2024 — 2,4 millions de tonnes par an dans un premier temps. Une Mauritanie qui commence à monétiser son gaz n'a aucun intérêt à la rupture. Elle est à la fois le dernier allié réel de la France au Sahel et le couloir par lequel des groupes armés opèrent contre le Mali.
 
 ## Les Émirats arabes unis: le déstabilisateur documenté
 
 Reste un acteur que peu de lecteurs attendraient dans ce tableau, et que la recherche institutionnelle européenne elle-même a fini par nommer. En mai 2026, le SWP — l'Institut allemand pour les affaires internationales et la sécurité, qui conseille le gouvernement fédéral — publie une note signée Gerrit Kurtz, Wolfram Lacher et Stephan Roll sur « le rôle déstabilisateur des Émirats arabes unis dans les conflits africains». Sa conclusion: « Les Émirats arabes unis sont devenus l'un des acteurs extérieurs les plus agressifs dans les conflits africains. Son rôle entrave les efforts de résolution des conflits et aggrave les crises humanitaires ainsi que l'instabilité régionale» (SWP Comment n° 19, mai 2026).
 
-**Les Émirats en Afrique — faits établis par le rapport SWP (mai 2026)**
+**LES ÉMIRATS EN AFRIQUE — FAITS ÉTABLIS PAR LE RAPPORT SWP (MAI 2026)**
+
 - Soudan: principal soutien militaire, logistique et financier des FSR de Hemeti; à El-Fasher (octobre 2025), massacres présentant des « signes caractéristiques du génocide» selon une mission d'enquête de l'ONU
 - Camp d'entraînement des FSR installé au Benishangul-Gumuz (Éthiopie occidentale) à l'automne 2025; plusieurs centaines de mercenaires colombiens recrutés par une société de sécurité émiratie, certains formant des enfants au combat
 - 458 vols de transport lourd depuis des aéroports militaires émiratis vers la Libye orientale entre octobre 2024 et fin 2025, dont 239 vers le seul hub de Kufra — en violation d'embargos de l'ONU
@@ -1183,52 +971,46 @@ Reste un acteur que peu de lecteurs attendraient dans ce tableau, et que la rech
 - Lobbying: quatre jours de la ministre d'État Lana Nusseibeh à Bruxelles en novembre 2025; la résolution du Parlement européen sur le Soudan, adoptée dans la foulée, ne mentionne pas le soutien émirati aux FSR
 
 La guerre du Soudan ainsi alimentée a produit la plus grande crise humanitaire du monde: 33,7 millions de personnes dépendantes de l'aide selon l'ONU. Pour le dire simplement, un embargo de l'ONU est une interdiction internationale de livrer des armes à une zone de conflit; 458 vols cargo militaires en quatorze mois donnent la mesure de ce que vaut cette interdiction quand le contrevenant est riche et bien introduit. Détail qui ramène au cœur de notre sujet: le système de défense Galix, de fabrication française, a été retrouvé sur des blindés émiratis au Soudan. Les armes françaises participent au conflit soudanais — via les Émirats comme intermédiaire. Et le silence européen n'est pas une distraction: il est organisé, comme le montre le sort des amendements bloqués au Parlement européen. Pour l'AES, la leçon est immédiate: la guerre proxy décrite au chapitre précédent n'est pas une exclusivité française; c'est une méthode, dont le Soudan voisin offre la version la plus aboutie — et le Tchad, frontalier du Niger, en est déjà un maillon.
-
 Voilà donc l'environnement dans lequel l'alliance doit survivre: un Tchad sous double tutelle, une Algérie qui tire sur ses drones, une Mauritanie qui héberge ses ennemis en monétisant son gaz, des Émirats qui industrialisent la déstabilisation. Face à cet encerclement, l'AES tient — et c'est précisément ce qui oblige à poser une autre question: d'où vient cette capacité de résistance? Pour y répondre, il faut quitter un instant la géopolitique des États et remonter aux sources — car cette rupture vient de loin, de Nkrumah, de Lumumba, de Modibo Keïta, de Sankara: le réveil que le Sahel incarne aujourd'hui, l'Afrique l'avait rêvé, payé et enterré une première fois il y a soixante ans.
 
 ★ ★ ★
 
+
 # PARTIE V — LE RÉVEIL PANAFRICAIN
+
 
 ★ ★ ★
-
-# PARTIE V — LE RÉVEIL PANAFRICAIN
 
 Jusqu'ici, ce livre a raconté une guerre: celle des armes, des monnaies, des réseaux et des écrans. La partie qui s'ouvre raconte autre chose — une filiation. Car l'Alliance des États du Sahel n'est pas née en 2023 dans une salle de conférence de Bamako. Elle est née en 1957 sur un terrain de polo d'Accra, en 1961 sur une piste du Katanga, en 1962 dans une imprimerie de billets maliens, en 1987 dans la cour de la Maison du Peuple de Ouagadougou. Une première vague de dirigeants africains a tenté l'unité, la monnaie souveraine, l'armée commune. Presque tous l'ont payé du pouvoir ou de la vie. Les chapitres qui suivent remontent ce fil: Nkrumah, Lumumba, Keïta; puis Sankara; puis la génération qui a leurs portraits sur ses téléphones; et enfin l'AES elle-même, examinée pour ce qu'elle prétend être — le laboratoire grandeur nature du panafricanisme. Avec ses promesses. Et avec ses zones d'ombre, qui seront nommées.
 
 ★ ★ ★
 
+
 # Chapitre 22 — Nkrumah, Lumumba, Keïta: la première vague
 
 Accra, nuit du 5 au 6 mars 1957. Sur l'ancien terrain de polo de la capitale, des dizaines de milliers de personnes attendent dans la moiteur. À minuit, l'Union Jack descend. Un homme de quarante-sept ans monte à la tribune, en larmes — un ancien prisonnier politique devenu Premier ministre. Kwame Nkrumah proclame l'indépendance du Ghana, première colonie d'Afrique subsaharienne à s'arracher à l'empire britannique. Et il ajoute aussitôt, devant la foule, que cette indépendance n'aura aucun sens tant que la totalité du continent africain ne sera pas libre.
-
 Cette phrase est un programme. Elle est aussi, rétrospectivement, une condamnation à mort politique. Car tout ce chapitre tient en une idée simple: ce que l'AES construit depuis 2023 — l'union de plusieurs États, la monnaie souveraine, l'armée commune —, une première vague de dirigeants africains l'a tenté entre 1957 et 1968. Et presque tous l'ont payé de leur pouvoir ou de leur vie.
 
 ## Accra, capitale de l'Afrique
 
 Nkrumah ne perd pas de temps. Dès 1958, il fait d'Accra la capitale politique du continent: conférence des États indépendants d'Afrique en avril, conférence de tous les peuples africains en décembre. C'est là, en décembre 1958, qu'un jeune Congolais de trente-trois ans, employé des postes devenu tribun, rencontre Nkrumah et repart transformé: Patrice Lumumba.
-
 La même année, la Guinée de Sékou Touré vote non au référendum gaullien — préférant, selon sa formule restée célèbre, la pauvreté dans la liberté (on l'a vu au chapitre 5). Paris se retire en emportant jusqu'aux ampoules. Nkrumah, lui, tend la main: en novembre 1958, le Ghana et la Guinée proclament leur union, embryon revendiqué des États-Unis d'Afrique. En 1961, le Mali de Modibo Keïta les rejoint: l'Union Ghana-Guinée-Mali devient l'Union des États africains. Trois pays, trois langues coloniales différentes en héritage, un seul projet. Soixante-deux ans avant la Charte du Liptako-Gourma, trois États africains avaient déjà signé une union à trois.
-
 En mai 1963, à Addis-Abeba, lors de la fondation de l'Organisation de l'unité africaine, Nkrumah plaide pour aller plus loin: un gouvernement continental, une monnaie commune, un haut commandement militaire africain unifié. Les chefs d'État réunis choisissent l'option minimale — une organisation de coopération entre États souverains, pas une fédération. Nkrumah repart battu. Le 24 février 1966, alors qu'il est en route pour Hanoï, l'armée et la police ghanéennes le renversent avec, c'est aujourd'hui largement documenté, la bienveillance des services occidentaux. Il ne reverra jamais le Ghana. Il meurt en exil en 1972, hôte de la Guinée de Sékou Touré.
 
 ## Le 17 janvier 1961
 
 Le Congo belge accède à l'indépendance le 30 juin 1960. Le pays compte alors une poignée de diplômés du supérieur pour des millions d'habitants — l'héritage chiffré du pillage belge, détaillé au chapitre 9. Patrice Lumumba, Premier ministre élu, commet le crime impardonnable: il dit publiquement, le jour même de l'indépendance, devant le roi Baudouin, que la colonisation fut une humiliation et non une œuvre civilisatrice. Et il entend que les richesses minières du Katanga servent les Congolais.
-
 La suite tient en six mois. Sécession du Katanga soutenue par les intérêts miniers belges. Destitution en septembre 1960. Arrestation. Le 17 janvier 1961, Lumumba est transféré au Katanga avec deux compagnons, Maurice Mpolo et Joseph Okito. Ils sont torturés, fusillés le soir même, leurs corps dissous dans l'acide. Lumumba avait trente-cinq ans et était resté moins de trois mois au pouvoir. Quarante ans plus tard, en 2001, une commission d'enquête du Parlement belge reconnaîtra la responsabilité morale de la Belgique dans l'assassinat; en 2022, l'État belge restituera à la famille la seule relique conservée — une dent.
-
 Le message adressé au continent était limpide: un dirigeant élu qui prétend disposer des ressources de son pays peut être éliminé en six mois, et il faudra quarante ans pour qu'on s'en excuse.
 
 ## Modibo Keïta, le franc malien et le poignard du FLN
 
 Bamako, 22 septembre 1960: le Mali devient indépendant sous la présidence de Modibo Keïta, instituteur, socialiste, panafricaniste. Moins de deux ans plus tard, le 1er juillet 1962, il pose l'acte que presque aucun dirigeant francophone n'osera après lui: il sort de la zone franc et crée le franc malien, imprimé souverainement. Concrètement, cela signifie qu'un État décide seul de sa monnaie, de ses réserves et de son crédit, au lieu de déposer ses réserves à Paris et de laisser un autre pays garantir — donc surveiller — sa politique monétaire. Le prix est immédiat: pressions, asphyxie commerciale, négociations humiliantes pour réintégrer partiellement la zone franc en 1967, au prix d'une dévaluation de moitié.
-
 Le Mali de Modibo Keïta n'était pourtant pas un acteur marginal. Pendant la guerre d'Algérie, il avait servi de base arrière au FLN qui combattait la France coloniale. En signe de gratitude, une délégation algérienne était venue à Bamako remettre à Modibo Keïta un drapeau et un poignard (Nathalie Yamb — épisode rappelé au chapitre 21, au moment où l'Algérie contemporaine retournait ses armes contre le Mali). Le poignard disait la fraternité des combats. Il dit aujourd'hui, par contraste, tout ce que la région a perdu en route.
-
 Le 19 novembre 1968, de jeunes officiers menés par le lieutenant Moussa Traoré renversent Modibo Keïta. L'expérience monétaire est enterrée, le Mali rentre dans le rang. Le premier président du Mali indépendant meurt en détention à Bamako le 16 mai 1977, sans jugement.
 
-**La première vague — chronologie d'une élimination**
+**LA PREMIÈRE VAGUE — CHRONOLOGIE D'UNE ÉLIMINATION**
+
 - 6 mars 1957: indépendance du Ghana, Nkrumah appelle à la libération totale du continent
 - Novembre 1958: Union Ghana-Guinée, élargie au Mali en 1961
 - 30 juin 1960: indépendance du Congo, discours de Lumumba devant Baudouin
@@ -1239,29 +1021,28 @@ Le 19 novembre 1968, de jeunes officiers menés par le lieutenant Moussa Traoré
 - 24 février 1966: Nkrumah renversé pendant un voyage à l'étranger
 - 19 novembre 1968: Modibo Keïta renversé; il mourra en détention en 1977
 
+
 ## Ce que l'AES doit aux morts
 
-Il faut le dire sans naïveté: la première vague avait aussi ses ombres. Nkrumah a glissé vers le parti unique et l'emprisonnement d'opposants; la Guinée de Sékou Touré a sombré dans une répression intérieure féroce. Ces dérives sont réelles et elles ont fourni, à l'époque comme aujourd'hui, des arguments commodes à ceux qui préféraient ne retenir que cela. Mais elles n'expliquent ni un peloton d'exécution au Katanga, ni un renversement orchestré pendant un voyage officiel, ni une mort en détention à Bamako. Ce qui a été éliminé entre 1961 et 1968, ce ne sont pas des autocrates: ce sont des projets — l'unité politique, la monnaie souveraine, la défense commune.
-
+Ce qui a été éliminé entre 1961 et 1968, ce ne sont pas des autocrates: ce sont des projets — l'unité politique, la monnaie souveraine, la défense commune.
 Or relisez la Charte du Liptako-Gourma du 16 septembre 2023: union de trois États, souveraineté pleine sur les ressources, Force unifiée installée le 21 décembre 2025, projet monétaire commun. C'est, article par article, le programme d'Addis-Abeba 1963 — celui que les chefs d'État avaient rejeté du vivant de Nkrumah. Le ministre malien des Affaires étrangères Abdoulaye Diop le revendique explicitement: l'article 180 de la constitution malienne adoptée en 2023 réaffirme la disposition du Mali à abandonner tout ou partie de sa souveraineté pour réaliser l'intégration africaine, et c'est Modibo Keïta qu'il cite comme référence doctrinale (Diop, forum international, 2023-2024). L'AES ne se présente pas comme une rupture avec 1960. Elle se présente comme la reprise d'un chantier interrompu par les balles.
-
 Entre la première vague et celle-ci, pourtant, un homme a tenté de maintenir la flamme, seul, quatre ans durant, depuis le pays le plus pauvre de la région — et c'est vers lui, vers Ouagadougou, qu'il faut maintenant se tourner.
 
 ★ ★ ★
 
+
 # Chapitre 23 — Sankara avait raison
 
-*« La dette, c'est une reconquête savamment organisée. On nous a paupérisés, on nous a mis dans des conditions telles que nous sommes obligés d'aller mendier.»* — Thomas Sankara, sommet de l'OUA, Addis-Abeba, 29 juillet 1987
-
+> « La dette, c'est une reconquête savamment organisée. On nous a paupérisés, on nous a mis dans des conditions telles que nous sommes obligés d'aller mendier.» — Thomas Sankara, sommet de l'OUA, Addis-Abeba, 29 juillet 1987
 Addis-Abeba, 29 juillet 1987. Dans la grande salle de l'Organisation de l'unité africaine, les chefs d'État somnolent sous les lustres quand un capitaine de trente-sept ans, en béret rouge, demande la parole. Thomas Sankara, président du Burkina Faso, dit à ses pairs ce qu'aucun d'eux n'ose formuler: la dette africaine ne peut pas être remboursée, elle ne doit pas être remboursée, car ce sont les colonisateurs d'hier qui sont devenus les créanciers d'aujourd'hui. Il appelle à un front uni du continent contre le paiement. Puis il glisse, mi-rieur, mi-prophétique, que si le Burkina reste seul à refuser de payer, il ne sera plus là au prochain sommet. La salle rit.
-
 Deux mois et demi plus tard, il est mort.
 
 ## Quatre ans qui dérangent
 
 Pour comprendre pourquoi cette mort n'est pas un fait divers ouest-africain, il faut mesurer ce qui s'était passé entre le 4 août 1983 — la prise de pouvoir du Conseil national de la révolution — et ce discours d'Addis-Abeba. Quatre ans. Le capitaine Sankara rebaptise la Haute-Volta, nom de colonie, en Burkina Faso: le pays des hommes intègres. Et il gouverne comme personne n'avait gouverné sur le continent.
 
-**Le bilan des quatre ans (1983-1987)**
+**LE BILAN DES QUATRE ANS (1983-1987)**
+
 - 2,5 millions d'enfants vaccinés contre la rougeole, la méningite et la fièvre jaune
 - 10 millions d'arbres plantés contre l'avancée du désert
 - Routes et chemin de fer construits sans aide extérieure
@@ -1269,101 +1050,84 @@ Pour comprendre pourquoi cette mort n'est pas un fait divers ouest-africain, il 
 - La dette? Remboursable, disait-il, à condition que les créanciers viennent au Burkina expliquer eux-mêmes comment elle a été contractée
 
 C'est, à ce jour, le programme de souveraineté africaine le plus ambitieux jamais réalisé sur le continent. Pas proclamé: réalisé. Sankara refusait l'aide française conditionnée comme il refusait les voitures de fonction de luxe — par cohérence, pas par posture.
-
 Dès le 4 octobre 1984, à la tribune de l'Assemblée générale des Nations unies, il avait porté ce discours à la face du monde: il y parlait au nom des déshérités, attaquait l'apartheid, et posait la dette comme l'instrument central de la domination postcoloniale. En d'autres termes: un pays endetté n'a plus besoin d'être occupé, puisque chaque échéance de remboursement décide à sa place de ses écoles, de ses hôpitaux et de ses alliances. On emprunte pour rembourser, on obéit pour emprunter. Le créancier gouverne sans soldats.
-
 Trois ans après New York, à Addis-Abeba, il ne demandait plus qu'on l'écoute: il demandait qu'on l'accompagne. Le front uni contre la dette ne s'est pas formé. La prophétie du sommet, si.
 
 ## Le 15 octobre 1987
 
 Ouagadougou, 15 octobre 1987, en début d'après-midi. Un commando fait irruption au Conseil de l'Entente, à la Maison du Peuple, où Sankara tient une réunion. Il est abattu avec douze de ses compagnons. Son ami, son frère d'armes, l'homme de la pièce d'à côté, prend le pouvoir le jour même: Blaise Compaoré. Il régnera vingt-sept ans, redevenu fréquentable du jour au lendemain pour les chancelleries occidentales, pendant que le dossier Sankara dormait dans un tiroir et que sa tombe restait quasi clandestine.
-
-Il faudra l'insurrection populaire d'octobre 2014 — le peuple burkinabè chassant Compaoré — pour que la justice s'ouvre enfin. La France exfiltre alors Compaoré vers Abidjan, chez son allié Alassane Ouattara, qui le protégera de toute extradition (Dr Rufin Viclère Mabiala, analyste panafricaniste). Les procédures judiciaires ouvertes à partir de 2015 exhument le corps, rassemblent témoignages et pièces; certains de ces éléments mettent en cause des agents des services français ⚠[À SOURCER: implication française évoquée au dossier, non tranchée par le jugement]. Paris déclassifiera trois lots d'archives, sans que les zones les plus sensibles soient levées.
-
+Il faudra l'insurrection populaire d'octobre 2014 — le peuple burkinabè chassant Compaoré — pour que la justice s'ouvre enfin. La France exfiltre alors Compaoré vers Abidjan, chez son allié Alassane Ouattara, qui le protégera de toute extradition (Dr Rufin Viclère Mabiala, analyste panafricaniste). Les procédures judiciaires ouvertes à partir de 2015 exhument le corps, rassemblent témoignages et pièces; certains de ces éléments mettent en cause des agents des services français. Paris déclassifiera trois lots d'archives, sans que les zones les plus sensibles soient levées.
 Le procès s'ouvre à Ouagadougou le 11 octobre 2021 — trente-quatre ans après les faits. Le 6 avril 2022, le tribunal militaire de Ouagadougou condamne Blaise Compaoré par contumace à la réclusion criminelle à perpétuité pour attentat à la sûreté de l'État et complicité d'assassinat, aux côtés notamment du général Gilbert Diendéré. Pour le dire simplement, juger par contumace, c'est juger un absent: Compaoré, depuis Abidjan, n'a jamais comparu, et la Côte d'Ivoire ne l'a jamais livré. La peine est dite. Elle n'est pas exécutée. Mais pour la première fois, un État africain a écrit dans un jugement ce que toute une génération savait: Sankara n'est pas mort d'un « drame interne à la révolution». Il a été assassiné, et son assassin a gouverné vingt-sept ans avec la bénédiction des protecteurs de l'ordre régional.
 
 ## L'héritage: du mausolée au treillis
 
-L'honnêteté oblige à rappeler que la révolution sankariste avait ses ombres: tribunaux populaires expéditifs, enseignants grévistes licenciés en 1984, rapports brutaux avec les syndicats et les chefferies. Sankara lui-même, dans ses derniers mois, parlait de rectifier. Ces ombres sont documentées et elles comptent. Mais elles ne pèsent rien face au constat central: en quatre ans, sans pétrole, sans port, sans aide, un des pays les plus pauvres du monde s'était vacciné, reboisé, nourri et redressé. C'est précisément ce bilan-là qui devenait incontestable — donc insupportable.
-
+En quatre ans, sans pétrole, sans port, sans aide, un des pays les plus pauvres du monde s'était vacciné, reboisé, nourri et redressé. C'est précisément ce bilan-là qui devenait incontestable — donc insupportable.
 Trente-cinq ans après l'assassinat, le Burkina Faso a fait de Sankara un héros national, lui a élevé un mausolée à l'endroit même où il est tombé — et a porté au pouvoir, en septembre 2022, un autre capitaine de trente-quatre ans. Ibrahim Traoré gouverne depuis le même palais. Il cite Sankara. Il refuse les financements religieux conditionnés comme Sankara refusait l'aide française conditionnée (on l'a vu au chapitre 17). Et la Force unifiée de l'AES institutionnalise à l'échelle régionale ce que Sékou Touré avait tenté nationalement en 1958 et ce que Sankara avait espéré continentalement en 1987. La graine a mis quarante ans à germer. Elle germe.
-
 Une remarque, formulée par Nathalie Yamb, prend ici tout son poids et reviendra au chapitre 25: Sankara était militaire, non élu — et son bilan en quatre ans dépasse celui de la plupart des démocraties électorales africaines postcoloniales. La question de ce que vaut une urne sans souveraineté est posée. Nous ne l'esquiverons pas.
-
 Mais avant d'y répondre, il faut regarder ceux qui ont ressuscité Sankara: car ce ne sont pas les gouvernements qui ont fait de lui une icône — c'est une génération qui n'était pas née en 1987, qui porte son portrait sur ses téléphones, et dont une jeune fille de Tonka, un jour de novembre, a payé pour savoir ce qu'il en coûte encore de parler librement au Sahel.
 
 ★ ★ ★
 
+
 # Chapitre 24 — La jeunesse connectée, la diaspora en première ligne
 
 Tonka, région de Tombouctou, début novembre 2021. Une jeune femme filme sa vie avec son téléphone: le marché, les rues, les soldats maliens qu'elle encourage. Elle s'appelle Mariam Cissé. Sur TikTok, des dizaines de milliers de personnes suivent cette fille du fleuve qui rit face caméra. Des hommes armés du JNIM viennent la chercher. Le lendemain, ils l'exécutent en public, sur la place de Tonka, devant la foule convoquée. Son crime: avoir montré, avoir soutenu, avoir existé en ligne.
-
 Les tueurs voulaient faire un exemple. Ils ont fabriqué un symbole. Le meurtre de Mariam Cissé a retourné l'opinion malienne contre le JNIM plus efficacement que n'importe quelle communication gouvernementale. Car en l'exécutant, le groupe armé a désigné lui-même son véritable adversaire: non pas une armée, mais une génération — celle qui filme, poste, commente, compare. Ce chapitre raconte cette génération et son prolongement au-delà des mers: la diaspora. Deux fronts que ni Paris, ni les groupes armés, ni même les États sahéliens n'avaient vus venir.
 
 ## Le pays le plus jeune du monde
 
 La population sahélienne a une médiane d'âge inférieure à 18 ans. Concrètement, cela veut dire qu'un Sahélien sur deux n'était pas né quand les tours jumelles sont tombées, et avait moins de dix ans quand l'opération Serval a débuté. Cette jeunesse n'a pas connu la guerre froide ni les conférences de La Baule. Elle a grandi avec Internet: les classements IDH consultables en ligne, les images de Barkhane en retraite, la signature de la Charte du Liptako-Gourma en direct. Elle a pu comparer, soixante ans de « coopération» en main, les promesses et les réalités. Elle a choisi.
-
 À l'échelle du continent, plus de 60 % de la population a moins de 25 ans: l'Afrique est le continent le plus jeune de la planète. Ce réservoir humain est soit la plus grande force géopolitique du XXIe siècle, soit la plus grande source d'instabilité — selon qu'on lui offre des écoles ou des armes. Ce pari éducatif, décisif, sera traité au chapitre 27. Ce qui nous occupe ici, c'est un fait politique: pour la première fois, cette jeunesse dispose d'un espace que personne ne contrôle entièrement — le téléphone. Mariam Cissé en est la martyre. Les millions de comptes qui ont relayé sa mort en sont la preuve de vie.
 
 ## La diaspora: du virement au front
 
 Ils vivent à Paris, à Genève, à Bruxelles, à Montréal, à Londres. Ils paient leurs impôts en Europe et envoient des virements à Bamako, Ouagadougou, Niamey. Et depuis 2020, ils font quelque chose que leurs parents n'avaient pas fait: ils se battent. Pas avec des armes — avec des analyses, des chaînes YouTube, des tribunes que personne ne leur demandait d'écrire.
-
 Le premier front est financier. Les transferts des migrants africains vers leurs pays d'origine dépassent de très loin les montants de l'aide publique au développement, selon les propres données de la Banque mondiale — environ 40 milliards de dollars par an vers l'Afrique subsaharienne. En d'autres termes: les cousins de Montreuil et de Montréal financent davantage leurs pays que tous les donateurs officiels réunis, sans conditionnalités, sans contreparties politiques, sans cérémonie de signature. La « générosité» du Nord, démontée au chapitre 9, pèse moins lourd qu'un guichet de transfert d'argent un samedi matin.
+Le second front est informationnel. Nathalie Yamb opère depuis l’Afrique et tient tête aux ambassadeurs français sur les réseaux. Franklin Nyamsi, philosophe franco-camerounais, retourne depuis Rouen les arguments des diplomates de l'Élysée. Jonathan Batenguène analyse depuis le Cameroun. Ces voix existent dans l'espace médiatique européen lui-même et y constituent un contre-récit crédible, en français, aux heures de grande écoute numérique. Que ce front soit pris au sérieux par l'adversaire, on en a vu la preuve au chapitre 14: l'école cyber du 43e BIMA et ses « e-patrouilleurs» chargés de cibler nommément les panafricanistes, puis l'appel d'offres de septembre 2025 pour recruter des influenceurs africains contre l'AES. On ne budgétise pas une contre-offensive contre un front qui n'existe pas.
 
-Le second front est informationnel. Nathalie Yamb opère depuis la Suisse et tient tête aux ambassadeurs français sur les réseaux. Franklin Nyamsi, philosophe franco-camerounais, retourne depuis Paris les arguments des diplomates de l'Élysée. Jonathan Batenguène analyse depuis le Cameroun. Ces voix existent dans l'espace médiatique européen lui-même et y constituent un contre-récit crédible, en français, aux heures de grande écoute numérique. Que ce front soit pris au sérieux par l'adversaire, on en a vu la preuve au chapitre 14: l'école cyber du 43e BIMA et ses « e-patrouilleurs» chargés de cibler nommément les panafricanistes, puis l'appel d'offres de septembre 2025 pour recruter des influenceurs africains contre l'AES. On ne budgétise pas une contre-offensive contre un front qui n'existe pas.
+**JEUNESSE ET DIASPORA EN CHIFFRES**
 
-**Jeunesse et diaspora en chiffres**
 - Médiane d'âge au Sahel: moins de 18 ans (données ONU)
 - Plus de 60 % des Africains ont moins de 25 ans
 - Transferts de la diaspora vers l'Afrique subsaharienne: environ 40 milliards de dollars par an — très au-dessus de l'aide publique au développement (Banque mondiale)
 
+
 ## Les compradores de la diaspora
 
 Mais la diaspora n'est pas un bloc. Elle est traversée par les mêmes lignes de fracture que les sociétés africaines, et elle a ses compradores — pour le dire simplement, ses intermédiaires de la dépendance, formés en France, installés en France, dont la carrière repose sur des réseaux franco-africains qu'une rupture souverainiste ruinerait. Hassoumi Massaoudou, dignitaire du régime renversé à Niamey, qualifie depuis un plateau de LCI, à Paris, les mobilisations populaires nigériennes de « chorégraphies achetées à 1 500 euros». Il est lui-même diaspora. Il choisit le récit de l'Élysée contre celui de son propre peuple — ce que Nathalie Yamb appelle le « complexe du colonisé»: emprunter à l'adversaire ses catégories, ses verdicts, et jusqu'au mépris de soi.
-
 Il faut donc le dire honnêtement: la diaspora peut aussi être influencée, divisée, instrumentalisée — elle l'est, activement. Et les États de l'AES n'ont pas encore transformé cette force en institution. Une politique diaspora digne de ce nom — mécanismes d'investissement, double nationalité, participation civique à distance — reste un chantier ouvert, pas un acquis. La puissance est là; l'architecture manque encore.
-
 Reste l'essentiel. Une génération dont la moitié n'a pas 18 ans, qui a fait de Sankara une icône et de Mariam Cissé une martyre; une diaspora qui envoie plus d'argent que les bailleurs et produit son propre récit: voilà la base sociale du réveil panafricain. Mais une base sociale n'est pas un projet politique. La vraie question — celle que posent les adversaires de l'AES de bonne ou de mauvaise foi, et que ses partisans ne peuvent plus différer — est ailleurs: que vaut, démocratiquement et institutionnellement, ce laboratoire dirigé par des militaires que personne n'a élus? C'est à cette question, sans esquive, qu'est consacré le chapitre suivant.
 
 ★ ★ ★
 
+
 # Chapitre 25 — L'AES, laboratoire panafricain
 
-*« Nous ne pouvons pas combattre l'injustice venue de l'extérieur en pratiquant l'injustice à l'intérieur.»* — Thomas Sankara, 1984
-
+> « Nous ne pouvons pas combattre l'injustice venue de l'extérieur en pratiquant l'injustice à l'intérieur.» — Thomas Sankara, 1984
 Le 7 juin 2026, la toile africaine s'enflamme. Yan Christian Bernard Vésilier, agent de la DGSE infiltré au Mali sous couverture diplomatique — concrètement, un espion protégé par un passeport et un titre d'ambassade qui le rendaient en principe intouchable —, est condamné à vingt ans de prison pour atteinte à la sûreté de l'État malien. Les faits retenus sont lourds: l'organisation d'un coup d'État destiné à renverser le général Assimi Goïta, avec la complicité d'officiers supérieurs maliens arrêtés en même temps que lui. Après des décennies où les agents étrangers pris en flagrant délit de déstabilisation étaient discrètement relâchés au bout de quelques mois, voilà une condamnation ferme, chiffrée, publique. La joie des réseaux panafricanistes est immédiate et massive.
-
 C'est précisément à ce moment-là qu'il faut ralentir. Car ce chapitre traite l'AES pour ce qu'elle prétend être: un laboratoire — le test grandeur nature du panafricanisme. Et un laboratoire ne se juge pas à ses fêtes. Il se juge à ses protocoles, à ses contrôles, à ses échecs avoués.
 
 ## L'affaire Vésilier, ou la justice sous surveillance — africaine
 
 La voix la plus utile dans la liesse de juin 2026 n'est pas celle d'un contradicteur de l'AES. C'est celle d'une de ses alliées les plus constantes, Nathalie Yamb:
-
-« Un Africain averti en vaut 1 000. Je m'interroge sur le fait que Yan Christian Bernard Vésilier n'ait pas eu un procès public. Je m'interroge sur le fait que la raison pour laquelle ce procès expéditif n'a pas été public n'a pas été communiquée au peuple malien. Et je m'interroge enfin sur le fait que les officiers maliens arrêtés dans le cadre de cette même affaire n'ont pas été jugés et condamnés — ou relaxés — en même temps que lui.» (Nathalie Yamb, juin 2026)
-
+> « Un Africain averti en vaut 1 000. Je m'interroge sur le fait que Yan Christian Bernard Vésilier n'ait pas eu un procès public. Je m'interroge sur le fait que la raison pour laquelle ce procès expéditif n'a pas été public n'a pas été communiquée au peuple malien. Et je m'interroge enfin sur le fait que les officiers maliens arrêtés dans le cadre de cette même affaire n'ont pas été jugés et condamnés — ou relaxés — en même temps que lui.» (Nathalie Yamb, juin 2026)
 Trois silences. Trois absences. Trois signaux d'alarme. L'inquiétude n'est pas abstraite: quatre agents de la DGSE arrêtés au Mali avaient déjà été retenus un an, puis relâchés contre un « arrangement» jamais rendu public — avant que l'un des cercles sécuritaires français n'annonce sur un plateau de télévision, en 2024, que le départ des armées officielles ouvrirait « plus de latitude pour monter des opérations de déstabilisation cette fois-ci plus clandestines». Pas une menace voilée: une annonce de programme. Et la mémoire régionale conserve l'affaire de l'Arche de Zoé: en 2007, des trafiquants d'enfants français condamnés à huit ans de travaux forcés par la justice tchadienne, rapatriés par Nicolas Sarkozy « pour purger leur peine» — et graciés presque aussitôt.
-
 D'où le cadre que pose Yamb: Vésilier ne doit sortir avant 2046 que mort, ou échangé contre la livraison — « pas un, pas deux — tous» — des chefs identifiés de l'insécurité armée au Sahel; et quiconque le libérerait en dehors de ce cadre se désignerait lui-même comme complice (Yamb, juin 2026). Derrière la dureté du propos, une doctrine: la dissuasion. En d'autres termes, tant qu'un espion pris la main dans le sac sait qu'il sera libéré dans l'année contre un accord discret, espionner ne coûte rien — et ce qui ne coûte rien continue. « Quand la France, quand les Occidentaux verront que leurs agents se font pincer et restent en tôle jusqu'à la fin de leur vie, ils vont commencer à bien réfléchir», résume Yamb. La condamnation de Vésilier est une première. Elle mérite d'être saluée. Elle mérite plus encore d'être tenue.
-
 Ce qui frappe ici, c'est moins le verdict que la nature du débat: la critique la plus exigeante de la justice malienne vient du camp panafricaniste lui-même. Un laboratoire qui tolère ses propres contrôleurs commence à ressembler à un laboratoire.
 
 ## La question démocratique, sans esquive
 
 Venons-en à la question la plus difficile pour tout observateur honnête de l'AES — celle que ce livre a différée jusqu'ici pour la traiter une fois, entièrement.
-
 Les gouvernements du Mali, du Burkina Faso et du Niger sont militaires. Ils ne sont pas issus d'élections. Les calendriers de transition vers des institutions civiles ont été posés, contestés, régulièrement repoussés. Ces faits existent. Ils doivent être nommés, avec la même rigueur que tous les autres faits de ce livre.
-
-Mais l'honnêteté exige de nommer aussi le reste. Les régimes renversés étaient des démocraties électorales formelles — pour le dire simplement, des régimes où l'on votait réellement, mais où le vote ne commandait pas réellement. IBK était élu. Kaboré était élu. Bazoum était élu. Et dans ces démocraties formelles, la corruption était endémique, les forces de sécurité ne protégeaient pas les populations, les ressources nationales restaient captées par des intérêts extérieurs, et les peuples n'avaient aucune parole sur les accords de défense qui plaçaient leur pays sous tutelle militaire étrangère. L'urne avait été respectée. La souveraineté avait été trahie. C'est cette contradiction que les transitions militaires ont exposée — en la renversant, non en la résolvant.
-
-Nathalie Yamb formule le critère qui déplace le débat: « Ce qui sépare un bon dirigeant d'un mauvais n'est pas son mode d'accès au pouvoir. C'est son rapport à la souveraineté nationale, à la justice sociale et à la corruption. Sankara était militaire. Roosevelt était élu. Le bilan de Sankara en quatre ans dépasse le bilan de la plupart des démocraties électorales africaines postcoloniales.» Nul blanc-seing définitif dans cette phrase: une grille de lecture. La lecture de l'auteur, assumée, est celle-ci: exiger des élections immédiates dans des pays en guerre, où des réseaux ennemis sont actifs et où des candidatures de substitution se financent depuis l'étranger, relève moins du principe démocratique que de la stratégie d'influence. Mais cette lecture n'autorise aucune complaisance: une transition qui repousse indéfiniment son terme cesse d'être une transition. Le fardeau de la preuve est désormais du côté de l'AES.
+Mais l'honnêteté exige de nommer aussi le reste. Les régimes renversés étaient des démocraties électorales formelles — pour le dire simplement, des régimes où l'on votait réellement, mais où le vote ne commandait pas réellement. IBK était élu. Kaboré était élu. Bazoum était élu. Et dans ces démocraties formelles, la corruption était endémique, les forces de sécurité ne protégeaient pas les populations, les ressources nationales restaient captées par des intérêts extérieurs, et les peuples n'avaient aucune parole sur les accords de défense qui plaçaient leur pays sous tutelle militaire étrangère. L'urne avait été respectée. La souveraineté avait été trahie. C'est cette contradiction que les transitions militaires ont exposée — en la renversant.
+Nathalie Yamb formule le critère qui déplace le débat: « Ce qui sépare un bon dirigeant d'un mauvais n'est pas son mode d'accès au pouvoir. C'est son rapport à la souveraineté nationale, à la justice sociale et à la corruption. Sankara était militaire. Roosevelt était élu. Le bilan de Sankara en quatre ans dépasse le bilan de la plupart des démocraties électorales africaines postcoloniales.» Nul blanc-seing définitif dans cette phrase: une grille de lecture. La lecture de l'auteur, assumée, est celle-ci: exiger des élections immédiates dans des pays en guerre, où des réseaux ennemis sont actifs et où des candidatures de substitution se financent depuis l'étranger, relève moins du principe démocratique que de la stratégie d'influence.
 
 ## Le témoin à charge qui plaide pour la défense
 
 Sur ce point, la pièce la plus troublante du dossier ne vient ni de Bamako ni de Moscou. Elle vient de Mohamed Bazoum lui-même — président déposé du Niger, adversaire déclaré des transitions — dans sa grande interview à RFI et France 24. Fait remarquable: en défendant le système, il en a confirmé, point par point, le diagnostic. On les a appelés les cinq aveux involontaires; en voici la version condensée.
 
-**Les cinq aveux involontaires de Bazoum (interview RFI/France 24)**
+**LES CINQ AVEUX INVOLONTAIRES DE BAZOUM (INTERVIEW RFI/FRANCE 24)**
+
 - *Le jihadisme n'est pas religieux*: le jeune recru « n'a rien à voir avec la religion», il cherche une arme, une moto, une fierté — la rhétorique religieuse est réservée aux chefs.
 - *Les milices civiles armées sont dangereuses*: « Vous donnez des armes à des civils que vous ne connaissez pratiquement pas… on voit le résultat» — validant la prudence reprochée par ailleurs aux transitions (chapitre 26).
 - *La pauvreté et la démographie sont la racine du recrutement* — l'analyse et ses chiffres sont détaillés au chapitre 27.
@@ -1375,286 +1139,229 @@ Et l'aveu qui les couronne tous: « Les gens du village qui sont victimes du ter
 ## Fragilités avouées, critères posés
 
 Le laboratoire a aussi documenté ses propres failles — par la voix de ses dirigeants. Choguel Kokalla Maïga, alors Premier ministre du Mali, l'a admis publiquement: « Beaucoup de leurs réseaux ont infiltré la transition aujourd'hui.» Cet aveu est précieux précisément parce qu'il est dangereux: il dit que le projet souverain est réel — et qu'il est fragile. Les réseaux de la dépendance n'ont pas disparu avec les renversements; ils se sont réorganisés dans les ministères, les états-majors, les milieux d'affaires. La révolution ne sera accomplie que si les structures changent, et si les structures nouvelles résistent à la recolonisation de l'intérieur.
-
 Alors, à quoi juger l'AES? À trois questions — pas une de moins, pas une de plus.
 
-**Le critère des trois questions**
+**LE CRITÈRE DES TROIS QUESTIONS**
+
 - Les transitions produisent-elles des institutions, ou des règnes personnels?
 - Les droits fondamentaux sont-ils respectés en dehors des discours?
 - Les minorités sont-elles protégées?
 
 Cette troisième question est la plus lourde: on verra au chapitre 26 comment la précarisation des communautés peules fabrique des combattants, et Yamb rappelle que la « protection des minorités» sert aussi, depuis les guerres de Yougoslavie, de levier d'intervention et de fragmentation. Raison de plus, et non de moins, d'y répondre: pour désamorcer l'arme, l'AES doit traiter ses minorités avec plus de justice que ses adversaires ne la traitent elle-même — c'est tout le sens de la phrase de Sankara placée en tête de ce chapitre. À ces trois questions, les réponses ne sont pas définitives. L'AES est en construction; ses transitions sont des processus ouverts, non des aboutissements figés.
-
 Reste la conviction qui anime ce laboratoire, et que Banda Kani formule à sa manière: les grandes transformations ne sont jamais portées par la masse mais par une avant-garde — un petit noyau qui a discipliné l'ego, subordonné l'intérêt personnel à la cause, et qui avance « sans se laisser distraire par les petits agités et les diviseurs» (Banda Kani, Paroles Panafricanistes, 29 novembre 2022). Goïta, Traoré et Tiani se vivent comme cette avant-garde. L'histoire dira si l'avant-garde a fondé des institutions ou s'est contentée de régner — c'est exactement ce que mesureront les trois questions.
-
-Le laboratoire est ouvert; ses résultats ne sont pas rendus. Ils dépendent de quatre épreuves très concrètes — vaincre l'insécurité sans reproduire l'injustice, bâtir une économie sans se faire piller, frapper monnaie sans se faire étrangler, choisir des partenaires sans changer de maîtres — et ce sont ces quatre épreuves, les défis de demain, qui occupent la dernière partie de ce livre.
-
-★ ★ ★
-
-# PARTIE VI — LES DÉFIS DE DEMAIN
+Le laboratoire est ouvert; ses résultats ne sont pas rendus. Ils dépendent de quatre épreuves très concrètes — vaincre l'insécurité sans reproduire l'injustice, bâtir une économie sans se faire piller, frapper monnaie sans se faire étrangler, choisir les bons partenaires — et ce sont ces quatre épreuves, les défis de demain, qui occupent la dernière partie de ce livre.
 
 ★ ★ ★
 
+
 # PARTIE VI — LES DÉFIS DE DEMAIN
+
+
+★ ★ ★
 
 Jusqu'ici, ce livre a raconté un arrachement. Il reste à raconter une construction.
-
 Car rompre est une chose; durer en est une autre. L'AES a expulsé des armées, dénoncé des accords, repris des mines et des mots. Mais aucun de ces actes ne nourrit un enfant, ne sécurise un village, ne stabilise une monnaie. Les chapitres qui suivent quittent le terrain du constat pour celui de la prospective: la guerre qui continue, l'économie à bâtir, la monnaie à inventer, les nouveaux partenaires à tenir à distance, l'ancienne puissance qui se recompose — et, au bout, la liste exigeante de ce que l'Alliance doit réussir pour ne pas devenir, dans trente ans, un souvenir de plus.
-
 L'histoire des ruptures africaines est pleine de commencements. Elle est plus avare de lendemains. C'est aux lendemains que cette partie est consacrée.
-
 Et le premier lendemain porte un nom: la sécurité.
 
 ★ ★ ★
 
-# Chapitre 26 — Sécurité: vaincre sans trahir
 
-*« Nous ne pouvons pas combattre l'injustice venue de l'extérieur en pratiquant l'injustice à l'intérieur.» — Thomas Sankara, 1984*
+# Chapitre 26 — Sécurité : vaincre sans trahir
 
+> « Un militaire sans formation politique est un criminel en puissance. » — Thomas Sankara, 2 octobre 1983
 Bamako, 11 novembre 2025. Les grilles des écoles s'ouvrent. Des milliers d'enfants reprennent le chemin des classes après des semaines de fermeture forcée. Dans les rues, les files d'attente devant les stations-service commencent à peine à se résorber. La capitale malienne sort de deux mois d'étranglement — non pas militaire, mais économique. Pour la première fois depuis longtemps, c'est l'essence, et non les balles, qui a failli mettre une capitale sahélienne à genoux.
 
 ## Le blocus: la guerre par l'asphyxie
 
 Depuis septembre 2025, le JNIM — le Groupe de soutien à l'islam et aux musulmans, principale coalition jihadiste du Sahel — impose un blocus méthodique des chaînes d'approvisionnement en carburant du Mali. Les axes ciblés sont ceux qui font vivre le pays: les convois venus du Sénégal, de la Côte d'Ivoire et de la Guinée. Des sabotages frappent près de Sikasso. Les pénuries gagnent Bamako, Kayes, Ségou, Mopti, Gao. Les écoles ferment provisoirement, jusqu'au 11 novembre 2025 (Dr Yves Ekoué Amaïzo, Afrocentricity Think Tank, 29 novembre 2025).
-
 Concrètement, un blocus de carburant est une arme qui ne vise pas l'armée mais la vie quotidienne: sans essence, plus de transport de marchandises, plus de groupes électrogènes, plus de pompes à eau — un pays entier qui ralentit jusqu'à l'arrêt. C'est une guerre économique, pas seulement militaire. Et son issue dit quelque chose d'essentiel sur le rapport de force.
-
-> **BLOCUS JNIM — CHRONOLOGIE**
-> - **Septembre 2025**: début du blocus méthodique des convois de carburant vers le Mali
-> - **29-30 octobre 2025**: un convoi des FAMa brise le blocus — effet dissuasif immédiat sur le terrain
-> - **9-12 novembre 2025**: pic de la crise sécuritaire et énergétique
-> - **11 novembre 2025**: réouverture des écoles maliennes
-> - Le blocus a échoué à plier le gouvernement. Il a solidifié l'opinion contre le JNIM.
-
+**BLOCUS JNIM — CHRONOLOGIE**
+- **Septembre 2025**: début du blocus méthodique des convois de carburant vers le Mali
+- **29-30 octobre 2025**: un convoi des FAMa brise le blocus — effet dissuasif immédiat sur le terrain
+- **9-12 novembre 2025**: pic de la crise sécuritaire et énergétique
+- **11 novembre 2025**: réouverture des écoles maliennes
+- Le blocus a échoué à plier le gouvernement. Il a solidifié l'opinion contre le JNIM.
 Le blocus a échoué — mais pas seulement à cause des convois militaires. Le JNIM a commis des erreurs que ses adversaires n'auraient pas su provoquer. L'assassinat public de Mariam Cissé, la jeune blogueuse de Tonka dont nous avons croisé la trajectoire au chapitre 24, a retourné l'opinion malienne contre le groupe plus efficacement que n'importe quelle communication gouvernementale. « Un terrorisme asymétrique ciblant les civils relève de la lâcheté stratégique, qui elle-même repose sur l'instrumentalisation venue d'ailleurs», résume Amaïzo (29 novembre 2025).
-
 Soyons clairs: l'AES n'a pas fait disparaître le jihadisme. Elle a changé les règles du jeu. Elle refuse la présence militaire étrangère qui prétendait le combattre en le laissant s'étendre, et elle choisit ses propres méthodes. Le bilan, comparé à celui de Barkhane, reste à construire. Mais les dynamiques, elles, sont différentes.
 
 ## La Force unifiée: l'outil de la riposte
 
 Face à une menace qui ignore les frontières, l'AES a construit l'instrument qui manquait depuis dix ans: une force commune. La Force unifiée de l'AES est installée le 21 décembre 2025. Elle ne sort pas de nulle part: les opérations Yokoo 1 et 2, citées par le général Goïta, et les exercices Tarha nakal 2 de mai 2025 — qui ont associé le Tchad et le Togo — documentent une construction progressive, réelle, opérationnelle.
-
 La preuve par le feu arrive vite. Lorsque les attaques coordonnées du 25 avril 2026 frappent le Mali, la réponse mobilise 15 000 hommes — et 800 citernes de carburant acheminées du Niger vers le Mali. En d'autres termes, l'interopérabilité fonctionne: les trois armées savent désormais combattre ensemble, se ravitailler mutuellement, et la leçon du blocus de l'automne a été retenue — la logistique est un front à part entière.
-
 Reste une ambition de plus long terme, formulée au sein même de l'Alliance: la véritable armée fédérale sera celle formée dans des institutions propres — ni à Saint-Cyr, ni dans les académies russes, mais dans des écoles militaires de l'AES enseignant la défense du peuple africain comme doctrine centrale. L'outil existe. La doctrine s'écrit.
 
 ## Les VDP: l'arme à double tranchant
 
-C'est au Burkina Faso que se joue le pari le plus risqué de la stratégie sécuritaire sahélienne. Les VDP — Volontaires pour la Défense de la Patrie — constituent une innovation: une milice civile intégrée au dispositif de sécurité national. Concrètement, il s'agit de citoyens volontaires, armés et encadrés par l'État, chargés de défendre leurs propres villages là où l'armée ne peut pas être partout. Leur efficacité opérationnelle est documentée. Leur rapport aux droits humains pose des problèmes tout aussi documentés, par Human Rights Watch comme par Amnesty International.
-
-Et c'est ici que le livre doit marquer un arrêt, parce que l'histoire a déjà rendu son verdict sur ce type de dispositif. Raphaël Granvaud, dans son enquête sur les guerres françaises en Afrique, met en garde contre la contre-insurrection par milices: historiquement, les milices communautaires produisent les conditions de leur propre échec, en radicalisant les communautés qu'elles ciblaient. La logique se vérifie du Kenya des Mau Mau dans les années 1950 aux Philippines des années 1980, en passant par les harkis d'Algérie (Granvaud, *De l'huile sur le feu*, 2024).
-
+C'est au Burkina Faso que se joue le pari le plus risqué de la stratégie sécuritaire sahélienne. Les VDP — Volontaires pour la Défense de la Patrie — constituent une innovation: une milice civile intégrée au dispositif de sécurité national. Concrètement, il s'agit de citoyens volontaires, armés et encadrés par l'État, chargés de défendre leurs propres villages là où l'armée ne peut pas être partout. Leur efficacité opérationnelle est documentée.
+Et c'est ici que le livre doit marquer un arrêt, parce que l'histoire a déjà rendu son verdict sur ce type de dispositif. Raphaël Granvaud, dans son enquête sur les guerres françaises en Afrique, met en garde contre la contre-insurrection par milices: historiquement, les milices communautaires produisent les conditions de leur propre échec, en radicalisant les communautés qu'elles ciblaient. La logique se vérifie du Kenya des Mau Mau dans les années 1950 aux Philippines des années 1980, en passant par les harkis d'Algérie (Granvaud, De l'huile sur le feu, 2024).
 Fait remarquable: le diagnostic le plus sévère sur les VDP vient de l'adversaire institutionnel des transitions lui-même. Avant son renversement du 26 juillet 2023, interrogé sur la stratégie adoptée au Burkina Faso, le président Mohamed Bazoum déclarait: « Si c'était fonctionnel, cela aurait été notre option propre… Vous donnez des armes à des civils que vous ne connaissez pratiquement pas… vous les lâchez dans la nature, ils peuvent en abuser. Malheureusement aujourd'hui on voit le résultat.» (Mohamed Bazoum, interview RFI/France 24, 2023). Quand le chef d'État renversé et les critiques des transitions disent la même chose, ce n'est plus une opinion partisane: c'est une évidence tactique que les dirigeants africains de toutes orientations reconnaissent.
 
 ## Le piège de l'amalgame
 
 Car le danger des milices a un nom, et ce nom est inscrit dans la mémoire récente du Sahel. Les milices d'autodéfense créées pour protéger les communautés sédentaires — Koglweogo au Burkina Faso, Ganda Koy et Ganda Iso au Mali — ont produit l'effet inverse de celui recherché. Le massacre d'Ogossagou, en mars 2019, a fait 160 morts peuls. Sobane-Da a suivi en juin 2019, puis Petelkolé en 2020. Ces massacres ont transformé des victimes en combattants (ACLED, 2019-2023).
-
 Le mécanisme est connu, et nous l'avons détaillé au chapitre 25: on précarise une communauté en s'attaquant à son bétail, puis des intermédiaires armés viennent offrir armes, argent et vengeance. Ce mécanisme n'est pas religieux. Il est économique et social. Bazoum lui-même, dans la même série d'entretiens, décrivait le jeune berger peul que la possession soudaine d'une arme et d'une moto fait basculer — un recrutement de misère, pas de conviction.
-
 Ces massacres ne sont pas nés d'une décision extérieure: ils sont nés de la faillite des États. Mais leur instrumentalisation par des puissances qui financent indifféremment plusieurs camps est la variable qui transforme une tension communautaire en guerre structurelle. D'où la mise en garde de Choguel Kokalla Maïga, formulée devant la presse à Bamako: « Tous les terroristes ne sont pas Peuls et tous les Peuls ne sont pas des terroristes. Mais il y a des gens qui entretiennent l'amalgame.» Et il étend l'analyse: « Tous les Touaregs et les Arabes ne sont pas terroristes et tous les terroristes ne sont pas Arabes et Touaregs.» (Azalaï Hôtel, Bamako, 19 octobre 2024). Il rappelle qu'à Aguelhok, en 2012, des corps de combattants arabes et touaregs ont été éventrés et filmés pour terroriser les communautés: l'amalgame ethnique n'est pas un malentendu, c'est un outil de guerre psychologique.
-
 Nathalie Yamb ajoute un avertissement géopolitique: la « protection des minorités» est aussi, depuis les guerres de Yougoslavie, un levier d'intervention et de fragmentation utilisé contre les États. Pour y résister, l'AES n'a qu'une seule parade: démontrer qu'elle traite ses minorités avec plus de justice que ses adversaires ne la traitent elle-même.
 
 ## Vaincre sans se renier
 
-Voilà la véritable équation sécuritaire de l'AES, et elle tient en une phrase de Sankara, prononcée en 1984: on ne combat pas l'injustice venue de l'extérieur en pratiquant l'injustice à l'intérieur. La Force unifiée donne à l'Alliance les moyens de la victoire militaire. Les VDP lui donnent un maillage territorial — et un risque mortel. Tant que la distinction entre un combattant ennemi et un homme peul sur son territoire ancestral ne sera pas opérationnelle sur le terrain, le recrutement jihadiste disposera d'un réservoir inépuisable. Une doctrine de protection des populations — et pas seulement de neutralisation des ennemis — est la réponse institutionnelle à ce risque. Elle reste à consolider. Et l'on n'oubliera pas que ces choix se font sous des gouvernements militaires non issus d'élections — une question entière, que nous avons traitée au chapitre 25.
-
+Voilà la véritable équation sécuritaire de l'AES, et elle tient en une phrase de Sankara, prononcée en 1984: on ne combat pas l'injustice venue de l'extérieur en pratiquant l'injustice à l'intérieur. La Force unifiée donne à l'Alliance les moyens de la victoire militaire. Les VDP lui donnent un maillage territorial.
 Le projet souverain de l'AES ne peut pas être évalué qu'à l'aune de ses adversaires extérieurs. Il doit l'être aussi à l'aune de ses propres contradictions internes.
-
 Mais aucune armée, fût-elle fédérale, ne gagne une guerre que l'économie perd: c'est dans les champs, les usines et les salles de classe que se joue la suite.
 
 ★ ★ ★
 
+
 # Chapitre 27 — Industrialisation et éducation: l'économie de guerre et l'arme des cerveaux
 
-*« L'Empire a peur d'une Afrique armée. Il a encore plus peur d'une Afrique éduquée.»*
-
+> « L'Empire a peur d'une Afrique armée. Il a encore plus peur d'une Afrique éduquée.»
 Quand le Cameroun a construit son pipeline, il a découvert une absurdité: il n'y avait pas, sur son propre territoire, de soudeurs formés pour le faire. Il a fallu en faire venir d'autres pays africains. Un pays riche de ressources, mais sans les mains pour les extraire lui-même — voilà le résultat de décennies de politique éducative orientée vers la formation de fonctionnaires coloniaux plutôt que de techniciens souverains. Cette anecdote contient tout le présent chapitre: la souveraineté économique de l'AES se jouera autant dans les ateliers et les salles de classe que dans les ministères.
 
 ## L'économie de guerre: couper les tuyaux de l'extraction
 
 Les sanctions sont un instrument de guerre économique. Elles obéissent à une logique que l'histoire valide constamment: elles frappent les populations, rarement les dirigeants, et accélèrent généralement le projet qu'elles étaient censées bloquer. L'Iran sous sanctions depuis quarante ans, Cuba sous embargo depuis soixante ans — les exemples sont connus. La réponse de l'AES aux sanctions suit une logique similaire: transformer la contrainte en accélérateur.
-
 Le premier acte de cette économie de guerre est passé presque inaperçu du grand public, et c'est pourtant l'un des gestes les plus structurants de toute la rupture. Le 7 août 2023, le Burkina Faso dénonce sa convention fiscale avec la France. L'effet prend force le 8 novembre 2023. Le 5 décembre 2023, le Mali et le Niger dénoncent à leur tour leurs propres conventions (BOFiP, administration fiscale française, 17 juillet 2024). Trois États, quatre mois, un même geste.
-
 Concrètement, une convention fiscale bilatérale permettait aux multinationales françaises de rapatrier leurs profits — dividendes, intérêts, redevances — en payant très peu d'impôts sur place. La dénoncer, c'est rétablir le droit commun: les profits réalisés au Sahel y sont désormais taxés comme partout ailleurs. Ce n'est pas une déclaration politique. C'est la suppression juridique des instruments de l'extraction.
-
-> **DÉNONCIATION DES CONVENTIONS FISCALES AVEC LA FRANCE — SÉQUENCE AES**
-> - **7 août 2023**: le Burkina Faso dénonce la convention fiscale franco-burkinabè
-> - **8 novembre 2023**: prise d'effet côté burkinabè et français
-> - **5 décembre 2023**: le Mali et le Niger dénoncent leurs conventions
-> - **Conséquence**: fin des exonérations sur dividendes, intérêts et redevances — retour au droit commun
-> - (Source: BOFiP, administration fiscale française, 17 juillet 2024)
+**DÉNONCIATION DES CONVENTIONS FISCALES AVEC LA FRANCE — SÉQUENCE AES**
+- **7 août 2023**: le Burkina Faso dénonce la convention fiscale franco-burkinabè
+- **8 novembre 2023**: prise d'effet côté burkinabè et français
+- **5 décembre 2023**: le Mali et le Niger dénoncent leurs conventions
+- **Conséquence**: fin des exonérations sur dividendes, intérêts et redevances — retour au droit commun
+- (Source: BOFiP, administration fiscale française, 17 juillet 2024)
 
 ## Transformer sur place: la règle du contenu local
 
 Garder l'impôt ne suffit pas; il faut garder la valeur. Le Mali a montré la voie en renégociant ses contrats aurifères — redevances en hausse et 35 % de contenu local obligatoire, comme nous l'avons vu au chapitre 8. Pour le dire simplement, le « contenu local», c'est l'obligation faite aux compagnies minières d'acheter une part de leurs biens et services à des entreprises nationales et d'employer des nationaux: chaque tonne de minerai extraite irrigue alors l'économie du pays au lieu de la traverser sans s'y arrêter.
-
 La nationalisation, que certains économistes libéraux présentent comme l'option radicale, est en réalité la norme mondiale. La Chine nationalise. Les États-Unis pratiquent un protectionnisme structurel qui ne dit pas son nom. La Norvège a nationalisé ses hydrocarbures et en a fait le fonds souverain le plus important du monde. Le néolibéralisme imposé à l'Afrique — libre marché total, privatisations, interdiction des subventions — est précisément ce que les puissances occidentales n'appliquent pas chez elles. « La nationalisation, ce n'est pas qu'une alternative — c'est la solution souveraine d'émancipation», résume le journaliste Albert Anatole Ayissi (Paroles Panafricanistes). Elle crée des emplois directs et indirects, génère un marché intérieur, et oblige à ouvrir des filières de formation adaptées aux besoins réels du pays — ce qui nous ramène aux soudeurs camerounais, et à l'école.
-
 Le chantier industriel de l'AES reste, à l'heure où ce livre s'écrit, le moins avancé de tous: la transformation locale du coton, de l'or, des produits agricoles n'en est qu'à ses débuts, et la guerre absorbe une part considérable des budgets. C'est le maillon dont dépendront tous les autres.
 
 ## L'éducation comme arme de souveraineté
 
 Car la souveraineté militaire peut s'acquérir en quelques années. La souveraineté économique prend une génération. La souveraineté de l'esprit — celle qui rend les deux premières durables — se construit dans les salles de classe. C'est pourquoi les puissances coloniales ont toujours su que contrôler l'éducation d'un peuple, c'est contrôler son avenir.
-
 La démographie pose le défi avec une clarté brutale: plus de 60 % de la population africaine a moins de 25 ans. Ce potentiel est soit la plus grande force géopolitique du XXIe siècle, soit la plus grande source d'instabilité. Un jeune Sahélien non scolarisé, sans perspective, est une cible de recrutement jihadiste. Un jeune Sahélien instruit, compétent, fier de son histoire, est un bâtisseur de souveraineté. L'équation est aussi simple que cela.
-
 Des précédents existent. La Zambie du président Hakainde Hichilema a démontré qu'un choix politique courageux peut changer la trajectoire d'une génération: depuis 2021, l'enseignement primaire et secondaire y est gratuit — inscrit dans la loi. Frais d'inscription supprimés, uniformes accessibles, manuels fournis. Le Bénin a fait le même choix pour l'éducation des filles jusqu'à la terminale. Ce sont des actes politiques, pas des effets d'annonce: ils coûtent en budget, en infrastructures, en formation d'enseignants. Et ils transforment des sociétés. « La gratuité scolaire ne doit pas se limiter à une simple suppression des frais, prévient l'analyste Parfait Patient Ndom. Construire des salles de classe, recruter des enseignants compétents, garantir le suivi rigoureux — voilà ce que signifie prendre la jeunesse au sérieux.»
-
 L'éducation des filles est le levier le plus rentable de tous. À chaque palier — du primaire au collège, du collège au lycée, du lycée à l'université — une fraction des filles quitte le système, poussée par le mariage précoce, les tâches domestiques, l'insécurité des trajets, les coûts cachés. Or chaque année d'éducation supplémentaire d'une fille augmente ses revenus futurs de 10 à 20 %, retarde l'âge du premier mariage, réduit la mortalité infantile et améliore la santé de sa famille. En d'autres termes, l'éducation des filles n'est pas seulement un enjeu de justice: c'est un levier macroéconomique de première importance.
-
 Reste le contenu de l'enseignement, aussi décisif que son accès. Les programmes hérités de la colonisation valorisent la récitation et la formation de fonctionnaires pour une administration calquée sur la métropole. Ils fabriquent des diplômés qui ne savent ni réparer un moteur, ni cultiver une terre avec des méthodes modernes, ni coder, ni transformer localement une ressource — des consommateurs de savoirs étrangers, pas des producteurs de solutions locales. « Il faut intégrer des formations techniques, scientifiques et des métiers manuels pour former une jeunesse capable de répondre aux défis économiques locaux et globaux, en valorisant toutes les formes d'intelligence», plaide Ndom. La Corée du Sud, Singapour, l'Allemagne ont bâti leur puissance sur cette valorisation égale des intelligences intellectuelle, technique et manuelle. L'Afrique n'a pas à réinventer ce modèle; elle a à l'appliquer à la mesure de ses ressources humaines.
-
 Deux ennemis intérieurs guettent ce chantier. La corruption, d'abord: budgets détournés, postes d'enseignants vendus, diplômes achetés — chaque acte corruptif dans l'éducation est une balle tirée dans l'avenir d'un peuple. La privatisation rampante, ensuite: des écoles à but lucratif, accessibles aux seules familles aisées, qui répondent au marché global plutôt qu'aux besoins de la nation. L'éducation est une fonction régalienne. Quand l'État l'abdique, il abdique sa souveraineté la plus profonde.
-
 Les dirigeants de l'AES l'ont compris, chacun à sa manière: Assimi Goïta finance la traduction et la distribution d'ouvrages panafricanistes dans les écoles maliennes; Ibrahim Traoré martèle que la révolution sans réforme éducative reste une révolution de façade. La jeunesse sahélienne n'attend pas des discours. Elle attend des écoles, des laboratoires, des ateliers, des professeurs bien formés et bien payés.
-
 La souveraineté économique se construira donc tracteur par tracteur, atelier par atelier, école par école — avant de se construire billet par billet; et c'est précisément du billet qu'il faut maintenant parler.
 
 ★ ★ ★
 
+
 # Chapitre 28 — La monnaie: briser la chaîne du CFA
 
-*« La monnaie est la mère des souverainetés. Vous ne pouvez pas être souverain si vous n'avez pas de monnaie.» — Dr Douma Jean-René, Panafrican Média TV, 10 mai 2026*
-
+> « La monnaie est la mère des souverainetés. Vous ne pouvez pas être souverain si vous n'avez pas de monnaie.» — Dr Douma Jean-René, Panafrican Média TV, 10 mai 2026
 Bangui, 3 juillet 2022. Depuis le palais présidentiel, Faustin-Archange Touadéra, professeur de mathématiques devenu chef d'État, se connecte au premier événement numérique de lancement du Sango. Le monde regarde, sceptique. Paris scrute, hostile. L'Afrique prend note. Ce jour-là, le plus pauvre des pays francophones tente quelque chose qu'aucun État de la zone franc n'avait osé: enjamber le franc CFA. L'expérience échouera. Mais elle laissera à l'AES la leçon la plus précieuse de toute sa stratégie monétaire — et c'est par cette histoire qu'il faut commencer.
 
 ## Le pari centrafricain: enjamber plutôt qu'affronter
 
 Touadéra savait qu'il ne pouvait pas se battre frontalement contre la zone franc: les accords liant la CEMAC à la BEAC, et la BEAC au Trésor français, forment un réseau juridique capable d'étrangler toute monnaie nationale alternative. L'histoire africaine regorge de mises en garde — le franc malien s'effondre en 1984 sous une spéculation organisée depuis Paris, forçant Bamako à réintégrer la zone franc; la Guinée de Sékou Touré, qui ose dire non en 1958, voit sa devise naissante torpillée par de la fausse monnaie. La déstabilisation monétaire est une arme documentée, répétée.
-
 D'où la stratégie du contournement. Le 22 avril 2022, une loi fait du bitcoin le seul actif de référence légal en RCA. Le 27 juin, la présidence annonce le lancement du Sango pour le 3 juillet. Et il faut dissiper ici un malentendu: le Sango n'est pas une monnaie. C'est un écosystème numérique dont le cœur est la « tokenisation» des actifs naturels centrafricains. Concrètement, tokeniser, c'est transformer une part du sous-sol — uranium, coltan, diamants, pétrole — en titres numériques inscrits sur une blockchain, c'est-à-dire un registre que personne ne peut falsifier ni confisquer: ni un réseau bancaire, ni une banque centrale étrangère, ni un tribunal parisien.
-
 L'enjeu était limpide, et l'économiste Hamdi Mabrouk le formulait dès juin 2022: « La question pour la Centrafrique n'est pas de lutter contre le franc CFA. Le problème, c'est que 50 à 85 % des revenus d'exportation finissent au Trésor de France. Comment Touadéra va-t-il investir les 42 milliards de dollars qu'il a promis si ses recettes lui sont confisquées à la source?» (Paroles Panafricanistes, juin 2022). Régler les exportations en bitcoin, c'était faire atterrir les revenus directement dans les caisses centrafricaines, sans commission de change ni intermédiaire bancaire. « Aucun pays au monde ne contrôle le bitcoin», plaidait Mabrouk. C'était sa seule propriété décisive aux yeux de Bangui: ce que personne ne contrôle, personne ne peut le geler.
 
 ## Ce que l'échec enseigne
 
 La suite est connue, et elle doit être racontée sans complaisance. Le Sango Coin, lancé en 2022, est un échec technique. En 2025, son successeur, le $CAR, perd 90 % de sa valeur le jour même de son lancement. Les institutions internationales, elles, n'avaient pas levé le petit doigt: zéro soutien, zéro communiqué d'encouragement — un silence qui en disait long sur les flux que le dispositif menaçait, mais qui n'a pas suffi à expliquer l'échec. Les deux tentatives ont échoué par précipitation, sous sanctions, sans infrastructure technique ni appui international. Un pays dont une large part du budget dépend de l'aide extérieure ne pouvait pas, seul, soutenir une telle rupture. L'audace centrafricaine a ouvert la voie; sa solitude l'a condamnée.
-
 L'AES a tiré la leçon. Le général Tiani la formule avec une précision doctrinale: « La monnaie est une étape de sortie de la colonisation. Au moment opportun, nous déciderons.» (RTN, 12 février 2024). La prudence n'est pas de la faiblesse. C'est la mémoire des erreurs des autres.
 
 ## La séquence d'Amaïzo: la souveraineté dans l'ordre
 
 Car il existe un ordre des choses, et l'économiste Yves Ekoué Amaïzo l'a articulé mieux que personne: « Il n'y a pas de souveraineté sans souveraineté militaire, territoriale, puis douanière, fiscale, économique, monétaire et financière.» (Afrocentricity Think Tank, Africa Connect, 18 janvier 2024). En d'autres termes, on ne crée pas une monnaie avant d'avoir sécurisé le territoire qu'elle doit servir, les douanes qui la protégeront et l'économie qui la portera: la monnaie est le toit de la maison, pas sa fondation.
-
 Or cette séquence n'est pas une théorie: c'est le programme que l'AES déroule depuis 2023. La Charte du Liptako-Gourma a posé le premier niveau, militaire et territorial. La dénonciation des conventions fiscales, en 2023, a posé le deuxième. La banque d'investissement de l'AES, décidée à Niamey en juillet 2024, pose le troisième. La monnaie souveraine est le niveau terminal — et chaque étape rend la précédente plus difficile à annuler.
-
 L'étape institutionnelle suivante a désormais une date: un Institut monétaire africain est annoncé pour septembre 2026, dans le sillage de la réunion des gouverneurs de banques centrales africaines à Dakar. Concrètement, un institut monétaire est l'embryon d'une banque centrale: l'organe qui prépare les statuts, les règles d'émission et les mécanismes de change avant qu'une monnaie n'existe. Le calendrier n'est pas anodin: en mai 2026, Bloomberg et Citigroup recommandaient une dévaluation du franc CFA de la zone CEMAC — un signal, analysé par Jonathan Batenguène, que Paris elle-même pourrait utiliser la dévaluation comme outil de pression. Le rappel du mécanisme complet du CFA appartient au chapitre 7; retenons ici l'essentiel: une monnaie dont le taux de change et les règles se décident ailleurs n'est pas une monnaie, c'est une laisse.
 
 ## Sur quoi fonder la monnaie de l'AES
 
 Une monnaie souveraine devra s'adosser à une économie réelle. Cette économie existe. Le Mali et le Burkina Faso sont les premiers producteurs africains de coton. Le Mali est le troisième producteur d'or du continent. Le Niger détient les troisièmes réserves mondiales d'uranium. L'ensemble AES produit environ 230 tonnes d'or par an. Coton, or, uranium, pétrole nigérien: la base objective est là — à condition que leur exploitation bénéficie d'abord aux budgets nationaux, et non aux actionnaires de Barrick, d'Endeavour Mining ou d'Orano.
-
-> **ENJEUX D'UNE MONNAIE SOUVERAINE AES**
-> - **Atouts**: uranium (Niger), or (Mali), coton, pétrole (Niger) pour adosser la monnaie à des ressources réelles
-> - **Prérequis**: banque centrale AES indépendante, système de compensation inter-AES
-> - **Leçons à méditer**: Sango Coin (2022, échec technique) et $CAR (2025, −90 % le jour du lancement) — la précipitation tue
-> - **Risques**: pression inflationniste de transition, attaques spéculatives contre la nouvelle monnaie
-> - **Horizon**: Institut monétaire africain annoncé pour septembre 2026
-
+**ENJEUX D'UNE MONNAIE SOUVERAINE AES**
+- **Atouts**: uranium (Niger), or (Mali), coton, pétrole (Niger) pour adosser la monnaie à des ressources réelles
+- **Prérequis**: banque centrale AES indépendante, système de compensation inter-AES
+- **Leçons à méditer**: Sango Coin (2022, échec technique) et $CAR (2025, −90 % le jour du lancement) — la précipitation tue
+- **Risques**: pression inflationniste de transition, attaques spéculatives contre la nouvelle monnaie
+- **Horizon**: Institut monétaire africain annoncé pour septembre 2026
 Les risques sont réels et doivent être nommés: une inflation de transition, des attaques spéculatives, et le précédent de tous ceux qui ont payé de leur vie d'avoir seulement évoqué la sortie du CFA — Olympio, Sankara, Kadhafi, dont le chapitre 7 a raconté le prix. Le contre-exemple existe pourtant: la Mauritanie, sortie de la zone franc dès 1973, vit avec sa propre monnaie. L'AES, elle, avance pas à pas, en sachant que sur ce terrain, une seule erreur peut coûter dix ans.
-
 La RCA a montré qu'on pouvait défier la chaîne du CFA — et ce qu'il en coûte de le faire seul et trop vite. L'AES a la masse critique que Bangui n'avait pas: trois États, un espace douanier en construction, des ressources stratégiques. Il lui reste à choisir le moment. « Au moment opportun, nous déciderons», dit Tiani.
-
 Mais aucune monnaie ne naît dans le vide: elle naît dans un monde — et ce monde, justement, est en train de changer de maîtres.
 
 ★ ★ ★
 
+
 # Chapitre 29 — Le monde multipolaire: partenaires ou nouveaux maîtres?
 
 Ankara, 4 juin 2026. Le général Abdourahamane Tiani descend la passerelle de son avion pour sa première grande visite officielle en Turquie. Recep Tayyip Erdoğan le reçoit avec les honneurs. Trois ans plus tôt, l'homme qui dirigeait le verrou final de l'AES était présenté dans les chancelleries occidentales comme un paria à étrangler par les sanctions. Le voici accueilli en partenaire stratégique par un membre de l'OTAN. La scène résume le basculement: le marché de la sécurité africaine s'est multipolarisé — et c'est peut-être la transformation géopolitique la plus immédiatement concrète de toute la rupture sahélienne.
-
 Mais la question doit être posée, et posée frontalement: l'AES a remplacé des partenaires français par des partenaires russes, chinois et turcs. La souveraineté exige qu'on vérifie si ces nouveaux partenariats ne reproduisent pas les logiques de domination qu'ils étaient censés remplacer. Ce chapitre propose un critère pour en juger: la réversibilité. Un partenaire, on peut le congédier. Un maître, non.
-
-> **PARTENARIATS AES — PHASE 2 (2022-2026)**
-> - **Russie** (Africa Corps, ex-Wagner): instructeurs, hélicoptères Mi-8/Mi-35, présence terrain
-> - **Chine**: infrastructures, surveillance numérique, accords commerciaux — présence moins interventionniste
-> - **Turquie**: drones Bayraktar TB2, accords avec le Mali et le Niger — position plus discrète
-> - **BRICS**: délégation à Ouagadougou (juin 2023), six semaines avant la transition nigérienne
+**PARTENARIATS AES — PHASE 2 (2022-2026)**
+- **Russie** (Africa Corps, ex-Wagner): instructeurs, hélicoptères Mi-8/Mi-35, présence terrain
+- **Chine**: infrastructures, surveillance numérique, accords commerciaux — présence moins interventionniste
+- **Turquie**: drones Bayraktar TB2, accords avec le Mali et le Niger — position plus discrète
+- **BRICS**: délégation à Ouagadougou (juin 2023), six semaines avant la transition nigérienne
 
 ## La Russie: l'allié encombrant et l'argument inattendu
 
-La coopération russe est la plus visible: instructeurs, hélicoptères, présence au sol héritée du dispositif Wagner devenu Africa Corps. L'honnêteté oblige à le rappeler: des exactions impliquant des éléments de Wagner ont été documentées au Sahel, et aucune lecture souverainiste sérieuse ne peut les passer sous silence. La question de la dépendance russe figure d'ailleurs, on le verra au chapitre 31, parmi les conditions possibles de l'échec de l'AES elle-même.
-
-Mais Moscou a aussi apporté à l'AES quelque chose d'inédit: une caisse de résonance diplomatique. Le 16 juin 2024, Dmitri Medvedev prend la parole devant l'UNESCO et qualifie le franc CFA de « néocolonialisme monétaire». Il cite Sankara. Il chiffre l'extraction des richesses africaines à 62 000 milliards de dollars entre 1960 et 2018. L'analyse n'est pas fausse parce qu'elle vient de Moscou — elle est un positionnement géopolitique, et il faut la lire comme telle. Mais c'est la première fois qu'un responsable d'une puissance siégeant au Conseil de sécurité utilise ce cadre en séance internationale. Le récit panafricaniste est entré dans la diplomatie des grandes puissances.
+La coopération russe est la plus visible: instructeurs, hélicoptères, présence au sol héritée du dispositif Wagner devenu Africa Corps. La question de la dépendance russe figure d'ailleurs, on le verra au chapitre 31, parmi les conditions possibles de l'échec de l'AES elle-même.
+Moscou a aussi apporté à l'AES quelque chose d'inédit: une caisse de résonance diplomatique. Le 16 juin 2024, Dmitri Medvedev prend la parole devant l'UNESCO et qualifie le franc CFA de « néocolonialisme monétaire». Il cite Sankara. Il chiffre l'extraction des richesses africaines à 62 000 milliards de dollars entre 1960 et 2018. L'analyse n'est pas fausse parce qu'elle vient de Moscou. Mais c'est la première fois qu'un responsable d'une puissance siégeant au Conseil de sécurité utilise ce cadre en séance internationale. Le récit panafricaniste est entré dans la diplomatie des grandes puissances.
 
 ## La Chine: le partenaire qu'on peut sanctionner
 
 Le test de réversibilité le plus net, c'est paradoxalement la Chine qui l'a subi. En mars 2025, Tiani expulse trois hauts dirigeants de la compagnie pétrolière CNPC. Le motif est documenté: discrimination salariale — les expatriés chinois percevaient 8 000 dollars par mois, leurs homologues nigériens de même qualification, 1 200 dollars. Dans la foulée, un hôtel chinois est fermé pour fraude fiscale. Pékin proteste; les contrats continuent. La leçon vaut démonstration: la souveraineté de l'AES s'exerce dans les deux sens, y compris contre ses partenaires non occidentaux. Nulle position prorusse ou prochinoise. Une pro-africanité qui choisit ses partenaires sans s'y soumettre. Le refus par Traoré du financement saoudien de 200 mosquées, raconté au chapitre 17, relève de la même grammaire.
-
-Le contre-exemple existe, et il éclaire le critère par contraste. La Guinée de Mamadi Doumbouya diversifie ses partenariats — accords militaires avec la Turquie, ouverture vers la Russie — et Paris s'en inquiète. Mais l'analyste Anatole Albert Ayissi pointe le facteur structurel: Doumbouya est un ancien légionnaire français, marié à une gendarme française. « Il ne peut pas rompre. Il a épousé la France.» (For You Media Africa). La diversification sans rupture n'est qu'une négociation de marge à l'intérieur d'une dépendance intacte. Goïta, Traoré et Tiani ont rompu; Doumbouya négocie. Toute la différence est là.
+Le contre-exemple existe, et il éclaire le critère par contraste. La Guinée de Mamadi Doumbouya diversifie ses partenariats — accords militaires avec la Turquie, ouverture vers la Russie — et Paris s'en inquiète. Mais l'analyste Albert Anatole Ayissi pointe le facteur structurel: Doumbouya est un ancien légionnaire français, marié à une gendarme française. « Il ne peut pas rompre. Il a épousé la France.» (For You Media Africa). La diversification sans rupture n'est qu'une négociation de marge à l'intérieur d'une dépendance intacte. Goïta, Traoré et Tiani ont rompu; Doumbouya négocie. Toute la différence est là.
 
 ## La Turquie: le partenaire qui livre avant d'être payé
 
 Revenons à Ankara, car la relation turque est celle qui pousse le plus loin la logique du partenariat sans tutelle. Au cœur de l'alliance: le drone Bayraktar TB2, conçu par l'entreprise Baykar, fondée par la famille d'Erdoğan. Il a fait ses preuves en Libye (2019-2020), au Haut-Karabakh (2020) et en Ukraine (2022), modifiant à chaque fois les rapports de force pour un coût incomparablement inférieur aux systèmes occidentaux. Pour des armées confrontées à des groupes mobiles dans des espaces désertiques immenses, c'est une capacité de surveillance et de frappe de précision que ni la France ni les États-Unis n'avaient réellement partagée en des décennies de présence.
-
 Et puis il y a la méthode. « Le président Erdoğan a personnellement demandé aux industries de défense turques de livrer du matériel militaire au Niger avant même le paiement, en accordant des facilités financières à Niamey», note un rapport stratégique sur les relations Turquie-Sahel (juin 2026). Le geste est d'une puissance symbolique considérable: la France exigeait des contreparties politiques avant de livrer; les États-Unis conditionnent leur aide à des certifications; la Turquie livre d'abord. Le message: vous n'avez pas à hypothéquer votre souveraineté pour obtenir ce dont vous avez besoin.
-
 Les accords signés le 4 juin 2026 couvrent cinq domaines — défense, sécurité, énergie, formation et infrastructures. La coopération avait commencé bien avant le sommet: opération renforcée de renseignement et de formation dès juillet 2024, accord de coopération militaire et financière en 2025, formation de pilotes nigériens sur TB2 en Turquie. Côté énergie, la compagnie TPAO lorgne le bassin pétrolier d'Agadem, longtemps domaine réservé des acteurs chinois et occidentaux. Lucidité oblige: cette « approche totale» vise aussi à créer une dépendance technique et humaine durable — le modèle OTAN, sans la subordination politique. Niamey le sait, et multiplie précisément ses partenaires pour éviter de troquer une dépendance contre une autre.
-
 Le positionnement d'Erdoğan lui-même est un modèle étudié de près au Sahel: membre de l'OTAN commerçant avec la Russie, fournisseur de l'Ukraine gardant un canal ouvert avec Poutine. Cette ambiguïté calculée n'est pas de la duplicité — c'est de la souveraineté assumée. C'est exactement ce que l'AES cherche à construire: choisir ses partenaires en fonction de ses intérêts, sans allégeance prédéfinie à un bloc.
 
 ## Les États-Unis: le pragmatisme et la fenêtre
 
 Washington n'est pas Paris. Les États-Unis défendent des intérêts, pas un système symbolique. Le retrait de la base 201 d'Agadez, au printemps 2024, est négocié, pas imposé: les Américains partent sans claquer les portes, laissant ouverte la possibilité d'autres coopérations — même si cette éviction, racontée au chapitre 18, représente une perte de capacité de renseignement sans précédent dans la région.
-
 Nathalie Yamb, lors du grand débat de Niamey, lit l'élection de Trump comme une « fenêtre d'opportunité»: les adversaires classiques de l'AES ne font plus front uni, l'Europe est déstabilisée. Mais elle avertit: si cette fenêtre n'est pas exploitée, les Européens se réarmeront et « iront chercher l'argent ailleurs, et le ailleurs c'est chez nous». Une date donne à l'avertissement un relief troublant: le 23 avril 2026, le Conseil de l'UE finalise 90 milliards d'euros pour l'Ukraine, dont 60 pour la défense. Deux jours plus tard: les attaques du 25 avril au Mali. La coïncidence chronologique est notée par plusieurs analystes. Elle ne constitue pas une preuve. Elle constitue une question.
 
 ## Les BRICS: contourner plutôt que combattre
 
 Reste l'horizon. Au sommet des BRICS d'octobre 2024 à Kazan, vingt-quatre chefs d'État sont confirmés, dont Xi Jinping, Lula da Silva et Massoud Pezeshkian. Les pays de l'AES n'en sont pas membres, mais leur trajectoire pointe vers cette alternative au G7 et au G20 comme cadre de référence. Pour le dire simplement, les BRICS offrent ce qui manquait à toutes les ruptures africaines précédentes: un système de rechange — banques, circuits commerciaux, instances diplomatiques — qui prive Paris et Washington de leur monopole sur les règles du jeu. L'hégémonie ne se combat pas seulement avec des fusils. Elle se contourne.
-
 Le verdict de ce tour d'horizon tient donc dans le critère posé en ouverture. Des cadres chinois expulsés sans rupture des contrats; des mosquées refusées à Riyad; des drones livrés sans conditions politiques; une porte américaine fermée sans un mort. Pour l'instant, les partenariats de l'AES restent réversibles — c'est leur différence avec la tutelle qu'ils remplacent, et c'est sur ce critère qu'il faudra continuer de les juger.
-
 Mais pendant que l'Alliance choisit ses nouveaux partenaires, l'ancienne puissance, elle, n'a pas disparu: elle se recompose — et c'est cette métamorphose qu'il faut maintenant regarder en face.
 
 ★ ★ ★
 
+
 # Chapitre 30 — France-Afrique 2.0: la recomposition de la domination
 
-*« Autrefois, Paris parlait à l'Afrique. Désormais, elle doit convaincre l'Afrique.» — Jonathan Batenguène, Panafrican Média TV, 10 mai 2026*
-
-Conakry, hiver 2025-2026. Dans les salons d'hôtels de la capitale guinéenne, les délégations se succèdent. En moins de six mois, une cinquantaine d'entreprises françaises effectuent des allers-retours Conakry-Paris pour se positionner sur Simandou H2040, le programme guinéen de nationalisation progressive des ressources minières — venant s'ajouter aux quarante grands groupes français qui contrôlent le sous-sol guinéen depuis des décennies (Anatole Albert Ayissi). La logique est transparente: quand un pays africain annonce reprendre le contrôle de ses ressources, la France n'envoie plus des soldats. Elle envoie des prospecteurs.
-
+> « Autrefois, Paris parlait à l'Afrique. Désormais, elle doit convaincre l'Afrique.» — Jonathan Batenguène, Panafrican Média TV, 10 mai 2026
+Conakry, hiver 2025-2026. Dans les salons d'hôtels de la capitale guinéenne, les délégations se succèdent. En moins de six mois, une cinquantaine d'entreprises françaises effectuent des allers-retours Conakry-Paris pour se positionner sur Simandou H2040, le programme guinéen de nationalisation progressive des ressources minières — venant s'ajouter aux quarante grands groupes français qui contrôlent le sous-sol guinéen depuis des décennies (Albert Anatole Ayissi). La logique est transparente: quand un pays africain annonce reprendre le contrôle de ses ressources, la France n'envoie plus des soldats. Elle envoie des prospecteurs.
 C'est toute la thèse de ce chapitre: la France ne disparaît pas du continent. Elle se recompose — moins militaire, plus économique, technologique et culturelle. La recomposition ne change pas l'objectif. Elle change l'instrument.
 
 ## Les États pivots: déplacer le centre de gravité
 
 Le premier instrument de la recomposition est géographique. Chassée du Sahel, la diplomatie française investit de nouveaux relais: le Kenya, le Nigéria, la RDC, la Côte d'Ivoire, le Cameroun — les « États pivots» de demain. Le sommet « Africa Forward», organisé avec le Kenya en mai 2026, en est la vitrine: mêmes intérêts, nouvelle façade. Ces pays ne refusent pas la domination; ils négocient leurs conditions d'y participer — ce que Malcolm X appelait « l'esclave de maison». « La France aujourd'hui est un label. Elle ne s'appartient plus. L'impérialisme, pour sa survie, est prêt à faire des concessions avec des États qui deviendraient des États pivots», analyse Jonathan Batenguène (Panafrican Média TV, 10 mai 2026).
-
-Mais le pré-carré lui-même n'est plus sûr: Banda Kani interpelle publiquement la CEMAC et Paul Biya pour que l'Afrique centrale s'investisse aux côtés du peuple centrafricain dans des structures de développement endogènes. La contestation ne vient plus seulement du Sahel. Elle monte de l'intérieur même de l'espace francophone resté dans l'orbite de Paris. « La France donne l'illusion d'être partie tout en contrôlant les leviers monétaires et économiques», résume Charly Kengne (*L'intermédiation de la servitude*, 17 mars 2026).
+Mais le pré-carré lui-même n'est plus sûr: Banda Kani interpelle publiquement la CEMAC et Paul Biya pour que l'Afrique centrale s'investisse aux côtés du peuple centrafricain dans des structures de développement endogènes. La contestation ne vient plus seulement du Sahel. Elle monte de l'intérieur même de l'espace francophone resté dans l'orbite de Paris. « La France donne l'illusion d'être partie tout en contrôlant les leviers monétaires et économiques», résume Charly Kengne (L'intermédiation de la servitude, 17 mars 2026).
 
 ## Air France, ou l'entreprise comme arme politique
 
 Le deuxième instrument est commercial, et une affaire l'illustre en actes. Quand Air France suspend ses vols vers Bamako, Ouagadougou et Niamey pour sanctionner politiquement les transitions, elle utilise une licence commerciale octroyée par ces États pour mener une action politique. Concrètement, une compagnie privée transforme un droit d'atterrissage en levier diplomatique — et révèle au passage que la frontière entre l'entreprise et l'État n'a jamais vraiment existé dans la relation franco-africaine.
-
 Nathalie Yamb en tire des propositions législatives précises: exiger des multinationales une caution égale à un an de chiffre d'affaires comme garantie de non-ingérence politique; révoquer les exonérations fiscales; faire voter par les conseils de transition des lois sanctionnant l'intrusion des entreprises étrangères dans le domaine politique. Car la réciprocité est réelle: selon les estimations de l'économiste Diop, Air France gagnait 500 millions de francs CFA par jour sur la seule destination malienne. Ces entreprises dépendent de l'Afrique autant que l'Afrique dépend d'elles. Venir gagner de l'argent, oui. Venir déstabiliser, non. Ce cadre juridique n'existe pas encore. Il est nécessaire.
 
 ## La Francophonie: le dernier empire
 
 Le troisième instrument est le plus ancien et le plus discret: la langue. La langue française en Afrique n'est pas un simple héritage. C'est une architecture — conçue, financée, institutionnalisée pour maintenir les élites africaines dans une sphère intellectuelle favorable à Paris après le départ des armées coloniales. « La francophonie prendra un jour le relais de la colonisation», aurait déclaré de Gaulle en 1966. Ce qui est établi, c'est la suite: quatre ans plus tard, Pompidou crée l'Agence de coopération culturelle et technique — l'ancêtre de l'OIF — pour faire du « ciment linguistique» le mortier du bloc franco-africain. La culture comme substitut à l'armée; et, aux Nations unies, un réservoir de voix formées à penser dans les catégories conceptuelles françaises.
-
 Le général Tiani va plus loin: selon lui, l'OIF participe d'une « cellule Sahel» créée à l'Élysée en 2024, dotée de fonds illimités, menant une guerre informationnelle contre les régimes du Sahel. Ce qui est confirmé indépendamment, en revanche, c'est la réponse: le retrait des trois pays de l'AES de l'OIF en mars 2025 — pendant la semaine de la Francophonie. Le calendrier était le message.
-
 L'ironie de l'histoire, c'est que l'instrument échappe désormais à son concepteur. Selon le rapport Attali de 2014, le nombre de francophones pourrait passer de 230 millions en 2014 à 770 millions en 2060 — dont 85 % d'Africains. Une « francophonie sans la France», se développant de manière autonome vis-à-vis de l'ancienne métropole. Dans le même temps, la part de marché française en Afrique francophone s'est effondrée, de 11 % à 5,5 % en une décennie. La langue reste. L'économie française recule. Et quand Macron déclare à Djerba que « la francophonie, c'est la langue du panafricanisme» (19 novembre 2022), il s'approprie le vocabulaire même de la résistance — signe, comme l'avait anticipé Banda Kani, que la bataille sémantique est perdue pour celui qui doit emprunter les mots de son adversaire.
-
-La doctrine inverse existe déjà: quand Traoré fait traduire les ouvrages panafricanistes en moré et les diffuse dans les villages, il pose que le français peut rester un outil de communication internationale sans demeurer un outil de colonisation mentale — à condition que les langues africaines cessent d'être marginalisées. On ne décolonise pas les esprits en deux ans de transition. Mais on peut commencer.
+La doctrine inverse existe déjà: quand Traoré fait traduire les ouvrages panafricanistes en mooré et les diffuse dans les villages, il pose que le français peut rester un outil de communication internationale sans demeurer un outil de colonisation mentale — à condition que les langues africaines cessent d'être marginalisées. On ne décolonise pas les esprits en deux ans de transition. Mais on peut commencer.
 
 ## L'arrogance comme doctrine
 
 Reste le dernier instrument, le plus révélateur parce qu'il est involontaire: le mépris. Il n'est pas un accident de parcours dans la relation franco-africaine. Il est structurel, répété, institutionnalisé — sa constance sur deux siècles est elle-même une donnée.
-
 Janvier 2025: devant les ambassadeurs de France, Macron dénonce « l'ingratitude africaine». Le mot dit tout. La France attend de l'Afrique de la gratitude — pour quoi, au juste? Pour les réserves de change captées depuis 1945? Pour l'uranium nigérien acheté sous le prix du marché pendant soixante ans? Pour des zones jihadistes multipliées par trois en sept ans de Barkhane? Trois chefs d'État répondent publiquement: Mahamat Déby, Ousmane Sonko, Ibrahim Traoré. La réponse de Traoré, le 14 janvier 2025, est la plus tranchante: « S'il n'est pas athée, à chaque réveil s'il prie, il devrait aussi prier les Africains, parce que c'est grâce à nos ancêtres que la France existe aujourd'hui. Nous ne sommes pas des humains à ses yeux.»
-
 Le mépris ruisselle aussi par les relais locaux — tel Hassoumi Massaoudou qualifiant sur LCI les manifestations de soutien au CNSP de « chorégraphies achetées à 1 500 euros» (2 août 2023), effaçant d'une phrase une mobilisation populaire sans précédent depuis dix ans. Et il prend parfois la forme de la condescendance déguisée en respect: « L'Afrique n'a pas besoin qu'on lui explique ce qui est bon pour elle», assure Macron à Nairobi en mai 2026 — tout en continuant de le faire.
-
 Or l'arrogance est le dernier refuge de ceux qui ont perdu le rapport de force mais refusent de l'admettre. Les institutions françaises elles-mêmes l'ont reconnu, on l'a vu au chapitre 15: la dépendance s'est inversée. La Françafrique crache ses dernières flammes. Mais elle crache.
-
 Derrière ce mépris de façade, pourtant, il y a autre chose — une peur, profonde et documentée; et c'est en l'anatomisant qu'on découvre ce que l'AES doit réussir pour survivre.
 
 ★ ★ ★
+
 
 # Chapitre 31 — Ce que l'AES doit réussir pour survivre
 
@@ -1663,295 +1370,238 @@ Nairobi, 11 mai 2026. Sommet « Africa Forward». Devant un parterre de dirigean
 ## Anatomie d'une peur
 
 Derrière le discours de puissance occidental, il y a la peur. Pas celle des terroristes, ni même de la Russie ou de la Chine. La peur profonde, structurelle: celle d'un monde qui ne tourne plus autour de lui.
-
 Les chiffres posent le cadre. En 2025, les États-Unis et l'Europe ne représentent plus que 9 % de la population mondiale (données ONU). D'ici quelques années, les pays occidentaux ne produiront plus qu'environ 40 % de la richesse mondiale (FMI, Banque mondiale). L'Europe dépend à plus de 75 % d'importations pour son pétrole et son gaz (AIE); les terres rares sont contrôlées à 70 % par la Chine (USGS); et l'uranium sahélien alimente les centrales nucléaires françaises. Quand le Niger expulse Orano, ce n'est pas seulement une humiliation diplomatique: c'est une rupture dans une chaîne d'approvisionnement que la France présentait comme acquise. Pour le dire simplement, l'Occident s'est habitué à payer ses ressources en dessous de leur prix réel — et il sait qu'il ne peut pas se permettre de les payer à leur juste valeur. C'est cela, la peur fondamentale. Tout le reste — bases, interventions, sanctions, proxys — n'en est que la gestion.
-
 D'où la peur spécifique à l'AES, qui est l'exact contraire de ce qu'on croit: l'Occident ne craint pas que l'AES échoue. Il craint qu'elle réussisse. Si la Confédération stabilise sa sécurité et son économie par elle-même, elle inspire d'autres pays — l'effet domino souverainiste. Si ses modèles de renégociation minière se diffusent, les multinationales perdent leurs rentes. Si le dollar perd à long terme son statut de monnaie d'échange mondiale au profit des BRICS, les États-Unis perdent leur capacité à financer leur présence militaire mondiale sans contrepartie réelle. Et Traoré identifie la menace ultime: que les Africains brisent le « mimétisme intellectuel». On peut battre une armée. On ne peut pas désapprendre une conscience.
-
 À l'arrière-plan, une lame de fond que personne ne commente assez: la démographie. L'Occident vieillit, le Japon et la Chine affrontent des crises démographiques structurelles, le Maghreb voit sa natalité baisser — et l'Afrique subsaharienne représentera 40 % de la population mondiale en 2100 selon les projections de l'ONU. Nul avantage automatique: une capacité potentielle, qui exige des institutions et des économies capables de la transformer en puissance. Mais dans le rapport de force de long terme, la démographie redistribue silencieusement les cartes que les guerres proxys tentent désespérément de figer.
 
 ## La feuille de route implicite
 
 Nathalie Yamb formule le défi avec une précision historique: les années 1960 ont donné des indépendances confisquées; les années 1990, un multipartisme confisqué; les années 2020 produisent un souverainisme. « Si on ne lui donne pas un contenu, dans trente ans il y aura de nouveau des gens sur un nouveau plateau et on va reprendre ce flambeau.» Cette phrase est la feuille de route implicite de l'AES. Ce ne sont pas les ennemis extérieurs qui tueront l'Alliance. Ce serait le vide institutionnel intérieur.
-
 D'où le double tableau qui suit — sans doute le plus important de ce livre, parce qu'il ne juge pas l'AES sur ses intentions, mais sur des critères vérifiables.
-
-> **CONDITIONS POSSIBLES DE L'ÉCHEC**
-> 1. **Personnalisation du pouvoir**: des transitions devenant des règnes personnels permanents, sans calendrier de sortie
-> 2. **Compradorisme militaire**: des élites en uniforme reproduisant les logiques des élites civiles qu'elles ont remplacées
-> 3. **Dépendance russe**: le remplacement d'une tutelle par une autre, même à des conditions différentes
-> 4. **Fractures internes**: la violence contre les minorités, créant guerres civiles et terreau de recrutement jihadiste
-> 5. **Échec sécuritaire**: l'incapacité à protéger les populations au-delà des grandes villes
-> 6. **Échec économique**: sanctions et gestion déficiente débouchant sur une crise alimentaire qui délégitime les transitions
-
-> **CONDITIONS NÉCESSAIRES AU SUCCÈS**
-> 1. **Transition démocratique programmée**: calendrier clair, institutions civiles, élections dotées d'une représentativité réelle
-> 2. **Transparence budgétaire**: publication des comptes, lutte contre la corruption interne
-> 3. **Souveraineté monétaire**: une stratégie de transition crédible, avec gestion des risques inflationnistes
-> 4. **Diversification stratégique**: ne pas répéter avec Moscou ou Pékin ce qui a été fait avec Paris
-> 5. **Justice interne**: protection des minorités, redevabilité des forces de sécurité
-> 6. **Mobilisation de la diaspora**: politiques actives d'investissement et de retour des compétences
-> 7. **Service militaire élargi**: selon Nathalie Yamb, un outil de conscientisation citoyenne, pas seulement de défense
-
-Trois variables transversales déterminent l'issue de tous les scénarios. La gouvernance économique réelle: les ressources profitent-elles aux populations, ou nourrissent-elles une rente d'élite en uniforme? La liberté d'expression: les sociétés civiles peuvent-elles critiquer sans être réprimées? Le retour progressif au constitutionnalisme: les transitions produisent-elles des institutions ou des règnes? Ces trois questions n'émanent pas des puissances extérieures. Elles émanent des peuples sahéliens eux-mêmes. C'est là leur force — et leur exigence la plus difficile à tenir. Rappelons-le une fois encore, car l'honnêteté l'exige: les gouvernements de l'AES sont militaires et non issus d'élections, une question traitée à fond au chapitre 25.
+**CONDITIONS POSSIBLES DE L'ÉCHEC**
+1. **Personnalisation du pouvoir**: des transitions devenant des règnes personnels permanents, sans calendrier de sortie
+2. **Compradorisme militaire**: des élites en uniforme reproduisant les logiques des élites civiles qu'elles ont remplacées
+3. **Dépendance russe**: le remplacement d'une tutelle par une autre, même à des conditions différentes
+4. **Fractures internes**: la violence contre les minorités, créant guerres civiles et terreau de recrutement jihadiste
+5. **Échec sécuritaire**: l'incapacité à protéger les populations au-delà des grandes villes
+6. **Échec économique**: sanctions et gestion déficiente débouchant sur une crise alimentaire qui délégitime les transitions
+**CONDITIONS NÉCESSAIRES AU SUCCÈS**
+1. **Transition démocratique programmée**: calendrier clair, institutions civiles, élections dotées d'une représentativité réelle
+2. **Transparence budgétaire**: publication des comptes, lutte contre la corruption interne
+3. **Souveraineté monétaire**: une stratégie de transition crédible, avec gestion des risques inflationnistes
+4. **Diversification stratégique**: ne pas répéter avec Moscou ou Pékin ce qui a été fait avec Paris
+5. **Justice interne**: protection des minorités, redevabilité des forces de sécurité
+6. **Mobilisation de la diaspora**: politiques actives d'investissement et de retour des compétences
+7. **Service militaire élargi**: selon Nathalie Yamb, un outil de conscientisation citoyenne, pas seulement de défense
+Trois variables transversales déterminent l'issue de tous les scénarios. La gouvernance économique réelle: les ressources profitent-elles aux populations, ou nourrissent-elles une rente d'élite en uniforme? La liberté d'expression: les sociétés civiles peuvent-elles critiquer sans être réprimées? Le retour progressif au constitutionnalisme: les transitions produisent-elles des institutions ou des règnes? Ces trois questions n'émanent pas des puissances extérieures. Elles émanent des peuples sahéliens eux-mêmes. C'est là leur force — et leur exigence la plus difficile à tenir.
 
 ## Le point de départ, pas le point d'arrivée
 
 Pour mesurer le chemin, il faut rappeler d'où l'on part. Le statu quo avait un bilan: des IDH classés 184e, 185e et 189e sur 191; moins de 20 % d'accès à l'électricité dans le pays le plus riche en uranium du monde. Soixante ans de coopération pour ce résultat. L'AES rompt avec ce statu quo. C'est insuffisant pour réussir — mais nécessaire pour commencer. Et commencer, après soixante ans, est déjà un acte historique.
-
 La doctrine de marche, c'est Choguel Maïga qui la formule: « Personne ne va nous inoculer le virus du défaitisme. Les militaires cognent les adversaires, les diplomates négocient, les opérateurs économiques font leur travail. Chacun fait son travail.» Et il l'appuie sur l'argument empirique le plus difficile à réfuter: « Le Mali a négocié pendant trente ans. Est-ce que cela a empêché le terrorisme de s'étendre? Est-ce que cela l'a empêché d'arriver au Burkina ou au Niger où il n'était pas?» (Bamako, 19 octobre 2024). Trente ans de négociation ont produit l'extension du jihadisme. La rupture a produit la reprise de Kidal.
-
-Le chercheur Mohammad-Mahmoud Ould Mohamedou posait, dès 2013, la question qui fonde toute l'aventure: « Peut-on réintroduire la souveraineté de l'État lorsqu'on l'écorne toujours un peu plus?» (in *La Guerre au Mali*, La Découverte, 2013). La réponse que l'AES apporte depuis 2020 est que non — on ne réintroduit pas la souveraineté par les voies que proposent ceux qui l'ont confisquée. Il faut l'arracher. Dix ans séparent le diagnostic de l'acte.
-
-L'arrachement a eu lieu. La consolidation reste à faire, et ses critères sont désormais posés, noir sur blanc, vérifiables par quiconque — amis comme adversaires. Macron lui-même a fixé l'enjeu à Nairobi: si l'AES échoue, dit-il en substance, c'est l'Europe qui n'a aucune chance.
-
+Le chercheur Mohammad-Mahmoud Ould Mohamedou posait, dès 2013, la question qui fonde toute l'aventure: « Peut-on réintroduire la souveraineté de l'État lorsqu'on l'écorne toujours un peu plus?» (in La Guerre au Mali, La Découverte, 2013). La réponse que l'AES apporte depuis 2020 est que non — on ne réintroduit pas la souveraineté par les voies que proposent ceux qui l'ont confisquée. Il faut l'arracher. Dix ans séparent le diagnostic de l'acte.
+L'arrachement a eu lieu. La consolidation reste à faire, et ses critères sont désormais posés, noir sur blanc, vérifiables par quiconque — amis comme adversaires.
 Il ne reste plus qu'à revenir là où tout a commencé: dans une villa de Niamey, devant un tableau blanc et cinq mots.
 
 ★ ★ ★
 
+
 # Conclusion — Retour à la villa de Niamey
 
 Nous voici revenus au point de départ. Une villa de Niamey. Un tableau blanc. Cinq mots.
-
-*La paix, on peut l'éviter.*
-
+La paix, on peut l'éviter.
 Ceux qui ont écrit cette phrase n'étaient pas des philosophes: des stratèges, dont la mission était de maintenir l'instabilité pour maintenir l'accès, et l'accès pour maintenir l'extraction. La villa est fermée aujourd'hui. Le Niger a expulsé l'armée française et l'armée américaine la même année, sans une goutte de sang. Et le ciel ne s'est pas effondré.
-
 Cette phrase était une stratégie. Elle était aussi une erreur de calcul monumentale. Ses auteurs ont sous-estimé trois choses.
-
 Ils ont sous-estimé la mémoire. Les peuples sahéliens se souviennent de Samory Touré résistant seize ans à la conquête coloniale. Ils se souviennent de Sékou Touré qui a dit non quand tout le monde disait oui. Ils n'ont pas oublié Sankara. Ils n'ont pas oublié Arlit. Ils n'ont pas oublié que le pays qui éclaire la France vivait dans l'obscurité.
-
 Ils ont sous-estimé la jeunesse. La population sahélienne a une médiane d'âge inférieure à dix-huit ans. Ces jeunes ont grandi avec Internet, avec les classements de développement humain consultables en ligne, avec les images de Barkhane en retraite et de la Charte du Liptako-Gourma en signature. Ils ont vu la différence entre les promesses et les réalités. Ils ont choisi.
-
 Ils ont sous-estimé la doctrine. L'AES n'est pas une réaction émotionnelle. C'est un projet construit, doté d'un cadre institutionnel et d'une logique d'escalade qui rend chaque étape plus difficile à annuler que la précédente. La Charte du Liptako-Gourma, le retrait de la CEDEAO, la dénonciation des conventions fiscales, la Force unifiée — chaque acte bâtit sur le précédent. Nulle improvisation. De l'architecture.
 
 ★ ★ ★
 
 Ce livre ne vous a pas promis que l'AES réussirait. Personne ne peut le promettre. L'histoire est ouverte. Les obstacles sont réels — la guerre qui continue, l'économie à transformer, la monnaie à inventer, les partenaires à tenir en respect, les institutions à fonder. Les ennemis sont nombreux, riches et déterminés. Et les pièges intérieurs, du règne personnel à l'injustice contre les minorités, ne sont pas moins redoutables que les menées extérieures.
-
 Ce livre vous a promis autre chose: analyser l'AES sérieusement. Sans condescendance. Sans la présomption que des Africains en uniforme ne peuvent pas construire ce que des Européens en costume n'ont pas voulu construire pour eux. Il vous a promis de citer ses sources, de signaler ses incertitudes, d'offrir des convergences plutôt que des prophéties.
-
 Une convergence, justement, mérite d'être rappelée une dernière fois. À Nairobi, le 11 mai 2026, c'est un président français qui a dit aux Africains: « Si vous échouez, nous n'avons aucune chance.» L'adversaire d'hier reconnaît que son avenir dépend de la réussite de ce qu'il a combattu. On ne saurait mieux mesurer le chemin parcouru depuis cette villa de Niamey.
-
 La paix des cimetières a été imposée trop longtemps.
-
 La paix juste reste à construire.
-
 La justice ne peut pas être évitée.
-
 La dignité, non.
-
 La liberté, jamais.
-
 Le Sahel a choisi. Le reste de l'Afrique regarde. Et le monde, pour la première fois depuis les indépendances, ne sait plus comment arrêter ce qu'il a vu commencer.
-
 Reste la question que ce livre ne peut pas trancher, parce qu'elle appartient à l'histoire et que l'histoire s'écrit encore: l'AES est-elle la première pierre d'une véritable souveraineté africaine, ou une étincelle de plus dans une longue nuit?
 
 ★ ★ ★
 
-*« Restons vigilants.»*
-
-— Général Tiani, 13 novembre 2025
+> « Restons vigilants.»
+> — Général Tiani, 13 novembre 2025
 
 ★ ★ ★
+
 
 # Chronologie — du partage de l'Afrique à l'Alliance des États du Sahel
 
-**1884-1885** — Conférence de Berlin: quatorze puissances européennes se partagent l'Afrique.
-
-**1900** — La loi française d'autonomie financière des colonies impose aux colonisés de financer leur propre administration.
-
-**1945** — Création du franc CFA (26 décembre).
-
-**1957** — Le Ghana de Kwame Nkrumah devient le premier pays d'Afrique subsaharienne colonisée à accéder à l'indépendance.
-
-**1958** — La Guinée de Sékou Touré vote « non» au référendum de De Gaulle (28 septembre); représailles immédiates de la France.
-
-**1960** — « Année de l'Afrique»: dix-sept pays accèdent à l'indépendance, dont le Mali, le Niger et la Haute-Volta (futur Burkina Faso).
-
-**1961** — Assassinat de Patrice Lumumba (17 janvier).
-
-**1963** — Assassinat de Sylvanus Olympio, premier président du Togo.
-
-**1968** — Renversement de Modibo Keïta au Mali.
-
-**1971** — La Cogema (future Areva, puis Orano) installe ses puits d'uranium à Arlit, au Niger.
-
-**1983-1987** — Présidence de Thomas Sankara au Burkina Faso; assassiné le 15 octobre 1987.
-
-**1994** — Dévaluation du franc CFA.
-
-**2011** — Intervention de l'OTAN en Libye; chute et mort de Mouammar Kadhafi; dispersion des arsenaux dans le Sahel.
-
-**2012** — Effondrement du nord du Mali; proclamation de l'Azawad.
-
-**2013** — Opération Serval (janvier).
-
-**2014** — Lancement de l'opération Barkhane (août).
-
-**18 août 2020** — Première transition militaire au Mali (Kati); arrivée d'Assimi Goïta.
-
-**Janvier-septembre 2022** — Au Burkina Faso, Damiba renverse Kaboré (janvier), puis le capitaine Ibrahim Traoré renverse Damiba (septembre).
-
-**Août 2022** — Expulsion de Barkhane du Mali.
-
-**26 juillet 2023** — Transition militaire au Niger; le général Tiani prend la tête du CNSP.
-
-**16 septembre 2023** — Signature de la Charte du Liptako-Gourma: naissance de l'Alliance des États du Sahel.
-
-**14 novembre 2023** — Les Forces armées maliennes reprennent Kidal.
-
-**28 janvier 2024** — Retrait du Mali, du Burkina Faso et du Niger de la CEDEAO.
-
-**Mars-printemps 2024** — Départ des dernières forces françaises et américaines du Niger; fermeture de la base d'Agadez.
-
-**6 juillet 2024** — Proclamation de la Confédération des États du Sahel (sommet de Niamey).
-
-**Juillet-août 2024** — Défaite de Tinzawaten; le renseignement militaire ukrainien reconnaît un appui aux assaillants; saisine conjointe du Conseil de sécurité de l'ONU par les trois États de l'AES (19 août).
-
-**Mars 2025** — Retrait de l'AES de l'Organisation internationale de la Francophonie.
-
-**22 septembre 2025** — Retrait des trois États de la Cour pénale internationale.
-
-**21 décembre 2025** — Installation de la Force unifiée de l'AES.
-
-**25 avril 2026** — Attaques coordonnées sur Bamako, Kati, Kidal, Gao et Sévaré; mort du général Sadio Camara.
-
-**9 mai 2026** — RTL France rapporte la coopération d'ex-légionnaires avec le renseignement militaire ukrainien contre le Mali.
-
-**7 juin 2026** — Condamnation de l'agent Yann Vésilier à vingt ans de prison au Mali.
+1884-1885 — Conférence de Berlin: quatorze puissances européennes se partagent l'Afrique.
+1900 — La loi française d'autonomie financière des colonies impose aux colonisés de financer leur propre administration.
+1945 — Création du franc CFA (26 décembre).
+1957 — Le Ghana de Kwame Nkrumah devient le premier pays d'Afrique subsaharienne colonisée à accéder à l'indépendance.
+1958 — La Guinée de Sékou Touré vote « non» au référendum de De Gaulle (28 septembre); représailles immédiates de la France.
+1960 — « Année de l'Afrique»: dix-sept pays accèdent à l'indépendance, dont le Mali, le Niger et la Haute-Volta (futur Burkina Faso).
+1961 — Assassinat de Patrice Lumumba (17 janvier).
+1963 — Assassinat de Sylvanus Olympio, premier président du Togo.
+1968 — Renversement de Modibo Keïta au Mali.
+1971 — La Cogema (future Areva, puis Orano) installe ses puits d'uranium à Arlit, au Niger.
+1983-1987 — Présidence de Thomas Sankara au Burkina Faso; assassiné le 15 octobre 1987.
+1994 — Dévaluation du franc CFA.
+2011 — Intervention de l'OTAN en Libye; chute et mort de Mouammar Kadhafi; dispersion des arsenaux dans le Sahel.
+2012 — Effondrement du nord du Mali; proclamation de l'Azawad.
+2013 — Opération Serval (janvier).
+2014 — Lancement de l'opération Barkhane (août).
+18 août 2020 — Première transition militaire au Mali (Kati); arrivée d'Assimi Goïta.
+Janvier-septembre 2022 — Au Burkina Faso, Damiba renverse Kaboré (janvier), puis le capitaine Ibrahim Traoré renverse Damiba (septembre).
+Août 2022 — Expulsion de Barkhane du Mali.
+26 juillet 2023 — Transition militaire au Niger; le général Tiani prend la tête du CNSP.
+16 septembre 2023 — Signature de la Charte du Liptako-Gourma: naissance de l'Alliance des États du Sahel.
+14 novembre 2023 — Les Forces armées maliennes reprennent Kidal.
+28 janvier 2024 — Retrait du Mali, du Burkina Faso et du Niger de la CEDEAO.
+Mars-printemps 2024 — Départ des dernières forces françaises et américaines du Niger; fermeture de la base d'Agadez.
+6 juillet 2024 — Proclamation de la Confédération des États du Sahel (sommet de Niamey).
+Juillet-août 2024 — Défaite de Tinzawaten; le renseignement militaire ukrainien reconnaît un appui aux assaillants; saisine conjointe du Conseil de sécurité de l'ONU par les trois États de l'AES (19 août).
+Mars 2025 — Retrait de l'AES de l'Organisation internationale de la Francophonie.
+22 septembre 2025 — Retrait des trois États de la Cour pénale internationale.
+21 décembre 2025 — Installation de la Force unifiée de l'AES.
+25 avril 2026 — Attaques coordonnées sur Bamako, Kati, Kidal, Gao et Sévaré; mort du général Sadio Camara.
+9 mai 2026 — RTL France rapporte la coopération d'ex-légionnaires avec le renseignement militaire ukrainien contre le Mali.
+7 juin 2026 — Condamnation de l'agent Yann Vésilier à vingt ans de prison au Mali.
 
 ★ ★ ★
+
 
 # Glossaire des sigles
 
-- **ACLED** — Armed Conflict Location & Event Data Project (base de données sur les conflits armés)
-- **AES** — Alliance des États du Sahel (Mali, Burkina Faso, Niger)
-- **AOF** — Afrique-Occidentale française
-- **APD** — Aide publique au développement
-- **AQMI** — Al-Qaïda au Maghreb islamique
-- **BCEAO** — Banque centrale des États de l'Afrique de l'Ouest
-- **BEAC** — Banque des États de l'Afrique centrale
-- **BIMA** — Bataillon d'infanterie de marine
-- **BRICS** — Brésil, Russie, Inde, Chine, Afrique du Sud (et nouveaux membres)
-- **CEDEAO** — Communauté économique des États de l'Afrique de l'Ouest
-- **CEMAC** — Communauté économique et monétaire de l'Afrique centrale
-- **CFA** — Communauté financière africaine (zone monétaire)
-- **CICR** — Comité international de la Croix-Rouge
-- **CNSP** — Conseil national pour la sauvegarde de la patrie (Niger)
-- **CNPC** — China National Petroleum Corporation
-- **COS** — Commandement des opérations spéciales (France)
-- **CPI** — Cour pénale internationale
-- **DGSE** — Direction générale de la sécurité extérieure (France)
-- **EAU** — Émirats arabes unis
-- **EHM** — *Economic Hit Man* (« assassin financier», selon John Perkins)
-- **ESSD** — Entreprise de services de sécurité et de défense
-- **FAMa** — Forces armées maliennes
-- **FLA** — Front de libération de l'Azawad
-- **FMI** — Fonds monétaire international
-- **FSR** — Forces de soutien rapide (Soudan)
-- **GSPC** — Groupe salafiste pour la prédication et le combat
-- **GUR** — Renseignement militaire ukrainien
-- **HRW** — Human Rights Watch
-- **IDH** — Indice de développement humain
-- **JNIM** — Groupe de soutien à l'islam et aux musulmans (coalition jihadiste sahélienne)
-- **MINUSMA** — Mission des Nations unies au Mali
-- **MNLA** — Mouvement national de libération de l'Azawad
-- **MPSR** — Mouvement patriotique pour la sauvegarde et la restauration (Burkina Faso)
-- **OIF** — Organisation internationale de la Francophonie
-- **OTAN** — Organisation du traité de l'Atlantique Nord
-- **PNUD** — Programme des Nations unies pour le développement
-- **RCA** — République centrafricaine
-- **SWP** — *Stiftung Wissenschaft und Politik* (Institut allemand pour les affaires internationales et la sécurité)
-- **VDP** — Volontaires pour la défense de la patrie (Burkina Faso)
-- **ZLECAf** — Zone de libre-échange continentale africaine
+- ACLED — Armed Conflict Location & Event Data Project (base de données sur les conflits armés)
+- AES — Alliance des États du Sahel (Mali, Burkina Faso, Niger)
+- AOF — Afrique-Occidentale française
+- APD — Aide publique au développement
+- AQMI — Al-Qaïda au Maghreb islamique
+- BCEAO — Banque centrale des États de l'Afrique de l'Ouest
+- BEAC — Banque des États de l'Afrique centrale
+- BIMA — Bataillon d'infanterie de marine
+- BRICS — Brésil, Russie, Inde, Chine, Afrique du Sud (et nouveaux membres)
+- CEDEAO — Communauté économique des États de l'Afrique de l'Ouest
+- CEMAC — Communauté économique et monétaire de l'Afrique centrale
+- CFA — Communauté financière africaine (zone monétaire)
+- CICR — Comité international de la Croix-Rouge
+- CNSP — Conseil national pour la sauvegarde de la patrie (Niger)
+- CNPC — China National Petroleum Corporation
+- COS — Commandement des opérations spéciales (France)
+- CPI — Cour pénale internationale
+- DGSE — Direction générale de la sécurité extérieure (France)
+- EAU — Émirats arabes unis
+- EHM — Economic Hit Man (« assassin financier», selon John Perkins)
+- ESSD — Entreprise de services de sécurité et de défense
+- FAMa — Forces armées maliennes
+- FLA — Front de libération de l'Azawad
+- FMI — Fonds monétaire international
+- FSR — Forces de soutien rapide (Soudan)
+- GSPC — Groupe salafiste pour la prédication et le combat
+- GUR — Renseignement militaire ukrainien
+- HRW — Human Rights Watch
+- IDH — Indice de développement humain
+- JNIM — Groupe de soutien à l'islam et aux musulmans (coalition jihadiste sahélienne)
+- MINUSMA — Mission des Nations unies au Mali
+- MNLA — Mouvement national de libération de l'Azawad
+- MPSR — Mouvement patriotique pour la sauvegarde et la restauration (Burkina Faso)
+- OIF — Organisation internationale de la Francophonie
+- OTAN — Organisation du traité de l'Atlantique Nord
+- PNUD — Programme des Nations unies pour le développement
+- RCA — République centrafricaine
+- SWP — Stiftung Wissenschaft und Politik (Institut allemand pour les affaires internationales et la sécurité)
+- VDP — Volontaires pour la défense de la patrie (Burkina Faso)
+- ZLECAf — Zone de libre-échange continentale africaine
 
 ★ ★ ★
+
 
 # Index des personnages
 
-*Les renvois indiquent les chapitres où chaque figure est citée ou analysée.*
-
-- **Avé, Anne-Sophie** — ancienne ambassadrice de France au Mali; doctrine de la « dissonance cognitive». ch. 14.
-- **Ayissi, Anatole** — journaliste et analyste panafricaniste; cadre des Nations unies pour l'Afrique centrale. ch. 7, ch. 8, ch. 21, ch. 27, ch. 29, ch. 30.
-- **Banda Kani** — analyste panafricaniste camerounais. ch. 3, ch. 10, ch. 12, ch. 14, ch. 19, ch. 20, ch. 25, ch. 30.
-- **Bazoum, Mohamed** — président du Niger (2021-2023), renversé le 26 juillet 2023. ch. 10, ch. 18, ch. 25, ch. 26.
-- **Bokassa, Jean-Bedel** — ancien chef d'État centrafricain installé par la France. ch. 8, ch. 15.
-- **Bongo, Omar** — président du Gabon, figure de la Françafrique. ch. 6.
-- **Bourgi, Robert** — avocat, intermédiaire des « mallettes» de l'Élysée. ch. 6.
-- **Burkhard, Thierry** — chef d'état-major des armées françaises. ch. 15.
-- **Camara, Sadio** — ministre de la Défense du Mali, architecte militaire de l'AES, tué le 25 avril 2026. ch. 14, ch. 16, ch. 20.
-- **Chassaigne, André** — député français, dénonciateur des interventions en Afrique. ch. 3, ch. 8, ch. 13, ch. 15.
-- **Cheikh Anta Diop** — historien et physicien sénégalais (1923-1986). ch. 2, ch. 6.
-- **Chirac, Jacques** — président de la République française (1995-2007). Prologue, ch. 6.
-- **Cissé, Boubou** — ancien Premier ministre du Mali, opposant à la transition. ch. 10, ch. 16.
-- **Cissé, Mariam** — blogueuse malienne assassinée par le JNIM. ch. 24, ch. 26.
-- **Compaoré, Blaise** — président du Burkina Faso (1987-2014), impliqué dans l'assassinat de Sankara. ch. 6, ch. 10, ch. 23.
-- **Damiba, Paul-Henri Sandaogo** — auteur de la première transition burkinabè de janvier 2022. ch. 17.
-- **De Gaulle, Charles** — président français, architecte de la Françafrique. ch. 5, ch. 30.
-- **Dietrich, Thomas** — journaliste d'investigation français. ch. 14, ch. 20.
-- **Diop, Abdoulaye** — ministre des Affaires étrangères du Mali. ch. 10, ch. 19, ch. 22.
-- **Doumbouya, Mamadi** — président de transition de la Guinée. ch. 15, ch. 29.
-- **Déby, Idriss** — président du Tchad, mort en avril 2021. ch. 21.
-- **Déby, Mahamat** — président de transition du Tchad. ch. 21, ch. 30.
-- **Foccart, Jacques** — « Monsieur Afrique» de l'Élysée sous De Gaulle et Pompidou. ch. 5, ch. 6, ch. 13.
-- **Gbagbo, Laurent** — ancien président de la Côte d'Ivoire. ch. 6, ch. 14.
-- **Goïta, Assimi** — président de la transition du Mali. ch. 4, ch. 16, ch. 19, ch. 20, ch. 25, ch. 26, ch. 27, ch. 29.
-- **Granvaud, Raphaël** — chercheur de l'association Survie, auteur de De l'huile sur le feu. ch. 5, ch. 13, ch. 14, ch. 15, ch. 26.
-- **Hollande, François** — président français (2012-2017), initiateur de Serval. ch. 13, ch. 15.
-- **Iyad Ag Ghali** — émir du JNIM. ch. 13, ch. 20, ch. 21.
-- **Juillet, Alain** — ancien directeur du renseignement de la DGSE. ch. 15.
-- **Kaboré, Roch Marc Christian** — président du Burkina Faso renversé en janvier 2022. ch. 10, ch. 17, ch. 25.
-- **Kadhafi, Mouammar** — dirigeant libyen (1969-2011). ch. 7, ch. 11, ch. 28.
-- **Keïta, Ibrahim Boubacar (IBK)** — président du Mali renversé en août 2020. ch. 16, ch. 25.
-- **Keïta, Modibo** — premier président du Mali indépendant (1960-1968). ch. 5, ch. 7, ch. 19, ch. 21, ch. 22.
-- **Le Floch-Prigent, Loïk** — ancien PDG d'Elf. ch. 6.
-- **Lissouba, Pascal** — ancien président du Congo-Brazzaville. ch. 6.
-- **Lumumba, Patrice** — premier Premier ministre du Congo, assassiné en 1961. ch. 5, ch. 9, ch. 20, ch. 21, ch. 22.
-- **Macron, Emmanuel** — président de la République française. ch. 7, ch. 10, ch. 13, ch. 14, ch. 15, ch. 17, ch. 18, ch. 20, ch. 21, ch. 30, ch. 31.
-- **Mansa Moussa** — empereur du Mali au XIVe siècle. ch. 1.
-- **Maïga, Choguel Kokalla** — ancien Premier ministre du Mali. ch. 10, ch. 12, ch. 13, ch. 16, ch. 17, ch. 20, ch. 25, ch. 26, ch. 31.
-- **Medvedev, Dmitri** — responsable russe, dénonciateur du franc CFA à l'UNESCO. ch. 29.
-- **Mobutu Sese Seko** — dictateur du Zaïre (1965-1997). ch. 6, ch. 10.
-- **Mohamedou, Mohammad-Mahmoud Ould** — professeur de relations internationales à Genève. Introduction, ch. 10, ch. 12, ch. 13, ch. 16, ch. 31.
-- **Nkrumah, Kwame** — premier président du Ghana, théoricien du panafricanisme. ch. 3, ch. 5, ch. 7, ch. 11, ch. 21, ch. 22.
-- **Nyamsi, Franklin** — philosophe franco-camerounais. ch. 8, ch. 24.
-- **Olympio, Sylvanus** — premier président du Togo, assassiné en 1963. ch. 5, ch. 7, ch. 22, ch. 28.
-- **Ouattara, Alassane** — président de la Côte d'Ivoire. ch. 10, ch. 16, ch. 20, ch. 23.
-- **Perkins, John** — auteur de Confessions of an Economic Hit Man. ch. 9.
-- **Samory Touré** — fondateur de l'empire Wassoulou, résistant à la colonisation. ch. 4, Conclusion.
-- **Sankara, Thomas** — président du Burkina Faso (1983-1987), figure du panafricanisme. ch. 7, ch. 9, ch. 10, ch. 17, ch. 20, ch. 21, ch. 23, ch. 24, ch. 25, ch. 26, ch. 28, ch. 29, Conclusion.
-- **Sarkozy, Nicolas** — président français (2007-2012). ch. 6, ch. 11, ch. 14, ch. 25.
-- **Soro, Guillaume** — ancien chef rebelle ivoirien. ch. 10.
-- **Sékou Touré, Ahmed** — premier président de la Guinée, auteur du « non» de 1958. ch. 5, ch. 7, ch. 9, ch. 22, ch. 23, ch. 28, Conclusion.
-- **Talon, Patrice** — président du Bénin. ch. 9, ch. 10, ch. 20.
-- **Tiani, Abdourahamane** — président de la transition du Niger, chef du CNSP. Introduction, ch. 5, ch. 6, ch. 7, ch. 10, ch. 12, ch. 14, ch. 16, ch. 17, ch. 18, ch. 19, ch. 20, ch. 21, ch. 25, ch. 28, ch. 29, ch. 30, Conclusion.
-- **Touadéra, Faustin-Archange** — président de la République centrafricaine. ch. 28.
-- **Traoré, Ibrahim** — président de la transition du Burkina Faso. ch. 4, ch. 9, ch. 12, ch. 13, ch. 14, ch. 17, ch. 19, ch. 23, ch. 27, ch. 30.
-- **Turpin, Frédéric** — historien, biographe de Jacques Foccart. ch. 5, ch. 6, ch. 13.
-- **Yamb, Nathalie** — analyste géopolitique panafricaniste. ch. 5, ch. 8, ch. 9, ch. 10, ch. 13, ch. 14, ch. 16, ch. 18, ch. 21, ch. 22, ch. 23, ch. 24, ch. 25, ch. 26, ch. 29, ch. 30, ch. 31.
-- **Yusov, Andriy** — porte-parole du renseignement militaire ukrainien. ch. 20.
+Les renvois indiquent les chapitres où chaque figure est citée ou analysée.
+- Avé, Anne-Sophie — ancienne ambassadrice de France au Mali; doctrine de la « dissonance cognitive». ch. 14.
+- Ayissi, Anatole — journaliste et analyste panafricaniste; cadre des Nations unies pour l'Afrique centrale. ch. 7, ch. 8, ch. 21, ch. 27, ch. 29, ch. 30.
+- Banda Kani — analyste panafricaniste camerounais. ch. 3, ch. 10, ch. 12, ch. 14, ch. 19, ch. 20, ch. 25, ch. 30.
+- Bazoum, Mohamed — président du Niger (2021-2023), renversé le 26 juillet 2023. ch. 10, ch. 18, ch. 25, ch. 26.
+- Bokassa, Jean-Bedel — ancien chef d'État centrafricain installé par la France. ch. 8, ch. 15.
+- Bongo, Omar — président du Gabon, figure de la Françafrique. ch. 6.
+- Bourgi, Robert — avocat, intermédiaire des « mallettes» de l'Élysée. ch. 6.
+- Burkhard, Thierry — chef d'état-major des armées françaises. ch. 15.
+- Camara, Sadio — ministre de la Défense du Mali, architecte militaire de l'AES, tué le 25 avril 2026. ch. 14, ch. 16, ch. 20.
+- Chassaigne, André — député français, dénonciateur des interventions en Afrique. ch. 3, ch. 8, ch. 13, ch. 15.
+- Cheikh Anta Diop — historien et physicien sénégalais (1923-1986). ch. 2, ch. 6.
+- Chirac, Jacques — président de la République française (1995-2007). Prologue, ch. 6.
+- Cissé, Boubou — ancien Premier ministre du Mali, opposant à la transition. ch. 10, ch. 16.
+- Cissé, Mariam — blogueuse malienne assassinée par le JNIM. ch. 24, ch. 26.
+- Compaoré, Blaise — président du Burkina Faso (1987-2014), impliqué dans l'assassinat de Sankara. ch. 6, ch. 10, ch. 23.
+- Damiba, Paul-Henri Sandaogo — auteur de la première transition burkinabè de janvier 2022. ch. 17.
+- De Gaulle, Charles — président français, architecte de la Françafrique. ch. 5, ch. 30.
+- Dietrich, Thomas — journaliste d'investigation français. ch. 14, ch. 20.
+- Diop, Abdoulaye — ministre des Affaires étrangères du Mali. ch. 10, ch. 19, ch. 22.
+- Doumbouya, Mamadi — président de transition de la Guinée. ch. 15, ch. 29.
+- Déby, Idriss — président du Tchad, mort en avril 2021. ch. 21.
+- Déby, Mahamat — président de transition du Tchad. ch. 21, ch. 30.
+- Foccart, Jacques — « Monsieur Afrique» de l'Élysée sous De Gaulle et Pompidou. ch. 5, ch. 6, ch. 13.
+- Gbagbo, Laurent — ancien président de la Côte d'Ivoire. ch. 6, ch. 14.
+- Goïta, Assimi — président de la transition du Mali. ch. 4, ch. 16, ch. 19, ch. 20, ch. 25, ch. 26, ch. 27, ch. 29.
+- Granvaud, Raphaël — chercheur de l'association Survie, auteur de De l'huile sur le feu. ch. 5, ch. 13, ch. 14, ch. 15, ch. 26.
+- Hollande, François — président français (2012-2017), initiateur de Serval. ch. 13, ch. 15.
+- Iyad Ag Ghali — émir du JNIM. ch. 13, ch. 20, ch. 21.
+- Juillet, Alain — ancien directeur du renseignement de la DGSE. ch. 15.
+- Kaboré, Roch Marc Christian — président du Burkina Faso renversé en janvier 2022. ch. 10, ch. 17, ch. 25.
+- Kadhafi, Mouammar — dirigeant libyen (1969-2011). ch. 7, ch. 11, ch. 28.
+- Keïta, Ibrahim Boubacar (IBK) — président du Mali renversé en août 2020. ch. 16, ch. 25.
+- Keïta, Modibo — premier président du Mali indépendant (1960-1968). ch. 5, ch. 7, ch. 19, ch. 21, ch. 22.
+- Le Floch-Prigent, Loïk — ancien PDG d'Elf. ch. 6.
+- Lissouba, Pascal — ancien président du Congo-Brazzaville. ch. 6.
+- Lumumba, Patrice — premier Premier ministre du Congo, assassiné en 1961. ch. 5, ch. 9, ch. 20, ch. 21, ch. 22.
+- Macron, Emmanuel — président de la République française. ch. 7, ch. 10, ch. 13, ch. 14, ch. 15, ch. 17, ch. 18, ch. 20, ch. 21, ch. 30, ch. 31.
+- Mansa Moussa — empereur du Mali au XIVe siècle. ch. 1.
+- Maïga, Choguel Kokalla — ancien Premier ministre du Mali. ch. 10, ch. 12, ch. 13, ch. 16, ch. 17, ch. 20, ch. 25, ch. 26, ch. 31.
+- Medvedev, Dmitri — responsable russe, dénonciateur du franc CFA à l'UNESCO. ch. 29.
+- Mobutu Sese Seko — dictateur du Zaïre (1965-1997). ch. 6, ch. 10.
+- Mohamedou, Mohammad-Mahmoud Ould — professeur de relations internationales à Genève. Introduction, ch. 10, ch. 12, ch. 13, ch. 16, ch. 31.
+- Nkrumah, Kwame — premier président du Ghana, théoricien du panafricanisme. ch. 3, ch. 5, ch. 7, ch. 11, ch. 21, ch. 22.
+- Nyamsi, Franklin — philosophe franco-camerounais. ch. 8, ch. 24.
+- Olympio, Sylvanus — premier président du Togo, assassiné en 1963. ch. 5, ch. 7, ch. 22, ch. 28.
+- Ouattara, Alassane — président de la Côte d'Ivoire. ch. 10, ch. 16, ch. 20, ch. 23.
+- Perkins, John — auteur de Confessions of an Economic Hit Man. ch. 9.
+- Samory Touré — fondateur de l'empire Wassoulou, résistant à la colonisation. ch. 4, Conclusion.
+- Sankara, Thomas — président du Burkina Faso (1983-1987), figure du panafricanisme. ch. 7, ch. 9, ch. 10, ch. 17, ch. 20, ch. 21, ch. 23, ch. 24, ch. 25, ch. 26, ch. 28, ch. 29, Conclusion.
+- Sarkozy, Nicolas — président français (2007-2012). ch. 6, ch. 11, ch. 14, ch. 25.
+- Soro, Guillaume — ancien chef rebelle ivoirien. ch. 10.
+- Sékou Touré, Ahmed — premier président de la Guinée, auteur du « non» de 1958. ch. 5, ch. 7, ch. 9, ch. 22, ch. 23, ch. 28, Conclusion.
+- Talon, Patrice — président du Bénin. ch. 9, ch. 10, ch. 20.
+- Tiani, Abdourahamane — président de la transition du Niger, chef du CNSP. Introduction, ch. 5, ch. 6, ch. 7, ch. 10, ch. 12, ch. 14, ch. 16, ch. 17, ch. 18, ch. 19, ch. 20, ch. 21, ch. 25, ch. 28, ch. 29, ch. 30, Conclusion.
+- Touadéra, Faustin-Archange — président de la République centrafricaine. ch. 28.
+- Traoré, Ibrahim — président de la transition du Burkina Faso. ch. 4, ch. 9, ch. 12, ch. 13, ch. 14, ch. 17, ch. 19, ch. 23, ch. 27, ch. 30.
+- Turpin, Frédéric — historien, biographe de Jacques Foccart. ch. 5, ch. 6, ch. 13.
+- Yamb, Nathalie — analyste géopolitique panafricaniste. ch. 5, ch. 8, ch. 9, ch. 10, ch. 13, ch. 14, ch. 16, ch. 18, ch. 21, ch. 22, ch. 23, ch. 24, ch. 25, ch. 26, ch. 29, ch. 30, ch. 31.
+- Yusov, Andriy — porte-parole du renseignement militaire ukrainien. ch. 20.
 
 ★ ★ ★
+
 
 # Notes méthodologiques & corpus de sources
 
 Ce livre repose sur un corpus de plus de 130 sources couvrant la période 2013-2026.
 Le principe de lecture est constant: une affirmation acquiert sa valeur lorsqu'elle est
-**recoupée par des sources situées de part et d'autre du conflit**. Quand une analyse
+recoupée par des sources situées de part et d'autre du conflit. Quand une analyse
 panafricaniste et une source française institutionnelle, académique ou judiciaire disent
 la même chose, le fait cesse d'être une opinion. C'est ce que ce livre appelle la
 convergence. Là où elle manque, l'affirmation est présentée comme une hypothèse, jamais
 comme une certitude.
-
 Trois précisions liminaires.
-
-**Sur le vocabulaire.** Le mot « putsch» est absent de ce livre. Les changements de
+Sur le vocabulaire. Le mot « putsch» est absent de ce livre. Les changements de
 gouvernement y sont désignés par les termes que les pays concernés emploient eux-mêmes:
-« transition militaire», « autorités de transition», « prise de pouvoir». Ce choix
+> « transition militaire», « autorités de transition», « prise de pouvoir». Ce choix
 n'est pas une complaisance; c'est un refus d'importer le lexique d'une seule des parties.
-
-**Sur les sources engagées.** Les analystes panafricanistes cités ici — Nathalie Yamb,
+Sur les sources engagées. Les analystes panafricanistes cités ici — Nathalie Yamb,
 Banda Kani, Franklin Nyamsi, Jonathan Batenguène, Anatole Ayissi, Dr Yamb Ntimba,
 Bertrand Tatsinda, Siké Doumbé, Jules Domche, Charly Kengne et d'autres — sont parties
 prenantes au débat qu'ils décrivent. Ce statut n'invalide pas leur propos: il l'encadre.
@@ -1960,74 +1610,71 @@ les communiqués du ministère des Armées, les déclarations de l'Élysée, les
 ambassadrice comme Anne-Sophie Avé sont eux aussi des paroles de partie. La rigueur ne se
 règle pas sur l'origine géographique d'une source, mais sur sa position par rapport aux
 faits qu'elle rapporte.
-
-**Sur les limites.** Une partie des faits relatés ici sont récents — les événements de 2026
+Sur les limites. Une partie des faits relatés ici sont récents — les événements de 2026
 en particulier (les attaques du 25 avril, les révélations de RTL du 9 mai, l'affaire
 Vésilier, le rapport de Human Rights Watch d'avril, la condamnation de Lafarge). Ils sont
 datés et référencés, mais l'histoire récente reste révisable: certaines de ces pièces
 seront complétées, nuancées ou contestées. Les passages reposant sur une source unique ou
 sur un témoignage non recoupé sont signalés comme tels dans le texte. Le lecteur est invité
 à les lire pour ce qu'ils sont: des éléments à confirmer, non des verdicts.
-
 ---
 
 ## Sources françaises critiques et d'investigation
 
-- **Raphaël Granvaud**, *De l'huile sur le feu* (Lux Éditeur, 2024, coll. Dossiers noirs /
- Survie) — opération Sabre, fabrication juridique de Serval, mécanisme de l'aide-influence,
- rôle des sociétés privées de sécurité.
-- **Thomas Dietrich**, *L'armée fantôme de Paris* (2024) — présence française résiduelle au
- Bénin, école cyber du 43e BIMA.
-- **Pierre Péan**, *Carnages* (Fayard, 2010) — architecture des guerres secrètes dans les
- Grands Lacs.
-- **RTL France**, George Malbruno (9 mai 2026) — ex-légionnaires et renseignement ukrainien.
-- **Le Monde** / Jérémie Baruch (10 avril 2018) — affaire Elf.
-- **Le Parisien** / Ronan Folgoas (21 mai 2023) — affaire Quignolot, cellule Afrique de l'Élysée.
-- **France Inter** / Élodie Guéguen (26 mai 2023) — groupe Castel, parquet antiterroriste.
-- **Mediapart**, Fanny Pigeaud — fonctionnement du franc CFA.
-- **André Bourgeot** (CNRS) — « Azawad est une fabrication politique».
-- **Thomas Porcher** (PSB Paris) — partage des revenus pétroliers au Congo.
+- Raphaël Granvaud, De l'huile sur le feu (Lux Éditeur, 2024, coll. Dossiers noirs /
+Survie) — opération Sabre, fabrication juridique de Serval, mécanisme de l'aide-influence,
+rôle des sociétés privées de sécurité.
+- Thomas Dietrich, L'armée fantôme de Paris (2024) — présence française résiduelle au
+Bénin, école cyber du 43e BIMA.
+- Pierre Péan, Carnages (Fayard, 2010) — architecture des guerres secrètes dans les
+Grands Lacs.
+- RTL France, George Malbruno (9 mai 2026) — ex-légionnaires et renseignement ukrainien.
+- Le Monde / Jérémie Baruch (10 avril 2018) — affaire Elf.
+- Le Parisien / Ronan Folgoas (21 mai 2023) — affaire Quignolot, cellule Afrique de l'Élysée.
+- France Inter / Élodie Guéguen (26 mai 2023) — groupe Castel, parquet antiterroriste.
+- Mediapart, Fanny Pigeaud — fonctionnement du franc CFA.
+- André Bourgeot (CNRS) — « Azawad est une fabrication politique».
+- Thomas Porcher (PSB Paris) — partage des revenus pétroliers au Congo.
 
 ## Sources institutionnelles françaises (paroles d'adversaire)
 
-- **Commission parlementaire française** sur les relations France-Afrique — « Nous avons
- besoin de l'Afrique plus qu'elle n'a besoin de nous.»
-- **Général Thierry Burkhard**, chef d'état-major des armées — audition à huis clos,
- Assemblée nationale, septembre 2024.
-- **Alain Juillet**, ancien directeur du renseignement de la DGSE — diagnostic du déclin
- de l'influence française.
-- **Anne-Sophie Avé**, ancienne ambassadrice au Mali, directrice Afrique au Quai d'Orsay —
- doctrine de la « dissonance cognitive».
-- **Rapport Védrine** (2013) — le panafricanisme identifié comme « menace».
-- **André Chassaigne**, député, Assemblée nationale (décembre 2013) — 50e intervention
- française, rôle de la RCA.
-- **Cour des comptes française** (2020) — coût de l'opération Barkhane.
-- **BOFiP**, administration fiscale française (17 juillet 2024) — dénonciation des
- conventions fiscales par les États de l'AES.
-
-> **Note de transparence.** Deux citations de dirigeants français qui circulent dans le débat public — la phrase
-> attribuée à Nicolas Sarkozy sur « la civilisation européenne» et celle prêtée à
-> Charles de Gaulle (1966) sur la francophonie qui « prendrait le relais de la colonisation» —
-> n'ont pas de source primaire vérifiable à ce jour. Elles sont signalées comme telles dans
-> le corps du texte et ne doivent pas être présentées comme établies.
+- Commission parlementaire française sur les relations France-Afrique — « Nous avons
+besoin de l'Afrique plus qu'elle n'a besoin de nous.»
+- Général Thierry Burkhard, chef d'état-major des armées — audition à huis clos,
+Assemblée nationale, septembre 2024.
+- Alain Juillet, ancien directeur du renseignement de la DGSE — diagnostic du déclin
+de l'influence française.
+- Anne-Sophie Avé, ancienne ambassadrice au Mali, directrice Afrique au Quai d'Orsay —
+doctrine de la « dissonance cognitive».
+- Rapport Védrine (2013) — le panafricanisme identifié comme « menace».
+- André Chassaigne, député, Assemblée nationale (décembre 2013) — 50e intervention
+française, rôle de la RCA.
+- Cour des comptes française (2020) — coût de l'opération Barkhane.
+- BOFiP, administration fiscale française (17 juillet 2024) — dénonciation des
+conventions fiscales par les États de l'AES.
+**Note de transparence.** Deux citations de dirigeants français qui circulent dans le débat public — la phrase
+attribuée à Nicolas Sarkozy sur « la civilisation européenne» et celle prêtée à
+Charles de Gaulle (1966) sur la francophonie qui « prendrait le relais de la colonisation» —
+n'ont pas de source primaire vérifiable à ce jour. Elles sont signalées comme telles dans
+le corps du texte et ne doivent pas être présentées comme établies.
 
 ## Sources académiques et internationales
 
-- **Mohammad-Mahmoud Ould Mohamedou**, « Le nouveau grand jeu des puissances occidentales
- au Sahel», in Michel Galy (dir.), *La Guerre au Mali*, La Découverte, 2013 — généalogie
- du jihadisme sahélien, normalisation de l'interventionnisme.
-- **SWP** (Institut allemand pour les affaires internationales et la sécurité), *Comment*
- n° 19, mai 2026 (Kurtz, Lacher, Roll) — rôle déstabilisateur des Émirats arabes unis.
-- **Frédéric Turpin**, *Jacques Foccart, dans l'ombre du pouvoir* (CNRS Éditions, 2015).
-- **John Perkins**, *Confessions of an Economic Hit Man* (2004).
-- **PNUD** (indice de développement humain), **Banque mondiale**, **ACLED** (2015-2022),
- **Haut Comité français pour la transparence nucléaire**, **CNUCED**.
-- **Emails Clinton/Blumenthal** (18 janvier 2013, WikiLeaks) — accord algérien avec Belmokhtar.
-- **Conseil de l'UE** (23 avril 2026). **Global Slavery Index** (2023). **Africa Intelligence**.
+- Mohammad-Mahmoud Ould Mohamedou, « Le nouveau grand jeu des puissances occidentales
+au Sahel», in Michel Galy (dir.), La Guerre au Mali, La Découverte, 2013 — généalogie
+du jihadisme sahélien, normalisation de l'interventionnisme.
+- SWP (Institut allemand pour les affaires internationales et la sécurité), Comment
+n° 19, mai 2026 (Kurtz, Lacher, Roll) — rôle déstabilisateur des Émirats arabes unis.
+- Frédéric Turpin, Jacques Foccart, dans l'ombre du pouvoir (CNRS Éditions, 2015).
+- John Perkins, Confessions of an Economic Hit Man (2004).
+- PNUD (indice de développement humain), Banque mondiale, ACLED (2015-2022),
+Haut Comité français pour la transparence nucléaire, CNUCED.
+- Emails Clinton/Blumenthal (18 janvier 2013, WikiLeaks) — accord algérien avec Belmokhtar.
+- Conseil de l'UE (23 avril 2026). Global Slavery Index (2023). Africa Intelligence.
 
 ## Sources panafricanistes et africaines
 
-Nathalie Yamb (chroniques *Afrique Résurrection*, grand débat de Niamey); Dr Yamb Ntimba
+Nathalie Yamb (chroniques Afrique Résurrection, grand débat de Niamey); Dr Yamb Ntimba
 (pyramide de domination); Franklin Nyamsi; Jonathan Batenguène; Anatole Ayissi (par
 ailleurs cadre des Nations unies pour l'Afrique centrale); Banda Kani; Dr Yves Ekoué Amaïzo
 (Afrocentricity Think Tank); Siké Doumbé; Jules Domche (Vox Africa); Charly Kengne;
@@ -2045,7 +1692,5 @@ de Choguel Kokalla Maïga (ONU, septembre 2021; Bamako, 19 octobre 2024); d'Abdo
 (ONU, septembre 2022); d'Abdoulaye Diop, ministre malien des Affaires étrangères; communiqué
 conjoint des trois ministres de l'AES (19 août 2024); communiqué du CNSP sur la base d'Agadez
 (RTN, 16 mars 2024); Sylvie Baipo Témon, ministre des Affaires étrangères de la RCA (octobre 2021).
-
 ---
-
-*« La rigueur n'est pas l'apanage de ceux qui dominent. Elle est l'arme de ceux qui résistent.»*
+> « La rigueur n'est pas l'apanage de ceux qui dominent. Elle est l'arme de ceux qui résistent.»
