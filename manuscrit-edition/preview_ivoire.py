@@ -8,7 +8,7 @@ import fitz, struct, zlib
 OUT_PDF = Path("/tmp/preview_ivoire.pdf")
 OUT_PNG = Path("/home/user/tts-docs/manuscrit-edition/preview_ivoire.png")
 
-IVOIRE    = "#FAF6EE"
+IVOIRE    = "#FFFFFF"
 ARDOISE   = "#2C3A4A"
 OR_SATIN  = "#A07820"
 CREME     = "#F2EDE0"
@@ -300,7 +300,7 @@ def png_chunk(name, data):
 
 composite = bytearray(total_h * max_w * 3)
 for i in range(len(composite)):
-    composite[i] = 250  # fond ivoire
+    composite[i] = 255  # fond blanc
 
 y_off = 0
 for pix in imgs:
