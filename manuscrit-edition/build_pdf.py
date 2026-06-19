@@ -59,6 +59,42 @@ body {{
     hyphens: auto;
 }}
 
+/* ── PAGES DE PARTIE ──────────────────────────────────────── */
+.partie-page {{
+    page-break-before: always;
+    page-break-after: always;
+    text-align: center;
+    padding-top: 2.6in;
+    background: {BLANC};
+}}
+
+.partie-label {{
+    font-family: 'Crimson Text', 'FreeSerif', serif;
+    font-size: 10pt;
+    font-weight: 600;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: {ARDOISE};
+    margin-bottom: 0.6em;
+}}
+
+.partie-title {{
+    font-family: 'Crimson Text', 'FreeSerif', serif;
+    font-size: 20pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: {ARDOISE};
+    line-height: 1.2;
+    margin-bottom: 0.7em;
+}}
+
+.partie-rule {{
+    width: 55%;
+    margin: 0 auto;
+    border-top: 1pt solid {OR_SATIN};
+}}
+
 /* ── CHAPITRES ────────────────────────────────────────────── */
 h1 {{
     font-family: 'Crimson Text', 'FreeSerif', serif;
@@ -294,7 +330,19 @@ def convert_encadre(m):
     tds = ''.join(f'<tr><td class="enc-td">{r}</td></tr>' for r in rows)
     return f'\n<table class="enc">\n{th}\n<tbody>\n{tds}\n</tbody>\n</table>\n'
 
+def convert_partie(m):
+    label = m.group(1).strip()   # "PARTIE I"
+    title = m.group(2).strip()   # "L'AFRIQUE AVANT LA DOMINATION"
+    return (
+        f'\n<div class="partie-page">'
+        f'<div class="partie-label">{label}</div>'
+        f'<div class="partie-title">{title}</div>'
+        f'<div class="partie-rule"></div>'
+        f'</div>\n'
+    )
+
 def preprocess(text: str) -> str:
+    text = re.sub(r'^# (PARTIE\s+[IVX]+)\s+—\s+(.+)$', convert_partie, text, flags=re.MULTILINE)
     text = re.sub(r'^\s*★\s*★\s*★\s*$', '<div class="stars">★ ★ ★</div>', text, flags=re.MULTILINE)
     text = re.sub(r'---ENCADRE---\n(.*?)---FIN---', convert_encadre, text, flags=re.DOTALL)
     return text
