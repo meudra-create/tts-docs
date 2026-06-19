@@ -11,21 +11,32 @@ OUT = Path(__file__).parent / "LIVRE-FINAL.pdf"
 
 BLANC     = "#FFFFFF"
 ARDOISE   = "#2C3A4A"
+ARDOISE_L = "#3D5068"
 OR_SATIN  = "#A07820"
-CREME     = "#F2EDE0"
-CREME_BD  = "#D6CEB8"
-GRIS_TX   = "#3A3A3A"
-GRIS_SUB  = "#5A5A5A"
+OR_CLAIR  = "#C9A24A"
+CREME     = "#F4EFE4"
+CREME_BD  = "#D8CEBC"
+GRIS_TX   = "#2E2E2E"
+GRIS_SUB  = "#555555"
 
 CSS_STYLES = f"""
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600&family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&display=swap');
 
+/* ── MISE EN PAGE ─────────────────────────────────────────── */
 @page {{
     size: 6in 9in;
-    margin-top: 0.75in;
-    margin-bottom: 0.70in;
+    margin-top: 0.80in;
+    margin-bottom: 0.90in;
     margin-left: 0.80in;
     margin-right: 0.60in;
+
+    @bottom-center {{
+        content: "— " counter(page) " —";
+        font-family: 'Crimson Text', 'FreeSerif', serif;
+        font-size: 9pt;
+        color: #A8A8A0;
+        letter-spacing: 0.15em;
+    }}
 }}
 
 @page :left {{
@@ -33,95 +44,118 @@ CSS_STYLES = f"""
     margin-right: 0.80in;
 }}
 
+@page :blank {{
+    @bottom-center {{ content: ''; }}
+}}
+
+/* ── CORPS ────────────────────────────────────────────────── */
 body {{
     font-family: 'EB Garamond', 'FreeSerif', Georgia, serif;
     font-size: 11.5pt;
-    line-height: 1.60;
+    line-height: 1.63;
     color: {GRIS_TX};
     background: {BLANC};
     text-align: justify;
     hyphens: auto;
 }}
 
+/* ── CHAPITRES ────────────────────────────────────────────── */
 h1 {{
     font-family: 'Crimson Text', 'FreeSerif', serif;
-    font-size: 22pt;
+    font-size: 21pt;
     font-weight: 600;
-    font-style: normal;
-    color: {ARDOISE};
+    color: {BLANC};
+    background: {ARDOISE};
     text-align: left;
     margin-top: 0;
-    margin-bottom: 0.3em;
-    padding-bottom: 0.4em;
-    border-bottom: 1pt solid {OR_SATIN};
+    margin-bottom: 2.2em;
+    margin-left: -0.80in;
+    margin-right: -0.60in;
+    padding: 1.4em 0.80in 1.2em 0.80in;
     page-break-before: always;
-    letter-spacing: 0.01em;
+    line-height: 1.25;
+    border-top: 4pt solid {OR_SATIN};
+    border-bottom: 1pt solid {ARDOISE_L};
+    letter-spacing: 0.005em;
 }}
 
-h1 + p {{
-    margin-top: 1.2em;
-    text-indent: 0;
-}}
-
+/* ── SECTIONS ─────────────────────────────────────────────── */
 h2 {{
     font-family: 'Crimson Text', 'FreeSerif', serif;
     font-size: 10.5pt;
     font-weight: 600;
     font-variant: small-caps;
-    letter-spacing: 0.12em;
+    letter-spacing: 0.16em;
     text-transform: lowercase;
     color: {ARDOISE};
-    margin-top: 2em;
-    margin-bottom: 0.6em;
-    border-bottom: 0.5pt solid {CREME_BD};
-    padding-bottom: 0.25em;
+    margin-top: 2.4em;
+    margin-bottom: 0.75em;
+    padding-bottom: 0.35em;
+    border-bottom: 1pt solid {OR_SATIN};
 }}
 
+/* ── SOUS-SECTIONS ────────────────────────────────────────── */
 h3 {{
     font-family: 'EB Garamond', serif;
     font-size: 11.5pt;
     font-weight: 500;
     font-style: italic;
     color: {OR_SATIN};
-    margin-top: 1.4em;
-    margin-bottom: 0.3em;
+    margin-top: 1.7em;
+    margin-bottom: 0.35em;
 }}
 
+/* ── PARAGRAPHES ──────────────────────────────────────────── */
 p {{
-    margin: 0.25em 0 0.5em 0;
-    text-indent: 1.3em;
+    margin: 0 0 0 0;
+    text-indent: 1.4em;
+    orphans: 3;
+    widows: 3;
 }}
 
-p:first-of-type, h1 + p, h2 + p, h3 + p, blockquote + p, hr + p {{
+p + p {{
+    margin-top: 0.1em;
+}}
+
+p:first-of-type,
+h1 + p, h2 + p, h3 + p,
+blockquote + p, hr + p, .stars + p, .encadre + p {{
     text-indent: 0;
 }}
 
+/* ── CITATIONS EN EXERGUE ─────────────────────────────────── */
 blockquote {{
     background: {CREME};
-    border-left: 2pt solid {OR_SATIN};
-    margin: 1.4em 0.5em;
-    padding: 0.75em 1em;
+    border-left: 3pt solid {OR_SATIN};
+    border-top: 0.5pt solid {CREME_BD};
+    border-bottom: 0.5pt solid {CREME_BD};
+    margin: 1.6em 0;
+    padding: 0.9em 1.2em 0.9em 1.5em;
     font-style: italic;
     color: {GRIS_SUB};
     page-break-inside: avoid;
+    font-size: 11pt;
+    line-height: 1.58;
 }}
 
 blockquote p {{
     text-indent: 0;
-    margin: 0.2em 0;
+    margin: 0.15em 0;
     color: {GRIS_SUB};
 }}
 
+/* ── LISTES ───────────────────────────────────────────────── */
 ul, ol {{
-    margin: 0.5em 0 0.5em 1.5em;
+    margin: 0.6em 0 0.6em 1.5em;
     padding: 0;
 }}
 
 li {{
-    margin-bottom: 0.35em;
-    line-height: 1.55;
+    margin-bottom: 0.4em;
+    line-height: 1.56;
 }}
 
+/* ── EMPHASE ──────────────────────────────────────────────── */
 em {{
     font-style: italic;
 }}
@@ -131,62 +165,103 @@ strong {{
     color: {ARDOISE};
 }}
 
+/* ── SÉPARATEUR ───────────────────────────────────────────── */
 hr {{
     border: none;
     border-top: 0.5pt solid {CREME_BD};
-    margin: 2em auto;
-    width: 35%;
+    margin: 2.4em auto;
+    width: 30%;
 }}
 
+/* ── ÉTOILES (séparateur de section) ─────────────────────── */
 .stars {{
     text-align: center;
     color: {OR_SATIN};
-    font-size: 14pt;
-    margin: 1.4em 0;
-    letter-spacing: 0.5em;
+    font-size: 13pt;
+    margin: 2.0em 0;
+    letter-spacing: 1.0em;
+    page-break-after: avoid;
 }}
 
+/* ── TABLEAUX ─────────────────────────────────────────────── */
 table {{
     width: 100%;
     border-collapse: collapse;
-    margin: 1.2em 0;
+    margin: 1.5em 0;
     font-size: 10pt;
     page-break-inside: avoid;
-    background: {CREME};
 }}
 
 th {{
     background: {ARDOISE};
     color: {BLANC};
-    padding: 0.45em 0.7em;
+    padding: 0.55em 0.8em;
     text-align: left;
     font-weight: 600;
     font-family: 'Crimson Text', serif;
     font-variant: small-caps;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.07em;
     font-size: 10.5pt;
+    border-bottom: 2.5pt solid {OR_SATIN};
 }}
 
 td {{
-    border: 0.5pt solid {CREME_BD};
-    padding: 0.4em 0.7em;
+    border-bottom: 0.5pt solid {CREME_BD};
+    padding: 0.45em 0.8em;
     vertical-align: top;
-    background: {CREME};
 }}
 
 tr:nth-child(even) td {{
-    background: {BLANC};
+    background: {CREME};
 }}
 
+tr:last-child td {{
+    border-bottom: 1pt solid {ARDOISE};
+}}
+
+/* ── ENCADRÉS ─────────────────────────────────────────────── */
 .encadre {{
     background: {CREME};
-    border: 1pt solid {CREME_BD};
-    border-left: 3pt solid {OR_SATIN};
-    padding: 0.85em 1.1em;
-    margin: 1.2em 0;
+    border-top: 1.5pt solid {ARDOISE};
+    border-bottom: 1.5pt solid {ARDOISE};
+    border-left: 4pt solid {OR_SATIN};
+    border-right: none;
+    padding: 1.1em 1.3em;
+    margin: 1.8em 0;
     page-break-inside: avoid;
+    font-size: 10.5pt;
+    line-height: 1.55;
 }}
 
+.encadre p {{
+    text-indent: 0;
+    margin: 0.3em 0;
+}}
+
+.encadre strong {{
+    display: block;
+    font-family: 'Crimson Text', serif;
+    font-size: 9pt;
+    font-weight: 600;
+    font-variant: small-caps;
+    letter-spacing: 0.12em;
+    color: {ARDOISE};
+    margin-bottom: 0.7em;
+    padding-bottom: 0.45em;
+    border-bottom: 0.5pt solid {CREME_BD};
+    text-transform: lowercase;
+}}
+
+.encadre ul {{
+    margin: 0.3em 0 0.3em 1.2em;
+}}
+
+.encadre li {{
+    margin-bottom: 0.3em;
+    line-height: 1.5;
+}}
+
+/* ── CODE ─────────────────────────────────────────────────── */
 code {{
     font-family: monospace;
     font-size: 9pt;
@@ -194,6 +269,7 @@ code {{
     padding: 0.1em 0.3em;
 }}
 
+/* ── LIENS ────────────────────────────────────────────────── */
 a {{
     color: {OR_SATIN};
     text-decoration: none;
@@ -228,7 +304,7 @@ def main():
     print("Conversion Markdown → HTML...")
     html = md_to_html(md_text)
 
-    print("Génération PDF — thème Ardoise & Or...")
+    print("Génération PDF — thème Ardoise & Or (enrichi)...")
     doc = HTML(string=html, base_url=str(Path(__file__).parent))
     css = CSS(string=CSS_STYLES)
     doc.write_pdf(str(OUT), stylesheets=[css])
