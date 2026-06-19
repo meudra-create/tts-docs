@@ -614,13 +614,14 @@ La Libye de Kadhafi était l'un des États les plus militarisés d'Afrique. Sa d
 - Un État effondré, incapable de contrôler ses 4 000 kilomètres de frontières sahariennes
 - Le Fezzan livré à lui-même, transformé en base arrière régionale
 
+---FIN---
+
 Le Fezzan, justement. Cette vaste région désertique du sud libyen, peu contrôlée par Tripoli, a toujours été tournée vers le Niger, le Tchad et le Soudan plutôt que vers la côte méditerranéenne. Elle abrite des tribus touareg, toubou et arabes dont les réseaux de solidarité s'étendent de part et d'autre de plusieurs frontières à la fois. Kadhafi tenait le Fezzan. Son élimination a libéré cet espace, qui devient en quelques années la principale base arrière logistique des groupes armés actifs au Sahel — non seulement un couloir de passage, mais une zone de repli, de recrutement et d'approvisionnement. Les arsenaux dispersés y ont transité. Les réseaux tribaux transfrontaliers y ont prospéré, sans État pour les contraindre.
 Les autorités de transition maliennes résumeront la séquence, onze ans plus tard, dans un communiqué officiel d'une sécheresse remarquable: « La France a détruit la Libye, dispersé ses arsenaux dans tout le Sahel, puis a présenté la facture sécuritaire aux pays africains sous forme de présence militaire permanente.» (Communiqué des autorités de transition du Mali, 2022.) On peut discuter le ton. On peut difficilement discuter l'enchaînement des faits: intervention en 2011, effondrement libyen, dissémination des armes, déstabilisation du Sahel, puis déploiement militaire occidental présenté comme la réponse au chaos.
 Encore fallait-il, pour que ces armes deviennent une guerre, qu'elles rencontrent des hommes, des réseaux et une idéologie. Or ceux-là n'attendaient pas en Libye: ils avaient été transplantés au Sahel dix ans plus tôt, depuis l'Algérie — et c'est cette greffe qu'il faut maintenant raconter.
 
 ★ ★ ★
 
----FIN---
 # Chapitre 12 — L'explosion du terrorisme
 
 > « Azawad est une fabrication politique.» — André Bourgeot, chercheur au CNRS, spécialiste du Sahel
@@ -656,11 +657,12 @@ La fabrique du terrorisme n'est pas seulement idéologique et financière. Elle 
 - Les sentiers nomades traversent l'Algérie et la Mauritanie presque de bout en bout, reliant les zones de combat maliennes aux bases arrière proches de la Méditerranée
 - Ces routes préexistent à la colonisation: Berlin 1884-1885 a tracé des frontières, les pistes du désert, elles, n'ont jamais changé
 
+---FIN---
+
 Ces corridors offrent aux groupes armés trois avantages: des camps de repli sur des territoires échappant à toute souveraineté effective; une économie de guerre autofinancée par la contrebande d'armes et de stupéfiants — concrètement, la guerre paie la guerre, sans dépendre d'un sponsor unique; et un recrutement transfrontalier au sein de communautés que les frontières de Berlin ont coupées en deux. Les frontières divisent les familles; les réseaux de recrutement les traversent. L'asymétrie est structurelle — et millénaire. Au bout de ces pistes, le Fezzan libyen, déjà rencontré au chapitre précédent, sert de base arrière durable.
 Le général Tiani, président du Niger, replace l'ensemble dans un cadre plus long encore. Depuis 1979, dit-il dans un entretien à Télé Sahel, une même matrice opère — La Mecque, l'Afghanistan, l'Irak, la Syrie, la Libye, et aujourd'hui le Sahel: provoquer un foyer d'instabilité, intervenir au nom de l'humanitaire, extraire les ressources stratégiques. Dans le même entretien, il affirme que plus de 700 combattants ont été transférés en deux vagues depuis le bassin du lac Tchad vers la zone des trois frontières, dotés de drones, d'armement lourd et d'explosifs, et encadrés par des instructeurs étrangers. Ce que Tiani nomme les « auxiliaires néocoloniaux» ne seraient pas des jihadistes autonomes, mais les sous-traitants d'une stratégie externe. On n'est pas obligé de le suivre jusque-là. Mais sa lecture converge avec un fait têtu, que le journaliste Siké Doumbé (For You Media) résume en quelques questions que les institutions internationales évitent depuis dix ans: « Comment le terrorisme continue-t-il de progresser dans l'une des zones les plus militarisées du continent? Qui finance réellement cette guerre, qui arme ces groupes et à qui profite réellement l'instabilité du Sahel? Comment expliquer qu'avec toute la puissance technologique des grandes armées occidentales — satellites, drones, radars, imagerie thermique, renseignement en temps réel — les groupes terroristes continuent d'opérer pendant des années?»
 Doumbé rappelle aussi l'enjeu qui dort sous le sable: le Niger détient à lui seul environ 5 % des réserves mondiales d'uranium — quelque 310 000 tonnes — et la zone AES élargie produit environ 230 tonnes d'or par an (Siké Doumbé, For You Media). La stabilité du Sahel n'intéresse pas grand monde. L'accès à ses sous-sols, si.
 
----FIN---
 ## La greffe syrienne: l'après-Damas au Sahel
 
 La matrice que décrit Tiani — de l'Afghanistan à la Syrie, de la Syrie au Sahel — a pris, depuis la chute d'Assad, une réalité organisationnelle concrète. L'analyste Laith Marouf, depuis le théâtre levantin, documente ce que les cartographies des corridors commencent à révéler sur le terrain: des milices liées à Ahmad al-Sharaa — l'ancien Abou Mohammad al-Julani, maître de Damas depuis décembre 2024 — ont été progressivement redéployées hors de Syrie vers l'Afrique centrale et le Sahel, y compris le Niger et le Mali. Ce que Marouf nomme les « milices de la mort» ne se dissolvent pas avec la victoire de leur chef: elles s'exportent.
@@ -701,13 +703,14 @@ En août 2014, Serval devient Barkhane. Le dispositif s'étend sur cinq pays.
 - Coût: environ 1 milliard d'euros par an, soit 1,3 milliard de francs CFA par jour; plus de 5 milliards cumulés entre 2014 et 2022 (Cour des comptes, 2020)
 - Résultat: nombre d'attaques jihadistes multiplié par trois entre 2014 et 2021 (ACLED, 2022)
 
+---FIN---
+
 Cinq milliards d'euros. Neuf ans. La menace triple. Il n'y a que deux explications possibles: soit les armées françaises sont incompétentes — ce que la communication officielle dément avec véhémence —, soit la mission n'était pas celle qu'on annonçait. La seconde hypothèse a des preuves.
 Première preuve: Kidal. Pendant toute la décennie, l'armée française interdit de fait aux Forces armées maliennes de réoccuper le nord de leur propre pays. Choguel Kokalla Maïga le dénonce à la tribune de l'ONU en septembre 2021: abandon en plein vol, interdiction faite aux FAMa d'occuper le nord, la force européenne Takuba comme instrument de partition, sanctuarisation délibérée des terroristes. On le traite alors de complotiste. En mai 2026, une source sécuritaire française confirmera sur RTL l'existence d'une guerre par procuration contre le Mali — on y reviendra. Le complotiste de 2021 est devenu l'analyste prophétique de 2026.
 Deuxième preuve: Gao, 2014. L'armée française tient Iyad Ag Ghali à portée de frappe. François Hollande stoppe l'opération « pour ne pas fâcher l'Algérie». Ag Ghali est aujourd'hui l'émir du JNIM, responsable du blocus de Bamako en 2025. La décision de 2014 a un bilan.
 Troisième preuve: l'aveu de Macron lui-même, au sommet du G5 Sahel de juillet 2017: « Il faut mettre des projets, il faut de la gouvernance, parce que sinon dès qu'on arrête un groupe terroriste, il arrive à réactiver des jeunes parce qu'il n'y a pas d'espoir.» Et: « On a payé le prix de la mauvaise gouvernance politique. On est resté trop longtemps dans une posture de soutien sans que ça bouge sur les projets et la rénovation démocratique.» Il dira aussi: « Il n'y aurait sans doute pas à coup sûr le Mali comme État unique si on n'était pas intervenu en 2013.» Autrement dit: Serval a sauvé l'État malien, mais dès 2017, le président français sait que Barkhane échoue sur l'essentiel. Il la maintient sept ans de plus.
 Sur le terrain, le bilan se mesure en routes coupées. Ibrahim Traoré, depuis Ouagadougou: « Quand ils ont quitté, Bobo et Ouaga étaient coupées. On ne pouvait plus circuler sur la RN16. Les terroristes étaient à 100 kilomètres de Koudougou. Tout était encerclé. Ils étaient là avec tous les hélicoptères, les chars, la technologie, les drones, les satellites — ils étaient incapables.» Et cette pointe: « Neuf ans — la France n'a pas donné un seul hélicoptère au Mali. Aujourd'hui, vous voyez le nombre d'aéronefs que nous avons pu accueillir en moins de deux ans sur nos ressources propres, au moment où le pays est sous sanction et embargo.» (Capitaine Ibrahim Traoré, président du Faso.)
 
----FIN---
 ## Le prix du sang, comptabilité véritable
 
 Reste l'argument ultime de Paris: le sacrifice. En 2025, le ministre des Armées Sébastien Lecornu déclare au Figaro qu'il est « profondément navrant» de voir le terrorisme resurgir au Sahel après tant d'efforts — sous-entendu, après le sang versé des 58 soldats français morts au Sahel. Ce chiffre mérite un examen mort par mort. Nathalie Yamb l'a fait, en s'appuyant exclusivement sur les données publiées par le ministère français des Armées lui-même.
@@ -721,6 +724,8 @@ Reste l'argument ultime de Paris: le sacrifice. En 2025, le ministre des Armées
 - 2 tués par leurs propres camarades
 - 15 morts au combat réels
 
+---FIN---
+
 Quinze morts au combat. Pour la France — pas pour le Mali, pas pour le Niger, pas pour le Burkina. Et ce chiffre est inférieur au bilan d'une seule frappe française: le 3 janvier 2021, à Bounti, dans la région de Mopti, l'aviation française frappe un rassemblement. L'enquête de la MINUSMA conclut qu'il s'agissait d'un mariage et dénombre 22 morts, dont 19 civils. Le ministère des Armées maintient sa version et tente de discréditer le rapport onusien.
 Si l'on veut vraiment parler de sacrifice, élargissons le cadre: des centaines de milliers de tirailleurs dits « sénégalais» sont morts pour la France lors des deux guerres mondiales. Le 1er décembre 1944, au camp de Thiaroye, l'armée française a tiré sur ses propres soldats africains qui réclamaient leurs soldes. Leur sacrifice n'a pas de ministre pour en parler au Figaro. La comptabilité du sang est à géométrie variable: exhaustive côté français, invisible côté africain.
 Une dernière observation de Yamb mérite d'être méditée. Quand les Américains quittent l'Afghanistan en août 2021, leurs soldats rentrent chez eux. Quand la France quitte le Mali en août 2022, ses troupes se redéploient au Niger, au Tchad, en Côte d'Ivoire. Nulle démobilisation. Une relocalisation (Yamb, 15 août 2022). Une armée que l'on ne peut pas ramener chez soi n'est pas une armée de libération; c'est une armée d'occupation qui change de base.
@@ -729,7 +734,6 @@ Foccart, en 1955, exigeait de rester au Vietnam et de le faire savoir; on conna�
 
 ★ ★ ★
 
----FIN---
 # Chapitre 14 — La bataille de l'information
 
 > « La guerre n'est pas seulement les armes, les images, les atrocités. C'est aussi et avant tout une guerre de communication. Parce que qui contrôle l'information contrôle la stratégie.» — Jules Domche, Vox Africa, mai 2026
@@ -770,9 +774,10 @@ Le cas d'école est le rapport du 2 avril 2026: 342 pages visant Ibrahim Traoré
 - Sanctions: justifier gels d'avoirs et mesures ciblées
 - Dissuasion: adresser un message aux autres dirigeants de l'AES
 
+---FIN---
+
 Pour le dire simplement, la mécanique de l'étranglement fonctionne en cascade: un rapport qualifie un État d'« autoritaire»; les agences de notation dégradent sa note; son coût d'emprunt augmente; le FMI et la Banque mondiale conditionnent ou suspendent leurs financements. L'étranglement économique avance déguisé en préoccupation humanitaire. La conclusion n'est pas qu'il faut abolir l'humanitaire. C'est qu'il faut mettre fin à son immunité analytique. Le Niger en a tiré une conséquence radicale en 2025 en expulsant le CICR, Tiani invoquant des réunions secrètes tenues à Abuja début 2025 entre représentants occidentaux et groupes armés, avec le CICR comme vecteur financier.
 
----FIN---
 ## Quatrième front: le judiciaire
 
 Il existe un tribunal pénal international. Il siège à La Haye, dispose de 180 millions d'euros par an et a prononcé, depuis sa création en 2002, des condamnations contre des ressortissants de RDC, d'Ouganda, de Centrafrique, du Mali, de Côte d'Ivoire, de Libye, du Soudan, du Kenya, de Géorgie. Aucune contre un Français. Aucune contre un Américain. La géographie de la justice dit tout de sa nature.
@@ -931,9 +936,10 @@ Niamey, 26 juillet 2023. Au petit matin, la garde présidentielle nigérienne pl
 - Accord UE-Niger de 2015 sur les flux migratoires transsahariens — le verrou migratoire de l'Europe
 - La dernière grande base arrière occidentale au Sahel après les départs du Mali et du Burkina
 
+---FIN---
+
 Perdre le Niger, c'était perdre d'un coup l'intégralité du dispositif sahélien occidental. C'est exactement ce qui va se produire — et sans qu'une seule goutte de sang soit versée.
 
----FIN---
 ## Le C-17 qui rebrousse chemin
 
 La première démonstration de souveraineté a lieu dans le ciel. Le 3 août 2023, un Boeing C-17A Globemaster de l'armée américaine décolle de Ramstein, en Allemagne, direction Niamey. Au-dessus de l'Algérie, il fait demi-tour: le CNSP lui a refusé l'atterrissage. Avant même que les accords de défense soient officiellement dénoncés, la souveraineté de l'espace aérien nigérien s'affirme dans les faits. En d'autres termes, le nouveau pouvoir ne négocie pas le principe — il le pratique, et laisse aux juristes le soin de constater.
@@ -977,9 +983,10 @@ Le nom même est un manifeste. Le Liptako-Gourma, c'est la zone des trois fronti
 - Libre circulation des personnes entre les trois États membres
 - Création d'une Force unifiée de l'AES, installée le 21 décembre 2025
 
+---FIN---
+
 La clause centrale est la première: la défense collective. Concrètement, c'est le principe qui fonde l'OTAN — l'attaque d'un seul vaut attaque de tous —, transposé au Sahel: envahir le Niger, désormais, c'est entrer en guerre contre le Mali et le Burkina Faso en même temps. La menace d'intervention de la CEDEAO meurt ce jour-là, tuée par une signature.
 
----FIN---
 ## De l'alliance à la Confédération
 
 Ce qui suit dément tous ceux qui voyaient dans la Charte un geste défensif improvisé. Le 28 janvier 2024, les trois pays se retirent simultanément de la CEDEAO. Le 6 juillet 2024, au Centre international de conférences Mahatma Gandhi de Niamey, ils proclament la Confédération des États du Sahel. Le 21 décembre 2025, Goïta installe la Force unifiée. Chaque étape rend la précédente irréversible. Nulle improvisation. Une construction.
@@ -1044,10 +1051,11 @@ Dans la nuit du 28 au 29 janvier 2026, l'aéroport international Diori Hamani et
 - 8 mai: le Niger suspend dix médias français; la HAC malienne bannit Al Arabiya
 - 9 mai: RTL — les révélations Malbruno; 10 mai: Goïta reprend le portefeuille de la Défense
 
+---FIN---
+
 La coordination entre jihadistes et séparatistes, longtemps niée, s'affiche cette fois publiquement: Iyad Ag Ghali, chef du JNIM, et Alghabass Ag Intala commentent ensemble les attaques en vidéo; et le porte-parole du FLA déclare, sans qu'on le lui demande: « Nous avons de bons contacts avec les Ukrainiens tout comme avec la France, avec les États-Unis, avec presque tout le monde.» Banda Kani va plus loin: il décrit un contingent d'environ 12 000 hommes mêlant recrues sahéliennes précarisées et encadrement étranger, et des chefs de groupes armés en contact direct avec des cercles stratégiques français. L'analyste Laith Marouf apporte un éclairage complémentaire sur la composition de cet encadrement: des combattants issus des milices liées à Ahmad al-Sharaa, constituées dans le creuset syrien, auraient été progressivement redéployés vers le Sahel à mesure que leur noyau résiduel en Syrie fragilisait son emprise territoriale. Greffe algérienne des années 1990, armes libyennes de 2011, miliciens syriens de l'après-2024 — l'internationalisation de la force combattante au Sahel suit la chronologie des effondrements régionaux que l'Occident a provoqués ou laissé prospérer.
 Et au centre de la journée, un mort qui n'est pas un mort parmi d'autres. Sadio Camara avait été identifié comme cible prioritaire dès février 2022, dans l'enregistrement attribué à Ouattara et Cissé évoqué au chapitre 10 — « D'ici deux semaines ils tombent». Ils ne sont pas tombés. Camara a continué: la coopération militaire scellée à Ouagadougou en novembre 2022, l'opération Kapidgou 2 en mai 2023, Kidal en novembre 2023, la Force unifiée en décembre 2025. C'est lui qui a transformé les FAMa en une armée capable de reprendre le nord du pays. Entre l'identification de la cible et son élimination: quatre ans et deux mois. La patience de ceux qui ont planifié cet attentat est elle-même une information. Camara n'était ni Lumumba ni Sankara — il ne gouvernait pas un pays. Mais la logique est la même: on élimine ceux qui rendent le projet souverain crédible. Sankara est tombé quand son bilan devenait incontestable; Camara, quand son œuvre devenait irréversible.
 
----FIN---
 ## La réponse, et l'aveu
 
 L'AES ne s'effondre pas. Militairement: 15 000 hommes mobilisés, plus de 4 000 ennemis neutralisés selon les chiffres officiels — invérifiables à ce stade —, et Kidal repris par les FAMa. Les 800 citernes de carburant envoyées par le Niger au Mali dès le 1er mai donnent à la solidarité de la Charte sa traduction la plus concrète. Diplomatiquement: suspension de dix médias français, bannissement d'Al Arabiya, préparation d'une nouvelle saisine de l'ONU avec preuves matérielles — après la demande d'enquête adressée dès juin 2025 au Conseil de sécurité et à la CPI par le journaliste malien Robert Dixard sur l'implication ukrainienne. Politiquement: le 10 mai, Goïta reprend personnellement le portefeuille de la Défense de son ministre assassiné. « En s'installant directement aux commandes de ce ministère régalien, le général d'armée Assimi Goïta renforce son contrôle sur l'appareil militaire tout en garantissant la stabilité de la chaîne de commandement» (ORTM, 10 mai 2026). Même Washington prend acte: un émissaire américain, Nick Checker, est reçu à Bamako les 28 et 29 avril — l'AES a résisté, et la lecture américaine du rapport de force évolue.
@@ -1115,9 +1123,10 @@ Reste un acteur que peu de lecteurs attendraient dans ce tableau, et que la rech
 - Prêt de 1,5 milliard de dollars au Tchad (juin 2023) pour contrôler le corridor logistique
 - Lobbying: quatre jours de la ministre d'État Lana Nusseibeh à Bruxelles en novembre 2025; la résolution du Parlement européen sur le Soudan, adoptée dans la foulée, ne mentionne pas le soutien émirati aux FSR
 
+---FIN---
+
 La guerre du Soudan ainsi alimentée a produit la plus grande crise humanitaire du monde: 33,7 millions de personnes dépendantes de l'aide selon l'ONU. Pour le dire simplement, un embargo de l'ONU est une interdiction internationale de livrer des armes à une zone de conflit; 458 vols cargo militaires en quatorze mois donnent la mesure de ce que vaut cette interdiction quand le contrevenant est riche et bien introduit. Détail qui ramène au cœur de notre sujet: le système de défense Galix, de fabrication française, a été retrouvé sur des blindés émiratis au Soudan. Les armes françaises participent au conflit soudanais — via les Émirats comme intermédiaire. Et le silence européen n'est pas une distraction: il est organisé, comme le montre le sort des amendements bloqués au Parlement européen. Pour l'AES, la leçon est immédiate: la guerre proxy décrite au chapitre précédent n'est pas une exclusivité française; c'est une méthode, dont le Soudan voisin offre la version la plus aboutie — et le Tchad, frontalier du Niger, en est déjà un maillon.
 
----FIN---
 ## La Côte d'Ivoire: le verrou ivoirien
 
 La Côte d'Ivoire n'appartient pas à l'AES. Elle n'est pas non plus, officiellement, une puissance hostile. Mais sa frontière commune avec le Burkina Faso est documentée par les autorités de la Confédération comme l'une des voies d'infiltration les plus actives. Nestor Podassé, coordinateur de la communication de l'AES: «Du côté Côte d'Ivoire et Bénin, on les utilise comme base arrière où les terroristes sont formés, et puis on les lance pour venir attaquer le Burkina, le Niger et le Mali» (Panafrican Média TV, juin 2026).
@@ -1219,11 +1228,12 @@ Pour comprendre pourquoi cette mort n'est pas un fait divers ouest-africain, il 
 - Budget de l'État équilibré, salaire du président réduit, train de vie des ministres rogné
 - La dette? Remboursable, disait-il, à condition que les créanciers viennent au Burkina expliquer eux-mêmes comment elle a été contractée
 
+---FIN---
+
 C'est, à ce jour, le programme de souveraineté africaine le plus ambitieux jamais réalisé sur le continent. Pas proclamé: réalisé. Sankara refusait l'aide française conditionnée comme il refusait les voitures de fonction de luxe — par cohérence, pas par posture.
 Dès le 4 octobre 1984, à la tribune de l'Assemblée générale des Nations unies, il avait porté ce discours à la face du monde: il y parlait au nom des déshérités, attaquait l'apartheid, et posait la dette comme l'instrument central de la domination postcoloniale. En d'autres termes: un pays endetté n'a plus besoin d'être occupé, puisque chaque échéance de remboursement décide à sa place de ses écoles, de ses hôpitaux et de ses alliances. On emprunte pour rembourser, on obéit pour emprunter. Le créancier gouverne sans soldats.
 Trois ans après New York, à Addis-Abeba, il ne demandait plus qu'on l'écoute: il demandait qu'on l'accompagne. Le front uni contre la dette ne s'est pas formé. La prophétie du sommet, si.
 
----FIN---
 ## Le 15 octobre 1987
 
 Ouagadougou, 15 octobre 1987, en début d'après-midi. Un commando fait irruption au Conseil de l'Entente, à la Maison du Peuple, où Sankara tient une réunion. Il est abattu avec douze de ses compagnons. Son ami, son frère d'armes, l'homme de la pièce d'à côté, prend le pouvoir le jour même: Blaise Compaoré. Il régnera vingt-sept ans, redevenu fréquentable du jour au lendemain pour les chancelleries occidentales, pendant que le dossier Sankara dormait dans un tiroir et que sa tombe restait quasi clandestine.
@@ -1309,9 +1319,10 @@ Sur ce point, la pièce la plus troublante du dossier ne vient ni de Bamako ni d
 - *Les ruptures seraient survenues de toute façon*: corruption systémique, échec sécuritaire malgré les alliés français et américains, voisinage entièrement passé sous direction militaire.
 - *Wagner était présent avant la prise de pouvoir*: « chevaux de Troie» infiltrés, chef de parti arrêté — démentant la fable d'une transition fabriquée par Moscou, puisque la pénétration russe existait sous son propre mandat, malgré la présence française.
 
+---FIN---
+
 Et l'aveu qui les couronne tous: « Les gens du village qui sont victimes du terrorisme ne savent pas qu'il y a des Français ici au Niger, ou des Américains, ou des Russes.» Un président élu décrivant un dispositif militaire étranger invisible à son propre peuple — c'est la définition même de la souveraineté confisquée. Bazoum n'était ni incompétent ni cynique: son dossier anticorruption était réel, ses internats pour filles aussi. Il a géré la dépendance avec sérieux. Mais aucun président élu au Niger ne pouvait expulser la France et reprendre Imouraren — non par manque de volonté: parce que le système ne le permettait pas. L'AES n'est pas une révolution contre la mauvaise gouvernance. C'est une révolution contre la limite structurelle que la meilleure gouvernance compradore ne pouvait pas franchir. Bazoum l'a prouvé en la subissant.
 
----FIN---
 ## Fragilités avouées, critères posés
 
 Le laboratoire a aussi documenté ses propres failles — par la voix de ses dirigeants. Choguel Kokalla Maïga, alors Premier ministre du Mali, l'a admis publiquement: « Beaucoup de leurs réseaux ont infiltré la transition aujourd'hui.» Cet aveu est précieux précisément parce qu'il est dangereux: il dit que le projet souverain est réel — et qu'il est fragile. Les réseaux de la dépendance n'ont pas disparu avec les renversements; ils se sont réorganisés dans les ministères, les états-majors, les milieux d'affaires. La révolution ne sera accomplie que si les structures changent, et si les structures nouvelles résistent à la recolonisation de l'intérieur.
@@ -1325,13 +1336,14 @@ Alors, à quoi juger l'AES? À trois questions — pas une de moins, pas une de 
 - Les droits fondamentaux sont-ils respectés en dehors des discours?
 - Les minorités sont-elles protégées?
 
+---FIN---
+
 Cette troisième question est la plus lourde: on verra au chapitre 26 comment la précarisation des communautés peules fabrique des combattants, et Yamb rappelle que la « protection des minorités» sert aussi, depuis les guerres de Yougoslavie, de levier d'intervention et de fragmentation. Raison de plus, et non de moins, d'y répondre: pour désamorcer l'arme, l'AES doit traiter ses minorités avec plus de justice que ses adversaires ne la traitent elle-même — c'est tout le sens de la phrase de Sankara placée en tête de ce chapitre. À ces trois questions, les réponses ne sont pas définitives. L'AES est en construction; ses transitions sont des processus ouverts, non des aboutissements figés.
 Reste la conviction qui anime ce laboratoire, et que Banda Kani formule à sa manière: les grandes transformations ne sont jamais portées par la masse mais par une avant-garde — un petit noyau qui a discipliné l'ego, subordonné l'intérêt personnel à la cause, et qui avance « sans se laisser distraire par les petits agités et les diviseurs» (Banda Kani, Paroles Panafricanistes, 29 novembre 2022). Goïta, Traoré et Tiani se vivent comme cette avant-garde. L'histoire dira si l'avant-garde a fondé des institutions ou s'est contentée de régner — c'est exactement ce que mesureront les trois questions.
 Le laboratoire est ouvert; ses résultats ne sont pas rendus. Ils dépendent de quatre épreuves très concrètes — vaincre l'insécurité sans reproduire l'injustice, bâtir une économie sans se faire piller, frapper monnaie sans se faire étrangler, choisir les bons partenaires — et ce sont ces quatre épreuves, les défis de demain, qui occupent la dernière partie de ce livre.
 
 ★ ★ ★
 
----FIN---
 # PARTIE VI — LES DÉFIS DE DEMAIN
 
 
@@ -1363,10 +1375,12 @@ Concrètement, un blocus de carburant est une arme qui ne vise pas l'armée mais
 - **9-12 novembre 2025**: pic de la crise sécuritaire et énergétique
 - **11 novembre 2025**: réouverture des écoles maliennes
 - Le blocus a échoué à plier le gouvernement. Il a solidifié l'opinion contre le JNIM.
+
+---FIN---
+
 Le blocus a échoué — mais pas seulement à cause des convois militaires. Le JNIM a commis des erreurs que ses adversaires n'auraient pas su provoquer. L'assassinat public de Mariam Cissé, la jeune blogueuse de Tonka dont nous avons croisé la trajectoire au chapitre 24, a retourné l'opinion malienne contre le groupe plus efficacement que n'importe quelle communication gouvernementale. « Un terrorisme asymétrique ciblant les civils relève de la lâcheté stratégique, qui elle-même repose sur l'instrumentalisation venue d'ailleurs», résume Amaïzo (29 novembre 2025).
 Soyons clairs: l'AES n'a pas fait disparaître le jihadisme. Elle a changé les règles du jeu. Elle refuse la présence militaire étrangère qui prétendait le combattre en le laissant s'étendre, et elle choisit ses propres méthodes. Le bilan, comparé à celui de Barkhane, reste à construire. Mais les dynamiques, elles, sont différentes.
 
----FIN---
 ## La Force unifiée: l'outil de la riposte
 
 Face à une menace qui ignore les frontières, l'AES a construit l'instrument qui manquait depuis dix ans: une force commune. La Force unifiée de l'AES est installée le 21 décembre 2025. Elle ne sort pas de nulle part: les opérations Yokoo 1 et 2, citées par le général Goïta, et les exercices Tarha nakal 2 de mai 2025 — qui ont associé le Tchad et le Togo — documentent une construction progressive, réelle, opérationnelle.
@@ -1478,13 +1492,15 @@ Une monnaie souveraine devra s'adosser à une économie réelle. Cette économie
 - **Leçons à méditer**: Sango Coin (2022, échec technique) et $CAR (2025, −90 % le jour du lancement) — la précipitation tue
 - **Risques**: pression inflationniste de transition, attaques spéculatives contre la nouvelle monnaie
 - **Horizon**: Institut monétaire africain annoncé pour septembre 2026
+
+---FIN---
+
 Les risques sont réels et doivent être nommés: une inflation de transition, des attaques spéculatives, et le précédent de tous ceux qui ont payé de leur vie d'avoir seulement évoqué la sortie du CFA — Olympio, Sankara, Kadhafi, dont le chapitre 7 a raconté le prix. Le contre-exemple existe pourtant: la Mauritanie, sortie de la zone franc dès 1973, vit avec sa propre monnaie. L'AES, elle, avance pas à pas, en sachant que sur ce terrain, une seule erreur peut coûter dix ans.
 La RCA a montré qu'on pouvait défier la chaîne du CFA — et ce qu'il en coûte de le faire seul et trop vite. L'AES a la masse critique que Bangui n'avait pas: trois États, un espace douanier en construction, des ressources stratégiques. Il lui reste à choisir le moment. « Au moment opportun, nous déciderons», dit Tiani.
 Mais aucune monnaie ne naît dans le vide: elle naît dans un monde — et ce monde, justement, est en train de changer de maîtres.
 
 ★ ★ ★
 
----FIN---
 # Chapitre 29 — Le monde multipolaire: partenaires ou nouveaux maîtres?
 
 Ankara, 4 juin 2026. Le général Abdourahamane Tiani descend la passerelle de son avion pour sa première grande visite officielle en Turquie. Recep Tayyip Erdoğan le reçoit avec les honneurs. Trois ans plus tôt, l'homme qui dirigeait le verrou final de l'AES était présenté dans les chancelleries occidentales comme un paria à étrangler par les sanctions. Le voici accueilli en partenaire stratégique par un membre de l'OTAN. La scène résume le basculement: le marché de la sécurité africaine s'est multipolarisé — et c'est peut-être la transformation géopolitique la plus immédiatement concrète de toute la rupture sahélienne.
