@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Génère LIVRE-FINAL.pdf depuis LIVRE-FINAL.md via WeasyPrint (Sahel Rouge theme, format KDP 6x9)."""
+"""Génère LIVRE-FINAL.pdf depuis LIVRE-FINAL.md via WeasyPrint (Nuit de Bamako, format KDP 6x9)."""
 
 import re
 import markdown
@@ -9,13 +9,16 @@ from pathlib import Path
 SRC = Path(__file__).parent / "LIVRE-FINAL.md"
 OUT = Path(__file__).parent / "LIVRE-FINAL.pdf"
 
-ROUGE   = "#8B1A1A"
-OR      = "#D4A017"
-NOIR    = "#0A0A0A"
-IVOIRE  = "#F5F0E8"
+GRAPHITE  = "#121212"
+INDIGO    = "#4A5CFF"
+OR_CHAUD  = "#E8C547"
+BLANC     = "#FFFFFF"
+NUIT      = "#0D1020"
+GRIS_DOUX = "#F2F2F0"
+GRIS_MID  = "#E0E0DC"
 
 CSS_STYLES = f"""
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=EB+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap');
 
 @page {{
     size: 6in 9in;
@@ -33,45 +36,56 @@ CSS_STYLES = f"""
 body {{
     font-family: 'EB Garamond', 'FreeSans', 'Liberation Sans', serif;
     font-size: 11pt;
-    line-height: 1.5;
-    color: {NOIR};
-    background: white;
+    line-height: 1.55;
+    color: {GRAPHITE};
+    background: {BLANC};
     text-align: justify;
     hyphens: auto;
 }}
 
 h1 {{
-    font-size: 22pt;
+    font-family: 'Oswald', 'FreeSans', sans-serif;
+    font-size: 20pt;
     font-weight: 700;
-    color: {ROUGE};
-    text-align: center;
-    margin-top: 2em;
-    margin-bottom: 0.5em;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: {OR_CHAUD};
+    background: {GRAPHITE};
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 1.2em;
+    margin-left: -0.80in;
+    margin-right: -0.60in;
+    padding: 0.7em 0.80in 0.6em 0.80in;
     page-break-before: always;
-    border-bottom: 3pt solid {OR};
-    padding-bottom: 0.3em;
+    border-bottom: 3pt solid {INDIGO};
 }}
 
 h2 {{
-    font-size: 14pt;
+    font-family: 'Oswald', 'FreeSans', sans-serif;
+    font-size: 13pt;
     font-weight: 600;
-    color: {ROUGE};
-    margin-top: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: {INDIGO};
+    margin-top: 1.6em;
     margin-bottom: 0.5em;
-    border-left: 4pt solid {OR};
-    padding-left: 0.4em;
+    border-left: 4pt solid {OR_CHAUD};
+    padding-left: 0.45em;
 }}
 
 h3 {{
+    font-family: 'EB Garamond', serif;
     font-size: 12pt;
-    font-weight: 600;
-    color: {ROUGE};
+    font-weight: 700;
+    font-style: italic;
+    color: {INDIGO};
     margin-top: 1.2em;
     margin-bottom: 0.3em;
 }}
 
 p {{
-    margin: 0.4em 0 0.6em 0;
+    margin: 0.35em 0 0.55em 0;
     text-indent: 1.2em;
 }}
 
@@ -80,17 +94,19 @@ p:first-of-type, h1 + p, h2 + p, h3 + p, blockquote + p, hr + p {{
 }}
 
 blockquote {{
-    background: {IVOIRE};
-    border-left: 4pt solid {OR};
-    margin: 1em 0.5em;
-    padding: 0.6em 0.8em;
+    background: {NUIT};
+    border-left: 4pt solid {INDIGO};
+    margin: 1.2em 0.3em;
+    padding: 0.7em 0.9em;
     font-style: italic;
+    color: #D4D0C8;
     page-break-inside: avoid;
 }}
 
 blockquote p {{
     text-indent: 0;
     margin: 0.2em 0;
+    color: #D4D0C8;
 }}
 
 ul, ol {{
@@ -109,21 +125,22 @@ em {{
 
 strong {{
     font-weight: 700;
-    color: {ROUGE};
+    color: {INDIGO};
 }}
 
 hr {{
     border: none;
-    border-top: 1pt solid {OR};
-    margin: 1.5em auto;
-    width: 60%;
+    border-top: 1.5pt solid {OR_CHAUD};
+    margin: 1.8em auto;
+    width: 50%;
 }}
 
 .stars {{
     text-align: center;
-    color: {OR};
-    font-size: 14pt;
-    margin: 1em 0;
+    color: {OR_CHAUD};
+    font-size: 15pt;
+    margin: 1.2em 0;
+    letter-spacing: 0.3em;
 }}
 
 table {{
@@ -135,27 +152,29 @@ table {{
 }}
 
 th {{
-    background: {ROUGE};
-    color: {IVOIRE};
+    background: {GRAPHITE};
+    color: {OR_CHAUD};
     padding: 0.4em 0.6em;
     text-align: left;
     font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.04em;
 }}
 
 td {{
-    border: 0.5pt solid #ccc;
+    border: 0.5pt solid {GRIS_MID};
     padding: 0.35em 0.6em;
     vertical-align: top;
 }}
 
 tr:nth-child(even) td {{
-    background: {IVOIRE};
+    background: {GRIS_DOUX};
 }}
 
 .encadre {{
-    background: {IVOIRE};
-    border: 1.5pt solid {OR};
-    border-radius: 3pt;
+    background: {GRIS_DOUX};
+    border: 2pt solid {INDIGO};
+    border-left: 5pt solid {OR_CHAUD};
     padding: 0.8em 1em;
     margin: 1em 0;
     page-break-inside: avoid;
@@ -164,21 +183,18 @@ tr:nth-child(even) td {{
 code {{
     font-family: monospace;
     font-size: 9pt;
-    background: #f0f0f0;
+    background: {GRIS_DOUX};
     padding: 0.1em 0.3em;
 }}
 
 a {{
-    color: {ROUGE};
+    color: {INDIGO};
     text-decoration: none;
 }}
 """
 
 def preprocess(text: str) -> str:
-    """Transformations pré-conversion: étoiles, encadrés, etc."""
-    # ★ ★ ★ → classe .stars
     text = re.sub(r'^\s*★\s*★\s*★\s*$', '<div class="stars">★ ★ ★</div>', text, flags=re.MULTILINE)
-    # ---ENCADRE--- blocks → div.encadre
     text = re.sub(r'^---ENCADRE---\s*$', '<div class="encadre">\n', text, flags=re.MULTILINE)
     text = re.sub(r'^---FIN---\s*$', '</div>\n', text, flags=re.MULTILINE)
     return text
@@ -205,7 +221,7 @@ def main():
     print("Conversion Markdown → HTML...")
     html = md_to_html(md_text)
 
-    print("Génération PDF via WeasyPrint...")
+    print("Génération PDF — thème Nuit de Bamako...")
     doc = HTML(string=html, base_url=str(Path(__file__).parent))
     css = CSS(string=CSS_STYLES)
     doc.write_pdf(str(OUT), stylesheets=[css])
