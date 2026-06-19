@@ -219,46 +219,39 @@ tr:last-child td {{
     border-bottom: 1pt solid {ARDOISE};
 }}
 
-/* ── ENCADRÉS ─────────────────────────────────────────────── */
-.encadre {{
-    background: {CREME};
-    border-top: 1.5pt solid {ARDOISE};
-    border-bottom: 1.5pt solid {ARDOISE};
-    border-left: 4pt solid {OR_SATIN};
-    border-right: none;
-    padding: 1.1em 1.3em;
+/* ── ENCADRÉS (format table) ──────────────────────────────── */
+table.enc {{
+    width: 100%;
+    border-collapse: collapse;
     margin: 1.8em 0;
     page-break-inside: avoid;
+    border: 1pt solid {ARDOISE};
     font-size: 10.5pt;
-    line-height: 1.55;
 }}
 
-.encadre p {{
+.enc-th {{
+    background: {ARDOISE};
+    color: {BLANC};
+    text-align: left;
+    font-family: 'Crimson Text', 'FreeSerif', serif;
+    font-size: 9.5pt;
+    font-weight: 700;
+    font-style: normal;
+    font-variant: normal;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    padding: 0.65em 1.0em;
+    border: none;
+    line-height: 1.3;
+}}
+
+.enc-td {{
+    background: {CREME};
+    border-top: 0.5pt solid {CREME_BD};
+    padding: 0.55em 1.0em;
+    vertical-align: top;
+    line-height: 1.52;
     text-indent: 0;
-    margin: 0.3em 0;
-}}
-
-.encadre strong {{
-    display: block;
-    font-family: 'Crimson Text', serif;
-    font-size: 9pt;
-    font-weight: 600;
-    font-variant: small-caps;
-    letter-spacing: 0.12em;
-    color: {ARDOISE};
-    margin-bottom: 0.7em;
-    padding-bottom: 0.45em;
-    border-bottom: 0.5pt solid {CREME_BD};
-    text-transform: lowercase;
-}}
-
-.encadre ul {{
-    margin: 0.3em 0 0.3em 1.2em;
-}}
-
-.encadre li {{
-    margin-bottom: 0.3em;
-    line-height: 1.5;
 }}
 
 /* ── CODE ─────────────────────────────────────────────────── */
@@ -276,10 +269,28 @@ a {{
 }}
 """
 
+def convert_encadre(m):
+    block = m.group(1)
+    title = None
+    rows = []
+    for line in block.split('\n'):
+        s = line.strip()
+        if not s:
+            continue
+        tm = re.match(r'^\*\*(.+?)\*\*$', s)
+        if tm and 'ENCADRÉ' in tm.group(1):
+            title = tm.group(1)
+        elif s.startswith('- '):
+            rows.append(s[2:])
+        else:
+            rows.append(s)
+    th = f'<thead><tr><th class="enc-th">{title}</th></tr></thead>' if title else ''
+    tds = ''.join(f'<tr><td class="enc-td">{r}</td></tr>' for r in rows)
+    return f'\n<table class="enc">\n{th}\n<tbody>\n{tds}\n</tbody>\n</table>\n'
+
 def preprocess(text: str) -> str:
     text = re.sub(r'^\s*★\s*★\s*★\s*$', '<div class="stars">★ ★ ★</div>', text, flags=re.MULTILINE)
-    text = re.sub(r'^---ENCADRE---\s*$', '<div class="encadre">\n', text, flags=re.MULTILINE)
-    text = re.sub(r'^---FIN---\s*$', '</div>\n', text, flags=re.MULTILINE)
+    text = re.sub(r'---ENCADRE---\n(.*?)---FIN---', convert_encadre, text, flags=re.DOTALL)
     return text
 
 def md_to_html(md_text: str) -> str:
