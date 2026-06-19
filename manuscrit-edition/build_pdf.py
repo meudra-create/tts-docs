@@ -108,9 +108,9 @@ h1 {{
     text-align: left;
     margin-top: 0;
     margin-bottom: 2.0em;
-    margin-left: -0.80in;
-    margin-right: -0.80in;
-    padding: 0.7em 0.80in 0.7em 0.80in;
+    margin-left: -1.2in;
+    margin-right: -1.2in;
+    padding: 0.7em 1.2in 0.7em 1.2in;
     page-break-before: always;
     line-height: 1.3;
     border-top: 4pt solid {OR_SATIN};
