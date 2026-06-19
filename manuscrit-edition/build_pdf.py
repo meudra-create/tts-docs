@@ -269,6 +269,11 @@ a {{
 }}
 """
 
+def inline_md(s):
+    s = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', s)
+    s = re.sub(r'(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)', r'<em>\1</em>', s)
+    return s
+
 def convert_encadre(m):
     block = m.group(1)
     title = None
@@ -278,12 +283,13 @@ def convert_encadre(m):
         if not s:
             continue
         tm = re.match(r'^\*\*(.+?)\*\*$', s)
-        if tm and ('ENCADRÉ' in tm.group(1) or 'REPÈRES' in tm.group(1)):
+        upper_title = tm and sum(1 for c in tm.group(1) if c.isupper()) > len(tm.group(1)) * 0.4
+        if tm and upper_title:
             title = tm.group(1)
         elif s.startswith('- '):
-            rows.append(s[2:])
+            rows.append(inline_md(s[2:]))
         else:
-            rows.append(s)
+            rows.append(inline_md(s))
     th = f'<thead><tr><th class="enc-th">{title}</th></tr></thead>' if title else ''
     tds = ''.join(f'<tr><td class="enc-td">{r}</td></tr>' for r in rows)
     return f'\n<table class="enc">\n{th}\n<tbody>\n{tds}\n</tbody>\n</table>\n'
