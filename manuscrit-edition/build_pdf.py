@@ -108,7 +108,7 @@ h1 {{
     margin-top: 0;
     margin-bottom: 2.0em;
     margin-left: -0.80in;
-    margin-right: -0.60in;
+    margin-right: -0.80in;
     padding: 0.7em 0.80in 0.7em 0.80in;
     page-break-before: always;
     line-height: 1.3;
