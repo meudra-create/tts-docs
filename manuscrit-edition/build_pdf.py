@@ -2,6 +2,7 @@
 """Génère LIVRE-FINAL.pdf depuis LIVRE-FINAL.md via WeasyPrint (Ardoise & Or, format KDP 6x9)."""
 
 import re
+import unicodedata
 import markdown
 from weasyprint import HTML, CSS
 from pathlib import Path
@@ -319,7 +320,165 @@ a {{
     color: {OR_SATIN};
     text-decoration: none;
 }}
+
+/* ── SOMMAIRE ─────────────────────────────────────────────── */
+.toc {{
+    page-break-before: always;
+    page-break-after: always;
+    padding-top: 0.4em;
+}}
+
+.toc-heading {{
+    font-family: 'Crimson Text', 'FreeSerif', serif;
+    font-size: 18pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.10em;
+    color: {ARDOISE};
+    text-align: center;
+    margin-bottom: 1.6em;
+    padding-bottom: 0.5em;
+    border-bottom: 2pt solid {OR_SATIN};
+}}
+
+.toc-matter {{
+    font-family: 'Crimson Text', 'FreeSerif', serif;
+    font-size: 10pt;
+    font-style: italic;
+    color: {ARDOISE};
+    margin: 0.5em 0;
+    display: block;
+    width: 100%;
+}}
+
+.toc-matter a {{
+    color: {ARDOISE};
+    text-decoration: none;
+    display: block;
+    width: 100%;
+}}
+
+.toc-matter a::after {{
+    content: leader('.') target-counter(attr(href url), page);
+    font-style: normal;
+    font-size: 9.5pt;
+    color: {OR_SATIN};
+}}
+
+.toc-partie {{
+    font-family: 'Crimson Text', 'FreeSerif', serif;
+    font-size: 8.5pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    color: {OR_SATIN};
+    margin-top: 1.3em;
+    margin-bottom: 0.25em;
+    padding-top: 0.55em;
+    border-top: 0.5pt solid {OR_SATIN};
+}}
+
+.toc-partie-label {{
+    font-weight: 700;
+}}
+
+.toc-partie-name {{
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    text-transform: none;
+    font-size: 9pt;
+}}
+
+.toc-chapter {{
+    font-family: 'EB Garamond', 'FreeSerif', serif;
+    font-size: 10pt;
+    color: {GRIS_TX};
+    margin: 0.18em 0;
+    padding-left: 0.6em;
+    line-height: 1.35;
+    display: block;
+    width: 100%;
+}}
+
+.toc-chapter a {{
+    color: {GRIS_TX};
+    text-decoration: none;
+    display: block;
+    width: 100%;
+}}
+
+.toc-chapter a::after {{
+    content: leader('.') target-counter(attr(href url), page);
+    font-size: 9.5pt;
+    color: {ARDOISE};
+}}
+
+.toc-chap-num {{
+    color: {ARDOISE};
+    font-variant: small-caps;
+    font-weight: 600;
+}}
 """
+
+def make_slug(text):
+    """Génère un slug ASCII pour les IDs d'ancres HTML."""
+    nfkd = unicodedata.normalize('NFD', text)
+    s = ''.join(c for c in nfkd if unicodedata.category(c) != 'Mn')
+    s = s.lower()
+    s = re.sub(r"[^a-z0-9\s-]", '', s)
+    s = re.sub(r'[\s-]+', '-', s.strip())
+    return s[:60]
+
+def build_toc(md_text: str) -> str:
+    """Construit le HTML du sommaire depuis la liste des titres H1."""
+    items = []
+    for line in md_text.split('\n'):
+        m = re.match(r'^# (.+)$', line)
+        if not m:
+            continue
+        title = m.group(1).strip()
+        if title.lower() == 'sommaire':
+            continue
+        items.append(title)
+
+    parts = [
+        '<div class="toc">',
+        '<div class="toc-heading">Sommaire</div>',
+    ]
+
+    for title in items:
+        slug = make_slug(title)
+        partie_m = re.match(r'^(PARTIE\s+[IVX]+)\s+[—–]\s+(.+)$', title)
+        chapter_m = re.match(r'^(Chapitre\s+\d+)\s+[—–]\s+(.+)$', title)
+
+        if partie_m:
+            label = partie_m.group(1)
+            name = partie_m.group(2)
+            pslug = make_slug(f"{label} {name}")
+            parts.append(
+                f'<div class="toc-partie">'
+                f'<span class="toc-partie-label">{label} — </span>'
+                f'<span class="toc-partie-name">{name}</span>'
+                f'</div>'
+            )
+        elif chapter_m:
+            num = chapter_m.group(1)
+            name = chapter_m.group(2)
+            parts.append(
+                f'<div class="toc-chapter">'
+                f'<a href="#{slug}">'
+                f'<span class="toc-chap-num">{num}</span>'
+                f' — {name}'
+                f'</a>'
+                f'</div>'
+            )
+        else:
+            parts.append(
+                f'<div class="toc-matter"><a href="#{slug}">{title}</a></div>'
+            )
+
+    parts.append('</div>')
+    return '\n'.join(parts)
 
 def inline_md(s):
     s = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', s)
@@ -349,8 +508,9 @@ def convert_encadre(m):
 def convert_partie(m):
     label = m.group(1).strip()   # "PARTIE I"
     title = m.group(2).strip()   # "L'AFRIQUE AVANT LA DOMINATION"
+    slug = make_slug(f"{label} {title}")
     return (
-        f'\n<div class="partie-page">'
+        f'\n<div class="partie-page" id="{slug}">'
         f'<div class="partie-label">{label}</div>'
         f'<div class="partie-title">{title}</div>'
         f'<div class="partie-rule"></div>'
@@ -388,7 +548,25 @@ def convert_blockquotes(text: str) -> str:
     return '\n'.join(out)
 
 def preprocess(text: str) -> str:
+    # 1. Générer et injecter le sommaire avant toute autre transformation
+    toc_html = build_toc(text)
+    text = re.sub(
+        r'^# Sommaire\n.*?(?=^# )',
+        toc_html + '\n\n',
+        text, count=1, flags=re.DOTALL | re.MULTILINE
+    )
+
+    # 2. Convertir les pages de PARTIE (avec id)
     text = re.sub(r'^# (PARTIE\s+[IVX]+)\s+—\s+(.+)$', convert_partie, text, flags=re.MULTILINE)
+
+    # 3. Ajouter id aux titres H1 restants (attr_list extension)
+    def add_id(m):
+        title = m.group(1).strip()
+        slug = make_slug(title)
+        return f'# {title} {{ #{slug} }}'
+    text = re.sub(r'^# (.+)$', add_id, text, flags=re.MULTILINE)
+
+    # 4. Citations, étoiles, encadrés
     text = convert_blockquotes(text)
     text = re.sub(r'^\s*★\s*★\s*★\s*$', '<div class="stars">★ ★ ★</div>', text, flags=re.MULTILINE)
     text = re.sub(r'---ENCADRE---\n(.*?)---FIN---', convert_encadre, text, flags=re.DOTALL)
