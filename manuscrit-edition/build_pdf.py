@@ -517,6 +517,22 @@ def convert_partie(m):
         f'</div>\n'
     )
 
+def split_inline_author(s):
+    """Sépare une citation « … » d'une attribution sur la même ligne.
+
+    Reconnaît deux formes après le guillemet fermant » :
+      « citation » — Auteur
+      « citation » (Auteur, date)
+    Retourne (citation, auteur). auteur == '' si aucune attribution inline.
+    """
+    m = re.match(r'^(.*»)\s*[—–]\s+(.+)$', s)
+    if m:
+        return m.group(1).strip(), m.group(2).strip()
+    m = re.match(r'^(.*»)\s*\((.+)\)\s*$', s)
+    if m:
+        return m.group(1).strip(), m.group(2).strip()
+    return s.strip(), ''
+
 def convert_blockquotes(text: str) -> str:
     lines = text.split('\n')
     out = []
@@ -527,20 +543,33 @@ def convert_blockquotes(text: str) -> str:
             while i < len(lines) and lines[i].lstrip().startswith('>'):
                 group.append(lines[i].lstrip()[1:].strip())
                 i += 1
-            quote_parts, author_parts = [], []
+            group = [g for g in group if g]
+
+            # Découpe le groupe en citations individuelles : chaque ligne
+            # contenant une citation ouvre une unité ; une ligne « — Auteur »
+            # complète l'unité courante.
+            units = []  # [ [citation, auteur], ... ]
             for g in group:
                 if re.match(r'^[—–-]\s', g):
-                    author_parts.append(re.sub(r'^[—–-]\s*', '', g))
+                    auth = re.sub(r'^[—–-]\s*', '', g).strip()
+                    if units:
+                        prev = units[-1][1]
+                        units[-1][1] = (prev + ' ' + auth).strip() if prev else auth
+                    else:
+                        units.append(['', auth])
                 else:
-                    quote_parts.append(g)
-            html = '<blockquote class="cite">'
-            if quote_parts:
-                html += f'<p class="cite-text">{inline_md(" ".join(quote_parts))}</p>'
-            if author_parts:
-                html += f'<p class="cite-author">— {inline_md(" ".join(author_parts))}</p>'
-            html += '</blockquote>'
+                    quote, author = split_inline_author(g)
+                    units.append([quote, author])
+
             out.append('')
-            out.append(html)
+            for quote, author in units:
+                html = '<blockquote class="cite">'
+                if quote:
+                    html += f'<p class="cite-text">{inline_md(quote)}</p>'
+                if author:
+                    html += f'<p class="cite-author">— {inline_md(author)}</p>'
+                html += '</blockquote>'
+                out.append(html)
             out.append('')
         else:
             out.append(lines[i])
