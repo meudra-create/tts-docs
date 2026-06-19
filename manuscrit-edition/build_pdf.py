@@ -98,21 +98,22 @@ body {{
 /* ── CHAPITRES ────────────────────────────────────────────── */
 h1 {{
     font-family: 'Crimson Text', 'FreeSerif', serif;
-    font-size: 15pt;
+    font-size: 13pt;
     font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
     color: {BLANC};
     background: {ARDOISE};
     text-align: left;
     margin-top: 0;
-    margin-bottom: 2.2em;
+    margin-bottom: 2.0em;
     margin-left: -0.80in;
     margin-right: -0.60in;
-    padding: 2.8em 0.80in 2.4em 0.80in;
+    padding: 0.7em 0.80in 0.7em 0.80in;
     page-break-before: always;
-    line-height: 1.25;
+    line-height: 1.3;
     border-top: 4pt solid {OR_SATIN};
     border-bottom: 1pt solid {ARDOISE_L};
-    letter-spacing: 0.005em;
 }}
 
 /* ── SECTIONS ─────────────────────────────────────────────── */
