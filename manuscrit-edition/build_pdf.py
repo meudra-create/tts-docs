@@ -62,7 +62,7 @@ body {{
 /* ── CHAPITRES ────────────────────────────────────────────── */
 h1 {{
     font-family: 'Crimson Text', 'FreeSerif', serif;
-    font-size: 21pt;
+    font-size: 15pt;
     font-weight: 600;
     color: {BLANC};
     background: {ARDOISE};
