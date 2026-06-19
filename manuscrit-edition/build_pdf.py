@@ -17,7 +17,7 @@ OR_CLAIR  = "#C9A24A"
 CREME     = "#F4EFE4"
 CREME_BD  = "#D8CEBC"
 GRIS_TX   = "#2E2E2E"
-GRIS_SUB  = "#555555"
+BORDEAUX  = "#8B1A1A"
 
 CSS_STYLES = f"""
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600&family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&display=swap');
@@ -127,21 +127,21 @@ blockquote + p, hr + p, .stars + p, .encadre + p {{
 blockquote {{
     background: {BLANC};
     border-left: 0.5pt solid {OR_SATIN};
-    border-top: 0.5pt solid {CREME_BD};
-    border-bottom: 0.5pt solid {CREME_BD};
+    border-top: none;
+    border-bottom: none;
     margin: 1.6em 0;
-    padding: 0.9em 1.2em 0.9em 1.5em;
+    padding: 0.5em 1.2em 0.5em 1.4em;
     font-style: italic;
-    color: {GRIS_SUB};
+    color: {BORDEAUX};
     page-break-inside: avoid;
     font-size: 11pt;
-    line-height: 1.58;
+    line-height: 1.60;
 }}
 
 blockquote p {{
     text-indent: 0;
     margin: 0.15em 0;
-    color: {GRIS_SUB};
+    color: {BORDEAUX};
 }}
 
 /* ── LISTES ───────────────────────────────────────────────── */
