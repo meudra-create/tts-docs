@@ -265,11 +265,15 @@ Modibo Keïta encore. Premier président du Mali, proclamé le 22 septembre 1960
 Kwame Nkrumah enfin. L'homme qui a conduit la Gold Coast — devenue Ghana — à l'indépendance le 6 mars 1957, première colonie d'Afrique subsaharienne à briser ses chaînes; le théoricien de l'unité continentale, artisan de l'éphémère Union Ghana-Guinée-Mali. Le 24 février 1966, alors qu'il est en route pour Hanoï, l'armée et la police prennent le pouvoir à Accra. Il ne reverra jamais le Ghana et meurt en exil en 1972.
 Quatre pionniers. Deux assassinés, deux renversés. Aucun n'a achevé son mandat. La leçon, elle, a été parfaitement reçue par les survivants.
 
+---ENCADRE---
+
 **ENCADRÉ — LES INDÉPENDANCES ET LEUR BILAN, SOIXANTE ANS APRÈS**
 
 - Sénégal: 4 avril 1960 — Niger: 3 août 1960 — Burkina Faso (ex-Haute-Volta): 5 août 1960 — Tchad: 11 août 1960 — Mali: 22 septembre 1960 — Mauritanie: 28 novembre 1960
 - Guinée: 2 octobre 1958 — seul territoire à avoir voté non au referendum
 - Soixante ans plus tard: le Niger est 189e sur 191 à l'indice de développement humain, le Burkina Faso 184e, le Mali 185e (PNUD, 2023). Les trois pays de l'AES figurent dans les cinq derniers rangs mondiaux.
+
+---FIN---
 
 
 ## Des indépendances « javellisées»
@@ -307,6 +311,8 @@ L'architecture se décrit le mieux par la voix de ses acteurs. Pascal Lissouba, 
 Depuis Abidjan, Mamadou Koulibaly, ancien ministre des Finances de Côte d'Ivoire, décrit la même réalité: « Les tankers viennent faire le plein et puis s'en vont, et puis c'est eux qui nous disent: bon, on a pris 10 barils, 20 barils, et nous on comptabilise ça dans le budget.» Deux anciens ministres, deux pays, la même histoire.
 Et la machine se réalimente elle-même. Robert Bourgi, avocat franco-libanais et porteur de mallettes pour l'Élysée, raconte ses tournées chez Omar Bongo, Blaise Compaoré, Denis Sassou-Nguesso ou Mobutu, avec un message de Paris: contribuez à la campagne de « votre ami». « Jamais ça n'est descendu en dessous d'un million de dollars.» Pour la seule campagne de Jacques Chirac en 1995: au moins 100 millions de dollars. Laurent Gbagbo, à sa sortie de la CPI, admet avoir versé 3 millions d'euros à la demande de Chirac et de Villepin. Charles Pasqua, ancien ministre de l'Intérieur, reconnaît publiquement dans Le Parisien que Balladur voulait « couper les vivres aux socialistes» en remplaçant Le Floch-Prigent à la tête d'Elf. Le pétrole africain, acheté quatre dollars, finançait la démocratie française.
 
+---ENCADRE---
+
 **ENCADRÉ — LE CIRCUIT DU PILLAGE, DE L'EXTRACTION AU FINANCEMENT POLITIQUE**
 
 - 1. Extraction des ressources africaines à prix décoté (4 $ pour un pétrole revendu 80 $)
@@ -316,6 +322,8 @@ Et la machine se réalimente elle-même. Robert Bourgi, avocat franco-libanais e
 - 5. Double impunité: les États africains ne peuvent pas vérifier, les tribunaux français regardent ailleurs
 
 (Sources: Le Floch-Prigent, Lissouba, Koulibaly, Bourgi, Pasqua; Le Monde, 2018)
+
+---FIN---
 
 ## Quand l'adversaire avoue
 
@@ -338,12 +346,16 @@ Le franc CFA n'est pas une monnaie africaine. C'est une monnaie française dépl
 On a vu au chapitre précédent la naissance du franc CFA en 1945 et sa fonction fiscale originelle. Reste à comprendre comment il fonctionne aujourd'hui. Le cœur du mécanisme s'appelle le compte d'opérations: en échange de la garantie de convertibilité accordée par le Trésor français, les États membres doivent déposer 50 % de leurs réserves de change sur un compte ouvert à Paris. Deux notions techniques se cachent dans cette phrase, et elles méritent d'être déshabillées. La garantie de convertibilité, d'abord: c'est la promesse que le franc CFA pourra toujours être échangé contre des euros, à un taux fixe. Présentée comme une protection, elle est surtout une laisse — car celui qui garantit fixe les conditions. Le compte d'opérations, ensuite: c'est le compte du Trésor français où dort la moitié de l'épargne en devises de quinze pays africains.
 Concrètement, voici ce que cela signifie: quand le Niger vend son uranium ou le Mali son or à un acheteur étranger, les devises gagnées transitent par ce compte parisien. La France connaît ainsi, en temps réel, les flux d'exportation de chaque pays; elle peut bloquer des transactions; elle contrôle de fait la politique monétaire de nations théoriquement souveraines. Le taux de change est fixé par Paris. Les banques centrales africaines ont leur siège à Dakar ou à Yaoundé, mais leurs dirigeants sont systématiquement formés à Paris et orientés par Paris. Et l'ironie est complète, comme le relève le journaliste Albert Anatole Ayissi: « Même les migrants français en Afrique ne sont pas payés en franc CFA — ils le sont en euros.»
 
+---ENCADRE---
+
 **ENCADRÉ — LE COMPTE D'OPÉRATIONS EN CLAIR**
 
 - Le principe: la France « garantit» la convertibilité du franc CFA en euros
 - Le prix: 50 % des réserves de change des États membres déposées au Trésor français (100 % de 1945 à 1975)
 - La conséquence: Paris voit passer tous les flux d'exportation, peut les bloquer, et fixe le taux de change
 - L'échelle: quinze pays africains utilisent aujourd'hui cette monnaie fabriquée et contrôlée en France
+
+---FIN---
 
 
 ## Le prix de la sortie
@@ -378,6 +390,8 @@ Les chiffres ne viennent pas d'un tract militant, mais du Haut Comité français
 Car le prix payé n'a rien d'un prix de marché. Historiquement, l'uranium nigérien est acheté 30 à 40 % sous le cours mondial (ONG Sherpa, 2013). En d'autres termes, à production égale, le Niger touchait un tiers de moins que le Kazakhstan ou le Canada pour le même minerai. Nathalie Yamb a éclairé l'apparente contradiction française: pourquoi Paris « hurlait, envoyait des terroristes, violait la convention de Vienne» quand Niamey a demandé à Orano de partir, alors que les officiels français juraient que cet uranium ne pesait plus que 20 % de leur approvisionnement? La réponse est dans le modèle commercial: au Niger, Orano achetait à prix décoté; au Kazakhstan, en Australie, au Canada, il faut payer le prix du marché. Ce n'est pas le volume qui était stratégique. C'était la marge. Jean-Bedel Bokassa — l'homme que la France avait pourtant installé et couronné en Centrafrique — l'avait dit crûment pour son propre pays: « Depuis 1966 jusqu'à aujourd'hui, ni la France ni la Suisse n'a versé un franc» pour l'uranium extrait.
 Et il y a le coût invisible. Quand l'ambassadeur Sylvain Itté ironisait sur les réseaux — « Arrêtez de boire l'eau à Niamey puisqu'elle est européenne» —, Franklin Nyamsi a décodé ce que la moquerie masquait: les nappes phréatiques d'Arlit sont polluées par les résidus des mines d'uranium, contamination documentée par Greenpeace dès 2010. Des Nigériens boivent une eau radioactive. Pendant ce temps, moins de 20 % de la population du pays a accès à l'électricité (Banque mondiale, 2022). La formule résume tout: le pays qui éclaire la France vit dans l'obscurité.
 
+---ENCADRE---
+
 **ENCADRÉ — NIGER: L'INVENTAIRE D'UN PARADOXE**
 
 - 35 % des importations françaises d'uranium concentré en 2020 (Haut Comité pour la transparence nucléaire)
@@ -385,6 +399,8 @@ Et il y a le coût invisible. Quand l'ambassadeur Sylvain Itté ironisait sur le
 - Contamination radioactive des eaux d'Arlit documentée (Greenpeace, 2010)
 - Accès à l'électricité: moins de 20 % de la population (Banque mondiale, 2022); IDH: 189e sur 191 (PNUD)
 - Après la transition de 2023: recettes pétrolières +218 % (2020-2024), couverture des besoins domestiques passée de 20 % à 60 %
+
+---FIN---
 
 
 ## L'or du Mali: la renégociation qui fait jurisprudence
@@ -424,6 +440,8 @@ Un précédent prouve pourtant que la voie existe. En 2008, l'Équateur de Rafae
 L'aide publique au développement est l'instrument le plus sophistiqué de la domination — non parce qu'elle est massive, elle est relativement modeste, mais parce qu'elle est présentée comme de la générosité alors qu'elle est un levier. Nathalie Yamb le décrit précisément: l'APD est principalement composée de prêts, pas de dons. Des prêts conditionnés à l'ouverture des marchés, au maintien du franc CFA, aux votes favorables dans les institutions internationales. Détail qui ruine à lui seul le récit de la générosité: selon les données mêmes de la Banque mondiale, les transferts d'argent des migrants africains vers leurs pays dépassent de très loin l'aide officielle — la diaspora finance davantage l'Afrique que tous les « donateurs» réunis, on y reviendra au chapitre 24.
 La meilleure preuve que l'aide est un instrument politique? Sa courbe épouse exactement celle de l'obéissance.
 
+---ENCADRE---
+
 **ENCADRÉ — AIDE FRANÇAISE AU MALI: CHRONOLOGIE D'UN CHANTAGE**
 
 - 2017-2021: 587 millions d'euros au total (385 milliards FCFA)
@@ -432,6 +450,8 @@ La meilleure preuve que l'aide est un instrument politique? Sa courbe épouse ex
 - Août 2022: expulsion de Barkhane — suspension de l'aide
 - Novembre 2022: suspension totale
 - La variabilité du montant est un thermomètre de l'obéissance politique
+
+---FIN---
 
 La Centrafrique illustre le mécanisme dans sa forme la plus crue. L'aide budgétaire internationale y représente, selon les années, 46 à 69 milliards de FCFA — jusqu'à 46 % du budget national (ministre des Finances Hervé Ndoba, 2022). Quand la France suspend son aide en 2021 pour forcer le départ de Wagner, elle pose explicitement trois conditions à la reprise: arrêt de la « désinformation», arrêt du « harcèlement des entreprises françaises», départ de Wagner (sources de l'ambassade de France à Bangui, Oubangui Médias, septembre 2021). Et la « désinformation», dans cette grammaire, se définit comme toute information défavorable aux intérêts français.
 Le cas du pipeline Niger-Bénin montre toutefois que le monopole de la pression s'effrite. Le Niger veut exporter son pétrole par le port de Cotonou; la Chine (CNPC) a avancé 400 millions de dollars dans le projet; Patrice Talon bloque les chargements sous pression française; Pékin presse en retour; Talon fait rapidement marche arrière (Yamb, analyses 2024-2026). La leçon est structurelle: dès qu'il n'y a plus de dominant unique, des marges de manœuvre apparaissent. C'est précisément ce que l'AES cherche à institutionnaliser.
@@ -464,6 +484,8 @@ Nous y reviendrons en détail à la fin de ce chapitre, car cet enregistrement e
 
 Le Dr Yamb Ntimba a donné de ce système sa description la plus structurée: une pyramide de domination à cinq niveaux. Le niveau militaire garantit la cohérence de l'ensemble. Le niveau économique assure la captation. Le niveau informationnel fabrique le consentement. Le niveau culturel et médiatique structure les imaginaires. Et le niveau ontologique — le plus profond — installe la conviction de l'infériorité africaine dans les têtes africaines elles-mêmes. Concrètement, le niveau « ontologique» signifie ceci: quand un peuple a intégré qu'il est incapable de se gouverner, il n'a plus besoin d'être occupé — il s'occupe lui-même.
 
+---ENCADRE---
+
 **ENCADRÉ — LA PYRAMIDE DE DOMINATION (DR YAMB NTIMBA)**
 
 - Niveau 5 — Ontologique: faire croire aux dominés à leur propre infériorité; structurer l'environnement mental
@@ -472,11 +494,15 @@ Le Dr Yamb Ntimba a donné de ce système sa description la plus structurée: un
 - Niveau 2 — Économique: franc CFA, BCEAO, FMI, mécanisme de la dette (chapitres 7 et 9)
 - Niveau 1 — Militaire: bases, opérations, et leurs prolongements clandestins (Partie III)
 
+---FIN---
+
 Le point décisif de cette grille: le niveau militaire est le plus visible, mais le moins déterminant sur le long terme. C'est le sommet ontologique qui assure la résilience du système, même quand les armées sont expulsées. D'où l'importance des trois instruments qui suivent.
 
 ## Le lexique: nommer les choses à l'envers
 
 Toute domination a besoin d'un vocabulaire, et celui de la Françafrique est sophistiqué: il nomme les choses à l'inverse de ce qu'elles sont. Cette inversion n'est pas un accident de langue. Elle est fonctionnelle: elle présente la domination comme de l'aide, l'exploitation comme du partenariat, la résistance comme de l'ingratitude.
+
+---ENCADRE---
 
 **ENCADRÉ — DÉCONSTRUCTION DU LEXIQUE IMPÉRIAL**
 
@@ -486,6 +512,8 @@ Toute domination a besoin d'un vocabulaire, et celui de la Françafrique est sop
 - « Coup d'État» = renversement d'un régime pro-français; « transition légitime» = changement favorable à Paris
 - « Ingratitude africaine» = refus de la servitude
 - « Désinformation» = tout récit défavorable aux intérêts français
+
+---FIN---
 
 Le chercheur Mohamed Mahmoud Ould Mohamedou documente la même mécanique depuis le monde académique: les néologismes forgés pour qualifier le Sahel — « somalisation», « afghanisation», « Sahelistan», « Africanistan» — ne décrivent pas une réalité, ils la construisent. Ce lexique de l'échec structurel sert à installer l'idée qu'« une intervention est nécessaire» avant même que les faits ne la justifient (Mohamedou, La Découverte, 2013). Nathalie Yamb ajoute une observation d'archéologue du discours: l'Occident encourage les divisions en Afrique pendant qu'il sanctionne ceux qui veulent se séparer chez lui — Catalans, Bretons, Corses.
 Face à cette grammaire sentimentale — « pays amis», « pays frères», « partenaires historiques» —, le ministre malien des Affaires étrangères Abdoulaye Diop a posé la rupture en une phrase, devant un forum international: « Dans les relations internationales, il n'y a pas d'amitié en tant que telle. Chaque pays ne défend que des intérêts.» La rupture avec Paris n'est donc pas une ingratitude. C'est l'application du principe que Paris a toujours appliqué sans jamais l'avouer.
