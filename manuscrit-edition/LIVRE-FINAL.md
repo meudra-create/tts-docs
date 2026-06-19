@@ -106,7 +106,7 @@ Plus à l'est, le sultanat du Bornou, héritier du Kanem, dure du IXe au XIXe si
 
 ---ENCADRE---
 
-**REPÈRES — LES GRANDS ÉTATS DU SAHEL PRÉCOLONIAL**
+**LES GRANDS ÉTATS DU SAHEL PRÉCOLONIAL**
 
 - Empire du Ghana / Wagadou (IVe–XIe siècle): routes de l'or et du sel, système douanier sophistiqué.
 - Empire du Mali (XIIIe–XVe siècle): fondé par Soundiata Keïta (Kirina, 1235); Charte du Mandé (1236) ; Mansa Moussa fait s'effondrer le cours de l'or au Caire (1324).
@@ -142,7 +142,7 @@ L'autre preuve est juridique. La Charte du Mandé — dite aussi Kouroukan Fouga
 
 ---ENCADRE---
 
-**REPÈRES — CE QUE LE SAHEL A PRODUIT**
+**CE QUE LE SAHEL A PRODUIT**
 
 - Charte du Mandé / Kouroukan Fouga (1236) : sacralité de la vie, égalité, interdiction de réduire en esclavage — l'une des premières déclarations de droits de l'histoire.
 - Université de Sankoré, Tombouctou (XVe siècle): jusqu'à 25 000 étudiants; ville d'environ 100 000 habitants.
@@ -181,7 +181,7 @@ Certains Africains ont vu le piège très tôt. Barthélémy Boganda, fondateur 
 
 ---ENCADRE---
 
-**REPÈRES — BERLIN, 1884-1885**
+**BERLIN, 1884-1885**
 
 - 15 novembre 1884: ouverture de la conférence dans la résidence du chancelier Bismarck, à Berlin.
 - Quatorze puissances européennes et les États-Unis autour de la table; aucun représentant africain.
@@ -216,7 +216,7 @@ Babemba Traoré, roi du Kenédougou, dans l'actuel Mali, voit en 1898 les troupe
 
 ---ENCADRE---
 
-**REPÈRES — LES FIGURES DE LA RÉSISTANCE SAHÉLIENNE**
+**LES FIGURES DE LA RÉSISTANCE SAHÉLIENNE**
 
 - El Hadj Omar Tall: fondateur de la théocratie toucouleur (Mali, Guinée, Sénégal actuels); mène la résistance islamique jusqu'à sa disparition, acculé dans une grotte au nord du Mali (1864).
 - Samory Touré (vers 1830–1900): empire du Wassoulou; seize ans de résistance armée; capturé en 1898, déporté au Gabon où il meurt.
