@@ -161,24 +161,39 @@ blockquote + p, hr + p, .stars + p, .encadre + p {{
 }}
 
 /* ── CITATIONS EN EXERGUE ─────────────────────────────────── */
-blockquote {{
+blockquote, blockquote.cite {{
     background: {BLANC};
-    border-left: 0.5pt solid {OR_SATIN};
+    border-left: 1pt solid {OR_SATIN};
     border-top: none;
     border-bottom: none;
     margin: 1.6em 0;
-    padding: 0.5em 1.2em 0.5em 1.4em;
+    padding: 0.4em 1.2em 0.4em 1.4em;
+    page-break-inside: avoid;
+}}
+
+.cite-text {{
+    text-indent: 0;
+    margin: 0.1em 0;
     font-style: italic;
     color: {BORDEAUX};
-    page-break-inside: avoid;
     font-size: 11pt;
     line-height: 1.60;
+}}
+
+.cite-author {{
+    text-indent: 0;
+    margin: 0.1em 0;
+    font-style: italic;
+    color: {GRIS_TX};
+    font-size: 10.5pt;
+    line-height: 1.45;
 }}
 
 blockquote p {{
     text-indent: 0;
     margin: 0.15em 0;
     color: {BORDEAUX};
+    font-style: italic;
 }}
 
 /* ── LISTES ───────────────────────────────────────────────── */
@@ -342,8 +357,39 @@ def convert_partie(m):
         f'</div>\n'
     )
 
+def convert_blockquotes(text: str) -> str:
+    lines = text.split('\n')
+    out = []
+    i = 0
+    while i < len(lines):
+        if lines[i].lstrip().startswith('>'):
+            group = []
+            while i < len(lines) and lines[i].lstrip().startswith('>'):
+                group.append(lines[i].lstrip()[1:].strip())
+                i += 1
+            quote_parts, author_parts = [], []
+            for g in group:
+                if re.match(r'^[—–-]\s', g):
+                    author_parts.append(re.sub(r'^[—–-]\s*', '', g))
+                else:
+                    quote_parts.append(g)
+            html = '<blockquote class="cite">'
+            if quote_parts:
+                html += f'<p class="cite-text">{inline_md(" ".join(quote_parts))}</p>'
+            if author_parts:
+                html += f'<p class="cite-author">— {inline_md(" ".join(author_parts))}</p>'
+            html += '</blockquote>'
+            out.append('')
+            out.append(html)
+            out.append('')
+        else:
+            out.append(lines[i])
+            i += 1
+    return '\n'.join(out)
+
 def preprocess(text: str) -> str:
     text = re.sub(r'^# (PARTIE\s+[IVX]+)\s+—\s+(.+)$', convert_partie, text, flags=re.MULTILINE)
+    text = convert_blockquotes(text)
     text = re.sub(r'^\s*★\s*★\s*★\s*$', '<div class="stars">★ ★ ★</div>', text, flags=re.MULTILINE)
     text = re.sub(r'---ENCADRE---\n(.*?)---FIN---', convert_encadre, text, flags=re.DOTALL)
     return text
