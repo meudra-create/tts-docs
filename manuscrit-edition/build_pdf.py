@@ -126,7 +126,7 @@ blockquote + p, hr + p, .stars + p, .encadre + p {{
 /* ── CITATIONS EN EXERGUE ─────────────────────────────────── */
 blockquote {{
     background: {BLANC};
-    border-left: 3pt solid {OR_SATIN};
+    border-left: 0.5pt solid {OR_SATIN};
     border-top: 0.5pt solid {CREME_BD};
     border-bottom: 0.5pt solid {CREME_BD};
     margin: 1.6em 0;
