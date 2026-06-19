@@ -104,6 +104,8 @@ Au XIIIe siècle, un second géant prend le relais. L'Empire du Mali est fondé 
 Au XVe siècle, l'empire Songhaï prend la suite et intègre dans sa trajectoire les peuples de l'actuel Burkina Faso. Son souverain guerrier, Sonni Ali Ber, meurt en 1492 — l'année où Colomb traverse l'Atlantique — alors qu'il revient d'une expédition contre les Mossi, groupe ethnique majeur de l'actuel Burkina Faso. Retenons ce détail, car il dit quelque chose d'essentiel: les peuples qui combattent ensemble au sein de l'AES en 2024-2026 partagent une histoire d'interactions, de conflits et d'alliances qui précède de cinq siècles l'arrivée de la colonisation française. Les frontières de Berlin ont découpé un tissu humain; elles ne l'ont pas créé.
 Plus à l'est, le sultanat du Bornou, héritier du Kanem, dure du IXe au XIXe siècle — un millénaire d'existence politique continue — et entretient des correspondances diplomatiques avec l'Égypte et l'Empire ottoman. En d'autres termes, les souverains sahéliens échangeaient des ambassades et des lettres officielles avec les grandes puissances de leur temps, en partenaires reconnus. Enfin, le califat de Sokoto (1804–1903), né de la révolution religieuse d'Ousmane dan Fodio, devient l'une des plus grandes entités politiques africaines de son siècle; il reste aujourd'hui un référent identitaire majeur pour les populations haoussa et peules.
 
+---ENCADRE---
+
 **REPÈRES — LES GRANDS ÉTATS DU SAHEL PRÉCOLONIAL**
 
 - Empire du Ghana / Wagadou (IVe–XIe siècle): routes de l'or et du sel, système douanier sophistiqué.
@@ -112,6 +114,8 @@ Plus à l'est, le sultanat du Bornou, héritier du Kanem, dure du IXe au XIXe si
 - Sultanat du Bornou / Kanem (IXe–XIXe siècle): correspondances diplomatiques avec l'Égypte et l'Empire ottoman.
 - Califat de Sokoto (1804–1903): l'une des plus grandes entités politiques africaines, référent actuel des populations haoussa-peules.
 - Ces empires sont absents des manuels scolaires africains postcoloniaux, rédigés sur le modèle français.
+
+---FIN---
 
 
 ## Ni paradis perdu, ni page blanche
@@ -136,12 +140,16 @@ Au XVe siècle, l'université de Sankoré, à Tombouctou, accueille jusqu'à 25 
 
 L'autre preuve est juridique. La Charte du Mandé — dite aussi Kouroukan Fouga, 1236 — est considérée comme l'une des premières déclarations de droits humains de l'histoire: elle proclame la sacralité de la vie humaine, l'égalité de tous, l'abolition de l'esclavage par réduction. Pour le dire simplement, ce texte interdit de réduire une personne libre en esclavage et affirme que toute vie en vaut une autre — plus de cinq siècles avant la Déclaration des droits de l'homme et du citoyen de 1789. Proclamée à l'avènement de Soundiata Keïta, transmise oralement par les griots de génération en génération, la Charte rappelle une évidence que l'idéologie coloniale a niée: la réflexion sur la dignité humaine n'a pas attendu l'Europe pour exister au Sahel.
 
+---ENCADRE---
+
 **REPÈRES — CE QUE LE SAHEL A PRODUIT**
 
 - Charte du Mandé / Kouroukan Fouga (1236) : sacralité de la vie, égalité, interdiction de réduire en esclavage — l'une des premières déclarations de droits de l'histoire.
 - Université de Sankoré, Tombouctou (XVe siècle): jusqu'à 25 000 étudiants; ville d'environ 100 000 habitants.
 - Manuscrits de Tombouctou: plusieurs centaines de milliers de textes — médecine, mathématiques, philosophie, droit.
 - Cheikh Anta Diop: *Nations nègres et culture* (1954), laboratoire de datation carbone de Dakar, colloque UNESCO du Caire (1974).
+
+---FIN---
 
 
 ## Hérodote, Diop et la preuve par convergence
@@ -171,12 +179,16 @@ Le tout sous pavillon humanitaire. Les actes de la conférence invoquent la lutt
 
 Certains Africains ont vu le piège très tôt. Barthélémy Boganda, fondateur de la République centrafricaine — mort en 1959 dans un accident d'avion aux circonstances suspectées —, et Kwame Nkrumah, père de l'indépendance ghanéenne, mettaient en garde contre la même menace: des États micro-nationaux non viables, condamnés à la dépendance permanente, incapables de peser individuellement dans un système international construit contre eux. En d'autres termes, un État trop petit, enclavé, découpé sans logique économique, ne peut ni se défendre seul, ni négocier seul, ni se développer seul: il est structurellement condamné à chercher un protecteur — et le protecteur tout désigné sera l'ancien colonisateur. Berlin 1884-1885 avait fabriqué la condition de l'impossible souveraineté. Le destin des deux hommes ajoute à l'avertissement: Boganda meurt avant l'indépendance de son pays, dans des circonstances jamais pleinement élucidées, et Nkrumah, on le verra, sera renversé en 1966. Les fédérations qu'ils appelaient de leurs vœux ne verront pas le jour de leur vivant; il faudra attendre 2023 et la Charte du Liptako-Gourma pour qu'une réponse institutionnelle à ce morcellement émerge au Sahel — trois États nés du découpage de Berlin décidant, cent quarante ans plus tard, de mettre leurs souverainetés en commun.
 
+---ENCADRE---
+
 **REPÈRES — BERLIN, 1884-1885**
 
 - 15 novembre 1884: ouverture de la conférence dans la résidence du chancelier Bismarck, à Berlin.
 - Quatorze puissances européennes et les États-Unis autour de la table; aucun représentant africain.
 - 26 février 1885: clôture — l'Afrique est découpée en zones d'influence, ses fleuves ouverts à la navigation européenne.
 - Première conférence internationale de l'histoire consacrée exclusivement à un continent absent des débats.
+
+---FIN---
 
 
 ## Avant Berlin, après Berlin
@@ -202,6 +214,8 @@ Soyons honnêtes ici aussi, comme nous l'avons été pour les empires anciens: l
 Samory n'était pas seul. La conquête a rencontré, partout au Sahel, des hommes qui ont préféré la guerre, et parfois la mort, à la reddition.
 Babemba Traoré, roi du Kenédougou, dans l'actuel Mali, voit en 1898 les troupes françaises mettre le siège devant sa capitale, Sikasso, protégée par son célèbre tata — une muraille d'enceinte que l'artillerie finit par éventrer. Quand la chute devient inévitable, Babemba choisit de se donner la mort plutôt que de se rendre. Son geste restera, dans la mémoire malienne, comme la définition même du refus: on peut prendre la ville, pas le roi. Rabah Fadlallah conquiert le sultanat du Bornou et résiste à la pénétration française jusqu'en 1900, où il est vaincu et tué à la bataille de Kousseri, dans l'actuel Cameroun. Avant eux, El Hadj Omar Tall, fondateur de la théocratie toucouleur couvrant le Mali, la Guinée et le Sénégal actuels, avait mené au XIXe siècle la résistance islamique à la colonisation française, avant d'être acculé dans une grotte au nord du Mali, en 1864, où il disparaît.
 
+---ENCADRE---
+
 **REPÈRES — LES FIGURES DE LA RÉSISTANCE SAHÉLIENNE**
 
 - El Hadj Omar Tall: fondateur de la théocratie toucouleur (Mali, Guinée, Sénégal actuels); mène la résistance islamique jusqu'à sa disparition, acculé dans une grotte au nord du Mali (1864).
@@ -209,6 +223,8 @@ Babemba Traoré, roi du Kenédougou, dans l'actuel Mali, voit en 1898 les troupe
 - Babemba Traoré: roi du Kenédougou; se suicide à Sikasso en 1898 plutôt que de se rendre.
 - Rabah Fadlallah: conquérant du Bornou; résiste jusqu'à sa mort à la bataille de Kousseri (1900).
 - Tous absents des manuels scolaires postcoloniaux; tous présents dans les discours des dirigeants de l'AES.
+
+---FIN---
 
 
 ## Une résistance qui ne s'éteint jamais

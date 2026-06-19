@@ -278,7 +278,7 @@ def convert_encadre(m):
         if not s:
             continue
         tm = re.match(r'^\*\*(.+?)\*\*$', s)
-        if tm and 'ENCADRÉ' in tm.group(1):
+        if tm and ('ENCADRÉ' in tm.group(1) or 'REPÈRES' in tm.group(1)):
             title = tm.group(1)
         elif s.startswith('- '):
             rows.append(s[2:])
