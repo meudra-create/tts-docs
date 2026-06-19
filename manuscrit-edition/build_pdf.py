@@ -63,7 +63,7 @@ body {{
 h1 {{
     font-family: 'Crimson Text', 'FreeSerif', serif;
     font-size: 15pt;
-    font-weight: 600;
+    font-weight: 700;
     color: {BLANC};
     background: {ARDOISE};
     text-align: left;
@@ -71,7 +71,7 @@ h1 {{
     margin-bottom: 2.2em;
     margin-left: -0.80in;
     margin-right: -0.60in;
-    padding: 1.4em 0.80in 1.2em 0.80in;
+    padding: 2.8em 0.80in 2.4em 0.80in;
     page-break-before: always;
     line-height: 1.25;
     border-top: 4pt solid {OR_SATIN};
