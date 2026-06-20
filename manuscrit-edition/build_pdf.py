@@ -494,7 +494,8 @@ def convert_encadre(m):
         if not s:
             continue
         tm = re.match(r'^\*\*(.+?)\*\*$', s)
-        upper_title = tm and sum(1 for c in tm.group(1) if c.isupper()) > len(tm.group(1)) * 0.4
+        letters = [c for c in tm.group(1) if c.isalpha()] if tm else []
+        upper_title = tm and bool(letters) and sum(1 for c in letters if c.isupper()) / len(letters) > 0.5
         if tm and upper_title:
             title = tm.group(1)
         elif s.startswith('- '):

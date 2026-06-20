@@ -1370,10 +1370,10 @@ Concrètement, un blocus de carburant est une arme qui ne vise pas l'armée mais
 
 **BLOCUS JNIM — CHRONOLOGIE**
 
-- **Septembre 2025**: début du blocus méthodique des convois de carburant vers le Mali
-- **29-30 octobre 2025**: un convoi des FAMa brise le blocus — effet dissuasif immédiat sur le terrain
-- **9-12 novembre 2025**: pic de la crise sécuritaire et énergétique
-- **11 novembre 2025**: réouverture des écoles maliennes
+- Septembre 2025: début du blocus méthodique des convois de carburant vers le Mali
+- 29-30 octobre 2025: un convoi des FAMa brise le blocus — effet dissuasif immédiat sur le terrain
+- 9-12 novembre 2025: pic de la crise sécuritaire et énergétique
+- 11 novembre 2025: réouverture des écoles maliennes
 - Le blocus a échoué à plier le gouvernement. Il a solidifié l'opinion contre le JNIM.
 
 ---FIN---
@@ -1423,10 +1423,10 @@ Concrètement, une convention fiscale bilatérale permettait aux multinationales
 
 **DÉNONCIATION DES CONVENTIONS FISCALES AVEC LA FRANCE — SÉQUENCE AES**
 
-- **7 août 2023**: le Burkina Faso dénonce la convention fiscale franco-burkinabè
-- **8 novembre 2023**: prise d'effet côté burkinabè et français
-- **5 décembre 2023**: le Mali et le Niger dénoncent leurs conventions
-- **Conséquence**: fin des exonérations sur dividendes, intérêts et redevances — retour au droit commun
+- 7 août 2023: le Burkina Faso dénonce la convention fiscale franco-burkinabè
+- 8 novembre 2023: prise d'effet côté burkinabè et français
+- 5 décembre 2023: le Mali et le Niger dénoncent leurs conventions
+- Conséquence: fin des exonérations sur dividendes, intérêts et redevances — retour au droit commun
 - (Source: BOFiP, administration fiscale française, 17 juillet 2024)
 
 ---FIN---
@@ -1487,11 +1487,11 @@ Une monnaie souveraine devra s'adosser à une économie réelle. Cette économie
 
 **ENJEUX D'UNE MONNAIE SOUVERAINE AES**
 
-- **Atouts**: uranium (Niger), or (Mali), coton, pétrole (Niger) pour adosser la monnaie à des ressources réelles
-- **Prérequis**: banque centrale AES indépendante, système de compensation inter-AES
-- **Leçons à méditer**: Sango Coin (2022, échec technique) et $CAR (2025, −90 % le jour du lancement) — la précipitation tue
-- **Risques**: pression inflationniste de transition, attaques spéculatives contre la nouvelle monnaie
-- **Horizon**: Institut monétaire africain annoncé pour septembre 2026
+- Atouts: uranium (Niger), or (Mali), coton, pétrole (Niger) pour adosser la monnaie à des ressources réelles
+- Prérequis: banque centrale AES indépendante, système de compensation inter-AES
+- Leçons à méditer: Sango Coin (2022, échec technique) et $CAR (2025, −90 % le jour du lancement) — la précipitation tue
+- Risques: pression inflationniste de transition, attaques spéculatives contre la nouvelle monnaie
+- Horizon: Institut monétaire africain annoncé pour septembre 2026
 
 ---FIN---
 
@@ -1509,10 +1509,10 @@ Mais la question doit être posée, et posée frontalement: l'AES a remplacé de
 
 **PARTENARIATS AES — PHASE 2 (2022-2026)**
 
-- **Russie** (Africa Corps, ex-Wagner): instructeurs, hélicoptères Mi-8/Mi-35, présence terrain
-- **Chine**: infrastructures, surveillance numérique, accords commerciaux — présence moins interventionniste
-- **Turquie**: drones Bayraktar TB2, accords avec le Mali et le Niger — position plus discrète
-- **BRICS**: délégation à Ouagadougou (juin 2023), six semaines avant la transition nigérienne
+- Russie (Africa Corps, ex-Wagner): instructeurs, hélicoptères Mi-8/Mi-35, présence terrain
+- Chine: infrastructures, surveillance numérique, accords commerciaux — présence moins interventionniste
+- Turquie: drones Bayraktar TB2, accords avec le Mali et le Niger — position plus discrète
+- BRICS: délégation à Ouagadougou (juin 2023), six semaines avant la transition nigérienne
 
 ---FIN---
 ## La Russie: l'allié encombrant et l'argument inattendu
@@ -1614,12 +1614,12 @@ D'où le double tableau qui suit — sans doute le plus important de ce livre, p
 
 **CONDITIONS POSSIBLES DE L'ÉCHEC**
 
-- **Personnalisation du pouvoir**: des transitions devenant des règnes personnels permanents, sans calendrier de sortie
-- **Compradorisme militaire**: des élites en uniforme reproduisant les logiques des élites civiles qu'elles ont remplacées
-- **Dépendance russe**: le remplacement d'une tutelle par une autre, même à des conditions différentes
-- **Fractures internes**: la violence contre les minorités, créant guerres civiles et terreau de recrutement jihadiste
-- **Échec sécuritaire**: l'incapacité à protéger les populations au-delà des grandes villes
-- **Échec économique**: sanctions et gestion déficiente débouchant sur une crise alimentaire qui délégitime les transitions
+- Personnalisation du pouvoir: des transitions devenant des règnes personnels permanents, sans calendrier de sortie
+- Compradorisme militaire: des élites en uniforme reproduisant les logiques des élites civiles qu'elles ont remplacées
+- Dépendance russe: le remplacement d'une tutelle par une autre, même à des conditions différentes
+- Fractures internes: la violence contre les minorités, créant guerres civiles et terreau de recrutement jihadiste
+- Échec sécuritaire: l'incapacité à protéger les populations au-delà des grandes villes
+- Échec économique: sanctions et gestion déficiente débouchant sur une crise alimentaire qui délégitime les transitions
 
 ---FIN---
 
@@ -1627,14 +1627,14 @@ D'où le double tableau qui suit — sans doute le plus important de ce livre, p
 
 **CONDITIONS NÉCESSAIRES AU SUCCÈS**
 
-- **Transition démocratique programmée**: calendrier clair, institutions civiles, élections dotées d'une représentativité réelle
-- **Transparence budgétaire**: publication des comptes, lutte contre la corruption interne
-- **Souveraineté monétaire**: une stratégie de transition crédible, avec gestion des risques inflationnistes
-- **Diversification stratégique**: ne pas répéter avec Moscou ou Pékin ce qui a été fait avec Paris
-- **Justice interne**: protection des minorités, redevabilité des forces de sécurité
-- **Mobilisation de la diaspora**: politiques actives d'investissement et de retour des compétences
-- **Service militaire élargi**: selon Nathalie Yamb, un outil de conscientisation citoyenne, pas seulement de défense
-- **Dialogue permanent**: maintenir les canaux de négociation même en temps de guerre; « La guerre n'empêche pas le dialogue » (Patient Parfait Ndoum, For You Media Africa, 8 juin 2026)
+- Transition démocratique programmée: calendrier clair, institutions civiles, élections dotées d'une représentativité réelle
+- Transparence budgétaire: publication des comptes, lutte contre la corruption interne
+- Souveraineté monétaire: une stratégie de transition crédible, avec gestion des risques inflationnistes
+- Diversification stratégique: ne pas répéter avec Moscou ou Pékin ce qui a été fait avec Paris
+- Justice interne: protection des minorités, redevabilité des forces de sécurité
+- Mobilisation de la diaspora: politiques actives d'investissement et de retour des compétences
+- Service militaire élargi: selon Nathalie Yamb, un outil de conscientisation citoyenne, pas seulement de défense
+- Dialogue permanent: maintenir les canaux de négociation même en temps de guerre; « La guerre n'empêche pas le dialogue » (Patient Parfait Ndoum, For You Media Africa, 8 juin 2026)
 
 ---FIN---
 Trois variables transversales déterminent l'issue de tous les scénarios. La gouvernance économique réelle: les ressources profitent-elles aux populations, ou nourrissent-elles une rente d'élite en uniforme? La liberté d'expression: les sociétés civiles peuvent-elles critiquer sans être réprimées? Le retour progressif au constitutionnalisme: les transitions produisent-elles des institutions ou des règnes? Ces trois questions n'émanent pas des puissances extérieures. Elles émanent des peuples sahéliens eux-mêmes. C'est là leur force — et leur exigence la plus difficile à tenir.
