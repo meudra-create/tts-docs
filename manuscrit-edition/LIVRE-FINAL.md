@@ -886,6 +886,12 @@ Le général Burkhard, dix ans plus tard, dira la conséquence logique de ce sys
 Reste le verdict le plus froid, parce qu'il vient du sommet de l'appareil sécuritaire. Alain Juillet n'est pas un panafricaniste: ancien directeur du renseignement de la DGSE (2002-2003), puis Haut Responsable à l'intelligence économique auprès du Premier ministre — concrètement, l'homme chargé de défendre les intérêts économiques français dans la compétition mondiale. Son diagnostic est sans appel: la France perd du terrain « partout» en Afrique francophone. Le problème « dépasse le Sahel». Même en Côte d'Ivoire et au Sénégal, alliés traditionnels, la situation est « précaire». Le Gabon et le Togo basculent vers le Commonwealth britannique. La Russie presse le Cameroun de Biya. Et la Guinée offre le cas d'école: la France a soutenu le troisième mandat d'Alpha Condé contre la volonté populaire, ce qui a directement produit la prise de pouvoir de Mamadi Doumbouya. En voulant maintenir ses alliés au pouvoir contre les peuples, la France a accéléré sa propre exclusion. Du terrain centrafricain, l'analyste Fridolin Ngoulou avait tiré le même bilan en une phrase, déjà citée dans ce livre: soixante ans de coopération, et la Centrafrique reste dernière des pays francophones.
 À l'expertise institutionnelle s'ajoute la production académique indépendante. Marc-Antoine Pérouse de Montclos, chercheur français spécialiste des conflits sahéliens, a conclu que l'intervention militaire française n'a pas résolu la menace jihadiste: elle l'a fragmentée, déplacée, rendue plus difficile à cibler — avant de la retrouver partout. Sa conclusion est celle des données ACLED, déjà citées au chapitre 13: une présence de dix ans pour un triplement de la menace. Selon Luc Michel, plusieurs voix de la presse française mainstream auraient chacune, à des moments différents, acté cette faillite — parmi elles Michèle Cotta, Le Monde Afrique et Le Figaro. Ces citations, rapportées par une source engagée, ne peuvent être retenues au même rang que les rapports parlementaires ou les auditions à huis clos. Elles signalent cependant que le constat de l'échec ne reste plus confiné au camp panafricaniste: il circule désormais dans des tribunes qui ne lui sont ni proches ni complaisantes.
 
+## L'aveu du stratège: « pour les intérêts de la France »
+
+Reste l'aveu le plus nu, parce qu'il vient d'un homme qui a commandé la guerre. Le général François Lecointre fut chef d'état-major des armées françaises de 2017 à 2021 — les années Barkhane —, avant de devenir grand chancelier de la Légion d'honneur. Nul marginal, nul dissident: le sommet même de l'institution militaire. C'est ce stratège que le capitaine Traoré avait pris à partie dans son discours sur la « guerre de haute intensité». Dans un entretien public, Lecointre concède ce que dix ans de communication officielle avaient nié: « Je suis absolument désolé de voir l'échec de nos engagements au Sahel.» L'ancien patron des armées, sous lequel Barkhane fut conduite, parle d'échec. Le mot, dans sa bouche, n'est pas une opinion de plus: c'est un constat dressé de l'intérieur.
+Lecointre va plus loin et énonce la doctrine que tout ce livre s'emploie à mettre au jour. Selon les propos qui lui sont attribués — rapportés ici avec la prudence due à une source unique —, « on ne fait pas la guerre pour la démocratie mais pour les intérêts de la France». Si la formule est exacte, elle dissout d'un trait la justification officielle de Serval, de Barkhane et du G5 Sahel: non pas protéger des populations ni défendre un ordre démocratique, mais servir des intérêts. C'est, presque mot pour mot, ce que les dirigeants de l'AES répètent depuis 2020 — et que Paris rangeait au rayon de la propagande. Quand l'accusé reprend la phrase de l'accusation, le procès est clos.
+Le même stratège dessine enfin l'avenir, et il glace. L'Europe, soutient-il, ne pourra pas tolérer durablement « à ses portes» un continent qu'il décrit gagné par l'effondrement des États, la guerre civile et une explosion démographique sans précédent; elle devra « agir comme une entité politique» et « défendre elle-même ses intérêts, y compris par le moyen de l'engagement de ses armées». Lecointre l'énonce comme une nécessité stratégique; ses contradicteurs y lisent l'annonce d'une re-militarisation de la présence européenne en Afrique. Les deux lectures convergent sur un point: le retrait du Sahel n'est pas tenu pour définitif. Ce que la recomposition (chapitre 30) habille de partenariats rénovés, ce stratège le nomme sans fard — une option militaire gardée en réserve. C'est très exactement ce qui fait de la consolidation de l'AES, examinée au chapitre suivant, une question de survie et non de confort.
+
 ## Ils savaient
 
 Rassemblons les pièces. 2008-2009: le plan Sahel est décidé dans le secret. 2013: Védrine classe le panafricanisme parmi les menaces. 2017: Macron reconnaît devant le G5 Sahel que sans gouvernance et sans espoir, la guerre ne peut pas être gagnée — et la poursuit sept ans. Une commission parlementaire écrit « domination» et avoue que la France a plus besoin de l'Afrique que l'inverse. 2024: le chef d'état-major admet à huis clos qu'il n'y a pas de camp d'amis au Mali. L'ancien patron du renseignement constate que la maison brûle « partout». À aucun moment ces diagnostics, pourtant convergents, n'ont changé la politique. La France a confondu l'Afrique avec une propriété, et les Africains avec des sujets — et elle le savait, puisqu'elle l'écrivait.
@@ -1928,6 +1934,7 @@ Les renvois indiquent les chapitres où chaque figure est citée ou analysée.
 - Kadhafi, Mouammar — dirigeant libyen (1969-2011). ch. 7, ch. 11, ch. 28.
 - Keïta, Ibrahim Boubacar (IBK) — président du Mali renversé en août 2020. ch. 16, ch. 25.
 - Keïta, Modibo — premier président du Mali indépendant (1960-1968). ch. 5, ch. 7, ch. 19, ch. 21, ch. 22.
+- Lecointre, François — chef d'état-major des armées françaises (2017-2021), grand chancelier de la Légion d'honneur. ch. 15.
 - Le Floch-Prigent, Loïk — ancien PDG d'Elf. ch. 6.
 - Lissouba, Pascal — ancien président du Congo-Brazzaville. ch. 6.
 - Lumumba, Patrice — premier Premier ministre du Congo, assassiné en 1961. ch. 5, ch. 9, ch. 20, ch. 21, ch. 22.
@@ -1943,6 +1950,7 @@ Les renvois indiquent les chapitres où chaque figure est citée ou analysée.
 - Olympio, Sylvanus — premier président du Togo, assassiné en 1963. ch. 5, ch. 7, ch. 22, ch. 28.
 - Ouattara, Alassane — président de la Côte d'Ivoire. ch. 10, ch. 16, ch. 20, ch. 23.
 - Perkins, John — auteur de Confessions of an Economic Hit Man. ch. 9.
+- Pérouse de Montclos, Marc-Antoine — chercheur français, spécialiste des conflits sahéliens. ch. 15.
 - Pondi, Jean-Emmanuel — politologue camerounais, auteur de *Vie et mort de Mouammar Kadhafi*. ch. 11.
 - Saïf al-Islam Kadhafi — fils de Mouammar Kadhafi, chef de l'aile « libérale» du régime en 2011. ch. 11.
 - Samory Touré — fondateur de l'empire Wassoulou, résistant à la colonisation. ch. 4, Conclusion.
@@ -2019,6 +2027,9 @@ besoin de l'Afrique plus qu'elle n'a besoin de nous.»
 Assemblée nationale, septembre 2024.
 - Alain Juillet, ancien directeur du renseignement de la DGSE — diagnostic du déclin
 de l'influence française.
+- Général François Lecointre, ancien chef d'état-major des armées (2017-2021) — « l'échec
+de nos engagements au Sahel»; « on ne fait pas la guerre pour la démocratie mais pour les
+intérêts de la France» (propos rapportés via une source unique, à confirmer).
 - Anne-Sophie Avé, ancienne ambassadrice au Mali, directrice Afrique au Quai d'Orsay —
 doctrine de la « dissonance cognitive».
 - Rapport Védrine (2013) — le panafricanisme identifié comme « menace».
