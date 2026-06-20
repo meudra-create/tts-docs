@@ -587,13 +587,46 @@ Tout commence par une guerre que le Sahel n'a pas déclarée. Elle s'est allumé
 
 # Chapitre 11 — La crise libyenne
 
+> « Il est des cycles inévitables dans l'histoire sociale: c'est désormais au tour de la race noire de prévaloir dans le monde.» — Mouammar Kadhafi
 Syrte, 20 octobre 2011. Un convoi de véhicules tente de fuir la ville assiégée. Des avions de l'OTAN le frappent. Dans la confusion qui suit, un homme de soixante-neuf ans est extrait d'une canalisation de drainage où il s'était réfugié, lynché, puis exécuté par des combattants qui filment la scène avec leurs téléphones. Les images font le tour du monde en quelques heures. Mouammar Kadhafi, qui avait dirigé la Libye pendant quarante-deux ans, meurt dans la poussière, sous l'objectif des caméras. Ce jour-là, peu d'observateurs comprennent que ce n'est pas seulement le guide qui disparaît. C'est un verrou qui saute. Et derrière ce verrou, il y a le Sahel.
 
-## Un personnage double
+## L'enfant du désert
 
-Soyons honnêtes d'emblée: Kadhafi n'était pas un saint.
-L'homme avait une autre face, que le récit occidental a soigneusement gommée: il était devenu, dans les années 2000, le principal financier et l'un des architectes du projet panafricain. C'est au sommet de Syrte, en septembre 1999, qu'est lancée la dynamique qui aboutira à la transformation de l'Organisation de l'unité africaine en Union africaine. C'est la Libye qui comblait une part substantielle du budget de l'organisation continentale, ainsi que les cotisations de plusieurs États membres trop pauvres pour les payer.
+Soyons honnêtes d'emblée: Kadhafi n'était pas un saint. Sur le plan intérieur, l'homme fut autoritaire, imprévisible, parfois brutal; il se méfiait des intellectuels et tolérait mal la contradiction. Mais réduire quarante-deux ans de pouvoir à cette seule face, c'est manquer ce qui fait de sa mort un tournant pour le continent. Pour saisir l'autre Kadhafi — celui que le récit occidental a soigneusement gommé —, le meilleur guide est sans doute le politologue camerounais Jean-Emmanuel Pondi, spécialiste des relations internationales, qui lui a consacré un essai au titre programmatique: *Vie et mort de Mouammar Kadhafi: quelle leçon pour l'Afrique* (Éditions Afrédit). On suivra ici son fil.
+
+Kadhafi naît au début des années 1940, au moment où la Libye est bombardée par les puissances alliées — un monde en ébullition dont l'enfant retient surtout qu'on tire de partout. Il est le premier de sa famille de Bédouins à entrer dans une école occidentale. De ces origines nomades, Pondi tire un trait de caractère décisif: une liberté sans bornes et une aversion viscérale pour l'autorité — administrative d'abord, politique ensuite. Ce refus, Kadhafi en fera plus tard une doctrine: « L'éducation obligatoire est par nature coercitive et supprime la liberté; imposer un enseignement spécifique est une décision totalitaire.» Son héros d'enfance n'est pas un Libyen, mais l'Égyptien Gamal Abdel Nasser, dont la nationalisation du canal de Suez vient de faire un héros du monde arabe. À ce modèle s'ajoute une blessure: la Libye, méprisée jusque dans le monde arabe, n'est pas prise au sérieux. Kadhafi en souffre et veut en tirer revanche. C'est dans cette enfance, dit Pondi, qu'il faut chercher la matrice de tout le reste. Il entre à l'académie militaire de Benghazi avec une idée fixe que peu de cadets osent formuler: non pas devenir soldat, mais faire une révolution.
+
+Il la fait le 1er septembre 1969, en renversant le roi qu'il juge à la solde des Occidentaux. Son premier acte est économique: nationaliser le pétrole et le gaz, dont l'exploitation était confiée à des consortiums occidentaux pour une part libyenne qu'il juge scandaleusement basse. Concrètement, la rente pétrolière cesse de partir sans contrepartie: la Libye, peu peuplée et riche en hydrocarbures, redistribue. Chaque ménage libyen reçoit un chèque annuel tiré des revenus du pétrole — une mesure quasi inédite ailleurs. C'est sur ce socle de richesse que Kadhafi va, plus tard, financer l'Afrique.
+
+## L'argent du panafricanisme
+
+Le panafricanisme de Kadhafi n'est pas une vocation première: c'est un report. Rejeté par les leaders du Maghreb — Bourguiba en tête — qui le trouvent trop jeune, trop bouillant, trop ambitieux, il se tourne vers l'Afrique subsaharienne. Le passage ne se fait pas sans heurt: la guerre de la bande d'Aozou contre le Tchad se solde par une défaite cuisante devant la Cour internationale de justice, qui tranche en faveur de N'Djamena. C'est après cette humiliation que Kadhafi revient vers l'Afrique, cette fois de manière pacifique — et l'Afrique l'adopte, jusqu'à lui décerner des titres de chef traditionnel.
+
+Mais l'essentiel, pour Pondi, n'est pas dans les titres: il est dans la convergence entre le discours et les actes. Là où tant de chefs d'État se proclament anticolonialistes sans jamais le prouver, Kadhafi engage l'argent. Entre 2000 et 2010, il investit plus de 20 milliards de dollars sur le continent — davantage, souligne Pondi, que la Banque mondiale ou le FMI sur la même période. Ces investissements ont des noms et une portée stratégique: avec le satellite RASCOM, par exemple, un téléspectateur camerounais peut pour la première fois regarder une chaîne sénégalaise, sud-africaine ou nigériane, là où le continent était jusqu'alors condamné à louer les satellites occidentaux pour quelque 500 000 euros par an et par pays.
+
+---ENCADRE---
+
+**L'EMPREINTE AFRICAINE DE KADHAFI (2000-2010)**
+
+- Malibya: environ 100 000 hectares de terres agricoles aménagées au Mali
+- Oilibya: plus de 200 stations-service réparties à travers le continent
+- Afriqiyah Airways: une compagnie « low cost» pour faire voyager les Africains à prix réduit
+- RASCOM: un satellite de communication libérant l'Afrique de la location des satellites occidentaux
+- Plus de 20 milliards de dollars investis sur la période — davantage que la Banque mondiale ou le FMI
+
+---FIN---
+
+## L'architecte de l'Union africaine
+
+C'est aussi Kadhafi qui finance la naissance de l'organisation continentale. Au sommet de Syrte, le 9 septembre 1999, la Libye convoque la réunion, éponge les arriérés de cotisation des États membres trop pauvres pour voter, et affrète ses avions — la compagnie Afriqiyah — pour transporter les délégations. Sans cet engagement, dit Pondi, la conférence de Syrte, premier jalon de l'Union africaine, n'aurait pas eu lieu. Le 11 juillet 2000, à Lomé, lorsqu'est présenté l'acte constitutif de l'UA, Kadhafi prend la parole pendant quarante-cinq minutes et met sur la table un milliard de dollars pour l'intégration africaine — « pour commencer», dit-il. Sa conviction, héritée de Nkrumah: l'indépendance politique ne vaut rien sans indépendance économique.
+
 Surtout, Kadhafi préparait ce qu'aucun dirigeant africain n'avait osé depuis Nkrumah: une infrastructure monétaire continentale. En 2010-2011, trois institutions étaient en chantier: un Fonds monétaire africain, basé à Yaoundé; une Banque centrale africaine, prévue à Abuja; un Fonds d'investissement africain, à Tripoli. La Libye y avait engagé 20 milliards de dollars et rapatrié 120 tonnes d'or (Jonathan Batenguène, Panafrican Média TV, 10 mai 2026). Concrètement, cela signifiait qu'un jour, les pays africains pourraient emprunter, investir et émettre leur monnaie sans passer ni par le FMI, ni par la Banque mondiale, ni par le Trésor français — c'est-à-dire sans passer par les institutions qui, depuis 1960, encadrent leurs économies de l'extérieur. En 2011, Kadhafi est éliminé. La chronologie entre le projet monétaire africain et l'intervention de l'OTAN est connue. Elle ne prouve pas, à elle seule, une causalité. Elle interdit en revanche de raconter 2011 comme une simple opération humanitaire.
+
+## Quatre leçons pour l'Afrique
+
+De cette trajectoire, Pondi tire quatre leçons que ce livre fait siennes, parce qu'elles éclairent tout ce qui suit. La première: chaque fois qu'un dirigeant africain s'est donné les moyens de décider et d'appliquer ses décisions sans tutelle, il a souvent connu la déchéance. Le Fonds monétaire africain, dont le siège était prévu à Yaoundé, était en phase de finition — l'argent était déjà arrivé, le lancement imminent. La deuxième: l'Occident redoute moins ses ennemis que les insoumis. Sans dette envers la Banque mondiale ni le FMI, Kadhafi disait ce qu'il voulait, quand il le voulait; cet « électron libre» était d'autant plus inquiétant qu'il était incontrôlable. La troisième tient de la critique: faute de s'entourer des intellectuels dont il se méfiait, Kadhafi n'a pas su conceptualiser sa révolution ni la faire durer. Il aurait pu fonder des institutions pérennes — une école, une fondation, un prix panafricain; il a laissé une œuvre dispersée, plus facile à démanteler qu'un héritage codifié. La quatrième, enfin: la cause panafricaine est perçue, en bien des lieux, comme subversive et dangereuse. Ce n'est pas un pique-nique du dimanche. C'est un combat dont il faut savoir, à l'avance, qu'il a un prix.
+
+Cette dernière leçon n'est pas abstraite. Sept mois de frappes l'ont écrite dans la chair d'un homme et dans le destin d'un pays. Il faut maintenant raconter comment.
 
 ## Mars-octobre 2011: chronologie d'une destruction
 
