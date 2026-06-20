@@ -598,7 +598,7 @@ def preprocess(text: str) -> str:
 
     # 4. Citations, étoiles, encadrés
     text = convert_blockquotes(text)
-    text = re.sub(r'^\s*★\s*★\s*★\s*$', '<div class="stars">★ ★ ★</div>', text, flags=re.MULTILINE)
+    text = re.sub(r'^\s*★\s*★\s*★\s*$', '<div class="stars">★★★</div>', text, flags=re.MULTILINE)
     text = re.sub(r'---ENCADRE---\n(.*?)---FIN---', convert_encadre, text, flags=re.DOTALL)
     return text
 
