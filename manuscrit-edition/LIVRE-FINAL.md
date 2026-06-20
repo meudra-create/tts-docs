@@ -650,6 +650,14 @@ Khalifa Haftar, enfin. Officier de Kadhafi capturé au Tchad en 1987, passé à 
 
 Reste le grand perdant silencieux de 2011: la Russie. À l'ONU, Moscou — alors présidée par Dmitri Medvedev — n'oppose pas son veto à la résolution 1973: elle s'abstient, croyant n'autoriser qu'une zone d'exclusion aérienne. En quelques jours, elle voit l'aviation et l'infrastructure militaire libyennes pulvérisées par des frappes qui visaient le renversement. La leçon sera retenue. C'est cette abstention de 2011, vécue comme une duperie, qui explique le veto systématique opposé ensuite par Moscou à toute résolution comparable sur la Syrie. Le verrou qui saute en Libye en referme un autre, ailleurs.
 
+## L'islamiste utile
+
+Il faut nommer ce que furent, pour l'essentiel, les troupes au sol de 2011. Non pas des démocrates en armes, mais des combattants islamistes. C'est ici que l'analyse de Michel rejoint un fait que la décennie suivante rendra incontestable, et que ce livre retrouvera au Sahel. Il existe, dit-il, deux catégories d'islamistes dans la grammaire occidentale: l'islamiste utile, quand il combat les ennemis de l'Amérique, et le mauvais islamiste, quand il la combat elle. Or ce sont, le plus souvent, les mêmes hommes — instrumentalisés au gré des cycles. Le précédent fondateur remonte à l'Afghanistan des années 1980, lorsque Washington et Riyad arment les moudjahidines contre l'Armée rouge, faisant naître les réseaux dont sortira Al-Qaïda. L'arme se retourne toujours, un jour, contre la main qui l'a forgée; mais d'ici là, elle sert.
+
+La preuve libyenne est limpide. Abdelhakim Belhadj, qu'on a vu sortir des geôles pour devenir gouverneur de Tripoli, en est l'archétype: jihadiste traqué hier, allié utile aujourd'hui, gouverneur demain, exportateur de combattants vers la Syrie après-demain. À la veille du soulèvement, des centaines de membres des groupes combattants islamistes sont libérés des prisons libyennes — y compris au titre d'un programme de « réconciliation» que pilotait Saïf al-Islam, le fils de Kadhafi. Quelques mois plus tard, ces mêmes hommes encadrent les katibas qui prennent Tripoli. L'islamiste emprisonné est devenu, en un printemps, l'islamiste utile.
+
+Ce mécanisme ne s'arrête pas aux frontières libyennes. Les scénarios occidentaux, rappelle Michel, prévoyaient d'installer aux commandes des régimes « remodelés» — Tunisie, Égypte, Libye, Syrie — des Frères musulmans présentables, force dominante d'un parlementarisme de façade. Mais l'instrument échappe toujours, pour partie, à la main qui l'a forgé: les combattants armés pour Tripoli se retrouvent en Syrie, ceux de Syrie au Sahel. C'est une lecture partisane, et on la pèse comme telle; elle recoupe pourtant ce que des voix tout autres — le général Tiani, l'analyste Banda Kani — diront du Sahel au chapitre suivant. L'essentiel tient en une phrase: le jihadiste n'est pas seulement l'ennemi que l'Occident affirme combattre au Sahel; il a d'abord été, ailleurs, l'outil qu'il a forgé. Cette dualité — l'instrument devenu prétexte — hante toute la guerre sahélienne.
+
 ## Les arsenaux se dispersent
 
 La Libye de Kadhafi était l'un des États les plus militarisés d'Afrique. Sa destruction pulvérise les chaînes de garde de ses dépôts: des dizaines de milliers de tonnes d'armes — missiles, lance-roquettes, armes automatiques, véhicules blindés — se dispersent dans toute la bande sahélo-saharienne. Les combattants touareg du nord du Mali, dont certains avaient servi dans l'armée libyenne, rentrent chez eux avec armes et bagages. Au sens propre.
@@ -1883,6 +1891,7 @@ Les renvois indiquent les chapitres où chaque figure est citée ou analysée.
 - Ouattara, Alassane — président de la Côte d'Ivoire. ch. 10, ch. 16, ch. 20, ch. 23.
 - Perkins, John — auteur de Confessions of an Economic Hit Man. ch. 9.
 - Pondi, Jean-Emmanuel — politologue camerounais, auteur de *Vie et mort de Mouammar Kadhafi*. ch. 11.
+- Saïf al-Islam Kadhafi — fils de Mouammar Kadhafi, chef de l'aile « libérale» du régime en 2011. ch. 11.
 - Samory Touré — fondateur de l'empire Wassoulou, résistant à la colonisation. ch. 4, Conclusion.
 - Sankara, Thomas — président du Burkina Faso (1983-1987), figure du panafricanisme. ch. 7, ch. 9, ch. 10, ch. 17, ch. 20, ch. 21, ch. 23, ch. 24, ch. 25, ch. 26, ch. 28, ch. 29, Conclusion.
 - Sarkozy, Nicolas — président français (2007-2012). ch. 6, ch. 11, ch. 14, ch. 25.
