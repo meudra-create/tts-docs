@@ -283,7 +283,7 @@ Quatre pionniers. Deux assassinés, deux renversés. Aucun n'a achevé son manda
 
 ---ENCADRE---
 
-**ENCADRÉ — LES INDÉPENDANCES ET LEUR BILAN, SOIXANTE ANS APRÈS**
+**LES INDÉPENDANCES ET LEUR BILAN, SOIXANTE ANS APRÈS**
 
 - Sénégal: 4 avril 1960 — Niger: 3 août 1960 — Burkina Faso (ex-Haute-Volta): 5 août 1960 — Tchad: 11 août 1960 — Mali: 22 septembre 1960 — Mauritanie: 28 novembre 1960
 - Guinée: 2 octobre 1958 — seul territoire à avoir voté non au referendum
@@ -329,7 +329,7 @@ Et la machine se réalimente elle-même. Robert Bourgi, avocat franco-libanais e
 
 ---ENCADRE---
 
-**ENCADRÉ — LE CIRCUIT DU PILLAGE, DE L'EXTRACTION AU FINANCEMENT POLITIQUE**
+**LE CIRCUIT DU PILLAGE, DE L'EXTRACTION AU FINANCEMENT POLITIQUE**
 
 - 1. Extraction des ressources africaines à prix décoté (4 $ pour un pétrole revendu 80 $)
 - 2. Cargaisons non déclarées, chiffres invérifiables par les États producteurs
@@ -364,7 +364,7 @@ Concrètement, voici ce que cela signifie: quand le Niger vend son uranium ou le
 
 ---ENCADRE---
 
-**ENCADRÉ — LE COMPTE D'OPÉRATIONS EN CLAIR**
+**LE COMPTE D'OPÉRATIONS EN CLAIR**
 
 - Le principe: la France « garantit» la convertibilité du franc CFA en euros
 - Le prix: 50 % des réserves de change des États membres déposées au Trésor français (100 % de 1945 à 1975)
@@ -408,7 +408,7 @@ Et il y a le coût invisible. Quand l'ambassadeur Sylvain Itté ironisait sur le
 
 ---ENCADRE---
 
-**ENCADRÉ — NIGER: L'INVENTAIRE D'UN PARADOXE**
+**NIGER: L'INVENTAIRE D'UN PARADOXE**
 
 - 35 % des importations françaises d'uranium concentré en 2020 (Haut Comité pour la transparence nucléaire)
 - Prix historiquement payé: 30 à 40 % sous le cours mondial (ONG Sherpa, 2013)
@@ -458,7 +458,7 @@ La meilleure preuve que l'aide est un instrument politique? Sa courbe épouse ex
 
 ---ENCADRE---
 
-**ENCADRÉ — AIDE FRANÇAISE AU MALI: CHRONOLOGIE D'UN CHANTAGE**
+**AIDE FRANÇAISE AU MALI: CHRONOLOGIE D'UN CHANTAGE**
 
 - 2017-2021: 587 millions d'euros au total (385 milliards FCFA)
 - 2018-2019: montant multiplié par sept (de 30 à 205 millions d'euros) — les années où Bamako obéit
@@ -502,7 +502,7 @@ Le Dr Yamb Ntimba a donné de ce système sa description la plus structurée: un
 
 ---ENCADRE---
 
-**ENCADRÉ — LA PYRAMIDE DE DOMINATION (DR YAMB NTIMBA)**
+**LA PYRAMIDE DE DOMINATION (DR YAMB NTIMBA)**
 
 - Niveau 5 — Ontologique: faire croire aux dominés à leur propre infériorité; structurer l'environnement mental
 - Niveau 4 — Culturel et médiatique: RFI, France 24, TV5, ONG; la « démocratie» comme label décerné ou retiré
@@ -520,7 +520,7 @@ Toute domination a besoin d'un vocabulaire, et celui de la Françafrique est sop
 
 ---ENCADRE---
 
-**ENCADRÉ — DÉCONSTRUCTION DU LEXIQUE IMPÉRIAL**
+**DÉCONSTRUCTION DU LEXIQUE IMPÉRIAL**
 
 - « Opération de stabilisation» = intervention militaire non autorisée par le peuple concerné
 - « Partenariat sécuritaire» = présence militaire avec droit de regard sur les ressources
