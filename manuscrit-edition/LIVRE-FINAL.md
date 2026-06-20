@@ -630,9 +630,25 @@ Cette dernière leçon n'est pas abstraite. Sept mois de frappes l'ont écrite d
 
 ## Mars-octobre 2011: chronologie d'une destruction
 
+Avant les frappes, il y eut l'étincelle. Le 15 février 2011, des manifestations éclatent à Benghazi; en quelques jours, la ville bascule et un « Conseil national de transition» s'autoproclame. Le mot n'est pas neutre: dans la grammaire des changements de régime, « transition» est le terme qui habille de légalité un basculement préparé. Sur la nature de ce soulèvement, les lectures s'opposent frontalement. Le récit occidental y voit une révolution populaire spontanée contre un tyran. Des observateurs engagés y voient une opération montée de l'extérieur autant que de l'intérieur du régime. Luc Michel, militant pro-Kadhafi qui dirigeait alors le réseau européen des comités révolutionnaires libyens et se trouvait sur place, décrit une aile « libérale» du régime, des transfuges et des éléments étrangers allumant puis exploitant la révolte. Le témoignage est de première main; il est aussi tout sauf neutre, et on le lira comme tel. Reste un fait que nul ne conteste: la vitesse à laquelle des manifestations sont devenues une guerre civile internationalisée.
+
+Ce soulèvement, Michel l'inscrit dans un dessein plus vaste qu'il nomme, à la suite des stratèges américains, le « Grand Moyen-Orient»: un projet né avec la guerre d'Irak de 2003 et visant, l'un après l'autre, les régimes nationalistes arabes — l'Irak de Saddam, la Libye de Kadhafi, la Syrie des Assad. Détail qui ne s'invente pas: l'expression « printemps arabe» est elle-même le titre d'un livre de l'écrivain français Jacques Benoist-Méchin, paru en 1959 et consacré à la vague nationaliste de Nasser. Recyclée un demi-siècle plus tard, elle a paré d'un parfum d'émancipation une séquence d'une autre nature. Cette lecture est contestée et émane d'une source partisane. Mais elle converge avec celle qu'exposera, au chapitre suivant, le général Tiani — « une même matrice: l'Irak, la Syrie, la Libye, et aujourd'hui le Sahel». Quand un militant pro-Kadhafi et un chef d'État sahélien décrivent, à quinze ans de distance, la même mécanique, la convergence mérite d'être notée.
+
 Le 10 mars, la France de Nicolas Sarkozy — aiguillonnée par le philosophe Bernard-Henri Lévy, qui a organisé le contact entre l'Élysée et les insurgés — reconnaît le Conseil national de transition comme seul représentant légitime du peuple libyen. Une première mondiale: Paris reconnaît une rébellion avant même que quiconque sache qui la compose.
 Le 17 mars, le Conseil de sécurité de l'ONU adopte la résolution 1973, qui autorise une zone d'exclusion aérienne pour protéger les civils. Concrètement, une zone d'exclusion aérienne consiste à interdire le ciel d'un pays à son propre gouvernement: tout appareil libyen qui décolle peut être abattu. Le mandat s'arrête là — protéger les populations, pas renverser le régime. Le 19 mars, les avions français frappent les premiers, près de Benghazi. Le 31 mars, l'OTAN prend le commandement des opérations, avec Paris et le Londres de David Cameron en première ligne. Très vite, le mandat de protection se mue en campagne de changement de régime: sept mois de frappes, jusqu'au convoi de Syrte.
 L'Union africaine, elle, avait proposé autre chose. Sa feuille de route — cessez-le-feu, transition négociée — est acceptée par Kadhafi en avril 2011, puis balayée par les insurgés et ignorée par la coalition. Les chefs d'État africains en tireront une leçon durable: plus jamais une intervention extérieure de ce type sur le continent, décidée sans l'Afrique et contre ses médiations. Cette amertume de 2011 est l'un des sédiments sur lesquels se construira, douze ans plus tard, le discours de l'AES.
+
+## Les hommes de la chute
+
+Une fois le mandat de protection mué en guerre de renversement, restait à savoir qui prendrait le pays. Trois hommes disent la nature réelle de la rébellion que la coalition a portée au pouvoir.
+
+Abdel Fattah Younes, d'abord. Ministre de l'Intérieur de Kadhafi, compagnon de la révolution de 1969, il fait défection en février 2011 et devient le chef militaire des insurgés. Il est assassiné dès juillet 2011 par des éléments de sa propre coalition, vraisemblablement islamistes, avant même la prise de Tripoli. La rébellion se dévorait de l'intérieur.
+
+Abdelhakim Belhadj, ensuite. Ancien émir du Groupe islamique combattant en Libye, passé par les réseaux d'Al-Qaïda, il est capturé puis « rendu» à Tripoli en 2004 dans le cadre d'une livraison à laquelle les services britanniques ont prêté la main — Londres présentera plus tard ses excuses et indemnisera sa famille. Libéré des geôles libyennes au début de 2011, il devient, après la chute de la capitale, gouverneur militaire de Tripoli: l'ancien détenu jihadiste administre la ville pour le compte des généraux de l'OTAN. Et le détail est lourd de suites: dès la fin 2011, Belhadj est signalé en contact avec les insurgés syriens, organisant l'acheminement d'hommes et d'armes de la Libye détruite vers la guerre qui s'allume en Syrie. Le fil libyen rejoint ici le fil syrien que ce livre suivra au chapitre suivant.
+
+Khalifa Haftar, enfin. Officier de Kadhafi capturé au Tchad en 1987, passé à l'opposition, il vit une vingtaine d'années aux États-Unis, à portée des cercles du renseignement, avant de rentrer en 2011 pour rejoindre la rébellion. Devenu en 2014 l'homme fort de la Cyrénaïque à la tête d'une armée privée, il retournera ses canons contre les islamistes qu'il avait côtoyés. La même décennie l'aura vu l'allié puis l'ennemi des mêmes hommes: preuve, s'il en fallait, que la ligne de fracture libyenne n'a jamais été celle, binaire, qu'on a vendue à l'opinion.
+
+Reste le grand perdant silencieux de 2011: la Russie. À l'ONU, Moscou — alors présidée par Dmitri Medvedev — n'oppose pas son veto à la résolution 1973: elle s'abstient, croyant n'autoriser qu'une zone d'exclusion aérienne. En quelques jours, elle voit l'aviation et l'infrastructure militaire libyennes pulvérisées par des frappes qui visaient le renversement. La leçon sera retenue. C'est cette abstention de 2011, vécue comme une duperie, qui explique le veto systématique opposé ensuite par Moscou à toute résolution comparable sur la Syrie. Le verrou qui saute en Libye en referme un autre, ailleurs.
 
 ## Les arsenaux se dispersent
 
@@ -1819,6 +1835,8 @@ Les renvois indiquent les chapitres où chaque figure est citée ou analysée.
 - Ayissi, Anatole — journaliste et analyste panafricaniste; cadre des Nations unies pour l'Afrique centrale. ch. 7, ch. 8, ch. 21, ch. 27, ch. 29, ch. 30.
 - Banda Kani — analyste panafricaniste camerounais. ch. 3, ch. 10, ch. 12, ch. 14, ch. 19, ch. 20, ch. 25, ch. 30.
 - Bazoum, Mohamed — président du Niger (2021-2023), renversé le 26 juillet 2023. ch. 10, ch. 18, ch. 25, ch. 26.
+- Belhadj, Abdelhakim — chef jihadiste libyen, gouverneur militaire de Tripoli après 2011. ch. 11.
+- Benoist-Méchin, Jacques — écrivain français, auteur d'*Un printemps arabe* (1959). ch. 11.
 - Bokassa, Jean-Bedel — ancien chef d'État centrafricain installé par la France. ch. 8, ch. 15.
 - Bongo, Omar — président du Gabon, figure de la Françafrique. ch. 6.
 - Bourgi, Robert — avocat, intermédiaire des « mallettes» de l'Élysée. ch. 6.
@@ -1841,6 +1859,7 @@ Les renvois indiquent les chapitres où chaque figure est citée ou analysée.
 - Gbagbo, Laurent — ancien président de la Côte d'Ivoire. ch. 6, ch. 14.
 - Goïta, Assimi — président de la transition du Mali. ch. 4, ch. 16, ch. 19, ch. 20, ch. 25, ch. 26, ch. 27, ch. 29.
 - Granvaud, Raphaël — chercheur de l'association Survie, auteur de De l'huile sur le feu. ch. 5, ch. 13, ch. 14, ch. 15, ch. 26.
+- Haftar, Khalifa — officier libyen passé à l'opposition, homme fort de la Cyrénaïque après 2014. ch. 11.
 - Hollande, François — président français (2012-2017), initiateur de Serval. ch. 13, ch. 15.
 - Iyad Ag Ghali — émir du JNIM. ch. 13, ch. 20, ch. 21.
 - Juillet, Alain — ancien directeur du renseignement de la DGSE. ch. 15.
@@ -1854,7 +1873,8 @@ Les renvois indiquent les chapitres où chaque figure est citée ou analysée.
 - Macron, Emmanuel — président de la République française. ch. 7, ch. 10, ch. 13, ch. 14, ch. 15, ch. 17, ch. 18, ch. 20, ch. 21, ch. 30, ch. 31.
 - Mansa Moussa — empereur du Mali au XIVe siècle. ch. 1.
 - Maïga, Choguel Kokalla — ancien Premier ministre du Mali. ch. 10, ch. 12, ch. 13, ch. 16, ch. 17, ch. 20, ch. 25, ch. 26, ch. 31.
-- Medvedev, Dmitri — responsable russe, dénonciateur du franc CFA à l'UNESCO. ch. 29.
+- Medvedev, Dmitri — responsable russe, dénonciateur du franc CFA à l'UNESCO. ch. 11, ch. 29.
+- Michel, Luc — militant pro-Kadhafi, animateur du réseau européen des comités révolutionnaires libyens (source engagée). ch. 11.
 - Mobutu Sese Seko — dictateur du Zaïre (1965-1997). ch. 6, ch. 10.
 - Mohamedou, Mohammad-Mahmoud Ould — professeur de relations internationales à Genève. Introduction, ch. 10, ch. 12, ch. 13, ch. 16, ch. 31.
 - Nkrumah, Kwame — premier président du Ghana, théoricien du panafricanisme. ch. 3, ch. 5, ch. 7, ch. 11, ch. 21, ch. 22.
@@ -1862,6 +1882,7 @@ Les renvois indiquent les chapitres où chaque figure est citée ou analysée.
 - Olympio, Sylvanus — premier président du Togo, assassiné en 1963. ch. 5, ch. 7, ch. 22, ch. 28.
 - Ouattara, Alassane — président de la Côte d'Ivoire. ch. 10, ch. 16, ch. 20, ch. 23.
 - Perkins, John — auteur de Confessions of an Economic Hit Man. ch. 9.
+- Pondi, Jean-Emmanuel — politologue camerounais, auteur de *Vie et mort de Mouammar Kadhafi*. ch. 11.
 - Samory Touré — fondateur de l'empire Wassoulou, résistant à la colonisation. ch. 4, Conclusion.
 - Sankara, Thomas — président du Burkina Faso (1983-1987), figure du panafricanisme. ch. 7, ch. 9, ch. 10, ch. 17, ch. 20, ch. 21, ch. 23, ch. 24, ch. 25, ch. 26, ch. 28, ch. 29, Conclusion.
 - Sarkozy, Nicolas — président français (2007-2012). ch. 6, ch. 11, ch. 14, ch. 25.
@@ -1873,6 +1894,7 @@ Les renvois indiquent les chapitres où chaque figure est citée ou analysée.
 - Traoré, Ibrahim — président de la transition du Burkina Faso. ch. 4, ch. 9, ch. 12, ch. 13, ch. 14, ch. 17, ch. 19, ch. 23, ch. 27, ch. 30.
 - Turpin, Frédéric — historien, biographe de Jacques Foccart. ch. 5, ch. 6, ch. 13.
 - Yamb, Nathalie — analyste géopolitique panafricaniste. ch. 5, ch. 8, ch. 9, ch. 10, ch. 13, ch. 14, ch. 16, ch. 18, ch. 21, ch. 22, ch. 23, ch. 24, ch. 25, ch. 26, ch. 29, ch. 30, ch. 31.
+- Younes, Abdel Fattah — ministre de Kadhafi rallié aux insurgés, assassiné en juillet 2011. ch. 11.
 - Yusov, Andriy — porte-parole du renseignement militaire ukrainien. ch. 20.
 
 ★★★
