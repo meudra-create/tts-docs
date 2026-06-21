@@ -46,6 +46,8 @@ sec.bottom_margin = Inches(0.70)
 sec.gutter        = Inches(0)      # already accounted for in left_margin
 sec.orientation   = WD_ORIENT.PORTRAIT
 
+# Le pied de page est ajouté plus bas, après la définition de force_font_run.
+
 # ── Styles ─────────────────────────────────────────────────
 n = doc.styles['Normal']
 n.font.name = FONT; n.font.size = Pt(10.5); n.font.color.rgb = NOIR
@@ -89,6 +91,26 @@ def force_font_run(r):
     for a in ('w:ascii', 'w:hAnsi', 'w:cs'):
         rf.set(qn(a), FONT)
 
+# ── Numérotation des pages (pied de page centré « — N — ») ─
+def add_page_number_footer(section):
+    footer = section.footer
+    footer.is_linked_to_previous = False
+    p = footer.paragraphs[0]
+    p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    r1 = p.add_run("— ")
+    fld_begin = OxmlElement('w:fldChar'); fld_begin.set(qn('w:fldCharType'), 'begin')
+    instr     = OxmlElement('w:instrText'); instr.set(qn('xml:space'), 'preserve'); instr.text = "PAGE"
+    fld_end   = OxmlElement('w:fldChar'); fld_end.set(qn('w:fldCharType'), 'end')
+    r_field = p.add_run()
+    r_field._r.append(fld_begin); r_field._r.append(instr); r_field._r.append(fld_end)
+    r2 = p.add_run(" —")
+    for r in (r1, r_field, r2):
+        r.font.size = Pt(9); r.font.name = FONT
+        r.font.color.rgb = RGBColor(0xA8, 0xA8, 0xA0)
+        force_font_run(r)
+
+add_page_number_footer(sec)
+
 # ── Helpers ────────────────────────────────────────────────
 def bottom_border(p, color="A07820", sz="18"):
     pPr = p._p.get_or_add_pPr()
@@ -119,8 +141,8 @@ def center(text, size=None, bold=False, italic=False, color=None, space_before=0
     return p
 
 def ornament():
-    """★ ★ ★ — or de résistance, centré, espacement contrôlé"""
-    p = center("★  ★  ★", size=11, color=OR, space_before=8, space_after=8)
+    """★★★ — or, centré, sans espace entre les étoiles (charte habillage)"""
+    p = center("★★★", size=11, color=OR, space_before=8, space_after=8)
     return p
 
 def quote(text):
@@ -129,7 +151,7 @@ def quote(text):
     r = p.add_run(text)
     r.italic = True
     if is_attrib:
-        r.font.size = Pt(9); r.font.color.rgb = GRISRG
+        r.font.size = Pt(9); r.font.color.rgb = NOIR
     else:
         r.font.size = Pt(10); r.font.color.rgb = BORDEAUX
     p.paragraph_format.left_indent  = Cm(1.0)
@@ -138,7 +160,8 @@ def quote(text):
     pPr  = p._p.get_or_add_pPr()
     pbdr = OxmlElement('w:pBdr')
     lft  = OxmlElement('w:left')
-    lft.set(qn('w:val'), 'single'); lft.set(qn('w:sz'), '18')
+    # sz est en huitièmes de point : 0,5 pt = 4 huitièmes
+    lft.set(qn('w:val'), 'single'); lft.set(qn('w:sz'), '4')
     lft.set(qn('w:space'), '8');    lft.set(qn('w:color'), 'A07820')
     pbdr.append(lft); pPr.append(pbdr)
     return p
