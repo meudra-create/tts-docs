@@ -149,6 +149,43 @@ def inline(p, s):
         else:
             p.add_run(seg)
 
+# ── Sommaire complet (réplique du PDF) ─────────────────────
+def toc_entry(text, *, size=10.5, bold=False, italic=False, color=NOIR,
+              left_indent=0.0, space_before=0, space_after=2):
+    p = doc.add_paragraph()
+    pf = p.paragraph_format
+    pf.alignment     = WD_ALIGN_PARAGRAPH.LEFT
+    pf.left_indent   = Inches(left_indent)
+    pf.space_before  = Pt(space_before)
+    pf.space_after   = Pt(space_after)
+    pf.line_spacing  = 1.2
+    r = p.add_run(text)
+    r.font.size = Pt(size); r.bold = bold; r.italic = italic
+    r.font.color.rgb = color
+    force_font_run(r)
+    return p
+
+def build_toc_docx(all_lines):
+    """Génère un sommaire complet depuis tous les titres H1 (hors 'Sommaire')."""
+    for ln in all_lines:
+        m = re.match(r'^# (.+)$', ln.strip())
+        if not m:
+            continue
+        title = m.group(1).strip()
+        if title.lower() == "sommaire":
+            continue
+        pm = re.match(r'^(PARTIE\s+[IVX]+)\s+[—–-]\s+(.+)$', title)
+        cm = re.match(r'^(Chapitre\s+\d+)\s+[—–-]\s+(.+)$', title)
+        if pm:
+            toc_entry(f"{pm.group(1)} — {pm.group(2)}", size=11, bold=True,
+                      color=ROUGE, space_before=11, space_after=3)
+        elif cm:
+            toc_entry(f"{cm.group(1)} — {cm.group(2)}", size=10,
+                      color=NOIR, left_indent=0.30, space_after=1)
+        else:
+            toc_entry(title, size=10.5, bold=True, color=BORDEAUX,
+                      space_before=5, space_after=2)
+
 # ── Parse Markdown ─────────────────────────────────────────
 lines = open("LIVRE-FINAL.md").read().split("\n")
 first_h1_seen = False
@@ -212,6 +249,15 @@ while i < len(lines):
         elif title == "Sommaire":
             h = doc.add_heading(title, level=1)
             bottom_border(h, color="D4A017", sz="14")
+            build_toc_docx(lines)
+            # Sauter les puces placeholder du Markdown jusqu'au prochain titre / ornement
+            j = i + 1
+            while j < len(lines):
+                ss = lines[j].strip()
+                if ss.startswith("# ") or ss.replace(" ", "") == "★★★":
+                    break
+                j += 1
+            i = j; continue
         else:
             h = doc.add_heading(title, level=1)
             bottom_border(h, color="D4A017", sz="18")
