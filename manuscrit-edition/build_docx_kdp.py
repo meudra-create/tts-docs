@@ -157,6 +157,10 @@ i = 0
 while i < len(lines):
     s = lines[i].strip()
 
+    # ── Marqueurs structurels (ne pas imprimer) ────────────
+    if re.match(r'^---(ENCADRE|FIN)---$', s) or re.fullmatch(r'-{3,}', s):
+        i += 1; continue
+
     # ── Encadrés ───────────────────────────────────────────
     m_box = re.match(r'^\*\*(.+)\*\*$', s)
     if m_box and i+1 < len(lines):
@@ -184,7 +188,7 @@ while i < len(lines):
             i = k; continue
 
     # ── Ornements ★ ★ ★ ──────────────────────────────────
-    if s == "★ ★ ★":
+    if s.replace(" ", "") == "★★★":
         ornament(); i += 1; continue
 
     if not s: i += 1; continue
