@@ -6,18 +6,28 @@ from docx.oxml.ns import qn
 from docx.oxml import OxmlElement
 
 # ══════════════════════════════════════════
-#  THÈME 03 — SAHEL ROUGE  ×  FORMAT KDP
-#  Trim: 6 × 9 in  ·  Marges KDP  ·  ★ ★ ★
+#  THÈME — ARDOISE & OR  ×  FORMAT KDP
+#  Identique au PDF · Trim 6 × 9 in · ★★★
 # ══════════════════════════════════════════
 
-# Palette Sahel Rouge
-ROUGE    = RGBColor(0x8B, 0x1A, 0x1A)
-OR       = RGBColor(0xD4, 0xA0, 0x17)
-BORDEAUX = RGBColor(0x5A, 0x10, 0x10)
-NOIR     = RGBColor(0x0A, 0x0A, 0x0A)
-IVOIRE   = RGBColor(0xF5, 0xF0, 0xE8)
-GRISRG   = RGBColor(0x6A, 0x40, 0x40)
-FONT     = 'FreeSans'
+# Palette Ardoise & Or (identique au PDF)
+BLANC     = RGBColor(0xFF, 0xFF, 0xFF)
+ARDOISE   = RGBColor(0x2C, 0x3A, 0x4A)
+ARDOISE_L = RGBColor(0x3D, 0x50, 0x68)
+OR        = RGBColor(0xA0, 0x78, 0x20)   # or satiné
+OR_CLAIR  = RGBColor(0xC9, 0xA2, 0x4A)
+CREME     = RGBColor(0xF4, 0xEF, 0xE4)
+CREME_BD  = RGBColor(0xD8, 0xCE, 0xBC)
+GRIS_TX   = RGBColor(0x2E, 0x2E, 0x2E)
+BORDEAUX  = RGBColor(0x8B, 0x1A, 0x1A)   # citations en exergue
+NOIR      = RGBColor(0x0A, 0x0A, 0x0A)
+IVOIRE    = RGBColor(0xF5, 0xF0, 0xE8)
+GRISRG    = RGBColor(0x6A, 0x5A, 0x44)   # gris chaud (auteur de citation)
+# Fonds hexadécimaux (shading)
+HEX_ARDOISE = '2C3A4A'
+HEX_CREME   = 'F4EFE4'
+HEX_OR      = 'A07820'
+FONT        = 'FreeSerif'
 
 doc = docx.Document()
 
@@ -66,9 +76,9 @@ def set_heading(name, size, color, caps=False, space_before=12, space_after=6):
     s.paragraph_format.widow_control  = True
     force_font(s, FONT)
 
-set_heading('Heading 1', 18, ROUGE, space_before=18, space_after=8)
-set_heading('Heading 2', 13, ROUGE, space_before=14, space_after=6)
-set_heading('Heading 3', 11, BORDEAUX, space_before=10, space_after=4)
+set_heading('Heading 1', 15, ARDOISE, space_before=18, space_after=10)
+set_heading('Heading 2', 12, ARDOISE, space_before=14, space_after=6)
+set_heading('Heading 3', 11, OR, space_before=10, space_after=4)
 force_font(n, FONT)
 
 def force_font_run(r):
@@ -80,7 +90,7 @@ def force_font_run(r):
         rf.set(qn(a), FONT)
 
 # ── Helpers ────────────────────────────────────────────────
-def bottom_border(p, color="D4A017", sz="18"):
+def bottom_border(p, color="A07820", sz="18"):
     pPr = p._p.get_or_add_pPr()
     pbdr = OxmlElement('w:pBdr')
     b = OxmlElement('w:bottom')
@@ -88,7 +98,7 @@ def bottom_border(p, color="D4A017", sz="18"):
     b.set(qn('w:space'), '4');    b.set(qn('w:color'), color)
     pbdr.append(b); pPr.append(pbdr)
 
-def top_border(p, color="D4A017", sz="18"):
+def top_border(p, color="A07820", sz="18"):
     pPr = p._p.get_or_add_pPr()
     pbdr = OxmlElement('w:pBdr')
     b = OxmlElement('w:top')
@@ -121,7 +131,7 @@ def quote(text):
     if is_attrib:
         r.font.size = Pt(9); r.font.color.rgb = GRISRG
     else:
-        r.font.size = Pt(10); r.font.color.rgb = ROUGE
+        r.font.size = Pt(10); r.font.color.rgb = BORDEAUX
     p.paragraph_format.left_indent  = Cm(1.0)
     p.paragraph_format.space_before = Pt(2)
     p.paragraph_format.space_after  = Pt(6)
@@ -129,7 +139,7 @@ def quote(text):
     pbdr = OxmlElement('w:pBdr')
     lft  = OxmlElement('w:left')
     lft.set(qn('w:val'), 'single'); lft.set(qn('w:sz'), '18')
-    lft.set(qn('w:space'), '8');    lft.set(qn('w:color'), 'D4A017')
+    lft.set(qn('w:space'), '8');    lft.set(qn('w:color'), 'A07820')
     pbdr.append(lft); pPr.append(pbdr)
     return p
 
@@ -138,6 +148,41 @@ def shade(cell, hexfill):
     shd  = OxmlElement('w:shd')
     shd.set(qn('w:val'), 'clear'); shd.set(qn('w:fill'), hexfill)
     tcPr.append(shd)
+
+def para_shade(p, hexfill):
+    """Fond de paragraphe (bandeau)."""
+    pPr = p._p.get_or_add_pPr()
+    shd = OxmlElement('w:shd')
+    shd.set(qn('w:val'), 'clear'); shd.set(qn('w:fill'), hexfill)
+    pPr.append(shd)
+
+def set_table_borders(tbl, color='2C3A4A', sz='8'):
+    """Bordures uniformes (encadrés ardoise)."""
+    tblPr = tbl._tbl.tblPr
+    borders = OxmlElement('w:tblBorders')
+    for edge in ('top', 'left', 'bottom', 'right', 'insideH', 'insideV'):
+        e = OxmlElement(f'w:{edge}')
+        e.set(qn('w:val'), 'single'); e.set(qn('w:sz'), sz)
+        e.set(qn('w:space'), '0');    e.set(qn('w:color'), color)
+        borders.append(e)
+    tblPr.append(borders)
+
+def chapter_band(title):
+    """Bandeau de chapitre : fond ardoise, texte blanc capitales, filet or au-dessus."""
+    p = doc.add_paragraph()
+    p.style = doc.styles['Heading 1']          # conserve la structure / le plan
+    pf = p.paragraph_format
+    pf.alignment    = WD_ALIGN_PARAGRAPH.LEFT
+    pf.space_before = Pt(6)
+    pf.space_after  = Pt(16)
+    pf.line_spacing = 1.25
+    para_shade(p, HEX_ARDOISE)
+    top_border(p, color=HEX_OR, sz="34")       # filet or épais (~4,5 pt)
+    r = p.add_run(title.upper())
+    r.bold = True; r.font.size = Pt(14)
+    r.font.color.rgb = BLANC; r.font.name = FONT
+    force_font_run(r)
+    return p
 
 def inline(p, s):
     for seg in re.split(r'(\*\*.+?\*\*|\*.+?\*)', s):
@@ -177,13 +222,13 @@ def build_toc_docx(all_lines):
         pm = re.match(r'^(PARTIE\s+[IVX]+)\s+[—–-]\s+(.+)$', title)
         cm = re.match(r'^(Chapitre\s+\d+)\s+[—–-]\s+(.+)$', title)
         if pm:
-            toc_entry(f"{pm.group(1)} — {pm.group(2)}", size=11, bold=True,
-                      color=ROUGE, space_before=11, space_after=3)
+            toc_entry(f"{pm.group(1)} — {pm.group(2)}", size=10.5, bold=True,
+                      color=OR, space_before=12, space_after=3)
         elif cm:
             toc_entry(f"{cm.group(1)} — {cm.group(2)}", size=10,
-                      color=NOIR, left_indent=0.30, space_after=1)
+                      color=GRIS_TX, left_indent=0.30, space_after=1)
         else:
-            toc_entry(title, size=10.5, bold=True, color=BORDEAUX,
+            toc_entry(title, size=10.5, bold=True, italic=True, color=ARDOISE,
                       space_before=5, space_after=2)
 
 # ── Parse Markdown ─────────────────────────────────────────
@@ -211,16 +256,21 @@ while i < len(lines):
         if len(bullets) >= 1:
             tbl = doc.add_table(rows=1+len(bullets), cols=1)
             tbl.style = 'Table Grid'
-            hd = tbl.rows[0].cells[0]; shade(hd, '8B1A1A')
+            set_table_borders(tbl, color=HEX_ARDOISE, sz='8')
+            # Entête : fond ardoise, texte blanc capitales
+            hd = tbl.rows[0].cells[0]; shade(hd, HEX_ARDOISE)
             ph = hd.paragraphs[0]
             rh = ph.add_run(m_box.group(1).upper())
-            rh.bold = True; rh.font.size = Pt(9)
-            rh.font.color.rgb = IVOIRE; rh.font.name = FONT
+            rh.bold = True; rh.font.size = Pt(9.5)
+            rh.font.color.rgb = BLANC; rh.font.name = FONT
+            force_font_run(rh)
+            # Corps : fond crème, texte gris
             for bi, btxt in enumerate(bullets):
-                c  = tbl.rows[1+bi].cells[0]; shade(c, 'FFF0EE')
+                c  = tbl.rows[1+bi].cells[0]; shade(c, HEX_CREME)
                 pc = c.paragraphs[0]
                 rc = pc.add_run(re.sub(r'\*\*(.+?)\*\*', r'\1', btxt))
-                rc.font.size = Pt(9); rc.font.color.rgb = NOIR; rc.font.name = FONT
+                rc.font.size = Pt(9.5); rc.font.color.rgb = GRIS_TX; rc.font.name = FONT
+                force_font_run(rc)
             doc.add_paragraph()
             i = k; continue
 
@@ -238,17 +288,18 @@ while i < len(lines):
         first_h1_seen = True
 
         if title.startswith("PARTIE"):
-            # Page de partie : 2 filets or, titre rouge capitales, centré
+            # Page de partie : 2 filets or, titre ardoise capitales, centré
             for _ in range(5): doc.add_paragraph()
             sep1 = doc.add_paragraph()
-            bottom_border(sep1, color="D4A017", sz="24")
-            p = center(title, size=18, bold=True, color=ROUGE,
+            bottom_border(sep1, color="A07820", sz="24")
+            p = center(title, size=18, bold=True, color=ARDOISE,
                        space_before=16, space_after=16)
             sep2 = doc.add_paragraph()
-            top_border(sep2, color="D4A017", sz="24")
+            top_border(sep2, color="A07820", sz="24")
         elif title == "Sommaire":
-            h = doc.add_heading(title, level=1)
-            bottom_border(h, color="D4A017", sz="14")
+            h = center(title.upper(), size=18, bold=True, color=ARDOISE,
+                       space_before=6, space_after=10)
+            bottom_border(h, color="A07820", sz="16")
             build_toc_docx(lines)
             # Sauter les puces placeholder du Markdown jusqu'au prochain titre / ornement
             j = i + 1
@@ -259,12 +310,12 @@ while i < len(lines):
                 j += 1
             i = j; continue
         else:
-            h = doc.add_heading(title, level=1)
-            bottom_border(h, color="D4A017", sz="18")
+            chapter_band(title)
         i += 1; continue
 
     if s.startswith("## "):
-        doc.add_heading(s[3:].strip(), level=2)
+        h2 = doc.add_heading(s[3:].strip(), level=2)
+        bottom_border(h2, color="A07820", sz="8")
         i += 1; continue
 
     if s.startswith("### "):
@@ -303,7 +354,7 @@ while i < len(lines):
     if not first_h1_seen:
         if s.startswith("LA PAIX"):
             for _ in range(4): doc.add_paragraph()
-            center(s, size=28, bold=True, color=ROUGE, space_after=4)
+            center(s, size=28, bold=True, color=ARDOISE, space_after=4)
         elif s.startswith("Enquête"):
             center(s, size=12, italic=True, color=OR, space_before=8, space_after=8)
         elif s.startswith("BEN"):
@@ -329,5 +380,5 @@ while i < len(lines):
 
 doc.save("LIVRE-FINAL.docx")
 sz = os.path.getsize("LIVRE-FINAL.docx")
-print(f"DOCX Sahel Rouge KDP: {round(sz/1024)} Ko, {len(doc.tables)} encadrés")
+print(f"DOCX Ardoise & Or KDP: {round(sz/1024)} Ko, {len(doc.tables)} encadrés")
 print(f"Format: 6×9 in, marges inside 0.80\", outside 0.60\", top 0.75\", bottom 0.70\"")
