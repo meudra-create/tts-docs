@@ -120,6 +120,7 @@ navigation: false
 - [Chapitre — Burkina Faso : Gomart au Parlement européen — le prétexte et le précédent](/livre/chapitre-burkina-gomart-parlement-europeen-pretexte)
 - [Chapitre — Christophe Raineteau : le barbouze condamné qui annonce un coup d'État en RCA](/livre/chapitre-rca-raineteau-barbouze-annonce-coup-etat)
 - [Chapitre — RCA : le Sangocoin, la Cour constitutionnelle et les limites du G-16](/livre/chapitre-rca-sangocoin-cour-constitutionnelle)
+- [Chapitre — Libye : les câbles Clinton — coulisses de l'intervention (2011)](/livre/chapitre-libye-cables-clinton-blumenthal-intervention)
 
 ---
 
