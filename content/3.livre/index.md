@@ -116,6 +116,7 @@ navigation: false
 - [Chapitre — Mali : le complot de Paris et les redditions du FLA (juin 2026)](/livre/chapitre-mali-complot-paris-redditions-fla)
 - [Chapitre — Burkina Faso : convocation de l'ambassadeur de l'UE — 22 juin 2026](/livre/chapitre-burkina-convocation-ambassadeur-ue-juin-2026)
 - [Chapitre — RCA : la guerre qui vient — France, Tchad, Soudan et les prédateurs de l'ombre (Thomas Dietrich, juin 2026)](/livre/chapitre-rca-guerre-qui-vient-dietrich)
+- [Chapitre — Mali : le 25 avril 2026 — l'offensive JNIM/FLA et le silence de Paris (Thomas Dietrich)](/livre/chapitre-mali-25-avril-2026-offensive-silence-paris)
 
 ---
 
