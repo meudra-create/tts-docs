@@ -112,6 +112,7 @@ navigation: false
 - [Chapitre — La CEDEAO face au Niger : ultimatum, illégalité et impasse (Nathalie Yang)](/livre/chapitre-cedeao-ultimatum-niger-nathalie-yang)
 - [Chapitre — Le GAFI : bras armé financier du néocolonialisme (Nathalie Yamb)](/livre/chapitre-gafi-bras-arme-financier-neocolonialisme)
 - [Chapitre — Sanctions européennes : la prison à ciel ouvert (Nathalie Yamb, juin 2025)](/livre/chapitre-sanctions-ue-nathalie-yamb-prison-ciel-ouvert)
+- [Chapitre — Histoire de la RCA : des coups d'État permanents à la souveraineté retrouvée (Fidèle Gouandjika)](/livre/chapitre-histoire-rca-fidele-gouandjika)
 
 ---
 
