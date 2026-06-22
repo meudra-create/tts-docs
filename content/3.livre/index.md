@@ -121,7 +121,7 @@ navigation: false
 - [Chapitre — Christophe Raineteau : le barbouze condamné qui annonce un coup d'État en RCA](/livre/chapitre-rca-raineteau-barbouze-annonce-coup-etat)
 - [Chapitre — RCA : le Sangocoin, la Cour constitutionnelle et les limites du G-16](/livre/chapitre-rca-sangocoin-cour-constitutionnelle)
 - [Chapitre — Libye : les câbles Clinton — coulisses de l'intervention (2011)](/livre/chapitre-libye-cables-clinton-blumenthal-intervention)
-- [Chapitre — Côte d'Ivoire : Guillaume Soro s'explique — la rébellion, Ouattara et la France](/livre/chapitre-cote-ivoire-soro-rebellion-ouattara-aveu)
+- [Chapitre — Côte d'Ivoire : Guillaume Soro s'explique — la rébellion, Ouattara et la France (Hermann le Patriote)](/livre/chapitre-cote-ivoire-soro-rebellion-ouattara-aveu)
 
 ---
 
