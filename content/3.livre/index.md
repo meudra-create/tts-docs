@@ -118,6 +118,7 @@ navigation: false
 - [Chapitre — RCA : la guerre qui vient — France, Tchad, Soudan et les prédateurs de l'ombre (Thomas Dietrich, juin 2026)](/livre/chapitre-rca-guerre-qui-vient-dietrich)
 - [Chapitre — Mali : le 25 avril 2026 — l'offensive JNIM/FLA et le silence de Paris (Thomas Dietrich)](/livre/chapitre-mali-25-avril-2026-offensive-silence-paris)
 - [Chapitre — Burkina Faso : Gomart au Parlement européen — le prétexte et le précédent](/livre/chapitre-burkina-gomart-parlement-europeen-pretexte)
+- [Chapitre — Christophe Raineteau : le barbouze condamné qui annonce un coup d'État en RCA](/livre/chapitre-rca-raineteau-barbouze-annonce-coup-etat)
 
 ---
 
