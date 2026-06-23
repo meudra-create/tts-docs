@@ -128,6 +128,7 @@ navigation: false
 - [Chapitre — Christophe Gomart : votre propagande ne marchera pas](/livre/chapitre-gomart-propagande-ne-marchera-pas)
 - [Chapitre — Christophe Raineteau : conseiller, barbouze et cible de Wagner — TPMP, 28 février 2022](/livre/chapitre-christophe-raineteau-wagner-rca-tpmp)
 - [Chapitre — Alain Juillet : la stratégie française en Afrique décryptée — Open Box TV](/livre/chapitre-alain-juillet-strategie-france-afrique-decryptee)
+- [Chapitre — Alain Juillet : démocratie, partition et Djibouti — la stratégie décryptée](/livre/chapitre-juillet-democratie-partition-djibouti)
 
 ---
 
