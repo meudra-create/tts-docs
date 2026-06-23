@@ -167,4 +167,10 @@ navigation: false
 
 ---
 
+#### I — L'Union africaine face à ses contradictions
+
+- [L'Union africaine : entre ambitions continentales et crise de légitimité — Agenda 2063, coups d'État, financement externe](/livre/chapitre-union-africaine-crise-legitimite-agenda-2063)
+
+---
+
 *© 2026 BEN–H2O — Tous droits réservés.*
