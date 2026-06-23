@@ -1,0 +1,47 @@
+# Chapitre 29 — Le monde multipolaire : partenaires ou nouveaux maîtres ?
+
+Ankara, 4 juin 2026. Le général Abdourahamane Tiani descend la passerelle de son avion pour sa première grande visite officielle en Turquie. Recep Tayyip Erdoğan le reçoit avec les honneurs. Trois ans plus tôt, l'homme qui dirigeait le verrou final de l'AES était présenté dans les chancelleries occidentales comme un paria à étrangler par les sanctions. Le voici accueilli en partenaire stratégique par un membre de l'OTAN. La scène résume le basculement : le marché de la sécurité africaine s'est multipolarisé — et c'est peut-être la transformation géopolitique la plus immédiatement concrète de toute la rupture sahélienne.
+
+Mais la question doit être posée, et posée frontalement : l'AES a remplacé des partenaires français par des partenaires russes, chinois et turcs. La souveraineté exige qu'on vérifie si ces nouveaux partenariats ne reproduisent pas les logiques de domination qu'ils étaient censés remplacer. Ce chapitre propose un critère pour en juger : la réversibilité. Un partenaire, on peut le congédier. Un maître, non.
+
+> **PARTENARIATS AES — PHASE 2 (2022-2026)**
+> - **Russie** (Africa Corps, ex-Wagner) : instructeurs, hélicoptères Mi-8/Mi-35, présence terrain
+> - **Chine** : infrastructures, surveillance numérique, accords commerciaux — présence moins interventionniste
+> - **Turquie** : drones Bayraktar TB2, accords avec le Mali et le Niger — position plus discrète
+> - **BRICS** : délégation à Ouagadougou (juin 2023), six semaines avant la transition nigérienne
+
+## La Russie : l'allié encombrant et l'argument inattendu
+
+La coopération russe est la plus visible : instructeurs, hélicoptères, présence au sol héritée du dispositif Wagner devenu Africa Corps. L'honnêteté oblige à le rappeler : des exactions impliquant des éléments de Wagner ont été documentées au Sahel, et aucune lecture souverainiste sérieuse ne peut les passer sous silence. La question de la dépendance russe figure d'ailleurs, on le verra au chapitre 31, parmi les conditions possibles de l'échec de l'AES elle-même.
+
+Mais Moscou a aussi apporté à l'AES quelque chose d'inédit : une caisse de résonance diplomatique. Le 16 juin 2024, Dmitri Medvedev prend la parole devant l'UNESCO et qualifie le franc CFA de « néocolonialisme monétaire ». Il cite Sankara. Il chiffre l'extraction des richesses africaines à 62 000 milliards de dollars entre 1960 et 2018. L'analyse n'est pas fausse parce qu'elle vient de Moscou — elle est un positionnement géopolitique, et il faut la lire comme telle. Mais c'est la première fois qu'un responsable d'une puissance siégeant au Conseil de sécurité utilise ce cadre en séance internationale. Le récit panafricaniste est entré dans la diplomatie des grandes puissances.
+
+## La Chine : le partenaire qu'on peut sanctionner
+
+Le test de réversibilité le plus net, c'est paradoxalement la Chine qui l'a subi. En mars 2025, Tiani expulse trois hauts dirigeants de la compagnie pétrolière CNPC. Le motif est documenté : discrimination salariale — les expatriés chinois percevaient 8 000 dollars par mois, leurs homologues nigériens de même qualification, 1 200 dollars. Dans la foulée, un hôtel chinois est fermé pour fraude fiscale. Pékin proteste ; les contrats continuent. La leçon vaut démonstration : la souveraineté de l'AES s'exerce dans les deux sens, y compris contre ses partenaires non occidentaux. Nulle position prorusse ou prochinoise. Une pro-africanité qui choisit ses partenaires sans s'y soumettre. Le refus par Traoré du financement saoudien de 200 mosquées, raconté au chapitre 17, relève de la même grammaire.
+
+Le contre-exemple existe, et il éclaire le critère par contraste. La Guinée de Mamadi Doumbouya diversifie ses partenariats — accords militaires avec la Turquie, ouverture vers la Russie — et Paris s'en inquiète. Mais l'analyste Anatole Albert Ayissi pointe le facteur structurel : Doumbouya est un ancien légionnaire français, marié à une gendarme française. « Il ne peut pas rompre. Il a épousé la France. » (For You Media Africa). La diversification sans rupture n'est qu'une négociation de marge à l'intérieur d'une dépendance intacte. Goïta, Traoré et Tiani ont rompu ; Doumbouya négocie. Toute la différence est là.
+
+## La Turquie : le partenaire qui livre avant d'être payé
+
+Revenons à Ankara, car la relation turque est celle qui pousse le plus loin la logique du partenariat sans tutelle. Au cœur de l'alliance : le drone Bayraktar TB2, conçu par l'entreprise Baykar, fondée par la famille d'Erdoğan. Il a fait ses preuves en Libye (2019-2020), au Haut-Karabakh (2020) et en Ukraine (2022), modifiant à chaque fois les rapports de force pour un coût incomparablement inférieur aux systèmes occidentaux. Pour des armées confrontées à des groupes mobiles dans des espaces désertiques immenses, c'est une capacité de surveillance et de frappe de précision que ni la France ni les États-Unis n'avaient réellement partagée en des décennies de présence.
+
+Et puis il y a la méthode. « Le président Erdoğan a personnellement demandé aux industries de défense turques de livrer du matériel militaire au Niger avant même le paiement, en accordant des facilités financières à Niamey », note un rapport stratégique sur les relations Turquie-Sahel (juin 2026). Le geste est d'une puissance symbolique considérable : la France exigeait des contreparties politiques avant de livrer ; les États-Unis conditionnent leur aide à des certifications ; la Turquie livre d'abord. Le message : vous n'avez pas à hypothéquer votre souveraineté pour obtenir ce dont vous avez besoin.
+
+Les accords signés le 4 juin 2026 couvrent cinq domaines — défense, sécurité, énergie, formation et infrastructures. La coopération avait commencé bien avant le sommet : opération renforcée de renseignement et de formation dès juillet 2024, accord de coopération militaire et financière en 2025, formation de pilotes nigériens sur TB2 en Turquie. Côté énergie, la compagnie TPAO lorgne le bassin pétrolier d'Agadem, longtemps domaine réservé des acteurs chinois et occidentaux. Lucidité oblige : cette « approche totale » vise aussi à créer une dépendance technique et humaine durable — le modèle OTAN, sans la subordination politique. Niamey le sait, et multiplie précisément ses partenaires pour éviter de troquer une dépendance contre une autre.
+
+Le positionnement d'Erdoğan lui-même est un modèle étudié de près au Sahel : membre de l'OTAN commerçant avec la Russie, fournisseur de l'Ukraine gardant un canal ouvert avec Poutine. Cette ambiguïté calculée n'est pas de la duplicité — c'est de la souveraineté assumée. C'est exactement ce que l'AES cherche à construire : choisir ses partenaires en fonction de ses intérêts, sans allégeance prédéfinie à un bloc.
+
+## Les États-Unis : le pragmatisme et la fenêtre
+
+Washington n'est pas Paris. Les États-Unis défendent des intérêts, pas un système symbolique. Le retrait de la base 201 d'Agadez, au printemps 2024, est négocié, pas imposé : les Américains partent sans claquer les portes, laissant ouverte la possibilité d'autres coopérations — même si cette éviction, racontée au chapitre 18, représente une perte de capacité de renseignement sans précédent dans la région.
+
+Nathalie Yamb, lors du grand débat de Niamey, lit l'élection de Trump comme une « fenêtre d'opportunité » : les adversaires classiques de l'AES ne font plus front uni, l'Europe est déstabilisée. Mais elle avertit : si cette fenêtre n'est pas exploitée, les Européens se réarmeront et « iront chercher l'argent ailleurs, et le ailleurs c'est chez nous ». Une date donne à l'avertissement un relief troublant : le 23 avril 2026, le Conseil de l'UE finalise 90 milliards d'euros pour l'Ukraine, dont 60 pour la défense. Deux jours plus tard : les attaques du 25 avril au Mali. La coïncidence chronologique est notée par plusieurs analystes. Elle ne constitue pas une preuve. Elle constitue une question.
+
+## Les BRICS : contourner plutôt que combattre
+
+Reste l'horizon. Au sommet des BRICS d'octobre 2024 à Kazan, vingt-quatre chefs d'État sont confirmés, dont Xi Jinping, Lula da Silva et Massoud Pezeshkian. Les pays de l'AES n'en sont pas membres, mais leur trajectoire pointe vers cette alternative au G7 et au G20 comme cadre de référence. Pour le dire simplement, les BRICS offrent ce qui manquait à toutes les ruptures africaines précédentes : un système de rechange — banques, circuits commerciaux, instances diplomatiques — qui prive Paris et Washington de leur monopole sur les règles du jeu. L'hégémonie ne se combat pas seulement avec des fusils. Elle se contourne.
+
+Le verdict de ce tour d'horizon tient donc dans le critère posé en ouverture. Des cadres chinois expulsés sans rupture des contrats ; des mosquées refusées à Riyad ; des drones livrés sans conditions politiques ; une porte américaine fermée sans un mort. Pour l'instant, les partenariats de l'AES restent réversibles — c'est leur différence avec la tutelle qu'ils remplacent, et c'est sur ce critère qu'il faudra continuer de les juger.
+
+Mais pendant que l'Alliance choisit ses nouveaux partenaires, l'ancienne puissance, elle, n'a pas disparu : elle se recompose — et c'est cette métamorphose qu'il faut maintenant regarder en face.
