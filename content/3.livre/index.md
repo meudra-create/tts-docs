@@ -127,6 +127,7 @@ navigation: false
 - [Chapitre — Burkina Faso : droit de réponse à Christophe Gomart (Issa Diawara, 22 juin 2026)](/livre/chapitre-issa-diawara-droit-de-reponse-gomart-burkina)
 - [Chapitre — Christophe Gomart : votre propagande ne marchera pas](/livre/chapitre-gomart-propagande-ne-marchera-pas)
 - [Chapitre — Christophe Raineteau : conseiller, barbouze et cible de Wagner — TPMP, 28 février 2022](/livre/chapitre-christophe-raineteau-wagner-rca-tpmp)
+- [Chapitre — Alain Juillet : la stratégie française en Afrique décryptée — Open Box TV](/livre/chapitre-alain-juillet-strategie-france-afrique-decryptee)
 
 ---
 
