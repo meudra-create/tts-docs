@@ -122,6 +122,7 @@ navigation: false
 - [Chapitre — RCA : le Sangocoin, la Cour constitutionnelle et les limites du G-16](/livre/chapitre-rca-sangocoin-cour-constitutionnelle)
 - [Chapitre — Libye : les câbles Clinton — coulisses de l'intervention (2011)](/livre/chapitre-libye-cables-clinton-blumenthal-intervention)
 - [Chapitre — Côte d'Ivoire : Guillaume Soro s'explique — la rébellion, Ouattara et la France (Hermann le Patriote)](/livre/chapitre-cote-ivoire-soro-rebellion-ouattara-aveu)
+- [Chapitre — Côte d'Ivoire : Guillaume Soro — l'intégral (Hermann le Patriote)](/livre/chapitre-cote-ivoire-hermann-le-patriote-soro-integral)
 
 ---
 
