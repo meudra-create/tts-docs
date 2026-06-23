@@ -124,6 +124,7 @@ navigation: false
 
 - [La CEDEAO face au Niger : ultimatum, illégalité et impasse (Nathalie Yang)](/livre/chapitre-cedeao-ultimatum-niger-nathalie-yang)
 - [Kenya : le schéma de la base permanente (Ébola, Ruto, US Army)](/livre/chapitre-kenya-ruto-ebola-base-militaire-us)
+- [Parlement européen contre Burkina Faso : droit de réponse (Nathalie Yamb)](/livre/chapitre-parlement-europeen-resolution-burkina-nathalie-yamb)
 
 ---
 
