@@ -130,6 +130,7 @@ navigation: false
 - [Chapitre — Alain Juillet : la stratégie française en Afrique décryptée — Open Box TV](/livre/chapitre-alain-juillet-strategie-france-afrique-decryptee)
 - [Chapitre — Alain Juillet : démocratie, partition et Djibouti — la stratégie décryptée](/livre/chapitre-juillet-democratie-partition-djibouti)
 - [Chapitre — Alain Juillet : le siège permanent de la France à l'ONU — la légitimité comme arme](/livre/chapitre-juillet-siege-permanent-france-onu)
+- [Chapitre — La doctrine française en Afrique — exposé complet d'après Alain Juillet](/livre/chapitre-doctrine-francaise-juillet-expose-complet)
 
 ---
 
