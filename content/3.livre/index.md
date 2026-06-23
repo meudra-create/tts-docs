@@ -125,6 +125,7 @@ navigation: false
 - [Chapitre — Côte d'Ivoire : Guillaume Soro — l'intégral (Hermann le Patriote)](/livre/chapitre-cote-ivoire-hermann-le-patriote-soro-integral)
 - [Chapitre — Christophe Gomart, Iyad Ag Ghaly et l'hôtel Laïko — le donneur de leçons](/livre/chapitre-gomart-iyad-ag-ghaly-ouagadougou-impunite)
 - [Chapitre — Burkina Faso : droit de réponse à Christophe Gomart (Issa Diawara, 22 juin 2026)](/livre/chapitre-issa-diawara-droit-de-reponse-gomart-burkina)
+- [Chapitre — Christophe Gomart : votre propagande ne marchera pas](/livre/chapitre-gomart-propagande-ne-marchera-pas)
 
 ---
 
