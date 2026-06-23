@@ -106,31 +106,64 @@ navigation: false
 
 ### Compléments d'information
 
-- [Annexe — Le franc CFA démontré par Ndongo Samba Sylla](/livre/annexe-debat-cfa-ndongo-samba-sylla)
-- [Annexe — Suite de l'attaque de juin 2026 : aéroport du Niger et guerre informationnelle](/livre/annexe-suite-attaque-niger-guerre-informationnelle)
-- [Chapitre — Kenya : le schéma de la base permanente (Ébola, Ruto, US Army)](/livre/chapitre-kenya-ruto-ebola-base-militaire-us)
-- [Chapitre — La CEDEAO face au Niger : ultimatum, illégalité et impasse (Nathalie Yang)](/livre/chapitre-cedeao-ultimatum-niger-nathalie-yang)
-- [Chapitre — Le GAFI : bras armé financier du néocolonialisme (Nathalie Yamb)](/livre/chapitre-gafi-bras-arme-financier-neocolonialisme)
-- [Chapitre — Sanctions européennes : la prison à ciel ouvert (Nathalie Yamb, juin 2025)](/livre/chapitre-sanctions-ue-nathalie-yamb-prison-ciel-ouvert)
-- [Chapitre — Histoire de la RCA : des coups d'État permanents à la souveraineté retrouvée (Fidèle Gouandjika)](/livre/chapitre-histoire-rca-fidele-gouandjika)
-- [Chapitre — Mali : le complot de Paris et les redditions du FLA (juin 2026)](/livre/chapitre-mali-complot-paris-redditions-fla)
-- [Chapitre — Burkina Faso : convocation de l'ambassadeur de l'UE — 22 juin 2026](/livre/chapitre-burkina-convocation-ambassadeur-ue-juin-2026)
-- [Chapitre — RCA : la guerre qui vient — France, Tchad, Soudan et les prédateurs de l'ombre (Thomas Dietrich, juin 2026)](/livre/chapitre-rca-guerre-qui-vient-dietrich)
-- [Chapitre — Mali : le 25 avril 2026 — l'offensive JNIM/FLA et le silence de Paris (Thomas Dietrich)](/livre/chapitre-mali-25-avril-2026-offensive-silence-paris)
-- [Chapitre — Burkina Faso : Gomart au Parlement européen — le prétexte et le précédent](/livre/chapitre-burkina-gomart-parlement-europeen-pretexte)
-- [Chapitre — Christophe Raineteau : le barbouze condamné qui annonce un coup d'État en RCA](/livre/chapitre-rca-raineteau-barbouze-annonce-coup-etat)
-- [Chapitre — RCA : le Sangocoin, la Cour constitutionnelle et les limites du G-16](/livre/chapitre-rca-sangocoin-cour-constitutionnelle)
-- [Chapitre — Libye : les câbles Clinton — coulisses de l'intervention (2011)](/livre/chapitre-libye-cables-clinton-blumenthal-intervention)
-- [Chapitre — Côte d'Ivoire : Guillaume Soro s'explique — la rébellion, Ouattara et la France (Hermann le Patriote)](/livre/chapitre-cote-ivoire-soro-rebellion-ouattara-aveu)
-- [Chapitre — Côte d'Ivoire : Guillaume Soro — l'intégral (Hermann le Patriote)](/livre/chapitre-cote-ivoire-hermann-le-patriote-soro-integral)
-- [Chapitre — Christophe Gomart, Iyad Ag Ghaly et l'hôtel Laïko — le donneur de leçons](/livre/chapitre-gomart-iyad-ag-ghaly-ouagadougou-impunite)
-- [Chapitre — Burkina Faso : droit de réponse à Christophe Gomart (Issa Diawara, 22 juin 2026)](/livre/chapitre-issa-diawara-droit-de-reponse-gomart-burkina)
-- [Chapitre — Christophe Gomart : votre propagande ne marchera pas](/livre/chapitre-gomart-propagande-ne-marchera-pas)
-- [Chapitre — Christophe Raineteau : conseiller, barbouze et cible de Wagner — TPMP, 28 février 2022](/livre/chapitre-christophe-raineteau-wagner-rca-tpmp)
-- [Chapitre — Alain Juillet : la stratégie française en Afrique décryptée — Open Box TV](/livre/chapitre-alain-juillet-strategie-france-afrique-decryptee)
-- [Chapitre — Alain Juillet : démocratie, partition et Djibouti — la stratégie décryptée](/livre/chapitre-juillet-democratie-partition-djibouti)
-- [Chapitre — Alain Juillet : le siège permanent de la France à l'ONU — la légitimité comme arme](/livre/chapitre-juillet-siege-permanent-france-onu)
-- [Chapitre — La doctrine française en Afrique — exposé complet d'après Alain Juillet](/livre/chapitre-doctrine-francaise-juillet-expose-complet)
+#### A — Les instruments financiers de la domination
+
+- [Le franc CFA démontré par Ndongo Samba Sylla](/livre/annexe-debat-cfa-ndongo-samba-sylla)
+- [Le GAFI : bras armé financier du néocolonialisme (Nathalie Yamb)](/livre/chapitre-gafi-bras-arme-financier-neocolonialisme)
+- [Sanctions européennes : la prison à ciel ouvert (Nathalie Yamb)](/livre/chapitre-sanctions-ue-nathalie-yamb-prison-ciel-ouvert)
+
+---
+
+#### B — Libye : la source du chaos sahélien
+
+- [Libye : les câbles Clinton — coulisses de l'intervention (2011)](/livre/chapitre-libye-cables-clinton-blumenthal-intervention)
+
+---
+
+#### C — Les pressions institutionnelles
+
+- [La CEDEAO face au Niger : ultimatum, illégalité et impasse (Nathalie Yang)](/livre/chapitre-cedeao-ultimatum-niger-nathalie-yang)
+- [Kenya : le schéma de la base permanente (Ébola, Ruto, US Army)](/livre/chapitre-kenya-ruto-ebola-base-militaire-us)
+
+---
+
+#### D — Côte d'Ivoire
+
+- [Guillaume Soro : la rébellion, Ouattara et la France — l'intégral (Hermann le Patriote)](/livre/chapitre-cote-ivoire-hermann-le-patriote-soro-integral)
+
+---
+
+#### E — RCA : laboratoire de la reconquête
+
+- [Histoire de la RCA : des coups d'État permanents à la souveraineté retrouvée (Fidèle Gouandjika)](/livre/chapitre-histoire-rca-fidele-gouandjika)
+- [Christophe Raineteau : barbouze, cible de Wagner et organisateur de coup d'État — le dossier complet](/livre/chapitre-raineteau-dossier-complet)
+- [RCA : la guerre qui vient — France, Tchad, Soudan et les prédateurs de l'ombre (Thomas Dietrich)](/livre/chapitre-rca-guerre-qui-vient-dietrich)
+- [RCA : le Sangocoin, la Cour constitutionnelle et les limites du G-16](/livre/chapitre-rca-sangocoin-cour-constitutionnelle)
+
+---
+
+#### F — Sahel 2026 : les événements en temps réel
+
+- [Niger : suite de l'attaque de juin 2026 — aéroport et guerre informationnelle](/livre/annexe-suite-attaque-niger-guerre-informationnelle)
+- [Mali : le complot de Paris et les redditions du FLA (juin 2026)](/livre/chapitre-mali-complot-paris-redditions-fla)
+- [Burkina Faso : convocation de l'ambassadeur de l'UE — 22 juin 2026](/livre/chapitre-burkina-convocation-ambassadeur-ue-juin-2026)
+- [Mali : le 25 avril 2026 — l'offensive JNIM/FLA et le silence de Paris (Thomas Dietrich)](/livre/chapitre-mali-25-avril-2026-offensive-silence-paris)
+
+---
+
+#### G — Gomart : le visage de la manipulation
+
+- [Burkina Faso : Gomart au Parlement européen — le prétexte et le précédent](/livre/chapitre-burkina-gomart-parlement-europeen-pretexte)
+- [Christophe Gomart, Iyad Ag Ghaly et l'hôtel Laïko — le donneur de leçons](/livre/chapitre-gomart-iyad-ag-ghaly-ouagadougou-impunite)
+- [Burkina Faso : droit de réponse à Christophe Gomart (Issa Diawara, 22 juin 2026)](/livre/chapitre-issa-diawara-droit-de-reponse-gomart-burkina)
+- [Christophe Gomart : votre propagande ne marchera pas](/livre/chapitre-gomart-propagande-ne-marchera-pas)
+
+---
+
+#### H — La doctrine française décryptée
+
+- [Alain Juillet : le siège permanent de la France à l'ONU — la légitimité comme arme](/livre/chapitre-juillet-siege-permanent-france-onu)
+- [La doctrine française en Afrique — exposé complet d'après Alain Juillet (12 principes)](/livre/chapitre-doctrine-francaise-juillet-expose-complet)
 
 ---
 
