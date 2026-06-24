@@ -94,10 +94,24 @@ LATEX_HEADER = r"""\documentclass[11pt,a4paper]{article}
   \vspace{0pt}%
 }
 
-% Citation en rouge foncé italique
-\newenvironment{citblock}
-  {\begin{quote}\color{darkred}\itshape\small}
-  {\end{quote}}
+% Citation avec barre or à gauche et texte rouge italique
+\newmdenv[
+  topline=false,
+  bottomline=false,
+  rightline=false,
+  leftline=true,
+  linewidth=3pt,
+  linecolor=gold,
+  backgroundcolor=white,
+  innerleftmargin=14pt,
+  innerrightmargin=6pt,
+  innertopmargin=6pt,
+  innerbottommargin=6pt,
+  skipabove=10pt,
+  skipbelow=10pt,
+  leftmargin=0pt,
+  rightmargin=0pt
+]{citblock}
 
 % Séparateur étoile or
 \newcommand{\separator}{%
@@ -187,7 +201,7 @@ def parse_chapter(md_text):
             clean = '\n'.join(quote_buf).strip()
             clean = re.sub(r'^> ?', '', clean, flags=re.MULTILINE)
             out.append(r'\begin{citblock}')
-            out.append(md_inline(clean))
+            out.append(r'{\color{darkred}\itshape ' + md_inline(clean) + r'}')
             out.append(r'\end{citblock}')
             quote_buf.clear()
 
