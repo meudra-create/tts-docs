@@ -1,26 +1,48 @@
 #!/usr/bin/env python3
 """
-Build a LaTeX source from the LIVREFINAL markdown + supplementary chapters,
-applying the full Ardoise & Or visual spec, then compile with xelatex.
+Build PDF from individual chapter markdown files.
+Visual spec : Ardoise & Or, FreeSerif.
 """
-import os, re, glob
+import os, re, glob, subprocess, shutil
 
 ARDOISE = "2C3A4A"
 GOLD    = "A07820"
 DARKRED = "8B1A1A"
 CREAM   = "F4EFE4"
 GRIS    = "3C3C3C"
-WHITE   = "FFFFFF"
 
+SCRATCHPAD  = '/tmp/claude-0/-home-user-tts-docs/e3ecab87-9343-5812-ac40-80d3b0b7d656/scratchpad'
+CHAPTER_DIR = '/home/user/tts-docs/content/3.livre/'
+OUT_TEX     = os.path.join(SCRATCHPAD, 'book.tex')
+OUT_PDF_SRC = os.path.join(SCRATCHPAD, 'book.pdf')
+OUT_PDF_DST = '/home/user/tts-docs/la-paix-on-peut-leviter.pdf'
+
+# Pages de partie insérées avant le fichier portant ce numéro
+PART_PAGES = {
+    4:  ("PARTIE I",   "L'Afrique avant la domination"),
+    8:  ("PARTIE II",  "Comment la dépendance a été organisée"),
+    14: ("PARTIE III", "La guerre du Sahel"),
+    19: ("PARTIE IV",  "La révolution de la souveraineté"),
+    25: ("PARTIE V",   "Le réveil panafricain"),
+    29: ("PARTIE VI",  "Les défis de demain"),
+}
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Helpers couleur
+# ─────────────────────────────────────────────────────────────────────────────
 def hex_to_rgb(h):
     h = h.lstrip('#')
-    return tuple(int(h[i:i+2], 16)/255 for i in (0,2,4))
+    return tuple(int(h[i:i+2], 16) / 255 for i in (0, 2, 4))
 
 def rgb_cmd(name, h):
-    r,g,b = hex_to_rgb(h)
+    r, g, b = hex_to_rgb(h)
     return f"\\definecolor{{{name}}}{{rgb}}{{{r:.4f},{g:.4f},{b:.4f}}}"
 
-LATEX_HEADER = r"""\documentclass[11pt,a4paper]{article}
+# ─────────────────────────────────────────────────────────────────────────────
+# En-tête LaTeX
+# ─────────────────────────────────────────────────────────────────────────────
+LATEX_HEADER = (
+r"""\documentclass[11pt,a4paper]{article}
 \usepackage{fontspec}
 \usepackage{xcolor}
 \usepackage{geometry}
@@ -40,82 +62,80 @@ LATEX_HEADER = r"""\documentclass[11pt,a4paper]{article}
 \setstretch{1.3}
 
 \setmainfont{FreeSerif}[
-  BoldFont = FreeSerif Bold,
-  ItalicFont = FreeSerif Italic,
+  BoldFont      = FreeSerif Bold,
+  ItalicFont    = FreeSerif Italic,
   BoldItalicFont = FreeSerif Bold Italic
 ]
 
-""" + rgb_cmd("ardoise", ARDOISE) + "\n" \
-   + rgb_cmd("gold", GOLD) + "\n" \
-   + rgb_cmd("darkred", DARKRED) + "\n" \
-   + rgb_cmd("cream", CREAM) + "\n" \
-   + rgb_cmd("gris", GRIS) + "\n" \
-   + r"""
-% H1: bandeau plein ardoise + blanc capitales + filet or en bas
-\titleformat{\section}
-  {\color{white}\bfseries\large\MakeUppercase}
-  {}
-  {0pt}
-  {\colorbox{ardoise}{\parbox{\dimexpr\linewidth-2\fboxsep\relax}{\vspace{3pt}#1\vspace{3pt}}}}
-  [\vspace{1pt}{\color{gold}\hrule height 1.5pt}\vspace{4pt}]
-
-% H2: texte ardoise + filet or en bas
-\titleformat{\subsection}
-  {\color{ardoise}\bfseries\normalsize}
-  {}
-  {0pt}
-  {#1}
-  [\vspace{1pt}{\color{gold}\hrule height 0.9pt}\vspace{4pt}]
-
-% H3: texte ardoise gras
-\titleformat{\subsubsection}
-  {\color{ardoise}\bfseries\small}
-  {}
-  {0pt}
-  {#1}
-
-% Encadré style: header ardoise + corps crème + bordure ardoise 0.9pt
-\newmdenv[
-  linecolor=ardoise,
-  linewidth=0.9pt,
-  backgroundcolor=cream,
-  innerleftmargin=6pt,
-  innerrightmargin=6pt,
-  innertopmargin=4pt,
-  innerbottommargin=4pt,
-  skipabove=6pt,
-  skipbelow=6pt
-]{encadre}
-
-\newcommand{\encadretitle}[1]{%
-  \noindent\colorbox{ardoise}{\parbox{\linewidth}{%
-    \vspace{3pt}\color{white}\bfseries\small\MakeUppercase{#1}\vspace{3pt}%
-  }}%
-  \vspace{0pt}%
+"""
++ rgb_cmd("ardoise", ARDOISE) + "\n"
++ rgb_cmd("gold",    GOLD)    + "\n"
++ rgb_cmd("darkred", DARKRED) + "\n"
++ rgb_cmd("cream",   CREAM)   + "\n"
++ rgb_cmd("gris",    GRIS)    + "\n"
++ r"""
+% ── Bandeau de chapitre : liseré or en haut + fond ardoise + texte blanc centré ──
+\newcommand{\chapterbanner}[1]{%
+  \noindent
+  \begin{minipage}{\linewidth}
+    {\color{gold}\rule{\linewidth}{3pt}}\\[-3pt]%
+    \colorbox{ardoise}{%
+      \parbox{\dimexpr\linewidth-2\fboxsep\relax}{%
+        \centering\vspace{10pt}%
+        {\color{white}\bfseries\large\MakeUppercase{#1}}%
+        \vspace{10pt}%
+      }%
+    }%
+  \end{minipage}%
 }
 
-% Citation avec barre or à gauche et texte rouge italique
+% H2 : ardoise + filet or
+\titleformat{\subsection}[block]
+  {\color{ardoise}\bfseries\normalsize}{}
+  {0pt}{}
+  [\vspace{1pt}{\color{gold}\hrule height 0.9pt}\vspace{4pt}]
+\titlespacing*{\subsection}{0pt}{14pt}{6pt}
+
+% H3 : ardoise gras
+\titleformat{\subsubsection}[block]
+  {\color{ardoise}\bfseries\small}{}
+  {0pt}{}
+\titlespacing*{\subsubsection}{0pt}{10pt}{4pt}
+
+% ── Citation : filet or gauche (2 pt) + texte rouge italique aéré ──
 \newmdenv[
-  topline=false,
-  bottomline=false,
-  rightline=false,
-  leftline=true,
-  linewidth=3pt,
+  topline=false, bottomline=false, rightline=false, leftline=true,
+  linewidth=2pt,
   linecolor=gold,
   backgroundcolor=white,
-  innerleftmargin=14pt,
+  innerleftmargin=18pt,
   innerrightmargin=6pt,
-  innertopmargin=6pt,
-  innerbottommargin=6pt,
-  skipabove=10pt,
-  skipbelow=10pt,
+  innertopmargin=10pt,
+  innerbottommargin=10pt,
+  skipabove=14pt,
+  skipbelow=14pt,
   leftmargin=0pt,
   rightmargin=0pt
 ]{citblock}
 
-% Séparateur étoile or
+% ── Séparateur étoile or ──
 \newcommand{\separator}{%
-  \begin{center}\color{gold}\large ★★★\end{center}%
+  \begin{center}\color{gold}\large $\bigstar\bigstar\bigstar$\end{center}%
+}
+
+% ── Page de partie (page blanche centrée) ──
+\newcommand{\partpage}[2]{%
+  \clearpage
+  \thispagestyle{empty}
+  \null\vfill
+  \begin{center}
+    {\fontsize{12}{14}\selectfont\color{ardoise}\bfseries
+     \addfontfeature{LetterSpace=14}\MakeUppercase{#1}}\\[1.4cm]
+    {\fontsize{26}{32}\selectfont\color{ardoise}\bfseries\MakeUppercase{#2}}\\[1.6cm]
+    {\color{gold}\rule{8cm}{1.5pt}}
+  \end{center}
+  \vfill\vfill
+  \clearpage
 }
 
 \pagestyle{fancy}
@@ -126,11 +146,12 @@ LATEX_HEADER = r"""\documentclass[11pt,a4paper]{article}
 \renewcommand{\headrulewidth}{0.9pt}
 \renewcommand{\headrule}{\color{gold}\hrule}
 
-% Suppress automatic section numbering at all levels
 \setcounter{secnumdepth}{-2}
+\hypersetup{hidelinks}
 
 \begin{document}
 
+% ── Page de titre ──
 \begin{titlepage}
 \pagecolor{ardoise}
 \color{white}
@@ -139,11 +160,11 @@ LATEX_HEADER = r"""\documentclass[11pt,a4paper]{article}
 {\Huge\bfseries\MakeUppercase{La paix, on peut l'éviter}}\\[1cm]
 {\large\color{gold} Enquête sur la naissance de l'Alliance des États du Sahel}\\[2cm]
 {\Large BEN--H2O}\\[0.5cm]
-{\color{gold} — 2026 —}
+{\color{gold} --- 2026 ---}
 \end{center}
 \vfill
 \begin{center}
-{\small\color{gold} © 2026 BEN--H2O — Tous droits réservés.}
+{\small\color{gold} \copyright{} 2026 BEN--H2O --- Tous droits réservés.}
 \end{center}
 \end{titlepage}
 \pagecolor{white}
@@ -152,48 +173,83 @@ LATEX_HEADER = r"""\documentclass[11pt,a4paper]{article}
 \newpage
 \tableofcontents
 \newpage
-"""
+""")
 
-LATEX_FOOTER = r"""
-\end{document}
-"""
+LATEX_FOOTER = r"\end{document}" + "\n"
 
+# ─────────────────────────────────────────────────────────────────────────────
+# Échappement LaTeX
+# ─────────────────────────────────────────────────────────────────────────────
 def escape_latex(text):
-    """Escape special LaTeX characters."""
     replacements = [
         ('\\', r'\textbackslash{}'),
-        ('&', r'\&'),
-        ('%', r'\%'),
-        ('$', r'\$'),
-        ('#', r'\#'),
-        ('^', r'\^{}'),
-        ('_', r'\_'),
-        ('{', r'\{'),
-        ('}', r'\}'),
-        ('~', r'\textasciitilde{}'),
-        ('«', r'\guillemotleft{}'),
-        ('»', r'\guillemotright{}'),
-        ('—', '---'),
-        ('–', '--'),
-        ('★', r'$\bigstar$'),
+        ('&',  r'\&'),
+        ('%',  r'\%'),
+        ('$',  r'\$'),
+        ('#',  r'\#'),
+        ('^',  r'\^{}'),
+        ('_',  r'\_'),
+        ('{',  r'\{'),
+        ('}',  r'\}'),
+        ('~',  r'\textasciitilde{}'),
+        ('«',  r'\guillemotleft{}'),
+        ('»',  r'\guillemotright{}'),
+        ('—',  '---'),
+        ('–',  '--'),
+        ('★',  r'$\bigstar$'),
     ]
     for old, new in replacements:
         text = text.replace(old, new)
     return text
 
 def md_inline(text):
-    """Convert inline markdown formatting to LaTeX."""
     text = escape_latex(text)
     text = re.sub(r'\*\*(.+?)\*\*', r'\\textbf{\1}', text)
     text = re.sub(r'\*(.+?)\*',     r'\\textit{\1}', text)
     text = re.sub(r'`(.+?)`',       r'\\texttt{\1}', text)
     return text
 
+# ─────────────────────────────────────────────────────────────────────────────
+# Rendu d'un encadré (tableau avec header ardoise + lignes crème séparées)
+# ─────────────────────────────────────────────────────────────────────────────
+def render_table(title, rows):
+    """
+    Génère un tableau style photo :
+    - Header : fond ardoise, texte blanc gras majuscules
+    - Lignes  : fond crème, séparées par filet ardoise fin
+    - Bordure extérieure ardoise fine
+    """
+    col = r'\dimexpr\linewidth-14pt\relax'
+    lines = []
+    lines.append(r'{%')
+    lines.append(r'\arrayrulecolor{ardoise}%')
+    lines.append(r'\setlength{\arrayrulewidth}{0.6pt}%')
+    lines.append(r'\renewcommand{\arraystretch}{1.6}%')
+    lines.append(r'\noindent\begin{tabular}{|p{' + col + r'}|}')
+    lines.append(r'\hline')
+    # Header row
+    escaped_title = escape_latex(title)
+    lines.append(
+        r'\cellcolor{ardoise}{\color{white}\bfseries\small\MakeUppercase{'
+        + escaped_title + r'}} \\')
+    lines.append(r'\hline')
+    # Data rows
+    for row in rows:
+        lines.append(
+            r'\cellcolor{cream}{\color{gris}\small ' + md_inline(row) + r'} \\')
+        lines.append(r'\hline')
+    lines.append(r'\end{tabular}%')
+    lines.append(r'\vspace{8pt}%')
+    lines.append(r'}')
+    return '\n'.join(lines)
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Parseur markdown → LaTeX
+# ─────────────────────────────────────────────────────────────────────────────
 def parse_chapter(md_text):
-    """Parse markdown chapter to LaTeX."""
     lines = md_text.split('\n')
-    out = []
-    i = 0
+    out   = []
+    i     = 0
     quote_buf = []
 
     def flush_quote():
@@ -201,61 +257,75 @@ def parse_chapter(md_text):
             clean = '\n'.join(quote_buf).strip()
             clean = re.sub(r'^> ?', '', clean, flags=re.MULTILINE)
             out.append(r'\begin{citblock}')
-            out.append(r'{\color{darkred}\itshape ' + md_inline(clean) + r'}')
+            out.append(
+                r'{\color{darkred}\itshape\setstretch{1.5} '
+                + md_inline(clean) + r'}')
             out.append(r'\end{citblock}')
             quote_buf.clear()
 
     while i < len(lines):
         line = lines[i]
 
-        if not line.strip() or line.strip() == r'\newpage':
+        # Ligne vide
+        if not line.strip():
             flush_quote()
             out.append('')
-            i += 1; continue
+            i += 1
+            continue
 
+        # H1 → bandeau de chapitre (direct, sans passer par \titleformat)
         if line.startswith('# '):
             flush_quote()
+            title = md_inline(line[2:].strip())
             out.append(r'\newpage')
-            out.append(r'\section{' + md_inline(line[2:].strip()) + '}')
-            i += 1; continue
+            out.append(r'\phantomsection')
+            out.append(r'\addcontentsline{toc}{section}{' + title + '}')
+            out.append(r'\chapterbanner{' + title + '}')
+            out.append(r'\vspace{14pt}')
+            i += 1
+            continue
 
+        # H2
         if line.startswith('## '):
             flush_quote()
             out.append(r'\subsection{' + md_inline(line[3:].strip()) + '}')
-            i += 1; continue
+            i += 1
+            continue
 
+        # H3
         if line.startswith('### '):
             flush_quote()
             out.append(r'\subsubsection{' + md_inline(line[4:].strip()) + '}')
-            i += 1; continue
+            i += 1
+            continue
 
-        # Pandoc simple-table: RULE → title → RULE → body → RULE
-        # Only trigger when the NEXT non-blank line is a bold title immediately
-        # followed by another rule (gap ≤ 3 lines). Otherwise it's a plain separator.
+        # Séparateur horizontal ---
+        if re.match(r'^-{3,}\s*$', line.strip()):
+            flush_quote()
+            i += 1
+            continue
+
+        # Tableau pandoc : RULE (20+ tirets) → **TITRE** → RULE → lignes → RULE
         if re.match(r'^\s*-{20,}\s*$', line):
             flush_quote()
-            # Peek: check if next non-blank is **TITLE** AND the line after is a rule
             peek = i + 1
             while peek < len(lines) and not lines[peek].strip():
                 peek += 1
             title_line = lines[peek].strip() if peek < len(lines) else ''
-            next_peek = peek + 1
+            next_peek  = peek + 1
             while next_peek < len(lines) and not lines[next_peek].strip():
                 next_peek += 1
             rule_after = (next_peek < len(lines) and
                           re.match(r'^\s*-{20,}\s*$', lines[next_peek]))
-            is_table = (bool(re.match(r'^\*\*(.+?)\*\*$', title_line)) and rule_after
-                        and next_peek - i <= 5)
+            is_table = (bool(re.match(r'^\*\*(.+?)\*\*$', title_line))
+                        and rule_after and next_peek - i <= 5)
             if not is_table:
-                # Plain horizontal separator — just skip
-                i += 1; continue
-            # It's a three-rule table: consume title + separator rule
+                i += 1
+                continue
             title_m = re.match(r'^\*\*(.+?)\*\*$', title_line)
-            title = title_m.group(1)
-            j = next_peek + 1  # after the separator rule
-            # Collect body until closing rule
-            body_rows = []
-            body_buf = []
+            title   = title_m.group(1)
+            j       = next_peek + 1
+            body_rows, body_buf = [], []
             while j < len(lines) and not re.match(r'^\s*-{20,}\s*$', lines[j]):
                 ln = lines[j].strip()
                 if not ln:
@@ -269,79 +339,80 @@ def parse_chapter(md_text):
             if body_buf:
                 body_rows.append(' '.join(body_buf))
             if j < len(lines):
-                j += 1  # consume closing rule
-            out.append(r'\encadretitle{' + escape_latex(title) + '}')
-            out.append(r'\begin{encadre}')
-            if body_rows:
-                out.append(r'\begin{itemize}[leftmargin=*,itemsep=2pt]')
-                for r in body_rows:
-                    out.append(r'  \item {\small\color{gris} ' + md_inline(r) + '}')
-                out.append(r'\end{itemize}')
-            out.append(r'\end{encadre}')
-            i = j; continue
+                j += 1
+            out.append(render_table(title, body_rows))
+            i = j
+            continue
 
-        if re.match(r'^---+$', line.strip()):
-            flush_quote(); i += 1; continue
-
+        # Séparateur ★★★
         if line.strip() == '★★★':
             flush_quote()
             out.append(r'\separator{}')
-            i += 1; continue
+            i += 1
+            continue
 
+        # Citation >
         if line.startswith('>'):
             quote_buf.append(re.sub(r'^> ?', '', line))
-            i += 1; continue
+            i += 1
+            continue
 
-        if re.match(r'^[-*] ', line):
+        # Liste à puces (inclut les sous-items indentés — tout aplatit en itemize)
+        if re.match(r'^[ \t]*[-*] ', line):
             flush_quote()
-            if not out or out[-1] != r'\begin{itemize}':
-                out.append(r'\begin{itemize}[leftmargin=*]')
-            out.append(r'  \item ' + md_inline(line[2:].strip()))
-            # peek: if next line is not a bullet, close list
-            if i+1 >= len(lines) or not re.match(r'^[-*] ', lines[i+1]):
-                out.append(r'\end{itemize}')
-            i += 1; continue
+            # collect consecutive bullet lines (any indent level)
+            items = []
+            while i < len(lines) and re.match(r'^[ \t]*[-*] ', lines[i]):
+                raw = re.sub(r'^[ \t]*[-*] ', '', lines[i])
+                items.append(md_inline(raw.strip()))
+                i += 1
+            out.append(r'\begin{itemize}[leftmargin=*]')
+            for it in items:
+                out.append(r'  \item ' + it)
+            out.append(r'\end{itemize}')
+            continue
 
+        # Liste numérotée
         if re.match(r'^\d+\. ', line):
             flush_quote()
             out.append(r'\begin{enumerate}[leftmargin=*]')
             out.append(r'  \item ' + md_inline(re.sub(r'^\d+\. ', '', line)))
-            j = i+1
+            j = i + 1
             while j < len(lines) and re.match(r'^\d+\. ', lines[j]):
                 out.append(r'  \item ' + md_inline(re.sub(r'^\d+\. ', '', lines[j])))
                 j += 1
             out.append(r'\end{enumerate}')
-            i = j; continue
+            i = j
+            continue
 
-        # Bold-only line → encadré
+        # Ligne uniquement en gras → encadré avec liste qui suit
         bm = re.match(r'^\*\*(.+?)\*\*\s*$', line.strip())
         if bm:
             flush_quote()
             title = bm.group(1)
-            rows = []; j = i + 1
+            rows, j = [], i + 1
             while j < len(lines) and j < i + 35:
                 nl = lines[j].strip()
-                if not nl: j += 1; break
+                if not nl:
+                    j += 1
+                    break
                 if re.match(r'^[-*\d]', nl):
                     content = re.sub(r'^[-*]\s+|^\d+\.\s+', '', nl)
                     content = re.sub(r'\*\*(.+?)\*\*', r'\1', content)
                     content = re.sub(r'\*(.+?)\*',     r'\1', content)
-                    rows.append(content); j += 1
-                else: break
+                    rows.append(content)
+                    j += 1
+                else:
+                    break
             if rows:
-                out.append(r'\encadretitle{' + escape_latex(title) + '}')
-                out.append(r'\begin{encadre}')
-                out.append(r'\begin{itemize}[leftmargin=*,itemsep=1pt]')
-                for r in rows:
-                    out.append(r'  \item {\small\color{gris} ' + escape_latex(r) + '}')
-                out.append(r'\end{itemize}')
-                out.append(r'\end{encadre}')
+                out.append(render_table(title, rows))
                 i = j
             else:
                 out.append(r'{\color{ardoise}\textbf{' + md_inline(title) + '}}')
                 i += 1
             continue
 
+        # Paragraphe normal
         flush_quote()
         text = md_inline(line.strip())
         if text:
@@ -351,71 +422,73 @@ def parse_chapter(md_text):
     flush_quote()
     return '\n'.join(out)
 
-# ─── Assemble document ────────────────────────────────────────────────────────
+# ─────────────────────────────────────────────────────────────────────────────
+# Assemblage du document
+# ─────────────────────────────────────────────────────────────────────────────
+print("Assemblage des chapitres...")
 
-# Read LIVREFINAL original (chapters 1-31 etc.)
-with open('/tmp/claude-0/-home-user-tts-docs/e3ecab87-9343-5812-ac40-80d3b0b7d656/scratchpad/livrefinal_full.md', 'r') as f:
-    livrefinal_md = f.read()
-
-# Strip the YAML-like header (first lines before first #)
-livrefinal_body = livrefinal_md[livrefinal_md.find('# AVANT-PROPOS'):]
-
-# Supplementary chapters
-chapter_dir = '/home/user/tts-docs/content/3.livre/'
-supp_files = sorted(
-    [f for f in glob.glob(os.path.join(chapter_dir, '[0-9]*.md'))
-     if int(os.path.basename(f).split('.')[0]) >= 40],
+# Tous les fichiers numérotés (hors index.md)
+all_files = sorted(
+    [f for f in glob.glob(os.path.join(CHAPTER_DIR, '[0-9]*.md'))
+     if 'index' not in os.path.basename(f)],
     key=lambda x: int(os.path.basename(x).split('.')[0])
 )
 
-supp_content = ''
-for filepath in supp_files:
-    with open(filepath, 'r') as f:
+latex_chunks = []
+
+for filepath in all_files:
+    fnum = int(os.path.basename(filepath).split('.')[0])
+
+    # Injecter la page de partie en LaTeX brut AVANT le chapitre
+    if fnum in PART_PAGES:
+        label, title = PART_PAGES[fnum]
+        latex_chunks.append(f'\\partpage{{{label}}}{{{escape_latex(title)}}}\n')
+
+    # Lire et nettoyer le frontmatter YAML
+    with open(filepath, 'r', encoding='utf-8') as f:
         content = f.read()
     if content.startswith('---'):
         parts = content.split('---', 2)
-        if len(parts) >= 3: content = parts[2].strip()
-    supp_content += '\n\n' + content
+        if len(parts) >= 3:
+            content = parts[2].strip()
 
-# Combine
-all_md = livrefinal_body + '\n\n---\n\n' + supp_content
+    # Nettoyer les échappements pandoc
+    content = re.sub(r'\\([\'"$~\[\]@*`#%&_{}])', r'\1', content)
 
-# Strip pandoc backslash-escapes of literal punctuation (\' \" \* \$ \~ \[ \] \@ ...)
-all_md = re.sub(r'\\([\'"$~\[\]@*`#%&_{}])', r'\1', all_md)
+    fname = os.path.basename(filepath)
+    print(f"  ✓ {fnum}: {fname[:55]}")
+    # Convertir ce chapitre en LaTeX puis l'ajouter
+    latex_chunks.append(parse_chapter(content))
 
-print("Parsing markdown to LaTeX...")
-body_latex = parse_chapter(all_md)
+print("Conversion markdown → LaTeX...")
+body_latex = '\n\n'.join(latex_chunks)
 
 latex_doc = LATEX_HEADER + body_latex + LATEX_FOOTER
 
-out_tex = '/tmp/claude-0/-home-user-tts-docs/e3ecab87-9343-5812-ac40-80d3b0b7d656/scratchpad/book.tex'
-with open(out_tex, 'w', encoding='utf-8') as f:
+with open(OUT_TEX, 'w', encoding='utf-8') as f:
     f.write(latex_doc)
+print(f"Source LaTeX : {len(latex_doc):,} caractères")
 
-print(f"LaTeX source written: {len(latex_doc)} chars")
-print("Compiling with xelatex (pass 1/2)...")
-import subprocess
-result = subprocess.run(
-    ['xelatex', '-interaction=nonstopmode', '-output-directory',
-     '/tmp/claude-0/-home-user-tts-docs/e3ecab87-9343-5812-ac40-80d3b0b7d656/scratchpad/',
-     out_tex],
-    capture_output=True, text=True
-)
-if result.returncode != 0:
-    print("xelatex errors:")
-    # Show last 30 lines of log
-    print('\n'.join(result.stdout.split('\n')[-30:]))
-else:
-    print("Pass 1 OK — running pass 2 for TOC...")
-    subprocess.run(
-        ['xelatex', '-interaction=nonstopmode', '-output-directory',
-         '/tmp/claude-0/-home-user-tts-docs/e3ecab87-9343-5812-ac40-80d3b0b7d656/scratchpad/',
-         out_tex],
+# ─────────────────────────────────────────────────────────────────────────────
+# Compilation xelatex (2 passes pour la table des matières)
+# ─────────────────────────────────────────────────────────────────────────────
+def xelatex(pass_num):
+    print(f"xelatex passe {pass_num}/2...")
+    r = subprocess.run(
+        ['xelatex', '-interaction=nonstopmode',
+         '-output-directory', SCRATCHPAD, OUT_TEX],
         capture_output=True, text=True
     )
-    import shutil
-    src = '/tmp/claude-0/-home-user-tts-docs/e3ecab87-9343-5812-ac40-80d3b0b7d656/scratchpad/book.pdf'
-    dst = '/home/user/tts-docs/la-paix-on-peut-leviter.pdf'
-    shutil.copy(src, dst)
-    size = os.path.getsize(dst)
-    print(f"PDF saved: {dst}  ({size/1024:.0f} KB)")
+    if r.returncode != 0:
+        print("ERREURS xelatex :")
+        print('\n'.join(r.stdout.split('\n')[-40:]))
+        return False
+    return True
+
+if xelatex(1) and xelatex(2):
+    shutil.copy(OUT_PDF_SRC, OUT_PDF_DST)
+    size = os.path.getsize(OUT_PDF_DST)
+    pages_line = [l for l in open(OUT_PDF_SRC.replace('.pdf', '.log'), errors='ignore')
+                  if 'Output written' in l]
+    print(pages_line[0].strip() if pages_line else '')
+    print(f"PDF sauvegardé : {OUT_PDF_DST}  ({size/1024:.0f} KB)")
