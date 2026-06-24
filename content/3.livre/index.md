@@ -111,6 +111,7 @@ navigation: false
 - [Le franc CFA démontré par Ndongo Samba Sylla](/livre/annexe-debat-cfa-ndongo-samba-sylla)
 - [Le GAFI : bras armé financier du néocolonialisme (Nathalie Yamb)](/livre/chapitre-gafi-bras-arme-financier-neocolonialisme)
 - [Sanctions européennes : la prison à ciel ouvert (Nathalie Yamb)](/livre/chapitre-sanctions-ue-nathalie-yamb-prison-ciel-ouvert)
+- [Lafarge, Areva, Total : les multinationales françaises et le financement du terrorisme (Albert Anatola)](/livre/chapitre-lafarge-areva-total-financement-terrorisme)
 
 ---
 
