@@ -241,7 +241,50 @@ def render_table(title, rows):
     lines.append(r'\end{tabular}%')
     lines.append(r'\vspace{8pt}%')
     lines.append(r'}')
-    return '\n'.join(lines)
+    return '\\par\\noindent\n' + '\n'.join(lines) + '\n\\par'
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Rendu d'un tableau markdown à pipes (multi-colonnes), même habillage
+# ─────────────────────────────────────────────────────────────────────────────
+def render_pipe_table(header, rows):
+    """
+    Tableau multi-colonnes (| a | b | c |) au style ardoise/crème :
+    - Ligne d'en-tête : fond ardoise, texte blanc gras
+    - Lignes de données : fond crème, texte gris, filets ardoise fins
+    """
+    n = max(1, len(header))
+    colw = r'\dimexpr(\linewidth-' + str(14 * n) + r'pt)/' + str(n) + r'\relax'
+    colspec = '|' + '|'.join([r'p{' + colw + r'}'] * n) + '|'
+    out = []
+    out.append(r'{%')
+    out.append(r'\arrayrulecolor{ardoise}%')
+    out.append(r'\setlength{\arrayrulewidth}{0.6pt}%')
+    out.append(r'\renewcommand{\arraystretch}{1.45}%')
+    out.append(r'\noindent\footnotesize\begin{tabular}{' + colspec + r'}')
+    out.append(r'\hline')
+    hcells = [r'\cellcolor{ardoise}{\color{white}\bfseries ' + md_inline(c) + r'}'
+              for c in header]
+    out.append(' & '.join(hcells) + r' \\')
+    out.append(r'\hline')
+    for row in rows:
+        cells = [r'\cellcolor{cream}{\color{gris} ' + md_inline(c) + r'}'
+                 for c in row[:n]]
+        while len(cells) < n:
+            cells.append(r'\cellcolor{cream}{}')
+        out.append(' & '.join(cells) + r' \\')
+        out.append(r'\hline')
+    out.append(r'\end{tabular}%')
+    out.append(r'\vspace{8pt}%')
+    out.append(r'}')
+    return '\\par\\noindent\n' + '\n'.join(out) + '\n\\par'
+
+def _split_pipe_row(line):
+    s = line.strip()
+    if s.startswith('|'):
+        s = s[1:]
+    if s.endswith('|'):
+        s = s[:-1]
+    return [c.strip() for c in s.split('|')]
 
 # ─────────────────────────────────────────────────────────────────────────────
 # Parseur markdown → LaTeX
@@ -297,6 +340,22 @@ def parse_chapter(md_text):
             flush_quote()
             out.append(r'\subsubsection{' + md_inline(line[4:].strip()) + '}')
             i += 1
+            continue
+
+        # Tableau markdown à pipes : | a | b |  puis  |---|---|  puis lignes
+        if (re.match(r'^\s*\|.*\|\s*$', line)
+                and i + 1 < len(lines)
+                and re.match(r'^\s*\|[\s:|\-]+\|\s*$', lines[i + 1])
+                and '-' in lines[i + 1]):
+            flush_quote()
+            header = _split_pipe_row(line)
+            j = i + 2
+            body = []
+            while j < len(lines) and re.match(r'^\s*\|.*\|\s*$', lines[j]):
+                body.append(_split_pipe_row(lines[j]))
+                j += 1
+            out.append(render_pipe_table(header, body))
+            i = j
             continue
 
         # Séparateur horizontal ---
