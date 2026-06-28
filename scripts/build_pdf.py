@@ -58,8 +58,12 @@ r"""\documentclass[11pt,a4paper]{article}
 \usepackage{microtype}
 \usepackage{hyperref}
 
-\geometry{margin=2.5cm, top=2.5cm, bottom=2.5cm}
-\setstretch{1.3}
+\geometry{left=2.8cm, right=2.8cm, top=3cm, bottom=3cm}
+\setstretch{1.4}
+\frenchspacing
+\setlength{\headheight}{16pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{7pt}
 
 \setmainfont{FreeSerif}[
   BoldFont      = FreeSerif Bold,
@@ -78,29 +82,30 @@ r"""\documentclass[11pt,a4paper]{article}
 \newcommand{\chapterbanner}[1]{%
   \noindent
   \begin{minipage}{\linewidth}
-    {\color{gold}\rule{\linewidth}{3pt}}\\[-3pt]%
+    {\color{gold}\rule{\linewidth}{2.5pt}}\\[-3pt]%
     \colorbox{ardoise}{%
       \parbox{\dimexpr\linewidth-2\fboxsep\relax}{%
-        \centering\vspace{10pt}%
-        {\color{white}\bfseries\large\MakeUppercase{#1}}%
-        \vspace{10pt}%
+        \centering\vspace{14pt}%
+        {\color{white}\large\addfontfeature{LetterSpace=8}\MakeUppercase{#1}}%
+        \vspace{14pt}%
       }%
     }%
+    \\[-3pt]{\color{gold}\rule{\linewidth}{1pt}}%
   \end{minipage}%
 }
 
-% H2 : ardoise + filet or
+% H2 : ardoise + filet or (sans gras)
 \titleformat{\subsection}[block]
-  {\color{ardoise}\bfseries\normalsize}{}
+  {\color{ardoise}\mdseries\normalsize\addfontfeature{LetterSpace=4}}{}
   {0pt}{}
-  [\vspace{1pt}{\color{gold}\hrule height 0.9pt}\vspace{4pt}]
-\titlespacing*{\subsection}{0pt}{14pt}{6pt}
+  [\vspace{2pt}{\color{gold}\hrule height 0.9pt}\vspace{5pt}]
+\titlespacing*{\subsection}{0pt}{18pt}{8pt}
 
-% H3 : ardoise gras
+% H3 : ardoise (sans gras)
 \titleformat{\subsubsection}[block]
-  {\color{ardoise}\bfseries\small}{}
+  {\color{ardoise}\mdseries\small\itshape}{}
   {0pt}{}
-\titlespacing*{\subsubsection}{0pt}{10pt}{4pt}
+\titlespacing*{\subsubsection}{0pt}{12pt}{5pt}
 
 % ── Citation : filet or gauche (2 pt) + texte rouge italique aéré ──
 \newmdenv[
@@ -204,7 +209,7 @@ def escape_latex(text):
 
 def md_inline(text):
     text = escape_latex(text)
-    text = re.sub(r'\*\*(.+?)\*\*', r'\\textbf{\1}', text)
+    text = re.sub(r'\*\*(.+?)\*\*', r'{\\color{ardoise}\1}', text)
     text = re.sub(r'\*(.+?)\*',     r'\\textit{\1}', text)
     text = re.sub(r'`(.+?)`',       r'\\texttt{\1}', text)
     return text
@@ -467,7 +472,7 @@ def parse_chapter(md_text):
                 out.append(render_table(title, rows))
                 i = j
             else:
-                out.append(r'{\color{ardoise}\textbf{' + md_inline(title) + '}}')
+                out.append(r'{\color{ardoise}' + md_inline(title) + '}')
                 i += 1
             continue
 
