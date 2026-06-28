@@ -130,7 +130,7 @@ def add_inline_runs(para, text, size=11, color=None, italic_base=False):
 
 # ─── Éléments de document ────────────────────────────────────────────────────
 def add_heading1(doc, text):
-    """Bandeau ardoise plein + titre blanc capitales + filet or en bas."""
+    """Bandeau ardoise plein + titre blanc capitales + filet or en bas — \large ≈ 13,2pt."""
     para = doc.add_paragraph(style='Normal')
     para.paragraph_format.space_before = Pt(6)
     para.paragraph_format.space_after  = Pt(2)
@@ -138,26 +138,28 @@ def add_heading1(doc, text):
     set_para_border(para, 'bottom', GOLD_HEX, sz="12", space="4")
     para.paragraph_format.left_indent  = Cm(0.3)
     para.paragraph_format.right_indent = Cm(0.3)
-    # H1 : pas de formatting inline, tout en blanc gras capitales
     clean = re.sub(r'\*\*(.+?)\*\*', r'\1', text)
     clean = re.sub(r'\*(.+?)\*', r'\1', clean)
-    styled_run(para, clean, color=WHITE_RGB, bold=True, size=13, caps=True)
+    styled_run(para, clean, color=WHITE_RGB, bold=True, size=13.2, caps=True)
 
 def add_heading2(doc, text):
+    """H2 ardoise gras + filet or — espacements PDF : 14pt avant / 6pt après."""
     para = doc.add_paragraph(style='Normal')
-    para.paragraph_format.space_before = Pt(10)
-    para.paragraph_format.space_after  = Pt(3)
+    para.paragraph_format.space_before = Pt(14)
+    para.paragraph_format.space_after  = Pt(6)
     set_para_border(para, 'bottom', GOLD_HEX, sz=BORDER_SZ, space="3")
     clean = re.sub(r'\*\*(.+?)\*\*', r'\1', text)
     clean = re.sub(r'\*(.+?)\*', r'\1', clean)
-    styled_run(para, clean, color=ARDOISE_RGB, bold=True, size=11.5)
+    styled_run(para, clean, color=ARDOISE_RGB, bold=True, size=11)
 
 def add_heading3(doc, text):
+    """H3 ardoise gras \small — espacements PDF : 10pt avant / 4pt après."""
     para = doc.add_paragraph(style='Normal')
-    para.paragraph_format.space_before = Pt(6)
+    para.paragraph_format.space_before = Pt(10)
+    para.paragraph_format.space_after  = Pt(4)
     clean = re.sub(r'\*\*(.+?)\*\*', r'\1', text)
     clean = re.sub(r'\*(.+?)\*', r'\1', clean)
-    styled_run(para, clean, color=ARDOISE_RGB, bold=True, size=11)
+    styled_run(para, clean, color=ARDOISE_RGB, bold=True, size=10)
 
 def add_separator(doc):
     para = doc.add_paragraph()
@@ -167,29 +169,54 @@ def add_separator(doc):
     styled_run(para, '★★★', color=GOLD_RGB, size=14)
 
 def add_quote(doc, text):
-    """Citation : filet or gauche (2 pt) + texte rouge italique — identique au PDF."""
+    """Citation : filet or gauche 2pt + rouge italique interligne 1.5 — PDF skipabove/below 14pt."""
     clean = re.sub(r'^> ?', '', text, flags=re.MULTILINE).strip()
     if not clean:
         return
     para = doc.add_paragraph(style='Normal')
-    para.paragraph_format.left_indent  = Cm(1.2)
-    para.paragraph_format.right_indent = Cm(1.2)
-    para.paragraph_format.space_before = Pt(10)
-    para.paragraph_format.space_after  = Pt(10)
-    # Filet or gauche 2 pt (sz=16 = 2pt)
+    # innerleftmargin 18pt + leftmargin 0pt → indent Word équivalent
+    para.paragraph_format.left_indent  = Cm(0.64)   # ≈ 18pt
+    para.paragraph_format.right_indent = Cm(0.21)   # ≈ 6pt
+    para.paragraph_format.space_before = Pt(14)     # skipabove PDF
+    para.paragraph_format.space_after  = Pt(14)     # skipbelow PDF
+    # Interligne 1.5 sur la citation (PDF : \setstretch{1.5} dans citblock)
+    from docx.oxml import OxmlElement as _OE
+    pPr = para._p.find(qn('w:pPr'))
+    if pPr is None:
+        pPr = _OE('w:pPr'); para._p.insert(0, pPr)
+    lsEl = pPr.find(qn('w:jc'))  # just to ensure pPr exists
+    spacing = _OE('w:spacing')
+    spacing.set(qn('w:line'), '360')      # 360/240 = 1.5x
+    spacing.set(qn('w:lineRule'), 'auto')
+    ex = pPr.find(qn('w:spacing'))
+    if ex is not None: pPr.remove(ex)
+    pPr.append(spacing)
+    # Filet or gauche 2 pt (sz=16 = 2pt en 1/8pt)
     set_para_border(para, 'left', GOLD_HEX, sz="16", space="18")
-    add_inline_runs(para, clean, size=10.5, color=DARK_RED_RGB, italic_base=True)
+    add_inline_runs(para, clean, size=11, color=DARK_RED_RGB, italic_base=True)
 
 def add_normal(doc, text):
-    """Paragraphe courant avec gras/italique inline."""
+    """Paragraphe courant, texte noir, interligne 1.3 (identique au PDF \setstretch{1.3})."""
     para = doc.add_paragraph(style='Normal')
-    para.paragraph_format.space_after = Pt(4)
-    add_inline_runs(para, text, size=11, color=GRIS_RGB)
+    para.paragraph_format.space_after = Pt(6)
+    # Interligne 1.3 en unités Word (1.3 × 240 = 312)
+    from docx.oxml import OxmlElement as _OE
+    pPr = para._p.find(qn('w:pPr'))
+    if pPr is None:
+        pPr = _OE('w:pPr'); para._p.insert(0, pPr)
+    spacing = _OE('w:spacing')
+    spacing.set(qn('w:line'), '312')
+    spacing.set(qn('w:lineRule'), 'auto')
+    ex = pPr.find(qn('w:spacing'))
+    if ex is not None: pPr.remove(ex)
+    pPr.append(spacing)
+    add_inline_runs(para, text, size=11)   # noir pur (pas de color=)
     return para
 
 def add_bullet(doc, text):
+    """Puce — texte noir, taille \small = 10pt comme en PDF dans itemize."""
     para = doc.add_paragraph(style='List Bullet')
-    add_inline_runs(para, text, size=10.5, color=GRIS_RGB)
+    add_inline_runs(para, text, size=10.5)  # noir pur
     return para
 
 def add_pipe_table(doc, header, rows):
@@ -214,7 +241,7 @@ def add_pipe_table(doc, header, rows):
     doc.add_paragraph()
 
 def add_styled_table(doc, title, rows):
-    """Encadré 1 colonne (bold-only line suivie de liste)."""
+    """Encadré 1 colonne : header ardoise blanc 10pt caps, lignes crème gris 10pt (= PDF \small)."""
     table = doc.add_table(rows=1 + len(rows), cols=1)
     set_table_borders(table, BORDER_SZ, ARDOISE)
     hc = table.rows[0].cells[0]
@@ -225,7 +252,7 @@ def add_styled_table(doc, title, rows):
         cell = table.rows[i + 1].cells[0]
         set_cell_fill(cell, CREAM_HEX)
         cell.paragraphs[0].paragraph_format.left_indent = Cm(0.2)
-        add_inline_runs(cell.paragraphs[0], row_text, size=9.5, color=GRIS_RGB)
+        add_inline_runs(cell.paragraphs[0], row_text, size=10, color=GRIS_RGB)   # \small = 10pt
     doc.add_paragraph()
 
 # ─── Page de partie ───────────────────────────────────────────────────────────
@@ -417,6 +444,23 @@ for section in doc.sections:
     section.bottom_margin = Cm(2.5)
     section.left_margin   = Cm(2.5)
     section.right_margin  = Cm(2.5)
+
+# Interligne 1.3 et police de base FreeSerif 11pt sur le style Normal
+from docx.oxml import OxmlElement as _OE
+normal_style = doc.styles['Normal']
+normal_style.font.name = FONT_NAME
+normal_style.font.size = Pt(11)
+# Interligne 1.3 via XML sur le style (cascade sur tous les paragraphes)
+pPr_style = normal_style.element.find(qn('w:pPr'))
+if pPr_style is None:
+    pPr_style = _OE('w:pPr')
+    normal_style.element.append(pPr_style)
+sp_el = _OE('w:spacing')
+sp_el.set(qn('w:line'), '312')       # 312/240 = 1.3x
+sp_el.set(qn('w:lineRule'), 'auto')
+ex = pPr_style.find(qn('w:spacing'))
+if ex is not None: pPr_style.remove(ex)
+pPr_style.append(sp_el)
 
 setup_header_footer(doc)
 
