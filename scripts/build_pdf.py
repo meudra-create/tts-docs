@@ -58,12 +58,12 @@ r"""\documentclass[11pt,a4paper]{article}
 \usepackage{microtype}
 \usepackage{hyperref}
 
-\geometry{left=2.8cm, right=2.8cm, top=3cm, bottom=3cm}
-\setstretch{1.4}
+\geometry{left=2.5cm, right=2.0cm, top=2.5cm, bottom=2.5cm}
+\setstretch{1.5}
 \frenchspacing
 \setlength{\headheight}{16pt}
-\setlength{\parindent}{0pt}
-\setlength{\parskip}{7pt}
+\setlength{\parindent}{1cm}
+\setlength{\parskip}{3pt}
 
 \setmainfont{FreeSerif}[
   BoldFont      = FreeSerif Bold,
@@ -123,9 +123,16 @@ r"""\documentclass[11pt,a4paper]{article}
   rightmargin=0pt
 ]{citblock}
 
-% ── Séparateur étoile or ──
+% ── Séparateur typographique or ──
 \newcommand{\separator}{%
-  \begin{center}\color{gold}\large $\bigstar\bigstar\bigstar$\end{center}%
+  \vspace{10pt}%
+  \begin{center}{\color{gold}\large *\enspace *\enspace *}\end{center}%
+  \vspace{8pt}%
+}
+
+% ── Filet de section (horizontal rule ---) ──
+\newcommand{\sectionrule}{%
+  \vspace{8pt}{\color{gold}\noindent\rule{\linewidth}{0.4pt}}\vspace{8pt}%
 }
 
 % ── Page de partie (page blanche centrée) ──
@@ -134,9 +141,9 @@ r"""\documentclass[11pt,a4paper]{article}
   \thispagestyle{empty}
   \null\vfill
   \begin{center}
-    {\fontsize{12}{14}\selectfont\color{ardoise}\bfseries
+    {\fontsize{12}{14}\selectfont\color{ardoise}%
      \addfontfeature{LetterSpace=14}\MakeUppercase{#1}}\\[1.4cm]
-    {\fontsize{26}{32}\selectfont\color{ardoise}\bfseries\MakeUppercase{#2}}\\[1.6cm]
+    {\fontsize{26}{32}\selectfont\color{ardoise}\MakeUppercase{#2}}\\[1.6cm]
     {\color{gold}\rule{8cm}{1.5pt}}
   \end{center}
   \vfill\vfill
@@ -330,6 +337,7 @@ def parse_chapter(md_text):
             out.append(r'\addcontentsline{toc}{section}{' + title + '}')
             out.append(r'\chapterbanner{' + title + '}')
             out.append(r'\vspace{14pt}')
+            out.append(r'\noindent')
             i += 1
             continue
 
@@ -337,6 +345,7 @@ def parse_chapter(md_text):
         if line.startswith('## '):
             flush_quote()
             out.append(r'\subsection{' + md_inline(line[3:].strip()) + '}')
+            out.append(r'\noindent')
             i += 1
             continue
 
@@ -344,6 +353,7 @@ def parse_chapter(md_text):
         if line.startswith('### '):
             flush_quote()
             out.append(r'\subsubsection{' + md_inline(line[4:].strip()) + '}')
+            out.append(r'\noindent')
             i += 1
             continue
 
@@ -363,9 +373,10 @@ def parse_chapter(md_text):
             i = j
             continue
 
-        # Séparateur horizontal ---
+        # Séparateur horizontal --- → filet or fin
         if re.match(r'^-{3,}\s*$', line.strip()):
             flush_quote()
+            out.append(r'\sectionrule{}')
             i += 1
             continue
 
@@ -408,8 +419,8 @@ def parse_chapter(md_text):
             i = j
             continue
 
-        # Séparateur ★★★
-        if line.strip() == '★★★':
+        # Séparateur ★★★ ou * * *
+        if line.strip() in ('★★★', '* * *', '\* \* \*'):
             flush_quote()
             out.append(r'\separator{}')
             i += 1
