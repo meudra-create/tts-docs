@@ -161,6 +161,13 @@ def add_heading3(doc, text):
     clean = re.sub(r'\*(.+?)\*', r'\1', clean)
     styled_run(para, clean, color=ARDOISE_RGB, bold=True, size=10)
 
+def add_section_rule(doc):
+    """Filet or horizontal (PDF \sectionrule) — reproduit le --- markdown."""
+    para = doc.add_paragraph()
+    para.paragraph_format.space_before = Pt(6)
+    para.paragraph_format.space_after  = Pt(6)
+    set_para_border(para, 'bottom', GOLD_HEX, sz="3", space="2")
+
 def add_separator(doc):
     para = doc.add_paragraph()
     para.alignment = WD_ALIGN_PARAGRAPH.CENTER
@@ -196,21 +203,11 @@ def add_quote(doc, text):
     add_inline_runs(para, clean, size=11, color=DARK_RED_RGB, italic_base=True)
 
 def add_normal(doc, text):
-    """Paragraphe courant, texte noir, interligne 1.3 (identique au PDF \setstretch{1.3})."""
+    """Paragraphe courant — retrait 1 cm, parskip 3 pt, interligne 1.5 (= PDF)."""
     para = doc.add_paragraph(style='Normal')
-    para.paragraph_format.space_after = Pt(6)
-    # Interligne 1.3 en unités Word (1.3 × 240 = 312)
-    from docx.oxml import OxmlElement as _OE
-    pPr = para._p.find(qn('w:pPr'))
-    if pPr is None:
-        pPr = _OE('w:pPr'); para._p.insert(0, pPr)
-    spacing = _OE('w:spacing')
-    spacing.set(qn('w:line'), '312')
-    spacing.set(qn('w:lineRule'), 'auto')
-    ex = pPr.find(qn('w:spacing'))
-    if ex is not None: pPr.remove(ex)
-    pPr.append(spacing)
-    add_inline_runs(para, text, size=11)   # noir pur (pas de color=)
+    para.paragraph_format.first_line_indent = Cm(1.0)   # \parindent{1cm}
+    para.paragraph_format.space_after       = Pt(3)      # \parskip{3pt}
+    add_inline_runs(para, text, size=11)
     return para
 
 def add_bullet(doc, text):
@@ -486,7 +483,7 @@ def parse_and_append(doc, md_text):
 
         # Séparateurs --- et ★★★
         if re.match(r'^---+$', line.strip()):
-            flush_quote(); i += 1; continue
+            flush_quote(); add_section_rule(doc); i += 1; continue
         if line.strip() in ('★★★', '*   *   *', '* * *'):
             flush_quote(); add_separator(doc); i += 1; continue
 
@@ -549,12 +546,12 @@ def parse_and_append(doc, md_text):
 # ─── Construction du document ─────────────────────────────────────────────────
 doc = Document()
 
-# Marges (identiques au PDF : 2,5 cm)
+# Marges identiques au PDF : gauche 2.5 cm, droite 2.0 cm
 for section in doc.sections:
     section.top_margin    = Cm(2.5)
     section.bottom_margin = Cm(2.5)
     section.left_margin   = Cm(2.5)
-    section.right_margin  = Cm(2.5)
+    section.right_margin  = Cm(2.0)
 
 # Interligne 1.3 et police de base FreeSerif 11pt sur le style Normal
 from docx.oxml import OxmlElement as _OE
@@ -567,7 +564,7 @@ if pPr_style is None:
     pPr_style = _OE('w:pPr')
     normal_style.element.append(pPr_style)
 sp_el = _OE('w:spacing')
-sp_el.set(qn('w:line'), '312')       # 312/240 = 1.3x
+sp_el.set(qn('w:line'), '360')       # 360/240 = 1.5x — identique PDF \setstretch{1.5}
 sp_el.set(qn('w:lineRule'), 'auto')
 ex = pPr_style.find(qn('w:spacing'))
 if ex is not None: pPr_style.remove(ex)
