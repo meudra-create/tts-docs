@@ -219,26 +219,137 @@ def add_bullet(doc, text):
     add_inline_runs(para, text, size=10.5)  # noir pur
     return para
 
+def _set_cell_border(cell, sides=None, sz="4", color=ARDOISE, val="single"):
+    """Applique des bordures individuelles sur une cellule."""
+    tc = cell._tc
+    tcPr = tc.find(qn('w:tcPr'))
+    if tcPr is None:
+        tcPr = OxmlElement('w:tcPr'); tc.insert(0, tcPr)
+    tcBorders = tcPr.find(qn('w:tcBorders'))
+    if tcBorders is None:
+        tcBorders = OxmlElement('w:tcBorders'); tcPr.append(tcBorders)
+    for side in (sides or []):
+        el = OxmlElement(f'w:{side}')
+        el.set(qn('w:val'), val)
+        el.set(qn('w:sz'), sz)
+        el.set(qn('w:space'), '0')
+        el.set(qn('w:color'), color)
+        ex = tcBorders.find(qn(f'w:{side}'))
+        if ex is not None: tcBorders.remove(ex)
+        tcBorders.append(el)
+    # Supprimer tous les autres côtés (none)
+    all_sides = {'top','left','bottom','right','insideH','insideV'}
+    for side in all_sides - set(sides or []):
+        el = OxmlElement(f'w:{side}')
+        el.set(qn('w:val'), 'none')
+        el.set(qn('w:sz'), '0')
+        el.set(qn('w:space'), '0')
+        el.set(qn('w:color'), 'auto')
+        ex = tcBorders.find(qn(f'w:{side}'))
+        if ex is not None: tcBorders.remove(ex)
+        tcBorders.append(el)
+
+def _inline_clean(text):
+    t = re.sub(r'\*\*(.+?)\*\*', r'\1', text)
+    return re.sub(r'\*(.+?)\*', r'\1', t).strip()
+
 def add_pipe_table(doc, header, rows):
-    """Tableau multi-colonnes : en-tête ardoise/blanc, lignes crème/gris."""
+    """Timeline verticale — identique au PDF (Option C).
+    2 colonnes : table 2-col avec règle ardoise verticale.
+    3+ colonnes : paragraphes empilés avec bullets or et connecteurs ardoise.
+    """
     n = max(1, len(header))
-    table = doc.add_table(rows=1 + len(rows), cols=n)
-    set_table_borders(table, BORDER_SZ, ARDOISE)
-    for c, htext in enumerate(header):
-        cell = table.rows[0].cells[c]
-        set_cell_fill(cell, ARDOISE)
-        cell.paragraphs[0].paragraph_format.left_indent = Cm(0.15)
-        clean = re.sub(r'\*\*(.+?)\*\*', r'\1', htext.strip())
-        clean = re.sub(r'\*(.+?)\*', r'\1', clean)
-        styled_run(cell.paragraphs[0], clean, color=WHITE_RGB, bold=True, size=9.5)
-    for r, row in enumerate(rows):
-        cells = row[:n] + [''] * (n - len(row))
-        for c, val in enumerate(cells):
-            cell = table.rows[r + 1].cells[c]
-            set_cell_fill(cell, CREAM_HEX)
-            cell.paragraphs[0].paragraph_format.left_indent = Cm(0.15)
-            add_inline_runs(cell.paragraphs[0], val.strip(), size=9, color=GRIS_RGB)
-    doc.add_paragraph()
+
+    # ── Espace avant ─────────────────────────────────────────────────────────
+    sp = doc.add_paragraph()
+    sp.paragraph_format.space_before = Pt(6)
+    sp.paragraph_format.space_after  = Pt(0)
+
+    if n == 2:
+        # ── 2 colonnes : table timeline ──────────────────────────────────────
+        # Largeurs ~ 28 % / 62 % de la zone texte (15.5 cm = 21-2.5-2.5 cm)
+        LEFT_W  = Cm(4.0)
+        RIGHT_W = Cm(9.5)
+
+        # Ligne d'en-tête (labels italiques ardoise)
+        hdr_tbl = doc.add_table(rows=1, cols=2)
+        hdr_tbl.allow_autofit = False
+        hdr_tbl.columns[0].width = LEFT_W
+        hdr_tbl.columns[1].width = RIGHT_W
+        hl = hdr_tbl.rows[0].cells[0]
+        hr = hdr_tbl.rows[0].cells[1]
+        _set_cell_border(hl, sides=[])
+        _set_cell_border(hr, sides=[])
+        hl.paragraphs[0].alignment = WD_ALIGN_PARAGRAPH.RIGHT
+        styled_run(hl.paragraphs[0], _inline_clean(header[0]), color=ARDOISE_RGB, italic=True, size=9)
+        styled_run(hr.paragraphs[0], _inline_clean(header[1]), color=ARDOISE_RGB, italic=True, size=9)
+
+        # Filet or sous les en-têtes
+        sep = doc.add_paragraph()
+        sep.paragraph_format.space_before = Pt(1)
+        sep.paragraph_format.space_after  = Pt(1)
+        set_para_border(sep, 'bottom', GOLD_HEX, sz="4", space="2")
+
+        # Lignes de données
+        data_tbl = doc.add_table(rows=len(rows), cols=2)
+        data_tbl.allow_autofit = False
+        data_tbl.columns[0].width = LEFT_W
+        data_tbl.columns[1].width = RIGHT_W
+        for r, row in enumerate(rows):
+            cl = data_tbl.rows[r].cells[0]
+            cr = data_tbl.rows[r].cells[1]
+            # Bordures : seule la ligne verticale entre les deux cols (ardoise 0.5pt)
+            _set_cell_border(cl, sides=['right'], sz="4", color=ARDOISE)
+            _set_cell_border(cr, sides=['left'],  sz="4", color=ARDOISE)
+            # Cellule gauche : right-aligned, bullet or + label ardoise
+            cl.paragraphs[0].alignment = WD_ALIGN_PARAGRAPH.RIGHT
+            cl.paragraphs[0].paragraph_format.right_indent = Cm(0.2)
+            styled_run(cl.paragraphs[0], '● ', color=GOLD_RGB, size=8)
+            styled_run(cl.paragraphs[0], _inline_clean(row[0]) if row else '',
+                       color=ARDOISE_RGB, size=9)
+            # Cellule droite : contenu gris
+            cr.paragraphs[0].paragraph_format.left_indent = Cm(0.2)
+            c1 = _inline_clean(row[1]) if len(row) > 1 else ''
+            add_inline_runs(cr.paragraphs[0], c1, size=9, color=GRIS_RGB)
+    else:
+        # ── 3+ colonnes : empilés verticaux ──────────────────────────────────
+        # En-tête : labels italiques ardoise séparés par " | "
+        h_para = doc.add_paragraph()
+        h_para.paragraph_format.space_after = Pt(1)
+        for idx, h in enumerate(header):
+            if idx > 0:
+                styled_run(h_para, '  |  ', color=ARDOISE_RGB, size=9)
+            styled_run(h_para, _inline_clean(h), color=ARDOISE_RGB, italic=True, size=9)
+
+        # Filet or
+        sep = doc.add_paragraph()
+        sep.paragraph_format.space_before = Pt(1)
+        sep.paragraph_format.space_after  = Pt(2)
+        set_para_border(sep, 'bottom', GOLD_HEX, sz="4", space="2")
+
+        for idx, row in enumerate(rows):
+            p = doc.add_paragraph()
+            p.paragraph_format.space_before = Pt(0)
+            p.paragraph_format.space_after  = Pt(0)
+            p.paragraph_format.left_indent  = Cm(0.3)
+            styled_run(p, '● ', color=GOLD_RGB, size=9)
+            styled_run(p, _inline_clean(row[0]) if row else '',
+                       color=ARDOISE_RGB, size=9)
+            for c in row[1:n]:
+                styled_run(p, '  —  ', color=ARDOISE_RGB, size=9)
+                add_inline_runs(p, _inline_clean(c), size=9, color=GRIS_RGB)
+            # Connecteur vertical ardoise entre les items
+            if idx < len(rows) - 1:
+                cp = doc.add_paragraph()
+                cp.paragraph_format.space_before = Pt(0)
+                cp.paragraph_format.space_after  = Pt(0)
+                cp.paragraph_format.left_indent  = Cm(0.3)
+                styled_run(cp, '│', color=ARDOISE_RGB, size=8)
+
+    # ── Espace après ─────────────────────────────────────────────────────────
+    ep = doc.add_paragraph()
+    ep.paragraph_format.space_before = Pt(0)
+    ep.paragraph_format.space_after  = Pt(6)
 
 def add_styled_table(doc, title, rows):
     """Encadré 1 colonne : header ardoise blanc 10pt caps, lignes crème gris 10pt (= PDF \small)."""
