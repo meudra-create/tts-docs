@@ -130,17 +130,25 @@ def add_inline_runs(para, text, size=11, color=None, italic_base=False):
 
 # ─── Éléments de document ────────────────────────────────────────────────────
 def add_heading1(doc, text):
-    """Bandeau ardoise plein + titre blanc capitales + filet or en bas — \large ≈ 13,2pt."""
+    """Bandeau ardoise plein + titre blanc capitales.
+    PDF : filet or 2.5pt au-dessus, bandeau ardoise, filet or 1pt en dessous."""
+    # Filet or au-dessus (2.5pt = sz 20 en 1/8pt)
+    top_rule = doc.add_paragraph(style='Normal')
+    top_rule.paragraph_format.space_before = Pt(10)
+    top_rule.paragraph_format.space_after  = Pt(0)
+    set_para_border(top_rule, 'bottom', GOLD_HEX, sz="20", space="0")
+    # Bandeau ardoise + texte blanc centré
     para = doc.add_paragraph(style='Normal')
-    para.paragraph_format.space_before = Pt(6)
-    para.paragraph_format.space_after  = Pt(2)
+    para.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    para.paragraph_format.space_before = Pt(0)
+    para.paragraph_format.space_after  = Pt(0)
+    para.paragraph_format.space_before = Pt(10)
+    para.paragraph_format.space_after  = Pt(10)
     set_para_shading(para, ARDOISE)
-    set_para_border(para, 'bottom', GOLD_HEX, sz="12", space="4")
-    para.paragraph_format.left_indent  = Cm(0.3)
-    para.paragraph_format.right_indent = Cm(0.3)
+    set_para_border(para, 'bottom', GOLD_HEX, sz="8", space="0")
     clean = re.sub(r'\*\*(.+?)\*\*', r'\1', text)
     clean = re.sub(r'\*(.+?)\*', r'\1', clean)
-    styled_run(para, clean, color=WHITE_RGB, bold=True, size=13.2, caps=True)
+    styled_run(para, clean, color=WHITE_RGB, bold=False, size=13.2, caps=True)
 
 def add_heading2(doc, text):
     """H2 ardoise gras + filet or — espacements PDF : 14pt avant / 6pt après."""
@@ -202,11 +210,12 @@ def add_quote(doc, text):
     set_para_border(para, 'left', GOLD_HEX, sz="16", space="18")
     add_inline_runs(para, clean, size=11, color=DARK_RED_RGB, italic_base=True)
 
-def add_normal(doc, text):
-    """Paragraphe courant — retrait 1 cm, parskip 3 pt, interligne 1.5 (= PDF)."""
+def add_normal(doc, text, no_indent=False):
+    """Paragraphe courant — retrait 1 cm sauf après un titre (\noindent PDF)."""
     para = doc.add_paragraph(style='Normal')
-    para.paragraph_format.first_line_indent = Cm(1.0)   # \parindent{1cm}
-    para.paragraph_format.space_after       = Pt(3)      # \parskip{3pt}
+    if not no_indent:
+        para.paragraph_format.first_line_indent = Cm(1.0)
+    para.paragraph_format.space_after = Pt(3)
     add_inline_runs(para, text, size=11)
     return para
 
@@ -460,11 +469,14 @@ def parse_and_append(doc, md_text):
     lines = md_text.split('\n')
     i = 0
     quote_buf = []
+    after_heading = False   # \noindent PDF : pas de retrait après un titre
 
     def flush_quote():
+        nonlocal after_heading
         if quote_buf:
             add_quote(doc, '\n'.join(quote_buf).strip())
             quote_buf.clear()
+            after_heading = False
 
     while i < len(lines):
         line = lines[i]
@@ -475,17 +487,17 @@ def parse_and_append(doc, md_text):
 
         # Titres
         if line.startswith('# '):
-            flush_quote(); add_heading1(doc, line[2:].strip()); i += 1; continue
+            flush_quote(); add_heading1(doc, line[2:].strip()); after_heading = True; i += 1; continue
         if line.startswith('## '):
-            flush_quote(); add_heading2(doc, line[3:].strip()); i += 1; continue
+            flush_quote(); add_heading2(doc, line[3:].strip()); after_heading = True; i += 1; continue
         if line.startswith('### '):
-            flush_quote(); add_heading3(doc, line[4:].strip()); i += 1; continue
+            flush_quote(); add_heading3(doc, line[4:].strip()); after_heading = True; i += 1; continue
 
         # Séparateurs --- et ★★★
         if re.match(r'^---+$', line.strip()):
-            flush_quote(); add_section_rule(doc); i += 1; continue
+            flush_quote(); add_section_rule(doc); after_heading = False; i += 1; continue
         if line.strip() in ('★★★', '*   *   *', '* * *'):
-            flush_quote(); add_separator(doc); i += 1; continue
+            flush_quote(); add_separator(doc); after_heading = False; i += 1; continue
 
         # Citations
         if line.startswith('>'):
@@ -502,15 +514,15 @@ def parse_and_append(doc, md_text):
             while j < len(lines) and re.match(r'^\s*\|.*\|\s*$', lines[j]):
                 body.append(_split_pipe_row(lines[j])); j += 1
             add_pipe_table(doc, header, body)
-            i = j; continue
+            after_heading = False; i = j; continue
 
         # Listes
         if re.match(r'^[-*] ', line):
             flush_quote()
-            add_bullet(doc, line[2:].strip()); i += 1; continue
+            add_bullet(doc, line[2:].strip()); after_heading = False; i += 1; continue
         if re.match(r'^\d+\. ', line):
             flush_quote()
-            add_bullet(doc, re.sub(r'^\d+\. ', '', line)); i += 1; continue
+            add_bullet(doc, re.sub(r'^\d+\. ', '', line)); after_heading = False; i += 1; continue
 
         # Ligne bold seule → possible encadré
         bm = re.match(r'^\*\*(.+?)\*\*\s*$', line.strip())
@@ -527,18 +539,19 @@ def parse_and_append(doc, md_text):
                 else:
                     break
             if rows:
-                add_styled_table(doc, title, rows); i = j
+                add_styled_table(doc, title, rows); after_heading = False; i = j
             else:
                 p = doc.add_paragraph(style='Normal')
                 styled_run(p, title, color=ARDOISE_RGB, bold=True, size=11)
-                i += 1
+                after_heading = False; i += 1
             continue
 
         # Paragraphe courant
         flush_quote()
         text = line.strip()
         if text:
-            add_normal(doc, text)
+            add_normal(doc, text, no_indent=after_heading)
+            after_heading = False
         i += 1
 
     flush_quote()
@@ -546,8 +559,10 @@ def parse_and_append(doc, md_text):
 # ─── Construction du document ─────────────────────────────────────────────────
 doc = Document()
 
-# Marges identiques au PDF : gauche 2.5 cm, droite 2.0 cm
+# Format A4 + marges identiques au PDF
 for section in doc.sections:
+    section.page_width    = Cm(21.0)
+    section.page_height   = Cm(29.7)
     section.top_margin    = Cm(2.5)
     section.bottom_margin = Cm(2.5)
     section.left_margin   = Cm(2.5)
