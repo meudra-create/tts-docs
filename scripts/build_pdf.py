@@ -256,39 +256,81 @@ def render_table(title, rows):
     return '\\par\\noindent\n' + '\n'.join(lines) + '\n\\par'
 
 # ─────────────────────────────────────────────────────────────────────────────
-# Rendu d'un tableau markdown à pipes (multi-colonnes), même habillage
+# Timeline verticale : bullet or | filet ardoise | contenu
+# Remplace les tableaux à pipes
 # ─────────────────────────────────────────────────────────────────────────────
 def render_pipe_table(header, rows):
     """
-    Tableau multi-colonnes (| a | b | c |) au style ardoise/crème :
-    - Ligne d'en-tête : fond ardoise, texte blanc gras
-    - Lignes de données : fond crème, texte gris, filets ardoise fins
+    Timeline verticale :
+    - 2 colonnes : label droit | filet ardoise 0.5pt | contenu gauche
+    - 3+ colonnes : items empilés, première cellule en ardoise, reste en gris
     """
     n = max(1, len(header))
-    colw = r'\dimexpr(\linewidth-' + str(14 * n) + r'pt)/' + str(n) + r'\relax'
-    colspec = '|' + '|'.join([r'p{' + colw + r'}'] * n) + '|'
     out = []
-    out.append(r'{%')
-    out.append(r'\arrayrulecolor{ardoise}%')
-    out.append(r'\setlength{\arrayrulewidth}{0.6pt}%')
-    out.append(r'\renewcommand{\arraystretch}{1.45}%')
-    out.append(r'\noindent\footnotesize\begin{tabular}{' + colspec + r'}')
-    out.append(r'\hline')
-    hcells = [r'\cellcolor{ardoise}{\color{white}\bfseries ' + md_inline(c) + r'}'
-              for c in header]
-    out.append(' & '.join(hcells) + r' \\')
-    out.append(r'\hline')
-    for row in rows:
-        cells = [r'\cellcolor{cream}{\color{gris} ' + md_inline(c) + r'}'
-                 for c in row[:n]]
-        while len(cells) < n:
-            cells.append(r'\cellcolor{cream}{}')
-        out.append(' & '.join(cells) + r' \\')
-        out.append(r'\hline')
-    out.append(r'\end{tabular}%')
-    out.append(r'\vspace{8pt}%')
-    out.append(r'}')
-    return '\\par\\noindent\n' + '\n'.join(out) + '\n\\par'
+    out.append(r'\vspace{10pt}')
+
+    if n == 2:
+        # Timeline 2 colonnes avec filet vertical ardoise
+        left_w  = r'0.25\linewidth'
+        right_w = r'0.65\linewidth'
+        out.append(r'{%')
+        out.append(r'\arrayrulecolor{ardoise}%')
+        out.append(r'\setlength{\arrayrulewidth}{0.5pt}%')
+        out.append(r'\renewcommand{\arraystretch}{1.9}%')
+        out.append(r'\setlength{\tabcolsep}{10pt}%')
+        out.append(
+            r'\noindent\begin{tabular}'
+            r'{>{\raggedleft\arraybackslash}p{' + left_w + r'}'
+            r'|'
+            r'p{' + right_w + r'}}'
+        )
+        # En-tête : italique ardoise
+        h0 = md_inline(header[0])
+        h1 = md_inline(header[1])
+        out.append(
+            r'{\color{ardoise}\footnotesize\textit{' + h0 + r'}} & '
+            r'{\color{ardoise}\footnotesize\textit{' + h1 + r'}} \\'
+        )
+        # Filet or après l'en-tête
+        out.append(r'\arrayrulecolor{gold}\hline\arrayrulecolor{ardoise}')
+        for row in rows:
+            c0 = md_inline(row[0]) if len(row) > 0 else ''
+            c1 = md_inline(row[1]) if len(row) > 1 else ''
+            out.append(
+                r'{\color{gold}$\bullet$}\enspace{\color{ardoise}\footnotesize ' + c0 + r'} & '
+                r'{\color{gris}\footnotesize ' + c1 + r'} \\'
+            )
+        out.append(r'\end{tabular}%')
+        out.append(r'}')
+
+    else:
+        # Timeline 3+ colonnes : items empilés verticalement
+        # En-tête : libellés des colonnes en ardoise italique sur une ligne
+        hlabels = ' \enspace{\color{ardoise}|}\enspace '.join(
+            r'{\color{ardoise}\footnotesize\textit{' + md_inline(h) + r'}}' for h in header
+        )
+        out.append(r'\noindent' + hlabels + r'\\[-4pt]')
+        out.append(r'{\color{gold}\rule{\linewidth}{0.4pt}}')
+        out.append(r'\vspace{4pt}')
+        for idx, row in enumerate(rows):
+            cells = [md_inline(c) for c in row[:n]]
+            # Bullet + première cellule (label/date) en ardoise
+            line = (
+                r'\noindent{\color{gold}$\bullet$}\enspace'
+                r'{\color{ardoise}\footnotesize ' + (cells[0] if cells else '') + r'}'
+            )
+            # Cellules suivantes en gris, séparées par un em-dash
+            for c in cells[1:]:
+                line += r'\enspace{\color{ardoise}---}\enspace{\color{gris}\footnotesize ' + c + r'}'
+            out.append(line)
+            # Connecteur vertical entre items (sauf le dernier)
+            if idx < len(rows) - 1:
+                out.append(r'\par\hspace{4.2pt}{\color{ardoise}\rule{0.5pt}{9pt}}\par\vspace{-2pt}')
+            else:
+                out.append(r'\par')
+
+    out.append(r'\vspace{10pt}')
+    return '\n'.join(out) + '\n'
 
 def _split_pipe_row(line):
     s = line.strip()
