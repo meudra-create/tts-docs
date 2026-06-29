@@ -110,7 +110,7 @@ r"""\documentclass[11pt,a4paper]{article}
 % ── Citation : filet or gauche (2 pt) + texte rouge italique aéré ──
 \newmdenv[
   topline=false, bottomline=false, rightline=false, leftline=true,
-  linewidth=2pt,
+  linewidth=0.5pt,
   linecolor=gold,
   backgroundcolor=white,
   innerleftmargin=18pt,
