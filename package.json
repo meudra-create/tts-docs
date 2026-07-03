@@ -25,6 +25,7 @@
     "@nuxt/eslint": "^0.6.0",
     "@nuxthq/studio": "^2.1.1",
     "eslint": "^9.13.0",
+    "hyperframes": "^0.7.26",
     "vue-tsc": "^2.1.6"
   },
   "packageManager": "pnpm@9.12.2"
