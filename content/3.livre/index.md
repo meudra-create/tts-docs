@@ -176,4 +176,48 @@ navigation: false
 
 ---
 
+#### J — Mémoire, justice et crimes non jugés
+
+- [Thiaroye, 1er décembre 1944 : un crime sans vérité — 300 à 400 tirailleurs africains massacrés, archives verrouillées 80 ans](/livre/chapitre-thiaroye-1944-crime-sans-verite)
+- [AES : le retrait du Statut de Rome et la question de la justice — CPI sélective, souveraineté sans impunité ?](/livre/chapitre-aes-retrait-cpi-statut-rome)
+
+---
+
+#### K — Portraits du néocolonialisme : le regard colonial en actes
+
+- [Le regard colonial : Hogard, Djibouti et l'Afrique sans Africains — l'honnête homme de l'empire et ce qu'il ne voit pas](/livre/chapitre-hogard-regard-colonial-afrique-sans-africains)
+- [La Libye de Kadhafi : ce que les données disaient avant la destruction — 16 indicateurs, meilleure performance africaine](/livre/chapitre-libye-kadhafi-meilleure-performance-afrique)
+- [RCA : ce qu'un soldat français a dit de Bria — « nous ne sommes pas bien reçus »](/livre/chapitre-rca-temoignage-soldat-francais-bria)
+
+---
+
+#### L — Conscience africaine : de Sankara à Traoré
+
+- [L'IPN Farafina : de Sankara à Traoré, la conscience noire comme projet politique — plan de Lagos, rapport Berg, six missions](/livre/chapitre-ipn-farafina-sankara-traore-conscience-noire)
+- [L'AES : le scandale géopolitique et la souveraineté totale — offensive JNIM, souveraineté numérique, rupture démocratique](/livre/chapitre-aes-scandale-geopolitique-souverainete-totale)
+
+---
+
+#### M — RCA 2026 : résistance, opposition et récit
+
+- [Burkina Faso : la rupture expliquée de l'intérieur — ex-ministre Traoré démonte Gomart, idéologie de la Confédération](/livre/chapitre-burkina-rupture-ideologie-ces)
+- [RCA : la rébellion comme arme du sous-développement et le pacte républicain — six coups d'État, zéro développement](/livre/chapitre-rca-rebellion-pacte-republicain)
+- [RCA : gueule de bois pour les prophètes de malheur — ceux qui célébraient la défaite avant le combat (EKA2, 6 juillet 2026)](/livre/chapitre-rca-gueule-de-bois-prophetes-malheur)
+
+---
+
+#### N — Économie de la domination : le FCFA comme arme
+
+- [Le FCFA, instrument de financement du terrorisme à coût zéro — la Banque de France imprime, les terroristes reçoivent](/livre/chapitre-fcfa-financement-terrorisme-cout-zero)
+- [Niger : le « maillon faible » qui a tenu — uranium, pétrole, note verbale américaine, phrase de Macron, doctrine Tiani](/livre/chapitre-niger-maillon-faible-ou-pivot-souverain)
+
+---
+
+#### O — Périphérie sahélienne et menaces transnationales
+
+- [La périphérie sahélienne : Tchad, Mauritanie, Sénégal, Guinée et la fin du G5 Sahel](/livre/chapitre-peripherie-sahelienne-tchad-mauritanie-senegal-guinee)
+- [Sahel : le flux de combattants syriens et la mondialisation du terrorisme — 60 000 à 70 000 combattants réorientés depuis la Syrie](/livre/chapitre-sahel-combattants-syriens-flux-terroriste)
+
+---
+
 *© 2026 BEN–H2O — Tous droits réservés.*
