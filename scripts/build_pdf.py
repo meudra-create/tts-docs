@@ -276,8 +276,8 @@ def render_pipe_table(header, rows):
         out.append(r'{%')
         out.append(r'\arrayrulecolor{ardoise}%')
         out.append(r'\setlength{\arrayrulewidth}{0.5pt}%')
-        out.append(r'\renewcommand{\arraystretch}{1.9}%')
-        out.append(r'\setlength{\tabcolsep}{10pt}%')
+        out.append(r'\renewcommand{\arraystretch}{1.2}%')
+        out.append(r'\setlength{\tabcolsep}{6pt}%')
         out.append(
             r'\noindent\begin{tabular}'
             r'{>{\raggedleft\arraybackslash}p{' + left_w + r'}'
