@@ -10,8 +10,6 @@ navigation: false
 
 *BEN–H2O — 2026*
 
----
-
 > « Un peuple sans connaissance de son histoire, de son origine et de sa culture est comme un arbre sans racines. »
 > — Marcus Garvey
 
@@ -21,8 +19,6 @@ navigation: false
 > « Il faut oser inventer l'avenir. »
 > — Thomas Sankara, discours à l'ONU, 4 octobre 1984
 
----
-
 ## Sommaire
 
 ### Préliminaires
@@ -31,16 +27,12 @@ navigation: false
 - [Prologue — La villa de Niamey](/livre/prologue-la-villa-de-niamey)
 - [Introduction — Pourquoi l'AES change tout](/livre/introduction-pourquoi-l-aes-change-tout)
 
----
-
 ### Partie I — L'Afrique avant la domination
 
 - [Chapitre 1 — Les grands empires](/livre/chapitre-1-les-grands-empires)
 - [Chapitre 2 — Les civilisations du Sahel](/livre/chapitre-2-les-civilisations-du-sahel)
 - [Chapitre 3 — La conquête coloniale](/livre/chapitre-3-la-conquete-coloniale)
 - [Chapitre 4 — Les résistances oubliées](/livre/chapitre-4-les-resistances-oubliees)
-
----
 
 ### Partie II — Comment la dépendance a été organisée
 
@@ -51,8 +43,6 @@ navigation: false
 - [Chapitre 9 — L'aide, la dette, les assassins financiers](/livre/chapitre-9-l-aide-la-dette-les-assassins-financiers)
 - [Chapitre 10 — Les réseaux d'influence](/livre/chapitre-10-les-reseaux-d-influence)
 
----
-
 ### Partie III — La guerre du Sahel
 
 - [Chapitre 11 — La crise libyenne](/livre/chapitre-11-la-crise-libyenne)
@@ -60,8 +50,6 @@ navigation: false
 - [Chapitre 13 — Serval, Barkhane et leurs limites](/livre/chapitre-13-serval-barkhane-et-leurs-limites)
 - [Chapitre 14 — La bataille de l'information](/livre/chapitre-14-la-bataille-de-l-information)
 - [Chapitre 15 — Ce que la France admet en privé](/livre/chapitre-15-ce-que-la-france-admet-en-prive)
-
----
 
 ### Partie IV — La révolution de la souveraineté
 
@@ -72,16 +60,12 @@ navigation: false
 - [Chapitre 20 — La guerre proxy](/livre/chapitre-20-la-guerre-proxy)
 - [Chapitre 21 — L'environnement régional](/livre/chapitre-21-l-environnement-regional)
 
----
-
 ### Partie V — Le réveil panafricain
 
 - [Chapitre 22 — Nkrumah, Lumumba, Keïta : la première vague](/livre/chapitre-22-nkrumah-lumumba-keita-la-premiere-vague)
 - [Chapitre 23 — Sankara avait raison](/livre/chapitre-23-sankara-avait-raison)
 - [Chapitre 24 — La jeunesse connectée, la diaspora en première ligne](/livre/chapitre-24-la-jeunesse-connectee-la-diaspora-en-premiere-li)
 - [Chapitre 25 — L'AES, laboratoire panafricain](/livre/chapitre-25-l-aes-laboratoire-panafricain)
-
----
 
 ### Partie VI — Les défis de demain
 
@@ -92,8 +76,6 @@ navigation: false
 - [Chapitre 30 — France-Afrique 2.0 : la recomposition de la domination](/livre/chapitre-30-france-afrique-2-0-la-recomposition-de-la-domina)
 - [Chapitre 31 — Ce que l'AES doit réussir pour survivre](/livre/chapitre-31-ce-que-l-aes-doit-reussir-pour-survivre)
 
----
-
 ### Épilogue et annexes du livre original
 
 - [Conclusion — Retour à la villa de Niamey](/livre/conclusion-retour-a-la-villa-de-niamey)
@@ -101,8 +83,6 @@ navigation: false
 - [Glossaire des sigles](/livre/glossaire-des-sigles)
 - [Index des personnages](/livre/index-des-personnages)
 - [Notes méthodologiques & corpus de sources](/livre/notes-methodologiques-amp-corpus-de-sources)
-
----
 
 ### Compléments d'information
 
@@ -113,13 +93,9 @@ navigation: false
 - [Sanctions européennes : la prison à ciel ouvert (Nathalie Yamb)](/livre/chapitre-sanctions-ue-nathalie-yamb-prison-ciel-ouvert)
 - [Lafarge, Areva, Total : les multinationales françaises et le financement du terrorisme (Albert Anatole Ayissi)](/livre/chapitre-lafarge-areva-total-financement-terrorisme)
 
----
-
 #### B — Libye : la source du chaos sahélien
 
 - [Libye : les câbles Clinton — coulisses de l'intervention (2011)](/livre/chapitre-libye-cables-clinton-blumenthal-intervention)
-
----
 
 #### C — Les pressions institutionnelles
 
@@ -127,13 +103,9 @@ navigation: false
 - [Kenya : le schéma de la base permanente (Ébola, Ruto, US Army)](/livre/chapitre-kenya-ruto-ebola-base-militaire-us)
 - [Parlement européen contre Burkina Faso : droit de réponse (Nathalie Yamb)](/livre/chapitre-parlement-europeen-resolution-burkina-nathalie-yamb)
 
----
-
 #### D — Côte d'Ivoire
 
 - [Guillaume Soro : la rébellion, Ouattara et la France — l'intégral (Hermann le Patriote)](/livre/chapitre-cote-ivoire-hermann-le-patriote-soro-integral)
-
----
 
 #### E — RCA : laboratoire de la reconquête
 
@@ -142,16 +114,12 @@ navigation: false
 - [RCA : la guerre qui vient — France, Tchad, Soudan et les prédateurs de l'ombre (Thomas Dietrich)](/livre/chapitre-rca-guerre-qui-vient-dietrich)
 - [RCA : le Sangocoin, la Cour constitutionnelle et les limites du G-16](/livre/chapitre-rca-sangocoin-cour-constitutionnelle)
 
----
-
 #### F — Sahel 2026 : les événements en temps réel
 
 - [Niger : suite de l'attaque de juin 2026 — aéroport et guerre informationnelle](/livre/annexe-suite-attaque-niger-guerre-informationnelle)
 - [Mali : le complot de Paris et les redditions du FLA (juin 2026)](/livre/chapitre-mali-complot-paris-redditions-fla)
 - [Burkina Faso : convocation de l'ambassadeur de l'UE — 22 juin 2026](/livre/chapitre-burkina-convocation-ambassadeur-ue-juin-2026)
 - [Mali : le 25 avril 2026 — l'offensive JNIM/FLA et le silence de Paris (Thomas Dietrich)](/livre/chapitre-mali-25-avril-2026-offensive-silence-paris)
-
----
 
 #### G — Gomart : le visage de la manipulation
 
@@ -160,28 +128,20 @@ navigation: false
 - [Burkina Faso : droit de réponse à Christophe Gomart (Issa Diawara, 22 juin 2026)](/livre/chapitre-issa-diawara-droit-de-reponse-gomart-burkina)
 - [Christophe Gomart : votre propagande ne marchera pas](/livre/chapitre-gomart-propagande-ne-marchera-pas)
 
----
-
 #### H — La doctrine française décryptée
 
 - [Alain Juillet : le siège permanent de la France à l'ONU — la légitimité comme arme](/livre/chapitre-juillet-siege-permanent-france-onu)
 - [La doctrine française en Afrique — exposé complet d'après Alain Juillet (12 principes)](/livre/chapitre-doctrine-francaise-juillet-expose-complet)
-
----
 
 #### I — L'Union africaine face à ses contradictions
 
 - [L'Union africaine : entre ambitions continentales et crise de légitimité — Agenda 2063, coups d'État, financement externe](/livre/chapitre-union-africaine-crise-legitimite-agenda-2063)
 - [L'Union africaine : dissolution ou refondation — le procès sans anesthésie](/livre/chapitre-union-africaine-dissolution-ou-refondation)
 
----
-
 #### J — Mémoire, justice et crimes non jugés
 
 - [Thiaroye, 1er décembre 1944 : un crime sans vérité — 300 à 400 tirailleurs africains massacrés, archives verrouillées 80 ans](/livre/chapitre-thiaroye-1944-crime-sans-verite)
 - [AES : le retrait du Statut de Rome et la question de la justice — CPI sélective, souveraineté sans impunité ?](/livre/chapitre-aes-retrait-cpi-statut-rome)
-
----
 
 #### K — Portraits du néocolonialisme : le regard colonial en actes
 
@@ -189,14 +149,10 @@ navigation: false
 - [La Libye de Kadhafi : ce que les données disaient avant la destruction — 16 indicateurs, meilleure performance africaine](/livre/chapitre-libye-kadhafi-meilleure-performance-afrique)
 - [RCA : ce qu'un soldat français a dit de Bria — « nous ne sommes pas bien reçus »](/livre/chapitre-rca-temoignage-soldat-francais-bria)
 
----
-
 #### L — Conscience africaine : de Sankara à Traoré
 
 - [L'IPN Farafina : de Sankara à Traoré, la conscience noire comme projet politique — plan de Lagos, rapport Berg, six missions](/livre/chapitre-ipn-farafina-sankara-traore-conscience-noire)
 - [L'AES : le scandale géopolitique et la souveraineté totale — offensive JNIM, souveraineté numérique, rupture démocratique](/livre/chapitre-aes-scandale-geopolitique-souverainete-totale)
-
----
 
 #### M — RCA 2026 : résistance, opposition et récit
 
@@ -204,20 +160,14 @@ navigation: false
 - [RCA : la rébellion comme arme du sous-développement et le pacte républicain — six coups d'État, zéro développement](/livre/chapitre-rca-rebellion-pacte-republicain)
 - [RCA : gueule de bois pour les prophètes de malheur — ceux qui célébraient la défaite avant le combat (EKA2, 6 juillet 2026)](/livre/chapitre-rca-gueule-de-bois-prophetes-malheur)
 
----
-
 #### N — Économie de la domination : le FCFA comme arme
 
 - [Le FCFA, instrument de financement du terrorisme à coût zéro — la Banque de France imprime, les terroristes reçoivent](/livre/chapitre-fcfa-financement-terrorisme-cout-zero)
 - [Niger : le « maillon faible » qui a tenu — uranium, pétrole, note verbale américaine, phrase de Macron, doctrine Tiani](/livre/chapitre-niger-maillon-faible-ou-pivot-souverain)
 
----
-
 #### O — Périphérie sahélienne et menaces transnationales
 
 - [La périphérie sahélienne : Tchad, Mauritanie, Sénégal, Guinée et la fin du G5 Sahel](/livre/chapitre-peripherie-sahelienne-tchad-mauritanie-senegal-guinee)
 - [Sahel : le flux de combattants syriens et la mondialisation du terrorisme — 60 000 à 70 000 combattants réorientés depuis la Syrie](/livre/chapitre-sahel-combattants-syriens-flux-terroriste)
-
----
 
 *© 2026 BEN–H2O — Tous droits réservés.*
