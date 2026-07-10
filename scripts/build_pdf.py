@@ -415,10 +415,10 @@ def parse_chapter(md_text):
             i = j
             continue
 
-        # Séparateur horizontal --- → filet or fin
+        # Séparateur horizontal --- → simple espacement (pas de trait isolé)
         if re.match(r'^-{3,}\s*$', line.strip()):
             flush_quote()
-            out.append(r'\sectionrule{}')
+            out.append(r'\vspace{10pt}')
             i += 1
             continue
 
