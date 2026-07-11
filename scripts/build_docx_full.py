@@ -8,6 +8,8 @@ from docx.oxml.ns import qn
 from docx.oxml import OxmlElement
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.enum.table import WD_TABLE_ALIGNMENT
+from docx.enum.section import WD_SECTION_START
+from docx.enum.table import WD_ALIGN_VERTICAL, WD_ROW_HEIGHT_RULE
 
 # ─── Couleurs ─────────────────────────────────────────────────────────────────
 ARDOISE      = "2C3A4A"
@@ -109,6 +111,29 @@ def set_letter_spacing(run, points):
     spacing = OxmlElement('w:spacing')
     spacing.set(qn('w:val'), str(int(points * 20)))
     rPr.append(spacing)
+
+def set_section_valign(section, val):
+    """Centre verticalement le contenu d'une section sur la page (w:vAlign) —
+    remplace les pavés de paragraphes vides utilisés pour simuler \\vfill, qui
+    provoquaient des pages blanches en cas de débordement. val: 'top'|'center'|
+    'bottom'|'both' (justifié)."""
+    sectPr = section._sectPr
+    va = OxmlElement('w:vAlign')
+    va.set(qn('w:val'), val)
+    ex = sectPr.find(qn('w:vAlign'))
+    if ex is not None: sectPr.remove(ex)
+    sectPr.append(va)
+
+def suppress_header_footer_this_page(section):
+    """Masque l'en-tête/pied de page sur la première (et unique) page de cette
+    section — reproduit \\thispagestyle{empty} du PDF pour les pages de partie."""
+    section.different_first_page_header_footer = True
+    fh = section.first_page_header
+    for p in fh.paragraphs:
+        p.clear()
+    ff = section.first_page_footer
+    for p in ff.paragraphs:
+        p.clear()
 
 def add_page_break(doc):
     p = doc.add_paragraph()
@@ -402,17 +427,13 @@ def add_styled_table(doc, title, rows):
 
 # ─── Page de partie ───────────────────────────────────────────────────────────
 def add_part_page(doc, roman, subtitle):
-    """Page de partie : fond BLANC, label + titre en ardoise centrés, filet or
-    court (8cm) centré sous le titre. Reproduit exactement \\partpage du PDF :
-    \\clearpage \\null\\vfill PARTIE X (ardoise, lettres espacées) / TITRE
-    (ardoise, grand) / filet or 8cm \\vfill\\vfill \\clearpage — PAS de fond
-    ardoise ni de texte blanc, contrairement à une page de titre."""
-    add_page_break(doc)
-
-    # \null\vfill : espace vertical pour centrer le bloc sur la page
-    for _ in range(9):
-        doc.add_paragraph()
-
+    """Contenu de la page de partie : fond BLANC, label + titre en ardoise
+    centrés, filet or court (8cm) centré sous le titre. Reproduit \\partpage
+    du PDF (PARTIE X / TITRE / filet or) — PAS de fond ardoise ni de texte
+    blanc, contrairement au bandeau H1. Ne gère PAS les sauts de page : la
+    page dédiée et le centrage vertical (w:vAlign) sont gérés par la boucle
+    d'assemblage via un saut de section, pour éviter tout risque de page
+    blanche liée à un remplissage de paragraphes vides."""
     # « PARTIE X » — petit, ardoise, lettres espacées, MAJUSCULES
     p1 = doc.add_paragraph(style='Normal')
     p1.alignment = WD_ALIGN_PARAGRAPH.CENTER
@@ -435,12 +456,6 @@ def add_part_page(doc, roman, subtitle):
     rc.width = Cm(8.0)
     _set_cell_border(rc, sides=['bottom'], sz="12", color=GOLD_HEX)
     rc.paragraphs[0].paragraph_format.space_after = Pt(0)
-
-    # \vfill\vfill : espace vertical restant en bas de page
-    for _ in range(16):
-        doc.add_paragraph()
-
-    add_page_break(doc)
 
 # ─── En-tête et pied de page ─────────────────────────────────────────────────
 def setup_header_footer(doc):
@@ -615,59 +630,60 @@ pPr_style.append(sp_el)
 setup_header_footer(doc)
 
 # ── Page de titre ──────────────────────────────────────────────────────────────
+# Fond ardoise plein garanti par une table 1x1 de hauteur ≥ page utile (pas de
+# pavés de paragraphes vides à compter — source des pages blanches corrigées
+# ici), contenu centré verticalement dans la cellule (w:vAlign="center").
 section0 = doc.sections[0]
 section0.different_first_page_header_footer = True
 
-# Titre : reproduit \begin{titlepage} du PDF, dans le même ordre —
-# \vspace*{4cm} → Titre \Huge → sous-titre \large → BEN--H2O \Large → « --- 2026 --- »
-# → \vfill → copyright \small, tout sur fond ardoise plein.
-for _ in range(9):
-    p = doc.add_paragraph()
-    set_para_shading(p, ARDOISE)
+usable_h = Cm(29.7 - 2.5 - 2.5)   # hauteur de page utile (marges haut/bas)
+usable_w = Cm(21.0 - 2.5 - 2.0)   # largeur de page utile (marges gauche/droite)
 
-p = doc.add_paragraph(); p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-set_para_shading(p, ARDOISE)
-styled_run(p, "LA PAIX, ON PEUT L'ÉVITER", color=WHITE_RGB, bold=True, size=24.9, caps=True)
+title_tbl = doc.add_table(rows=1, cols=1)
+title_tbl.alignment = WD_TABLE_ALIGNMENT.CENTER
+title_tbl.autofit = False
+title_tbl.columns[0].width = usable_w
+title_tbl.rows[0].height = usable_h
+title_tbl.rows[0].height_rule = WD_ROW_HEIGHT_RULE.AT_LEAST
+tcell = title_tbl.rows[0].cells[0]
+tcell.width = usable_w
+set_cell_fill(tcell, ARDOISE)
+tcell.vertical_alignment = WD_ALIGN_VERTICAL.CENTER
+_set_cell_border(tcell, sides=[])   # pas de bordure visible autour de la cellule
 
-for _ in range(2):
-    p = doc.add_paragraph(); set_para_shading(p, ARDOISE)
+tp = tcell.paragraphs[0]
+tp.alignment = WD_ALIGN_PARAGRAPH.CENTER
+tp.paragraph_format.space_after = Pt(24)
+styled_run(tp, "LA PAIX, ON PEUT L'ÉVITER", color=WHITE_RGB, bold=True, size=24.9, caps=True)
 
-p = doc.add_paragraph(); p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-set_para_shading(p, ARDOISE)
-styled_run(p,
+tp2 = tcell.add_paragraph()
+tp2.alignment = WD_ALIGN_PARAGRAPH.CENTER
+tp2.paragraph_format.space_after = Pt(40)
+styled_run(tp2,
     "Enquête sur la naissance de l'Alliance des États du Sahel",
     color=GOLD_RGB, italic=True, size=13.2)
 
-for _ in range(4):
-    p = doc.add_paragraph(); set_para_shading(p, ARDOISE)
+tp3 = tcell.add_paragraph()
+tp3.alignment = WD_ALIGN_PARAGRAPH.CENTER
+tp3.paragraph_format.space_after = Pt(10)
+styled_run(tp3, "BEN–H2O", color=WHITE_RGB, bold=True, size=17.3)
 
-p = doc.add_paragraph(); p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-set_para_shading(p, ARDOISE)
-styled_run(p, "BEN–H2O", color=WHITE_RGB, bold=True, size=17.3)
+tp4 = tcell.add_paragraph()
+tp4.alignment = WD_ALIGN_PARAGRAPH.CENTER
+tp4.paragraph_format.space_after = Pt(60)
+styled_run(tp4, "— 2026 —", color=GOLD_RGB, size=11)
 
-p = doc.add_paragraph(); p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-set_para_shading(p, ARDOISE)
-styled_run(p, "— 2026 —", color=GOLD_RGB, size=11)
+tp5 = tcell.add_paragraph()
+tp5.alignment = WD_ALIGN_PARAGRAPH.CENTER
+styled_run(tp5, "© 2026 BEN–H2O — Tous droits réservés.", color=GOLD_RGB, size=9.2)
 
-# \vfill : grand espace vide avant le copyright, repoussé en bas de page
-for _ in range(15):
-    p = doc.add_paragraph()
-    set_para_shading(p, ARDOISE)
-
-p = doc.add_paragraph(); p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-set_para_shading(p, ARDOISE)
-styled_run(p, "© 2026 BEN–H2O — Tous droits réservés.", color=GOLD_RGB, size=9.2)
-
-for _ in range(3):
-    p = doc.add_paragraph()
-    set_para_shading(p, ARDOISE)
+# Saut de page unique vers le sommaire (la table fait déjà une page pleine).
+add_page_break(doc)
 
 # ── Sommaire (table des matières) ────────────────────────────────────────────
 # Reproduit \tableofcontents du PDF : une page dédiée, juste après le titre,
 # listant uniquement les titres de chapitre (H1) — via un champ TOC natif Word
 # qui s'appuie sur les paragraphes marqués outlineLvl=0 par add_heading1().
-add_page_break(doc)
-
 toc_title = doc.add_paragraph(style='Normal')
 toc_title.alignment = WD_ALIGN_PARAGRAPH.CENTER
 toc_title.paragraph_format.space_after = Pt(18)
@@ -711,10 +727,20 @@ print(f"Assemblage de {len(files)} chapitres...")
 for filepath in files:
     num = int(os.path.basename(filepath).split(".")[0])
 
-    # Page de partie avant ce numéro ?
+    # Page de partie avant ce numéro ? Chaque page de partie vit dans sa
+    # propre section (saut de page automatique en entrée ET en sortie —
+    # donc PAS de add_page_break() supplémentaire autour, ce qui causait
+    # auparavant une page blanche par partie). Centrage vertical du contenu
+    # et masquage de l'en-tête/pied de page (\thispagestyle{empty} du PDF).
     if num in PART_PAGES:
         roman, subtitle = PART_PAGES[num]
+        doc.add_section(WD_SECTION_START.NEW_PAGE)
+        suppress_header_footer_this_page(doc.sections[-1])
         add_part_page(doc, roman, subtitle)
+        doc.add_section(WD_SECTION_START.NEW_PAGE)
+        set_section_valign(doc.sections[-2], 'center')
+    else:
+        add_page_break(doc)
 
     with open(filepath, "r", encoding="utf-8") as f:
         content = f.read()
@@ -724,7 +750,6 @@ for filepath in files:
         if len(parts) >= 3:
             content = parts[2].strip()
 
-    add_page_break(doc)
     parse_and_append(doc, content)
     print(f"  ✓ {num}: {os.path.basename(filepath)[:55]}")
 
