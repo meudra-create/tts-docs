@@ -7,6 +7,7 @@ from docx.shared import Pt, RGBColor, Cm, Inches
 from docx.oxml.ns import qn
 from docx.oxml import OxmlElement
 from docx.enum.text import WD_ALIGN_PARAGRAPH
+from docx.enum.table import WD_TABLE_ALIGNMENT
 
 # ─── Couleurs ─────────────────────────────────────────────────────────────────
 ARDOISE      = "2C3A4A"
@@ -98,6 +99,16 @@ def styled_run(para, text, color=None, bold=False, italic=False, size=None, caps
     if size:  run.font.size = Pt(size)
     if caps:  run.font.all_caps = True
     return run
+
+def set_letter_spacing(run, points):
+    """Espacement des lettres (w:spacing en 1/20e de point) — reproduit
+    \\addfontfeature{LetterSpace=...} du PDF sur le label « PARTIE X »."""
+    rPr = run._r.find(qn('w:rPr'))
+    if rPr is None:
+        rPr = OxmlElement('w:rPr'); run._r.insert(0, rPr)
+    spacing = OxmlElement('w:spacing')
+    spacing.set(qn('w:val'), str(int(points * 20)))
+    rPr.append(spacing)
 
 def add_page_break(doc):
     p = doc.add_paragraph()
@@ -391,44 +402,43 @@ def add_styled_table(doc, title, rows):
 
 # ─── Page de partie ───────────────────────────────────────────────────────────
 def add_part_page(doc, roman, subtitle):
-    """Page de partie : fond ardoise, titre blanc centré + filet or."""
+    """Page de partie : fond BLANC, label + titre en ardoise centrés, filet or
+    court (8cm) centré sous le titre. Reproduit exactement \\partpage du PDF :
+    \\clearpage \\null\\vfill PARTIE X (ardoise, lettres espacées) / TITRE
+    (ardoise, grand) / filet or 8cm \\vfill\\vfill \\clearpage — PAS de fond
+    ardoise ni de texte blanc, contrairement à une page de titre."""
     add_page_break(doc)
 
-    # Espacement vertical
-    for _ in range(8):
-        p = doc.add_paragraph()
-        set_para_shading(p, ARDOISE)
+    # \null\vfill : espace vertical pour centrer le bloc sur la page
+    for _ in range(9):
+        doc.add_paragraph()
 
-    # Numéro de partie
+    # « PARTIE X » — petit, ardoise, lettres espacées, MAJUSCULES
     p1 = doc.add_paragraph(style='Normal')
     p1.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    set_para_shading(p1, ARDOISE)
-    p1.paragraph_format.space_before = Pt(0)
-    p1.paragraph_format.space_after  = Pt(4)
-    styled_run(p1, roman, color=ARDOISE_RGB, bold=True, size=12, caps=True)
-    # Forcer blanc sur ardoise
-    for run in p1.runs:
-        run.font.color.rgb = WHITE_RGB
+    p1.paragraph_format.space_after = Pt(24)
+    r1 = styled_run(p1, roman, color=ARDOISE_RGB, bold=False, size=12, caps=True)
+    set_letter_spacing(r1, 2.5)
 
-    # Titre de partie
+    # Titre de partie — grand, ardoise, MAJUSCULES, centré (peut passer sur 2 lignes)
     p2 = doc.add_paragraph(style='Normal')
     p2.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    set_para_shading(p2, ARDOISE)
-    p2.paragraph_format.space_before = Pt(4)
-    p2.paragraph_format.space_after  = Pt(20)
-    styled_run(p2, subtitle.upper(), color=WHITE_RGB, bold=True, size=22)
+    p2.paragraph_format.space_after = Pt(30)
+    styled_run(p2, subtitle.upper(), color=ARDOISE_RGB, bold=False, size=26)
 
-    # Filet or
-    p3 = doc.add_paragraph(style='Normal')
-    p3.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    set_para_shading(p3, ARDOISE)
-    set_para_border(p3, 'bottom', GOLD_HEX, sz="12")
-    styled_run(p3, ' ', color=GOLD_RGB, size=4)
+    # Filet or court (8cm, ~1.5pt), centré — table 1x1 sans bordures sauf bottom
+    rule_tbl = doc.add_table(rows=1, cols=1)
+    rule_tbl.alignment = WD_TABLE_ALIGNMENT.CENTER
+    rule_tbl.autofit = False
+    rule_tbl.columns[0].width = Cm(8.0)
+    rc = rule_tbl.rows[0].cells[0]
+    rc.width = Cm(8.0)
+    _set_cell_border(rc, sides=['bottom'], sz="12", color=GOLD_HEX)
+    rc.paragraphs[0].paragraph_format.space_after = Pt(0)
 
-    # Remplissage bas
-    for _ in range(12):
-        p = doc.add_paragraph()
-        set_para_shading(p, ARDOISE)
+    # \vfill\vfill : espace vertical restant en bas de page
+    for _ in range(16):
+        doc.add_paragraph()
 
     add_page_break(doc)
 
