@@ -129,9 +129,23 @@ def add_inline_runs(para, text, size=11, color=None, italic_base=False):
             styled_run(para, part, italic=italic_base, size=size, color=color)
 
 # ─── Éléments de document ────────────────────────────────────────────────────
+def _set_outline_level(para, level):
+    """Marks a paragraph as a level-`level` heading (0 = Heading 1) so Word's
+    native TOC field picks it up, without changing its visual style."""
+    pPr = para._p.find(qn('w:pPr'))
+    if pPr is None:
+        pPr = OxmlElement('w:pPr'); para._p.insert(0, pPr)
+    ol = OxmlElement('w:outlineLvl')
+    ol.set(qn('w:val'), str(level))
+    ex = pPr.find(qn('w:outlineLvl'))
+    if ex is not None: pPr.remove(ex)
+    pPr.append(ol)
+
 def add_heading1(doc, text):
     """Bandeau ardoise plein + titre blanc capitales.
-    PDF : filet or 2.5pt au-dessus, bandeau ardoise, filet or 1pt en dessous."""
+    PDF : filet or 2.5pt au-dessus, bandeau ardoise, filet or 1pt en dessous.
+    Marked as a level-1 heading to feed the table of contents, exactly as
+    \\addcontentsline{toc}{section}{...} only applies to H1s in the PDF."""
     # Filet or au-dessus (2.5pt = sz 20 en 1/8pt)
     top_rule = doc.add_paragraph(style='Normal')
     top_rule.paragraph_format.space_before = Pt(10)
@@ -149,6 +163,7 @@ def add_heading1(doc, text):
     clean = re.sub(r'\*\*(.+?)\*\*', r'\1', text)
     clean = re.sub(r'\*(.+?)\*', r'\1', clean)
     styled_run(para, clean, color=WHITE_RGB, bold=False, size=13.2, caps=True)
+    _set_outline_level(para, 0)
 
 def add_heading2(doc, text):
     """H2 ardoise gras + filet or — espacements PDF : 14pt avant / 6pt après."""
@@ -177,11 +192,13 @@ def add_section_rule(doc):
     set_para_border(para, 'bottom', GOLD_HEX, sz="3", space="2")
 
 def add_separator(doc):
+    """Typographic separator — PDF's \\separator renders «  *  *  * » (asterisks,
+    not stars), in \\large (≈14.4pt) gold, centered."""
     para = doc.add_paragraph()
     para.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    para.paragraph_format.space_before = Pt(6)
-    para.paragraph_format.space_after  = Pt(6)
-    styled_run(para, '★★★', color=GOLD_RGB, size=14)
+    para.paragraph_format.space_before = Pt(10)
+    para.paragraph_format.space_after  = Pt(8)
+    styled_run(para, '*  *  *', color=GOLD_RGB, size=14.4)
 
 def add_quote(doc, text):
     """Citation : filet or gauche 2pt + rouge italique interligne 1.5 — PDF skipabove/below 14pt."""
@@ -591,38 +608,88 @@ setup_header_footer(doc)
 section0 = doc.sections[0]
 section0.different_first_page_header_footer = True
 
-for _ in range(6):
+# Title page: mirrors \begin{titlepage} in the PDF, in the same order —
+# \vspace*{4cm} → Title \Huge → subtitle \large → BEN--H2O \Large → "--- 2026 ---"
+# → \vfill → copyright \small, all on a solid slate background.
+for _ in range(9):
     p = doc.add_paragraph()
     set_para_shading(p, ARDOISE)
 
 p = doc.add_paragraph(); p.alignment = WD_ALIGN_PARAGRAPH.CENTER
 set_para_shading(p, ARDOISE)
-styled_run(p, "Peace, we can avoid it", color=WHITE_RGB, bold=True, size=28, caps=True)
+styled_run(p, "Peace, we can avoid it", color=WHITE_RGB, bold=True, size=24.9, caps=True)
 
-p = doc.add_paragraph(); p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-set_para_shading(p, ARDOISE)
-styled_run(p, "★★★", color=GOLD_RGB, size=18)
+for _ in range(2):
+    p = doc.add_paragraph(); set_para_shading(p, ARDOISE)
 
 p = doc.add_paragraph(); p.alignment = WD_ALIGN_PARAGRAPH.CENTER
 set_para_shading(p, ARDOISE)
 styled_run(p,
     "Investigation into the birth of the Alliance of Sahel States",
-    color=GOLD_RGB, italic=True, size=14)
+    color=GOLD_RGB, italic=True, size=13.2)
+
+for _ in range(4):
+    p = doc.add_paragraph(); set_para_shading(p, ARDOISE)
 
 p = doc.add_paragraph(); p.alignment = WD_ALIGN_PARAGRAPH.CENTER
 set_para_shading(p, ARDOISE)
+styled_run(p, "BEN–H2O", color=WHITE_RGB, bold=True, size=17.3)
 
 p = doc.add_paragraph(); p.alignment = WD_ALIGN_PARAGRAPH.CENTER
 set_para_shading(p, ARDOISE)
-styled_run(p, "BEN–H2O", color=WHITE_RGB, bold=True, size=16)
+styled_run(p, "— 2026 —", color=GOLD_RGB, size=11)
 
-p = doc.add_paragraph(); p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-set_para_shading(p, ARDOISE)
-styled_run(p, "© 2026 — All rights reserved", color=GOLD_RGB, size=10)
-
-for _ in range(10):
+# \vfill: large empty space pushing the copyright line to the bottom of the page
+for _ in range(15):
     p = doc.add_paragraph()
     set_para_shading(p, ARDOISE)
+
+p = doc.add_paragraph(); p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+set_para_shading(p, ARDOISE)
+styled_run(p, "© 2026 BEN–H2O — All rights reserved.", color=GOLD_RGB, size=9.2)
+
+for _ in range(3):
+    p = doc.add_paragraph()
+    set_para_shading(p, ARDOISE)
+
+# ── Table of contents ────────────────────────────────────────────────────────
+# Mirrors \tableofcontents in the PDF: a dedicated page right after the title
+# page, listing only chapter (H1) titles — via a native Word TOC field that
+# relies on paragraphs marked outlineLvl=0 by add_heading1().
+add_page_break(doc)
+
+toc_title = doc.add_paragraph(style='Normal')
+toc_title.alignment = WD_ALIGN_PARAGRAPH.CENTER
+toc_title.paragraph_format.space_after = Pt(18)
+styled_run(toc_title, "Table of Contents", color=ARDOISE_RGB, bold=True, size=18, caps=True)
+
+toc_hint = doc.add_paragraph(style='Normal')
+toc_hint.alignment = WD_ALIGN_PARAGRAPH.CENTER
+toc_hint.paragraph_format.space_after = Pt(12)
+styled_run(toc_hint,
+    "(Select All — Ctrl+A — then press F9 to generate page numbers.)",
+    color=GRIS_RGB, italic=True, size=9)
+
+toc_para = doc.add_paragraph(style='Normal')
+fld_begin = OxmlElement('w:fldChar'); fld_begin.set(qn('w:fldCharType'), 'begin')
+fld_begin.set(qn('w:dirty'), 'true')
+instr = OxmlElement('w:instrText'); instr.set(qn('xml:space'), 'preserve')
+instr.text = r'TOC \o "1-1" \h \z \u'
+fld_sep = OxmlElement('w:fldChar'); fld_sep.set(qn('w:fldCharType'), 'separate')
+fld_end = OxmlElement('w:fldChar'); fld_end.set(qn('w:fldCharType'), 'end')
+r1 = toc_para.add_run(); r1._r.append(fld_begin)
+r2 = toc_para.add_run(); r2._r.append(instr)
+r3 = toc_para.add_run(); r3._r.append(fld_sep)
+r4 = toc_para.add_run("The table of contents will appear here once fields are updated.")
+r4.font.name = FONT_NAME; r4.font.color.rgb = ARDOISE_RGB; r4.font.size = Pt(10)
+r5 = toc_para.add_run(); r5._r.append(fld_end)
+
+# Force Word/LibreOffice to recompute fields (TOC + page numbers) when the
+# document is opened, so the table of contents is correct with no manual step.
+settings_el = doc.settings.element
+update_fields = OxmlElement('w:updateFields')
+update_fields.set(qn('w:val'), 'true')
+settings_el.append(update_fields)
 
 # ── Chapitres ─────────────────────────────────────────────────────────────────
 chapter_dir = "/home/user/tts-docs/content/4.the-book-en/"
