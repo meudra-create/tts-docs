@@ -18,6 +18,9 @@ logs
 .fleet
 .idea
 
+# self-improving-agent runtime state
+/runs/
+
 # Local env files
 .env
 .env.*
