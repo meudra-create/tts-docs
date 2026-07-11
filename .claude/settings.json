@@ -1,0 +1,13 @@
+{
+  "extraKnownMarketplaces": {
+    "everything-claude-code": {
+      "source": {
+        "source": "git",
+        "url": "https://github.com/WorldFlowAI/everything-claude-code.git"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "everything-claude-code@everything-claude-code": true
+  }
+}
