@@ -22,6 +22,7 @@ CREAM_HEX    = "F4EFE4"
 GRIS_RGB     = RGBColor(0x3C, 0x3C, 0x3C)
 FONT_NAME    = "FreeSerif"
 BORDER_SZ    = "7"   # 0.90 pt
+COVER_IMAGE_PATH = '/home/user/tts-docs/assets/covers/cover-en.png'
 
 # Part-title pages (same dict as build_pdf_en.py)
 PART_PAGES = {
@@ -629,55 +630,31 @@ pPr_style.append(sp_el)
 setup_header_footer(doc)
 
 # ── Title page ──────────────────────────────────────────────────────────────
-# Solid slate background guaranteed by a 1x1 table at least as tall as the
-# usable page height (no counting blank filler paragraphs — the source of
-# the blank pages fixed here), content vertically centered in the cell.
+# Full-bleed cover image on its own zero-margin section, followed by a
+# fresh section restoring the normal margins for the rest of the book.
 section0 = doc.sections[0]
 section0.different_first_page_header_footer = True
+section0.top_margin = Cm(0)
+section0.bottom_margin = Cm(0)
+section0.left_margin = Cm(0)
+section0.right_margin = Cm(0)
 
-usable_h = Cm(29.7 - 2.5 - 2.5)   # usable page height (top/bottom margins)
-usable_w = Cm(21.0 - 2.5 - 2.0)   # usable page width (left/right margins)
+cover_para = doc.paragraphs[0] if doc.paragraphs and not doc.paragraphs[0].runs else doc.add_paragraph()
+cover_para.alignment = WD_ALIGN_PARAGRAPH.CENTER
+cover_para.paragraph_format.space_before = Pt(0)
+cover_para.paragraph_format.space_after = Pt(0)
+cover_run = cover_para.add_run()
+cover_run.add_picture(COVER_IMAGE_PATH, width=Cm(21.0), height=Cm(29.7))
 
-title_tbl = doc.add_table(rows=1, cols=1)
-title_tbl.alignment = WD_TABLE_ALIGNMENT.CENTER
-title_tbl.autofit = False
-title_tbl.columns[0].width = usable_w
-title_tbl.rows[0].height = usable_h
-title_tbl.rows[0].height_rule = WD_ROW_HEIGHT_RULE.AT_LEAST
-tcell = title_tbl.rows[0].cells[0]
-tcell.width = usable_w
-set_cell_fill(tcell, ARDOISE)
-tcell.vertical_alignment = WD_ALIGN_VERTICAL.CENTER
-_set_cell_border(tcell, sides=[])   # no visible border around the cell
-
-tp = tcell.paragraphs[0]
-tp.alignment = WD_ALIGN_PARAGRAPH.CENTER
-tp.paragraph_format.space_after = Pt(24)
-styled_run(tp, "Peace, we can avoid it", color=WHITE_RGB, bold=True, size=24.9, caps=True)
-
-tp2 = tcell.add_paragraph()
-tp2.alignment = WD_ALIGN_PARAGRAPH.CENTER
-tp2.paragraph_format.space_after = Pt(40)
-styled_run(tp2,
-    "Investigation into the birth of the Alliance of Sahel States",
-    color=GOLD_RGB, italic=True, size=13.2)
-
-tp3 = tcell.add_paragraph()
-tp3.alignment = WD_ALIGN_PARAGRAPH.CENTER
-tp3.paragraph_format.space_after = Pt(10)
-styled_run(tp3, "BEN–H2O", color=WHITE_RGB, bold=True, size=17.3)
-
-tp4 = tcell.add_paragraph()
-tp4.alignment = WD_ALIGN_PARAGRAPH.CENTER
-tp4.paragraph_format.space_after = Pt(60)
-styled_run(tp4, "— 2026 —", color=GOLD_RGB, size=11)
-
-tp5 = tcell.add_paragraph()
-tp5.alignment = WD_ALIGN_PARAGRAPH.CENTER
-styled_run(tp5, "© 2026 BEN–H2O — All rights reserved.", color=GOLD_RGB, size=9.2)
-
-# Single page break to the table of contents (the table already fills a full page).
-add_page_break(doc)
+# New section restores normal margins for the table of contents and body.
+doc.add_section(WD_SECTION_START.NEW_PAGE)
+body_section = doc.sections[-1]
+body_section.page_width    = Cm(21.0)
+body_section.page_height   = Cm(29.7)
+body_section.top_margin    = Cm(2.5)
+body_section.bottom_margin = Cm(2.5)
+body_section.left_margin   = Cm(2.5)
+body_section.right_margin  = Cm(2.0)
 
 # ── Table of contents ────────────────────────────────────────────────────────
 # Mirrors \tableofcontents in the PDF: a dedicated page right after the title
