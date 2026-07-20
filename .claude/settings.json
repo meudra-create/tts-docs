@@ -1,4 +1,12 @@
 {
+  "extraKnownMarketplaces": {
+    "agricidaniel-claude-obsidian": {
+      "source": {
+        "source": "github",
+        "repo": "AgriciDaniel/claude-obsidian"
+      }
+    }
+  },
   "enabledPlugins": [
     "claude-obsidian@agricidaniel-claude-obsidian"
   ],
