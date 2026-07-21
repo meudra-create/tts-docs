@@ -57,6 +57,8 @@ r"""\documentclass[11pt,a4paper]{article}
 \usepackage{fancyhdr}
 \usepackage{microtype}
 \usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage[absolute,overlay]{textpos}
 
 \geometry{left=2.5cm, right=2.0cm, top=2.5cm, bottom=2.5cm}
 \setstretch{1.5}
@@ -163,22 +165,14 @@ r"""\documentclass[11pt,a4paper]{article}
 
 \begin{document}
 
-% ── Page de titre ──
+% ── Page de titre (couverture illustrée) ──
 \begin{titlepage}
-\pagecolor{ardoise}
-\color{white}
-\vspace*{4cm}
-\begin{center}
-{\Huge\bfseries\MakeUppercase{La paix, on peut l'éviter}}\\[1cm]
-{\large\color{gold} Enquête sur la naissance de l'Alliance des États du Sahel}\\[2cm]
-{\Large BEN--H2O}\\[0.5cm]
-{\color{gold} --- 2026 ---}
-\end{center}
-\vfill
-\begin{center}
-{\small\color{gold} \copyright{} 2026 BEN--H2O --- Tous droits réservés.}
-\end{center}
+\newgeometry{margin=0pt}
+\begin{textblock*}{\paperwidth}(0pt,0pt)
+\includegraphics[width=\paperwidth,height=\paperheight,keepaspectratio=false]{COVER_IMAGE_PATH}
+\end{textblock*}
 \end{titlepage}
+\restoregeometry
 \pagecolor{white}
 \color{black}
 
@@ -580,7 +574,8 @@ for filepath in all_files:
 print("Conversion markdown → LaTeX...")
 body_latex = '\n\n'.join(latex_chunks)
 
-latex_doc = LATEX_HEADER + body_latex + LATEX_FOOTER
+COVER_IMAGE_PATH = '/home/user/tts-docs/assets/covers/cover-fr.jpg'
+latex_doc = (LATEX_HEADER + body_latex + LATEX_FOOTER).replace('COVER_IMAGE_PATH', COVER_IMAGE_PATH)
 
 with open(OUT_TEX, 'w', encoding='utf-8') as f:
     f.write(latex_doc)
