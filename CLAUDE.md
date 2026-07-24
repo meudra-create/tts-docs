@@ -2,6 +2,10 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Communication
+
+Toute communication avec l'utilisateur (messages de chat, résumés, commentaires de PR) doit se faire en français.
+
 ## Project overview
 
 This repo is the public API documentation site for **TTS OpenAI** (Text-to-Speech), served at docs.ttsopenai.com. It is a **Nuxt 3 + `@nuxt/content` v2** static docs site built on the `nuxt-ui-pro-template-docs` template (`@nuxt/ui-pro`). Nearly all "content" work is editing Markdown files, not Vue/TS code — the app shell (layouts, header, footer, search) is template boilerplate that rarely needs to change.
