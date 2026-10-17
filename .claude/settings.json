@@ -1,0 +1,26 @@
+{
+  "extraKnownMarketplaces": {
+    "agricidaniel-claude-obsidian": {
+      "source": {
+        "source": "github",
+        "repo": "AgriciDaniel/claude-obsidian"
+      }
+    }
+  },
+  "enabledPlugins": [
+    "claude-obsidian@agricidaniel-claude-obsidian"
+  ],
+  "mcpServers": {
+    "obsidian-vault": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": ["mcp-obsidian"],
+      "env": {
+        "OBSIDIAN_API_KEY": "${OBSIDIAN_API_KEY}",
+        "OBSIDIAN_HOST": "127.0.0.1",
+        "OBSIDIAN_PORT": "27124",
+        "NODE_TLS_REJECT_UNAUTHORIZED": "0"
+      }
+    }
+  }
+}
