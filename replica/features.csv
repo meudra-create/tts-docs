@@ -1,0 +1,39 @@
+feature,area,priority,original,clone,notes
+Local file library import,library,must,yes,no,own files
+BPM + key + energy analysis,library,must,yes,no,
+Phrase/beatmap analysis,library,should,yes,no,
+rekordbox/Serato/Traktor/VirtualDJ/Engine library import,library,could,yes,no,reverse-engineered formats
+Apple Music/iTunes + Mixed In Key import,library,could,yes,no,
+Beatport streaming tracks,library,skip,yes,no,partner deal
+Playlist with BPM/key/Camelot display,playlist,must,yes,no,
+Harmonize auto-order (Mood/Fuzzy),automix,must,yes,no,Camelot rules public
+BPM/key weighting slider,automix,must,yes,no,
+Lock first/last tracks,automix,should,yes,no,
+Auto transition setup (style/bars/beat-match),automix,must,yes,no,
+Key clash flag + Solver bridge suggestions,automix,should,yes,no,
+Timeline editor with beat grid,timeline,must,yes,no,
+Drag transition handles / non-destructive edit,timeline,must,yes,no,
+Transition presets (crossfade/filter sweep/bass swap),transitions,must,yes,no,
+Save custom presets and default preset,transitions,should,yes,no,
+Transition editor lanes (vol/EQ/HP/LP/loop/FX),transitions,must,yes,no,
+Manual automation curve drawing,transitions,should,yes,no,
+Lock transition (survives re-harmonize),transitions,should,yes,no,
+Track edits (cut/paste/loop),timeline,could,yes,no,
+Tempo change with re-pitch/time-stretch,audio,must,yes,no,
+Stem separation (5 stems),stems,could,yes,no,heavy ML
+Stem mutes inside transitions,stems,could,yes,no,
+FX (delay/reverb),fx,could,yes,no,
+Export MP3 320,export,must,yes,no,
+Export WAV/FLAC,export,should,yes,no,
+Master gain/auto gain/limiter,export,should,yes,no,
+Faster-than-real-time render,export,must,yes,no,
+Export M3U/M3U8/TXT/CSV/CUE,export,should,yes,no,
+rekordbox export with transition hot cues,export,could,yes,no,
+Ableton Live .als export,export,could,yes,no,
+Audio-reactive video + MP4 up to 4K,video,could,yes,no,
+YouTube description with timestamps,export,could,yes,no,
+Mixcloud publish with tracklist,publish,could,yes,no,OAuth
+Project save/open + .djs-style backup,projects,must,yes,no,
+Mobile companion via Dropbox,mobile,skip,yes,no,out of slice
+Trial + licence activation,billing,could,yes,no,if selling
+Radio-show tools (voice-over overlap),timeline,could,yes,no,
