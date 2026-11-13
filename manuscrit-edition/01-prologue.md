@@ -1,0 +1,19 @@
+# Prologue — La villa de Niamey
+
+Imaginez une villa dans un quartier résidentiel de Niamey. Des murs hauts, un jardin sec, la poussière rouge que l'harmattan dépose sur tout. À l'intérieur, des bureaux climatisés, des cartes d'état-major, des écrans. Et dans une salle de réunion, un tableau blanc. Sur ce tableau, tracés au feutre par une main pressée, cinq mots.
+
+*La paix, on peut l'éviter.*
+
+Ceux qui ont écrit cette phrase ne sont pas des philosophes. Ce sont des stratèges. Leur mission, telle qu'elle se laisse lire dans ces cinq mots : maintenir l'instabilité pour maintenir l'accès. Maintenir l'accès pour maintenir l'extraction. L'extraction de l'uranium. De l'or. Du pétrole. Des terres rares. Ce que ces stratèges n'écrivaient que sur un tableau blanc, Jacques Chirac l'avait un jour reconnu publiquement, en parlant de la richesse de la France et de l'exploitation de l'Afrique — on retrouvera ses mots plus loin dans ce livre.
+
+Pour comprendre comment on en arrive à écrire une telle phrase dans une villa de Niamey, il faudra remonter loin. À la loi de 1900, qui fit payer aux colonisés le coût de leur propre colonisation. Aux impôts qui ne pouvaient se régler qu'en francs CFA, transformant une monnaie en instrument de contrainte. Aux dettes contractées par les puissances coloniales pour exploiter l'Afrique, puis transférées, en 1960, aux jeunes États qu'elles venaient de quitter — ce que les juristes appellent la « dette odieuse ». Concrètement : on vous pille pendant un siècle, puis on vous présente la facture du pillage. Ces mécanismes ont leurs chapitres dans ce livre. Ici, il suffit de savoir qu'ils existent, et qu'ils mènent tous à cette villa.
+
+Ce livre commence à Niamey parce que cette phrase n'est pas une erreur. C'est une clé. Elle révèle que la paix au Sahel a toujours été instrumentalisée. Barkhane n'a pas échoué : elle a fait ce pour quoi elle était là — entretenir un désordre géré. En d'autres termes, une insécurité jamais résolue mais jamais totale, juste assez de chaos pour justifier la présence militaire, jamais assez pour menacer l'accès aux ressources.
+
+Puis le Niger a fermé la villa. Il a expulsé l'armée française et l'armée américaine la même année, sans une goutte de sang. Et le ciel ne s'est pas effondré.
+
+Ce livre n'est pas un tract. Ce n'est pas une hagiographie. C'est une enquête. Elle s'appuie sur des sources adverses — RTL, l'institut berlinois SWP, la Commission parlementaire française, l'ONU, les données de conflits ACLED — autant que sur des sources panafricanistes. Quand des institutions françaises et des chefs d'État africains disent la même chose, ce n'est plus une thèse : c'est une vérité que même ses adversaires ne peuvent plus démentir.
+
+La paix des cimetières a été imposée trop longtemps. La paix juste reste à construire. La justice ne peut pas être évitée. La dignité, non. La liberté, jamais.
+
+Mais avant de juger ceux qui ont fermé la villa, il faut comprendre ce qu'ils ont brisé — et pourquoi personne n'avait osé le faire avant eux.

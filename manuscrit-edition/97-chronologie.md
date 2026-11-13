@@ -1,0 +1,65 @@
+# Chronologie — du partage de l'Afrique à l'Alliance des États du Sahel
+
+**1884-1885** — Conférence de Berlin : quatorze puissances européennes se partagent l'Afrique.
+
+**1900** — La loi française d'autonomie financière des colonies impose aux colonisés de financer leur propre administration.
+
+**1945** — Création du franc CFA (26 décembre).
+
+**1957** — Le Ghana de Kwame Nkrumah devient le premier pays d'Afrique subsaharienne colonisée à accéder à l'indépendance.
+
+**1958** — La Guinée de Sékou Touré vote « non » au référendum de De Gaulle (28 septembre) ; représailles immédiates de la France.
+
+**1960** — « Année de l'Afrique » : dix-sept pays accèdent à l'indépendance, dont le Mali, le Niger et la Haute-Volta (futur Burkina Faso).
+
+**1961** — Assassinat de Patrice Lumumba (17 janvier).
+
+**1963** — Assassinat de Sylvanus Olympio, premier président du Togo.
+
+**1968** — Renversement de Modibo Keïta au Mali.
+
+**1971** — La Cogema (future Areva, puis Orano) installe ses puits d'uranium à Arlit, au Niger.
+
+**1983-1987** — Présidence de Thomas Sankara au Burkina Faso ; assassiné le 15 octobre 1987.
+
+**1994** — Dévaluation du franc CFA.
+
+**2011** — Intervention de l'OTAN en Libye ; chute et mort de Mouammar Kadhafi ; dispersion des arsenaux dans le Sahel.
+
+**2012** — Effondrement du nord du Mali ; proclamation de l'Azawad.
+
+**2013** — Opération Serval (janvier).
+
+**2014** — Lancement de l'opération Barkhane (août).
+
+**18 août 2020** — Première transition militaire au Mali (Kati) ; arrivée d'Assimi Goïta.
+
+**Janvier-septembre 2022** — Au Burkina Faso, Damiba renverse Kaboré (janvier), puis le capitaine Ibrahim Traoré renverse Damiba (septembre).
+
+**Août 2022** — Expulsion de Barkhane du Mali.
+
+**26 juillet 2023** — Transition militaire au Niger ; le général Tiani prend la tête du CNSP.
+
+**16 septembre 2023** — Signature de la Charte du Liptako-Gourma : naissance de l'Alliance des États du Sahel.
+
+**14 novembre 2023** — Les Forces armées maliennes reprennent Kidal.
+
+**28 janvier 2024** — Retrait du Mali, du Burkina Faso et du Niger de la CEDEAO.
+
+**Mars-printemps 2024** — Départ des dernières forces françaises et américaines du Niger ; fermeture de la base d'Agadez.
+
+**6 juillet 2024** — Proclamation de la Confédération des États du Sahel (sommet de Niamey).
+
+**Juillet-août 2024** — Défaite de Tinzawaten ; le renseignement militaire ukrainien reconnaît un appui aux assaillants ; saisine conjointe du Conseil de sécurité de l'ONU par les trois États de l'AES (19 août).
+
+**Mars 2025** — Retrait de l'AES de l'Organisation internationale de la Francophonie.
+
+**22 septembre 2025** — Retrait des trois États de la Cour pénale internationale.
+
+**21 décembre 2025** — Installation de la Force unifiée de l'AES.
+
+**25 avril 2026** — Attaques coordonnées sur Bamako, Kati, Kidal, Gao et Sévaré ; mort du général Sadio Camara.
+
+**9 mai 2026** — RTL France rapporte la coopération d'ex-légionnaires avec le renseignement militaire ukrainien contre le Mali.
+
+**7 juin 2026** — Condamnation de l'agent Yann Vésilier à vingt ans de prison au Mali.

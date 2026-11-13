@@ -1,0 +1,42 @@
+# Chapitre 23 — Sankara avait raison
+
+*« La dette, c'est une reconquête savamment organisée. On nous a paupérisés, on nous a mis dans des conditions telles que nous sommes obligés d'aller mendier. »* — Thomas Sankara, sommet de l'OUA, Addis-Abeba, 29 juillet 1987
+
+Addis-Abeba, 29 juillet 1987. Dans la grande salle de l'Organisation de l'unité africaine, les chefs d'État somnolent sous les lustres quand un capitaine de trente-sept ans, en béret rouge, demande la parole. Thomas Sankara, président du Burkina Faso, dit à ses pairs ce qu'aucun d'eux n'ose formuler : la dette africaine ne peut pas être remboursée, elle ne doit pas être remboursée, car ce sont les colonisateurs d'hier qui sont devenus les créanciers d'aujourd'hui. Il appelle à un front uni du continent contre le paiement. Puis il glisse, mi-rieur, mi-prophétique, que si le Burkina reste seul à refuser de payer, il ne sera plus là au prochain sommet. La salle rit.
+
+Deux mois et demi plus tard, il est mort.
+
+## Quatre ans qui dérangent
+
+Pour comprendre pourquoi cette mort n'est pas un fait divers ouest-africain, il faut mesurer ce qui s'était passé entre le 4 août 1983 — la prise de pouvoir du Conseil national de la révolution — et ce discours d'Addis-Abeba. Quatre ans. Le capitaine Sankara rebaptise la Haute-Volta, nom de colonie, en Burkina Faso : le pays des hommes intègres. Et il gouverne comme personne n'avait gouverné sur le continent.
+
+**Le bilan des quatre ans (1983-1987)**
+- 2,5 millions d'enfants vaccinés contre la rougeole, la méningite et la fièvre jaune
+- 10 millions d'arbres plantés contre l'avancée du désert
+- Routes et chemin de fer construits sans aide extérieure
+- Budget de l'État équilibré, salaire du président réduit, train de vie des ministres rogné
+- La dette ? Remboursable, disait-il, à condition que les créanciers viennent au Burkina expliquer eux-mêmes comment elle a été contractée
+
+C'est, à ce jour, le programme de souveraineté africaine le plus ambitieux jamais réalisé sur le continent. Pas proclamé : réalisé. Sankara refusait l'aide française conditionnée comme il refusait les voitures de fonction de luxe — par cohérence, pas par posture.
+
+Dès le 4 octobre 1984, à la tribune de l'Assemblée générale des Nations unies, il avait porté ce discours à la face du monde : il y parlait au nom des déshérités, attaquait l'apartheid, et posait la dette comme l'instrument central de la domination postcoloniale. En d'autres termes : un pays endetté n'a plus besoin d'être occupé, puisque chaque échéance de remboursement décide à sa place de ses écoles, de ses hôpitaux et de ses alliances. On emprunte pour rembourser, on obéit pour emprunter. Le créancier gouverne sans soldats.
+
+Trois ans après New York, à Addis-Abeba, il ne demandait plus qu'on l'écoute : il demandait qu'on l'accompagne. Le front uni contre la dette ne s'est pas formé. La prophétie du sommet, si.
+
+## Le 15 octobre 1987
+
+Ouagadougou, 15 octobre 1987, en début d'après-midi. Un commando fait irruption au Conseil de l'Entente, à la Maison du Peuple, où Sankara tient une réunion. Il est abattu avec douze de ses compagnons. Son ami, son frère d'armes, l'homme de la pièce d'à côté, prend le pouvoir le jour même : Blaise Compaoré. Il régnera vingt-sept ans, redevenu fréquentable du jour au lendemain pour les chancelleries occidentales, pendant que le dossier Sankara dormait dans un tiroir et que sa tombe restait quasi clandestine.
+
+Il faudra l'insurrection populaire d'octobre 2014 — le peuple burkinabè chassant Compaoré — pour que la justice s'ouvre enfin. La France exfiltre alors Compaoré vers Abidjan, chez son allié Alassane Ouattara, qui le protégera de toute extradition (Dr Rufin Viclère Mabiala, analyste panafricaniste). Les procédures judiciaires ouvertes à partir de 2015 exhument le corps, rassemblent témoignages et pièces ; certains de ces éléments mettent en cause des agents des services français ⚠[À SOURCER : implication française évoquée au dossier, non tranchée par le jugement]. Paris déclassifiera trois lots d'archives, sans que les zones les plus sensibles soient levées.
+
+Le procès s'ouvre à Ouagadougou le 11 octobre 2021 — trente-quatre ans après les faits. Le 6 avril 2022, le tribunal militaire de Ouagadougou condamne Blaise Compaoré par contumace à la réclusion criminelle à perpétuité pour attentat à la sûreté de l'État et complicité d'assassinat, aux côtés notamment du général Gilbert Diendéré. Pour le dire simplement, juger par contumace, c'est juger un absent : Compaoré, depuis Abidjan, n'a jamais comparu, et la Côte d'Ivoire ne l'a jamais livré. La peine est dite. Elle n'est pas exécutée. Mais pour la première fois, un État africain a écrit dans un jugement ce que toute une génération savait : Sankara n'est pas mort d'un « drame interne à la révolution ». Il a été assassiné, et son assassin a gouverné vingt-sept ans avec la bénédiction des protecteurs de l'ordre régional.
+
+## L'héritage : du mausolée au treillis
+
+L'honnêteté oblige à rappeler que la révolution sankariste avait ses ombres : tribunaux populaires expéditifs, enseignants grévistes licenciés en 1984, rapports brutaux avec les syndicats et les chefferies. Sankara lui-même, dans ses derniers mois, parlait de rectifier. Ces ombres sont documentées et elles comptent. Mais elles ne pèsent rien face au constat central : en quatre ans, sans pétrole, sans port, sans aide, un des pays les plus pauvres du monde s'était vacciné, reboisé, nourri et redressé. C'est précisément ce bilan-là qui devenait incontestable — donc insupportable.
+
+Trente-cinq ans après l'assassinat, le Burkina Faso a fait de Sankara un héros national, lui a élevé un mausolée à l'endroit même où il est tombé — et a porté au pouvoir, en septembre 2022, un autre capitaine de trente-quatre ans. Ibrahim Traoré gouverne depuis le même palais. Il cite Sankara. Il refuse les financements religieux conditionnés comme Sankara refusait l'aide française conditionnée (on l'a vu au chapitre 17). Et la Force unifiée de l'AES institutionnalise à l'échelle régionale ce que Sékou Touré avait tenté nationalement en 1958 et ce que Sankara avait espéré continentalement en 1987. La graine a mis quarante ans à germer. Elle germe.
+
+Une remarque, formulée par Nathalie Yamb, prend ici tout son poids et reviendra au chapitre 25 : Sankara était militaire, non élu — et son bilan en quatre ans dépasse celui de la plupart des démocraties électorales africaines postcoloniales. La question de ce que vaut une urne sans souveraineté est posée. Nous ne l'esquiverons pas.
+
+Mais avant d'y répondre, il faut regarder ceux qui ont ressuscité Sankara : car ce ne sont pas les gouvernements qui ont fait de lui une icône — c'est une génération qui n'était pas née en 1987, qui porte son portrait sur ses téléphones, et dont une jeune fille de Tonka, un jour de novembre, a payé pour savoir ce qu'il en coûte encore de parler librement au Sahel.

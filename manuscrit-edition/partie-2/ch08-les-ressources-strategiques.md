@@ -1,0 +1,43 @@
+# Chapitre 8 — Les ressources stratégiques
+
+*« Des firmes privées tentaculaires exploitant aujourd'hui 80 % des gigantesques gisements africains, et dont les bénéfices sont rapatriés dans des paradis fiscaux. »*
+— André Chassaigne, député, Assemblée nationale française, décembre 2013
+
+Arlit, nord du Niger, 1971. Au milieu du désert, la Cogema — qui deviendra Areva, puis Orano — installe ses puits d'extraction. Une ville champignon sort du sable. Depuis cette date et jusqu'à la transition de 2023, l'uranium nigérien est extrait, acheminé, enrichi et vendu par des entreprises françaises. Le Niger reçoit une redevance — c'est-à-dire, concrètement, un pourcentage fixe versé à l'État sur ce qui sort de son sous-sol, quel que soit le prix auquel l'acheteur le revend ensuite. La France, elle, garde la marge.
+
+Cinquante ans durant, ce partage-là a été la règle pour tout ce que le Sahel produit de stratégique : l'uranium, l'or, le pétrole. Ce chapitre en fait l'inventaire.
+
+## Le paradoxe absolu : l'uranium
+
+Les chiffres ne viennent pas d'un tract militant, mais du Haut Comité français pour la transparence nucléaire : le Niger représentait 35 % des importations françaises d'uranium concentré en 2020, 34 % en 2021. Sans le Niger, la France perd une part décisive de cette indépendance énergétique dont elle se vante face à l'Allemagne dépendante du gaz russe. C'est le paradoxe absolu : la France est « indépendante » grâce à un pays dont elle entretient méthodiquement la dépendance.
+
+Car le prix payé n'a rien d'un prix de marché. Historiquement, l'uranium nigérien est acheté 30 à 40 % sous le cours mondial (ONG Sherpa, 2013). En d'autres termes, à production égale, le Niger touchait un tiers de moins que le Kazakhstan ou le Canada pour le même minerai. Nathalie Yamb a éclairé l'apparente contradiction française : pourquoi Paris « hurlait, envoyait des terroristes, violait la convention de Vienne » quand Niamey a demandé à Orano de partir, alors que les officiels français juraient que cet uranium ne pesait plus que 20 % de leur approvisionnement ? La réponse est dans le modèle commercial : au Niger, Orano achetait à prix décoté ; au Kazakhstan, en Australie, au Canada, il faut payer le prix du marché. Ce n'est pas le volume qui était stratégique. C'était la marge. Jean-Bedel Bokassa — l'homme que la France avait pourtant installé et couronné en Centrafrique — l'avait dit crûment pour son propre pays : « Depuis 1966 jusqu'à aujourd'hui, ni la France ni la Suisse n'a versé un franc » pour l'uranium extrait.
+
+Et il y a le coût invisible. Quand l'ambassadeur Sylvain Itté ironisait sur les réseaux — « Arrêtez de boire l'eau à Niamey puisqu'elle est européenne » —, Franklin Nyamsi a décodé ce que la moquerie masquait : les nappes phréatiques d'Arlit sont polluées par les résidus des mines d'uranium, contamination documentée par Greenpeace dès 2010. Des Nigériens boivent une eau radioactive. Pendant ce temps, moins de 20 % de la population du pays a accès à l'électricité (Banque mondiale, 2022). La formule résume tout : le pays qui éclaire la France vit dans l'obscurité.
+
+**ENCADRÉ — Niger : l'inventaire d'un paradoxe**
+- 35 % des importations françaises d'uranium concentré en 2020 (Haut Comité pour la transparence nucléaire)
+- Prix historiquement payé : 30 à 40 % sous le cours mondial (ONG Sherpa, 2013)
+- Contamination radioactive des eaux d'Arlit documentée (Greenpeace, 2010)
+- Accès à l'électricité : moins de 20 % de la population (Banque mondiale, 2022) ; IDH : 189e sur 191 (PNUD)
+- Après la transition de 2023 : recettes pétrolières +218 % (2020-2024), couverture des besoins domestiques passée de 20 % à 60 %
+
+## L'or du Mali : la renégociation qui fait jurisprudence
+
+Au Mali, l'or représente plus de 70 % des exportations, et le pays est le troisième producteur africain. La part historique de l'État burkinabè voisin dans les revenus de ses propres mines d'or représentait 10 % ou moins face aux multinationales ⚠️[À SOURCER : donnée composite à recouper]. En 2023, la transition malienne renégocie les contrats avec Barrick Gold, l'un des deux plus grands groupes aurifères du monde : redevances en hausse et 35 % de contenu local obligatoire. Pour le dire simplement, le contenu local, c'est l'obligation de confier une part des emplois, des sous-traitances et des achats à des entreprises et des travailleurs du pays — au lieu de tout importer.
+
+Le test grandeur nature s'appelle Loulo-Gounkoto. En janvier 2024, la mine est momentanément arrêtée dans un contexte de tension avec l'État malien. Le Canada menace de représailles diplomatiques. Bamako maintient sa position. Et Barrick se plie à la renégociation (données du ministère malien des Mines, 2023-2024). C'est la première application concrète d'une souveraineté économique obtenue par des moyens juridiques plutôt que par l'expropriation : on ne chasse pas l'investisseur, on change les termes du contrat.
+
+## Le pétrole : 60-30-10
+
+Le pétrole offre la radiographie la plus brutale du modèle. Au Congo-Brazzaville, Thomas Porcher, professeur à PSB Paris, a documenté le partage des revenus pétroliers : 60 % pour Total, 30 % pour l'ENI, 10 % pour l'État congolais. Dix pour cent, pour le pays propriétaire de la ressource. Et ce ratio n'est pas une exception congolaise : on retrouve le même ordre de grandeur dans l'or burkinabè, et Mamadou Koulibaly confirme la même logique pour la Côte d'Ivoire. Aucune coïncidence régionale — un modèle contractuel systémique, imposé pays par pays.
+
+Le journaliste Albert Anatole Ayissi en a résumé le principe : « Ce sont les dirigeants d'Areva qui informaient les autorités nigériennes de la quantité extraite et qui fixaient le prix. La même chose avec le pétrole, le cacao — le prix est fixé non pas par les producteurs mais par les consommateurs sur les marchés internationaux. C'est la réalité. » L'équation est d'une cohérence redoutable du point de vue de l'exploiteur : les matières premières — pétrole, uranium, cacao, café, coltan — quittent le continent à l'état brut ; leur prix se fixe à Londres, Chicago ou New York ; la transformation, la valeur ajoutée et l'emploi industriel restent ailleurs. Un continent qui ne transforme presque rien devient, en retour, un marché captif pour les manufactures étrangères.
+
+## Ce que change la rupture : la preuve par les chiffres
+
+L'argument décisif est arrivé après 2023, et il est comptable. Au Niger, entre 2020 et 2024, les recettes pétrolières de l'État bondissent de 218 %. Franklin Nyamsi publie en décembre 2025 le détail des revenus depuis la reprise en main : environ 300 millions de dollars pour l'uranium désormais géré directement, environ 500 millions pour le pétrole vendu cash à la Chine — près de 800 millions de dollars de revenus annuels nouveaux pour l'État nigérien. « C'est du jamais vu dans l'histoire d'un État nigérien, et d'un État dans l'Afrique francophone issue du colonialisme français », commente-t-il. Le même sous-sol. Le même minerai. Seul le contrat a changé.
+
+Dès décembre 2013, pourtant, un député français l'avait dit en session plénière de l'Assemblée nationale. André Chassaigne dénonçait ces « firmes privées tentaculaires exploitant aujourd'hui 80 % des gigantesques gisements africains et dont les bénéfices sont rapatriés dans des paradis fiscaux ». L'aveu était public. Rien n'a bougé pendant dix ans.
+
+Une question demeure, et elle est vertigineuse : comment un pillage aussi documenté a-t-il pu durer six décennies sans provoquer de rupture ? Parce qu'on l'a enveloppé dans le plus efficace des camouflages — un mot doux, presque tendre, qui s'appelle « l'aide ».

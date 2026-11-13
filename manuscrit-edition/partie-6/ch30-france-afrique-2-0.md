@@ -1,0 +1,41 @@
+# Chapitre 30 — France-Afrique 2.0 : la recomposition de la domination
+
+*« Autrefois, Paris parlait à l'Afrique. Désormais, elle doit convaincre l'Afrique. » — Jonathan Batenguène, Panafrican Média TV, 10 mai 2026*
+
+Conakry, hiver 2025-2026. Dans les salons d'hôtels de la capitale guinéenne, les délégations se succèdent. En moins de six mois, une cinquantaine d'entreprises françaises effectuent des allers-retours Conakry-Paris pour se positionner sur Simandou H2040, le programme guinéen de nationalisation progressive des ressources minières — venant s'ajouter aux quarante grands groupes français qui contrôlent le sous-sol guinéen depuis des décennies (Anatole Albert Ayissi). La logique est transparente : quand un pays africain annonce reprendre le contrôle de ses ressources, la France n'envoie plus des soldats. Elle envoie des prospecteurs.
+
+C'est toute la thèse de ce chapitre : la France ne disparaît pas du continent. Elle se recompose — moins militaire, plus économique, technologique et culturelle. La recomposition ne change pas l'objectif. Elle change l'instrument.
+
+## Les États pivots : déplacer le centre de gravité
+
+Le premier instrument de la recomposition est géographique. Chassée du Sahel, la diplomatie française investit de nouveaux relais : le Kenya, le Nigéria, la RDC, la Côte d'Ivoire, le Cameroun — les « États pivots » de demain. Le sommet « Africa Forward », organisé avec le Kenya en mai 2026, en est la vitrine : mêmes intérêts, nouvelle façade. Ces pays ne refusent pas la domination ; ils négocient leurs conditions d'y participer — ce que Malcolm X appelait « l'esclave de maison ». « La France aujourd'hui est un label. Elle ne s'appartient plus. L'impérialisme, pour sa survie, est prêt à faire des concessions avec des États qui deviendraient des États pivots », analyse Jonathan Batenguène (Panafrican Média TV, 10 mai 2026).
+
+Mais le pré-carré lui-même n'est plus sûr : Banda Kani interpelle publiquement la CEMAC et Paul Biya pour que l'Afrique centrale s'investisse aux côtés du peuple centrafricain dans des structures de développement endogènes. La contestation ne vient plus seulement du Sahel. Elle monte de l'intérieur même de l'espace francophone resté dans l'orbite de Paris. « La France donne l'illusion d'être partie tout en contrôlant les leviers monétaires et économiques », résume Charly Kengne (*L'intermédiation de la servitude*, 17 mars 2026).
+
+## Air France, ou l'entreprise comme arme politique
+
+Le deuxième instrument est commercial, et une affaire l'illustre en actes. Quand Air France suspend ses vols vers Bamako, Ouagadougou et Niamey pour sanctionner politiquement les transitions, elle utilise une licence commerciale octroyée par ces États pour mener une action politique. Concrètement, une compagnie privée transforme un droit d'atterrissage en levier diplomatique — et révèle au passage que la frontière entre l'entreprise et l'État n'a jamais vraiment existé dans la relation franco-africaine.
+
+Nathalie Yamb en tire des propositions législatives précises : exiger des multinationales une caution égale à un an de chiffre d'affaires comme garantie de non-ingérence politique ; révoquer les exonérations fiscales ; faire voter par les conseils de transition des lois sanctionnant l'intrusion des entreprises étrangères dans le domaine politique. Car la réciprocité est réelle : selon les estimations de l'économiste Diop, Air France gagnait 500 millions de francs CFA par jour sur la seule destination malienne. Ces entreprises dépendent de l'Afrique autant que l'Afrique dépend d'elles. Venir gagner de l'argent, oui. Venir déstabiliser, non. Ce cadre juridique n'existe pas encore. Il est nécessaire.
+
+## La Francophonie : le dernier empire
+
+Le troisième instrument est le plus ancien et le plus discret : la langue. La langue française en Afrique n'est pas un simple héritage. C'est une architecture — conçue, financée, institutionnalisée pour maintenir les élites africaines dans une sphère intellectuelle favorable à Paris après le départ des armées coloniales. « La francophonie prendra un jour le relais de la colonisation », aurait déclaré de Gaulle en 1966 ⚠️[À VÉRIFIER — citation largement reprise, sans source primaire identifiée]. Ce qui est établi, c'est la suite : quatre ans plus tard, Pompidou crée l'Agence de coopération culturelle et technique — l'ancêtre de l'OIF — pour faire du « ciment linguistique » le mortier du bloc franco-africain. La culture comme substitut à l'armée ; et, aux Nations unies, un réservoir de voix formées à penser dans les catégories conceptuelles françaises.
+
+Le général Tiani va plus loin : selon lui, l'OIF participe d'une « cellule Sahel » créée à l'Élysée en 2024, dotée de fonds illimités, menant une guerre informationnelle contre les régimes du Sahel ⚠️[À SOURCER — affirmation reposant sur cette seule déclaration]. Ce qui est confirmé indépendamment, en revanche, c'est la réponse : le retrait des trois pays de l'AES de l'OIF en mars 2025 — pendant la semaine de la Francophonie. Le calendrier était le message.
+
+L'ironie de l'histoire, c'est que l'instrument échappe désormais à son concepteur. Selon le rapport Attali de 2014, le nombre de francophones pourrait passer de 230 millions en 2014 à 770 millions en 2060 — dont 85 % d'Africains. Une « francophonie sans la France », se développant de manière autonome vis-à-vis de l'ancienne métropole. Dans le même temps, la part de marché française en Afrique francophone s'est effondrée, de 11 % à 5,5 % en une décennie. La langue reste. L'économie française recule. Et quand Macron déclare à Djerba que « la francophonie, c'est la langue du panafricanisme » (19 novembre 2022), il s'approprie le vocabulaire même de la résistance — signe, comme l'avait anticipé Banda Kani, que la bataille sémantique est perdue pour celui qui doit emprunter les mots de son adversaire.
+
+La doctrine inverse existe déjà : quand Traoré fait traduire les ouvrages panafricanistes en moré et les diffuse dans les villages, il pose que le français peut rester un outil de communication internationale sans demeurer un outil de colonisation mentale — à condition que les langues africaines cessent d'être marginalisées. On ne décolonise pas les esprits en deux ans de transition. Mais on peut commencer.
+
+## L'arrogance comme doctrine
+
+Reste le dernier instrument, le plus révélateur parce qu'il est involontaire : le mépris. Il n'est pas un accident de parcours dans la relation franco-africaine. Il est structurel, répété, institutionnalisé — sa constance sur deux siècles est elle-même une donnée.
+
+Janvier 2025 : devant les ambassadeurs de France, Macron dénonce « l'ingratitude africaine ». Le mot dit tout. La France attend de l'Afrique de la gratitude — pour quoi, au juste ? Pour les réserves de change captées depuis 1945 ? Pour l'uranium nigérien acheté sous le prix du marché pendant soixante ans ? Pour des zones jihadistes multipliées par trois en sept ans de Barkhane ? Trois chefs d'État répondent publiquement : Mahamat Déby, Ousmane Sonko, Ibrahim Traoré. La réponse de Traoré, le 14 janvier 2025, est la plus tranchante : « S'il n'est pas athée, à chaque réveil s'il prie, il devrait aussi prier les Africains, parce que c'est grâce à nos ancêtres que la France existe aujourd'hui. Nous ne sommes pas des humains à ses yeux. »
+
+Le mépris ruisselle aussi par les relais locaux — tel Hassoumi Massaoudou qualifiant sur LCI les manifestations de soutien au CNSP de « chorégraphies achetées à 1 500 euros » (2 août 2023), effaçant d'une phrase une mobilisation populaire sans précédent depuis dix ans. Et il prend parfois la forme de la condescendance déguisée en respect : « L'Afrique n'a pas besoin qu'on lui explique ce qui est bon pour elle », assure Macron à Nairobi en mai 2026 — tout en continuant de le faire.
+
+Or l'arrogance est le dernier refuge de ceux qui ont perdu le rapport de force mais refusent de l'admettre. Les institutions françaises elles-mêmes l'ont reconnu, on l'a vu au chapitre 15 : la dépendance s'est inversée. La Françafrique crache ses dernières flammes. Mais elle crache.
+
+Derrière ce mépris de façade, pourtant, il y a autre chose — une peur, profonde et documentée ; et c'est en l'anatomisant qu'on découvre ce que l'AES doit réussir pour survivre.

@@ -1,0 +1,42 @@
+# Glossaire des sigles
+
+- **ACLED** — Armed Conflict Location & Event Data Project (base de données sur les conflits armés)
+- **AES** — Alliance des États du Sahel (Mali, Burkina Faso, Niger)
+- **AOF** — Afrique-Occidentale française
+- **APD** — Aide publique au développement
+- **AQMI** — Al-Qaïda au Maghreb islamique
+- **BCEAO** — Banque centrale des États de l'Afrique de l'Ouest
+- **BEAC** — Banque des États de l'Afrique centrale
+- **BIMA** — Bataillon d'infanterie de marine
+- **BRICS** — Brésil, Russie, Inde, Chine, Afrique du Sud (et nouveaux membres)
+- **CEDEAO** — Communauté économique des États de l'Afrique de l'Ouest
+- **CEMAC** — Communauté économique et monétaire de l'Afrique centrale
+- **CFA** — Communauté financière africaine (zone monétaire)
+- **CICR** — Comité international de la Croix-Rouge
+- **CNSP** — Conseil national pour la sauvegarde de la patrie (Niger)
+- **CNPC** — China National Petroleum Corporation
+- **COS** — Commandement des opérations spéciales (France)
+- **CPI** — Cour pénale internationale
+- **DGSE** — Direction générale de la sécurité extérieure (France)
+- **EAU** — Émirats arabes unis
+- **EHM** — *Economic Hit Man* (« assassin financier », selon John Perkins)
+- **ESSD** — Entreprise de services de sécurité et de défense
+- **FAMa** — Forces armées maliennes
+- **FLA** — Front de libération de l'Azawad
+- **FMI** — Fonds monétaire international
+- **FSR** — Forces de soutien rapide (Soudan)
+- **GSPC** — Groupe salafiste pour la prédication et le combat
+- **GUR** — Renseignement militaire ukrainien
+- **HRW** — Human Rights Watch
+- **IDH** — Indice de développement humain
+- **JNIM** — Groupe de soutien à l'islam et aux musulmans (coalition jihadiste sahélienne)
+- **MINUSMA** — Mission des Nations unies au Mali
+- **MNLA** — Mouvement national de libération de l'Azawad
+- **MPSR** — Mouvement patriotique pour la sauvegarde et la restauration (Burkina Faso)
+- **OIF** — Organisation internationale de la Francophonie
+- **OTAN** — Organisation du traité de l'Atlantique Nord
+- **PNUD** — Programme des Nations unies pour le développement
+- **RCA** — République centrafricaine
+- **SWP** — *Stiftung Wissenschaft und Politik* (Institut allemand pour les affaires internationales et la sécurité)
+- **VDP** — Volontaires pour la défense de la patrie (Burkina Faso)
+- **ZLECAf** — Zone de libre-échange continentale africaine
